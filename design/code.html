@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Prague Insider - Article</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-surface-variant": "#4d453f",
+                      "error-container": "#ffdad6",
+                      "on-secondary": "#ffffff",
+                      "primary": "#42362b",
+                      "on-primary-fixed": "#231a10",
+                      "on-tertiary-fixed": "#201b0d",
+                      "surface": "#fcf9f8",
+                      "warm-parchment": "#E9E3B4",
+                      "on-tertiary-container": "#ccc1ab",
+                      "error": "#ba1a1a",
+                      "on-error-container": "#93000a",
+                      "surface-container-lowest": "#ffffff",
+                      "on-background": "#1c1b1b",
+                      "background": "#fcf9f8",
+                      "tertiary": "#3f3828",
+                      "inverse-on-surface": "#f3f0ef",
+                      "secondary": "#00629e",
+                      "on-tertiary-fixed-variant": "#4d4635",
+                      "tertiary-fixed-dim": "#d0c5af",
+                      "surface-tint": "#6a5c4f",
+                      "brick-accent": "#B33939",
+                      "slate-infrastructure": "#2D3436",
+                      "on-tertiary": "#ffffff",
+                      "inverse-surface": "#313030",
+                      "secondary-fixed": "#cfe5ff",
+                      "on-primary": "#ffffff",
+                      "surface-container": "#f0eded",
+                      "tertiary-fixed": "#ede1ca",
+                      "secondary-container": "#69b6fe",
+                      "primary-container": "#5a4d41",
+                      "on-primary-fixed-variant": "#514439",
+                      "surface-dim": "#dcd9d9",
+                      "on-surface": "#1c1b1b",
+                      "on-secondary-fixed-variant": "#004a79",
+                      "inverse-primary": "#d6c3b4",
+                      "primary-fixed-dim": "#d6c3b4",
+                      "outline": "#7f756e",
+                      "surface-variant": "#e5e2e1",
+                      "on-secondary-fixed": "#001d34",
+                      "on-secondary-container": "#004673",
+                      "surface-bright": "#fcf9f8",
+                      "surface-container-high": "#eae7e7",
+                      "surface-container-highest": "#e5e2e1",
+                      "on-error": "#ffffff",
+                      "outline-variant": "#d0c4bb",
+                      "surface-container-low": "#f6f3f2",
+                      "on-primary-container": "#d0beaf",
+                      "secondary-fixed-dim": "#9acbff",
+                      "tertiary-container": "#564f3d",
+                      "primary-fixed": "#f2dfcf"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "24px",
+                      "section-gap": "80px",
+                      "stack-lg": "48px",
+                      "margin-mobile": "16px",
+                      "container-max": "1280px",
+                      "stack-sm": "8px",
+                      "stack-md": "24px"
+              },
+              "fontFamily": {
+                      "caption": ["Hanken Grotesk"],
+                      "headline-md": ["\"Source Serif 4\""],
+                      "label-caps": ["JetBrains Mono"],
+                      "display-lg-mobile": ["\"Source Serif 4\""],
+                      "display-lg": ["\"Source Serif 4\""],
+                      "body-md": ["Hanken Grotesk"],
+                      "body-lg": ["Hanken Grotesk"],
+                      "headline-sm": ["\"Source Serif 4\""]
+              },
+              "fontSize": {
+                      "caption": ["14px", {"lineHeight": "20px", "fontWeight": "500"}],
+                      "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                      "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                      "display-lg-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        body { background-color: theme('colors.background'); color: theme('colors.on-background'); }
+    </style>
+</head>
+<body class="font-body-md text-body-md antialiased bg-surface min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-gutter h-16 bg-surface/95 backdrop-blur-sm border-b border-tertiary/80 transition-all duration-300">
+<div class="flex items-center gap-8">
+<a class="text-headline-md font-headline-md text-primary tracking-tight" href="#">Prague Insider</a>
+<div class="hidden md:flex gap-6 items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-caps font-label-caps" href="#">Development</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-caps font-label-caps" href="#">Transport</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-caps font-label-caps" href="#">Public Space</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-caps font-label-caps" href="#">Maps</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="hidden md:block bg-primary text-on-primary px-4 py-2 text-label-caps font-label-caps hover:bg-surface-tint transition-colors">Subscribe</button>
+</div>
+</nav>
+<!-- SideNavBar (Mobile/Tablet Bottom or Side depending on intent, hiding for deep read) -->
+<!-- Suppressed for focused reading experience -->
+<main class="flex-grow pt-24 pb-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto w-full grid grid-cols-4 md:grid-cols-12 gap-6">
+<!-- Article Header & Hero -->
+<header class="col-span-4 md:col-span-12 mb-stack-lg">
+<div class="flex items-center gap-2 mb-4">
+<span class="border border-tertiary/80 px-2 py-1 text-label-caps font-label-caps text-on-surface-variant">Infrastructure</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">•</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">Oct 24, 2024</span>
+</div>
+<h1 class="text-display-lg-mobile md:text-display-lg font-display-lg-mobile md:font-display-lg text-primary mb-6 max-w-4xl">The Architectural Rebirth of Masaryk Station: A New Era for Prague Transit</h1>
+<p class="text-headline-sm font-headline-sm text-on-surface-variant mb-6 max-w-3xl">Zaha Hadid Architects' ambitious design moves from rendering to reality, promising to reconnect divided urban districts while preserving historical integrity.</p>
+<div class="flex items-center gap-4 mb-stack-lg">
+<div class="w-12 h-12 bg-surface-variant rounded-full overflow-hidden border border-tertiary/20">
+<img class="w-full h-full object-cover" data-alt="A sophisticated black and white portrait of an urban architecture journalist, looking authoritative yet approachable, set against a blurred modern concrete texture. Soft, directional studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzpoX9c2mz4fbTpAzDQERzYyGeytn6bbqZYhXylDFeuBjf0B9AzzlT4UkRjkgURl7w3iFWEeuIA343ZacFOd8oaERMcabF0dOf5HQAXi7eF1vROOZbGzbHI3r4G-BVP2xo45HF4a4azvsl-6XZGpDvlu3BOP2qwUdl0vSYnx3-0PQT6FehrcpQvh9k0prAE07O1dxcEWIXonbWbM58XMFgYOwPEOR2ozF1chB9mIoNIuRCVQM8yGAY"/>
+</div>
+<div>
+<div class="text-body-md font-body-md font-bold text-primary">Klara Novotna</div>
+<div class="text-caption font-caption text-on-surface-variant">Senior Editor, Urban Planning</div>
+</div>
+</div>
+<figure class="w-full h-[400px] md:h-[600px] bg-surface-variant overflow-hidden border border-tertiary/80 relative">
+<img class="w-full h-full object-cover" data-alt="A sweeping, high-angle architectural photograph of a modern train station under construction in Prague. Golden hour lighting casts long shadows across the intricate geometric steel roof structure, contrasting with the historical masonry of the surrounding buildings. The mood is optimistic and industrious, reflecting a city in transition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgwqYx4NgxQZ-dUM1yWn1prFWQMNomu1aILfWbt5l1XbCmY_xe6eTpxYto9x92c1l_d8RgdWjS-slvX28syzj-6maIZhXenCcw0O6wgG5hVgJGyf3bzv7a3PuGF6RYxIxtKIwkN_akbtSqGk9QtBcamCq1ebCIzitZZeTYnLXDGd2zmFa_tWlZf7ZSoY8H5wt2Tr7ZqgemPSoWvMlAzQYNQG6k6b2940ZPGk6dM-VYwFMQmesbeM7c"/>
+<figcaption class="absolute bottom-0 left-0 bg-surface/90 backdrop-blur px-4 py-2 text-caption font-caption text-on-surface-variant border-t border-r border-tertiary/80">
+                    Construction progress on the new Masaryk Station concourse. Photo: J. Dvorak
+                </figcaption>
+</figure>
+</header>
+<!-- Main Article Content -->
+<article class="col-span-4 md:col-start-3 md:col-span-7">
+<div class="text-body-lg font-body-lg text-on-surface space-y-6 leading-relaxed">
+<p class="drop-cap first-letter:text-5xl first-letter:font-headline-md first-letter:text-primary first-letter:float-left first-letter:mr-2 first-letter:mt-1">For decades, Masaryk Station has existed as a functional necessity rather than a celebrated civic space. Its tracks formed a physical barrier between the historic core of Prague 1 and the burgeoning commercial districts of Florenc and Karlín. Today, that narrative is being aggressively rewritten.</p>
+<p>The intervention by Zaha Hadid Architects (ZHA), initially met with skepticism by preservationists, is taking tangible form. The signature undulating roofline, designed to mimic the movement of trains and the flow of passengers, is no longer just a digital promise; its structural ribs are rising above the platforms.</p>
+<h2 class="text-headline-md font-headline-md text-primary mt-12 mb-6">Bridging the Divide</h2>
+<p>The core philosophy of the redevelopment isn't merely aesthetic modernization; it's urban connectivity. The new public plaza planned over the tracks will serve as an elevated park, effectively stitching together neighborhoods that have been segregated by rail infrastructure for over a century.</p>
+<blockquote class="border-l-4 border-brick-accent pl-6 py-2 my-8 text-headline-sm font-headline-sm text-tertiary italic">
+                    "We are not just building a station; we are repairing a tear in the urban fabric of Prague." <br/>
+<span class="text-body-md font-body-md text-on-surface-variant not-italic mt-2 block">— Jan Kopecky, Lead Project Architect</span>
+</blockquote>
+<p>Critics of the initial scale have largely been placated by revisions that pull the highest volumes away from the immediate historical sightlines, focusing density towards the Florence intersection. The materiality, emphasizing burnished metals and extensive glazing, aims for a dialogue rather than a shouting match with the adjacent neo-Renaissance facades.</p>
+<!-- In-article Ad / Break -->
+<div class="my-10 bg-warm-parchment border border-tertiary/30 p-6 flex flex-col items-center text-center">
+<span class="text-label-caps font-label-caps text-tertiary mb-2">Prague Insider Briefing</span>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-4">Stay ahead of the skyline.</h3>
+<button class="bg-primary text-on-primary px-6 py-2 text-label-caps font-label-caps hover:bg-surface-tint transition-colors">Subscribe Now</button>
+</div>
+<p>As construction advances towards its projected 2026 completion, the real test will be its integration with the city's broader transport strategy, specifically the connection to the upcoming airport rail link. If successful, Masaryk Station will transition from a mere terminus to the most vital transit node in Central Europe.</p>
+</div>
+<!-- Share & Tags -->
+<div class="mt-12 pt-6 border-t border-tertiary/20 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+<div class="flex gap-2">
+<span class="bg-surface-container-high px-3 py-1 text-label-caps font-label-caps text-on-surface-variant hover:bg-surface-variant cursor-pointer transition-colors">#Architecture</span>
+<span class="bg-surface-container-high px-3 py-1 text-label-caps font-label-caps text-on-surface-variant hover:bg-surface-variant cursor-pointer transition-colors">#Transit</span>
+<span class="bg-surface-container-high px-3 py-1 text-label-caps font-label-caps text-on-surface-variant hover:bg-surface-variant cursor-pointer transition-colors">#ZHA</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-label-caps font-label-caps text-on-surface-variant">Share</span>
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">share</span></button>
+<button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">bookmark</span></button>
+</div>
+</div>
+</article>
+<!-- Sidebar (Related & Context) -->
+<aside class="col-span-4 md:col-start-10 md:col-span-3 mt-12 md:mt-0 space-y-stack-lg">
+<div class="border-t-2 border-primary pt-4">
+<h3 class="text-label-caps font-label-caps text-primary mb-6">Related Analysis</h3>
+<div class="space-y-6">
+<a class="group block" href="#">
+<div class="w-full h-32 bg-surface-variant mb-3 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A minimalist architectural render of a new tram line weaving through a dense, historical Prague street. Soft diffuse lighting, prioritizing clean lines and modern transit integration against cobblestones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeTByrxDmQQ65sGu-AsqZTI3Pr7lsx4-o4nDZWTDcPUlkw69FZsZuVEcKANLRmcVe0OSod6Fmyd7_Udj7WhV3ljtgY7bKTameo9CsHtb5AFHgoKwfpYR-CJpEo81o78XKG1-TZVO_dcAIggzx5Qi-4tD_PrSseHVsPNr7BlcGsWWlqj1hdWLXwygGwhNUch55WoWwcnGo-ErxkDg5V9X6hUtjBgG8Rc7zu2ZlseHMzQNOwBAU5_0Rx"/>
+</div>
+<h4 class="text-body-md font-body-md font-bold text-primary group-hover:text-brick-accent transition-colors leading-tight">Wenceslas Square Tram Extension Secures Final Approval</h4>
+<span class="text-caption font-caption text-on-surface-variant mt-1 block">Transport • 2 days ago</span>
+</a>
+<a class="group block" href="#">
+<div class="w-full h-32 bg-surface-variant mb-3 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Abstract close-up shot of raw concrete and steel rebar at a construction site in Prague. Stark contrasts, focusing on the texture and materiality of urban development. High-key light mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaxmez8qExSaLEWUw8KwH92-e3P2MFC53ndr0krzSIjx44NEQ4B1PObR1ua7fpkshTK3QKvwLbjPRRsdkAjksm8iN67pgjTV_HZ4ONGAdWYgGrZHjEk3jXWOFhPDC3kH9ooIMim5XH20g6lzBJW2czIFstKr7dLRGpbRYuIlg9efODm5VGk4z7VEGkuGU4Qbp1tkNf_rBvItUjI2-HP4_E5-Be1opvajyk_Tc9pjIa5bl8xlhD7bhB"/>
+</div>
+<h4 class="text-body-md font-body-md font-bold text-primary group-hover:text-brick-accent transition-colors leading-tight">The Brutalist Revival: Preservation Debates Heat Up</h4>
+<span class="text-caption font-caption text-on-surface-variant mt-1 block">Public Space • 1 week ago</span>
+</a>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 border border-tertiary/20">
+<h3 class="text-label-caps font-label-caps text-primary mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined">map</span> Project Location
+                </h3>
+<div class="w-full h-48 bg-surface-variant mb-4 overflow-hidden border border-tertiary/40 relative">
+<img class="w-full h-full object-cover opacity-80" data-alt="A clean, minimalist vector-style map of central Prague focused on the Masaryk Station area. Soft muted colors (creams, slate grays, subtle blues) reflecting an architectural blueprint aesthetic. A single distinct red dot marks the development site." data-location="Prague" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhEF2-qBE6JRTC_wdH9naRdtH7sqRFgKE9MxQiruvoUbSHB2CBCTnGwondPjkMuRwXcDK69XDPQ4Df4cpXZshgvHVSs-2Mc0vccVN2W2zO5lOcvh2EHuEGO32nmM89G8mFCESKlKWjnTk941FvMyiASHquJhnE0Yhvsh2kvoH4XKTU6-bszewdYeZsK6peQT3ZdXIwSANc4RCxGRCwoVd3ocxrHdyk0gea6BmTVbq2RVKSa93t_fwt"/>
+</div>
+<p class="text-caption font-caption text-on-surface-variant">Prague 1 - Nove Mesto</p>
+</div>
+</aside>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-lg px-gutter flex flex-col md:flex-row justify-between items-center gap-stack-md bg-primary text-on-primary">
+<div class="flex flex-col items-center md:items-start">
+<span class="text-headline-sm font-headline-sm text-on-primary mb-2">Prague Insider</span>
+<span class="text-body-md font-body-md text-on-primary/80 text-center md:text-left">© 2024 Prague Insider. Architectural precision in urban journalism.</span>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-label-caps font-label-caps text-on-primary/80 hover:text-on-primary hover:opacity-90 transition-opacity duration-200" href="#">About</a>
+<a class="text-label-caps font-label-caps text-on-primary/80 hover:text-on-primary hover:opacity-90 transition-opacity duration-200" href="#">Editorial Standards</a>
+<a class="text-label-caps font-label-caps text-on-primary/80 hover:text-on-primary hover:opacity-90 transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="text-label-caps font-label-caps text-on-primary/80 hover:text-on-primary hover:opacity-90 transition-opacity duration-200" href="#">Contact</a>
+</div>
+</footer>
+</body></html>
