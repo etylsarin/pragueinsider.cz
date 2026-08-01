@@ -17,17 +17,29 @@ decisions that shape it. National architecture news is out of scope unless it la
 
 ## Where the reporting comes from
 
-Each morning an automated scan reads the public news channels of a fixed set of Czech sources,
-among them:
+Each morning an automated scan reads the public news channels of a fixed set of sources:
 
 - [praha.camp](https://praha.camp/) — the magazine of the Centre for Architecture and Urban Planning
-- [archiweb.cz](https://www.archiweb.cz/) — the Czech architecture news service
-- [Prague Morning](https://praguemorning.cz/) — English-language Prague news
 - [IPR Praha](https://iprpraha.cz/) — the city's planning institute
+- [Dopravní podnik hl. m. Prahy](https://www.dpp.cz/) — the city transit operator's press office
+- [archiweb.cz](https://www.archiweb.cz/) — the Czech architecture news service
+- [Zdopravy.cz](https://zdopravy.cz/) — the Czech transport trade press
+- [ČT24](https://ct24.ceskatelevize.cz/) — the public broadcaster's Prague region section
+- [Prague Morning](https://praguemorning.cz/) — English-language Prague news
+- [Expats.cz](https://www.expats.cz/) — English-language Czech news
 
-Items that are not about Prague, or not about the built environment, are discarded before any
-writing begins. The remaining candidates are read in full — not from feed summaries — and, where
-several outlets cover the same development, cross-referenced against each other.
+Three of these publish nothing but the built environment, and three cover Prague and nothing else;
+the rest are general or national outlets that have to earn each story. Items that are not about
+Prague, or not about the built environment, are discarded before any writing begins. So are stories
+where the built-environment vocabulary is incidental — an airline adding a route to Prague is not a
+transport story, and a taxi fare dispute is not one either.
+
+Two of the sources are institutional press offices publishing about themselves. Their announcements
+are treated as primary evidence of what the institution is doing, and never as a verdict on whether
+it is a good idea.
+
+The remaining candidates are read in full — not from feed summaries — and, where several outlets
+cover the same development, cross-referenced against each other.
 
 ## How articles are written
 

@@ -8,8 +8,6 @@ category: public-space
 tags: ["adaptace na klima", "pasáže", "Lucerna", "Masaryčka", "přehřívání měst"]
 author: "Prague Insider Desk"
 aiGenerated: true
-cover:
-  variant: plan
 sources:
   - title: "Jak se Praha chladila dřív, než měla klimatizaci? Objevte zapomenuté principy, ke kterým se vracíme"
     url: "https://praha.camp/magazin/detail/jak-se-praha-chladila-driv-nez-mela-klimatizaci-objevte-zapomenute-principy-ke-kterym-se-vracime"

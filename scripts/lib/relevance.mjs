@@ -33,6 +33,8 @@ const PRAGUE_PLACES = [
   'malostransk', 'invalidovna', 'palmovka', 'cerny most', 'opatov', 'roztyly', 'budejovick',
   'dvorecky most', 'letna', 'petrin', 'kampa', 'cakovic', 'kbely', 'dablic', 'satalic',
   'reporyje', 'radotin', 'chuchle', 'lipenc', 'sterboholy', 'dubec', 'kolovraty',
+  'vyton', 'zbraslav', 'hostivar', 'jarov', 'sporilov', 'krc', 'lhotka', 'kamyk',
+  'cerny most', 'letnany', 'vinoklasy', 'hlubocepy', 'velka chuchle', 'trojsk',
 ]
 
 /**
@@ -74,6 +76,10 @@ const OFF_BEAT = [
   'celebrit', 'fond', 'fund', 'akcie', 'stock', 'kryptomen', 'crypto', 'banka', 'banking',
   'investors', 'inflac', 'inflation', 'volby', 'election', 'covid', 'chripk', 'nemocnic',
   'hospital', 'skandal', 'scandal', 'krad', 'theft', 'drog', 'drug',
+  // Airline commerce is not the built environment. Airport *infrastructure* still qualifies
+  // through the strong terms, so runway and terminal works survive these vetoes.
+  'airlines', 'aerolin', 'boeing', 'airbus', 'dreamliner', 'nizkonakladov', 'low-cost carrier',
+  'letecka spolecnost', 'charterov',
 ]
 
 /** Rough desk assignment, so the writer starts from a sensible category. */
@@ -94,6 +100,7 @@ const countHits = (haystack, terms) => terms.filter((term) => haystack.includes(
  *   topicByDefault  — the outlet only covers the built environment
  */
 export function scoreItem(item, sourceMeta = {}) {
+  const headline = fold(item.title || '')
   const haystack = fold(
     [item.title, item.summary, (item.tags || []).join(' ')].filter(Boolean).join(' ')
   )
@@ -104,7 +111,17 @@ export function scoreItem(item, sourceMeta = {}) {
   const weakMatches = countHits(haystack, URBANISM_WEAK)
   const offBeatMatches = countHits(haystack, OFF_BEAT)
 
-  const isPrague = Boolean(sourceMeta.pragueByDefault) || pragueMatches.length > 0 || placeMatches.length > 0
+  /**
+   * For a national outlet, Prague has to be in the *headline*.
+   *
+   * "Praha" turns up incidentally all over a 600-character summary — in a dateline, a company
+   * name ("Dopravní podnik hl. m. Prahy"), or a passing comparison — and treating any of those
+   * as evidence let a bus tender in Vysočina and a Bavarian rail contract through. A story
+   * genuinely about Prague says so in its headline.
+   */
+  const headlinePrague =
+    countHits(headline, PRAGUE_TERMS).length > 0 || countHits(headline, PRAGUE_PLACES).length > 0
+  const isPrague = Boolean(sourceMeta.pragueByDefault) || headlinePrague
 
   // A specialist outlet has already done this filtering for us; a general one has to prove it.
   const isUrban = sourceMeta.topicByDefault

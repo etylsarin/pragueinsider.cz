@@ -17,17 +17,28 @@ utvářejí. Celostátní architektonické zprávy sledujeme jen tehdy, pokud ma
 
 ## Odkud zprávy pocházejí
 
-Každé ráno automatický sken projde veřejné zpravodajské kanály pevně dané sady českých zdrojů,
-mimo jiné:
+Každé ráno automatický sken projde veřejné zpravodajské kanály pevně dané sady zdrojů:
 
 - [praha.camp](https://praha.camp/) — magazín Centra architektury a městského plánování
-- [archiweb.cz](https://www.archiweb.cz/) — internetové centrum architektury
-- [Prague Morning](https://praguemorning.cz/) — anglicky psané pražské zpravodajství
 - [IPR Praha](https://iprpraha.cz/) — Institut plánování a rozvoje hl. m. Prahy
+- [Dopravní podnik hl. m. Prahy](https://www.dpp.cz/) — tiskové zprávy městského dopravce
+- [archiweb.cz](https://www.archiweb.cz/) — internetové centrum architektury
+- [Zdopravy.cz](https://zdopravy.cz/) — oborové dopravní zpravodajství
+- [ČT24](https://ct24.ceskatelevize.cz/) — pražská regionální rubrika veřejnoprávní televize
+- [Prague Morning](https://praguemorning.cz/) — anglicky psané pražské zpravodajství
+- [Expats.cz](https://www.expats.cz/) — anglicky psané české zpravodajství
 
-Položky, které se netýkají Prahy nebo se netýkají zastavěného prostředí, se vyřazují dřív, než
-začne psaní. Zbývající kandidáti se čtou celí — nikoli jen z anotací ve feedu — a pokud stejnou
-věc pokrývá více médií, porovnávají se navzájem.
+Tři z nich píšou výhradně o zastavěném prostředí a tři výhradně o Praze; zbytek jsou obecná nebo
+celostátní média, která si musí každé téma obhájit. Položky, které se netýkají Prahy nebo
+zastavěného prostředí, se vyřazují dřív, než začne psaní. Stejně tak témata, kde je stavařský
+slovník jen náhodný — aerolinka, která zavede linku do Prahy, není dopravní téma, a spor o taxametr
+také ne.
+
+Dva ze zdrojů jsou tiskové servisy institucí, které informují samy o sobě. Jejich oznámení bereme
+jako primární doklad toho, co instituce dělá, nikdy jako posudek, zda je to dobrý nápad.
+
+Zbývající kandidáti se čtou celí — nikoli jen z anotací ve feedu — a pokud stejnou věc pokrývá více
+médií, porovnávají se navzájem.
 
 ## Jak články vznikají
 

@@ -8,8 +8,6 @@ category: development
 tags: ["bydlení", "dostupnost", "MHD", "IPR", "data"]
 author: "Prague Insider Desk"
 aiGenerated: true
-cover:
-  variant: strata
 sources:
   - title: "Co ukazuje srovnání Prahy s jinými evropskými městy? Bydlení je drahé, MHD nadprůměrná, ale počet aut roste"
     url: "https://iprpraha.cz/praha-v-evropskem-kontextu-aktualne-leto2026"
