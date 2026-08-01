@@ -1,0 +1,97 @@
+# Prague Insider
+
+A bilingual (Czech/English) publication about architecture, development, public space, transport and
+planning in Prague. Articles are written each morning by an AI editorial desk from named Czech
+sources, stored as markdown in this repo, and deployed to
+[www.pragueinsider.cz](https://www.pragueinsider.cz) by GitHub Actions.
+
+How that process works, and what it does and does not promise, is documented publicly at
+[/editorialni-standardy/](https://www.pragueinsider.cz/editorialni-standardy/) — that page is the
+contract, not marketing.
+
+## Quick start
+
+```bash
+npm install
+npm run develop        # http://localhost:8000
+npm run build          # static site into public/
+```
+
+## The daily cycle
+
+```bash
+npm run ingest         # scan sources → .cache/digest.json
+# ...the desk reads the digest, fetches originals, writes markdown...
+node scripts/mark-covered.mjs   # record what was cited, so tomorrow's scan skips it
+npm run validate       # publication gate
+npm run build          # must pass before committing
+```
+
+The desk step is driven by [`.claude/skills/daily-scan/SKILL.md`](.claude/skills/daily-scan/SKILL.md),
+so a scheduled cloud agent and a local `/daily-scan` run identical instructions.
+
+### Scanning by hand
+
+```bash
+node scripts/ingest.mjs --days 21              # default window
+node scripts/ingest.mjs --all                  # ignore the seen index, show everything
+node scripts/ingest.mjs --source archiweb      # one adapter, for debugging
+node scripts/ingest.mjs --print                # dump the digest to stdout
+```
+
+## Layout
+
+```
+content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   articles — both locales required
+content/pages/<key>/index.{cs,en}.md             standing editorial pages
+data/seen.json                                   what has already been covered (committed)
+scripts/sources/*.mjs                            one adapter per source
+scripts/lib/relevance.mjs                        the Prague + built-environment filter
+scripts/validate-posts.mjs                       publication gate
+src/lib/cover.js                                 generated cover art (page + OG, one implementation)
+src/config/{site,categories,pages}.js            single source of truth for routes and taxonomy
+src/lib/paths.js                                 every URL on the site is built here
+tailwind.config.js                               design tokens, ported from design/DESIGN.md
+```
+
+Czech is the default locale and is unprefixed; English lives under `/en/`. Both locales share one
+ASCII slug per article, so `cs`↔`en` pairing is a prefix swap and hreflang cannot drift.
+
+## Adding a source
+
+Create `scripts/sources/<id>.mjs` exporting:
+
+```js
+export default {
+  id, name, homepage, language,
+  pragueByDefault,   // the outlet only covers Prague
+  topicByDefault,    // the outlet only covers the built environment
+  async fetchItems({ limit }) {
+    return [{ url, title, summary, publishedAt, tags }]
+  },
+}
+```
+
+Register it in `scripts/sources/index.mjs`. Return `null` for anything you cannot determine rather
+than guessing — those values are shown to the desk.
+
+The two `*ByDefault` flags carry most of the filtering: a specialist outlet is trusted on topic, a
+general news source has to prove each story against the keyword lists in `scripts/lib/relevance.mjs`.
+
+## Deployment
+
+Push to `master` → `.github/workflows/deploy.yml` validates content, builds, and deploys to GitHub
+Pages. `static/CNAME` carries the custom domain.
+
+**Repository setting required:** Settings → Pages → Source must be **GitHub Actions**, not
+"Deploy from a branch".
+
+## Design
+
+`design/DESIGN.md` holds the "Urban Authority" design system and `design/code.html` a reference
+article page. `tailwind.config.js` is ported from it verbatim — change the design system first,
+not the Tailwind config. Shape language is sharp: no rounded corners anywhere.
+
+Covers are generated, never photographed. `src/lib/cover.js` produces one SVG consumed twice — inlined
+on the page (abstract: pattern, desk chip, wordmark) and rasterised to a 1200×630 OG card (which
+adds the headline, because it travels alone into social feeds).

@@ -1,0 +1,143 @@
+@import '@fontsource-variable/source-serif-4/index.css';
+@import '@fontsource/hanken-grotesk/400.css';
+@import '@fontsource/hanken-grotesk/500.css';
+@import '@fontsource/hanken-grotesk/600.css';
+@import '@fontsource/hanken-grotesk/700.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.on-background');
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Sharp shape language — no browser default rounding anywhere. */
+  input,
+  button,
+  textarea,
+  select {
+    border-radius: 0;
+  }
+
+  ::selection {
+    background-color: theme('colors.warm-parchment');
+    color: theme('colors.primary');
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.secondary');
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /*
+   * Long-form article body. gatsby-transformer-remark emits bare HTML, so the editorial
+   * rhythm from DESIGN.md is applied here rather than with per-element classes.
+   */
+  .prose-insider {
+    @apply text-body-lg font-body-lg text-on-surface;
+  }
+
+  .prose-insider > * + * {
+    @apply mt-6;
+  }
+
+  .prose-insider h2 {
+    @apply text-headline-md font-headline-md text-primary mt-12 mb-6;
+  }
+
+  .prose-insider h3 {
+    @apply text-headline-sm font-headline-sm text-primary mt-10 mb-4;
+  }
+
+  .prose-insider p {
+    @apply leading-relaxed;
+  }
+
+  .prose-insider a {
+    @apply text-secondary underline underline-offset-2 decoration-secondary/40 hover:decoration-secondary transition-colors;
+  }
+
+  .prose-insider strong {
+    @apply font-semibold text-primary;
+  }
+
+  .prose-insider ul {
+    @apply list-disc pl-6 space-y-2;
+  }
+
+  .prose-insider ol {
+    @apply list-decimal pl-6 space-y-2;
+  }
+
+  .prose-insider blockquote {
+    @apply border-l-4 border-brick-accent pl-6 py-2 my-8 text-headline-sm font-headline-sm text-tertiary italic;
+  }
+
+  .prose-insider blockquote p {
+    @apply m-0;
+  }
+
+  .prose-insider blockquote cite,
+  .prose-insider blockquote footer {
+    @apply text-body-md font-body-md text-on-surface-variant not-italic mt-2 block;
+  }
+
+  .prose-insider figure {
+    @apply my-8;
+  }
+
+  .prose-insider figcaption {
+    @apply text-caption font-caption text-on-surface-variant mt-2;
+  }
+
+  .prose-insider hr {
+    @apply my-10 border-t border-tertiary/20;
+  }
+
+  .prose-insider table {
+    @apply w-full text-body-md font-body-md border-collapse my-8;
+  }
+
+  .prose-insider th {
+    @apply text-left text-label-caps font-label-caps text-on-surface-variant border-b border-tertiary/40 py-2 pr-4;
+  }
+
+  .prose-insider td {
+    @apply border-b border-tertiary/15 py-2 pr-4 align-top;
+  }
+
+  .prose-insider code {
+    @apply font-label-caps text-[0.95em] bg-surface-container px-1 py-0.5;
+  }
+
+  /* The lead paragraph carries a drop cap, as in design/screen.png. */
+  .prose-insider > p:first-of-type::first-letter {
+    @apply text-6xl font-headline-md text-primary float-left mr-3 mt-2;
+    line-height: 0.82;
+  }
+}
+
+/* Leaflet is loaded only on the map page; keep its chrome inside the design system. */
+.leaflet-container {
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  background: theme('colors.surface-container');
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid theme('colors.outline-variant');
+}

@@ -1,0 +1,54 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Requires Settings → Pages → Source = "GitHub Actions".
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; queue them instead of cancelling a half-finished one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The same gate the daily job runs locally. A malformed or unsourced post fails the
+      # deploy rather than reaching the live site.
+      - name: Validate content
+        run: node scripts/validate-posts.mjs
+
+      - uses: actions/configure-pages@v5
+
+      - name: Build
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
