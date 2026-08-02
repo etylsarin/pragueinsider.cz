@@ -46,6 +46,19 @@ correctness bug, not a style choice.
 - `data/seen.json` is committed on purpose — it is the scan's memory across runs. Only
   `scripts/mark-covered.mjs` should write it during a daily run; marking everything the scan
   surfaced would bury stories that were merely deferred.
+- **The daily cloud routine needs `outcomes`, not just `sources`, to push.** In a routine's
+  `job_config.ccr.session_context`, `sources` grants the clone and `outcomes` provisions write
+  credentials:
+
+  ```json
+  "outcomes": [{"git_repository": {"git_info": {
+    "branches": ["master"], "repo": "etylsarin/pragueinsider.cz"}}}]
+  ```
+
+  Routines created through the claude.ai UI get this automatically; one created through the HTTP
+  API does not. Without it the run clones fine, does all the work, and then silently cannot push —
+  it looks exactly like a quiet news day from outside. If a morning passes with no commit, check
+  this before believing the desk found nothing.
 
 ## Before committing content
 
