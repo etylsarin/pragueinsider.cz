@@ -21,7 +21,7 @@ node scripts/ingest.mjs --days 21
 ```
 
 This fetches every registered source, drops what is not Prague or not about the built environment,
-drops what has already been covered, and writes `.cache/digest.json`. Read that file.
+drops what has already been covered, and writes `data/digest.json`. Read that file.
 
 If a source reports an error, note it in your final summary but carry on — the others are
 independent. If a source errors **two days running**, say so prominently: it usually means the site

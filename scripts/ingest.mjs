@@ -4,7 +4,7 @@
  *
  * Fetches every registered source, discards what is not Prague or not about the built
  * environment, drops anything already covered, and writes a ranked candidate list to
- * .cache/digest.json for the writing step to read.
+ * data/digest.json for the writing step to read.
  *
  * This step is deliberately deterministic: no model is involved in deciding what exists, only
  * in deciding what is worth writing about. Run it on its own to see what the desk would see.
@@ -28,7 +28,7 @@ import { loadSeen, saveSeen, isSeen, markSeen } from './lib/seen.mjs'
 import { canonicalUrl } from './lib/text.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const DIGEST_PATH = path.join(ROOT, '.cache', 'digest.json')
+const DIGEST_PATH = path.join(ROOT, 'data', 'digest.json')
 
 const parseArgs = (argv) => {
   const args = { sources: [], limit: 40, days: 30, all: false, mark: false, print: false }

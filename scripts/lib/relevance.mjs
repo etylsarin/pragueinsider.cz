@@ -73,7 +73,7 @@ const OFF_BEAT = [
   'taxi', 'turist', 'tourist', 'podvod', 'scam', 'policie', 'police', 'kriminal', 'crime',
   'zatcen', 'arrest', 'soud ', 'court', 'restaurac', 'restaurant', 'pivo', 'beer', 'pocasi',
   'weather', 'fotbal', 'football', 'hokej', 'hockey', 'koncert', 'concert', 'film', 'movie',
-  'celebrit', 'fond', 'fund', 'akcie', 'stock', 'kryptomen', 'crypto', 'banka', 'banking',
+  'celebrit', 'cinema', 'kino', 'streaming', 'divadl', 'fond', 'fund', 'akcie', 'stock', 'kryptomen', 'crypto', 'banka', 'banking',
   'investors', 'inflac', 'inflation', 'volby', 'election', 'covid', 'chripk', 'nemocnic',
   'hospital', 'skandal', 'scandal', 'krad', 'theft', 'drog', 'drug',
   // Airline commerce is not the built environment. Airport *infrastructure* still qualifies
