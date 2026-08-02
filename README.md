@@ -57,6 +57,33 @@ tailwind.config.js                               design tokens, ported from desi
 Czech is the default locale and is unprefixed; English lives under `/en/`. Both locales share one
 ASCII slug per article, so `cs`↔`en` pairing is a prefix swap and hreflang cannot drift.
 
+## Sources
+
+Eight adapters, each written against the site's real markup:
+
+| Source | Method | Prague-only | Built-environment-only |
+|---|---|:---:|:---:|
+| praha.camp (CAMP) | listing scrape (`/magazin`) | ✓ | ✓ |
+| IPR Praha | listing scrape (`/aktuality`) | ✓ | ✓ |
+| Dopravní podnik (DPP) | listing scrape (press releases) | ✓ | ✓ |
+| archiweb.cz | listing scrape (`/n`) — **no RSS**, `/rss` and `/en/rss` both 404 | | ✓ |
+| Zdopravy.cz | RSS | | ✓ |
+| ČT24 — Praha | listing scrape (region section) | | |
+| Prague Morning | RSS | ✓ | |
+| Expats.cz | RSS | | |
+
+The two flag columns are `pragueByDefault` / `topicByDefault`, and they carry most of the
+filtering: a specialist outlet is trusted on its beat, a general one has to prove every story
+against the keyword lists.
+
+For a national outlet, the Prague evidence must be in the **headline** — "Praha" turns up
+incidentally in datelines, company names (`Dopravní podnik hl. m. Prahy`) and passing comparisons,
+and treating those as evidence let a Vysočina bus tender and a Bavarian rail contract through.
+
+The ČT24 Prague section is where the reporting behind the regional TV bulletin — long broadcast as
+*Z metropole*, now *Události v regionech – Praha* — is written up. The `edu.ceskatelevize.cz` page
+under the old title is a historical archive (Havel, the Prague uprising), not current news.
+
 ## Adding a source
 
 Create `scripts/sources/<id>.mjs` exporting:

@@ -12,8 +12,6 @@ location:
   lng: 14.4177
 author: "Prague Insider Desk"
 aiGenerated: true
-cover:
-  variant: grid
 sources:
   - title: "Rekonstrukce Pragerových kostek začíná. Důraz klade na recyklaci a návrat k původní kvalitě"
     url: "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite"

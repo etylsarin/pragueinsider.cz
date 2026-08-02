@@ -8,8 +8,6 @@ category: transport
 tags: ["metro D", "železnice na letiště", "Smíchov", "Karlovo náměstí", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true
-cover:
-  variant: transit
 sources:
   - title: "Pražské priority: Velký update projektů, které promění tvář metropole"
     url: "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole"

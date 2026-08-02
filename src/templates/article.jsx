@@ -70,7 +70,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
           </div>
 
           <figure className="w-full border border-tertiary/80 relative">
-            <Cover post={coverPost} locale={locale} label={label} aspect="aspect-[16/9] md:aspect-[21/9]" className="border-0" />
+            <Cover post={coverPost} label={label} format="hero" />
             <figcaption className="absolute bottom-0 left-0 bg-surface/90 backdrop-blur px-4 py-2 text-caption font-caption text-on-surface-variant border-t border-r border-tertiary/80">
               {fm.district ? `${fm.district} · ` : ''}
               {locale === 'cs'

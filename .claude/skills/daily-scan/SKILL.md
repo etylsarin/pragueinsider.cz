@@ -36,8 +36,10 @@ Choose for news value, not for score — the score ranks relevance, not importan
 - **Prefer** decisions, milestones, money, openings, competition results, plan approvals, things
   that change what gets built or how people move.
 - **Prefer** a cluster with `sourceCount > 1`. Two outlets on one story means you can cross-check.
-- **Skip** institutional housekeeping (office closures, opening hours, staff notices) even when it
-  scores well. The filter cannot tell these from news; you can.
+- **Skip** institutional housekeeping even when it scores well — office closures, opening hours,
+  staff notices, awards, ISO audits, depot beekeeping. Two of our sources are institutional press
+  offices publishing about themselves, so this comes up most days. The filter cannot tell these
+  from news; you can.
 - **Skip** pure press releases where the only source is the developer promoting itself, unless the
   project is significant enough that the announcement is itself the news. If you use one, say in
   the article that the source is the developer.
@@ -183,5 +185,9 @@ source that used to return items returns zero:
 3. Re-run the scan and confirm items come back.
 4. Commit the adapter fix separately from the day's posts.
 
-Only three sources are Prague-and-topic specialists (`praha.camp`, `iprpraha`, `archiweb`);
-`praguemorning` is general news and is filtered hard, so zero items from it is normal, not a fault.
+Zero items from a source is often correct rather than broken. `praguemorning`, `expats` and
+`ct24praha` are general news outlets filtered hard against the Prague + built-environment test, and
+`zdopravy` and `archiweb` are national, so quiet days from any of them are normal. Treat a source as
+broken when it returns zero *and* its listing URL clearly still has relevant stories on it.
+
+`prahacamp`, `iprpraha` and `dpp` are the three that should rarely be empty for long.

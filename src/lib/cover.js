@@ -1,12 +1,19 @@
 /**
- * Deterministic typographic cover art.
+ * Cover art for every article.
  *
- * Prague Insider writes about buildings it does not own photographs of, so every post gets a
- * generated blueprint-style cover instead of a third-party photo. The same SVG string is
- * inlined on the page by src/components/Cover.jsx and rasterised into 1200x630 OG images by
- * gatsby-node.js — one implementation, two consumers, no drift.
+ * Prague Insider writes about buildings it has no photographs of, so each post gets a generated
+ * cover instead of licensed or scraped photography. The same SVG string is inlined on the page
+ * by src/components/Cover.jsx and rasterised into OG cards by gatsby-node.js — one
+ * implementation, two consumers, no drift.
  *
- * Everything is derived from the slug hash, so a given post always renders the same cover.
+ * The design is a **section plate**: a saturated ground in the desk's colour, one architectural
+ * motif belonging to that desk, and the desk name set large in the brand serif. Each desk keeps
+ * its own motif, so the covers build a visual language across the archive instead of looking
+ * randomly generated; the slug hash only varies placement and counts within that motif, so two
+ * transport stories are recognisably siblings without being identical.
+ *
+ * (An earlier version drew faint outlines on a white ground. At full width that read as a
+ * loading skeleton rather than artwork — hence the solid grounds and the high-contrast motifs.)
  */
 
 const PALETTE = {
@@ -17,21 +24,38 @@ const PALETTE = {
   brick: '#B33939',
   vltava: '#00629e',
   outline: '#d0c4bb',
-  onPrimary: '#ffffff',
 }
 
-const VARIANTS = ['grid', 'strata', 'plan', 'transit']
-
-/** Per-desk accent, so a transport story reads differently from a heritage one at a glance. */
+/** Ground colour per desk. All are dark enough to carry light motifs and light type. */
 const CATEGORY_ACCENT = {
   development: PALETTE.brick,
   transport: PALETTE.vltava,
-  'public-space': '#4d6b3f',
+  'public-space': '#3F5B34',
   planning: PALETTE.slate,
   architecture: PALETTE.primary,
 }
 
-/** FNV-1a — small, stable across Node and the browser, good enough to pick a variant. */
+/** Each desk draws its own motif. Frontmatter `cover.variant` can override. */
+const CATEGORY_MOTIF = {
+  architecture: 'arcade',
+  transport: 'transit',
+  'public-space': 'canopy',
+  planning: 'parcels',
+  development: 'massing',
+}
+
+const VARIANTS = ['arcade', 'transit', 'canopy', 'parcels', 'massing']
+
+const FORMATS = {
+  card: { w: 1200, h: 675 },
+  hero: { w: 1200, h: 600 },
+  og: { w: 1200, h: 630 },
+}
+
+const SERIF = "'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif"
+const MONO = "'JetBrains Mono', ui-monospace, monospace"
+
+/** FNV-1a — small, stable across Node and the browser. */
 const hash = (input) => {
   let h = 0x811c9dc5
   for (let i = 0; i < String(input).length; i += 1) {
@@ -61,7 +85,7 @@ const escapeXml = (value) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;')
 
-/** Greedy wrap by character budget — SVG has no text layout, so we place each line ourselves. */
+/** Greedy wrap by character budget — SVG has no text layout, so lines are placed by hand. */
 const wrapText = (text, maxChars, maxLines) => {
   const words = String(text).split(/\s+/).filter(Boolean)
   const lines = []
@@ -78,67 +102,103 @@ const wrapText = (text, maxChars, maxLines) => {
   }
   if (lines.length < maxLines && line) lines.push(line)
   if (lines.length === maxLines && words.join(' ').length > lines.join(' ').length) {
-    const last = lines[maxLines - 1]
-    lines[maxLines - 1] = `${last.replace(/[\s,.;:–-]+$/, '')}…`
+    lines[maxLines - 1] = `${lines[maxLines - 1].replace(/[\s,.;:–-]+$/, '')}…`
   }
   return lines
 }
 
-// --- background variants -----------------------------------------------------------------
+// --- motifs -------------------------------------------------------------------------------
+//
+// Every motif draws into the upper band only and stands on `ground` — the same y at which the
+// typographic plinth begins. That shared baseline is what makes five different drawings read as
+// one family, and it keeps the desk name on a clean field instead of on top of the artwork.
 
-const drawGrid = (w, h, accent, random) => {
+const L = PALETTE.surface
+const P = PALETTE.parchment
+
+/** Malá Strana arcades: a colonnade of round arches springing from the ground line. */
+const drawArcade = (w, ground, random) => {
   const parts = []
-  const step = 40
-  for (let x = 0; x <= w; x += step) {
-    parts.push(`<line x1="${x}" y1="0" x2="${x}" y2="${h}" stroke="${PALETTE.outline}" stroke-width="1.4" opacity="0.7"/>`)
-  }
-  for (let y = 0; y <= h; y += step) {
-    parts.push(`<line x1="0" y1="${y}" x2="${w}" y2="${y}" stroke="${PALETTE.outline}" stroke-width="1.4" opacity="0.7"/>`)
-  }
-  // Filled cells read as massing on a site plan. Enough of them, dark enough, that the cover
-  // still reads as a deliberate graphic at thumbnail size.
-  const blocks = 9 + Math.floor(random() * 5)
-  for (let i = 0; i < blocks; i += 1) {
-    const bx = Math.floor(random() * (w / step - 4)) * step
-    const by = Math.floor(random() * (h / step - 3)) * step
-    const bw = (1 + Math.floor(random() * 3)) * step
-    const bh = (1 + Math.floor(random() * 2)) * step
-    const isAccent = i === 0
+  const count = 7 + Math.floor(random() * 4)
+  const gap = 16
+  const bw = (w + gap) / count - gap
+  const radius = bw / 2
+  const springing = ground - radius - (ground * 0.16 + random() * ground * 0.12)
+
+  for (let i = 0; i < count; i += 1) {
+    const x = i * (bw + gap)
+    const filled = random() > 0.6
+    const d = `M ${x} ${ground} L ${x} ${springing} A ${radius} ${radius} 0 0 1 ${x + bw} ${springing} L ${x + bw} ${ground} Z`
     parts.push(
-      `<rect x="${bx}" y="${by}" width="${bw}" height="${bh}" fill="${isAccent ? accent : PALETTE.primary}" opacity="${isAccent ? 0.9 : 0.14 + (i % 3) * 0.07}"/>`
+      `<path d="${d}" fill="${filled ? P : L}" fill-opacity="${filled ? 0.92 : 0.1}" stroke="${L}" stroke-width="3" stroke-opacity="0.5"/>`
     )
   }
   return parts.join('')
 }
 
-const drawStrata = (w, h, accent, random) => {
+/** Metro/tram diagram: orthogonal and 45° runs with interchange nodes. */
+const drawTransit = (w, ground, random) => {
   const parts = []
-  let y = 0
-  let index = 0
-  while (y < h) {
-    const band = 18 + Math.floor(random() * 46)
-    const opacity = 0.05 + random() * 0.12
-    parts.push(`<rect x="0" y="${y}" width="${w}" height="${band}" fill="${PALETTE.primary}" opacity="${opacity.toFixed(3)}"/>`)
-    if (index % 4 === 2) {
-      parts.push(`<rect x="0" y="${y}" width="${w}" height="3" fill="${accent}" opacity="0.75"/>`)
+  const colors = [P, L, L]
+
+  for (let i = 0; i < 3; i += 1) {
+    let x = -60
+    let y = ground * (0.26 + i * 0.24) + (random() - 0.5) * 50
+    const points = [[x, y]]
+    while (x < w + 60) {
+      const run = 90 + random() * 130
+      x += run
+      if (random() > 0.55) {
+        const dir = random() > 0.5 ? 1 : -1
+        const step = Math.min(run * 0.7, 96)
+        y = Math.max(40, Math.min(ground - 40, y + dir * step))
+      }
+      points.push([x, y])
     }
-    y += band
-    index += 1
+    const path = points.map(([px, py]) => `${Math.round(px)},${Math.round(py)}`).join(' ')
+    parts.push(
+      `<polyline points="${path}" fill="none" stroke="${colors[i]}" stroke-width="${i === 0 ? 13 : 8}" stroke-linejoin="round" stroke-linecap="round" opacity="${i === 0 ? 0.95 : 0.38}"/>`
+    )
+    for (let p = 1; p < points.length - 1; p += 2) {
+      const [cx, cy] = points[p]
+      parts.push(
+        `<circle cx="${Math.round(cx)}" cy="${Math.round(cy)}" r="${i === 0 ? 12 : 8}" fill="none" stroke="${colors[i]}" stroke-width="${i === 0 ? 7 : 5}" opacity="${i === 0 ? 0.95 : 0.38}"/>`
+      )
+    }
   }
   return parts.join('')
 }
 
-const drawPlan = (w, h, accent, random) => {
-  const parts = [`<rect x="0" y="0" width="${w}" height="${h}" fill="${PALETTE.surface}"/>`]
-  // Recursive-ish subdivision: rooms on a floor plan.
-  const rooms = []
+/** Park section: tree crowns rooted on the ground line. */
+const drawCanopy = (w, ground, random) => {
+  const parts = []
+  const count = 7 + Math.floor(random() * 4)
+
+  for (let i = 0; i < count; i += 1) {
+    const x = Math.round((i + 0.5) * (w / count) + (random() - 0.5) * 36)
+    const r = Math.round(ground * (0.2 + random() * 0.17))
+    const trunk = Math.round(ground * (0.1 + random() * 0.08))
+    const cy = ground - trunk - r
+    const filled = random() > 0.5
+    parts.push(`<rect x="${x - 4}" y="${cy}" width="8" height="${ground - cy}" fill="${L}" opacity="0.45"/>`)
+    parts.push(
+      `<circle cx="${x}" cy="${cy}" r="${r}" fill="${filled ? P : L}" fill-opacity="${filled ? 0.9 : 0.1}" stroke="${L}" stroke-width="3.5" stroke-opacity="0.55"/>`
+    )
+  }
+  return parts.join('')
+}
+
+/** Cadastral plot subdivision with one parcel called out. */
+const drawParcels = (w, ground, random) => {
+  const parts = []
+  const cells = []
   const split = (x, y, rw, rh, depth) => {
-    if (depth === 0 || rw < 90 || rh < 70) {
-      rooms.push([x, y, rw, rh])
+    if (depth === 0 || rw < 140 || rh < 90) {
+      cells.push([x, y, rw, rh])
       return
     }
     const vertical = rw > rh
-    const ratio = 0.35 + random() * 0.3
+    const ratio = 0.36 + random() * 0.28
     if (vertical) {
       const cut = Math.round(rw * ratio)
       split(x, y, cut, rh, depth - 1)
@@ -149,111 +209,108 @@ const drawPlan = (w, h, accent, random) => {
       split(x, y + cut, rw, rh - cut, depth - 1)
     }
   }
-  split(0, 0, w, h, 4)
-  rooms.forEach(([x, y, rw, rh], i) => {
+  split(-30, -30, w + 60, ground + 30, 4)
+
+  const highlight = Math.floor(random() * cells.length)
+  cells.forEach(([x, y, cw, ch], i) => {
     parts.push(
-      `<rect x="${x}" y="${y}" width="${rw}" height="${rh}" fill="none" stroke="${PALETTE.primary}" stroke-width="2.5" opacity="0.55"/>`
+      `<rect x="${x}" y="${y}" width="${cw}" height="${ch}" fill="${L}" fill-opacity="${i % 4 === 0 ? 0.11 : 0.035}" stroke="${L}" stroke-width="3" stroke-opacity="0.45"/>`
     )
-    // Poché every third room so the plan has figure-ground rather than reading as empty outline.
-    if (i % 3 === 1) {
-      parts.push(`<rect x="${x + 7}" y="${y + 7}" width="${rw - 14}" height="${rh - 14}" fill="${accent}" opacity="0.2"/>`)
-    } else if (i % 5 === 0) {
-      parts.push(`<rect x="${x + 7}" y="${y + 7}" width="${rw - 14}" height="${rh - 14}" fill="${PALETTE.primary}" opacity="0.1"/>`)
-    }
   })
+  const [hx, hy, hw, hh] = cells[highlight]
+  parts.push(`<rect x="${hx}" y="${hy}" width="${hw}" height="${hh}" fill="${P}" opacity="0.92"/>`)
   return parts.join('')
 }
 
-const drawTransit = (w, h, accent, random) => {
+/** Stepped massing: a block skyline standing on the ground line. */
+const drawMassing = (w, ground, random) => {
   const parts = []
-  const lineColors = [accent, PALETTE.primary, PALETTE.vltava, PALETTE.brick]
-  const lines = 3 + Math.floor(random() * 2)
-  for (let i = 0; i < lines; i += 1) {
-    let x = -40
-    let y = 60 + random() * (h - 120)
-    const points = [`${x},${y}`]
-    while (x < w + 40) {
-      const dx = 60 + random() * 110
-      const dy = (random() - 0.5) * 150
-      x += dx
-      y = Math.max(30, Math.min(h - 30, y + dy))
-      // Transit diagrams move orthogonally or at 45° — never freehand.
-      points.push(`${x - dx / 2},${y - dy}`)
-      points.push(`${x},${y}`)
-    }
-    const color = lineColors[i % lineColors.length]
+  const count = 8 + Math.floor(random() * 4)
+  const bw = w / count
+
+  for (let i = 0; i < count; i += 1) {
+    const x = Math.round(i * bw)
+    const height = Math.round((0.3 + random() * 0.62) * ground)
+    const y = ground - height
+    const filled = random() > 0.62
     parts.push(
-      `<polyline points="${points.join(' ')}" fill="none" stroke="${color}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" opacity="${i === 0 ? 0.85 : 0.3}"/>`
+      `<rect x="${x}" y="${y}" width="${Math.round(bw - 9)}" height="${height}" fill="${filled ? P : L}" fill-opacity="${filled ? 0.92 : 0.1}" stroke="${L}" stroke-width="3" stroke-opacity="0.5"/>`
     )
-    // Interchange dots.
-    for (let p = 2; p < points.length; p += 4) {
-      const [cx, cy] = points[p].split(',')
-      parts.push(`<circle cx="${cx}" cy="${cy}" r="7" fill="${PALETTE.surface}" stroke="${color}" stroke-width="4" opacity="${i === 0 ? 0.9 : 0.35}"/>`)
-    }
   }
   return parts.join('')
 }
 
-const BACKGROUNDS = { grid: drawGrid, strata: drawStrata, plan: drawPlan, transit: drawTransit }
+const MOTIFS = {
+  arcade: drawArcade,
+  transit: drawTransit,
+  canopy: drawCanopy,
+  parcels: drawParcels,
+  massing: drawMassing,
+}
 
 /**
  * @param {object} post
- * @param {string} post.slug      stable identity — drives variant choice and geometry
- * @param {string} post.title     headline, wrapped into the cover
- * @param {string} post.category  category key, drives the accent colour
- * @param {string} post.label     already-localised desk label (e.g. "Doprava")
- * @param {string} [post.variant] frontmatter override
- * @param {number} [post.seed]    frontmatter override
+ * @param {string} post.slug      stable identity — seeds placement within the motif
+ * @param {string} post.title     headline (used on OG cards and as the accessible label)
+ * @param {string} post.category  desk key — picks ground colour and motif
+ * @param {string} post.label     already-localised desk name, set large on the plinth
+ * @param {string} [post.variant] frontmatter override of the motif
+ * @param {number} [post.seed]    frontmatter override of the seed
  * @param {object} [opts]
- * @param {'wide'|'og'} [opts.format] 'wide' = 16:9 in-page, 'og' = 1200x630 social card
- * @param {boolean} [opts.showTitle] burn the headline into the artwork
- *
- * On the site the headline is always rendered as real text next to the cover, so repeating it
- * inside the graphic just says the same thing twice. In-page covers are therefore abstract —
- * pattern, desk chip, wordmark — and only the OG card, which travels alone into a social feed
- * with no headline beside it, carries the title.
+ * @param {'card'|'hero'|'og'} [opts.format]
  */
 const coverSvg = ({ slug, title, category, label, variant, seed }, opts = {}) => {
-  const format = opts.format || 'wide'
-  const showTitle = opts.showTitle ?? format === 'og'
-  const w = 1200
-  const h = format === 'og' ? 630 : 675
+  const format = FORMATS[opts.format] ? opts.format : 'card'
+  const { w, h } = FORMATS[format]
   const seedValue = typeof seed === 'number' ? seed : hash(slug)
   const random = rng(seedValue)
-  const chosen = VARIANTS.includes(variant) ? variant : VARIANTS[seedValue % VARIANTS.length]
-  const accent = CATEGORY_ACCENT[category] || PALETTE.primary
-  const background = (BACKGROUNDS[chosen] || drawGrid)(w, h, accent, random)
 
-  const chipWidth = Math.max(120, (label || '').length * 15 + 40)
-  const wordmark = `<rect x="72" y="${h - 62}" width="64" height="4" fill="${accent}"/>
-  <text x="${w - 72}" y="${h - 50}" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="17" letter-spacing="1.2" fill="${PALETTE.primary}" opacity="0.7">PRAGUE INSIDER</text>`
+  const bg = CATEGORY_ACCENT[category] || PALETTE.primary
+  const motif = VARIANTS.includes(variant) ? variant : CATEGORY_MOTIF[category] || 'parcels'
 
-  let overlay
-  if (showTitle) {
-    const lines = wrapText(title, 30, 3)
-    const titleSize = lines.length > 2 ? 62 : 72
-    const lineHeight = titleSize * 1.15
-    const textTop = h - 96 - lines.length * lineHeight
-    const titleTspans = lines
-      .map((line, i) => `<tspan x="72" y="${Math.round(textTop + i * lineHeight)}">${escapeXml(line)}</tspan>`)
+  // The OG card needs a deeper plinth because it also carries the headline.
+  const ground = Math.round(h * (format === 'og' ? 0.44 : 0.63))
+  const artwork = (MOTIFS[motif] || drawParcels)(w, ground, random)
+
+  const deskName = String(label || '').toUpperCase()
+  const pad = 56
+
+  const plate = `<rect width="${w}" height="${h}" fill="${bg}"/>
+  <g clip-path="url(#band-${seedValue})">${artwork}</g>
+  <rect x="0" y="${ground}" width="${w}" height="${h - ground}" fill="${bg}"/>
+  <rect x="0" y="${ground}" width="${w}" height="4" fill="${L}" opacity="0.85"/>`
+
+  const defs = `<defs><clipPath id="band-${seedValue}"><rect x="0" y="0" width="${w}" height="${ground}"/></clipPath></defs>`
+  const wordmark = `<text x="${w - pad}" y="${h - pad + 4}" text-anchor="end" font-family="${MONO}" font-size="19" letter-spacing="2" fill="${L}" opacity="0.7">PRAGUE INSIDER</text>`
+
+  if (format === 'og') {
+    const lines = wrapText(title, 34, 3)
+    const size = lines.length > 2 ? 54 : 62
+    const lineHeight = size * 1.16
+    const top = ground + 108
+    const tspans = lines
+      .map((line, i) => `<tspan x="${pad}" y="${Math.round(top + i * lineHeight)}">${escapeXml(line)}</tspan>`)
       .join('')
-
-    overlay = `<rect x="0" y="${Math.round(textTop - 132)}" width="${w}" height="${h - Math.round(textTop - 132)}" fill="${PALETTE.surface}" opacity="0.88"/>
-  <rect x="72" y="${Math.round(textTop - 108)}" width="${chipWidth}" height="34" fill="${accent}"/>
-  <text x="92" y="${Math.round(textTop - 85)}" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="17" letter-spacing="1.6" fill="${PALETTE.onPrimary}">${escapeXml(String(label || '').toUpperCase())}</text>
-  <text font-family="'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif" font-size="${titleSize}" font-weight="700" fill="${PALETTE.primary}" letter-spacing="-1">${titleTspans}</text>
-  ${wordmark}`
-  } else {
-    overlay = `<rect x="72" y="${h - 122}" width="${chipWidth}" height="34" fill="${accent}"/>
-  <text x="92" y="${h - 99}" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="17" letter-spacing="1.6" fill="${PALETTE.onPrimary}">${escapeXml(String(label || '').toUpperCase())}</text>
-  ${wordmark}`
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${escapeXml(title)}">
+  ${defs}
+  ${plate}
+  <text x="${pad}" y="${ground + 52}" font-family="${MONO}" font-size="21" letter-spacing="2.4" fill="${P}">${escapeXml(deskName)}</text>
+  <text font-family="${SERIF}" font-size="${size}" font-weight="700" fill="${L}" letter-spacing="-0.8">${tspans}</text>
+  ${wordmark}
+</svg>`
   }
 
+  // Desk name scales down for long labels ("VEŘEJNÝ PROSTOR") so it never overruns the plate.
+  const plinth = h - ground
+  const deskSize = Math.round(Math.min(plinth * 0.42, deskName.length > 13 ? 60 : deskName.length > 9 ? 76 : 92))
+
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${escapeXml(title)}">
-  <rect width="${w}" height="${h}" fill="${PALETTE.surface}"/>
-  ${background}
-  ${overlay}
+  ${defs}
+  ${plate}
+  <text x="${pad}" y="${ground + Math.round(plinth * 0.62)}" font-family="${SERIF}" font-size="${deskSize}" font-weight="700" fill="${L}" letter-spacing="-1">${escapeXml(deskName)}</text>
+  <rect x="${pad}" y="${ground + Math.round(plinth * 0.62) + 34}" width="86" height="5" fill="${P}"/>
+  ${wordmark}
 </svg>`
 }
 
-module.exports = { coverSvg, VARIANTS, CATEGORY_ACCENT, PALETTE, hash }
+module.exports = { coverSvg, VARIANTS, CATEGORY_ACCENT, CATEGORY_MOTIF, PALETTE, FORMATS, hash }

@@ -9,8 +9,6 @@ tags: ["Metropolitan Plan", "zoning", "IPR", "brownfields"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
-cover:
-  variant: plan
 sources:
   - title: "Cesta Metropolitního plánu: Čtrnáct let příprav nastartuje intenzivní rozvoj Prahy"
     url: "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy"
