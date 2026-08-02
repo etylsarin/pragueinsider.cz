@@ -151,6 +151,12 @@ until both are green.** These two commands are the entire safety net between you
 
 ## 7. Commit
 
+**Skip this step when running in CI.** `.github/workflows/daily-scan.yml` does the committing
+itself, and its prompt tells you to stop after step 6. Committing from inside the run as well
+would race the workflow.
+
+Run by hand, or anywhere else:
+
 ```bash
 git add content/posts data/seen.json
 git commit -m "posts: <n> stories for YYYY-MM-DD"
