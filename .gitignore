@@ -1,5 +1,6 @@
 node_modules/
 .cache/
+data/digest.json
 public/
 .env*
 !.env.example

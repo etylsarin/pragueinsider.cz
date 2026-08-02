@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Prints .cache/digest.json as a few readable lines.
+ * Prints data/digest.json as a few readable lines.
  *
  * Exists so the daily CI run puts the scan's own numbers in its log. If every source reports
  * zero, that is visible immediately and points at network egress or a rotted selector, rather
@@ -19,7 +19,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 async function main() {
   let digest
   try {
-    digest = JSON.parse(await fs.readFile(path.join(ROOT, '.cache/digest.json'), 'utf8'))
+    digest = JSON.parse(await fs.readFile(path.join(ROOT, 'data/digest.json'), 'utf8'))
   } catch (error) {
     console.error(`No digest to summarise (${error.code || error.message}). Did the scan run?`)
     process.exitCode = 1

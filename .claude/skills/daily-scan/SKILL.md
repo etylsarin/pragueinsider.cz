@@ -21,7 +21,7 @@ node scripts/ingest.mjs --days 21
 ```
 
 This fetches every registered source, drops what is not Prague or not about the built environment,
-drops what has already been covered, and writes `.cache/digest.json`. Read that file.
+drops what has already been covered, and writes `data/digest.json`. Read that file.
 
 If a source reports an error, note it in your final summary but carry on — the others are
 independent. If a source errors **two days running**, say so prominently: it usually means the site
@@ -151,11 +151,9 @@ until both are green.** These two commands are the entire safety net between you
 
 ## 7. Commit
 
-**Skip this step when running in CI.** `.github/workflows/daily-scan.yml` does the committing
-itself, and its prompt tells you to stop after step 6. Committing from inside the run as well
-would race the workflow.
-
-Run by hand, or anywhere else:
+Committing is the last thing the desk does, and it is what triggers publication —
+`.github/workflows/deploy.yml` fires on push to master, re-runs the validation gate, builds, and
+deploys to Pages. Nothing else needs to happen for the story to go live.
 
 ```bash
 git add content/posts data/seen.json

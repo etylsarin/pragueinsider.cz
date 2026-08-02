@@ -20,7 +20,7 @@ npm run build          # static site into public/
 ## The daily cycle
 
 ```bash
-npm run ingest         # scan sources → .cache/digest.json
+npm run ingest         # scan sources → data/digest.json
 # ...the desk reads the digest, fetches originals, writes markdown...
 node scripts/mark-covered.mjs   # record what was cited, so tomorrow's scan skips it
 npm run validate       # publication gate
