@@ -18,10 +18,15 @@ article is not.
 
 ```bash
 node scripts/ingest.mjs --days 21
+node scripts/digest-summary.mjs --write
 ```
 
-This fetches every registered source, drops what is not Prague or not about the built environment,
-drops what has already been covered, and writes `data/digest.json`. Read that file.
+The first command fetches every registered source, drops what is not Prague or not about the built
+environment, drops what has already been covered, and writes `data/digest.json`. Read that file.
+
+The second prints the per-source counts and writes them to `data/last-run.md`. You will finish that
+file in step 7 and commit it **on every run, including quiet ones** — it is the only record of what
+the desk saw and decided, so never skip it.
 
 If a source reports an error, note it in your final summary but carry on — the others are
 independent. If a source errors **two days running**, say so prominently: it usually means the site
@@ -29,21 +34,30 @@ changed its markup and the adapter in `scripts/sources/` needs updating.
 
 ## 2. Choose what to write
 
-Read the clusters. Pick **2 to 4** stories. Fewer is fine. Zero is fine on a quiet day.
+Read the clusters. **If the digest has candidates, expect to publish.** Pick 2 to 4 stories; one is
+fine on a thin day. Publish nothing only when the digest is empty, or when every candidate fails the
+test below — not merely because nothing feels momentous.
 
 Choose for news value, not for score — the score ranks relevance, not importance:
 
-- **Prefer** decisions, milestones, money, openings, competition results, plan approvals, things
-  that change what gets built or how people move.
+- **Prefer** decisions, milestones, money, openings, competition results, plan approvals, closures
+  and works that change what gets built or how people move.
 - **Prefer** a cluster with `sourceCount > 1`. Two outlets on one story means you can cross-check.
-- **Skip** institutional housekeeping even when it scores well — office closures, opening hours,
-  staff notices, awards, ISO audits, depot beekeeping. Two of our sources are institutional press
-  offices publishing about themselves, so this comes up most days. The filter cannot tell these
-  from news; you can.
-- **Skip** pure press releases where the only source is the developer promoting itself, unless the
-  project is significant enough that the announcement is itself the news. If you use one, say in
-  the article that the source is the developer.
 - **Skip** anything you cannot source properly in step 3.
+
+### Press offices: what they are doing vs. what they are saying about themselves
+
+Two sources — DPP and IPR — are institutional press offices, and they are among our best sources
+precisely because they announce things first. Do not discount them as a class. The line is:
+
+| Publish | Skip |
+|---|---|
+| What the institution is doing **to the city** — a metro station design competition, a tram track closure, a fleet tender, a plan milestone, a construction start | What the institution is saying **about itself** — awards, ISO audits, office relocations, opening hours, staff notices, depot beekeeping |
+
+A press release is a primary source, not a disqualification. Where the announcement is the news,
+write it and attribute it plainly ("DPP says…"). Where a developer is promoting its own building,
+you may still cover it if the project matters, but say in the article that the source is the
+developer.
 
 Never write two articles from one cluster. One story is one article.
 
@@ -155,14 +169,24 @@ Committing is the last thing the desk does, and it is what triggers publication 
 `.github/workflows/deploy.yml` fires on push to master, re-runs the validation gate, builds, and
 deploys to Pages. Nothing else needs to happen for the story to go live.
 
+First finish the run log. Replace the `_(the desk fills this in)_` placeholder in
+`data/last-run.md` with what you decided — one line per candidate you published and one per
+candidate you skipped, each with a short reason. Be specific: "skipped, corporate self-promotion"
+is useful; "not newsworthy" is not.
+
 ```bash
-git add content/posts data/seen.json
-git commit -m "posts: <n> stories for YYYY-MM-DD"
+git add content/posts data/seen.json data/last-run.md
+git commit -m "posts: <n> stories for YYYY-MM-DD"   # or "scan: no stories for YYYY-MM-DD"
 git push
 ```
 
+**Commit even when you published nothing.** A quiet day still commits the log. A run that leaves no
+commit at all is indistinguishable from a run that never happened, and that has cost real debugging
+time before.
+
 Then report to the user: what you published (with slugs), what you deliberately skipped and why,
-any source that errored, and anything that looked like it needed a human.
+any source that errored, the exact `git push` output, and anything that looked like it needed a
+human.
 
 ---
 
