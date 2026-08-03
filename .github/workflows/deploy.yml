@@ -3,6 +3,9 @@ name: Build and deploy
 on:
   push:
     branches: [master]
+    # A quiet-day run commits only the scan log; nothing to rebuild for.
+    paths-ignore:
+      - 'data/last-run.md'
   workflow_dispatch:
 
 # Requires Settings → Pages → Source = "GitHub Actions".
