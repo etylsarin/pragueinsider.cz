@@ -50,7 +50,10 @@ export const canonicalUrl = (url, base) => {
     }
     parsed.pathname = parsed.pathname.replace(/\/+$/, '') || '/'
     parsed.protocol = 'https:'
-    parsed.host = parsed.host.replace(/^www\./, '')
+    // The host is deliberately left as the site serves it, `www.` and all. Stripping it made
+    // tidier dedupe keys but handed the desk URLs on a host the site never advertises — and a
+    // sandbox with a per-host network allowlist blocks `dpp.cz` while permitting `www.dpp.cz`.
+    // Dedupe is unaffected: each adapter resolves against one base, so its URLs are consistent.
     return parsed.toString()
   } catch {
     return null
