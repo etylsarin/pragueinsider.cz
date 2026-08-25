@@ -1,0 +1,62 @@
+name: Promote desk branch
+
+# The morning desk cannot push to master: a routine run is pinned to its own
+# claude/* branch and the harness refuses anything else. So it pushes there, and
+# this promotes the work to master, which deploy.yml then publishes.
+#
+# The gate runs here too. The desk validates before committing, but this is the
+# copy that decides whether anything reaches the live site — it runs on a clean
+# checkout with a clean install, and a failure leaves the branch unmerged rather
+# than publishing something broken.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: promote-desk
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Show what the desk decided
+        run: cat data/last-run.md || echo "no scan log on this branch"
+
+      - name: Validate
+        run: node scripts/validate-posts.mjs
+
+      - name: Build
+        run: npm run build
+
+      - name: Promote to master
+        run: |
+          if git diff --quiet origin/master -- content/posts data; then
+            echo "Nothing to promote — no content or scan-log changes."
+            exit 0
+          fi
+          git config user.name  "Prague Insider Desk"
+          git config user.email "desk@pragueinsider.cz"
+          git fetch origin master
+          # The desk branches from master, so this is normally a fast-forward.
+          # Rebase covers master having moved while the desk was writing.
+          git rebase origin/master
+          git push origin HEAD:master
+          echo "Promoted $(git rev-parse --short HEAD) to master."
