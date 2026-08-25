@@ -66,6 +66,14 @@ Never write two articles from one cluster. One story is one article.
 For each chosen story, **WebFetch every URL in the cluster.** Write from the article, never from
 the digest title or an RSS summary — those are one line of context, not reporting.
 
+`zdopravy.cz` returns HTTP 403 to WebFetch — it refuses the fetcher's user-agent. The feed reads
+fine, so this is not a scan failure, and it is not a reason to drop a Zdopravy story. Fetch it with
+a browser user-agent instead:
+
+```bash
+curl -sSL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36" "<url>"
+```
+
 When a cluster has several sources:
 
 - Take facts attested by more than one as solid.
@@ -107,7 +115,9 @@ author: "Prague Insider Desk"
 aiGenerated: true                     # never false — the disclosure is not optional
 featured: false                       # at most one post per day, for a genuine lead story
 cover:
-  variant: grid                       # grid | strata | plan | transit — optional, omit to hash the slug
+  variant: transit                    # arcade | transit | canopy | parcels | massing — optional;
+                                      # omit it and the desk's category picks the motif, which is
+                                      # nearly always what you want
 sources:                              # at least one; identical URLs in both languages
   - title: "Original headline"
     url: "https://..."
