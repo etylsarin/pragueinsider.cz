@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-01",
+  "updated": "2026-08-25",
   "entries": {
     "1e4296005a1e3b95": {
       "url": "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy",
@@ -23,6 +23,41 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-priorities-2026-update"
     },
+    "2f6fe8477193d6c8": {
+      "url": "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny",
+      "title": "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny",
+      "source": "praha.camp (CAMP)",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "park-maniny-rohansky-ostrov"
+    },
+    "50f1e8e91ba78142": {
+      "url": "https://www.expats.cz/czech-news/article/prague-metro-closures-flora-reopening-delayed-as-hradcanska-shuts-for-2027",
+      "title": "Prague metro closures: Flora reopening delayed as Hradčanská shuts for 2027",
+      "source": "Expats.cz",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "flora-hradcanska-metro-closures"
+    },
+    "6732c3864f87becf": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku",
+      "title": "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "flora-hradcanska-metro-closures"
+    },
+    "920747b3242bb7ee": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu",
+      "title": "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "brandejsuv-statek-gymnasium-tender"
+    },
+    "967b813a2855c612": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/stanice-prazskeho-metra-flora-bude-uzavrena-az-do-konce-unora-376799",
+      "title": "Stanice pražského metra Flora bude uzavřena až do konce února",
+      "source": "ČT24 (ČTK)",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "flora-hradcanska-metro-closures"
+    },
     "971b1693b4304eac": {
       "url": "https://iprpraha.cz/rekonstrukce-zacina",
       "title": "Rekonstrukce začíná",
@@ -43,6 +78,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-in-european-context"
+    },
+    "f7baa479f0b132f9": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov",
+      "title": "DPP uzavřel smlouvu se zhotovitelem nové tramvajové tratě Malovanka – Strahov",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-08-25",
+      "usedInPost": "malovanka-strahov-tram-contract"
     }
   }
 }
