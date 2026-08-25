@@ -46,19 +46,26 @@ correctness bug, not a style choice.
 - `data/seen.json` is committed on purpose — it is the scan's memory across runs. Only
   `scripts/mark-covered.mjs` should write it during a daily run; marking everything the scan
   surfaced would bury stories that were merely deferred.
-- **The daily cloud routine needs `outcomes`, not just `sources`, to push.** In a routine's
-  `job_config.ccr.session_context`, `sources` grants the clone and `outcomes` provisions write
-  credentials:
+- **The daily cloud routine has three prerequisites, and each fails silently in its own way.**
+  Diagnose with `RemoteTrigger action=get_run_log session_id=…` — never by inference.
+  `claude.ai/code/session_*` is 403 to WebFetch, which is what makes these look unknowable.
 
-  ```json
-  "outcomes": [{"git_repository": {"git_info": {
-    "branches": ["master"], "repo": "etylsarin/pragueinsider.cz"}}}]
-  ```
+  1. **The Claude GitHub App must be installed on this repo.** Without it the run clones, writes,
+     validates and builds, then the push is rejected: *"Claude doesn't have GitHub access to
+     etylsarin/pragueinsider.cz"* with a 403. Install at
+     `https://github.com/apps/claude/installations/select_target`. The commit is stranded in an
+     ephemeral container and lost — but nothing is lost permanently, because `data/seen.json` is
+     only updated on a successful push, so the next run surfaces the same stories again.
+  2. **The environment needs a network egress allowlist** covering `registry.npmjs.org` and every
+     source host. It is a per-host allowlist, so `www.dpp.cz` and `dpp.cz` are different entries.
+     Without npm the run cannot `npm ci`, so every script dies on import; without the source hosts
+     the scan returns nothing. Both look exactly like a quiet news day.
+  3. **`session_context.outcomes` declares the git write target**, alongside `sources` which grants
+     the clone. Routines created through the claude.ai UI get it; ones created through the HTTP API
+     do not.
 
-  Routines created through the claude.ai UI get this automatically; one created through the HTTP
-  API does not. Without it the run clones fine, does all the work, and then silently cannot push —
-  it looks exactly like a quiet news day from outside. If a morning passes with no commit, check
-  this before believing the desk found nothing.
+  An earlier version of this note blamed (3) alone. That was wrong, and a run then repeated the
+  wrong diagnosis back because it had read this file. Check the actual error text first.
 
 ## Before committing content
 
