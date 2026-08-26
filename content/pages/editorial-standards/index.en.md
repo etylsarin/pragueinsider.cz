@@ -27,8 +27,18 @@ Each morning an automated scan reads the public news channels of a fixed set of 
 - [ČT24](https://ct24.ceskatelevize.cz/) — the public broadcaster's Prague region section
 - [Prague Morning](https://praguemorning.cz/) — English-language Prague news
 - [Expats.cz](https://www.expats.cz/) — English-language Czech news
+- [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — the heritage society, founded 1900
+- [PID / ROPID](https://pid.cz/) — the Prague integrated transport authority
+- The city districts — [Praha 1](https://www.praha1.cz/), [5](https://www.praha5.cz/), [7](https://www.praha7.cz/), [8](https://www.praha8.cz/) and [10](https://praha10.cz/)
+- [Prague City Tourism](https://praguecitytourism.cz/) — the city's tourism organisation
 
-Three of these publish nothing but the built environment, and three cover Prague and nothing else;
+One of these is a campaigning organisation rather than a news outlet. Klub Za starou Prahu argues
+publicly against demolitions and against schemes it considers damaging, and it is included
+deliberately: every other source here is an institution, a press office or a trade title, and none
+of them ever says a project is a bad idea. Its positions are attributed to it by name and are not
+presented as findings of fact.
+
+Several of these publish nothing but the built environment, and several cover Prague and nothing else;
 the rest are general or national outlets that have to earn each story. Items that are not about
 Prague, or not about the built environment, are discarded before any writing begins. So are stories
 where the built-environment vocabulary is incidental — an airline adding a route to Prague is not a

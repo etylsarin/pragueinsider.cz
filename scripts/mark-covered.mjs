@@ -24,28 +24,34 @@ import { canonicalUrl } from './lib/text.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const POSTS_DIR = path.join(ROOT, 'content/posts')
+const QUEUE_DIR = path.join(ROOT, 'content/queue')
 
 async function main() {
   const dryRun = process.argv.includes('--dry-run')
   const seen = await loadSeen()
 
-  let dirs = []
-  try {
-    const entries = await fs.readdir(POSTS_DIR, { withFileTypes: true })
-    dirs = entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name)
-  } catch (error) {
-    if (error.code !== 'ENOENT') throw error
+  // The queue counts as covered. A story written but not yet released must not resurface in
+  // tomorrow's digest and get written a second time.
+  const read = async (dir) => {
+    try {
+      const entries = await fs.readdir(dir, { withFileTypes: true })
+      return entries.filter((e) => e.isDirectory()).map((e) => ({ dir, name: e.name }))
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error
+      return []
+    }
   }
+  const dirs = [...(await read(POSTS_DIR)), ...(await read(QUEUE_DIR))]
 
   const added = []
   const linked = []
 
-  for (const dirName of dirs.sort()) {
+  for (const { dir, name: dirName } of dirs.sort((a, b) => a.name.localeCompare(b.name))) {
     const slug = dirName.replace(/^\d{4}-\d{2}-\d{2}-/, '')
-    const files = await fs.readdir(path.join(POSTS_DIR, dirName))
+    const files = await fs.readdir(path.join(dir, dirName))
 
     for (const file of files.filter((name) => /^index\.[a-z]{2}\.md$/.test(name))) {
-      const raw = await fs.readFile(path.join(POSTS_DIR, dirName, file), 'utf8')
+      const raw = await fs.readFile(path.join(dir, dirName, file), 'utf8')
       const { data: fm } = matter(raw)
 
       for (const source of fm.sources || []) {

@@ -23,9 +23,16 @@ npm run build          # static site into public/
 npm run ingest         # scan sources → data/digest.json
 # ...the desk reads the digest, fetches originals, writes markdown...
 node scripts/mark-covered.mjs   # record what was cited, so tomorrow's scan skips it
+node scripts/release.mjs        # move up to 3 queued articles into content/posts
 npm run validate       # publication gate
 npm run build          # must pass before committing
 ```
+
+**Writing and publishing are separate.** The desk writes every story that clears the editorial bar
+into `content/queue/`; `release.mjs` moves the oldest three a day into `content/posts/` and stamps
+the date. A six-story Monday is banked rather than discarded — which matters because
+`mark-covered.mjs` records a story's sources as covered whether or not it was written, so anything
+skipped is skipped for good.
 
 The desk step is driven by [`.claude/skills/daily-scan/SKILL.md`](.claude/skills/daily-scan/SKILL.md),
 so a scheduled cloud agent and a local `/daily-scan` run identical instructions.
@@ -42,7 +49,8 @@ node scripts/ingest.mjs --print                # dump the digest to stdout
 ## Layout
 
 ```
-content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   articles — both locales required
+content/queue/<slug>/index.{cs,en}.md            written, awaiting release
+content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   published — both locales required
 content/pages/<key>/index.{cs,en}.md             standing editorial pages
 data/seen.json                                   what has already been covered (committed)
 scripts/sources/*.mjs                            one adapter per source
@@ -59,7 +67,7 @@ ASCII slug per article, so `cs`↔`en` pairing is a prefix swap and hreflang can
 
 ## Sources
 
-Eight adapters, each written against the site's real markup:
+Twelve adapters, each written against the site's real markup:
 
 | Source | Method | Prague-only | Built-environment-only |
 |---|---|:---:|:---:|
@@ -71,6 +79,10 @@ Eight adapters, each written against the site's real markup:
 | ČT24 — Praha | listing scrape (region section) | | |
 | Prague Morning | RSS | ✓ | |
 | Expats.cz | RSS | | |
+| Klub Za starou Prahu | listing scrape (`/menu-leve/aktuality/`) | ✓ | ✓ |
+| PID / ROPID | RSS | | ✓ |
+| Městské části (Praha 1, 5, 7, 8, 10) | RSS, one adapter | ✓ | |
+| Prague City Tourism | RSS | ✓ | |
 
 The two flag columns are `pragueByDefault` / `topicByDefault`, and they carry most of the
 filtering: a specialist outlet is trusted on its beat, a general one has to prove every story
@@ -79,6 +91,18 @@ against the keyword lists.
 For a national outlet, the Prague evidence must be in the **headline** — "Praha" turns up
 incidentally in datelines, company names (`Dopravní podnik hl. m. Prahy`) and passing comparisons,
 and treating those as evidence let a Vysočina bus tender and a Bavarian rail contract through.
+
+**Every source host must be on the routine environment's network egress allowlist** — it is
+per-host, so `www.dpp.cz` and `dpp.cz` are separate entries. A blocked host makes the scan return
+nothing, which is indistinguishable from a quiet news day.
+
+Klub Za starou Prahu is a campaigning heritage society, not a news outlet, and is included
+deliberately: it is the only source that ever argues a project is a bad idea. Its positions are
+attributed to it by name.
+
+Deferred: **Správa železnic** would be a valuable primary source for the airport line and Masarykovo
+nádraží, but its press page is a Liferay portal that server-renders only navigation — the releases
+arrive via JS, so there is nothing to scrape without a headless browser.
 
 The ČT24 Prague section is where the reporting behind the regional TV bulletin — long broadcast as
 *Z metropole*, now *Události v regionech – Praha* — is written up. The `edu.ceskatelevize.cz` page

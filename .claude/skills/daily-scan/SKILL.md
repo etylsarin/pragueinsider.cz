@@ -8,7 +8,7 @@ description: Run the Prague Insider morning desk — scan the Czech urbanism sou
 You are running the editorial desk of a bilingual publication about Prague's built environment.
 Your output is markdown committed to this repo; a GitHub Action builds and deploys it.
 
-Work through the steps in order. **Do not skip step 6.** If anything blocks you, stop and report
+Work through the steps in order. **Do not skip step 7.** If anything blocks you, stop and report
 rather than committing something half-finished — an empty day is fine, a broken or unsourced
 article is not.
 
@@ -34,16 +34,40 @@ changed its markup and the adapter in `scripts/sources/` needs updating.
 
 ## 2. Choose what to write
 
-Read the clusters. **If the digest has candidates, expect to publish.** Pick 2 to 4 stories; one is
-fine on a thin day. Publish nothing only when the digest is empty, or when every candidate fails the
-test below — not merely because nothing feels momentous.
+Read the clusters. The score ranks *relevance* — whether an item is about Prague and about the
+built environment. It says nothing about whether the item is worth publishing. That judgement is
+yours, and it is the main thing you are here to do.
 
-Choose for news value, not for score — the score ranks relevance, not importance:
+### The bar
 
-- **Prefer** decisions, milestones, money, openings, competition results, plan approvals, closures
-  and works that change what gets built or how people move.
+Ask of each candidate: **has something changed, or is something merely being described?**
+
+Publish when a decision is taken, money is committed, a contract signed, construction starts or
+finishes, a plan clears a stage, something opens or closes, or someone formally objects. Those
+change what gets built, where, or how people move.
+
+A second test catches most of what survives the first: **would this still be worth reading in a
+month?** A tram contract signed, a station closure extended by three months, a park design chosen —
+yes. A works diversion for one week, a magazine issue, a programme of events — no.
+
 - **Prefer** a cluster with `sourceCount > 1`. Two outlets on one story means you can cross-check.
+- **Prefer** the contested over the announced. Where a scheme is objected to, that is usually the
+  better story, and it is the one nobody else is assembling.
+- **Skip** progress notes where nothing has been decided since last time.
 - **Skip** anything you cannot source properly in step 3.
+
+### How many
+
+**There is no cap on writing.** Write every story that clears the bar — six on a good day, one on a
+thin one, none if nothing qualifies. Publication is rate-limited separately, by
+`scripts/release.mjs`, so a strong Monday is banked rather than discarded.
+
+This matters because a skipped story is skipped permanently: `mark-covered.mjs` records its sources
+as covered whether or not you wrote it, so it never returns to a later digest. Anything you judge
+worth publishing, write now.
+
+Do not pad to fill the queue either. The bar is the only test; the queue simply means clearing it
+is never wasted.
 
 ### Press offices: what they are doing vs. what they are saying about themselves
 
@@ -58,6 +82,20 @@ A press release is a primary source, not a disqualification. Where the announcem
 write it and attribute it plainly ("DPP says…"). Where a developer is promoting its own building,
 you may still cover it if the project matters, but say in the article that the source is the
 developer.
+
+### District councils
+
+The městské části are in the scan for the occasional story the citywide press misses — a scheme
+becoming concrete, a formal objection lodged, a participation meeting called, a dispute over a
+landmark building. Praha 8 asking what happens to the concrete plant on Rohanský ostrov, or filing
+against the Dolní Chabry bypass, is exactly why they are there.
+
+But they are council newsletters. Most of what they publish is nursery enrolment, exhibition
+openings, waste collection and storm warnings, and the filter only strips the obvious cases.
+
+**The test: would this matter to a reader in a different district?** A resurfaced pavement, a senior
+programme or a district magazine would not. Do not publish local administrative detail merely
+because it passed the filter.
 
 Never write two articles from one cluster. One story is one article.
 
@@ -85,14 +123,19 @@ If a fetch fails or the page turns out to be thin, drop the story. Do not pad.
 
 ## 4. Write both languages
 
-For each story create `content/posts/YYYY-MM-DD-<slug>/` using **today's date** and an ASCII slug
-derived from the English headline. Both files go in that directory:
+For each story create `content/queue/<slug>/`, with an ASCII slug derived from the English
+headline. Both files go in that directory:
 
 ```
-content/posts/2026-08-14-vltava-philharmonic-permit/
+content/queue/vltava-philharmonic-permit/
   index.en.md
   index.cs.md
 ```
+
+**You write to the queue, never straight to `content/posts/`.** `scripts/release.mjs` moves articles
+into the archive and stamps the publication date. That is what lets you write everything worth
+writing on a good day without losing the surplus: six stories on Monday means three published and
+three waiting, and a thin Thursday draws on them rather than going empty.
 
 ### Frontmatter contract
 
@@ -104,7 +147,7 @@ slug: vltava-philharmonic-permit      # must equal the directory slug, both file
 lang: en                              # must equal the filename locale
 title: "Headline in this language"    # always double-quoted — Czech headlines contain colons
 dek: "One or two sentences of standfirst."
-date: 2026-08-14                      # must equal the directory date prefix, both files
+queuedAt: 2026-08-14                  # the day you wrote it; release.mjs turns this into `date`
 category: architecture                # development | transport | public-space | planning | architecture
 tags: ["Vltava Philharmonic", "Bubny-Zátory"]
 district: "Praha 7 – Holešovice"      # optional, omit if the story has no single location
@@ -166,7 +209,23 @@ node scripts/mark-covered.mjs
 This marks every source URL you cited as covered, so tomorrow's scan skips it. Stories you looked
 at but did not write stay in the digest until they age out — that is intended, do not mark them.
 
-## 6. Validate and build — both must pass
+## 6. Release from the queue
+
+```bash
+node scripts/release.mjs
+```
+
+Moves the **oldest** queued articles into `content/posts/`, up to three a day, stamping each with
+today's date. Oldest first, so nothing written on a busy Monday is starved by a busier Tuesday.
+
+An article queued more than fourteen days ago is held back and reported rather than released — by
+then it may have been overtaken. If you see that in the output, check whether the story still
+stands; if it does not, delete it from the queue and say so in the log.
+
+Run this every day, including days you wrote nothing. That is the point of the queue: a quiet
+morning still publishes, from what a busy one banked.
+
+## 7. Validate and build — both must pass
 
 ```bash
 node scripts/validate-posts.mjs && npm run build
@@ -175,11 +234,17 @@ node scripts/validate-posts.mjs && npm run build
 If validation fails, fix the frontmatter and run again. If the build fails, fix it. **Do not commit
 until both are green.** These two commands are the entire safety net between you and a live site.
 
-## 7. Commit
+## 8. Commit
 
-Committing is the last thing the desk does, and it is what triggers publication —
-`.github/workflows/deploy.yml` fires on push to master, re-runs the validation gate, builds, and
-deploys to Pages. Nothing else needs to happen for the story to go live.
+Committing is the last thing the desk does, and it is what triggers publication.
+
+**Push to the branch you were assigned, not to master.** A cloud routine run is pinned by its
+harness to its own `claude/*` branch and refused any other target — trying master fails the push and
+strands the work in a container that is about to be destroyed. `.github/workflows/promote-desk.yml`
+watches `claude/**`, re-runs the gate on a clean install, and fast-forwards master, which
+`deploy.yml` then publishes. Pushing your branch is all that is required; do not open a pull request.
+
+Run by hand on master, `git push` is simply push.
 
 First finish the run log. Replace the `_(the desk fills this in)_` placeholder in
 `data/last-run.md` with what you decided — one line per candidate you published and one per
@@ -187,7 +252,7 @@ candidate you skipped, each with a short reason. Be specific: "skipped, corporat
 is useful; "not newsworthy" is not.
 
 ```bash
-git add content/posts data/seen.json data/last-run.md
+git add content/posts content/queue data/seen.json data/last-run.md
 git commit -m "posts: <n> stories for YYYY-MM-DD"   # or "scan: no stories for YYYY-MM-DD"
 git push
 ```
@@ -196,7 +261,8 @@ git push
 commit at all is indistinguishable from a run that never happened, and that has cost real debugging
 time before.
 
-Then report to the user: what you published (with slugs), what you deliberately skipped and why,
+Then report to the user: what you wrote and what was released (they differ), how deep the queue
+is now, what you deliberately skipped and why,
 any source that errored, the exact `git push` output, and anything that looked like it needed a
 human.
 
@@ -204,7 +270,8 @@ human.
 
 ## Guard rails
 
-- **Maximum 4 posts per day.** If the sources deliver more, take the best four.
+- **No cap on writing; three released per day.** Write everything that clears the bar into the
+  queue and let `release.mjs` meter it out.
 - **Never overwrite an existing post directory.** If the slug exists, the story is already covered
    — pick another or add a distinguishing word to the slug.
 - **Never commit with validation or build failing.**
