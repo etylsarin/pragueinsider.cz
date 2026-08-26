@@ -33,15 +33,39 @@ const MapView = ({ locale, posts }) => (
   <MapContainer
     center={PRAGUE_CENTER}
     zoom={12}
+    maxZoom={18}
     scrollWheelZoom={false}
     className="w-full h-[60vh] min-h-[420px] border border-tertiary/40"
   >
-    {/* CARTO Positron — muted greys that sit under the palette rather than fighting it. */}
+    {/*
+      Esri World Light Gray Canvas — muted greys that sit under the palette rather than fighting
+      it, and no API key.
+
+      This was CARTO Positron until CARTO ended their keyless tier. They did not start returning
+      an error: the tiles still arrive as valid PNGs with HTTP 200 and "API KEY REQUIRED" painted
+      diagonally across the image. Nothing in the console, nothing in the markup — the only way to
+      see it is to look at the map. If these tiles ever go the same way, look at a tile before
+      looking at the code.
+
+      Esri splits labels out of the basemap, so this is two layers where CARTO was one. The tile
+      path is {z}/{y}/{x} — y before x, unlike every other provider here.
+
+      maxNativeZoom stops at 16 because that is where this basemap's data stops: ask for 17 and it
+      returns HTTP 200 with a grey "Map data not yet available" placeholder, the same shape of trap
+      as the CARTO watermark. maxZoom stays higher so the last real tiles are upscaled and a reader
+      can still zoom to a marker — blurry beats a wall of grey.
+    */}
     <TileLayer
-      url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-      subdomains="abcd"
-      maxZoom={19}
+      url="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+      attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a> — Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      maxNativeZoom={16}
+      maxZoom={18}
+    />
+    <TileLayer
+      url="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+      maxNativeZoom={16}
+      maxZoom={18}
+      zIndex={2}
     />
     {posts.map((post) => {
       const category = getCategory(post.category)
