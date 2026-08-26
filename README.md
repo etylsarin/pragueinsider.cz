@@ -23,9 +23,16 @@ npm run build          # static site into public/
 npm run ingest         # scan sources → data/digest.json
 # ...the desk reads the digest, fetches originals, writes markdown...
 node scripts/mark-covered.mjs   # record what was cited, so tomorrow's scan skips it
+node scripts/release.mjs        # move up to 3 queued articles into content/posts
 npm run validate       # publication gate
 npm run build          # must pass before committing
 ```
+
+**Writing and publishing are separate.** The desk writes every story that clears the editorial bar
+into `content/queue/`; `release.mjs` moves the oldest three a day into `content/posts/` and stamps
+the date. A six-story Monday is banked rather than discarded — which matters because
+`mark-covered.mjs` records a story's sources as covered whether or not it was written, so anything
+skipped is skipped for good.
 
 The desk step is driven by [`.claude/skills/daily-scan/SKILL.md`](.claude/skills/daily-scan/SKILL.md),
 so a scheduled cloud agent and a local `/daily-scan` run identical instructions.
@@ -42,7 +49,8 @@ node scripts/ingest.mjs --print                # dump the digest to stdout
 ## Layout
 
 ```
-content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   articles — both locales required
+content/queue/<slug>/index.{cs,en}.md            written, awaiting release
+content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   published — both locales required
 content/pages/<key>/index.{cs,en}.md             standing editorial pages
 data/seen.json                                   what has already been covered (committed)
 scripts/sources/*.mjs                            one adapter per source

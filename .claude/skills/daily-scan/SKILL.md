@@ -8,7 +8,7 @@ description: Run the Prague Insider morning desk — scan the Czech urbanism sou
 You are running the editorial desk of a bilingual publication about Prague's built environment.
 Your output is markdown committed to this repo; a GitHub Action builds and deploys it.
 
-Work through the steps in order. **Do not skip step 6.** If anything blocks you, stop and report
+Work through the steps in order. **Do not skip step 7.** If anything blocks you, stop and report
 rather than committing something half-finished — an empty day is fine, a broken or unsourced
 article is not.
 
@@ -58,13 +58,16 @@ yes. A works diversion for one week, a magazine issue, a programme of events —
 
 ### How many
 
-**Quantity follows from the bar, never the other way round.** Up to four a day. If one story clears
-it, publish one; if none do, publish none and say so in the log. Do not fill slots.
+**There is no cap on writing.** Write every story that clears the bar — six on a good day, one on a
+thin one, none if nothing qualifies. Publication is rate-limited separately, by
+`scripts/release.mjs`, so a strong Monday is banked rather than discarded.
 
-Equally, do not be precious. If four stories genuinely clear the bar, write four. The failure runs
-in both directions: this desk once published nothing on a day carrying a metro station design
-competition and a city-centre tram closure, because the guidance had made it too suspicious of its
-own best source.
+This matters because a skipped story is skipped permanently: `mark-covered.mjs` records its sources
+as covered whether or not you wrote it, so it never returns to a later digest. Anything you judge
+worth publishing, write now.
+
+Do not pad to fill the queue either. The bar is the only test; the queue simply means clearing it
+is never wasted.
 
 ### Press offices: what they are doing vs. what they are saying about themselves
 
@@ -120,14 +123,19 @@ If a fetch fails or the page turns out to be thin, drop the story. Do not pad.
 
 ## 4. Write both languages
 
-For each story create `content/posts/YYYY-MM-DD-<slug>/` using **today's date** and an ASCII slug
-derived from the English headline. Both files go in that directory:
+For each story create `content/queue/<slug>/`, with an ASCII slug derived from the English
+headline. Both files go in that directory:
 
 ```
-content/posts/2026-08-14-vltava-philharmonic-permit/
+content/queue/vltava-philharmonic-permit/
   index.en.md
   index.cs.md
 ```
+
+**You write to the queue, never straight to `content/posts/`.** `scripts/release.mjs` moves articles
+into the archive and stamps the publication date. That is what lets you write everything worth
+writing on a good day without losing the surplus: six stories on Monday means three published and
+three waiting, and a thin Thursday draws on them rather than going empty.
 
 ### Frontmatter contract
 
@@ -139,7 +147,7 @@ slug: vltava-philharmonic-permit      # must equal the directory slug, both file
 lang: en                              # must equal the filename locale
 title: "Headline in this language"    # always double-quoted — Czech headlines contain colons
 dek: "One or two sentences of standfirst."
-date: 2026-08-14                      # must equal the directory date prefix, both files
+queuedAt: 2026-08-14                  # the day you wrote it; release.mjs turns this into `date`
 category: architecture                # development | transport | public-space | planning | architecture
 tags: ["Vltava Philharmonic", "Bubny-Zátory"]
 district: "Praha 7 – Holešovice"      # optional, omit if the story has no single location
@@ -201,7 +209,23 @@ node scripts/mark-covered.mjs
 This marks every source URL you cited as covered, so tomorrow's scan skips it. Stories you looked
 at but did not write stay in the digest until they age out — that is intended, do not mark them.
 
-## 6. Validate and build — both must pass
+## 6. Release from the queue
+
+```bash
+node scripts/release.mjs
+```
+
+Moves the **oldest** queued articles into `content/posts/`, up to three a day, stamping each with
+today's date. Oldest first, so nothing written on a busy Monday is starved by a busier Tuesday.
+
+An article queued more than fourteen days ago is held back and reported rather than released — by
+then it may have been overtaken. If you see that in the output, check whether the story still
+stands; if it does not, delete it from the queue and say so in the log.
+
+Run this every day, including days you wrote nothing. That is the point of the queue: a quiet
+morning still publishes, from what a busy one banked.
+
+## 7. Validate and build — both must pass
 
 ```bash
 node scripts/validate-posts.mjs && npm run build
@@ -210,7 +234,7 @@ node scripts/validate-posts.mjs && npm run build
 If validation fails, fix the frontmatter and run again. If the build fails, fix it. **Do not commit
 until both are green.** These two commands are the entire safety net between you and a live site.
 
-## 7. Commit
+## 8. Commit
 
 Committing is the last thing the desk does, and it is what triggers publication.
 
@@ -228,7 +252,7 @@ candidate you skipped, each with a short reason. Be specific: "skipped, corporat
 is useful; "not newsworthy" is not.
 
 ```bash
-git add content/posts data/seen.json data/last-run.md
+git add content/posts content/queue data/seen.json data/last-run.md
 git commit -m "posts: <n> stories for YYYY-MM-DD"   # or "scan: no stories for YYYY-MM-DD"
 git push
 ```
@@ -237,7 +261,8 @@ git push
 commit at all is indistinguishable from a run that never happened, and that has cost real debugging
 time before.
 
-Then report to the user: what you published (with slugs), what you deliberately skipped and why,
+Then report to the user: what you wrote and what was released (they differ), how deep the queue
+is now, what you deliberately skipped and why,
 any source that errored, the exact `git push` output, and anything that looked like it needed a
 human.
 
@@ -245,7 +270,8 @@ human.
 
 ## Guard rails
 
-- **Maximum 4 posts per day.** If the sources deliver more, take the best four.
+- **No cap on writing; three released per day.** Write everything that clears the bar into the
+  queue and let `release.mjs` meter it out.
 - **Never overwrite an existing post directory.** If the slug exists, the story is already covered
    — pick another or add a distinguishing word to the slug.
 - **Never commit with validation or build failing.**

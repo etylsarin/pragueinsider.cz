@@ -241,6 +241,77 @@ async function validatePosts() {
   return { dirs: dirs.length, files: checked, slugs: slugsSeen }
 }
 
+/**
+ * Queued articles are validated to the same standard as published ones, minus the two rules that
+ * only make sense once a release date exists. Catching a broken article here is the whole point:
+ * by the time release.mjs moves it, nobody is looking.
+ */
+async function validateQueue(publishedSlugs) {
+  const queueDir = path.join(ROOT, 'content/queue')
+  const slugs = await readDirs(queueDir)
+
+  for (const slug of slugs.sort()) {
+    const rel = `content/queue/${slug}`
+
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug)) {
+      fail(rel, `slug "${slug}" must be lowercase ASCII words separated by single hyphens`)
+    }
+    if (RESERVED.has(slug)) {
+      fail(rel, `slug "${slug}" collides with a reserved route`)
+    }
+    if (publishedSlugs.has(slug)) {
+      fail(rel, `slug "${slug}" is already published at ${publishedSlugs.get(slug)}`)
+    }
+
+    const files = await fs.readdir(path.join(queueDir, slug))
+    const missing = LOCALES.filter((locale) => !files.includes(`index.${locale}.md`))
+    if (missing.length) {
+      fail(rel, `missing translation(s): ${missing.map((l) => `index.${l}.md`).join(', ')}`)
+    }
+
+    for (const locale of LOCALES.filter((l) => files.includes(`index.${l}.md`))) {
+      const file = `${rel}/index.${locale}.md`
+      const { data: fm, content } = matter(
+        await fs.readFile(path.join(queueDir, slug, `index.${locale}.md`), 'utf8')
+      )
+
+      if (!isNonEmptyString(fm.title)) fail(file, 'title is required')
+      if (!isNonEmptyString(fm.dek)) fail(file, 'dek is required')
+      if (fm.slug !== slug) fail(file, `frontmatter slug "${fm.slug}" must equal directory "${slug}"`)
+      if (fm.lang !== locale) fail(file, `frontmatter lang "${fm.lang}" must equal "${locale}"`)
+      if (!CATEGORY_KEYS.includes(fm.category)) {
+        fail(file, `category "${fm.category}" must be one of: ${CATEGORY_KEYS.join(', ')}`)
+      }
+      if (fm.aiGenerated !== true) fail(file, 'aiGenerated must be true')
+      if (!Array.isArray(fm.sources) || fm.sources.length === 0) {
+        fail(file, 'sources is required and must list at least one original')
+      } else {
+        fm.sources.forEach((source, i) => {
+          if (!isHttpUrl(source?.url)) fail(file, `sources[${i}].url is not a valid http(s) URL`)
+        })
+      }
+
+      // The queue's own rule: a release date is assigned by release.mjs, not written by hand.
+      if (!toIsoDate(fm.queuedAt)) {
+        fail(file, 'queuedAt is required as YYYY-MM-DD — release.mjs turns it into the date')
+      }
+      if (fm.date !== undefined) {
+        fail(file, 'queued articles must not carry a date; release.mjs assigns it on release')
+      }
+
+      const body = content.trim()
+      if (body.length < MIN_BODY_CHARS) {
+        fail(file, `body is ${body.length} chars — below the ${MIN_BODY_CHARS} minimum`)
+      }
+      for (const pattern of PLACEHOLDERS) {
+        if (pattern.test(body)) fail(file, `body contains an unresolved placeholder (${pattern})`)
+      }
+    }
+  }
+
+  return slugs.length
+}
+
 async function validatePages() {
   const pagesDir = path.join(ROOT, 'content/pages')
   const dirs = await readDirs(pagesDir)
@@ -324,13 +395,14 @@ async function main() {
   const quiet = args.includes('--quiet')
 
   const posts = await validatePosts()
+  const queueCount = await validateQueue(posts.slugs)
   const pageCount = await validatePages()
   let linkCount = 0
   if (args.includes('--check-links')) linkCount = await checkLinks()
 
   if (!quiet) {
     console.log(
-      `Checked ${posts.dirs} post(s) / ${posts.files} file(s), ${pageCount} standing page(s)` +
+      `Checked ${posts.dirs} post(s) / ${posts.files} file(s), ${queueCount} queued, ${pageCount} standing page(s)` +
         (linkCount ? `, ${linkCount} source link(s)` : '')
     )
   }
