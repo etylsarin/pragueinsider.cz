@@ -6,6 +6,12 @@ on:
     # A quiet-day run commits only the scan log; nothing to rebuild for.
     paths-ignore:
       - 'data/last-run.md'
+  # promote-desk.yml pushes to master using GITHUB_TOKEN, and GitHub deliberately does not fire
+  # workflows for such pushes — a loop guard. Without this the desk's work reaches master and the
+  # site never rebuilds, which looks exactly like a successful publish that nobody can see.
+  workflow_run:
+    workflows: ["Promote desk branch"]
+    types: [completed]
   workflow_dispatch:
 
 # Requires Settings → Pages → Source = "GitHub Actions".
@@ -21,6 +27,10 @@ concurrency:
 
 jobs:
   build:
+    # On a workflow_run trigger, only deploy if the promotion actually succeeded.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

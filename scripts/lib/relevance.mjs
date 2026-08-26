@@ -105,6 +105,17 @@ const CATEGORY_HINTS = [
   ['architecture', ['architekt', 'architektur', 'atelier', 'soutez', 'pamatk', 'rekonstrukc', 'fasad', 'navrh', 'studie', 'architecture', 'heritage', 'competition', 'brutalis', 'funkcionalis']],
 ]
 
+/**
+ * Other Czech cities. Several Prague district names are not unique — Brno has a Vinohrady, Písek
+ * has Žižkova kasárna — so a place match alone can be a geographic false positive. If another city
+ * is named and Prague is not named anywhere, the story is not ours.
+ */
+const OTHER_CITIES = [
+  'brno', 'brnen', 'bkom', 'ostrav', 'plzen', 'liberec', 'olomouc', 'pardubic', 'zlin',
+  'jihlav', 'karlovy vary', 'usti nad labem', 'ceske budejovic', 'hradec kralov', 'pisek',
+  'decin', 'chomutov', 'znojmo', 'prerov', 'kladno', 'mlada boleslav', 'ceska lipa', 'opav',
+]
+
 const countHits = (haystack, terms) => terms.filter((term) => haystack.includes(term))
 
 /**
@@ -135,7 +146,11 @@ export function scoreItem(item, sourceMeta = {}) {
    */
   const headlinePrague =
     countHits(headline, PRAGUE_TERMS).length > 0 || countHits(headline, PRAGUE_PLACES).length > 0
-  const isPrague = Boolean(sourceMeta.pragueByDefault) || headlinePrague
+  // A named other city with no mention of Prague anywhere outranks a shared district name.
+  const otherCityMatches = countHits(haystack, OTHER_CITIES)
+  const elsewhere = otherCityMatches.length > 0 && pragueMatches.length === 0
+
+  const isPrague = !elsewhere && (Boolean(sourceMeta.pragueByDefault) || headlinePrague)
 
   // A specialist outlet has already done this filtering for us; a general one has to prove it.
   const isUrban = sourceMeta.topicByDefault
@@ -161,6 +176,7 @@ export function scoreItem(item, sourceMeta = {}) {
       strong: strongMatches,
       weak: weakMatches,
       offBeat: offBeatMatches,
+      elsewhere: otherCityMatches,
     },
     suggestedCategory: suggestCategory(haystack),
   }
