@@ -83,6 +83,7 @@ Twelve adapters, each written against the site's real markup:
 | archiweb.cz | listing scrape (`/n`) — **no RSS**, `/rss` and `/en/rss` both 404 | | ✓ |
 | Zdopravy.cz | RSS | | ✓ |
 | ČT24 — Praha | listing scrape (region section) | | |
+| iROZHLAS | Google News **sitemap** — the Praha tag page is 403 to our bot | | |
 | Prague Morning | RSS | ✓ | |
 | Expats.cz | RSS | | |
 | Klub Za starou Prahu | listing scrape (`/menu-leve/aktuality/`) | ✓ | ✓ |
@@ -105,6 +106,14 @@ nothing, which is indistinguishable from a quiet news day.
 Klub Za starou Prahu is a campaigning heritage society, not a news outlet, and is included
 deliberately: it is the only source that ever argues a project is a bad idea. Its positions are
 attributed to it by name.
+
+iROZHLAS is read through the Google News sitemap their robots.txt advertises, not through the
+obvious `/zpravy-tag/praha`, which answers an identified crawler with 403 — Cloudflare bot
+management rather than robots.txt, which allows the path. Getting past it would mean pretending to
+be a browser, and a refusal is a refusal whatever the mechanism. The sitemap turns out to be the
+better channel anyway: it carries each article's editorial keywords, which no RSS feed here does,
+and the general feed is a national firehose that would bury a Prague planning story within hours.
+It reaches back about three days, so this source cannot be backfilled after a missed run.
 
 Deferred: **Správa železnic** would be a valuable primary source for the airport line and Masarykovo
 nádraží, but its press page is a Liferay portal that server-renders only navigation — the releases

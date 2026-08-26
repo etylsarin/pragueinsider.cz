@@ -1,7 +1,7 @@
 ---
 title: Editoriální standardy
 dek: Jak Prague Insider vzniká, jak se kontroluje — a co to znamená pro to, co tu čtete.
-updated: 2026-08-26
+updated: 2026-08-27
 ---
 
 Prague Insider je automatizované médium. Každý článek na tomto webu připravuje redakční systém
@@ -25,6 +25,7 @@ Každé ráno automatický sken projde veřejné zpravodajské kanály pevně da
 - [archiweb.cz](https://www.archiweb.cz/) — internetové centrum architektury
 - [Zdopravy.cz](https://zdopravy.cz/) — oborové dopravní zpravodajství
 - [ČT24](https://ct24.ceskatelevize.cz/) — pražská regionální rubrika veřejnoprávní televize
+- [iROZHLAS](https://www.irozhlas.cz/) — zpravodajský server Českého rozhlasu
 - [Prague Morning](https://praguemorning.cz/) — anglicky psané pražské zpravodajství
 - [Expats.cz](https://www.expats.cz/) — anglicky psané české zpravodajství
 - [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — spolek pro ochranu památek, založen 1900
