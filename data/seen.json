@@ -2,12 +2,33 @@
   "version": 1,
   "updated": "2026-08-26",
   "entries": {
+    "17193e40a93bfaad": {
+      "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110",
+      "title": "Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-08-26",
+      "usedInPost": "blanka-tunnel-bus-145"
+    },
+    "17711e834a71f027": {
+      "url": "https://praha10.cz/pet-autobusovych-linek-obslouzi-novou-zastavku-sourozencu-capkovych",
+      "title": "Pět autobusových linek obslouží novou zastávku Sourozenců Čapkových",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-08-26",
+      "usedInPost": "blanka-tunnel-bus-145"
+    },
     "1e4296005a1e3b95": {
       "url": "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy",
       "title": "Cesta Metropolitního plánu: Čtrnáct let příprav nastartuje intenzivní rozvoj Prahy",
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-01",
       "usedInPost": "metropolitan-plan-takes-effect"
+    },
+    "2a3749ed8d2ac5b7": {
+      "url": "https://pid.cz/trvale-zmeny-pid-od-zari-2026",
+      "title": "Trvalé změny PID od září 2026",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-08-26",
+      "usedInPost": "blanka-tunnel-bus-145"
     },
     "2ad3aaa520b65375": {
       "url": "https://praha.camp/magazin/detail/jak-se-praha-chladila-driv-nez-mela-klimatizaci-objevte-zapomenute-principy-ke-kterym-se-vracime",
@@ -86,6 +107,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prager-cubes-circular-reconstruction"
     },
+    "dc77a796a72bf873": {
+      "url": "https://zdopravy.cz/omezeni-na-prijezdu-do-prahy-skonci-vymohly-si-radnice-silnice-se-vsak-opet-rozkope-pozdeji-296030",
+      "title": "Omezení na příjezdu do Prahy skončí, vymohly si radnice. Silnice se však opět rozkope později",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-26",
+      "usedInPost": "roztocka-lane-closure-shortened"
+    },
     "f2585ef45cacab77": {
       "url": "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite",
       "title": "Rekonstrukce Pragerových kostek začíná. Důraz klade na recyklaci a návrat k původní kvalitě",
@@ -106,6 +134,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-25",
       "usedInPost": "malovanka-strahov-tram-contract"
+    },
+    "fb8ba3b8bc4b2130": {
+      "url": "https://www.praha1.cz/palac-zofin-jak-se-vyviji-spor-o-predani-novemu-najemci",
+      "title": "Palác Žofín: jak se vyvíjí spor o předání novému nájemci",
+      "source": "Městská část Praha 1",
+      "firstSeen": "2026-08-26",
+      "usedInPost": "zofin-palace-handover-dispute"
     }
   }
 }
