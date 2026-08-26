@@ -5,6 +5,7 @@ title: "Prague Puts a Listed Farmstead in Suchdol Out to Tender as a CZK 1.07bn 
 dek: "Brandejsův statek gets 12 classrooms for 408 students, two new buildings and a design-and-build contract — while the city police keep their horses on site."
 date: 2026-08-25
 category: development
+alsoIn: ["architecture"]
 tags: ["Brandejsův statek", "Suchdol", "schools", "heritage", "design and build"]
 district: "Praha-Suchdol"
 location:

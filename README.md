@@ -51,11 +51,15 @@ node scripts/ingest.mjs --print                # dump the digest to stdout
 ```
 content/queue/<slug>/index.{cs,en}.md            written, awaiting release
 content/posts/YYYY-MM-DD-slug/index.{cs,en}.md   published — both locales required
+content/posts/YYYY-MM-DD-slug/cover.jpg          a cover photograph, if the story has one
 content/pages/<key>/index.{cs,en}.md             standing editorial pages
+photos/inbox/                                    staging, local only — gitignored
 data/seen.json                                   what has already been covered (committed)
 scripts/sources/*.mjs                            one adapter per source
 scripts/lib/relevance.mjs                        the Prague + built-environment filter
 scripts/validate-posts.mjs                       publication gate
+scripts/attach-photo.mjs                         files an inbox photo onto an article
+scripts/make-shortcut.mjs                        emits docs/photo-upload.shortcut
 src/lib/cover.js                                 generated cover art (page + OG, one implementation)
 src/config/{site,categories,pages}.js            single source of truth for routes and taxonomy
 src/lib/paths.js                                 every URL on the site is built here
@@ -143,6 +147,38 @@ Pages. `static/CNAME` carries the custom domain.
 article page. `tailwind.config.js` is ported from it verbatim — change the design system first,
 not the Tailwind config. Shape language is sharp: no rounded corners anywhere.
 
-Covers are generated, never photographed. `src/lib/cover.js` produces one SVG consumed twice — inlined
-on the page (abstract: pattern, desk chip, wordmark) and rasterised to a 1200×630 OG card (which
-adds the headline, because it travels alone into social feeds).
+`src/lib/cover.js` produces one SVG consumed twice — inlined on the page (abstract: pattern, desk
+chip, wordmark) and rasterised to a 1200×630 OG card (which adds the headline, because it travels
+alone into social feeds).
+
+## Photographs
+
+A cover is the generated plate or a photograph the desk took itself. Nothing else: no press
+handouts, no photography from the outlets we read, no stock, no generated imagery of real places.
+That is the promise on the Editorial Standards page and the gate enforces the mechanical half of
+it — a photographed cover without alt text in both languages and a named credit does not publish.
+
+Capture is deliberately stupid, because the decisions cannot be made where the photograph is
+taken. An iOS Shortcut (`docs/photo-shortcut.md`) opens the camera, takes the location from
+CoreLocation, converts and resizes on-device, and writes the picture plus a one-line note into
+`iCloud Drive/PragueInsider/`. It picks no article, writes no caption and holds no credentials —
+the Mac is where photographs get attached, and iCloud Drive is already there.
+
+```bash
+npm run photos     # drain iCloud Drive into photos/inbox, then rank each against the archive
+```
+
+Each photo prints with its note, its coordinates and up to five candidate articles, scored on
+distance from each article's `location` and on word overlap with the note. The desk — `/photo-desk`
+— reads that, picks the story, writes the alt text and caption in Czech and English, and files it:
+
+```bash
+node scripts/attach-photo.mjs --photo <file> --slug <slug> \
+  --alt-en "…" --alt-cs "…" --caption-en "…" --caption-cs "…"
+```
+
+That rotates, resizes to 2000px, strips the metadata, writes the file beside the markdown and
+patches `cover:` in both locales, keeping any `variant` as the fallback. Inline body images need
+none of this — drop the file beside `index.<locale>.md` and write `![alt](./file.jpg)`.
+
+Step by step, including replacing and removing one: [`docs/attaching-a-photo.md`](docs/attaching-a-photo.md).

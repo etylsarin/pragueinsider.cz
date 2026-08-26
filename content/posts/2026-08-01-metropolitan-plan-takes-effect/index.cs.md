@@ -5,6 +5,7 @@ title: "Metropolitní plán po čtrnácti letech příprav nabývá účinnosti 
 dek: "Dokument, který nahrazuje sto let starou logiku zónování, otevírá kapacitu pro 350 tisíc bytů — a tlačí je na brownfieldy místo do volné krajiny."
 date: 2026-08-01
 category: planning
+alsoIn: ["development"]
 tags: ["Metropolitní plán", "územní plánování", "IPR", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true

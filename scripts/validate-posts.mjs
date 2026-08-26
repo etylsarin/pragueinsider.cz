@@ -61,6 +61,93 @@ const toIsoDate = (value) => {
   return null
 }
 
+/** Filenames only — a cover photo sits beside index.<locale>.md, never elsewhere in the tree. */
+const PHOTO_FILENAME = /^[a-z0-9]+(?:[-_][a-z0-9]+)*\.(jpg|jpeg|png|webp|avif)$/
+const PHOTO_MAX_BYTES = 900 * 1024
+const MIN_ALT_CHARS = 15
+
+/**
+ * Covers are either a generated plate or a photograph, and a photograph carries obligations the
+ * plate does not: it has to exist, it has to be described for anyone who cannot see it, and it
+ * has to say who took it. Those are the promises on the Editorial Standards page, so they are
+ * enforced here rather than left to whoever attaches the file.
+ */
+async function checkCover(file, fm, dir) {
+  const cover = fm.cover
+  if (cover === undefined) return
+
+  if (cover.variant !== undefined && !VARIANTS.includes(cover.variant)) {
+    fail(file, `cover.variant "${cover.variant}" must be one of: ${VARIANTS.join(', ')}`)
+  }
+  if (cover.seed !== undefined && !Number.isInteger(cover.seed)) {
+    fail(file, 'cover.seed must be an integer')
+  }
+
+  const describes = ['alt', 'caption', 'credit', 'shot'].filter((key) => cover[key] !== undefined)
+
+  if (cover.photo === undefined) {
+    if (describes.length) {
+      fail(file, `cover.${describes.join('/')} describes a photograph, but cover.photo is not set`)
+    }
+    return
+  }
+
+  if (!isNonEmptyString(cover.photo) || !PHOTO_FILENAME.test(cover.photo)) {
+    fail(file, `cover.photo "${cover.photo}" must be a lowercase filename beside index.<locale>.md (jpg, png, webp or avif)`)
+    return
+  }
+
+  try {
+    const stat = await fs.stat(path.join(dir, cover.photo))
+    if (stat.size > PHOTO_MAX_BYTES) {
+      warn(file, `cover.photo is ${Math.round(stat.size / 1024)} KB — over ${PHOTO_MAX_BYTES / 1024} KB, run it back through scripts/attach-photo.mjs`)
+    }
+  } catch {
+    fail(file, `cover.photo "${cover.photo}" is not in ${path.relative(ROOT, dir)}`)
+  }
+
+  // Alt text is the accessibility promise; a caption is editorial and a credit is the licence.
+  if (!isNonEmptyString(cover.alt)) {
+    fail(file, 'cover.alt is required on a photographed cover — describe what is in the frame')
+  } else if (cover.alt.trim().length < MIN_ALT_CHARS) {
+    fail(file, `cover.alt is ${cover.alt.trim().length} chars — too short to describe a photograph`)
+  }
+  if (!isNonEmptyString(cover.credit)) {
+    fail(file, 'cover.credit is required on a photographed cover — we publish no uncredited photography')
+  }
+  if (!isNonEmptyString(cover.caption)) {
+    warn(file, 'cover.caption is empty — the photograph runs without a caption')
+  }
+  if (cover.shot !== undefined && !toIsoDate(cover.shot)) {
+    fail(file, 'cover.shot must be YYYY-MM-DD')
+  }
+}
+
+/**
+ * Cross-filing. `category` is the desk that owns the article — it decides the cover's colour and
+ * motif, the map marker and the label, and each of those needs exactly one answer. `alsoIn` only
+ * adds the article to another desk's feed, which is a question with more than one right answer.
+ */
+function checkAlsoIn(file, fm) {
+  if (fm.alsoIn === undefined) return
+
+  if (!Array.isArray(fm.alsoIn) || fm.alsoIn.some((key) => !isNonEmptyString(key))) {
+    fail(file, 'alsoIn must be an array of category keys')
+    return
+  }
+  for (const key of fm.alsoIn) {
+    if (!CATEGORY_KEYS.includes(key)) {
+      fail(file, `alsoIn "${key}" must be one of: ${CATEGORY_KEYS.join(', ')}`)
+    }
+    if (key === fm.category) {
+      fail(file, `alsoIn lists "${key}", which is already the primary category`)
+    }
+  }
+  if (new Set(fm.alsoIn).size !== fm.alsoIn.length) {
+    fail(file, 'alsoIn contains a duplicate')
+  }
+}
+
 const readDirs = async (dir) => {
   try {
     const entries = await fs.readdir(dir, { withFileTypes: true })
@@ -140,6 +227,7 @@ async function validatePosts() {
       if (fm.tags !== undefined && (!Array.isArray(fm.tags) || fm.tags.some((tag) => !isNonEmptyString(tag)))) {
         fail(file, 'tags must be an array of non-empty strings')
       }
+      checkAlsoIn(file, fm)
 
       // --- provenance: the one rule that must never be relaxed ---
       if (!Array.isArray(fm.sources) || fm.sources.length === 0) {
@@ -171,14 +259,7 @@ async function validatePosts() {
           fail(file, `location ${lat},${lng} falls outside Prague`)
         }
       }
-      if (fm.cover !== undefined) {
-        if (fm.cover.variant !== undefined && !VARIANTS.includes(fm.cover.variant)) {
-          fail(file, `cover.variant "${fm.cover.variant}" must be one of: ${VARIANTS.join(', ')}`)
-        }
-        if (fm.cover.seed !== undefined && !Number.isInteger(fm.cover.seed)) {
-          fail(file, 'cover.seed must be an integer')
-        }
-      }
+      await checkCover(file, fm, path.join(postsDir, dirName))
 
       // --- body ---
       const body = content.trim()
@@ -205,6 +286,17 @@ async function validatePosts() {
         }
         if (toIsoDate(a.date) !== toIsoDate(b.date)) {
           fail(rel, `date differs between locales: ${first}=${toIsoDate(a.date)} ${locale}=${toIsoDate(b.date)}`)
+        }
+        const desksA = [...(a.alsoIn || [])].sort().join('|')
+        const desksB = [...(b.alsoIn || [])].sort().join('|')
+        if (desksA !== desksB) {
+          fail(rel, `alsoIn differs between locales: ${first}=[${desksA}] ${locale}=[${desksB}] — one article files under the same desks in both languages`)
+        }
+        if ((a.cover?.photo || null) !== (b.cover?.photo || null)) {
+          fail(rel, `cover.photo differs between locales: ${first}=${a.cover?.photo || 'none'} ${locale}=${b.cover?.photo || 'none'} — one photograph, described twice`)
+        }
+        if ((a.cover?.credit || null) !== (b.cover?.credit || null)) {
+          fail(rel, 'cover.credit differs between locales — the photographer does not change with the language')
         }
         const urlsA = (a.sources || []).map((s) => s?.url).sort().join('|')
         const urlsB = (b.sources || []).map((s) => s?.url).sort().join('|')
@@ -283,6 +375,7 @@ async function validateQueue(publishedSlugs) {
         fail(file, `category "${fm.category}" must be one of: ${CATEGORY_KEYS.join(', ')}`)
       }
       if (fm.aiGenerated !== true) fail(file, 'aiGenerated must be true')
+      checkAlsoIn(file, fm)
       if (!Array.isArray(fm.sources) || fm.sources.length === 0) {
         fail(file, 'sources is required and must list at least one original')
       } else {
@@ -290,6 +383,8 @@ async function validateQueue(publishedSlugs) {
           if (!isHttpUrl(source?.url)) fail(file, `sources[${i}].url is not a valid http(s) URL`)
         })
       }
+
+      await checkCover(file, fm, path.join(queueDir, slug))
 
       // The queue's own rule: a release date is assigned by release.mjs, not written by hand.
       if (!toIsoDate(fm.queuedAt)) {

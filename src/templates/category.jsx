@@ -1,10 +1,10 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 import ArticleCard from '../components/ArticleCard'
 import { t } from '../i18n/ui'
-import { CATEGORIES, getCategory } from '../config/categories'
+import { getCategory } from '../config/categories'
 import { categoryPath } from '../lib/paths'
 
 const CategoryTemplate = ({ data, pageContext }) => {
@@ -25,26 +25,6 @@ const CategoryTemplate = ({ data, pageContext }) => {
           {category.blurb[locale]}
         </p>
       </header>
-
-      {/* Desk switcher — category chips, active desk filled per DESIGN.md */}
-      <nav className="flex flex-wrap gap-2 mb-stack-lg">
-        {CATEGORIES.map((other) => {
-          const active = other.key === categoryKey
-          return (
-            <Link
-              key={other.key}
-              to={categoryPath(locale, other.key)}
-              className={`border px-3 py-1 text-label-caps font-label-caps transition-colors ${
-                active
-                  ? 'bg-slate-infrastructure text-on-primary border-slate-infrastructure'
-                  : 'border-tertiary/60 text-on-surface-variant hover:border-primary hover:text-primary'
-              }`}
-            >
-              {other.label[locale]}
-            </Link>
-          )
-        })}
-      </nav>
 
       {nodes.length === 0 ? (
         <p className="text-headline-sm font-headline-sm text-on-surface-variant py-stack-lg">
@@ -90,8 +70,8 @@ export const query = graphql`
   query Category($locale: String!, $categoryKey: String!) {
     posts: allMarkdownRemark(
       filter: {
-        fields: { collection: { eq: "posts" }, locale: { eq: $locale } }
-        frontmatter: { draft: { ne: true }, category: { eq: $categoryKey } }
+        fields: { collection: { eq: "posts" }, locale: { eq: $locale }, desks: { in: [$categoryKey] } }
+        frontmatter: { draft: { ne: true } }
       }
       sort: { frontmatter: { date: DESC } }
     ) {
@@ -103,7 +83,7 @@ export const query = graphql`
           dek
           date
           category
-          cover { variant seed }
+          cover { ...CoverFields }
         }
       }
     }

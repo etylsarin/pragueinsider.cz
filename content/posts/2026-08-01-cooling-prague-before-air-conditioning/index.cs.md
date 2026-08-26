@@ -5,6 +5,7 @@ title: "Praha se uměla chladit sama. Pak na to zapomněla"
 dek: "Pasáže, podloubí, dvory a palácové zahrady byly klimatickou infrastrukturou dřív, než pro to existovalo slovo — a nejnovější pražské čtvrti je potichu obnovují."
 date: 2026-08-01
 category: public-space
+alsoIn: ["architecture"]
 tags: ["adaptace na klima", "pasáže", "Lucerna", "Masaryčka", "přehřívání měst"]
 author: "Prague Insider Desk"
 aiGenerated: true

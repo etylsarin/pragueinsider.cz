@@ -6,7 +6,7 @@ const { LOCALES, DEFAULT_LOCALE } = require('./src/config/site')
 const { CATEGORIES } = require('./src/config/categories')
 const { STATIC_PAGES } = require('./src/config/pages')
 const { postPath, categoryPath, homePath, staticPagePath, mapPath } = require('./src/lib/paths')
-const { coverSvg } = require('./src/lib/cover')
+const { coverSvg, ogPhotoOverlaySvg, FORMATS } = require('./src/lib/cover')
 
 /**
  * Content lives at content/<collection>/<name>/index.<locale>.md.
@@ -45,6 +45,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   createNodeField({ node, name: 'locale', value: locale })
   createNodeField({ node, name: 'slug', value: slug })
   createNodeField({ node, name: 'path', value: pagePath })
+
+  // `category` answers "which desk owns this" — it picks the cover's colour and motif, the map
+  // marker and the label, and all three need exactly one answer. Appearing in a feed does not,
+  // so `alsoIn` cross-files without disturbing any of that. They are flattened here because
+  // Gatsby's filters have no `or`: one list field keeps the category page a single query.
+  const desks = [node.frontmatter?.category, ...(node.frontmatter?.alsoIn || [])].filter(Boolean)
+  createNodeField({ node, name: 'desks', value: desks })
 }
 
 const badPaths = new Set()
@@ -72,6 +79,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       locale: String
       slug: String
       path: String
+      desks: [String!]
     }
 
     type Frontmatter {
@@ -80,6 +88,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       date: Date @dateformat
       updated: Date @dateformat
       category: String
+      alsoIn: [String!]
       tags: [String!]
       district: String
       location: GeoPoint
@@ -108,6 +117,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     type CoverConfig {
       variant: String
       seed: Int
+      photo: File @fileByRelativePath
+      alt: String
+      caption: String
+      credit: String
+      shot: Date @dateformat
     }
   `)
 }
@@ -296,7 +310,7 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
             date
             category
             tags
-            cover { variant seed }
+            cover { variant seed photo { absolutePath } }
           }
         }
       }
@@ -348,22 +362,64 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
     }
   }
 
+  /**
+   * A photographed cover still has to travel alone into a social feed, so the OG card is the
+   * photograph cropped to 1200x630 with the same headline typography composited over a scrim.
+   * If the file is unreadable we fall through to the generated plate rather than shipping a post
+   * with no card at all — a missing og:image is a worse failure than an abstract one.
+   */
+  const renderPhotoCard = async (photoPath, overlay, file) => {
+    try {
+      const base = await sharp(photoPath)
+        .rotate() // honour EXIF orientation before we drop the metadata
+        .resize(FORMATS.og.w, FORMATS.og.h, { fit: 'cover', position: 'attention' })
+        .toBuffer()
+      const buffer = await sharp(base)
+        .composite([{ input: Buffer.from(overlay), top: 0, left: 0 }])
+        .png({ compressionLevel: 9 })
+        .toBuffer()
+      await fs.writeFile(path.join(ogDir, file), buffer)
+      return true
+    } catch (error) {
+      reporter.warn(`[prague-insider] photo OG card failed for ${file} (${error.message}) — using the generated plate`)
+      return false
+    }
+  }
+
   let rendered = 0
+  let photographed = 0
   for (const node of nodes) {
     const { locale, slug } = node.fields
     const category = CATEGORIES.find((c) => c.key === node.frontmatter.category)
+    const label = category ? category.label[locale] : node.frontmatter.category
+    const file = `${slug}-${locale}.png`
+    const photoPath = node.frontmatter.cover?.photo?.absolutePath
+
+    if (photoPath) {
+      const overlay = ogPhotoOverlaySvg({
+        title: node.frontmatter.title,
+        category: node.frontmatter.category,
+        label,
+      })
+      if (await renderPhotoCard(photoPath, overlay, file)) {
+        rendered += 1
+        photographed += 1
+        continue
+      }
+    }
+
     const svg = coverSvg(
       {
         slug,
         title: node.frontmatter.title,
         category: node.frontmatter.category,
-        label: category ? category.label[locale] : node.frontmatter.category,
+        label,
         variant: node.frontmatter.cover?.variant,
         seed: node.frontmatter.cover?.seed,
       },
       { format: 'og' }
     )
-    if (await renderCard(svg, `${slug}-${locale}.png`)) rendered += 1
+    if (await renderCard(svg, file)) rendered += 1
   }
 
   await renderCard(
@@ -374,5 +430,8 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
     'default.png'
   )
 
-  reporter.info(`[prague-insider] OG cards: ${rendered}/${nodes.length}`)
+  reporter.info(
+    `[prague-insider] OG cards: ${rendered}/${nodes.length}` +
+      (photographed ? ` (${photographed} photographic)` : '')
+  )
 }

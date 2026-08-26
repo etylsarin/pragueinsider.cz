@@ -16,10 +16,6 @@ const siteMetadata = {
     cs: 'Architektura, rozvoj, veřejný prostor a doprava v Praze. Denní analýza proměn metropole.',
     en: 'Architecture, development, public space and transport in Prague. Daily analysis of a city in transition.',
   },
-  tagline: {
-    cs: 'Architektonická přesnost v urbanistické žurnalistice.',
-    en: 'Architectural precision in urban journalism.',
-  },
   desk: 'Prague Insider Desk',
 }
 

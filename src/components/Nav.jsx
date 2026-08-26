@@ -94,12 +94,6 @@ const Nav = ({ locale, translationPath }) => {
           >
             <Icon name="search" />
           </button>
-          <Link
-            to={`${locale === 'cs' ? '' : '/en'}/rss.xml`}
-            className="hidden md:block bg-primary text-on-primary px-4 py-2 text-label-caps font-label-caps hover:bg-surface-tint transition-colors"
-          >
-            {t(locale, 'nav.subscribe')}
-          </Link>
           <button
             type="button"
             onClick={() => setMenuOpen((open) => !open)}

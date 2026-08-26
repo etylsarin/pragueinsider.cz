@@ -48,7 +48,11 @@ jobs:
 
       - name: Promote to master
         run: |
-          if git diff --quiet origin/master -- content/posts data; then
+          # `content` rather than `content/posts`: a story can be written today and released
+          # days later, and a cover photograph lands inside the article's own directory. Diffing
+          # only content/posts made those pushes exit 0 with "nothing to promote", which reads
+          # exactly like a successful publish.
+          if git diff --quiet origin/master -- content data; then
             echo "Nothing to promote — no content or scan-log changes."
             exit 0
           fi
