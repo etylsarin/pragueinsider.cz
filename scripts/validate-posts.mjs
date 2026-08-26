@@ -215,6 +215,29 @@ async function validatePosts() {
     }
   }
 
+  // Two pins on one day is a silent bug: the homepage takes the first and ignores the rest.
+  const featuredByDate = new Map()
+  for (const dirName of dirs) {
+    const match = /^(\d{4}-\d{2}-\d{2})-/.exec(dirName)
+    if (!match) continue
+    try {
+      const raw = await fs.readFile(path.join(postsDir, dirName, 'index.en.md'), 'utf8')
+      const { data: fm } = matter(raw)
+      if (fm.featured === true) {
+        const list = featuredByDate.get(match[1]) || []
+        list.push(dirName)
+        featuredByDate.set(match[1], list)
+      }
+    } catch {
+      /* missing locale already reported above */
+    }
+  }
+  for (const [date, dirNames] of featuredByDate) {
+    if (dirNames.length > 1) {
+      fail(`content/posts (${date})`, `${dirNames.length} posts marked featured on one day — the homepage leads with one and silently ignores the rest: ${dirNames.join(', ')}`)
+    }
+  }
+
   return { dirs: dirs.length, files: checked, slugs: slugsSeen }
 }
 

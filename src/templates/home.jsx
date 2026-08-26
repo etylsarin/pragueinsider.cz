@@ -22,8 +22,14 @@ const HomeTemplate = ({ data, pageContext }) => {
   const { locale, translationPath } = pageContext
   const nodes = data.posts.nodes
 
-  // A post can be pinned with `featured: true`; otherwise the newest story leads.
-  const leadIndex = Math.max(0, nodes.findIndex((node) => node.frontmatter.featured))
+  // `featured: true` pins the lead, but only among stories sharing the newest publication
+  // date. The flag is written into frontmatter and never cleared, so honouring it globally
+  // meant one pinned post owned the front page forever and yesterday's news outranked today's.
+  const newestDate = nodes[0]?.frontmatter.date
+  const leadIndex = Math.max(
+    0,
+    nodes.findIndex((node) => node.frontmatter.featured && node.frontmatter.date === newestDate)
+  )
   const lead = nodes[leadIndex]
   const rest = nodes.filter((_, i) => i !== leadIndex)
   const secondary = rest.slice(0, 6)
