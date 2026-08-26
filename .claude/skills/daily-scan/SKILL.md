@@ -34,16 +34,37 @@ changed its markup and the adapter in `scripts/sources/` needs updating.
 
 ## 2. Choose what to write
 
-Read the clusters. **If the digest has candidates, expect to publish.** Pick 2 to 4 stories; one is
-fine on a thin day. Publish nothing only when the digest is empty, or when every candidate fails the
-test below — not merely because nothing feels momentous.
+Read the clusters. The score ranks *relevance* — whether an item is about Prague and about the
+built environment. It says nothing about whether the item is worth publishing. That judgement is
+yours, and it is the main thing you are here to do.
 
-Choose for news value, not for score — the score ranks relevance, not importance:
+### The bar
 
-- **Prefer** decisions, milestones, money, openings, competition results, plan approvals, closures
-  and works that change what gets built or how people move.
+Ask of each candidate: **has something changed, or is something merely being described?**
+
+Publish when a decision is taken, money is committed, a contract signed, construction starts or
+finishes, a plan clears a stage, something opens or closes, or someone formally objects. Those
+change what gets built, where, or how people move.
+
+A second test catches most of what survives the first: **would this still be worth reading in a
+month?** A tram contract signed, a station closure extended by three months, a park design chosen —
+yes. A works diversion for one week, a magazine issue, a programme of events — no.
+
 - **Prefer** a cluster with `sourceCount > 1`. Two outlets on one story means you can cross-check.
+- **Prefer** the contested over the announced. Where a scheme is objected to, that is usually the
+  better story, and it is the one nobody else is assembling.
+- **Skip** progress notes where nothing has been decided since last time.
 - **Skip** anything you cannot source properly in step 3.
+
+### How many
+
+**Quantity follows from the bar, never the other way round.** Up to four a day. If one story clears
+it, publish one; if none do, publish none and say so in the log. Do not fill slots.
+
+Equally, do not be precious. If four stories genuinely clear the bar, write four. The failure runs
+in both directions: this desk once published nothing on a day carrying a metro station design
+competition and a city-centre tram closure, because the guidance had made it too suspicious of its
+own best source.
 
 ### Press offices: what they are doing vs. what they are saying about themselves
 
@@ -191,9 +212,15 @@ until both are green.** These two commands are the entire safety net between you
 
 ## 7. Commit
 
-Committing is the last thing the desk does, and it is what triggers publication —
-`.github/workflows/deploy.yml` fires on push to master, re-runs the validation gate, builds, and
-deploys to Pages. Nothing else needs to happen for the story to go live.
+Committing is the last thing the desk does, and it is what triggers publication.
+
+**Push to the branch you were assigned, not to master.** A cloud routine run is pinned by its
+harness to its own `claude/*` branch and refused any other target — trying master fails the push and
+strands the work in a container that is about to be destroyed. `.github/workflows/promote-desk.yml`
+watches `claude/**`, re-runs the gate on a clean install, and fast-forwards master, which
+`deploy.yml` then publishes. Pushing your branch is all that is required; do not open a pull request.
+
+Run by hand on master, `git push` is simply push.
 
 First finish the run log. Replace the `_(the desk fills this in)_` placeholder in
 `data/last-run.md` with what you decided — one line per candidate you published and one per
