@@ -9,8 +9,6 @@ tags: ["CityDeal", "IPR", "building regulations", "planning reform", "Czech citi
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: parcels
 sources:
   - title: "Česká města sdílejí zkušenosti. A hovoří o reformě svého plánování"
     url: "https://iprpraha.cz/city-deal-leto2026"

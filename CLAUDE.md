@@ -52,6 +52,18 @@ correctness bug, not a style choice.
 - OG cards are rasterised by sharp via librsvg, which cannot see our webfonts and falls back to
   generic families. That is a known, accepted trade to keep one cover implementation. Do not "fix"
   it by adding a second cover renderer.
+- **Two rules the plate motifs are built on, both learned the hard way.** Apparent size in
+  axonometric comes from *height*, not footprint — a flat plan looks like a smaller drawing beside
+  a block city on the same plot, and the fix is more ground (`PLOT` in `cover.js`), never more
+  storeys. And sampled randomness reads as uniform: each desk has one fixed seed, so there is no
+  distribution to see, only one arrangement — variety that has to be there is constructed, not
+  drawn. Heights are dealt across the range and shuffled; transit runs a fixed count of lines each
+  way; trees come from two size classes.
+- **Desk plates are static files, not generated at build.** `scripts/make-covers.mjs` writes
+  `static/covers/<desk>-<locale>-{card,hero,og}` and they are committed; `npm run covers`
+  regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
+  shows the same plate, so `cover.variant` and `cover.seed` are gone and the gate rejects them.
+  Only a photographed article gets a social card of its own, built in `onPostBuild`.
 - Inline body images already work with no new code: drop the file beside `index.<locale>.md` and
   write `![alt](./file.jpg)`. `content/posts` is a sourced filesystem and `gatsby-remark-images`
   is configured. Only the **cover** needs `cover.photo` in frontmatter.

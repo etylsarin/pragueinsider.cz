@@ -24,7 +24,6 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const { CATEGORY_KEYS } = require(path.join(ROOT, 'src/config/categories.js'))
 const { STATIC_PAGES } = require(path.join(ROOT, 'src/config/pages.js'))
 const { reservedSlugs } = require(path.join(ROOT, 'src/lib/paths.js'))
-const { VARIANTS } = require(path.join(ROOT, 'src/lib/cover.js'))
 const { LOCALES } = require(path.join(ROOT, 'src/config/site.js'))
 
 const RESERVED = reservedSlugs()
@@ -76,11 +75,12 @@ async function checkCover(file, fm, dir) {
   const cover = fm.cover
   if (cover === undefined) return
 
-  if (cover.variant !== undefined && !VARIANTS.includes(cover.variant)) {
-    fail(file, `cover.variant "${cover.variant}" must be one of: ${VARIANTS.join(', ')}`)
-  }
-  if (cover.seed !== undefined && !Number.isInteger(cover.seed)) {
-    fail(file, 'cover.seed must be an integer')
+  // `variant` and `seed` used to vary the plate per article. Plates are now one per desk, so the
+  // fields do nothing — reject them rather than let them sit in frontmatter looking meaningful.
+  for (const dead of ['variant', 'seed']) {
+    if (cover[dead] !== undefined) {
+      fail(file, `cover.${dead} no longer does anything — plates are per desk, see scripts/make-covers.mjs`)
+    }
   }
 
   const describes = ['alt', 'caption', 'credit', 'shot'].filter((key) => cover[key] !== undefined)

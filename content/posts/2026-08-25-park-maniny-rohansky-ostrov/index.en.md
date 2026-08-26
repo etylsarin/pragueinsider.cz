@@ -13,8 +13,6 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: canopy
 sources:
   - title: "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny"
     url: "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny"

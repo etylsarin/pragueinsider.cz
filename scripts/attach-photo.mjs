@@ -439,11 +439,10 @@ function patchCover(raw, fields) {
   const frontmatter = raw.slice(0, raw.length - body.length)
   const { data } = matter(raw)
 
-  const lines = ['cover:']
-  // The plate stays declared: it is what the article falls back to if the photo is ever pulled.
-  if (data.cover?.variant) lines.push(`  variant: ${data.cover.variant}`)
-  if (Number.isInteger(data.cover?.seed)) lines.push(`  seed: ${data.cover.seed}`)
-  lines.push(`  photo: ${fields.photo}`)
+  // Nothing is carried over. `variant` and `seed` used to be preserved here so the plate stayed
+  // declared as a fallback; plates are per desk now, derived from `category`, so there is nothing
+  // to keep and the gate rejects either field.
+  const lines = ['cover:', `  photo: ${fields.photo}`]
   lines.push(`  alt: ${yamlString(fields.alt)}`)
   if (fields.caption) lines.push(`  caption: ${yamlString(fields.caption)}`)
   lines.push(`  credit: ${yamlString(fields.credit)}`)

@@ -9,8 +9,6 @@ tags: ["metro A", "Flora", "Hradčanská", "DPP", "step-free access"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
-cover:
-  variant: transit
 sources:
   - title: "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku"

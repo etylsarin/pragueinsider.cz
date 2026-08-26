@@ -26,7 +26,7 @@ const ArticleCard = ({ post, locale, variant = 'default' }) => {
   if (variant === 'lead') {
     return (
       <Link to={to} className="group block">
-        <Cover post={post} label={label} format="hero" className="mb-stack-md" />
+        <Cover post={post} label={label} locale={locale} format="hero" className="mb-stack-md" />
         <div className="flex items-center gap-2 mb-4">
           <span className="border border-tertiary/80 px-2 py-1 text-label-caps font-label-caps text-on-surface-variant">
             {label}
@@ -49,7 +49,7 @@ const ArticleCard = ({ post, locale, variant = 'default' }) => {
   if (variant === 'compact') {
     return (
       <Link to={to} className="group block">
-        <Cover post={post} label={label} format="card" className="mb-3" />
+        <Cover post={post} label={label} locale={locale} format="card" className="mb-3" />
         <h4 className="text-body-md font-body-md font-bold text-primary group-hover:text-brick-accent transition-colors leading-tight">
           {post.title}
         </h4>
@@ -76,7 +76,7 @@ const ArticleCard = ({ post, locale, variant = 'default' }) => {
 
   return (
     <Link to={to} className="group block">
-      <Cover post={post} label={label} format="card" className="mb-stack-sm" />
+      <Cover post={post} label={label} locale={locale} format="card" className="mb-stack-sm" />
       <div className="mt-3">{meta}</div>
       <h3 className="text-headline-sm font-headline-sm text-primary group-hover:text-brick-accent transition-colors mt-2 leading-tight">
         {post.title}

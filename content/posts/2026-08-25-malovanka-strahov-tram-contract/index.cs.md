@@ -13,8 +13,6 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: transit
 sources:
   - title: "DPP uzavřel smlouvu se zhotovitelem nové tramvajové tratě Malovanka – Strahov"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov"

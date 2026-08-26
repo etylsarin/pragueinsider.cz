@@ -10,8 +10,6 @@ district: "Praha 5 – Košíře"
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: massing
 sources:
   - title: "Praha otevřela centrum duševního zdraví pro seniory a postaví nový pavilon"
     url: "https://www.archiweb.cz/n/domaci/praha-otevrela-centrum-dusevniho-zdravi-pro-seniory-a-postavi-novy-pavilon"

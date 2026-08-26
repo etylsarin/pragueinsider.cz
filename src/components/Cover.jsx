@@ -1,25 +1,24 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { coverSvg, FORMATS } from '../lib/cover'
+import { FORMATS } from '../lib/cover'
+import { CATEGORY_KEYS } from '../config/categories'
 
 /**
- * The cover slot: a photograph if the article has one, the generated plate otherwise.
+ * The cover slot: a photograph if the article has one, its desk's plate otherwise.
  *
- * Most articles are about buildings nobody on the desk has stood in front of, and those keep the
- * abstract plate from src/lib/cover.js. When someone has actually been there, `cover.photo` in
- * frontmatter points at a file sitting beside index.<locale>.md and that wins.
+ * The plate is a static file from static/covers/, written by scripts/make-covers.mjs and shared by
+ * every article on that desk. It used to be generated per article — the slug seeded the placement
+ * inside the motif — and inlined separately into every page. That produced variation nobody had
+ * asked for, and made a cache impossible: twelve articles meant twelve drawings, none reusable.
+ * One file per desk per locale per format is fetched once and reused across the archive.
  *
- * Photographed covers are always 16:9, whatever `format` asks for. The plate is drawn to order at
+ * Photographed covers are always 16:9, whatever `format` asks for. A plate is drawn to order at
  * each format, but a photograph can only be cropped — and cropping the same frame twice, once to
  * 16:9 for a card and once to 2:1 for a hero, throws away different parts of the picture in
  * different places on the site. One crop, decided in the GraphQL fragment below, is honest.
- *
- * The SVG branch uses dangerouslySetInnerHTML because the markup comes from our own deterministic
- * generator — never from content — and inlining saves a request and any layout shift an <img>
- * would bring.
  */
-const Cover = ({ post, label, format = 'card', className = '' }) => {
+const Cover = ({ post, label, locale = 'cs', format = 'card', className = '' }) => {
   const image = getImage(post.cover?.photo)
 
   if (image) {
@@ -36,25 +35,23 @@ const Cover = ({ post, label, format = 'card', className = '' }) => {
   }
 
   const { w, h } = FORMATS[format] || FORMATS.card
-  const svg = coverSvg(
-    {
-      slug: post.slug,
-      title: post.title,
-      category: post.category,
-      label,
-      variant: post.cover?.variant,
-      seed: post.cover?.seed,
-    },
-    { format }
-  ).replace('<svg ', '<svg class="block w-full h-full" preserveAspectRatio="xMidYMid meet" ')
+  const desk = CATEGORY_KEYS.includes(post.category) ? post.category : CATEGORY_KEYS[0]
+  const shape = format === 'hero' ? 'hero' : 'card'
 
   return (
-    <div
-      className={`w-full overflow-hidden ${className}`}
-      style={{ aspectRatio: `${w} / ${h}` }}
-      // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{ __html: svg }}
-    />
+    <div className={`w-full overflow-hidden ${className}`} style={{ aspectRatio: `${w} / ${h}` }}>
+      {/* Decorative: the headline it belongs to is always adjacent, and the desk name is drawn
+          into the plate itself. Describing it again would only be noise in a screen reader. */}
+      <img
+        src={`/covers/${desk}-${locale}-${shape}.svg`}
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+        width={w}
+        height={h}
+        className="block w-full h-full object-cover"
+      />
+    </div>
   )
 }
 
@@ -65,8 +62,6 @@ const Cover = ({ post, label, format = 'card', className = '' }) => {
  */
 export const coverFields = graphql`
   fragment CoverFields on CoverConfig {
-    variant
-    seed
     alt
     caption
     credit
