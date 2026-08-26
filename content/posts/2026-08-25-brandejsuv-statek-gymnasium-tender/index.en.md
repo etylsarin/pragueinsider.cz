@@ -14,8 +14,6 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: massing
 sources:
   - title: "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu"
     url: "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu"

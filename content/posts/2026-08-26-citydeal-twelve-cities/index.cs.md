@@ -9,8 +9,6 @@ tags: ["CityDeal", "IPR", "stavební předpisy", "reforma plánování", "česk�
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: parcels
 sources:
   - title: "Česká města sdílejí zkušenosti. A hovoří o reformě svého plánování"
     url: "https://iprpraha.cz/city-deal-leto2026"

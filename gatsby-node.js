@@ -6,7 +6,7 @@ const { LOCALES, DEFAULT_LOCALE } = require('./src/config/site')
 const { CATEGORIES } = require('./src/config/categories')
 const { STATIC_PAGES } = require('./src/config/pages')
 const { postPath, categoryPath, homePath, staticPagePath, mapPath } = require('./src/lib/paths')
-const { coverSvg, ogPhotoOverlaySvg, FORMATS } = require('./src/lib/cover')
+const { ogPhotoOverlaySvg, FORMATS } = require('./src/lib/cover')
 
 /**
  * Content lives at content/<collection>/<name>/index.<locale>.md.
@@ -115,8 +115,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type CoverConfig {
-      variant: String
-      seed: Int
       photo: File @fileByRelativePath
       alt: String
       caption: String
@@ -289,9 +287,10 @@ exports.onCreatePage = ({ page, actions }) => {
 /**
  * Post-build artefacts: the client-side search index and the social cards.
  *
- * OG cards are rasterised from the same coverSvg() the page inlines. sharp renders SVG through
- * librsvg, which resolves fonts through fontconfig and cannot see our webfonts — so the OG
- * variant falls back to generic serif/monospace families. That costs a little typographic
+ * OG cards are now built only for articles carrying a photograph; every other article shares its
+ * desk's plate from static/covers/, written once by scripts/make-covers.mjs. sharp renders the
+ * headline overlay through librsvg, which resolves fonts through fontconfig and cannot see our
+ * webfonts — so it falls back to generic serif/monospace families. That costs a little typographic
  * fidelity on a 1200x630 social thumbnail and keeps one cover implementation instead of two.
  */
 exports.onPostBuild = async ({ graphql, reporter }) => {
@@ -310,7 +309,7 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
             date
             category
             tags
-            cover { variant seed photo { absolutePath } }
+            cover { photo { absolutePath } }
           }
         }
       }
@@ -339,34 +338,34 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
   await fs.writeFile(path.join(publicDir, 'search-index.json'), JSON.stringify(index))
   reporter.info(`[prague-insider] search index: ${index.length} entries`)
 
-  // --- OG cards ---------------------------------------------------------------------------
+  // --- OG cards ------------------------------------------------------------------------------
+  //
+  // Only for articles that carry a photograph. Everything else shares its desk's plate from
+  // static/covers/, written once by scripts/make-covers.mjs — so a build that publishes no
+  // photographs rasterises nothing at all, where it used to render one PNG per article per locale
+  // whose only difference from its neighbour was a headline the platforms render as text anyway.
+  const photographed = nodes.filter((node) => node.frontmatter.cover?.photo?.absolutePath)
+
+  if (photographed.length === 0) {
+    reporter.info('[prague-insider] OG cards: none needed — no photographed covers')
+    return
+  }
+
   let sharp
   try {
     sharp = require('sharp')
   } catch (error) {
-    reporter.warn('[prague-insider] sharp unavailable — skipping OG image generation')
+    reporter.warn('[prague-insider] sharp unavailable — photographed articles fall back to their desk plate')
     return
   }
 
   const ogDir = path.join(publicDir, 'og')
   await fs.mkdir(ogDir, { recursive: true })
 
-  const renderCard = async (svg, file) => {
-    try {
-      const buffer = await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toBuffer()
-      await fs.writeFile(path.join(ogDir, file), buffer)
-      return true
-    } catch (error) {
-      reporter.warn(`[prague-insider] could not render ${file}: ${error.message}`)
-      return false
-    }
-  }
-
   /**
-   * A photographed cover still has to travel alone into a social feed, so the OG card is the
-   * photograph cropped to 1200x630 with the same headline typography composited over a scrim.
-   * If the file is unreadable we fall through to the generated plate rather than shipping a post
-   * with no card at all — a missing og:image is a worse failure than an abstract one.
+   * The photograph cropped to 1200x630 with the headline composited over a scrim. If the file is
+   * unreadable we skip it: Seo falls back to the desk plate, which is a worse card than the photo
+   * and a much better one than none.
    */
   const renderPhotoCard = async (photoPath, overlay, file) => {
     try {
@@ -381,57 +380,24 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
       await fs.writeFile(path.join(ogDir, file), buffer)
       return true
     } catch (error) {
-      reporter.warn(`[prague-insider] photo OG card failed for ${file} (${error.message}) — using the generated plate`)
+      reporter.warn(`[prague-insider] photo OG card failed for ${file} (${error.message}) — falling back to the desk plate`)
       return false
     }
   }
 
   let rendered = 0
-  let photographed = 0
-  for (const node of nodes) {
+  for (const node of photographed) {
     const { locale, slug } = node.fields
     const category = CATEGORIES.find((c) => c.key === node.frontmatter.category)
-    const label = category ? category.label[locale] : node.frontmatter.category
-    const file = `${slug}-${locale}.png`
-    const photoPath = node.frontmatter.cover?.photo?.absolutePath
-
-    if (photoPath) {
-      const overlay = ogPhotoOverlaySvg({
-        title: node.frontmatter.title,
-        category: node.frontmatter.category,
-        label,
-      })
-      if (await renderPhotoCard(photoPath, overlay, file)) {
-        rendered += 1
-        photographed += 1
-        continue
-      }
+    const overlay = ogPhotoOverlaySvg({
+      title: node.frontmatter.title,
+      category: node.frontmatter.category,
+      label: category ? category.label[locale] : node.frontmatter.category,
+    })
+    if (await renderPhotoCard(node.frontmatter.cover.photo.absolutePath, overlay, `${slug}-${locale}.png`)) {
+      rendered += 1
     }
-
-    const svg = coverSvg(
-      {
-        slug,
-        title: node.frontmatter.title,
-        category: node.frontmatter.category,
-        label,
-        variant: node.frontmatter.cover?.variant,
-        seed: node.frontmatter.cover?.seed,
-      },
-      { format: 'og' }
-    )
-    if (await renderCard(svg, file)) rendered += 1
   }
 
-  await renderCard(
-    coverSvg(
-      { slug: 'prague-insider', title: 'Prague Insider', category: 'architecture', label: 'Praha' },
-      { format: 'og' }
-    ),
-    'default.png'
-  )
-
-  reporter.info(
-    `[prague-insider] OG cards: ${rendered}/${nodes.length}` +
-      (photographed ? ` (${photographed} photographic)` : '')
-  )
+  reporter.info(`[prague-insider] OG cards: ${rendered}/${photographed.length} photographed`)
 }

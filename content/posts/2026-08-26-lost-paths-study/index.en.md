@@ -10,8 +10,6 @@ tags: ["IPR", "landscape", "cycling", "green infrastructure", "metropolitan area
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
-cover:
-  variant: parcels
 sources:
   - title: "Užitečné propojení i biotop. Praha má studii, která vyhodnocuje potenciál zaniklých cest"
     url: "https://iprpraha.cz/prazske-cesty"

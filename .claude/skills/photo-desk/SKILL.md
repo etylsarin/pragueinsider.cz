@@ -65,8 +65,8 @@ node scripts/attach-photo.mjs \
 ```
 
 The script rotates, resizes to 2000px, strips the metadata, writes the file beside the markdown
-and patches `cover:` in both locales. It preserves any existing `variant` — the plate stays
-declared as the fallback.
+and patches `cover:` in both locales. Removing a photograph later needs no counterpart edit — the
+article falls back to its desk plate, which comes from `category`.
 
 `--credit` defaults to the site owner. Pass it explicitly if somebody else took the picture, and
 only if they have agreed to it being published.

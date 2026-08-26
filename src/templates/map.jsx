@@ -30,7 +30,6 @@ const MapTemplate = ({ data, pageContext }) => {
     category: node.frontmatter.category,
     district: node.frontmatter.district,
     location: node.frontmatter.location,
-    cover: node.frontmatter.cover,
   }))
 
   const MapView = mapModule?.default
@@ -115,7 +114,6 @@ export const query = graphql`
           category
           district
           location { lat lng }
-          cover { variant seed }
         }
       }
     }

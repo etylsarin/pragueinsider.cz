@@ -60,6 +60,8 @@ scripts/lib/relevance.mjs                        the Prague + built-environment 
 scripts/validate-posts.mjs                       publication gate
 scripts/attach-photo.mjs                         files an inbox photo onto an article
 scripts/make-shortcut.mjs                        emits docs/photo-upload.shortcut
+scripts/make-covers.mjs                          writes the desk plates into static/covers
+static/covers/                                   the plates, generated once and committed
 src/lib/cover.js                                 generated cover art (page + OG, one implementation)
 src/config/{site,categories,pages}.js            single source of truth for routes and taxonomy
 src/lib/paths.js                                 every URL on the site is built here
@@ -147,9 +149,16 @@ Pages. `static/CNAME` carries the custom domain.
 article page. `tailwind.config.js` is ported from it verbatim — change the design system first,
 not the Tailwind config. Shape language is sharp: no rounded corners anywhere.
 
-`src/lib/cover.js` produces one SVG consumed twice — inlined on the page (abstract: pattern, desk
-chip, wordmark) and rasterised to a 1200×630 OG card (which adds the headline, because it travels
-alone into social feeds).
+`src/lib/cover.js` draws the desk plates — a saturated ground in the desk's colour, one
+architectural motif, the desk name in the brand serif. It runs once, not per build:
+
+```bash
+npm run covers     # writes static/covers/, commit the result
+```
+
+Every article on a desk shows that desk's plate, so the browser fetches one file and reuses it
+across the archive. Only an article carrying a photograph gets a social card built for it, which
+`gatsby-node.js` composites in `onPostBuild`.
 
 ## Photographs
 
@@ -178,7 +187,8 @@ node scripts/attach-photo.mjs --photo <file> --slug <slug> \
 ```
 
 That rotates, resizes to 2000px, strips the metadata, writes the file beside the markdown and
-patches `cover:` in both locales, keeping any `variant` as the fallback. Inline body images need
+patches `cover:` in both locales. Remove the photograph and the article falls back to its desk
+plate automatically, because that is derived from `category`. Inline body images need
 none of this — drop the file beside `index.<locale>.md` and write `![alt](./file.jpg)`.
 
 Step by step, including replacing and removing one: [`docs/attaching-a-photo.md`](docs/attaching-a-photo.md).

@@ -72,7 +72,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
                has always had, floated over artwork it cannot obscure anything of. */
             <figure className="w-full">
               <div className="border border-tertiary/80">
-                <Cover post={coverPost} label={label} format="hero" />
+                <Cover post={coverPost} label={label} locale={locale} format="hero" />
               </div>
               <figcaption className="mt-3 text-caption font-caption text-on-surface-variant">
                 {fm.cover.caption ? <span className="text-primary">{fm.cover.caption} </span> : null}
@@ -87,7 +87,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
             </figure>
           ) : (
             <figure className="w-full border border-tertiary/80">
-              <Cover post={coverPost} label={label} format="hero" />
+              <Cover post={coverPost} label={label} locale={locale} format="hero" />
             </figure>
           )}
         </header>
@@ -224,7 +224,12 @@ export const Head = ({ data, pageContext }) => {
       description={fm.dek || data.post.excerpt}
       path={data.post.fields.path}
       alternates={alternates}
-      ogImage={`/og/${data.post.fields.slug}-${locale}.png`}
+      ogImage={
+        // Only photographed articles get a card of their own; the rest share their desk's plate.
+        fm.cover?.photo
+          ? `/og/${data.post.fields.slug}-${locale}.png`
+          : `/covers/${fm.category}-${locale}-og.png`
+      }
       type="article"
       publishedTime={fm.date}
       tags={fm.tags || []}

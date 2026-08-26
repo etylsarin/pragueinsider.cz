@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-label="Development">
+  <defs><clipPath id="band-387068906"><rect x="0" y="0" width="1200" height="378"/></clipPath></defs>
+  <rect width="1200" height="600" fill="#B33939"/>
+  <g clip-path="url(#band-387068906)"><rect x="0" y="109" width="124" height="269" fill="#fcf9f8" fill-opacity="0.1" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="133" y="189" width="124" height="189" fill="#fcf9f8" fill-opacity="0.1" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="267" y="197" width="124" height="181" fill="#E9E3B4" fill-opacity="0.92" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="400" y="144" width="124" height="234" fill="#E9E3B4" fill-opacity="0.92" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="533" y="157" width="124" height="221" fill="#fcf9f8" fill-opacity="0.1" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="667" y="136" width="124" height="242" fill="#fcf9f8" fill-opacity="0.1" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="800" y="71" width="124" height="307" fill="#E9E3B4" fill-opacity="0.92" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="933" y="112" width="124" height="266" fill="#E9E3B4" fill-opacity="0.92" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/><rect x="1067" y="99" width="124" height="279" fill="#E9E3B4" fill-opacity="0.92" stroke="#fcf9f8" stroke-width="3" stroke-opacity="0.5"/></g>
+  <rect x="0" y="378" width="1200" height="222" fill="#B33939"/>
+  <rect x="0" y="378" width="1200" height="4" fill="#fcf9f8" opacity="0.85"/>
+  <text x="56" y="516" font-family="'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif" font-size="76" font-weight="700" fill="#fcf9f8" letter-spacing="-1">DEVELOPMENT</text>
+  <rect x="56" y="550" width="86" height="5" fill="#E9E3B4"/>
+  <text x="1144" y="548" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="19" letter-spacing="2" fill="#fcf9f8" opacity="0.7">PRAGUE INSIDER</text>
+</svg>

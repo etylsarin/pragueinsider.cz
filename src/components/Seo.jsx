@@ -25,7 +25,7 @@ const Seo = ({
   const fullTitle = title ? `${title} — ${siteMetadata.title}` : siteMetadata.title
   const metaDescription = description || siteMetadata.description[locale]
   const canonical = `${siteMetadata.siteUrl}${path}`
-  const image = `${siteMetadata.siteUrl}${ogImage || '/og/default.png'}`
+  const image = `${siteMetadata.siteUrl}${ogImage || '/covers/default-og.png'}`
 
   const pairs = alternates.filter((alt) => LOCALES.includes(alt.locale))
 

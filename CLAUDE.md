@@ -52,6 +52,11 @@ correctness bug, not a style choice.
 - OG cards are rasterised by sharp via librsvg, which cannot see our webfonts and falls back to
   generic families. That is a known, accepted trade to keep one cover implementation. Do not "fix"
   it by adding a second cover renderer.
+- **Desk plates are static files, not generated at build.** `scripts/make-covers.mjs` writes
+  `static/covers/<desk>-<locale>-{card,hero,og}` and they are committed; `npm run covers`
+  regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
+  shows the same plate, so `cover.variant` and `cover.seed` are gone and the gate rejects them.
+  Only a photographed article gets a social card of its own, built in `onPostBuild`.
 - Inline body images already work with no new code: drop the file beside `index.<locale>.md` and
   write `![alt](./file.jpg)`. `content/posts` is a sourced filesystem and `gatsby-remark-images`
   is configured. Only the **cover** needs `cover.photo` in frontmatter.

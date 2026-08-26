@@ -84,8 +84,9 @@ node scripts/attach-photo.mjs \
 | `--dry-run` | report what would happen, write nothing |
 
 It rotates by the EXIF orientation, resizes to 2000px wide, strips all metadata, writes the file
-beside the markdown, and patches `cover:` in both locales — preserving any existing `variant`,
-which stays as the fallback if the photograph is ever pulled.
+beside the markdown, and patches `cover:` in both locales. Remove the photograph later and the
+article falls back to its desk plate on its own — that comes from `category`, so there is nothing
+to restore.
 
 ## 5. Check it
 
@@ -117,8 +118,7 @@ Pass the full set every time.
 
 **Removing** — if it is not yet committed, `git checkout -- content/posts/<dir>/` and delete
 `cover.jpg`. If it is, delete `cover.jpg` and remove the `photo`, `alt`, `caption`, `credit` and
-`shot` lines from both `index.*.md`, leaving `variant`. The article falls back to the generated
-plate. The gate will catch it if you remove the file and forget the frontmatter, or the reverse.
+`shot` lines from both `index.*.md`. The article falls back to its desk plate. The gate will catch it if you remove the file and forget the frontmatter, or the reverse.
 
 **More than one photograph** — an article has one *cover*. Passing `--name atrium.jpg` files the
 image under that name but also repoints `cover:` at it, replacing the first. Extra photographs in

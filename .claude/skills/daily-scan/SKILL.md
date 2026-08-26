@@ -169,10 +169,6 @@ aiGenerated: true                     # never false — the disclosure is not op
 featured: false                       # at most ONE post per day, for a genuine lead story.
                                       # It pins the homepage lead only among that day's posts,
                                       # so you never need to unset yesterday's.
-cover:
-  variant: transit                    # arcade | transit | canopy | parcels | massing — optional;
-                                      # omit it and the desk's category picks the motif, which is
-                                      # nearly always what you want
 sources:                              # at least one; identical URLs in both languages
   - title: "Original headline"
     url: "https://..."

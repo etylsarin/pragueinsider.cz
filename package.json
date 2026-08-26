@@ -14,7 +14,8 @@
     "clean": "gatsby clean",
     "ingest": "node scripts/ingest.mjs",
     "validate": "node scripts/validate-posts.mjs",
-    "photos": "node scripts/attach-photo.mjs --list"
+    "photos": "node scripts/attach-photo.mjs --list",
+    "covers": "node scripts/make-covers.mjs"
   },
   "dependencies": {
     "@fontsource-variable/source-serif-4": "^5.1.0",

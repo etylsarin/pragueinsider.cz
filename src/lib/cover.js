@@ -2,11 +2,14 @@
  * Cover art for every article.
  *
  * Prague Insider mostly writes about buildings nobody on the desk has stood in front of, so an
- * article gets a generated cover unless someone has been there and photographed it — never
- * licensed or scraped photography. The same SVG string is inlined on the page by
- * src/components/Cover.jsx and rasterised into OG cards by gatsby-node.js — one implementation,
- * two consumers, no drift. Articles that do carry a photograph use it in both places instead,
- * and ogPhotoOverlaySvg() below keeps their social card set in the same type.
+ * article gets a drawn cover unless someone has been there and photographed it — never licensed
+ * or scraped photography.
+ *
+ * Nothing here runs at build time any more. scripts/make-covers.mjs calls it once per design
+ * change and writes one plate per desk into static/covers/; every article on a desk shows that
+ * same file, so the browser fetches it once instead of receiving a different inline drawing on
+ * every page. ogPhotoOverlaySvg() is the exception — a photographed article still gets a social
+ * card of its own at build time, set in this same type.
  *
  * The design is a **section plate**: a saturated ground in the desk's colour, one architectural
  * motif belonging to that desk, and the desk name set large in the brand serif. Each desk keeps
@@ -37,7 +40,7 @@ const CATEGORY_ACCENT = {
   architecture: PALETTE.primary,
 }
 
-/** Each desk draws its own motif. Frontmatter `cover.variant` can override. */
+/** Each desk draws its own motif. One motif per desk, and one plate per desk. */
 const CATEGORY_MOTIF = {
   architecture: 'arcade',
   transport: 'transit',
@@ -52,6 +55,10 @@ const FORMATS = {
   card: { w: 1200, h: 675 },
   hero: { w: 1200, h: 600 },
   og: { w: 1200, h: 630 },
+  // Social-card dimensions with the plinth layout rather than the headline one. A desk plate is
+  // shared by every article on that desk, so there is no headline to set on it — the platforms
+  // render og:title as text beside the image anyway.
+  ogPlate: { w: 1200, h: 630 },
 }
 
 const SERIF = "'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif"
