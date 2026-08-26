@@ -59,7 +59,7 @@ ASCII slug per article, so `cs`↔`en` pairing is a prefix swap and hreflang can
 
 ## Sources
 
-Eight adapters, each written against the site's real markup:
+Twelve adapters, each written against the site's real markup:
 
 | Source | Method | Prague-only | Built-environment-only |
 |---|---|:---:|:---:|
@@ -71,6 +71,10 @@ Eight adapters, each written against the site's real markup:
 | ČT24 — Praha | listing scrape (region section) | | |
 | Prague Morning | RSS | ✓ | |
 | Expats.cz | RSS | | |
+| Klub Za starou Prahu | listing scrape (`/menu-leve/aktuality/`) | ✓ | ✓ |
+| PID / ROPID | RSS | | ✓ |
+| Praha 7 | RSS | ✓ | |
+| Prague City Tourism | RSS | ✓ | |
 
 The two flag columns are `pragueByDefault` / `topicByDefault`, and they carry most of the
 filtering: a specialist outlet is trusted on its beat, a general one has to prove every story
@@ -79,6 +83,18 @@ against the keyword lists.
 For a national outlet, the Prague evidence must be in the **headline** — "Praha" turns up
 incidentally in datelines, company names (`Dopravní podnik hl. m. Prahy`) and passing comparisons,
 and treating those as evidence let a Vysočina bus tender and a Bavarian rail contract through.
+
+**Every source host must be on the routine environment's network egress allowlist** — it is
+per-host, so `www.dpp.cz` and `dpp.cz` are separate entries. A blocked host makes the scan return
+nothing, which is indistinguishable from a quiet news day.
+
+Klub Za starou Prahu is a campaigning heritage society, not a news outlet, and is included
+deliberately: it is the only source that ever argues a project is a bad idea. Its positions are
+attributed to it by name.
+
+Deferred: **Správa železnic** would be a valuable primary source for the airport line and Masarykovo
+nádraží, but its press page is a Liferay portal that server-renders only navigation — the releases
+arrive via JS, so there is nothing to scrape without a headless browser.
 
 The ČT24 Prague section is where the reporting behind the regional TV bulletin — long broadcast as
 *Z metropole*, now *Události v regionech – Praha* — is written up. The `edu.ceskatelevize.cz` page

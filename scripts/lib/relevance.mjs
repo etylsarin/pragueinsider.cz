@@ -18,6 +18,9 @@ import { fold } from './text.mjs'
 const PRAGUE_TERMS = [
   'praha', 'prahy', 'praze', 'prahou', 'prague', 'prazsk', 'hlavni mesto', 'metropole',
   'vltav', 'magistrat',
+  // "PID" is the Prague integrated transport system by definition, so its name is Prague
+  // evidence in a headline. Kept space-suffixed so it cannot match inside "epidemie".
+  'pid ', 'integrovana doprava',
 ]
 
 /** Districts and named places. A hit implies Prague without the word "Praha" appearing. */

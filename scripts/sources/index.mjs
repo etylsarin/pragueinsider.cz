@@ -1,4 +1,8 @@
 import prahacamp from './prahacamp.mjs'
+import zastarouprahu from './zastarouprahu.mjs'
+import pid from './pid.mjs'
+import praha7 from './praha7.mjs'
+import praguecitytourism from './praguecitytourism.mjs'
 import iprpraha from './iprpraha.mjs'
 import dpp from './dpp.mjs'
 import archiweb from './archiweb.mjs'
@@ -26,11 +30,15 @@ export const SOURCES = [
   prahacamp, // CAMP magazine — Prague urbanism, long form
   iprpraha, // city planning institute — primary source
   dpp, // city transit operator — primary source
+  pid, // transit authority — network design, not operations
+  zastarouprahu, // heritage watchdog — the one source that argues against things
   archiweb, // Czech architecture news, national
   zdopravy, // transport trade press, national
   ct24praha, // public broadcaster, Prague region
   praguemorning, // English-language Prague news
   expats, // English-language Czech news
+  praha7, // district council — ground level on Bubny-Zátory, Rohan, Holešovice
+  praguecitytourism, // tourism board — the historic centre's public realm
 ]
 
 export const getSource = (id) => SOURCES.find((source) => source.id === id)

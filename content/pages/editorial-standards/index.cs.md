@@ -27,8 +27,18 @@ Každé ráno automatický sken projde veřejné zpravodajské kanály pevně da
 - [ČT24](https://ct24.ceskatelevize.cz/) — pražská regionální rubrika veřejnoprávní televize
 - [Prague Morning](https://praguemorning.cz/) — anglicky psané pražské zpravodajství
 - [Expats.cz](https://www.expats.cz/) — anglicky psané české zpravodajství
+- [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — spolek pro ochranu památek, založen 1900
+- [PID / ROPID](https://pid.cz/) — organizátor Pražské integrované dopravy
+- [Praha 7](https://www.praha7.cz/) — radnice městské části (Holešovice, Bubny-Zátory, Rohan)
+- [Prague City Tourism](https://praguecitytourism.cz/) — turistická organizace hlavního města
 
-Tři z nich píšou výhradně o zastavěném prostředí a tři výhradně o Praze; zbytek jsou obecná nebo
+Jeden ze zdrojů není zpravodajské médium, ale spolek s vlastním názorem. Klub Za starou Prahu
+veřejně vystupuje proti demolicím a záměrům, které považuje za poškozující, a je zařazen záměrně:
+všechny ostatní zdroje jsou instituce, tiskové servisy nebo oborová média a žádné z nich nikdy
+neřekne, že je nějaký projekt špatný nápad. Jeho stanoviska připisujeme jmenovitě jemu a
+nepředkládáme je jako zjištěná fakta.
+
+Několik z nich píše výhradně o zastavěném prostředí a několik výhradně o Praze; zbytek jsou obecná nebo
 celostátní média, která si musí každé téma obhájit. Položky, které se netýkají Prahy nebo
 zastavěného prostředí, se vyřazují dřív, než začne psaní. Stejně tak témata, kde je stavařský
 slovník jen náhodný — aerolinka, která zavede linku do Prahy, není dopravní téma, a spor o taxametr
