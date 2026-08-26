@@ -73,7 +73,7 @@ Twelve adapters, each written against the site's real markup:
 | Expats.cz | RSS | | |
 | Klub Za starou Prahu | listing scrape (`/menu-leve/aktuality/`) | ✓ | ✓ |
 | PID / ROPID | RSS | | ✓ |
-| Praha 7 | RSS | ✓ | |
+| Městské části (Praha 1, 5, 7, 8, 10) | RSS, one adapter | ✓ | |
 | Prague City Tourism | RSS | ✓ | |
 
 The two flag columns are `pragueByDefault` / `topicByDefault`, and they carry most of the

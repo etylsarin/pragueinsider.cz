@@ -1,7 +1,7 @@
 import prahacamp from './prahacamp.mjs'
 import zastarouprahu from './zastarouprahu.mjs'
 import pid from './pid.mjs'
-import praha7 from './praha7.mjs'
+import districts from './districts.mjs'
 import praguecitytourism from './praguecitytourism.mjs'
 import iprpraha from './iprpraha.mjs'
 import dpp from './dpp.mjs'
@@ -37,7 +37,7 @@ export const SOURCES = [
   ct24praha, // public broadcaster, Prague region
   praguemorning, // English-language Prague news
   expats, // English-language Czech news
-  praha7, // district council — ground level on Bubny-Zátory, Rohan, Holešovice
+  districts, // the městské části — where a scheme first becomes concrete
   praguecitytourism, // tourism board — the historic centre's public realm
 ]
 

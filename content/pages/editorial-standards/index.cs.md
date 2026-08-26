@@ -29,7 +29,7 @@ Každé ráno automatický sken projde veřejné zpravodajské kanály pevně da
 - [Expats.cz](https://www.expats.cz/) — anglicky psané české zpravodajství
 - [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — spolek pro ochranu památek, založen 1900
 - [PID / ROPID](https://pid.cz/) — organizátor Pražské integrované dopravy
-- [Praha 7](https://www.praha7.cz/) — radnice městské části (Holešovice, Bubny-Zátory, Rohan)
+- Městské části — [Praha 1](https://www.praha1.cz/), [5](https://www.praha5.cz/), [7](https://www.praha7.cz/), [8](https://www.praha8.cz/) a [10](https://praha10.cz/)
 - [Prague City Tourism](https://praguecitytourism.cz/) — turistická organizace hlavního města
 
 Jeden ze zdrojů není zpravodajské médium, ale spolek s vlastním názorem. Klub Za starou Prahu

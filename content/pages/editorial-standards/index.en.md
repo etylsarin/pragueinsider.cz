@@ -29,7 +29,7 @@ Each morning an automated scan reads the public news channels of a fixed set of 
 - [Expats.cz](https://www.expats.cz/) — English-language Czech news
 - [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — the heritage society, founded 1900
 - [PID / ROPID](https://pid.cz/) — the Prague integrated transport authority
-- [Praha 7](https://www.praha7.cz/) — district council for Holešovice, Bubny-Zátory and Rohan
+- The city districts — [Praha 1](https://www.praha1.cz/), [5](https://www.praha5.cz/), [7](https://www.praha7.cz/), [8](https://www.praha8.cz/) and [10](https://praha10.cz/)
 - [Prague City Tourism](https://praguecitytourism.cz/) — the city's tourism organisation
 
 One of these is a campaigning organisation rather than a news outlet. Klub Za starou Prahu argues

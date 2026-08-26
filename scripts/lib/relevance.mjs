@@ -51,6 +51,10 @@ const URBANISM_STRONG = [
   'stavebni povoleni', 'uzemni rizeni', 'developersk', 'vystavb', 'prestavb', 'rekonstrukc',
   'architecture', 'urban planning', 'public space', 'redevelopment', 'brownfield',
   'tram line', 'metro line', 'zoning', 'masterplan', 'heritage protection', 'streetscape',
+  // Gaps found when the district feeds went in: a bypass objection and a concrete plant on a
+  // redevelopment island were both dropped for want of a word.
+  'obchvat', 'privadec', 'betonar', 'lavka', 'uzemni studie', 'verejne projednani',
+  'verejne setkani', 'participacni', 'demolic', 'revitalizace namesti',
 ]
 
 /**
@@ -65,6 +69,7 @@ const URBANISM_WEAK = [
   'letiste', 'parkovan', 'sady', 'hriste', 'promenad', 'fasad', 'dum', 'reka',
   'construction', 'housing', 'transport', 'tram', 'railway', 'bridge', 'station', 'district',
   'planning', 'development', 'square', 'waterfront', 'renovation', 'building',
+  'palac', 'ostrov', 'zastavk', 'areal', 'objekt', 'najemc', 'najem ', 'zemin', 'trat',
 ]
 
 /**
@@ -83,6 +88,12 @@ const OFF_BEAT = [
   // through the strong terms, so runway and terminal works survive these vetoes.
   'airlines', 'aerolin', 'boeing', 'airbus', 'dreamliner', 'nizkonakladov', 'low-cost carrier',
   'letecka spolecnost', 'charterov',
+  // District newsletters are mostly parish notices. These are the unambiguous ones; anything
+  // that could plausibly describe a building or a scheme is deliberately left out — note the
+  // absence of "vystav", which would swallow "výstavba".
+  'vernisaz', 'dernisaz', 'zapis do', 'primestsky tabor', 'detsky tabor', 'bourk',
+  'varuje pred', 'ockovani', 'svoz odpadu', 'farmarsk', 'casopis', 'skolni rok',
+  'vitani obcanku', 'uredni hodiny', 'prazdninovy provoz', 'paliativ',
 ]
 
 /** Rough desk assignment, so the writer starts from a sensible category. */

@@ -59,6 +59,20 @@ write it and attribute it plainly ("DPP says…"). Where a developer is promotin
 you may still cover it if the project matters, but say in the article that the source is the
 developer.
 
+### District councils
+
+The městské části are in the scan for the occasional story the citywide press misses — a scheme
+becoming concrete, a formal objection lodged, a participation meeting called, a dispute over a
+landmark building. Praha 8 asking what happens to the concrete plant on Rohanský ostrov, or filing
+against the Dolní Chabry bypass, is exactly why they are there.
+
+But they are council newsletters. Most of what they publish is nursery enrolment, exhibition
+openings, waste collection and storm warnings, and the filter only strips the obvious cases.
+
+**The test: would this matter to a reader in a different district?** A resurfaced pavement, a senior
+programme or a district magazine would not. Do not publish local administrative detail merely
+because it passed the filter.
+
 Never write two articles from one cluster. One story is one article.
 
 ## 3. Read the originals
