@@ -130,18 +130,32 @@ async function main() {
       /* the happy path — nothing there yet */
     }
 
-    const files = (await fs.readdir(from)).filter((f) => /^index\.[a-z]{2}\.md$/.test(f))
-    const stamped = files.map((file) => ({ file, raw: null }))
+    // Everything in the directory moves, not just the markdown. A queued article can carry a
+    // cover photograph beside its index files, and this used to copy the two .md files and then
+    // rm -rf the rest — deleting the picture on release day, silently, with the article still
+    // pointing at it. The gate would then fail on a file nobody remembered attaching.
+    const all = await fs.readdir(from, { withFileTypes: true })
+    const files = all.filter((e) => e.isFile()).map((e) => e.name)
+    const stamped = files
+      .filter((file) => /^index\.[a-z]{2}\.md$/.test(file))
+      .map((file) => ({ file, raw: null }))
+    const assets = files.filter((file) => !/^index\.[a-z]{2}\.md$/.test(file))
+
     for (const item of stamped) {
       item.raw = stamp(await fs.readFile(path.join(from, item.file), 'utf8'), release)
     }
 
-    console.log(`  → ${entry.slug} (queued ${entry.queuedAt})`)
+    console.log(
+      `  → ${entry.slug} (queued ${entry.queuedAt})` +
+        (assets.length ? ` + ${assets.length} asset(s): ${assets.join(', ')}` : '')
+    )
     released += 1
     if (dryRun) continue
 
     await fs.mkdir(to, { recursive: true })
     for (const item of stamped) await fs.writeFile(path.join(to, item.file), item.raw.text)
+    // copyFile, not readFile/writeFile — these are binaries.
+    for (const asset of assets) await fs.copyFile(path.join(from, asset), path.join(to, asset))
     await fs.rm(from, { recursive: true, force: true })
   }
 

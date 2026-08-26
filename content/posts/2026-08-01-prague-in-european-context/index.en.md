@@ -5,6 +5,7 @@ title: "Prague Has Europe's Best-Value Transit and Its Least Affordable Housing"
 dek: "IPR's updated comparison against eleven peer cities finds a metropolis that solved mobility and did not solve where anyone lives — while car ownership climbs anyway."
 date: 2026-08-01
 category: development
+alsoIn: ["transport"]
 tags: ["housing", "affordability", "public transport", "IPR", "data"]
 author: "Prague Insider Desk"
 aiGenerated: true

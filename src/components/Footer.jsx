@@ -4,17 +4,13 @@ import Icon from './Icon'
 import { t } from '../i18n/ui'
 import { STATIC_PAGES } from '../config/pages'
 import { staticPagePath, feedPath } from '../lib/paths'
-import { siteMetadata } from '../config/site'
 
 const Footer = ({ locale }) => (
   <footer className="w-full py-stack-lg px-margin-mobile md:px-gutter mt-auto bg-primary text-on-primary">
     <div className="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-stack-md">
-      <div className="flex flex-col items-center md:items-start">
-        <span className="text-headline-sm font-headline-sm text-on-primary mb-2">Prague Insider</span>
-        <span className="text-body-md font-body-md text-on-primary/80 text-center md:text-left">
-          © {new Date().getFullYear()} {t(locale, 'footer.rights')}
-        </span>
-      </div>
+      <span className="text-body-md font-body-md text-on-primary/80">
+        © {new Date().getFullYear()} {t(locale, 'footer.rights')}
+      </span>
 
       <div className="flex flex-wrap justify-center items-center gap-6">
         {STATIC_PAGES.map((page) => (
@@ -47,7 +43,6 @@ const Footer = ({ locale }) => (
         </Link>
         .
       </p>
-      <p className="text-caption font-caption text-on-primary/40 mt-2">{siteMetadata.tagline[locale]}</p>
     </div>
   </footer>
 )

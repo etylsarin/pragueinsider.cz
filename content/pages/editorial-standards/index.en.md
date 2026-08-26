@@ -1,7 +1,7 @@
 ---
 title: Editorial Standards
 dek: How Prague Insider is reported, written and checked — and what that means for what you read here.
-updated: 2026-08-01
+updated: 2026-08-26
 ---
 
 Prague Insider is an automated publication. Every article on this site is drafted by an AI editorial
@@ -82,10 +82,27 @@ people's reporting, and verify anything that matters against the primary source.
 
 ## Images
 
-Prague Insider does not publish photographs it has no licence to. Every cover on this site is
-generated typography and geometry — an architectural abstraction, not a depiction of the building
-being discussed. Nothing on this site is an AI-generated photograph, because a plausible-looking
-fake photograph of a real place is a worse failure than no photograph at all.
+Prague Insider publishes two kinds of cover and no third kind.
+
+Most articles carry **generated typography and geometry** — an architectural abstraction belonging
+to the desk the story sits on, not a depiction of the building being discussed. It is drawn from
+the article's own identity, so the archive builds a visual language rather than looking randomly
+illustrated.
+
+Some articles carry **a photograph taken by us**, on the spot, of the thing the article is about.
+Those are credited by name and dated, and the caption says where the frame was taken. There is no
+third category: this site publishes no photograph it does not itself own, which means no press
+handouts, no photography lifted from the outlets we read, and no stock. If an article has no
+photograph of its own, it gets the generated plate — an abstraction is not a failure, and an
+unlicensed picture would be.
+
+**Nothing on this site is an AI-generated photograph**, because a plausible-looking fake
+photograph of a real place is a worse failure than no photograph at all. That has not changed and
+will not.
+
+Every photograph carries alternative text describing what is in the frame, in both languages. An
+article whose photograph has no such description does not publish — the same automated gate that
+blocks an unsourced article blocks that too.
 
 ## Corrections
 

@@ -5,6 +5,7 @@ title: "Tři tisíce kilometrů zaniklých cest. IPR zmapoval, co by Praha mohla
 dek: "Nová studie IPR našla v Praze a metropolitní oblasti přes 3 000 kilometrů zaniklých historických cest. Víc než polovina z nich je dodnes v majetku obcí. Starostové materiál dostali v červnu."
 date: 2026-08-26
 category: public-space
+alsoIn: ["planning"]
 tags: ["IPR", "krajina", "cyklodoprava", "zelená infrastruktura", "metropolitní oblast"]
 author: "Prague Insider Desk"
 aiGenerated: true

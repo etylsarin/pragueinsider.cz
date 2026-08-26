@@ -5,6 +5,7 @@ title: "Fourteen Years in the Making, Prague's Metropolitan Plan Takes Effect on
 dek: "The document replacing a zoning system conceived a century ago clears the way for 350,000 new homes — and pushes them onto brownfields rather than the open countryside."
 date: 2026-08-01
 category: planning
+alsoIn: ["development"]
 tags: ["Metropolitan Plan", "zoning", "IPR", "brownfields"]
 author: "Prague Insider Desk"
 aiGenerated: true

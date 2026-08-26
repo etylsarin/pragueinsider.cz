@@ -5,6 +5,7 @@ title: "Po šesti letech se pražské priority rozdělily na dvě skupiny"
 dek: "Kontrola projektů, které CAMP vystavil v roce 2020, nachází otevřené mosty a ražené tunely — vedle brownfieldů, které stále čekají na studii."
 date: 2026-08-01
 category: transport
+alsoIn: ["public-space"]
 tags: ["metro D", "železnice na letiště", "Smíchov", "Karlovo náměstí", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true

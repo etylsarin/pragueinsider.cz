@@ -25,6 +25,14 @@ const HomeTemplate = ({ data, pageContext }) => {
   // `featured: true` pins the lead, but only among stories sharing the newest publication
   // date. The flag is written into frontmatter and never cleared, so honouring it globally
   // meant one pinned post owned the front page forever and yesterday's news outranked today's.
+  // Counted from `desks` rather than grouped by `category`, so a cross-filed article is counted
+  // in every desk it actually appears in. Grouping by category undercounts it, and the number
+  // then contradicts the page it links to.
+  const deskCounts = {}
+  for (const node of data.counts.nodes) {
+    for (const desk of node.fields.desks || []) deskCounts[desk] = (deskCounts[desk] || 0) + 1
+  }
+
   const newestDate = nodes[0]?.frontmatter.date
   const leadIndex = Math.max(
     0,
@@ -32,6 +40,9 @@ const HomeTemplate = ({ data, pageContext }) => {
   )
   const lead = nodes[leadIndex]
   const rest = nodes.filter((_, i) => i !== leadIndex)
+  // Two rails, and the headings distinguish them: `secondary` really is the newest after the
+  // lead, `remainder` is what follows. Both used to be headed "Latest", which was false of the
+  // second one — it is the older half of the same descending list.
   const secondary = rest.slice(0, 6)
   const remainder = rest.slice(6, 14)
 
@@ -44,11 +55,8 @@ const HomeTemplate = ({ data, pageContext }) => {
       ) : (
         <>
           <section className="mb-section-gap">
-            <div className="flex items-baseline justify-between border-b-2 border-primary pb-2 mb-stack-md">
+            <div className="border-b-2 border-primary pb-2 mb-stack-md">
               <h1 className="text-label-caps font-label-caps text-primary">{t(locale, 'home.lead')}</h1>
-              <span className="text-label-caps font-label-caps text-on-surface-variant">
-                {siteMetadata.tagline[locale]}
-              </span>
             </div>
             <ArticleCard post={toCardPost(lead)} locale={locale} variant="lead" />
           </section>
@@ -76,7 +84,7 @@ const HomeTemplate = ({ data, pageContext }) => {
             {remainder.length ? (
               <div className="lg:col-span-2">
                 <h2 className="text-label-caps font-label-caps text-primary border-b border-tertiary/40 pb-2 mb-2">
-                  {t(locale, 'home.latest')}
+                  {t(locale, 'home.more')}
                 </h2>
                 <div>
                   {remainder.map((node) => (
@@ -92,7 +100,7 @@ const HomeTemplate = ({ data, pageContext }) => {
               </h2>
               <ul className={remainder.length ? '' : 'sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6'}>
                 {CATEGORIES.map((category) => {
-                  const count = data.counts.group.find((g) => g.fieldValue === category.key)?.totalCount || 0
+                  const count = deskCounts[category.key] || 0
                   return (
                     <li key={category.key}>
                       <Link
@@ -162,7 +170,7 @@ export const query = graphql`
           date
           category
           featured
-          cover { variant seed }
+          cover { ...CoverFields }
         }
       }
     }
@@ -172,9 +180,8 @@ export const query = graphql`
         frontmatter: { draft: { ne: true } }
       }
     ) {
-      group(field: { frontmatter: { category: SELECT } }) {
-        fieldValue
-        totalCount
+      nodes {
+        fields { desks }
       }
     }
   }

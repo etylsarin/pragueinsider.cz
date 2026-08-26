@@ -5,6 +5,7 @@ title: "Praha vypsala tendr na Brandejsův statek. Z památky v Suchdole má bý
 dek: "Dvanáct tříd pro 408 studentů, dvě nové budovy a metoda design and build. Městská policie si v areálu ponechá jízdní skupinu i stáje."
 date: 2026-08-25
 category: development
+alsoIn: ["architecture"]
 tags: ["Brandejsův statek", "Suchdol", "školství", "památky", "design and build"]
 district: "Praha-Suchdol"
 location:

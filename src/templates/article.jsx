@@ -9,7 +9,7 @@ import LocationBox from '../components/LocationBox'
 import { t } from '../i18n/ui'
 import { getCategory } from '../config/categories'
 import { formatDate, readingMinutes } from '../lib/format'
-import { categoryPath, staticPagePath } from '../lib/paths'
+import { categoryPath } from '../lib/paths'
 import { siteMetadata } from '../config/site'
 
 const ArticleTemplate = ({ data, pageContext }) => {
@@ -20,6 +20,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
   const category = getCategory(fm.category)
   const label = category ? category.label[locale] : fm.category
   const coverPost = { slug: post.fields.slug, title: fm.title, category: fm.category, cover: fm.cover }
+  const hasPhoto = Boolean(fm.cover?.photo?.childImageSharp)
 
   return (
     <Layout locale={locale} translationPath={translationPath}>
@@ -33,6 +34,20 @@ const ArticleTemplate = ({ data, pageContext }) => {
             >
               {label}
             </Link>
+            {/* Cross-filed desks. A reader who arrived from one of these feeds should be able to
+                see why the article was there, rather than wondering how it wandered in. */}
+            {(fm.alsoIn || []).map((key) => {
+              const other = getCategory(key)
+              return (
+                <Link
+                  key={key}
+                  to={categoryPath(locale, key)}
+                  className="border border-dashed border-tertiary/60 px-2 py-1 text-label-caps font-label-caps text-on-surface-variant hover:border-primary hover:text-primary transition-colors"
+                >
+                  {other ? other.label[locale] : key}
+                </Link>
+              )
+            })}
             <span className="text-label-caps font-label-caps text-on-surface-variant">•</span>
             <span className="text-label-caps font-label-caps text-on-surface-variant">
               {formatDate(fm.date, locale)}
@@ -51,58 +66,40 @@ const ArticleTemplate = ({ data, pageContext }) => {
             <p className="text-headline-sm font-headline-sm text-on-surface-variant mb-6 max-w-3xl">{fm.dek}</p>
           ) : null}
 
-          <div className="flex items-center gap-4 mb-stack-lg">
-            {/* No stock headshots for an AI desk — a monogram plate instead. */}
-            <div className="w-12 h-12 bg-primary text-on-primary flex items-center justify-center text-label-caps font-label-caps shrink-0">
-              PI
-            </div>
-            <div>
-              <div className="text-body-md font-body-md font-bold text-primary">
-                {fm.author || siteMetadata.desk}
+          {hasPhoto ? (
+            /* A photograph gets a real caption under the frame, where a caption belongs and
+               where it can run to a sentence. The plate gets the small provenance label it
+               has always had, floated over artwork it cannot obscure anything of. */
+            <figure className="w-full">
+              <div className="border border-tertiary/80">
+                <Cover post={coverPost} label={label} format="hero" />
               </div>
-              <Link
-                to={staticPagePath(locale, 'editorial-standards')}
-                className="text-caption font-caption text-on-surface-variant hover:text-primary transition-colors"
-              >
-                {t(locale, 'ai.badge')}
-              </Link>
-            </div>
-          </div>
-
-          <figure className="w-full border border-tertiary/80 relative">
-            <Cover post={coverPost} label={label} format="hero" />
-            <figcaption className="absolute bottom-0 left-0 bg-surface/90 backdrop-blur px-4 py-2 text-caption font-caption text-on-surface-variant border-t border-r border-tertiary/80">
-              {fm.district ? `${fm.district} · ` : ''}
-              {locale === 'cs'
-                ? 'Generovaná grafika Prague Insider'
-                : 'Generated cover · Prague Insider'}
-            </figcaption>
-          </figure>
+              <figcaption className="mt-3 text-caption font-caption text-on-surface-variant">
+                {fm.cover.caption ? <span className="text-primary">{fm.cover.caption} </span> : null}
+                {[
+                  fm.district,
+                  `${t(locale, 'article.photoCredit')}: ${fm.cover.credit}`,
+                  formatDate(fm.cover.shot, locale),
+                ]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </figcaption>
+            </figure>
+          ) : (
+            <figure className="w-full border border-tertiary/80">
+              <Cover post={coverPost} label={label} format="hero" />
+            </figure>
+          )}
         </header>
 
         {/* --- body --- */}
         <article className="col-span-4 md:col-start-3 md:col-span-7">
           <div className="prose-insider" dangerouslySetInnerHTML={{ __html: post.html }} />
 
-          {/* Briefing CTA, per the reference layout */}
-          <div className="my-10 bg-warm-parchment border border-tertiary/30 p-6 flex flex-col items-center text-center">
-            <span className="text-label-caps font-label-caps text-tertiary mb-2">{t(locale, 'cta.eyebrow')}</span>
-            <h3 className="text-headline-sm font-headline-sm text-primary mb-4">{t(locale, 'cta.headline')}</h3>
-            <a
-              href={`${locale === 'cs' ? '' : '/en'}/rss.xml`}
-              className="bg-primary text-on-primary px-6 py-2 text-label-caps font-label-caps hover:bg-surface-tint transition-colors"
-            >
-              {t(locale, 'cta.button')}
-            </a>
-          </div>
-
           {/* Sources — mandatory on every post, see content/pages/editorial-standards */}
           {fm.sources?.length ? (
             <section className="mt-12 pt-6 border-t-2 border-primary">
-              <h2 className="text-label-caps font-label-caps text-primary mb-2">{t(locale, 'article.sources')}</h2>
-              <p className="text-caption font-caption text-on-surface-variant mb-4">
-                {t(locale, 'article.sourcesNote')}
-              </p>
+              <h2 className="text-label-caps font-label-caps text-primary mb-4">{t(locale, 'article.sources')}</h2>
               <ol className="space-y-3">
                 {fm.sources.map((source, i) => (
                   <li key={source.url || i} className="flex gap-3">
@@ -247,11 +244,12 @@ export const query = graphql`
         dek
         date
         category
+        alsoIn
         tags
         district
         author
         location { lat lng }
-        cover { variant seed }
+        cover { ...CoverFields }
         sources { title url publisher date }
       }
     }
@@ -263,7 +261,7 @@ export const query = graphql`
           title
           date
           category
-          cover { variant seed }
+          cover { ...CoverFields }
         }
       }
     }

@@ -1,7 +1,7 @@
 ---
 title: Editoriální standardy
 dek: Jak Prague Insider vzniká, jak se kontroluje — a co to znamená pro to, co tu čtete.
-updated: 2026-08-01
+updated: 2026-08-26
 ---
 
 Prague Insider je automatizované médium. Každý článek na tomto webu připravuje redakční systém
@@ -81,10 +81,25 @@ práce a cokoli důležitého si ověřte v primárním zdroji.**
 
 ## Obrazový doprovod
 
-Prague Insider nepublikuje fotografie, k nimž nemá licenci. Každý vizuál na tomto webu je generovaná
-typografie a geometrie — architektonická abstrakce, nikoli zobrazení konkrétní stavby, o níž se píše.
-Nenajdete tu AI generované fotografie: věrohodně vypadající falešná fotografie skutečného místa je
-horší selhání než žádná fotografie.
+Prague Insider používá dva druhy titulních vizuálů a žádný třetí.
+
+Většina článků nese **generovanou typografii a geometrii** — architektonickou abstrakci příslušné
+rubriky, nikoli zobrazení konkrétní stavby, o níž se píše. Kresba vychází z identity článku, takže
+archiv si buduje vlastní vizuální jazyk místo náhodné ilustrace.
+
+Některé články nesou **fotografii, kterou jsme pořídili sami**, na místě, a zachycuje to, o čem se
+v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly. Třetí
+kategorie neexistuje: nepublikujeme žádnou fotografii, kterou sami nevlastníme — tedy žádné
+tiskové materiály, nic převzatého z médií, která čteme, a nic ze stockových databází. Když k článku
+vlastní fotografii nemáme, dostane generovaný vizuál. Abstrakce není selhání, nelicencovaný snímek
+by byl.
+
+**Nenajdete tu AI generované fotografie**: věrohodně vypadající falešná fotografie skutečného
+místa je horší selhání než žádná fotografie. To platí dál a platit nepřestane.
+
+Ke každé fotografii patří alternativní textový popis toho, co je na snímku, v obou jazycích. Článek,
+jehož fotografie takový popis nemá, nevyjde — blokuje ho stejná automatická kontrola, která
+zastavuje článek bez zdrojů.
 
 ## Opravy
 

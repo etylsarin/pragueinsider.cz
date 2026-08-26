@@ -5,6 +5,7 @@ title: "Three Thousand Kilometres of Lost Paths: IPR Maps What Prague Could Simp
 dek: "A new IPR study finds more than 3,000 km of vanished historical routes in Prague and its metropolitan area — and more than half of them are still municipally owned. Mayors got the material in June."
 date: 2026-08-26
 category: public-space
+alsoIn: ["planning"]
 tags: ["IPR", "landscape", "cycling", "green infrastructure", "metropolitan area"]
 author: "Prague Insider Desk"
 aiGenerated: true

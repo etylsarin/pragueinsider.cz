@@ -5,6 +5,7 @@ title: "Praha má nejvýhodnější MHD v Evropě a nejhůř dostupné bydlení"
 dek: "Aktualizované srovnání IPR s jedenácti evropskými městy ukazuje metropoli, která vyřešila dopravu a nevyřešila bydlení — a přesto v ní přibývá aut."
 date: 2026-08-01
 category: development
+alsoIn: ["transport"]
 tags: ["bydlení", "dostupnost", "MHD", "IPR", "data"]
 author: "Prague Insider Desk"
 aiGenerated: true

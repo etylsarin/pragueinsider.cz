@@ -1,10 +1,12 @@
 /**
  * Cover art for every article.
  *
- * Prague Insider writes about buildings it has no photographs of, so each post gets a generated
- * cover instead of licensed or scraped photography. The same SVG string is inlined on the page
- * by src/components/Cover.jsx and rasterised into OG cards by gatsby-node.js — one
- * implementation, two consumers, no drift.
+ * Prague Insider mostly writes about buildings nobody on the desk has stood in front of, so an
+ * article gets a generated cover unless someone has been there and photographed it — never
+ * licensed or scraped photography. The same SVG string is inlined on the page by
+ * src/components/Cover.jsx and rasterised into OG cards by gatsby-node.js — one implementation,
+ * two consumers, no drift. Articles that do carry a photograph use it in both places instead,
+ * and ogPhotoOverlaySvg() below keeps their social card set in the same type.
  *
  * The design is a **section plate**: a saturated ground in the desk's colour, one architectural
  * motif belonging to that desk, and the desk name set large in the brand serif. Each desk keeps
@@ -313,4 +315,52 @@ const coverSvg = ({ slug, title, category, label, variant, seed }, opts = {}) =>
 </svg>`
 }
 
-module.exports = { coverSvg, VARIANTS, CATEGORY_ACCENT, CATEGORY_MOTIF, PALETTE, FORMATS, hash }
+/**
+ * Overlay for a photographic OG card.
+ *
+ * A photo cover still has to carry the headline into a social feed, and it has to stay legible
+ * over whatever the photograph happens to be doing in the lower third of the frame. So the same
+ * typography as the generated plate is set on a scrim in the desk's colour rather than on the
+ * bare image — one set of rules for both kinds of cover. gatsby-node.js composites this over the
+ * photograph resized to the OG format.
+ */
+const ogPhotoOverlaySvg = ({ title, category, label }) => {
+  const { w, h } = FORMATS.og
+  const bg = CATEGORY_ACCENT[category] || PALETTE.primary
+  const pad = 56
+  const scrimTop = Math.round(h * 0.30)
+
+  const lines = wrapText(title, 34, 3)
+  const size = lines.length > 2 ? 54 : 62
+  const lineHeight = size * 1.16
+  const top = scrimTop + 120
+  const tspans = lines
+    .map((line, i) => `<tspan x="${pad}" y="${Math.round(top + i * lineHeight)}">${escapeXml(line)}</tspan>`)
+    .join('')
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}">
+  <defs>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${bg}" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="${bg}" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="${bg}" stop-opacity="0.97"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="${scrimTop}" width="${w}" height="${h - scrimTop}" fill="url(#scrim)"/>
+  <rect x="0" y="${scrimTop}" width="${w}" height="4" fill="${L}" opacity="0.6"/>
+  <text x="${pad}" y="${scrimTop + 60}" font-family="${MONO}" font-size="21" letter-spacing="2.4" fill="${P}">${escapeXml(String(label || '').toUpperCase())}</text>
+  <text font-family="${SERIF}" font-size="${size}" font-weight="700" fill="${L}" letter-spacing="-0.8">${tspans}</text>
+  <text x="${w - pad}" y="${h - pad + 4}" text-anchor="end" font-family="${MONO}" font-size="19" letter-spacing="2" fill="${L}" opacity="0.7">PRAGUE INSIDER</text>
+</svg>`
+}
+
+module.exports = {
+  coverSvg,
+  ogPhotoOverlaySvg,
+  VARIANTS,
+  CATEGORY_ACCENT,
+  CATEGORY_MOTIF,
+  PALETTE,
+  FORMATS,
+  hash,
+}

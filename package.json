@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "ingest": "node scripts/ingest.mjs",
-    "validate": "node scripts/validate-posts.mjs"
+    "validate": "node scripts/validate-posts.mjs",
+    "photos": "node scripts/attach-photo.mjs --list"
   },
   "dependencies": {
     "@fontsource-variable/source-serif-4": "^5.1.0",

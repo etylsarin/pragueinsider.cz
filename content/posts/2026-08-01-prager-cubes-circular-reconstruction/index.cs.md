@@ -5,6 +5,7 @@ title: "Pragerovy kostky se nejdřív rozeberou, teprve pak složí"
 dek: "Rekonstrukce Pragerova souboru u Emauz za 1,4 miliardy začíná soupisem všeho, co má cenu zachovat — a rozebráním budovy místo její demolice."
 date: 2026-08-01
 category: architecture
+alsoIn: ["development"]
 tags: ["Karel Prager", "IPR", "CAMP", "cirkulární ekonomika", "památky"]
 district: "Praha 2 – Nové Město"
 location:

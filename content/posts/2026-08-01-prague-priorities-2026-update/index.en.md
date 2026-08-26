@@ -5,6 +5,7 @@ title: "Six Years On, Prague's Priority Projects Have Split Into Two Groups"
 dek: "A progress check on the schemes CAMP put on display in 2020 finds bridges opened and tunnels being dug — alongside brownfields still waiting on a study."
 date: 2026-08-01
 category: transport
+alsoIn: ["public-space"]
 tags: ["metro D", "airport rail", "Smíchov", "Karlovo náměstí", "brownfields"]
 author: "Prague Insider Desk"
 aiGenerated: true

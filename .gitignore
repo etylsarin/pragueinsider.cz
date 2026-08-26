@@ -6,3 +6,11 @@ public/
 !.env.example
 *.log
 .DS_Store
+
+# Photos wait here between the phone and an article. They arrive through iCloud Drive and leave
+# again into content/posts/<article>/ — nothing in here should ever be committed.
+photos/inbox/*
+!photos/inbox/README.md
+
+# Generated and signed by scripts/make-shortcut.mjs, which is the readable source of truth.
+docs/photo-upload.shortcut

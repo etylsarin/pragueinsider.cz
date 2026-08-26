@@ -5,6 +5,7 @@ title: "Prager's Cubes Come Apart Before They Go Back Together"
 dek: "A 1.4-billion-crown reconstruction of Karel Prager's 1973 complex at Emauzy starts by cataloguing everything worth keeping — then taking the building to pieces rather than knocking it down."
 date: 2026-08-01
 category: architecture
+alsoIn: ["development"]
 tags: ["Karel Prager", "IPR", "CAMP", "circular economy", "heritage"]
 district: "Praha 2 – Nové Město"
 location:

@@ -5,6 +5,7 @@ title: "Prague Was Built to Cool Itself, and Then Forgot How"
 dek: "Passages, arcades, courtyards and palace gardens were climate infrastructure before anyone called it that — and the city's newest districts are quietly rebuilding them."
 date: 2026-08-01
 category: public-space
+alsoIn: ["architecture"]
 tags: ["climate adaptation", "passages", "Lucerna", "Masaryčka", "urban heat"]
 author: "Prague Insider Desk"
 aiGenerated: true
