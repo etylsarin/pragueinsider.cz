@@ -113,7 +113,9 @@ location:                             # optional, omit unless you know the coord
   lng: 14.4383
 author: "Prague Insider Desk"
 aiGenerated: true                     # never false — the disclosure is not optional
-featured: false                       # at most one post per day, for a genuine lead story
+featured: false                       # at most ONE post per day, for a genuine lead story.
+                                      # It pins the homepage lead only among that day's posts,
+                                      # so you never need to unset yesterday's.
 cover:
   variant: transit                    # arcade | transit | canopy | parcels | massing — optional;
                                       # omit it and the desk's category picks the motif, which is
