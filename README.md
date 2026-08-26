@@ -62,7 +62,7 @@ scripts/attach-photo.mjs                         files an inbox photo onto an ar
 scripts/make-shortcut.mjs                        emits docs/photo-upload.shortcut
 scripts/make-covers.mjs                          writes the desk plates into static/covers
 static/covers/                                   the plates, generated once and committed
-src/lib/cover.js                                 generated cover art (page + OG, one implementation)
+src/lib/cover.js                                 the desk plates and the photo OG overlay
 src/config/{site,categories,pages}.js            single source of truth for routes and taxonomy
 src/lib/paths.js                                 every URL on the site is built here
 tailwind.config.js                               design tokens, ported from design/DESIGN.md
@@ -150,7 +150,10 @@ article page. `tailwind.config.js` is ported from it verbatim — change the des
 not the Tailwind config. Shape language is sharp: no rounded corners anywhere.
 
 `src/lib/cover.js` draws the desk plates — a saturated ground in the desk's colour, one
-architectural motif, the desk name in the brand serif. It runs once, not per build:
+architectural motif in **axonometric**, the desk name in the brand serif. Axonometric because it
+is the drawing convention of the subject, and because SVG polygons express it exactly: every solid
+shows three faces filled with the same surface colour at different opacities, so depth is read
+from tone and the palette gains nothing. It runs once, not per build:
 
 ```bash
 npm run covers     # writes static/covers/, commit the result

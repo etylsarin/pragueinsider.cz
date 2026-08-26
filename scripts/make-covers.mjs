@@ -26,16 +26,15 @@ import { fileURLToPath } from 'node:url'
 const require = createRequire(import.meta.url)
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 
-const { coverSvg, hash } = require(path.join(ROOT, 'src/lib/cover.js'))
+const { coverSvg } = require(path.join(ROOT, 'src/lib/cover.js'))
 const { CATEGORIES } = require(path.join(ROOT, 'src/config/categories.js'))
 const { LOCALES } = require(path.join(ROOT, 'src/config/site.js'))
 
 const outIndex = process.argv.indexOf('--out')
 const OUT = path.resolve(outIndex >= 0 ? process.argv[outIndex + 1] : path.join(ROOT, 'static/covers'))
 
-/** Seeded by the desk key, so the same design produces the same plate on every machine. */
-const plate = (category, label, format) =>
-  coverSvg({ slug: category, title: label, category, label, seed: hash(category) }, { format })
+/** The desk key seeds the drawing inside cover.js, so every machine produces the same plate. */
+const plate = (category, label, format) => coverSvg({ category, label }, { format })
 
 async function main() {
   await fs.mkdir(OUT, { recursive: true })
@@ -68,10 +67,7 @@ async function main() {
   }
 
   // The fallback for anything with no desk at all — the home page's social card, mostly.
-  const fallback = coverSvg(
-    { slug: 'prague-insider', title: 'Prague Insider', category: 'architecture', label: 'Prague Insider' },
-    { format: 'ogPlate' }
-  )
+  const fallback = coverSvg({ category: 'architecture', label: 'Prague Insider' }, { format: 'ogPlate' })
   await fs.writeFile(
     path.join(OUT, 'default-og.png'),
     await sharp(Buffer.from(fallback)).png({ compressionLevel: 9 }).toBuffer()
