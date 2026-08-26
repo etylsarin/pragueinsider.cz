@@ -121,6 +121,16 @@ When a cluster has several sources:
 
 If a fetch fails or the page turns out to be thin, drop the story. Do not pad.
 
+**Confirm the city.** Prague district names are not unique: Brno has a Vinohrady, Písek has a
+Žižkova kasárna, BKOM is Brněnské komunikace. The filter vetoes an item when another city is
+named in its title, summary or tags — but a feed often names none, and the word *brněnský* may
+appear only in the article body. A story that reached you on a district name alone is worth one
+look at the dateline before you write it.
+
+If you find one, say so in the run log with the name that misled the filter. Some are fixable in
+`scripts/lib/relevance.mjs`; the ones where the feed carries no clue at all are not, and this step
+is the only place they can be caught.
+
 ## 4. Write both languages
 
 For each story create `content/queue/<slug>/`, with an ASCII slug derived from the English

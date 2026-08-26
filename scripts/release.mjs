@@ -94,11 +94,25 @@ async function main() {
   entries.sort((a, b) => String(a.queuedAt).localeCompare(String(b.queuedAt)))
 
   const release = today()
+
+  // A second run on the same day must not double up. The daily limit is per calendar day, not
+  // per invocation, so count what is already published under today's date and release only the
+  // remainder. Without this, two runs in one morning put six articles on one date.
+  const publishedToday = (await readDirs(POSTS_DIR)).filter((name) => name.startsWith(`${release}-`)).length
+  const budget = Math.max(0, max - publishedToday)
+  if (publishedToday > 0) {
+    console.log(`${publishedToday} article(s) already published today; releasing at most ${budget} more.`)
+  }
+  if (budget === 0) {
+    console.log(`Daily limit of ${max} already met. ${entries.length} article(s) stay queued.`)
+    return
+  }
+
   const cutoff = Date.now() - STALE_AFTER_DAYS * 86400000
   let released = 0
 
   for (const entry of entries) {
-    if (released >= max) break
+    if (released >= budget) break
 
     if (Date.parse(entry.queuedAt) < cutoff) {
       console.log(`  ~ ${entry.slug}: queued ${entry.queuedAt}, older than ${STALE_AFTER_DAYS} days — held back, check it is still current`)
