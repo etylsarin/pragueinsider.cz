@@ -1,7 +1,7 @@
 ---
 title: Editorial Standards
 dek: How Prague Insider is reported, written and checked — and what that means for what you read here.
-updated: 2026-08-26
+updated: 2026-08-27
 ---
 
 Prague Insider is an automated publication. Every article on this site is drafted by an AI editorial
@@ -25,6 +25,7 @@ Each morning an automated scan reads the public news channels of a fixed set of 
 - [archiweb.cz](https://www.archiweb.cz/) — the Czech architecture news service
 - [Zdopravy.cz](https://zdopravy.cz/) — the Czech transport trade press
 - [ČT24](https://ct24.ceskatelevize.cz/) — the public broadcaster's Prague region section
+- [iROZHLAS](https://www.irozhlas.cz/) — Czech Radio's news service
 - [Prague Morning](https://praguemorning.cz/) — English-language Prague news
 - [Expats.cz](https://www.expats.cz/) — English-language Czech news
 - [Klub Za starou Prahu](https://www.zastarouprahu.cz/) — the heritage society, founded 1900

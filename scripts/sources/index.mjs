@@ -10,6 +10,7 @@ import zdopravy from './zdopravy.mjs'
 import ct24praha from './ct24praha.mjs'
 import praguemorning from './praguemorning.mjs'
 import expats from './expats.mjs'
+import irozhlas from './irozhlas.mjs'
 
 /**
  * The scan's source registry. Adding a source is one adapter file plus one line here.
@@ -35,6 +36,7 @@ export const SOURCES = [
   archiweb, // Czech architecture news, national
   zdopravy, // transport trade press, national
   ct24praha, // public broadcaster, Prague region
+  irozhlas, // public broadcaster, national — read through its news sitemap
   praguemorning, // English-language Prague news
   expats, // English-language Czech news
   districts, // the městské části — where a scheme first becomes concrete
