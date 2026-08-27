@@ -3,7 +3,7 @@ slug: roztocka-lane-closure-shortened
 lang: en
 title: "Three Town Halls Force the Roztocká Lane Closure to End — and Are Told the Street Will Be Dug Up Again"
 dek: "PVS wanted to keep the four-lane approach from Suchdol down to two until the end of September. After protests from Prague 6, Suchdol and Roztoky, full traffic returns on 6 September — but the pumping station rebuild is not finished."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: transport
 tags: ["Roztocká", "Kamýcká", "Praha 6", "Suchdol", "Roztoky", "PVS", "roadworks"]
 author: "Prague Insider Desk"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "entries": {
     "17193e40a93bfaad": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110",
@@ -16,12 +16,26 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "blanka-tunnel-bus-145"
     },
+    "1d04a2ab90c2e527": {
+      "url": "https://praguemorning.cz/historic-invalidovna-building-in-prague-begins-major-reconstruction",
+      "title": "Historic Invalidovna Building in Prague Begins Major Reconstruction",
+      "source": "Prague Morning",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "invalidovna-reconstruction-start"
+    },
     "1e4296005a1e3b95": {
       "url": "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy",
       "title": "Cesta Metropolitního plánu: Čtrnáct let příprav nastartuje intenzivní rozvoj Prahy",
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-01",
       "usedInPost": "metropolitan-plan-takes-effect"
+    },
+    "29c81c725599e9ff": {
+      "url": "https://pid.cz/zmena/obratiste-spojovaci-docasne-preruseni-provozu-tramvaji-42225-3",
+      "title": "Obratiště Spojovací: dočasné přerušení provozu tramvají",
+      "source": "Pražská integrovaná doprava (PID)",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "t3-back-to-back-sets-return"
     },
     "2a3749ed8d2ac5b7": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-zari-2026",
@@ -72,6 +86,13 @@
       "firstSeen": "2026-08-25",
       "usedInPost": "flora-hradcanska-metro-closures"
     },
+    "5d8952a95266bef1": {
+      "url": "https://zdopravy.cz/t3-zady-k-sobe-v-praze-se-vraci-do-provozu-neobvykle-soupravy-296003",
+      "title": "T3 zády k sobě. V Praze se vrací do provozu neobvyklé soupravy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "t3-back-to-back-sets-return"
+    },
     "6732c3864f87becf": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku",
       "title": "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku",
@@ -107,12 +128,40 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prager-cubes-circular-reconstruction"
     },
+    "b2f5c106a764f5c6": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti",
+      "title": "DPP vysoutěžil zhotovitele nové tramvajové tratě Olšanská–Habrová, výstavba začne ve třetím čtvrtletí",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "caa1b508532c4979": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",
+      "title": "Začíná kompletní oprava pražské Invalidovny, trvat by měla čtyři roky",
+      "source": "ČT24 (Česká televize) / ČTK",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "invalidovna-reconstruction-start"
+    },
+    "d8b3f57474089b26": {
+      "url": "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3",
+      "title": "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají",
+      "source": "Pražská integrovaná doprava (PID)",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "olsanska-habrova-tram-closure"
+    },
     "dc77a796a72bf873": {
       "url": "https://zdopravy.cz/omezeni-na-prijezdu-do-prahy-skonci-vymohly-si-radnice-silnice-se-vsak-opet-rozkope-pozdeji-296030",
       "title": "Omezení na příjezdu do Prahy skončí, vymohly si radnice. Silnice se však opět rozkope později",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-26",
       "usedInPost": "roztocka-lane-closure-shortened"
+    },
+    "edb3753600a169c5": {
+      "url": "https://www.praha7.cz/zmeny-tram-29-8",
+      "title": "Změny ve vedení tramvají od 29. srpna, do centra rychleji linkou 5",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-08-27",
+      "usedInPost": "olsanska-habrova-tram-closure"
     },
     "f2585ef45cacab77": {
       "url": "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite",

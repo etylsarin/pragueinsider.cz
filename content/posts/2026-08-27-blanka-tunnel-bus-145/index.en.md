@@ -3,7 +3,7 @@ slug: blanka-tunnel-bus-145
 lang: en
 title: "A Bus Through Blanka: Line 145 Puts Kobylisy Twenty Minutes from Dejvice"
 dek: "The first PID service to use the Blanka tunnel complex started on 15 August, running every six minutes at the morning peak. A wider network shake-up follows on 29 August, including unified weekend timetables on the metro."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: transport
 tags: ["Blanka", "line 145", "PID", "ROPID", "buses", "Kobylisy", "Dejvická"]
 author: "Prague Insider Desk"

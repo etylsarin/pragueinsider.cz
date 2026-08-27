@@ -1,113 +1,96 @@
-# Scan log — 2026-08-26
+# Scan log — 2026-08-27
 
-Scanned `2026-08-26T11:17:59.718Z`, window 21 days.
+Scanned `2026-08-27T05:11:27.026Z`, window 21 days.
 
 ## Sources
 
 - ✓ **praha.camp (CAMP)** — 0 new of 40 (0 off-topic, 1 covered, 39 outside window)
 - ✓ **IPR Praha** — 0 new of 24 (0 off-topic, 2 covered, 22 outside window)
 - ✓ **Dopravní podnik hl. m. Prahy** — 0 new of 10 (0 off-topic, 2 covered, 8 outside window)
-- ✓ **PID / ROPID** — 3 new of 10 (4 off-topic, 0 covered, 3 outside window)
+- ✓ **PID / ROPID** — 1 new of 10 (4 off-topic, 2 covered, 3 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
-- ✓ **archiweb.cz** — 1 new of 20 (18 off-topic, 1 covered, 0 outside window)
-- ✓ **Zdopravy.cz** — 3 new of 40 (37 off-topic, 0 covered, 0 outside window)
+- ✓ **archiweb.cz** — 0 new of 20 (19 off-topic, 1 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 2 new of 40 (37 off-topic, 1 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (9 off-topic, 1 covered, 0 outside window)
-- ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
+- ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
 - ✓ **Expats.cz** — 0 new of 25 (24 off-topic, 1 covered, 0 outside window)
-- ✓ **Městské části** — 6 new of 32 (26 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 5 new of 32 (25 off-topic, 2 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (1 off-topic, 0 covered, 9 outside window)
 
-## Candidates — 13 in 12 clusters
+## Candidates — 9 in 9 clusters
 
-1. `27` transport — Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110
-2. `27` transport — Změny ve vedení tramvají od 29. srpna, do centra rychleji linkou 5
-3. `19` transport — Omezení na příjezdu do Prahy skončí, vymohly si radnice. Silnice se však opět rozkope později
-4. `19` architecture — Připomínka: II. Veřejné setkání k obnově náměstí Svatopluka Čecha
-5. `18` transport — Pět autobusových linek obslouží novou zastávku Sourozenců Čapkových
-6. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na srpen a září
-7. `13` transport — Jako by projela tramvaj. Ražba průzkumné štoly pod Vinohrady pokračuje s pomocí trhaviny
-8. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
-9. `13` planning — Školská zařízení s FVE panely
-10. `10` transport — Palác Žofín: jak se vyvíjí spor o předání novému nájemci
-11. `10` development — Písek vybral investora pro stavbu nové čtvrti v části bývalých Žižkových kasáren
-12. `7` development — Slýcháme chválu i kritiku. BKOM hodnotí první týdny kampaně s Isteníkem za 1,2 milionu
+1. `27` transport — Změny ve vedení tramvají od 29. srpna, do centra rychleji linkou 5
+2. `19` architecture — Připomínka: II. Veřejné setkání k obnově náměstí Svatopluka Čecha
+3. `18` transport — T3 zády k sobě. V Praze se vrací do provozu neobvyklé soupravy
+4. `17` architecture — Historic Invalidovna Building in Prague Begins Major Reconstruction
+5. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na srpen a září
+6. `13` transport — Jako by projela tramvaj. Ražba průzkumné štoly pod Vinohrady pokračuje s pomocí trhaviny
+7. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
+8. `13` planning — Školská zařízení s FVE panely
+9. `12` development — Hledáme učitele/učitelku do mateřské školy
 
 
 ## Decisions
 
-Three stories written to the queue, none released today — see "Release held" below.
+### Written to the queue — 3
 
-### Written
+- **`invalidovna-reconstruction-start`** (architecture) — the CZK 2.15bn restoration of Invalidovna
+  formally started with a key handover; site goes to Sdružení Invalidovna (Metrostav CZ, AVERS,
+  Chládek & Tintěra) on 31 August, four years to a 2030 opening, two new wings by Petr Hájek, the
+  Prague Philharmonic Choir moving in. Largest investment NPÚ has ever made. Two sources: ČT24/ČTK
+  (Czech, full detail and quotes) and Prague Morning (English, adds the 50-space garage and the
+  ~80 % public-access figure — attributed in the text, since ČTK does not carry them).
+- **`olsanska-habrova-tram-closure`** (transport) — trams stop between Olšanské náměstí and
+  Nákladové nádraží Žižkov 29 Aug – 10 Oct for preparatory work on the Olšanská–Habrová line. Line
+  34 cancelled, 26 cut back, 9/95 diverted, 5 rerouted in two stages around the return of trams to
+  Hlávkův most on 31 August. Written up against DPP's May contract award (CZK 599.2m ex-VAT, 12
+  months, six stops with now-final names) so the closure reads as the start of the line rather than
+  as a service notice. Three sources: PID, Praha 7, DPP.
+- **`t3-back-to-back-sets-return`** (transport) — back-to-back T3R.PLF pairs (arrangement PX) return
+  to passenger service on line 19 for the first time since 1983, as a tested fallback for the
+  bidirectional KT8D5 shortage caused by overlapping closures. Confirmed to Zdopravy.cz by PID
+  spokesman Filip Drápal; DPP had not answered at publication, which the article says. Sources:
+  Zdopravy.cz plus the PID Spojovací closure notice for the closure pile-up.
 
-- **`zofin-palace-handover-dispute`** (public-space, `featured: true`) — Praha 1 published on
-  19 August the first consolidated timeline of the Žofín dispute: tender conditions approved
-  30 April 2024, Zátiší Catering Group picked in September 2024 at CZK 20.4m/year against Agentura
-  NKL's ~10m, handover due 15 January 2025 and refused. The appellate court confirmed the Zátiší
-  contract valid on 21 April 2026; the separate eviction case was annulled for procedural defects in
-  June 2026 and remanded to a different judge. A decision taken, a contested landmark, and a case
-  nobody else is assembling in one piece. Cited from praha1.cz, quote verbatim.
-- **`blanka-tunnel-bus-145`** (transport) — first PID bus line through the Blanka tunnel complex,
-  running since 15 August, 6-minute morning peak, Kobylisy–Dejvická under 20 minutes; plus the
-  line 218 extension, the permanent split of line 110 into 110/206, and from 29 August the
-  unification of Saturday and Sunday timetables on the metro and most city buses. Permanent network
-  change, not a diversion. Cross-checked against Praha 10, which confirms the 29 August date, the
-  Sunday strengthening and the new Sourozenců Čapkových stop (lines 124, 139, 150, 155, 213). No
-  disagreement between the sources.
-- **`roztocka-lane-closure-shortened`** (transport) — Praha 6, Suchdol and Roztoky forced PVS to
-  drop its request to occupy the Roztocká/Kamýcká carriageway until the end of September; full
-  traffic returns 6 September, but the pumping station rebuild is unfinished and the street will be
-  dug up again. A formal objection that succeeded — the reversal is the story, not the closure.
+### Released today — 3 (all queued 26 Aug, unrelated to what was written today)
 
-### Skipped
+- `blanka-tunnel-bus-145`
+- `roztocka-lane-closure-shortened`
+- `zofin-palace-handover-dispute` — carried `featured: true`, the day's lead.
 
-- **Změny ve vedení tramvají od 29. srpna (praha7.cz)** — skipped, service-diversion notice. The
-  source gives no end date for the Žižkov closure it is triggered by, and the substance overlaps the
-  PID piece. Nothing decided here that the reader could hold onto in a month.
-- **Připomínka: II. veřejné setkání k obnově nám. Svatopluka Čecha (praha10.cz)** — skipped, event
-  reminder. The competition was already decided; this is a calendar item for a meeting on 27 August,
-  and would be stale before it left the queue.
-- **Pět autobusových linek obslouží novou zastávku Sourozenců Čapkových (praha10.cz)** — not skipped
-  as such: folded into `blanka-tunnel-bus-145` as a cross-check source. One story, one article.
-- **Mobilní informační centrum PID Point (pid.cz)** — skipped, opening-hours notice for a mobile
-  info van. The press-office test: what the institution says about itself, not what it does to the
-  city.
-- **Dny evropského dědictví (praha1.cz)** — skipped, events programme.
-- **Školská zařízení s FVE panely (praha5.cz)** — skipped, local administrative detail. Praha 5 has
-  picked a firm to prepare project documentation for PV on six buildings; the installation contract
-  is not let. Fails the district test — it would not matter to a reader in another district.
-- **Ražba průzkumné štoly pod Vinohrady (zdopravy.cz)** — skipped, not Prague. This is Brno's
-  Vinohrady housing estate and the Velký městský okruh tunnel; ŘSD Závod Brno. A geographic false
-  positive on the estate name.
-- **Písek vybral investora … Žižkova kasárna (archiweb.cz)** — skipped, not Prague. Písek, and the
-  barracks share a name with the Prague district.
-- **BKOM hodnotí kampaň s Isteníkem (zdopravy.cz)** — skipped, not Prague. BKOM is Brněnské
-  komunikace.
+Queue depth after release: 3 (today's three).
 
-### Release held
+### Skipped — 6
 
-`release.mjs` was **not** run. An earlier run today already published three stories for 2026-08-26
-(commit `833ae5d`, an ancestor of HEAD): `citydeal-twelve-cities`, `lost-paths-study`,
-`palata-dementia-pavilion`. The script has no memory of that — it would have moved three more onto
-the same date, putting six posts on a day whose stated limit is three. All three of today's stories
-stay queued and go out on the next run, which is the queue behaving as designed. `--dry-run` output:
+- **Připomínka: II. veřejné setkání k obnově náměstí Svatopluka Čecha** (Praha 10, score 19) —
+  skipped, event reminder with no reportable content. The page is explicit that the 27 August
+  meeting repeats the 15 July one "ve stejném formátu a se stejným obsahem"; it names neither the
+  winning team, nor the design, nor a cost or timeline. Nothing to source an article from. Worth
+  re-checking when the district publishes the winning design itself.
+- **Ražba průzkumné štoly pod Vinohrady** (Zdopravy.cz, score 13) — **wrong city.** This is the
+  Vinohrady housing estate in *Brno*: the exploratory adit is ŘSD's, for the Velký městský okruh
+  tunnel, quoted by the director of ŘSD's Brno division. The item reached the digest on the district
+  name "Vinohrady" alone; neither title nor summary names Brno, so `relevance.mjs` had nothing to
+  veto on. Caught at step 3 by reading the body, which is the only place it could have been caught.
+- **Mobilní informační centrum PID Point: jízdní řády na srpen a září** (PID, score 14) — skipped,
+  a service timetable for a mobile info kiosk. Nothing decided; useless in a month.
+- **Dny evropského dědictví: Místa, která mají co vyprávět** (Praha 1, score 13) — skipped,
+  programme of events.
+- **Školská zařízení s FVE panely** (Praha 5, score 13) — skipped. A firm was picked to draw up
+  project documentation for rooftop PV on six district buildings, so something was decided, but this
+  is procurement of design documents for one district's own estate — it fails the "would this matter
+  to a reader in a different district" test.
+- **Hledáme učitele/učitelku do mateřské školy** (Praha 5, score 12) — skipped, job advertisement.
 
-```
-  → blanka-tunnel-bus-145 (queued 2026-08-26)
-  → roztocka-lane-closure-shortened (queued 2026-08-26)
-  → zofin-palace-handover-dispute (queued 2026-08-26)
-[dry run] would release 3 of 3; 0 left in the queue.
-```
+### Notes for a human
 
-### Source health
-
-No source errored. The four sources returning zero — CAMP, IPR, DPP and Klub Za starou Prahu — were
-checked directly against their adapters rather than inferred from the counts: all four return recent
-items (CAMP and IPR to 21 August, DPP to 24 August), and their newest stories were already covered by
-the runs of 25 and 26 August. The high "outside window" counts are genuine, not adapter rot.
-
-`zdopravy.cz` again returns 403 to WebFetch and was read with a browser user-agent via curl, as the
-skill prescribes. Not a fault.
-
-Worth a human's eye: three of the twelve clusters (Brno's Vinohrady adit, BKOM, Písek) were non-Prague
-stories that passed the relevance filter on Prague-sounding place names. If that recurs,
-`scripts/lib/relevance.mjs` may want a negative check on Brno/Písek datelines.
+- No source errored; all thirteen returned. praha.camp, IPR and DPP each returned zero *new* items
+  purely because their recent output was already covered or outside the 21-day window — not a fault.
+- The container's egress allowlist blocks every host that is not a registered source, so the Czech
+  cross-checks on Invalidovna via e15.cz, prazsky.denik.cz, regionpraha.cz and prahanadlani.cz were
+  refused. ČT24 is on the allowlist and carried the full ČTK report, so the story is properly
+  cross-checked anyway — but adding a general Czech daily to the sources list would give the desk a
+  fallback the next time the one allowed outlet does not carry a story.
+- `zdopravy.cz` again returned 403 to WebFetch and read fine via curl with a browser user-agent, as
+  the skill documents.

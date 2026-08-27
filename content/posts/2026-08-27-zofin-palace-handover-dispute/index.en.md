@@ -3,7 +3,7 @@ slug: zofin-palace-handover-dispute
 lang: en
 title: "Twenty Months On, Žofín Still Has the Wrong Tenant"
 dek: "Prague 1 awarded the riverside palace to a new operator at double the rent in September 2024. The old tenant has not moved out, and in June an appellate court sent the eviction case back to be heard again by a different judge."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: public-space
 tags: ["Žofín", "Slovanský ostrov", "Praha 1", "Zátiší Catering Group", "public property"]
 district: "Praha 1 – Nové Město"

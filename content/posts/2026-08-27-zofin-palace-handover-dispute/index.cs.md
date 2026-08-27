@@ -3,7 +3,7 @@ slug: zofin-palace-handover-dispute
 lang: cs
 title: "Žofín má po dvaceti měsících pořád starého nájemce"
 dek: "Praha 1 vybrala v září 2024 nového provozovatele, který nabídl dvojnásobné nájemné. Agentura NKL palác nepředala a odvolací soud letos v červnu vrátil spor o vyklizení zpět — a nařídil přidělit ho jinému soudci."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: public-space
 tags: ["Žofín", "Slovanský ostrov", "Praha 1", "Zátiší Catering Group", "veřejný majetek"]
 district: "Praha 1 – Nové Město"

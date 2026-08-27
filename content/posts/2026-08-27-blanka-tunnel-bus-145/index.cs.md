@@ -3,7 +3,7 @@ slug: blanka-tunnel-bus-145
 lang: cs
 title: "Tunelbus 145: z Kobylis na Dejvickou pod dvacet minut"
 dek: "První autobusová linka PID vedená Blankou vyjela 15. srpna, ve špičce jezdí po šesti minutách. Od 29. srpna přijde větší změna sítě — metro a většina městských autobusů budou mít jednotný víkendový jízdní řád."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: transport
 tags: ["Blanka", "linka 145", "PID", "ROPID", "autobusy", "Kobylisy", "Dejvická"]
 author: "Prague Insider Desk"

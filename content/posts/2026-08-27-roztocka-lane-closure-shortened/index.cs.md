@@ -3,7 +3,7 @@ slug: roztocka-lane-closure-shortened
 lang: cs
 title: "Radnice zkrátily omezení v Roztocké. Zároveň se dozvěděly, že se ulice rozkope znovu"
 dek: "PVS chtěla držet zúžení čtyřproudého příjezdu od Suchdola do konce září. Po protestech Prahy 6, Suchdola a Roztok se doprava v plném profilu obnoví 6. září — rekonstrukce čerpací stanice ale hotová není."
-queuedAt: 2026-08-26
+date: 2026-08-27
 category: transport
 tags: ["Roztocká", "Kamýcká", "Praha 6", "Suchdol", "Roztoky", "PVS", "uzavírky"]
 author: "Prague Insider Desk"
