@@ -3,7 +3,7 @@ slug: invalidovna-reconstruction-start
 lang: en
 title: "A Symbolic Key for Invalidovna: CZK 2.15bn and Four Years to 2030"
 dek: "The National Heritage Institute has started the largest project in its history. Two new wings by Petr Hájek go up on the southern plot, the Prague Philharmonic Choir gets a home, and the site changes hands to the builders on 31 August."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: architecture
 tags: ["Invalidovna", "Karlín", "NPÚ", "Petr Hájek", "heritage"]
 district: "Praha 8 – Karlín"

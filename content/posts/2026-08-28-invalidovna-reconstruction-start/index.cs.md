@@ -3,7 +3,7 @@ slug: invalidovna-reconstruction-start
 lang: cs
 title: "Klíč od Invalidovny předán: 2,15 miliardy a čtyři roky do roku 2030"
 dek: "Národní památkový ústav zahájil největší investici ve své historii. Na jižním pozemku vyrostou dvě přístavby podle návrhu Petra Hájka, sídlo tu dostane Pražský filharmonický sbor a staveniště přebírají zhotovitelé 31. srpna."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: architecture
 tags: ["Invalidovna", "Karlín", "NPÚ", "Petr Hájek", "památky"]
 district: "Praha 8 – Karlín"

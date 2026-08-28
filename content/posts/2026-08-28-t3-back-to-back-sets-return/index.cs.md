@@ -3,7 +3,7 @@ slug: t3-back-to-back-sets-return
 lang: cs
 title: "Dvě tramvaje zády k sobě. Praha oprašuje trik z roku 1983, aby zvládla podzimní výluky"
 dek: "Dvojice vozů T3R.PLF spřažená zadními čely umí otočit směr i tam, kde není smyčka. PID potvrzuje, že DPP je připravuje jako technicky ověřenou zálohu na sezónu s příliš mnoha výlukami a málo obousměrnými vozy KT8D5."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: transport
 tags: ["T3R.PLF", "tramvaje", "DPP", "PID", "výluky"]
 author: "Prague Insider Desk"

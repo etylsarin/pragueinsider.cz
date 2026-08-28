@@ -3,13 +3,13 @@ slug: olsanska-habrova-tram-closure
 lang: en
 title: "Six Weeks Without Trams to Nákladové Nádraží Žižkov — Because the New Line Is Finally Starting"
 dek: "From 29 August to 10 October the track east of Olšanské náměstí closes for preparatory work on the Olšanská–Habrová line. Line 34 disappears, line 26 stops short, and line 5 is rerouted across a bridge that reopens to trams on 31 August."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "trams", "DPP", "PID"]
 district: "Praha 3 – Žižkov"
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají"
     url: "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3/"
@@ -23,6 +23,10 @@ sources:
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti"
     publisher: "Dopravní podnik hl. m. Prahy (DPP)"
     date: 2026-05-21
+  - title: "DPP začne stavět napojení budoucí tratě Olšanská – Habrová do stávající kolejové sítě a opraví trať ve smyčce Spojovací"
+    url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci"
+    publisher: "Dopravní podnik hl. m. Prahy (DPP)"
+    date: 2026-08-27
 ---
 
 Trams stop running between Olšanské náměstí and Nákladové nádraží Žižkov from about 4.30am on
@@ -87,6 +91,45 @@ contract:
   south of Osiková.
 
 The project is co-financed by the European Union through the Transport Programme 2021–2027.
+
+## What is actually being rebuilt, and the loop next door
+
+DPP's own announcement on 27 August put the engineering behind the closure on the record. The work
+is the first part of rebuilding the track fan at the junction of Olšanská and Jana Želivského, and
+building the connection of the future Olšanská–Habrová line into the existing network. The geometry
+of the crossing has to change so that a tram can continue straight ahead from Olšanská onto the new
+line towards Jarov and back again, and new facing points have to be installed in the direction from
+Olšanská.
+
+It runs in stages. The first keeps to the track in Olšanská between the junctions with Ke Kapslovně
+and Jana Želivského, so that trams in Jana Želivského between Želivského and Biskupcova are not
+disrupted. The next stage of the rebuild will run at the same time as the modernisation of the
+northern section of track in Jana Želivského, which DPP plans for this autumn. The same consortium
+that won the new line — FIRESTA, PEDASTA and N+N Litoměřice — is carrying out the junction rebuild.
+
+From the same Saturday, and for two weeks until the morning of 12 September, DPP is also repairing
+the track in the Spojovací loop, with trams suspended in the turning loop itself. All four
+life-expired switches are being replaced with heated ones, two of them remotely controlled so
+drivers no longer have to throw them by hand; the switches get new drainage, and two worn crossing
+frogs in the track fan are being replaced too. Lines 9, 11 and 98 are cut back to Vozovna Žižkov,
+and line 31 covers the Kněžská luka/Spojovací section, strengthened at peak times to a four-minute
+interval.
+
+Two closures in one district at once is not an accident of scheduling, and DPP said so plainly.
+
+> The coincidence of these two projects of ours does not please us at all, but unfortunately it was
+> not possible to do it otherwise or at another time, given other construction works this year and
+> next and with regard to maintaining maximum service to Prague 3 by high-capacity tram transport.
+>
+> — Jan Šurovský, vice-chairman of the board and technical director of DPP – Surface
+
+The reason is what comes after. Once these two jobs and the second stage of the Jana Želivského
+modernisation are done — that runs to about mid-December — the reconstruction of the tram line in
+Seifertova, Táboritská and Jičínská takes over, starting in earnest right after the new Václavské
+náměstí and Muzeum lines open at the end of June 2027. During that, Šurovský said, DPP cannot afford
+larger repairs on Vinohradská, Jana Želivského or Hartigova, because those are the tracks that keep
+trams reaching Prague 3 at all. Nor can the work be deferred past it: on DPP's account the existing
+tracks might not survive to the end of 2028.
 
 Read together, the closure notice and the May contract say the same thing from two directions: the
 six weeks of missing trams on Žižkov are the cost of a line that turns a derelict freight railway

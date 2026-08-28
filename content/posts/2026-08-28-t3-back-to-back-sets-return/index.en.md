@@ -3,7 +3,7 @@ slug: t3-back-to-back-sets-return
 lang: en
 title: "Two Trams Coupled Tail to Tail: Prague Revives a 1983 Trick to Get Through the Autumn Closures"
 dek: "A pair of T3R.PLF cars joined back to back can reverse without a loop. PID confirms DPP is preparing them as a tested fallback for a season with too many closures and not enough bidirectional KT8s."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: transport
 tags: ["T3R.PLF", "trams", "DPP", "PID", "closures"]
 author: "Prague Insider Desk"

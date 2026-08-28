@@ -1,7 +1,21 @@
 {
   "version": 1,
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "entries": {
+    "01a2d7a8b7cf58bd": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
+      "title": "Praha 14 zahájila stavbu školy na Jahodnici za 950 milionů korun",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "jahodnice-school-construction-start"
+    },
+    "092655d959f3cec9": {
+      "url": "https://zdopravy.cz/trolejbusy-bozankaya-uz-mesice-cekaji-v-garazich-kvuli-prekladu-dokumentu-je-praha-stale-neprevzala-296128",
+      "title": "Trolejbusy Bozankaya už měsíce čekají v garážích. Kvůli překladu dokumentů je Praha stále nepřevzala",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "bozankaya-trolleybuses-still-unaccepted"
+    },
     "17193e40a93bfaad": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110",
       "title": "Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110",
@@ -100,6 +114,13 @@
       "firstSeen": "2026-08-25",
       "usedInPost": "flora-hradcanska-metro-closures"
     },
+    "7d2ab6ddea8a6043": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci",
+      "title": "DPP začne stavět napojení budoucí tratě Olšanská – Habrová do stávající kolejové sítě a opraví trať ve smyčce Spojovací",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "olsanska-habrova-tram-closure"
+    },
     "83add9b744d2fec0": {
       "url": "https://iprpraha.cz/city-deal-leto2026",
       "title": "Česká města sdílejí zkušenosti. A hovoří o reformě svého plánování",
@@ -135,12 +156,33 @@
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
     },
+    "b9418773be782e6f": {
+      "url": "https://zdopravy.cz/az-ctyri-jizdy-zdarma-denne-bikesharing-s-litackou-se-v-praze-opet-rozsiri-296301",
+      "title": "Až čtyři jízdy zdarma denně. Bikesharing s Lítačkou se v Praze opět rozšíří",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "bikesharing-litacka-new-tender"
+    },
+    "bceabe52dd874bb4": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-6-chce-zrusit-soutez-na-kulturni-centrum-a-vypise-novy-tendr",
+      "title": "Praha 6 chce zrušit soutěž na kulturní centrum a vypíše nový tendr",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "vitezne-namesti-cultural-centre-tender-cancelled"
+    },
     "caa1b508532c4979": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",
       "title": "Začíná kompletní oprava pražské Invalidovny, trvat by měla čtyři roky",
       "source": "ČT24 (Česká televize) / ČTK",
       "firstSeen": "2026-08-27",
       "usedInPost": "invalidovna-reconstruction-start"
+    },
+    "cc2d9cd0dea2587e": {
+      "url": "https://zdopravy.cz/na-budovanem-useku-prazskeho-okruhu-uz-se-rysuji-tubusy-tunelu-rostou-mosty-i-protihlukove-steny-296116",
+      "title": "Na budovaném úseku Pražského okruhu už se rýsují tubusy tunelů. Rostou mosty i protihlukové stěny",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-28",
+      "usedInPost": "d0-511-opening-slips-to-2028"
     },
     "d8b3f57474089b26": {
       "url": "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3",

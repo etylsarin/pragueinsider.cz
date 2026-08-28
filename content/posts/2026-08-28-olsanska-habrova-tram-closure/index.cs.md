@@ -3,13 +3,13 @@ slug: olsanska-habrova-tram-closure
 lang: cs
 title: "Šest týdnů bez tramvají na Nákladové nádraží Žižkov. Začíná stavba nové tratě"
 dek: "Od 29. srpna do 10. října se zavírá úsek za Olšanským náměstím kvůli přípravným pracím před stavbou trati Olšanská–Habrová. Linka 34 se ruší, dvacet šestka končí dřív a pětka jede jinudy — přes most, na který se 31. srpna vracejí tramvaje."
-queuedAt: 2026-08-27
+date: 2026-08-28
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "tramvaje", "DPP", "PID"]
 district: "Praha 3 – Žižkov"
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají"
     url: "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3/"
@@ -23,6 +23,10 @@ sources:
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti"
     publisher: "Dopravní podnik hl. m. Prahy (DPP)"
     date: 2026-05-21
+  - title: "DPP začne stavět napojení budoucí tratě Olšanská – Habrová do stávající kolejové sítě a opraví trať ve smyčce Spojovací"
+    url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci"
+    publisher: "Dopravní podnik hl. m. Prahy (DPP)"
+    date: 2026-08-27
 ---
 
 Mezi Olšanským náměstím a Nákladovým nádražím Žižkov přestanou jezdit tramvaje. Přerušení začíná
@@ -84,6 +88,44 @@ Názvy zastávek schválil odbor dopravy magistrátu současně se zakázkou:
   jižně od Osikové.
 
 Stavba je spolufinancována Evropskou unií z Programu Doprava 2021–2027.
+
+## Co se vlastně přestavuje a co se opravuje vedle
+
+Vlastní stavební obsah výluky popsal DPP ve zprávě z 27. srpna. Jde o první část přestavby
+kolejového rozvětvení v křižovatce ulic Olšanská a Jana Želivského a o vybudování napojení budoucí
+tratě Olšanská – Habrová do stávající sítě. Kolejovou konstrukci je nutné přestavět kvůli změně
+geometrie tak, aby bylo možné z Olšanské pokračovat v přímém směru po nové trati na Jarov a zpět,
+a ve směru z Olšanské se musí nainstalovat nové rozjezdové výhybky.
+
+Práce běží po etapách. První se drží na trati v Olšanské mezi křižovatkami s ulicemi Ke Kapslovně
+a Jana Želivského, aby neomezila provoz tramvají v Jana Želivského v úseku Želivského – Biskupcova.
+Další etapa proběhne současně s modernizací severního úseku tratě v ulici Jana Želivského, kterou
+DPP plánuje ještě letos na podzim. Přestavbu křížení realizuje totéž sdružení, které vysoutěžilo
+novou trať — FIRESTA, PEDASTA a N+N Litoměřice.
+
+Od téže soboty a na dva týdny do rána 12. září DPP zároveň opravuje trať ve smyčce Spojovací;
+provoz tramvají je přerušen jen v samotném obratišti. Všechny čtyři dožívající výhybky se mění za
+nové s topením, dvě rozjezdové budou dálkově ovládané, takže je řidiči nebudou muset ručně
+přehazovat. Výhybky dostanou nové odvodnění a vymění se také dvě opotřebené srdcovky kolejového
+rozvětvení. Linky 9, 11 a 98 jsou zkráceny do zastávky Vozovna Žižkov, úsek Kněžská luka/Spojovací
+obsluhuje posílená linka 31 s intervalem čtyři minuty ve špičkách.
+
+Že dvě výluky padly do jedné městské části současně, není náhoda harmonogramu, a DPP to říká
+otevřeně.
+
+> Souběh těchto dvou našich akcí nás vůbec netěší, ale bohužel to jinak a v jiném termínu nebylo
+> možné udělat vzhledem k jiným stavbám v letošním a příštím roce a s ohledem na zachování maximální
+> obslužnosti Prahy 3 kapacitní tramvajovou dopravou.
+>
+> — Jan Šurovský, místopředseda představenstva a technický ředitel DPP – Povrch
+
+Důvod leží v tom, co přijde potom. Po dokončení obou akcí a druhé etapy modernizace tratě v Jana
+Želivského, která má trvat zhruba do poloviny prosince, přebírá kalendář rekonstrukce tramvajové
+tratě v Seifertově, Táboritské a Jičínské. Ta se má naplno rozjet hned po zprovoznění nových tratí
+Václavské náměstí a Muzeum na konci června 2027. Během ní si podle Šurovského DPP nemůže dovolit
+větší opravy ve Vinohradské, na Jana Želivského ani v Hartigově — právě po nich se totiž tramvají
+do Prahy 3 vůbec dostane. Odložit je až za ni ale také nelze: stávající tratě by se podle DPP konce
+roku 2028 nemusely dožít.
 
 Výlukové oznámení a květnová zakázka říkají dohromady totéž ze dvou stran: šest týdnů bez tramvají
 na Žižkově je cena za trať, která z opuštěné nákladní železnice udělá linkovou dopravu pro čtvrť,
