@@ -3,7 +3,7 @@ slug: bikesharing-litacka-new-tender
 lang: cs
 title: "Praha vypíše nový tendr na sdílená kola. Jízd zdarma budou až čtyři denně"
 dek: "Zakázka za 50 milionů korun na zhruba dva roky, smlouva až se třemi dodavateli a systém koeficientů, který má kola dostat na okraj města. Jediným kritériem bude cena jedné patnáctiminutové jízdy."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["bikesharing", "PID Lítačka", "Rekola", "Nextbike", "veřejné zakázky"]
 author: "Prague Insider Desk"

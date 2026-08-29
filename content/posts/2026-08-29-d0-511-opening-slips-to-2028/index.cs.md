@@ -3,12 +3,12 @@ slug: d0-511-opening-slips-to-2028
 lang: cs
 title: "Chybějící úsek Pražského okruhu se posouvá na druhou polovinu roku 2028. A podraží"
 dek: "Na 12,5 kilometru mezi Běchovicemi a D1 se rýsují tubusy tunelů Na Vysoké i u Dubče. Nečekaná geologie odsunula zprovoznění z konce roku 2027 a k ceně 9,8 miliardy přidá stovky milionů."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["Pražský okruh", "D0", "D0 511", "ŘSD", "Běchovice"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Na budovaném úseku Pražského okruhu už se rýsují tubusy tunelů. Rostou mosty i protihlukové stěny"
     url: "https://zdopravy.cz/na-budovanem-useku-prazskeho-okruhu-uz-se-rysuji-tubusy-tunelu-rostou-mosty-i-protihlukove-steny-296116"

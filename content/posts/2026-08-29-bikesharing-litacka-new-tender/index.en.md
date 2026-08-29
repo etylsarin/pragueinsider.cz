@@ -3,7 +3,7 @@ slug: bikesharing-litacka-new-tender
 lang: en
 title: "Prague Re-Tenders Free Bikeshare Rides and Doubles the Daily Allowance to Four"
 dek: "A CZK 50m contract for about two years, up to three suppliers, and a coefficient system meant to push shared bikes out to the edges of the city. The single award criterion is the price of one 15-minute ride."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["bikesharing", "PID Lítačka", "Rekola", "Nextbike", "procurement"]
 author: "Prague Insider Desk"

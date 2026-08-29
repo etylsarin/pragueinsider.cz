@@ -3,7 +3,7 @@ slug: bozankaya-trolleybuses-still-unaccepted
 lang: cs
 title: "Třicet trolejbusů stojí v Řepích, zatímco se Praha přetahuje o překlad"
 dek: "Vozy Bozankaya SNG 12T mají schválení typu od dubna, DPP je ale stále nepřevzal. Spor už není o technice, ale o české dokumentaci. Ropid má připravené tři verze jízdních řádů."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["trolejbusy", "Bozankaya", "DPP", "Drážní úřad", "Garáže Řepy"]
 author: "Prague Insider Desk"

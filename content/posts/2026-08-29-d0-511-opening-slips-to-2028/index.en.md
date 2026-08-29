@@ -3,12 +3,12 @@ slug: d0-511-opening-slips-to-2028
 lang: en
 title: "The Ring Road's Missing Link Slips to the Second Half of 2028 — and Gets Dearer"
 dek: "Tunnel tubes are taking shape at Na Vysoké and Dubeč on the 12.5km D0 section between Běchovice and the D1. Unexpected geology has pushed the opening back from the end of 2027 and added hundreds of millions to a CZK 9.8bn contract."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["Pražský okruh", "D0", "D0 511", "ŘSD", "Běchovice"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Na budovaném úseku Pražského okruhu už se rýsují tubusy tunelů. Rostou mosty i protihlukové stěny"
     url: "https://zdopravy.cz/na-budovanem-useku-prazskeho-okruhu-uz-se-rysuji-tubusy-tunelu-rostou-mosty-i-protihlukove-steny-296116"

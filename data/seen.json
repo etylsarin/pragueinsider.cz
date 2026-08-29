@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -149,6 +149,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prager-cubes-circular-reconstruction"
     },
+    "9ab09ccc78644371": {
+      "url": "https://www.praha5.cz/rekonstrukce-plzenske-konci-obnova-provozu-zacne-v-patek-vecer",
+      "title": "Rekonstrukce Plzeňské končí: obnova provozu začne v pátek večer",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-08-29",
+      "usedInPost": "plzenska-reopens-tsk-drops-kerbs"
+    },
     "b2f5c106a764f5c6": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti",
       "title": "DPP vysoutěžil zhotovitele nové tramvajové tratě Olšanská–Habrová, výstavba začne ve třetím čtvrtletí",
@@ -198,6 +205,13 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "roztocka-lane-closure-shortened"
     },
+    "e57f34a5ea69db15": {
+      "url": "https://www.praha7.cz/tranzit_stross",
+      "title": "Opatření proti tranzitní dopravě v okolí Strossu",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-08-29",
+      "usedInPost": "strossmayerovo-transit-block"
+    },
     "edb3753600a169c5": {
       "url": "https://www.praha7.cz/zmeny-tram-29-8",
       "title": "Změny ve vedení tramvají od 29. srpna, do centra rychleji linkou 5",
@@ -211,6 +225,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-01",
       "usedInPost": "prager-cubes-circular-reconstruction"
+    },
+    "f2d29b823262f915": {
+      "url": "https://praha10.cz/most-v-ulici-k-pradelne-nahradi-nova-konstrukce",
+      "title": "Most v ulici K Prádelně nahradí nová konstrukce",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-08-29",
+      "usedInPost": "k-pradelne-bridge-replacement"
     },
     "f4ba7bc8395490e4": {
       "url": "https://iprpraha.cz/praha-v-evropskem-kontextu-aktualne-leto2026",

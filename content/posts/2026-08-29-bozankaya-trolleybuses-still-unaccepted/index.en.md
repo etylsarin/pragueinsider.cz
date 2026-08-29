@@ -3,7 +3,7 @@ slug: bozankaya-trolleybuses-still-unaccepted
 lang: en
 title: "Thirty Trolleybuses Sit in Řepy While Prague Argues Over a Translation"
 dek: "The Bozankaya SNG 12T fleet has had type approval since April, but DPP still has not taken delivery — the dispute is now about Czech documentation, not hardware. ROPID has three versions of the new timetables ready."
-queuedAt: 2026-08-28
+date: 2026-08-29
 category: transport
 tags: ["trolleybuses", "Bozankaya", "DPP", "Drážní úřad", "Garáže Řepy"]
 author: "Prague Insider Desk"
