@@ -3,7 +3,7 @@ slug: k-pradelne-bridge-replacement
 lang: cs
 title: "Most v K Prádelně jde 1. září k zemi. Nahradí ho širší konstrukce s větší povodňovou kapacitou"
 dek: "TSK nechá přes BM Constructions zbourat silniční most přes Botič v Záběhlicích a postavit na jeho místě jednopolový monolitický rám na mikropilotách. Součástí je i úprava koryta pod mostem. Úplná uzavírka do 15. prosince, zavřená bude i hráz rybníka."
-queuedAt: 2026-08-29
+date: 2026-08-30
 category: transport
 tags: ["Botič", "K Prádelně", "TSK", "BM Constructions", "mosty", "protipovodňová ochrana", "Záběhlice"]
 district: "Praha 10 – Záběhlice"

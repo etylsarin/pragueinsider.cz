@@ -3,14 +3,14 @@ slug: vitezne-namesti-cultural-centre-tender-cancelled
 lang: en
 title: "One Bid, CZK 1.221bn, and Prague 6 Walks Away From Its Cultural Centre Tender"
 dek: "The only offer for the concert hall in the fourth quadrant of Vítězné náměstí came in at half again the expected price. The district will cancel the procedure and re-tender in February 2027."
-queuedAt: 2026-08-28
+date: 2026-08-30
 category: development
 alsoIn: ["architecture"]
 tags: ["Vítězné náměstí", "Dejvice", "Fourth Quadrant", "cultural centre", "procurement"]
 district: "Praha 6 – Dejvice"
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha 6 chce zrušit soutěž na kulturní centrum a vypíše nový tendr"
     url: "https://www.archiweb.cz/n/domaci/praha-6-chce-zrusit-soutez-na-kulturni-centrum-a-vypise-novy-tendr"

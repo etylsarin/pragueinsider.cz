@@ -3,7 +3,7 @@ slug: jahodnice-school-construction-start
 lang: en
 title: "Prague 14 Breaks Ground on a CZK 950m School at Jahodnice After Two Stopgaps"
 dek: "Eighteen homerooms for 540 pupils on U Hostavického potoka, built design-and-build by Metrostav, with CZK 350m from the city. It is the third answer the district has given to the same shortage in four years."
-queuedAt: 2026-08-28
+date: 2026-08-30
 category: development
 tags: ["Jahodnice", "schools", "Metrostav", "design and build", "Praha 14"]
 district: "Praha 14"

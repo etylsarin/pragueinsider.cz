@@ -3,7 +3,7 @@ slug: k-pradelne-bridge-replacement
 lang: en
 title: "The K Prádelně Bridge Over the Botič Comes Down on 1 September, and a Wider One Replaces It"
 dek: "TSK has BM Constructions demolishing the road bridge in Záběhlice and building a single-span monolithic frame on micropiles in its place, with the Botič channel reshaped underneath. Full closure until 15 December, and the pond dam is shut to walkers and cyclists too."
-queuedAt: 2026-08-29
+date: 2026-08-30
 category: transport
 tags: ["Botič", "K Prádelně", "TSK", "BM Constructions", "bridges", "flood protection", "Záběhlice"]
 district: "Praha 10 – Záběhlice"

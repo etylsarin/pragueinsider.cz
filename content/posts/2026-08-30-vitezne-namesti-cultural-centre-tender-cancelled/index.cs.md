@@ -3,14 +3,14 @@ slug: vitezne-namesti-cultural-centre-tender-cancelled
 lang: cs
 title: "Jediná nabídka za 1,221 miliardy. Praha 6 ruší soutěž na kulturní centrum na Vítězném náměstí"
 dek: "Nabídka od Fourth Quadrantu překročila předpokládanou hodnotu zakázky o polovinu. Radnice řízení ukončuje a nový tendr chce vypsat v únoru 2027."
-queuedAt: 2026-08-28
+date: 2026-08-30
 category: development
 alsoIn: ["architecture"]
 tags: ["Vítězné náměstí", "Dejvice", "Fourth Quadrant", "kulturní centrum", "veřejné zakázky"]
 district: "Praha 6 – Dejvice"
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha 6 chce zrušit soutěž na kulturní centrum a vypíše nový tendr"
     url: "https://www.archiweb.cz/n/domaci/praha-6-chce-zrusit-soutez-na-kulturni-centrum-a-vypise-novy-tendr"

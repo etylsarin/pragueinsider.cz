@@ -3,7 +3,7 @@ slug: jahodnice-school-construction-start
 lang: cs
 title: "Na Jahodnici se začíná stavět škola za 950 milionů. Je to třetí řešení téhož nedostatku"
 dek: "Osmnáct kmenových tříd pro 540 žáků v ulici U Hostavického potoka, metodou design and build staví Metrostav, město přispělo 350 miliony. Nejdřív komunitní centrum, pak modulární škola, teď konečně ta trvalá."
-queuedAt: 2026-08-28
+date: 2026-08-30
 category: development
 tags: ["Jahodnice", "školství", "Metrostav", "design and build", "Praha 14"]
 district: "Praha 14"
