@@ -81,5 +81,8 @@ both completed bridge works finishing with the school holidays.
 - No source errored; every adapter returned. Several were quiet for the ordinary reason — CAMP, IPR,
   DPP and Klub Za starou Prahu had nothing inside the 21-day window that was not already covered.
 - No mis-filed non-Prague item found in this batch.
-- The branch carries four desk commits (27–30 Aug) that are not on `master`. Worth a human checking
-  whether `promote-desk.yml` is fast-forwarding.
+- `promote-desk.yml` is healthy: runs 1–5 (26–30 Aug) all succeeded and `master` really is at
+  `4e04d62`, the 30 August desk commit. Note for future runs: inside the container `git fetch origin
+  master` served a **stale** `origin/master` (four commits behind), which looks exactly like the
+  promote workflow having stopped fast-forwarding. Check the branch tip through the GitHub API
+  before believing the local ref.
