@@ -1,6 +1,6 @@
-# Scan log — 2026-08-30
+# Scan log — 2026-08-31
 
-Scanned `2026-08-30T05:07:31.351Z`, window 21 days.
+Scanned `2026-08-31T05:11:16.528Z`, window 21 days.
 
 ## Sources
 
@@ -10,7 +10,7 @@ Scanned `2026-08-30T05:07:31.351Z`, window 21 days.
 - ✓ **PID / ROPID** — 3 new of 10 (4 off-topic, 2 covered, 1 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✓ **archiweb.cz** — 0 new of 19 (17 off-topic, 2 covered, 0 outside window)
-- ✓ **Zdopravy.cz** — 2 new of 40 (35 off-topic, 3 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 3 new of 40 (35 off-topic, 2 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (9 off-topic, 1 covered, 0 outside window)
 - ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague Morning** — 0 new of 10 (9 off-topic, 1 covered, 0 outside window)
@@ -18,72 +18,68 @@ Scanned `2026-08-30T05:07:31.351Z`, window 21 days.
 - ✓ **Městské části** — 4 new of 32 (24 off-topic, 4 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 
-## Candidates — 9 in 9 clusters
+## Candidates — 10 in 10 clusters
 
-1. `19` transport — Očekávané komplikace na příjezdových silnicích do Prahy v prvním zářijovém týdnu
-2. `19` architecture — Připomínka: II. Veřejné setkání k obnově náměstí Svatopluka Čecha
-3. `18` transport — Jak se spotuje na Spotu? Přijďte nám 2. září říct, co vylepšit
-4. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na srpen a září
-5. `13` transport — Praha upraví a rozšíří podporu bikesharingu v rámci aplikace PID Lítačka
-6. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
-7. `12` development — Hledáme učitele/učitelku do mateřské školy
-8. `10` transport — Praha usiluje o přímé spojení s Indií. Prioritou jsou Dillí a Bombaj
-9. `9` transport — Rychlejší železnice Praha – Liberec má smysl, potvrdil přepočet. SŽ chystá soutěž na projektanty
+1. `20` transport — Práce na sourozenci Výtoňského mostu na Bohdalci jsou u konce. Vrací se na něj provoz
+2. `19` transport — Očekávané komplikace na příjezdových silnicích do Prahy v prvním zářijovém týdnu
+3. `19` architecture — Připomínka: II. Veřejné setkání k obnově náměstí Svatopluka Čecha
+4. `18` transport — Jak se spotuje na Spotu? Přijďte nám 2. září říct, co vylepšit
+5. `16` transport — Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení
+6. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na srpen a září
+7. `13` transport — Praha upraví a rozšíří podporu bikesharingu v rámci aplikace PID Lítačka
+8. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
+9. `12` development — Hledáme učitele/učitelku do mateřské školy
+10. `10` transport — Praha usiluje o přímé spojení s Indií. Prioritou jsou Dillí a Bombaj
 
 
 ## Decisions
 
-A thin morning: nine candidates, eight of them notices rather than news. One story written.
+Thin day: 10 candidates, all single-source clusters, nothing cross-checkable. Two cleared the bar,
+both completed bridge works finishing with the school holidays.
 
 ### Written to the queue
 
-- **praha-liberec-rail-viability-confirmed** — Správa železnic had the economics of the Mladá
-  Boleslav – Turnov – Liberec modernisation recalculated after ŽESNAD.cz challenged the assumed
-  Polish freight volumes; the CZK 58,000 recalculation confirmed the approved 200PF variant pays
-  for itself on passenger benefits alone, and the permitting-documentation and EIA tender for
-  Mladá Boleslav – Turnov is to be issued this year. Single source (Zdopravy.cz, 28 August),
-  attributed in the text; fetched with a browser user-agent, as WebFetch gets 403 there.
-  Geographically none of the work is in Prague, so the article says so and frames the story on the
-  Prague end of the line — the connection to the only region in the country with no electrified
-  track. Lowest-scored candidate in the digest and the only one that changed anything.
-
-### Released today (written on earlier days)
-
-- **vitezne-namesti-cultural-centre-tender-cancelled** (queued 28 Aug) — pinned as the lead:
-  a single CZK 1.221bn bid against an CZK 800m estimate, and Prague 6 walking away from the
-  procedure.
-- **jahodnice-school-construction-start** (queued 28 Aug)
-- **k-pradelne-bridge-replacement** (queued 29 Aug)
+- **`bohdalec-truss-bridge-reopens`** — TSK finished the 1913 riveted truss overpass carrying
+  Moskevská over the Vršovice marshalling yard; full traffic returns Monday 31 August. Construction
+  finished, and a second major overhaul of a technical monument (2005: 130 t of steel, 20,000
+  replica rivets). Source: Zdopravy.cz, 30 Aug.
+- **`pod-krejcarkem-bridge-reopens`** — TSK completed the road bridge linking Ohrada with Palmovka
+  after work from April; deck, waterproofing, bearings and expansion joints replaced, diverted bus
+  lines revert. Construction finished on a link that was fully closed through August.
+  Source: Zdopravy.cz, 31 Aug.
 
 ### Skipped, with reasons
 
-1. **Očekávané komplikace na příjezdových silnicích (PID)** — congestion forecast for one week in
-   September. Nothing decided, nothing built; worthless in a month.
-2. **II. veřejné setkání k obnově náměstí Svatopluka Čecha (Praha 10)** — a reminder for a meeting
-   that had already taken place on 27 August, and a repeat of the 15 July session in the same
-   format with the same content. The page names neither the winning team nor any element of the
-   design and carries no figures or timetable, so there is nothing to write from. Worth watching:
-   the square has a won architectural-landscape competition behind it, and the next real step
-   (design development, or a budget) is a story.
-3. **Spot u Nádraží Holešovice consultation (Praha 7)** — a two-hour drop-in event for
-   schoolchildren. Local programme, not a decision.
-4. **PID Point timetable for August and September** — a mobile info centre's opening schedule.
-   Routine service notice.
-5. **Praha upraví a rozšíří podporu bikesharingu (PID)** — the same council decision already
-   published on 29 August as `bikesharing-litacka-new-tender` from the Zdopravy report. One story
-   is one article; not written twice. Left unmarked in the seen index, so the PID URL will keep
-   surfacing until it ages out.
-6. **Dny evropského dědictví (Praha 1)** — programme of events.
-7. **Hledáme učitele/učitelku do mateřské školy (Praha 5)** — a nursery job advertisement. Filter
-   miss: it scored 12 in `development` on building-related vocabulary in the school description.
-8. **Praha usiluje o přímé spojení s Indií (Zdopravy)** — airline route development, not the built
-   environment, and nothing has been agreed — the city is still lobbying.
+- `13` **Praha upraví a rozšíří podporu bikesharingu v rámci aplikace PID Lítačka** (pid.cz) —
+  **already published.** This is the Magistrát press release behind
+  `2026-08-29-bikesharing-litacka-new-tender`, which we wrote from the Zdopravy version on 27 Aug.
+  Same council decision of 28 August, same CZK 50m tender, same coefficients. Reached the digest
+  only because the primary-source URL had not been marked covered.
+- `19` **Očekávané komplikace na příjezdových silnicích do Prahy v prvním zářijovém týdnu** (PID) —
+  one week's works diversions; fails the "worth reading in a month" test.
+- `19` **Připomínka: II. veřejné setkání k obnově náměstí Svatopluka Čecha** (Praha 10) — a reminder
+  for a meeting held on 27 August, deliberately identical in content to the 15 July session. Nothing
+  decided since last time, and the notice does not name the winning team. Worth watching: when the
+  competition-winning design moves to the next stage of project preparation, that is the story.
+- `18` **Jak se spotuje na Spotu? Přijďte nám 2. září říct, co vylepšit** (Praha 7) — feedback event,
+  district-local, nothing decided.
+- `14` **Mobilní informační centrum PID Point: Jízdní řády na srpen a září** (PID) — operating hours
+  of a mobile counter.
+- `13` **Dny evropského dědictví** (Praha 1) — programme of events, explicitly below the bar.
+- `12` **Hledáme učitele/učitelku do mateřské školy** (Praha 5) — job advertisement; council
+  newsletter noise that the filter scored as `development`.
+- `10` **Praha usiluje o přímé spojení s Indií. Prioritou jsou Dillí a Bombaj** (Zdopravy) — air
+  route lobbying, not the built environment, and an aspiration rather than a decision.
+
+### Released today
+
+`plzenska-reopens-tsk-drops-kerbs`, `strossmayerovo-transit-block` (both queued 29 Aug),
+`praha-liberec-rail-viability-confirmed` (queued 30 Aug, pinned as the lead). Queue left at 2.
 
 ### Notes
 
-- No source errored. Every adapter returned; the three that should rarely be empty
-  (praha.camp, IPR, DPP) each fetched a full page but had everything either already covered or
-  outside the 21-day window, which is what a genuinely quiet week looks like rather than a break.
-- No mis-filed non-Prague story found this morning. The Liberec item is genuinely about the line to
-  Prague, not a district-name collision.
-- Queue depth after release: 3.
+- No source errored; every adapter returned. Several were quiet for the ordinary reason — CAMP, IPR,
+  DPP and Klub Za starou Prahu had nothing inside the 21-day window that was not already covered.
+- No mis-filed non-Prague item found in this batch.
+- The branch carries four desk commits (27–30 Aug) that are not on `master`. Worth a human checking
+  whether `promote-desk.yml` is fast-forwarding.

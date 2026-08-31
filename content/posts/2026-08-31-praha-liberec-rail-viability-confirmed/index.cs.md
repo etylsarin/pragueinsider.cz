@@ -3,12 +3,12 @@ slug: praha-liberec-rail-viability-confirmed
 lang: cs
 title: "Přepočet za 58 tisíc udržel modernizaci trati Praha – Liberec v běhu"
 dek: "Nákladní dopravci zpochybnili předpoklady, na kterých stálo ekonomické hodnocení. Správa železnic nechala návratnost přepočítat bez polského nákladu, efektivita se potvrdila a soutěž na dokumentaci pro úsek Mladá Boleslav – Turnov má být vypsána letos."
-queuedAt: 2026-08-30
+date: 2026-08-31
 category: transport
 tags: ["Praha – Liberec", "Správa železnic", "Mladá Boleslav", "Turnov", "modernizace tratí"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Rychlejší železnice Praha – Liberec má smysl, potvrdil přepočet. SŽ chystá soutěž na projektanty"
     url: "https://zdopravy.cz/rychlejsi-zeleznice-praha-liberec-ma-smysl-potvrdil-prepocet-sz-chysta-soutez-na-projektanty-296314"

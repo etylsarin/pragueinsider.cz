@@ -3,7 +3,7 @@ slug: strossmayerovo-transit-block
 lang: en
 title: "Bollards Under the Church: Prague 7 Closes the Rat-Run Past Stross School"
 dek: "TSK changed the signage, added blocking bollards and new road markings at the junction below sv. Antonín on 28 August, ending a shortcut that carried centre-bound drivers off Bubenská into a calmed residential area. Emergency vehicles and refuse collection keep access."
-queuedAt: 2026-08-29
+date: 2026-08-31
 category: transport
 tags: ["Strossmayerovo náměstí", "Janovského", "TSK", "traffic calming", "Praha 7", "Holešovice"]
 district: "Praha 7 – Holešovice"

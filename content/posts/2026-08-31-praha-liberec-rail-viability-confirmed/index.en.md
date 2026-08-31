@@ -3,12 +3,12 @@ slug: praha-liberec-rail-viability-confirmed
 lang: en
 title: "A CZK 58,000 Recalculation Clears the Prague–Liberec Railway to Keep Moving"
 dek: "Freight hauliers had questioned the traffic assumptions behind the modernisation. Správa železnic rechecked the economics without the Polish freight, found the case still stands, and will tender the permitting documentation for Mladá Boleslav–Turnov this year."
-queuedAt: 2026-08-30
+date: 2026-08-31
 category: transport
 tags: ["Praha – Liberec", "Správa železnic", "Mladá Boleslav", "Turnov", "rail modernisation"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Rychlejší železnice Praha – Liberec má smysl, potvrdil přepočet. SŽ chystá soutěž na projektanty"
     url: "https://zdopravy.cz/rychlejsi-zeleznice-praha-liberec-ma-smysl-potvrdil-prepocet-sz-chysta-soutez-na-projektanty-296314"

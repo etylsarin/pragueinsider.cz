@@ -3,7 +3,7 @@ slug: plzenska-reopens-tsk-drops-kerbs
 lang: en
 title: "Plzeňská Reopens Before Saturday Rush — and TSK Abandons the Concrete Kerbs Prague 5 Objected To"
 dek: "Works that began in February between Mozartova and Pod Kotlářkou clear the street by 4:30 on Saturday morning. The district also got the city's road authority to drop plastic kerbs filled with concrete at five junctions, days before they were to go in."
-queuedAt: 2026-08-29
+date: 2026-08-31
 category: transport
 tags: ["Plzeňská", "TSK", "PVS", "Pražská plynárenská Distribuce", "roadworks", "Praha 5"]
 district: "Praha 5 – Košíře"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -15,6 +15,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
       "usedInPost": "bozankaya-trolleybuses-still-unaccepted"
+    },
+    "1547a190b5db5869": {
+      "url": "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653",
+      "title": "Práce na sourozenci Výtoňského mostu na Bohdalci jsou u konce. Vrací se na něj provoz",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-31",
+      "usedInPost": "bohdalec-truss-bridge-reopens"
     },
     "17193e40a93bfaad": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110",
@@ -162,6 +169,13 @@
       "source": "Městská část Praha 5",
       "firstSeen": "2026-08-29",
       "usedInPost": "plzenska-reopens-tsk-drops-kerbs"
+    },
+    "ab7fcbe656f4503f": {
+      "url": "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723",
+      "title": "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-08-31",
+      "usedInPost": "pod-krejcarkem-bridge-reopens"
     },
     "b2f5c106a764f5c6": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti",

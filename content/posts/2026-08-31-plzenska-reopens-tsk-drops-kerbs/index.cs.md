@@ -3,7 +3,7 @@ slug: plzenska-reopens-tsk-drops-kerbs
 lang: cs
 title: "Plzeňská se otevře před sobotní špičkou. TSK navíc ustoupila od obrubníků, které Praha 5 odmítla"
 dek: "Stavba, která běžela od února v úseku Mozartova – Pod Kotlářkou, uvolní ulici do sobotních 4:30. Městská část si zároveň vymohla, že se na nárožích pěti křižovatek neobjeví plastové obrubníky vyplněné betonem."
-queuedAt: 2026-08-29
+date: 2026-08-31
 category: transport
 tags: ["Plzeňská", "TSK", "PVS", "Pražská plynárenská Distribuce", "uzavírky", "Praha 5"]
 district: "Praha 5 – Košíře"

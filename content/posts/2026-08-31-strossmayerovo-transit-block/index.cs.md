@@ -3,7 +3,7 @@ slug: strossmayerovo-transit-block
 lang: cs
 title: "Sloupky pod kostelem. Praha 7 zavřela zkratku kolem školy na Strossmayerově náměstí"
 dek: "TSK 28. srpna změnila příkazové značení na křižovatce pod svatým Antonínem, doplnila zahrazovací sloupky a vodorovné značení. Konec zkratky, kterou si řidiči z Bubenské krátili cestu do zklidněné části Prahy 7. Průjezd zůstává složkám IZS a svozu odpadu."
-queuedAt: 2026-08-29
+date: 2026-08-31
 category: transport
 tags: ["Strossmayerovo náměstí", "Janovského", "TSK", "zklidňování dopravy", "Praha 7", "Holešovice"]
 district: "Praha 7 – Holešovice"
