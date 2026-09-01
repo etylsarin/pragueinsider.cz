@@ -124,6 +124,41 @@ async function checkCover(file, fm, dir) {
 }
 
 /**
+ * Where the story is. The map page plots `location` and nothing else, so an article without one
+ * is invisible there however locatable it is — and for a long time almost none had one, because
+ * the desk was told to omit coordinates it did not already know.
+ *
+ * `district` is the tell. An article that can name the district has a single site; naming the
+ * point is then a lookup, not a guess, and `scripts/geocode.mjs` does it. So a district without
+ * a location is treated as an unfinished article rather than a stylistic choice.
+ *
+ * The converse is not required: a citywide story — the Metropolitan Plan, a fleet tender — has
+ * neither, and forcing a pin onto it would put a marker somewhere the story is not.
+ */
+function checkLocation(file, fm) {
+  if (fm.location !== undefined) {
+    const { lat, lng } = fm.location || {}
+    if (typeof lat !== 'number' || typeof lng !== 'number') {
+      fail(file, 'location must be {lat: number, lng: number}')
+    } else if (
+      lat < PRAGUE_BOUNDS.south || lat > PRAGUE_BOUNDS.north ||
+      lng < PRAGUE_BOUNDS.west || lng > PRAGUE_BOUNDS.east
+    ) {
+      fail(file, `location ${lat},${lng} falls outside Prague`)
+    }
+    return
+  }
+
+  if (isNonEmptyString(fm.district)) {
+    fail(
+      file,
+      `district "${fm.district}" names a place but location does not pin it — the article will be ` +
+        'missing from the map. Look the site up: node scripts/geocode.mjs "<place>"'
+    )
+  }
+}
+
+/**
  * Cross-filing. `category` is the desk that owns the article — it decides the cover's colour and
  * motif, the map marker and the label, and each of those needs exactly one answer. `alsoIn` only
  * adds the article to another desk's feed, which is a question with more than one right answer.
@@ -248,17 +283,7 @@ async function validatePosts() {
       }
 
       // --- optional structured fields ---
-      if (fm.location !== undefined) {
-        const { lat, lng } = fm.location || {}
-        if (typeof lat !== 'number' || typeof lng !== 'number') {
-          fail(file, 'location must be {lat: number, lng: number}')
-        } else if (
-          lat < PRAGUE_BOUNDS.south || lat > PRAGUE_BOUNDS.north ||
-          lng < PRAGUE_BOUNDS.west || lng > PRAGUE_BOUNDS.east
-        ) {
-          fail(file, `location ${lat},${lng} falls outside Prague`)
-        }
-      }
+      checkLocation(file, fm)
       await checkCover(file, fm, path.join(postsDir, dirName))
 
       // --- body ---
@@ -291,6 +316,14 @@ async function validatePosts() {
         const desksB = [...(b.alsoIn || [])].sort().join('|')
         if (desksA !== desksB) {
           fail(rel, `alsoIn differs between locales: ${first}=[${desksA}] ${locale}=[${desksB}] — one article files under the same desks in both languages`)
+        }
+        const pinA = a.location ? `${a.location.lat},${a.location.lng}` : null
+        const pinB = b.location ? `${b.location.lat},${b.location.lng}` : null
+        if (pinA !== pinB) {
+          fail(rel, `location differs between locales: ${first}=${pinA || 'none'} ${locale}=${pinB || 'none'} — one story, one place`)
+        }
+        if ((a.district || null) !== (b.district || null)) {
+          fail(rel, 'district differs between locales — the address does not change with the language')
         }
         if ((a.cover?.photo || null) !== (b.cover?.photo || null)) {
           fail(rel, `cover.photo differs between locales: ${first}=${a.cover?.photo || 'none'} ${locale}=${b.cover?.photo || 'none'} — one photograph, described twice`)
@@ -376,6 +409,7 @@ async function validateQueue(publishedSlugs) {
       }
       if (fm.aiGenerated !== true) fail(file, 'aiGenerated must be true')
       checkAlsoIn(file, fm)
+      checkLocation(file, fm)
       if (!Array.isArray(fm.sources) || fm.sources.length === 0) {
         fail(file, 'sources is required and must list at least one original')
       } else {

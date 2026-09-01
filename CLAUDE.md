@@ -35,6 +35,12 @@ correctness bug, not a style choice.
   gitignored. Everything needing the archive open — which article, what the caption says — happens
   at the desk. Never hand-edit a `cover:` block: the script keeps the two locales' `photo` and
   `credit` identical and the gate checks it.
+- **Where a story is** — `scripts/geocode.mjs` and the gazetteer it keeps in `data/places.json`.
+  The map page plots `location` and nothing else, so a pin is not decoration: without one the
+  article is missing from the map. The desk looks the place up rather than guessing, and the gate
+  enforces the half of it that is checkable — `district` set without `location` is an error,
+  because an article that can name its district has a site. A citywide story has neither.
+  `data/places.json` is committed so the same place always lands on the same point.
 - **What counts as a story** — `scripts/lib/relevance.mjs`. The `pragueByDefault` /
   `topicByDefault` flags on each adapter carry most of the filtering; prefer adjusting those over
   piling on keywords.
@@ -59,6 +65,18 @@ correctness bug, not a style choice.
   distribution to see, only one arrangement — variety that has to be there is constructed, not
   drawn. Heights are dealt across the range and shuffled; transit runs a fixed count of lines each
   way; trees come from two size classes.
+- **Nominatim answers rather than admitting defeat.** Ask it for a place it does not have and it
+  returns a partial match with nothing in the response to say so — "Západní Město" comes back as a
+  street called Západní in Střešovice, twelve kilometres from Stodůlky. `geocode.mjs` checks every
+  word of the name back and refuses to record a loose hit, but the geography it cannot check:
+  "Ohrada" is a real place in Kunratice and a real tram stop in Žižkov. Read the candidate list.
+- **The article locator is a real map, drawn without Leaflet.** `src/lib/staticmap.js` does the
+  Web Mercator arithmetic and `LocationBox.jsx` renders the tiles as `<image>` in one `<svg>` with
+  `preserveAspectRatio="slice"`, so it server-renders, needs no hydration and scales to whatever
+  width the sidebar has. Same Esri basemap and same `{z}/{y}/{x}` trap as `MapView.jsx`. The
+  mosaic's `VIEW` is cut to about the size it displays at on purpose: widen it and the tiles are
+  downscaled until Esri's baked-in street labels stop being readable, which loses the only thing
+  the panel is for. Look at the panel, not the markup.
 - **Desk plates are static files, not generated at build.** `scripts/make-covers.mjs` writes
   `static/covers/<desk>-<locale>-{card,hero,og}` and they are committed; `npm run covers`
   regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
@@ -86,10 +104,12 @@ correctness bug, not a style choice.
      `https://github.com/apps/claude/installations/select_target`. The commit is stranded in an
      ephemeral container and lost — but nothing is lost permanently, because `data/seen.json` is
      only updated on a successful push, so the next run surfaces the same stories again.
-  2. **The environment needs a network egress allowlist** covering `registry.npmjs.org` and every
-     source host. It is a per-host allowlist, so `www.dpp.cz` and `dpp.cz` are different entries.
-     Without npm the run cannot `npm ci`, so every script dies on import; without the source hosts
-     the scan returns nothing. Both look exactly like a quiet news day.
+  2. **The environment needs a network egress allowlist** covering `registry.npmjs.org`,
+     `nominatim.openstreetmap.org` and every source host. It is a per-host allowlist, so
+     `www.dpp.cz` and `dpp.cz` are different entries. Without npm the run cannot `npm ci`, so every
+     script dies on import; without the source hosts the scan returns nothing. Both look exactly
+     like a quiet news day. Without Nominatim the run still publishes — `geocode.mjs` falls back to
+     the committed gazetteer — but every place not already in `data/places.json` goes unpinned.
   3. **`session_context.outcomes` declares the git write target**, alongside `sources` which grants
      the clone. Routines created through the claude.ai UI get it; ones created through the HTTP API
      do not.
