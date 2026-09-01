@@ -6,6 +6,10 @@ dek: "DPP found the ceiling slab at Flora far worse than its surveys predicted. 
 date: 2026-08-25
 category: transport
 tags: ["metro A", "Flora", "Hradčanská", "DPP", "step-free access"]
+district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0779
+  lng: 14.4615
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

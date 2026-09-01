@@ -160,8 +160,8 @@ dek: "One or two sentences of standfirst."
 queuedAt: 2026-08-14                  # the day you wrote it; release.mjs turns this into `date`
 category: architecture                # development | transport | public-space | planning | architecture
 tags: ["Vltava Philharmonic", "Bubny-Zátory"]
-district: "Praha 7 – Holešovice"      # optional, omit if the story has no single location
-location:                             # optional, omit unless you know the coordinates
+district: "Praha 7 – Holešovice"      # the site, if the story has one — see "Pin it" below
+location:                             # required whenever district is set; look it up, never guess
   lat: 50.1024
   lng: 14.4383
 author: "Prague Insider Desk"
@@ -182,9 +182,48 @@ Rules the validator enforces, so get them right first time:
 - Both locales must exist, with the **same** `category`, `date` and `sources`.
 - Body must be at least 800 characters and contain no `TODO`, `TKTK`, `XXX` or `[insert`.
 - Start sections at `##` — the template renders the title, so the body has no `#`.
-- `location` must fall inside Prague. Omit it rather than guessing coordinates.
+- `location` must fall inside Prague, and is **required whenever `district` is set** — an
+  article that can name its district has a site, and the gate rejects one that does not pin it.
+- `district` and `location` must be identical in both locales. The address does not translate.
 - Slugs must be unique across the whole archive and must not collide with a category or page
   slug (`doprava`, `about`, `mapa`, …).
+
+### Pin it
+
+The map page plots `location` and nothing else, so an article without one is invisible there.
+Almost every article used to be, because the desk was told to omit coordinates it did not already
+know — which is every article, since you do not know coordinates.
+
+You are not being asked to guess them. Look them up:
+
+```bash
+node scripts/geocode.mjs "Vítězné náměstí"
+node scripts/geocode.mjs "Palmovka" "Ohrada"      # several at once
+```
+
+It answers from `data/places.json` when the place is already known and from OpenStreetMap when it
+is not, printing the `location:` block to paste and a suggested `district:`. Everything it resolves
+is written back to the gazetteer, so the file is committed with the day's work.
+
+Three things to check rather than trust:
+
+- **The name that came back.** The tool refuses to record a hit that does not carry the name you
+  asked for — that is Nominatim answering "Západní Město" with a street called Západní twelve
+  kilometres away. When you see that warning, read the candidates and re-run with `--pick N`, or
+  use `--set lat,lng` if you have the point from the source itself.
+- **That it is the right thing of that name.** "Ohrada" resolves to Kunratice before it resolves
+  to the Žižkov tram stop, and both are real. The candidate list is printed for this.
+- **The suggested district.** It is OSM's cadastral area, which is not always the name a reader
+  would use — Vítězné náměstí comes back as Střešovice, not Dejvice — and the numbered borough is
+  the *obvod*, not always the městská část. Prefer what the sources call it.
+
+**One story, one point.** Pin the site the story turns on: the bridge, the station, the plot.
+A citywide story has no site — the Metropolitan Plan, a fleet tender, a comparison against other
+European cities — and gets neither `district` nor `location`. Do not put a marker on the map where
+the story is not, and do not drop `district` to get past the gate.
+
+If the lookup cannot reach the network, say so in the run log. Known places still resolve from the
+gazetteer; genuinely new ones go unpinned that day rather than guessed.
 
 ### How to write
 
@@ -258,7 +297,7 @@ candidate you skipped, each with a short reason. Be specific: "skipped, corporat
 is useful; "not newsworthy" is not.
 
 ```bash
-git add content/posts content/queue data/seen.json data/last-run.md
+git add content/posts content/queue data/seen.json data/last-run.md data/places.json
 git commit -m "posts: <n> stories for YYYY-MM-DD"   # or "scan: no stories for YYYY-MM-DD"
 git push
 ```

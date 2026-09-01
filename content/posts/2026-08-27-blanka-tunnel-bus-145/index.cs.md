@@ -6,6 +6,10 @@ dek: "První autobusová linka PID vedená Blankou vyjela 15. srpna, ve špičce
 date: 2026-08-27
 category: transport
 tags: ["Blanka", "linka 145", "PID", "ROPID", "autobusy", "Kobylisy", "Dejvická"]
+district: "Praha 6 – Střešovice"
+location:
+  lat: 50.0883
+  lng: 14.3795
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

@@ -166,7 +166,12 @@ const ArticleTemplate = ({ data, pageContext }) => {
           ) : null}
 
           {fm.location?.lat && fm.location?.lng ? (
-            <LocationBox locale={locale} location={fm.location} district={fm.district} title={fm.title} />
+            <LocationBox
+              locale={locale}
+              location={fm.location}
+              district={fm.district}
+              category={fm.category}
+            />
           ) : null}
         </aside>
       </div>

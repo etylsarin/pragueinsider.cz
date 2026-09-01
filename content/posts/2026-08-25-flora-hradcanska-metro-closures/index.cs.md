@@ -6,6 +6,10 @@ dek: "DPP našel stropní desku Flory v podstatně horším stavu, než předpok
 date: 2026-08-25
 category: transport
 tags: ["metro A", "Flora", "Hradčanská", "DPP", "bezbariérovost"]
+district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0779
+  lng: 14.4615
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

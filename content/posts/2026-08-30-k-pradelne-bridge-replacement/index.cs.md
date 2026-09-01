@@ -7,6 +7,9 @@ date: 2026-08-30
 category: transport
 tags: ["Botič", "K Prádelně", "TSK", "BM Constructions", "mosty", "protipovodňová ochrana", "Záběhlice"]
 district: "Praha 10 – Záběhlice"
+location:
+  lat: 50.0532
+  lng: 14.4892
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

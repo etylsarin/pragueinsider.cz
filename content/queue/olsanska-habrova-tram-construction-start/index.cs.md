@@ -7,6 +7,9 @@ queuedAt: 2026-09-01
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "tramvaje", "DPP", "FIRESTA", "Jarov"]
 district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0851
+  lng: 14.4776
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

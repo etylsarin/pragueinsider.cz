@@ -6,6 +6,10 @@ dek: "PVS chtěla držet zúžení čtyřproudého příjezdu od Suchdola do kon
 date: 2026-08-27
 category: transport
 tags: ["Roztocká", "Kamýcká", "Praha 6", "Suchdol", "Roztoky", "PVS", "uzavírky"]
+district: "Praha 6 – Sedlec"
+location:
+  lat: 50.1316
+  lng: 14.3971
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

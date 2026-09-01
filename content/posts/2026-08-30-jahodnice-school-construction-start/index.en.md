@@ -7,6 +7,9 @@ date: 2026-08-30
 category: development
 tags: ["Jahodnice", "schools", "Metrostav", "design and build", "Praha 14"]
 district: "Praha 14"
+location:
+  lat: 50.0822
+  lng: 14.5605
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

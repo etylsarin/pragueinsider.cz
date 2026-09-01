@@ -7,6 +7,9 @@ date: 2026-08-31
 category: transport
 tags: ["Strossmayerovo náměstí", "Janovského", "TSK", "zklidňování dopravy", "Praha 7", "Holešovice"]
 district: "Praha 7 – Holešovice"
+location:
+  lat: 50.0987
+  lng: 14.4341
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

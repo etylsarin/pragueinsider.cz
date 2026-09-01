@@ -6,6 +6,10 @@ dek: "Tunnel tubes are taking shape at Na Vysoké and Dubeč on the 12.5km D0 se
 date: 2026-08-29
 category: transport
 tags: ["Pražský okruh", "D0", "D0 511", "ŘSD", "Běchovice"]
+district: "Praha-Dubeč"
+location:
+  lat: 50.0589
+  lng: 14.5872
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

@@ -7,6 +7,9 @@ date: 2026-08-26
 category: development
 tags: ["Domov Palata", "Košíře", "demence", "sociální infrastruktura"]
 district: "Praha 5 – Košíře"
+location:
+  lat: 50.0757
+  lng: 14.3855
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
