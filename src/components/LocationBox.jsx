@@ -3,22 +3,25 @@ import { Link } from 'gatsby'
 import Icon from './Icon'
 import { t } from '../i18n/ui'
 import { mapPath } from '../lib/paths'
+import { staticMap } from '../lib/staticmap'
+import { CATEGORY_ACCENT } from '../lib/cover'
 
 /**
- * Sidebar locator. Deliberately a schematic, not a fake map: it shows the real coordinates
- * and the position within Prague's bounding box, then hands off to the tiled map page.
- * Drawing an invented street grid around a real address would be worse than drawing none.
+ * Sidebar locator: a real, tiled map of the actual site, cut and drawn by src/lib/staticmap.js.
+ *
+ * Static on purpose. The point of this panel is "where is this", answered in one glance, and a
+ * reader who wants to pan and zoom is one click from the map page that does. Static also means the
+ * tiles are in the server-rendered HTML, so the locator survives with JavaScript off.
+ *
+ * The whole thing is one <svg> rather than positioned <img> tags because the sidebar is a
+ * different width on every breakpoint: `slice` lets the browser scale and crop the mosaic to
+ * whatever box it lands in, and the marker, being drawn in the same coordinate space, stays on
+ * the point.
  */
 
-// Prague's rough extent — enough to place a marker meaningfully within the frame.
-const BOUNDS = { west: 14.22, east: 14.71, south: 49.94, north: 50.18 }
-
-const LocationBox = ({ locale, location, district }) => {
-  const x = ((location.lng - BOUNDS.west) / (BOUNDS.east - BOUNDS.west)) * 100
-  const y = ((BOUNDS.north - location.lat) / (BOUNDS.north - BOUNDS.south)) * 100
-  const clamp = (value) => Math.max(4, Math.min(96, value))
-  const left = clamp(x)
-  const top = clamp(y)
+const LocationBox = ({ locale, location, district, category }) => {
+  const map = staticMap(location.lat, location.lng)
+  const accent = CATEGORY_ACCENT[category] || '#B33939'
 
   return (
     <div className="bg-surface-container-low p-6 border border-tertiary/20">
@@ -29,32 +32,80 @@ const LocationBox = ({ locale, location, district }) => {
 
       <Link
         to={mapPath(locale)}
-        className="group block w-full aspect-[4/3] bg-surface mb-4 border border-tertiary/40 relative overflow-hidden"
+        className="group block w-full aspect-[4/3] bg-surface-container border border-tertiary/40 relative overflow-hidden"
         aria-label={t(locale, 'map.title')}
       >
-        <svg viewBox="0 0 100 75" className="w-full h-full" aria-hidden="true">
-          <defs>
-            <pattern id="locator-grid" width="6.25" height="6.25" patternUnits="userSpaceOnUse">
-              <path d="M6.25 0H0v6.25" fill="none" stroke="#d0c4bb" strokeWidth="0.35" />
-            </pattern>
-          </defs>
-          <rect width="100" height="75" fill="url(#locator-grid)" />
-          {/* The Vltava, schematically — the one landmark that makes a Prague frame legible. */}
-          <path
-            d="M40 0 C 44 14, 34 24, 38 34 C 42 44, 52 50, 50 62 C 49 68, 52 72, 54 75"
-            fill="none"
-            stroke="#00629e"
-            strokeWidth="2.2"
-            opacity="0.28"
+        <svg
+          viewBox={`0 0 ${map.width} ${map.height}`}
+          preserveAspectRatio="xMidYMid slice"
+          className="w-full h-full"
+          role="img"
+          aria-label={`${district || t(locale, 'map.title')} — ${location.lat.toFixed(4)}, ${location.lng.toFixed(4)}`}
+        >
+          {/* Base tiles, then the label layer over them — Esri splits the two. */}
+          {map.tiles.map((tile) => (
+            <image
+              key={`base-${tile.key}`}
+              href={tile.base}
+              x={tile.x}
+              y={tile.y}
+              width={map.tileSize}
+              height={map.tileSize}
+            />
+          ))}
+          {map.tiles.map((tile) => (
+            <image
+              key={`labels-${tile.key}`}
+              href={tile.labels}
+              x={tile.x}
+              y={tile.y}
+              width={map.tileSize}
+              height={map.tileSize}
+            />
+          ))}
+
+          {/* Same marker as the map page: a square in the desk's colour, ringed so it reads on
+              any tile underneath it. */}
+          <rect
+            x={map.marker.x - 7}
+            y={map.marker.y - 7}
+            width="14"
+            height="14"
+            fill={accent}
+            stroke="#fcf9f8"
+            strokeWidth="3"
           />
-          <line x1={left} y1="0" x2={left} y2="75" stroke="#B33939" strokeWidth="0.4" opacity="0.5" />
-          <line x1="0" y1={(top / 100) * 75} x2="100" y2={(top / 100) * 75} stroke="#B33939" strokeWidth="0.4" opacity="0.5" />
-          <rect x={left - 2.4} y={(top / 100) * 75 - 2.4} width="4.8" height="4.8" fill="#B33939" />
+
+          {/* A scale bar is what separates a map from a picture of one. */}
+          <g transform={`translate(12 ${map.height - 14})`}>
+            <rect x="-5" y="-17" width={map.scale.pixels + 10} height="27" fill="#fcf9f8" opacity="0.85" />
+            <path
+              d={`M0 0 v-7 M0 -3.5 H${map.scale.pixels} M${map.scale.pixels} 0 v-7`}
+              stroke="#42362b"
+              strokeWidth="1.5"
+              fill="none"
+            />
+            <text x="0" y="8" fill="#42362b" fontSize="11" fontFamily="ui-monospace, monospace">
+              {map.scale.label}
+            </text>
+          </g>
         </svg>
-        <span className="absolute inset-0 bg-primary/0 group-hover:bg-primary/[0.04] transition-colors" />
+        <span className="absolute inset-0 bg-primary/0 group-hover:bg-primary/[0.06] transition-colors" />
       </Link>
 
-      {district ? <p className="text-body-md font-body-md text-primary">{district}</p> : null}
+      <p className="text-caption font-caption text-on-surface-variant mt-2">
+        {'Esri, HERE, Garmin · '}
+        <a
+          href="https://www.openstreetmap.org/copyright"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline underline-offset-2"
+        >
+          OpenStreetMap
+        </a>
+      </p>
+
+      {district ? <p className="text-body-md font-body-md text-primary mt-4">{district}</p> : null}
       <p className="text-label-caps font-label-caps text-on-surface-variant mt-1">
         {location.lat.toFixed(4)}, {location.lng.toFixed(4)}
       </p>
