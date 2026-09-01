@@ -3,7 +3,7 @@ slug: bohdalec-truss-bridge-reopens
 lang: cs
 title: "Příhradový most na Bohdalci je po druhé velké opravě znovu v provozu"
 dek: "Nýtovaná konstrukce z roku 1913, po které vede Moskevská přes vršovické seřaďovací nádraží, se v pondělí vrací do plného provozu. TSK pracovala nad živým železničním koridorem."
-queuedAt: 2026-08-31
+date: 2026-09-01
 category: transport
 alsoIn: ["architecture"]
 tags: ["Bohdalec", "TSK", "mosty", "vršovické seřaďovací nádraží", "Moskevská"]

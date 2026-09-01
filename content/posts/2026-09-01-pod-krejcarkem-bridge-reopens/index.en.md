@@ -3,7 +3,7 @@ slug: pod-krejcarkem-bridge-reopens
 lang: en
 title: "Pod Krejcárkem Bridge Reopens on the Last Day of the Holidays"
 dek: "TSK has finished the road bridge linking Ohrada with Palmovka after work that ran from April. The diverted bus lines return to their normal routes."
-queuedAt: 2026-08-31
+date: 2026-09-01
 category: transport
 tags: ["Pod Krejcárkem", "TSK", "bridges", "Ohrada", "Palmovka"]
 author: "Prague Insider Desk"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -51,6 +51,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "metropolitan-plan-takes-effect"
     },
+    "20f0a044b84d8571": {
+      "url": "https://pid.cz/praha-rozhodla-o-budoucich-nazvech-stanic-linky-metra-d",
+      "title": "Praha rozhodla o nových názvech budoucích stanic metra D",
+      "source": "Pražská integrovaná doprava (PID)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "metro-d-station-names-approved"
+    },
     "29c81c725599e9ff": {
       "url": "https://pid.cz/zmena/obratiste-spojovaci-docasne-preruseni-provozu-tramvaji-42225-3",
       "title": "Obratiště Spojovací: dočasné přerušení provozu tramvají",
@@ -86,12 +93,26 @@
       "firstSeen": "2026-08-25",
       "usedInPost": "park-maniny-rohansky-ostrov"
     },
+    "4088c1540b21984c": {
+      "url": "https://praguemorning.cz/vltava-philharmonic-prague",
+      "title": "Prague Philharmonic Could Begin Construction in 2028. New Visuals Reveal Design",
+      "source": "Prague Morning",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "vltava-philharmonic-permit-application"
+    },
     "42f5436b385589c2": {
       "url": "https://www.archiweb.cz/n/domaci/praha-otevrela-centrum-dusevniho-zdravi-pro-seniory-a-postavi-novy-pavilon",
       "title": "Praha otevřela centrum duševního zdraví pro seniory a postaví nový pavilon",
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-26",
       "usedInPost": "palata-dementia-pavilion"
+    },
+    "441e0572c45140e0": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3432-v-praze-zacala-stavba-nove-tramvajove-trate-olsanska-habrova",
+      "title": "V Praze začala stavba nové tramvajové tratě Olšanská–Habrová",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "olsanska-habrova-tram-construction-start"
     },
     "497ec52cc3072496": {
       "url": "https://iprpraha.cz/prazske-cesty",
@@ -128,6 +149,20 @@
       "firstSeen": "2026-08-30",
       "usedInPost": "praha-liberec-rail-viability-confirmed"
     },
+    "6817c8d6c4690a18": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/misto-olbrachtovy-rysanka-prazska-rada-schvalila-zmeny-v-nazvech-stanic-metra-d-377119",
+      "title": "Místo Olbrachtovy Ryšánka. Pražská rada schválila změny v názvech stanic metra D",
+      "source": "ČT24 (ČTK)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "metro-d-station-names-approved"
+    },
+    "6af6db1987083926": {
+      "url": "https://zdopravy.cz/ohradky-mizi-doprava-se-vraci-stropni-deska-nad-vestibulem-metra-florenc-je-po-letech-oprav-hotova-296926",
+      "title": "Ohrádky mizí, doprava se vrací. Stropní deska nad vestibulem metra Florenc je po letech oprav hotova",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "florenc-ceiling-slab-complete"
+    },
     "7d2ab6ddea8a6043": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci",
       "title": "DPP začne stavět napojení budoucí tratě Olšanská – Habrová do stávající kolejové sítě a opraví trať ve smyčce Spojovací",
@@ -142,12 +177,26 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "citydeal-twelve-cities"
     },
+    "8b4403f67f7ea130": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici",
+      "title": "DPP dokončil rekonstrukci stropní desky nad vestibulem stanice metra Florenc a obnovuje provoz v ulici Ke Štvanici",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "florenc-ceiling-slab-complete"
+    },
     "920747b3242bb7ee": {
       "url": "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu",
       "title": "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu",
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-25",
       "usedInPost": "brandejsuv-statek-gymnasium-tender"
+    },
+    "9407329b421e45a5": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii",
+      "title": "Praha požádala o stavební povolení pro Vltavskou filharmonii",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "vltava-philharmonic-permit-application"
     },
     "967b813a2855c612": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/stanice-prazskeho-metra-flora-bude-uzavrena-az-do-konce-unora-376799",
@@ -239,6 +288,13 @@
       "source": "Městská část Praha 7",
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "edef62cd4ce6152f": {
+      "url": "https://www.archiweb.cz/n/domaci/v-praze-13-ma-vzniknout-nova-zakladni-skola-pro-1152-zaku-stat-ma-1-03-mld-kc",
+      "title": "V Praze 13 má vzniknout nová základní škola pro 1152 žáků, stát má 1,03 mld. Kč",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-01",
+      "usedInPost": "zapadni-mesto-school-approved"
     },
     "f2585ef45cacab77": {
       "url": "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite",

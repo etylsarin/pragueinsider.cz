@@ -3,7 +3,7 @@ slug: bohdalec-truss-bridge-reopens
 lang: en
 title: "Bohdalec's 1913 Truss Overpass Reopens After Its Second Overhaul"
 dek: "The riveted steel span that carries Moskevská over the Vršovice marshalling yard returns to full traffic on Monday. TSK worked above a live rail corridor on a structure built as a close relative of the bridge at Výtoň."
-queuedAt: 2026-08-31
+date: 2026-09-01
 category: transport
 alsoIn: ["architecture"]
 tags: ["Bohdalec", "TSK", "bridges", "Vršovice marshalling yard", "Moskevská"]

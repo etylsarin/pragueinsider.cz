@@ -3,7 +3,7 @@ slug: pod-krejcarkem-bridge-reopens
 lang: cs
 title: "Most Pod Krejcárkem je hotový, spojení Ohrady s Palmovkou se otevírá s koncem prázdnin"
 dek: "TSK dokončila rekonstrukci silničního mostu, na kterém se pracovalo od dubna. Autobusové linky se vracejí ze své objízdné trasy."
-queuedAt: 2026-08-31
+date: 2026-09-01
 category: transport
 tags: ["Pod Krejcárkem", "TSK", "mosty", "Ohrada", "Palmovka"]
 author: "Prague Insider Desk"
