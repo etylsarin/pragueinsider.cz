@@ -6,6 +6,10 @@ dek: "PVS wanted to keep the four-lane approach from Suchdol down to two until t
 date: 2026-08-27
 category: transport
 tags: ["Roztocká", "Kamýcká", "Praha 6", "Suchdol", "Roztoky", "PVS", "roadworks"]
+district: "Praha 6 – Sedlec"
+location:
+  lat: 50.1316
+  lng: 14.3971
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

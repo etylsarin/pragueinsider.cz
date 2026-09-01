@@ -6,6 +6,10 @@ dek: "Vozy Bozankaya SNG 12T mají schválení typu od dubna, DPP je ale stále 
 date: 2026-08-29
 category: transport
 tags: ["trolejbusy", "Bozankaya", "DPP", "Drážní úřad", "Garáže Řepy"]
+district: "Praha 17 – Řepy"
+location:
+  lat: 50.0753
+  lng: 14.3038
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

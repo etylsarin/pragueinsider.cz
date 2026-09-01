@@ -7,6 +7,9 @@ date: 2026-08-28
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "trams", "DPP", "PID"]
 district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0828
+  lng: 14.4593
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

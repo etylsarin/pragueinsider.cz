@@ -8,6 +8,9 @@ category: development
 alsoIn: ["architecture"]
 tags: ["Vítězné náměstí", "Dejvice", "Fourth Quadrant", "kulturní centrum", "veřejné zakázky"]
 district: "Praha 6 – Dejvice"
+location:
+  lat: 50.1016
+  lng: 14.3939
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

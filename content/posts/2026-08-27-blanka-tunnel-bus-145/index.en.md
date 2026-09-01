@@ -6,6 +6,10 @@ dek: "The first PID service to use the Blanka tunnel complex started on 15 Augus
 date: 2026-08-27
 category: transport
 tags: ["Blanka", "line 145", "PID", "ROPID", "buses", "Kobylisy", "Dejvická"]
+district: "Praha 6 – Střešovice"
+location:
+  lat: 50.0883
+  lng: 14.3795
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

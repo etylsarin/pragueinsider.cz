@@ -6,6 +6,10 @@ dek: "The Bozankaya SNG 12T fleet has had type approval since April, but DPP sti
 date: 2026-08-29
 category: transport
 tags: ["trolleybuses", "Bozankaya", "DPP", "Drážní úřad", "Garáže Řepy"]
+district: "Praha 17 – Řepy"
+location:
+  lat: 50.0753
+  lng: 14.3038
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

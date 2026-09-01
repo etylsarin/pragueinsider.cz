@@ -7,6 +7,9 @@ queuedAt: 2026-09-01
 category: development
 tags: ["Vltava Philharmonic", "Bubny-Zátory", "BIG", "Pražská developerská společnost", "permits"]
 district: "Praha 7 – Holešovice"
+location:
+  lat: 50.1002
+  lng: 14.4385
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

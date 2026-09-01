@@ -8,6 +8,9 @@ category: transport
 alsoIn: ["architecture"]
 tags: ["Bohdalec", "TSK", "bridges", "Vršovice marshalling yard", "Moskevská"]
 district: "Praha 10 – Bohdalec"
+location:
+  lat: 50.0651
+  lng: 14.4646
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

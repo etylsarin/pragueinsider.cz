@@ -22,6 +22,7 @@ npm run build          # static site into public/
 ```bash
 npm run ingest         # scan sources → data/digest.json
 # ...the desk reads the digest, fetches originals, writes markdown...
+node scripts/geocode.mjs "<place>"  # resolve a Prague place to a pin for `location`
 node scripts/mark-covered.mjs   # record what was cited, so tomorrow's scan skips it
 node scripts/release.mjs        # move up to 3 queued articles into content/posts
 npm run validate       # publication gate
@@ -58,6 +59,7 @@ data/seen.json                                   what has already been covered (
 scripts/sources/*.mjs                            one adapter per source
 scripts/lib/relevance.mjs                        the Prague + built-environment filter
 scripts/validate-posts.mjs                       publication gate
+scripts/geocode.mjs                              place name → coordinates, via data/places.json
 scripts/attach-photo.mjs                         files an inbox photo onto an article
 scripts/make-shortcut.mjs                        emits docs/photo-upload.shortcut
 scripts/make-covers.mjs                          writes the desk plates into static/covers

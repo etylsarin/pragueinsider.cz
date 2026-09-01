@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "places": {
+    "bohdalec": {
+      "name": "Bohdalec",
+      "lat": 50.05555,
+      "lng": 14.45579,
+      "district": "Praha 4 – Michle",
+      "osm": "Bohdalec, Michle, Praha 4, obvod Praha 4, Praha, 101 01, Česko"
+    },
+    "bohdalecky most moskevska": {
+      "name": "Bohdalecký most (Moskevská)",
+      "lat": 50.06506,
+      "lng": 14.46462,
+      "district": "Praha 10 – Bohdalec",
+      "osm": null
+    },
+    "britska ctvrt": {
+      "name": "Britská čtvrť",
+      "lat": 50.04754,
+      "lng": 14.30313,
+      "district": "Praha 5 – Stodůlky",
+      "osm": "Britská čtvrť, Stodůlky, Praha 13, obvod Praha 5, Praha, 155 00, Česko"
+    },
+    "domov palata": {
+      "name": "Domov Palata",
+      "lat": 50.07573,
+      "lng": 14.38545,
+      "district": "Praha 5 – Radlice",
+      "osm": "Palata-Domov pro zrakově postižené, U Nesypky, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+    },
+    "dubec": {
+      "name": "Dubeč",
+      "lat": 50.05887,
+      "lng": 14.58717,
+      "district": "Praha 10 – Dubeč",
+      "osm": "Praha-Dubeč, Dubeč, obvod Praha 10, Praha, 107 00, Česko"
+    },
+    "flora vinohradska": {
+      "name": "Flora, Vinohradská",
+      "lat": 50.07789,
+      "lng": 14.46148,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Flora, Vinohradská, Žižkov, obvod Praha 3, Praha, 100 83, Česko"
+    },
+    "garaze repy": {
+      "name": "Garáže Řepy",
+      "lat": 50.07533,
+      "lng": 14.30375,
+      "district": "Praha 6 – Řepy",
+      "osm": "garáže Řepy, Řepy, Praha 17, obvod Praha 6, Praha, Česko"
+    },
+    "jahodnice": {
+      "name": "Jahodnice",
+      "lat": 50.08727,
+      "lng": 14.55769,
+      "district": "Praha 9",
+      "osm": "Jahodnice, Praha 14, obvod Praha 9, Praha, 198 00, Česko"
+    },
+    "k pradelne": {
+      "name": "K Prádelně",
+      "lat": 50.05316,
+      "lng": 14.48922,
+      "district": "Praha 10 – Záběhlice",
+      "osm": "K Prádelně, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
+    },
+    "ke stvanici": {
+      "name": "Ke Štvanici",
+      "lat": 50.09066,
+      "lng": 14.43869,
+      "district": "Praha 8 – Karlín",
+      "osm": "Ke Štvanici, Florenc, Karlín, Praha 8, obvod Praha 8, Praha, 116 47, Česko"
+    },
+    "malovanka": {
+      "name": "Malovanka",
+      "lat": 50.0883,
+      "lng": 14.37951,
+      "district": "Praha 6 – Střešovice",
+      "osm": "Malovanka, Na Petynce, Staré Střešovice, Střešovice, Praha 6, obvod Praha 6, Praha, 162 01, Česko"
+    },
+    "moskevska vrsovice": {
+      "name": "Moskevská, Vršovice",
+      "lat": 50.06511,
+      "lng": 14.46318,
+      "district": "Praha 10 – Vršovice",
+      "osm": "Moskevská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 33, Česko"
+    },
+    "nakladove nadrazi zizkov": {
+      "name": "Nákladové nádraží Žižkov",
+      "lat": 50.08507,
+      "lng": 14.4776,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Nákladové nádraží Žižkov, Žižkov, obvod Praha 3, Praha, Česko"
+    },
+    "ohrada": {
+      "name": "Ohrada",
+      "lat": 50.09057,
+      "lng": 14.46924,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Ohrada, Hartigova, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
+    },
+    "olsanske namesti": {
+      "name": "Olšanské náměstí",
+      "lat": 50.08283,
+      "lng": 14.45926,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Olšanské náměstí, Žižkov, obvod Praha 3, Praha, Česko"
+    },
+    "plzenska kosire": {
+      "name": "Plzeňská, Košíře",
+      "lat": 50.06937,
+      "lng": 14.35918,
+      "district": "Praha 5 – Košíře",
+      "osm": "Plzeňská, Košíře, Praha 5, obvod Praha 5, Praha, 150 06, Česko"
+    },
+    "pod krejcarkem": {
+      "name": "Pod Krejcárkem",
+      "lat": 50.09303,
+      "lng": 14.47209,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Pod Krejcárkem, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
+    },
+    "roztocka sedlec": {
+      "name": "Roztocká, Sedlec",
+      "lat": 50.13159,
+      "lng": 14.39712,
+      "district": "Praha 6 – Sedlec",
+      "osm": "Roztocká, Sedlec, Praha 6, obvod Praha 6, Praha, 151 00, Česko"
+    },
+    "strossmayerovo namesti": {
+      "name": "Strossmayerovo náměstí",
+      "lat": 50.0987,
+      "lng": 14.43411,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Strossmayerovo náměstí, Holešovice, Praha 7, obvod Praha 7, Praha, Česko"
+    },
+    "u hostavickeho potoka": {
+      "name": "U Hostavického potoka",
+      "lat": 50.08223,
+      "lng": 14.56052,
+      "district": "Praha 9",
+      "osm": "U Hostavického potoka, Jahodnice, Praha 14, obvod Praha 9, Praha, 190 12, Česko"
+    },
+    "vitezne namesti": {
+      "name": "Vítězné náměstí",
+      "lat": 50.10161,
+      "lng": 14.39385,
+      "district": "Praha 6",
+      "osm": "Vítězné náměstí (4. kvadrant), Ořechovka, Praha 6, obvod Praha 6, Praha, Česko"
+    },
+    "vltavska": {
+      "name": "Vltavská",
+      "lat": 50.10017,
+      "lng": 14.43851,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Vltavská, Bubenská, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
+    }
+  }
+}

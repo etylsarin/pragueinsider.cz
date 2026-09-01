@@ -7,6 +7,9 @@ queuedAt: 2026-09-01
 category: development
 tags: ["Západní město", "Stodůlky", "schools", "planning agreement", "Praha 13"]
 district: "Praha 13"
+location:
+  lat: 50.0475
+  lng: 14.3031
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

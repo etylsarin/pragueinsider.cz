@@ -6,6 +6,10 @@ dek: "TSK has finished the road bridge linking Ohrada with Palmovka after work t
 date: 2026-09-01
 category: transport
 tags: ["Pod Krejcárkem", "TSK", "bridges", "Ohrada", "Palmovka"]
+district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0930
+  lng: 14.4721
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

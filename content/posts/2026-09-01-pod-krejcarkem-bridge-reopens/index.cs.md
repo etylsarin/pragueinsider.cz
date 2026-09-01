@@ -6,6 +6,10 @@ dek: "TSK dokončila rekonstrukci silničního mostu, na kterém se pracovalo od
 date: 2026-09-01
 category: transport
 tags: ["Pod Krejcárkem", "TSK", "mosty", "Ohrada", "Palmovka"]
+district: "Praha 3 – Žižkov"
+location:
+  lat: 50.0930
+  lng: 14.4721
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

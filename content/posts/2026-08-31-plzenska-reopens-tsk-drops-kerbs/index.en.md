@@ -7,6 +7,9 @@ date: 2026-08-31
 category: transport
 tags: ["Plzeňská", "TSK", "PVS", "Pražská plynárenská Distribuce", "roadworks", "Praha 5"]
 district: "Praha 5 – Košíře"
+location:
+  lat: 50.0694
+  lng: 14.3592
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false

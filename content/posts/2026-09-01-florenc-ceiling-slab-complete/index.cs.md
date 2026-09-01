@@ -6,6 +6,10 @@ dek: "DPP dokončil rekonstrukci stropní desky nad vestibulem Florence — 48 v
 date: 2026-09-01
 category: transport
 tags: ["Florenc", "metro", "DPP", "Metrostav", "Geosan Group", "Ke Štvanici"]
+district: "Praha 8 – Karlín"
+location:
+  lat: 50.0907
+  lng: 14.4387
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true

@@ -6,6 +6,10 @@ dek: "Na 12,5 kilometru mezi Běchovicemi a D1 se rýsují tubusy tunelů Na Vys
 date: 2026-08-29
 category: transport
 tags: ["Pražský okruh", "D0", "D0 511", "ŘSD", "Běchovice"]
+district: "Praha-Dubeč"
+location:
+  lat: 50.0589
+  lng: 14.5872
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
