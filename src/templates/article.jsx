@@ -21,6 +21,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
   const label = category ? category.label[locale] : fm.category
   const coverPost = { slug: post.fields.slug, title: fm.title, category: fm.category, cover: fm.cover }
   const hasPhoto = Boolean(fm.cover?.photo?.childImageSharp)
+  // Not ours, and not a photograph: a third-party rendering of something unbuilt. See
+  // content/pages/editorial-standards.
+  const isVisualisation = fm.cover?.kind === 'visualisation'
 
   return (
     <Layout locale={locale} translationPath={translationPath}>
@@ -69,20 +72,45 @@ const ArticleTemplate = ({ data, pageContext }) => {
           {hasPhoto ? (
             /* A photograph gets a real caption under the frame, where a caption belongs and
                where it can run to a sentence. The plate gets the small provenance label it
-               has always had, floated over artwork it cannot obscure anything of. */
+               has always had, floated over artwork it cannot obscure anything of.
+
+               A visualisation is captioned differently on purpose. It is somebody else's drawing
+               of a building that does not exist, so it is labelled as one before the caption is
+               read rather than after — a reader must never take it for a photograph of a place
+               they could go and stand in. */
             <figure className="w-full">
-              <div className="border border-tertiary/80">
+              <div className="border border-tertiary/80 relative">
                 <Cover post={coverPost} label={label} locale={locale} format="hero" />
+                {isVisualisation ? (
+                  <span className="absolute top-0 left-0 bg-primary text-on-primary px-2 py-1 text-label-caps font-label-caps">
+                    {t(locale, 'article.visualisation')}
+                  </span>
+                ) : null}
               </div>
               <figcaption className="mt-3 text-caption font-caption text-on-surface-variant">
                 {fm.cover.caption ? <span className="text-primary">{fm.cover.caption} </span> : null}
                 {[
                   fm.district,
-                  `${t(locale, 'article.photoCredit')}: ${fm.cover.credit}`,
+                  `${t(locale, isVisualisation ? 'article.visualisation' : 'article.photoCredit')}: ${
+                    fm.cover.credit
+                  }`,
                   formatDate(fm.cover.shot, locale),
                 ]
                   .filter(Boolean)
                   .join(' · ')}
+                {isVisualisation ? (
+                  <>
+                    {' · '}
+                    <a
+                      href={fm.cover.source}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="text-secondary hover:underline underline-offset-2"
+                    >
+                      {t(locale, 'article.sources')}
+                    </a>
+                  </>
+                ) : null}
               </figcaption>
             </figure>
           ) : (

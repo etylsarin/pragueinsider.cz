@@ -14,6 +14,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace nádvoří Brandejsova statku: omítnuté dvoupodlažní křídlo statku s červenou střechou a podloubím naproti nové bílé budově se sedlovou střechou, mezi nimi žulová dlažba, strom, lavičky a lidé sedící na trávě."
+  caption: "Přestavba, na kterou Praha vypsala tendr: památkově chráněný suchdolský statek jako gymnázium za 1,07 miliardy korun."
+  credit: "Městská část Praha-Suchdol"
+  kind: visualisation
+  source: "https://praha-suchdol.cz/wp-content/uploads/2022/09/BRA_gympl-nadvori-scaled.jpg"
 sources:
   - title: "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu"
     url: "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu"

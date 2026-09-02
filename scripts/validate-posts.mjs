@@ -66,11 +66,30 @@ const PHOTO_MAX_BYTES = 900 * 1024
 const MIN_ALT_CHARS = 15
 
 /**
- * Covers are either a generated plate or a photograph, and a photograph carries obligations the
- * plate does not: it has to exist, it has to be described for anyone who cannot see it, and it
- * has to say who took it. Those are the promises on the Editorial Standards page, so they are
- * enforced here rather than left to whoever attaches the file.
+ * Covers come in three kinds, and each carries different obligations.
+ *
+ * The plate is the default and needs nothing. A **photograph** has to exist, be described for
+ * anyone who cannot see it, and say who took it — and it is ours, because we do not publish
+ * photography we do not own.
+ *
+ * A **visualisation** is the third kind, and it exists because of a gap the first two cannot
+ * cover: an article about a building that has not been built cannot be illustrated by going and
+ * photographing it. The render is the news. So a credited, linked visualisation released by the
+ * investor or the designer is publishable — under conditions, all of them enforced here, because
+ * every one of them is what separates this from lifting somebody's picture:
+ *
+ *   - it says who drew it (`credit`) — the studio where the source names one, otherwise the body
+ *     that released it. That is the licence condition on nearly every press kit, not a courtesy,
+ *     and guessing a studio is worse than naming the publisher: a wrong credit fails the licence
+ *     and misattributes somebody's work at the same time;
+ *   - it links where it came from (`source`), so a reader can check the provenance we claim;
+ *   - it is labelled `kind: visualisation`, which makes the template mark it on the image itself.
+ *
+ * What this does not license is a *photograph* somebody else took. A press photo of a real place
+ * is a place we can go and photograph, and `kind: visualisation` on one would be a lie the gate
+ * cannot detect — so that rule lives with the desk, on the Editorial Standards page.
  */
+const COVER_KINDS = ['photo', 'visualisation']
 async function checkCover(file, fm, dir) {
   const cover = fm.cover
   if (cover === undefined) return
@@ -114,6 +133,25 @@ async function checkCover(file, fm, dir) {
   }
   if (!isNonEmptyString(cover.credit)) {
     fail(file, 'cover.credit is required on a photographed cover — we publish no uncredited photography')
+  }
+
+  const kind = cover.kind === undefined ? 'photo' : cover.kind
+  if (!COVER_KINDS.includes(kind)) {
+    fail(file, `cover.kind "${cover.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
+  }
+  if (kind === 'visualisation') {
+    if (!isHttpUrl(cover.source)) {
+      fail(
+        file,
+        'cover.source must be the http(s) page the visualisation was published on — a reader has ' +
+          'to be able to check where somebody else\'s drawing came from'
+      )
+    }
+    if (cover.shot !== undefined) {
+      fail(file, 'cover.shot dates a photograph somebody took; a visualisation has no shot date')
+    }
+  } else if (cover.source !== undefined) {
+    fail(file, 'cover.source belongs to a visualisation — our own photographs are not sourced from anywhere')
   }
   if (!isNonEmptyString(cover.caption)) {
     warn(file, 'cover.caption is empty — the photograph runs without a caption')
@@ -330,6 +368,12 @@ async function validatePosts() {
         }
         if ((a.cover?.credit || null) !== (b.cover?.credit || null)) {
           fail(rel, 'cover.credit differs between locales — the photographer does not change with the language')
+        }
+        if ((a.cover?.kind || null) !== (b.cover?.kind || null)) {
+          fail(rel, 'cover.kind differs between locales — a visualisation is one in both languages')
+        }
+        if ((a.cover?.source || null) !== (b.cover?.source || null)) {
+          fail(rel, 'cover.source differs between locales — one picture came from one place')
         }
         const urlsA = (a.sources || []).map((s) => s?.url).sort().join('|')
         const urlsB = (b.sources || []).map((s) => s?.url).sort().join('|')

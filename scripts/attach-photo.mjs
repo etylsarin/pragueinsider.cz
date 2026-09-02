@@ -30,6 +30,15 @@
  *     --alt-en "..." --alt-cs "..." \
  *     --caption-en "..." --caption-cs "..." \
  *     [--credit "Filip Mareš"] [--name cover.jpg] [--keep] [--dry-run]
+ *
+ *   A visualisation is somebody else's drawing of something unbuilt, so it needs saying who drew
+ *   it and where it was published — the gate refuses it without both:
+ *   node scripts/attach-photo.mjs --photo x.webp --slug s --kind visualisation \
+ *     --credit "METROPROJEKT" --source "https://…" --alt-en … --alt-cs … --caption-en … --caption-cs …
+ *
+ *   --aspect 16:9 [--gravity north|centre|south] crops to a fixed ratio on the way in, rather
+ *   than leaving Cover.jsx to centre-crop whatever arrived. A render arrives at whatever shape
+ *   its author exported, and a centre crop of a near-square one throws away the building.
  */
 
 import { execFile } from 'node:child_process'
@@ -447,6 +456,9 @@ function patchCover(raw, fields) {
   if (fields.caption) lines.push(`  caption: ${yamlString(fields.caption)}`)
   lines.push(`  credit: ${yamlString(fields.credit)}`)
   if (fields.shot) lines.push(`  shot: ${fields.shot}`)
+  // Only written when it is not the default, so an ordinary photograph's frontmatter is unchanged.
+  if (fields.kind && fields.kind !== 'photo') lines.push(`  kind: ${fields.kind}`)
+  if (fields.source) lines.push(`  source: ${yamlString(fields.source)}`)
   const block = `${lines.join('\n')}\n`
 
   // An existing block runs from `cover:` to the next line that starts in column zero.
@@ -492,10 +504,30 @@ async function attach(articles) {
 
   const alt = { en: arg('alt-en'), cs: arg('alt-cs') }
   const caption = { en: arg('caption-en', ''), cs: arg('caption-cs', '') }
-  const credit = arg('credit', DEFAULT_CREDIT)
+  const kind = arg('kind', 'photo')
+  const source = arg('source')
+  const credit = arg('credit', kind === 'visualisation' ? null : DEFAULT_CREDIT)
   const name = arg('name', 'cover.jpg')
-  const shot = arg('shot', item.shot)
+  // A visualisation has no shot date — nobody stood anywhere. The gate rejects one that claims a
+  // date, so do not quietly inherit the sidecar's.
+  const shot = kind === 'visualisation' ? null : arg('shot', item.shot)
+  const aspect = arg('aspect')
+  const gravity = arg('gravity', 'centre')
   const dryRun = flag('dry-run')
+
+  if (!['photo', 'visualisation'].includes(kind)) {
+    console.error(`--kind must be photo or visualisation, not "${kind}"`)
+    process.exitCode = 1
+    return
+  }
+  if (kind === 'visualisation' && (!credit || !source)) {
+    console.error(
+      '--kind visualisation needs --credit (who drew it) and --source (the page it was published\n' +
+        'on). Those are the licence conditions on a press visualisation, not decoration.'
+    )
+    process.exitCode = 1
+    return
+  }
 
   for (const locale of ['en', 'cs']) {
     if (!alt[locale] || alt[locale].trim().length < 15) {
@@ -518,9 +550,27 @@ async function attach(articles) {
   // rotate() applies the EXIF orientation before the metadata goes, or portrait shots come out
   // on their side. sharp drops all other metadata unless asked to keep it — which is what we
   // want: the GPS tag that made the match is not something to publish to the world.
+  const resize = { width: MAX_WIDTH, withoutEnlargement: true }
+  if (aspect) {
+    const [w, h] = aspect.split(':').map(Number)
+    if (!w || !h) {
+      console.error(`--aspect "${aspect}" must look like 16:9`)
+      process.exitCode = 1
+      return
+    }
+    resize.width = MAX_WIDTH
+    resize.height = Math.round((MAX_WIDTH * h) / w)
+    resize.fit = 'cover'
+    resize.position = gravity
+    resize.withoutEnlargement = false
+  }
+
+  // rotate() applies the EXIF orientation before the metadata goes, or portrait shots come out
+  // on their side. sharp drops all other metadata unless asked to keep it — which is what we
+  // want: the GPS tag that made the match is not something to publish to the world.
   await sharp(item.absolutePath)
     .rotate()
-    .resize({ width: MAX_WIDTH, withoutEnlargement: true })
+    .resize(resize)
     .jpeg({ quality: JPEG_QUALITY, mozjpeg: true })
     .toFile(target)
 
@@ -532,7 +582,15 @@ async function attach(articles) {
     const raw = await fs.readFile(file, 'utf8')
     await fs.writeFile(
       file,
-      patchCover(raw, { photo: name, alt: alt[locale], caption: caption[locale], credit, shot })
+      patchCover(raw, {
+        photo: name,
+        alt: alt[locale],
+        caption: caption[locale],
+        credit,
+        shot,
+        kind,
+        source,
+      })
     )
     console.log(`  ${path.relative(ROOT, file)} updated`)
   }

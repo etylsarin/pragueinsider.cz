@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace Vltavské filharmonie od nábřeží: stupňovitá betonová stavba se štíhlými sloupy a otevřenými terasami stoupajícími nad klenutými otvory v parteru, na rampách i na nábřeží davy lidí, v pozadí kamenný železniční viadukt přes řeku."
+  caption: "Návrh, na který město 31. srpna podalo žádost o povolení, při pohledu z nábřeží, jehož přestavba je součástí záměru."
+  credit: "Bjarke Ingels Group"
+  kind: visualisation
+  source: "https://www.vltavskafilharmonie.cz/"
 sources:
   - title: "Praha požádala o stavební povolení pro Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii"

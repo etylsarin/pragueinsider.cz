@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the Vltava Philharmonic from the riverside: a stepped concrete building of slender columns and open terraces climbing over arched ground-floor openings, crowds on the ramps and the embankment, a stone railway viaduct crossing the river beyond."
+  caption: "The design for which the city filed its building application on 31 August, seen from the embankment it also proposes to rebuild."
+  credit: "Bjarke Ingels Group"
+  kind: visualisation
+  source: "https://www.vltavskafilharmonie.cz/"
 sources:
   - title: "Praha požádala o stavební povolení pro Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii"

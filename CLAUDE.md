@@ -11,11 +11,16 @@ correctness bug, not a style choice.
 - **Every article cites its sources.** `sources` is required in frontmatter, enforced by
   `scripts/validate-posts.mjs`. No exceptions, no "obvious" stories.
 - **`aiGenerated: true` on every post.** The disclosure is not optional and is not configurable.
-- **Only our own photographs.** A cover is either the generated plate from `src/lib/cover.js` or a
-  photograph somebody on the desk took themselves — credited, dated and described in both
-  languages. There is no third kind. Never embed source photography, press handouts or stock, and
-  never generate an AI photograph of a real place. The plate is the default and remains the
-  fallback for every article without a first-party frame.
+- **Only our own photographs — and, for the unbuilt, a labelled visualisation.** A cover is the
+  generated plate from `src/lib/cover.js`, a photograph somebody on the desk took themselves, or a
+  `kind: visualisation`. Never embed source *photography*, press handouts or stock, and never
+  generate an AI photograph of a real place. The plate is the default and remains the fallback.
+  A visualisation is the narrow exception for a story whose subject does not exist yet: it needs
+  `credit` (the studio if the source names one, otherwise the body that released it) and `source`
+  (the page it was published on), the gate refuses it without both, and the template stamps
+  *Visualisation* on the image. It never stands in for a photograph of somewhere that exists —
+  that is a place the desk can go. See `content/pages/editorial-standards/`, which says all of
+  this publicly, and keep the two in step.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
   same figures, same sources; different prose.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
@@ -80,6 +85,16 @@ correctness bug, not a style choice.
   mosaic's `VIEW` is cut to about the size it displays at on purpose: widen it and the tiles are
   downscaled until Esri's baked-in street labels stop being readable, which loses the only thing
   the panel is for. Look at the panel, not the markup.
+- **Public funding is not a public-domain licence.** The argument that a visualisation was paid
+  for from public money and is therefore free to republish is wrong under Czech law — the studio
+  holds the rights even when the city commissioned it, and `úřední dílo` covers statutes and
+  decisions, not renders. What actually makes these publishable is that they are *issued as press
+  material for reporting, with credit*, which is a licence with a condition. That condition is why
+  `credit` and `source` are gate-enforced rather than encouraged.
+- **A render often carries its author's mark burned into a corner, and a centre crop eats it.**
+  METROPROJEKT's watermark sits in the bottom-left of the Olbrachtova visualisation; cropping it
+  to 16:9 from the middle removed the one thing the licence turns on. `attach-photo.mjs` takes
+  `--gravity north|centre|south` for exactly this. Look at the bottom corners before cropping.
 - **Desk plates are static files, not generated at build.** `scripts/make-covers.mjs` writes
   `static/covers/<desk>-<locale>-{card,hero,og}` and they are committed; `npm run covers`
   regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
