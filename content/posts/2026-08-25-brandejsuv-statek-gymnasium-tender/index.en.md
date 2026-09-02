@@ -14,6 +14,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the Brandejsův statek courtyard: a rendered two-storey farmstead range with a red tiled roof and an arcaded passage, facing a new white gabled building across granite setts, with a tree, benches and people sitting on the grass."
+  caption: "The conversion Prague has put out to tender: the listed Suchdol farmstead as a CZK 1.07bn gymnázium."
+  credit: "Městská část Praha-Suchdol"
+  kind: visualisation
+  source: "https://praha-suchdol.cz/wp-content/uploads/2022/09/BRA_gympl-nadvori-scaled.jpg"
 sources:
   - title: "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu"
     url: "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu"

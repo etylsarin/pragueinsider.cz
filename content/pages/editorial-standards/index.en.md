@@ -83,7 +83,7 @@ people's reporting, and verify anything that matters against the primary source.
 
 ## Images
 
-Prague Insider publishes two kinds of cover and no third kind.
+Prague Insider publishes three kinds of cover, and the third one is labelled on the image.
 
 Most articles carry **generated typography and geometry** — an architectural abstraction belonging
 to the desk the story sits on, not a depiction of the building being discussed. It is drawn from
@@ -91,11 +91,28 @@ the article's own identity, so the archive builds a visual language rather than 
 illustrated.
 
 Some articles carry **a photograph taken by us**, on the spot, of the thing the article is about.
-Those are credited by name and dated, and the caption says where the frame was taken. There is no
-third category: this site publishes no photograph it does not itself own, which means no press
-handouts, no photography lifted from the outlets we read, and no stock. If an article has no
-photograph of its own, it gets the generated plate — an abstraction is not a failure, and an
-unlicensed picture would be.
+Those are credited by name and dated, and the caption says where the frame was taken. **We publish
+no photograph we do not own** — no press handouts, nothing lifted from the outlets we read, no
+stock. If a story is about a place, we go to the place. If we have not been, it gets the plate; an
+abstraction is not a failure, and an unlicensed picture would be.
+
+Some articles carry **a visualisation of something that has not been built**. This is the third
+kind, and it exists because the first two cannot cover a real gap: when the news *is* a design —
+a competition won, a permit filed, a tender cancelled — there is nothing at the site to photograph,
+and a drawing released by the city, the district or the project is the only way to show readers
+what is actually being decided. Every one of them:
+
+- is **marked *Visualisation* on the image itself**, before you read the caption, because a render
+  is not a photograph of a place you could go and stand in;
+- **names its author** — the studio where the source states one, otherwise the city, district or
+  project that released it — which is the condition these are issued under, not a courtesy;
+- **links to the page it was published on**, so you can check the provenance we claim.
+
+All of this holds for pictures inside an article as much as for the one at the top of it. We use
+visualisations only for the unbuilt, and a visualisation never stands in for a photograph of
+somewhere that exists — that is a place we can go — and we take no press photography, of anything, ever.
+If you hold the rights to a visualisation here and want it removed or credited differently, email
+[editor@pragueinsider.cz](mailto:editor@pragueinsider.cz) and we will act on it.
 
 **Nothing on this site is an AI-generated photograph**, because a plausible-looking fake
 photograph of a real place is a worse failure than no photograph at all. That has not changed and

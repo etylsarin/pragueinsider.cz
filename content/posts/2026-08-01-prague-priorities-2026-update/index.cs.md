@@ -9,6 +9,22 @@ alsoIn: ["public-space"]
 tags: ["metro D", "železnice na letiště", "Smíchov", "Karlovo náměstí", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true
+figures:
+  - file: letiste-vaclava-havla.jpg
+    credit: "Správa železnic"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/zeleznicni-spojeni-na-letiste"
+  - file: terminal-smichov.jpg
+    credit: "A69 - architekti"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/terminal-smichov"
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace stanice Pankrác na metru D při pohledu z lávky vedoucí nad nástupištěm: klenutý perforovaný strop na štíhlých ocelových vzpěrách, cestující na lávce i na nástupišti pod ní, vpravo klesající eskalátory a u hrany nástupiště stojící souprava."
+  caption: "Pankrác, přestupní uzel uprostřed metra D — nejzřetelnější z projektů, které se od výstavy v roce 2020 posunuly z papíru na stavbu."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://www.dpp.cz/metro-d/fotogalerie/fotogalerie-stanice-pankrac"
 sources:
   - title: "Pražské priority: Velký update projektů, které promění tvář metropole"
     url: "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole"
@@ -34,6 +50,12 @@ nádraží se do roku 2027 rozšíří ze sedmi na devět kolejí, úsek Bubny�
 Veleslavín–Ruzyně v roce 2028 a úseky Výstaviště–Dejvice, Dejvice–Veleslavín a Ruzyně–letiště
 v roce 2029. Hotová trasa přidá šest stanic a zastávek, bude plně elektrifikovaná a dvoukolejná
 a součástí je i přestupní terminál Dlouhá Míle s více než tisícovkou parkovacích míst P+R.
+
+![Vizualizace vstupu do stanice Praha – Letiště Václava Havla: plochá tmavá stříška na štíhlých sloupech s bílým názvem stanice, pod ní prosvětlený vzorovaný podhled, eskalátory a dva výtahy klesající na nástupiště, po dlažbě přecházejí cestující s kufry na kolečkách, vlevo se stáčí estakáda.](./letiste-vaclava-havla.jpg)
+
+*Vizualizace letištní stanice od Správy železnic, z karty projektu na
+[Praha zítra? od CAMPu](https://praha.camp/praha-zitra/projekt/zeleznicni-spojeni-na-letiste).
+Návrh, ne fotografie — trať má být hotová v roce 2030.*
 
 Městský okruh zůstává během na dlouhou trať. Práce na dokumentaci k 10,5kilometrovému dostavění —
 Pelc-Tyrolka–Balabenka, Štěrboholská radiála a Libeňská spojka, převážně v tunelech — začaly
@@ -70,6 +92,12 @@ Druhou polovinu příběhu vyprávějí brownfieldy. Smíchov je výjimkou, kter
 se staví, zhruba 1 600 bytů ve dvou částech, v jižní centrála České spořitelny a mezi nimi
 kilometrová pěší městská třída. Terminál má být hotov na konci roku 2028, přestupní terminál MHD
 do roku 2030.
+
+![Vizualizace Terminálu Smíchov při pohledu shora nad kolejiště: dlouhá tmavá střecha nad nástupišti s nápisem TERMINAL SMICHOV, přes nádraží vede lávka k prosklené hale vpravo, u nástupišť stojí vlaky a za nimi stoupá město k Petřínu.](./terminal-smichov.jpg)
+
+*Vizualizace dopravního terminálu od A69 - architekti, z karty projektu na
+[Praha zítra? od CAMPu](https://praha.camp/praha-zitra/projekt/terminal-smichov). Jde o návrh, ne
+o fotografii — terminál má být hotový v roce 2030.*
 
 Jinde jsou studie. Rohan City má vizualizaci od Daniela Libeskinda. Bubny-Zátory stále dokončují
 územní studii. Bohdalec-Slatiny mají od února 2025 hotové předověření od Jakuba Ciglera a připravuje

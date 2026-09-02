@@ -82,18 +82,36 @@ práce a cokoli důležitého si ověřte v primárním zdroji.**
 
 ## Obrazový doprovod
 
-Prague Insider používá dva druhy titulních vizuálů a žádný třetí.
+Prague Insider používá tři druhy titulních vizuálů a ten třetí je ve snímku označený.
 
 Většina článků nese **generovanou typografii a geometrii** — architektonickou abstrakci příslušné
 rubriky, nikoli zobrazení konkrétní stavby, o níž se píše. Kresba vychází z identity článku, takže
 archiv si buduje vlastní vizuální jazyk místo náhodné ilustrace.
 
 Některé články nesou **fotografii, kterou jsme pořídili sami**, na místě, a zachycuje to, o čem se
-v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly. Třetí
-kategorie neexistuje: nepublikujeme žádnou fotografii, kterou sami nevlastníme — tedy žádné
-tiskové materiály, nic převzatého z médií, která čteme, a nic ze stockových databází. Když k článku
-vlastní fotografii nemáme, dostane generovaný vizuál. Abstrakce není selhání, nelicencovaný snímek
+v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly.
+**Nepublikujeme žádnou fotografii, kterou sami nevlastníme** — žádné tiskové materiály, nic
+převzatého z médií, která čteme, nic ze stockových databází. Když je článek o nějakém místě, jdeme
+tam. Když jsme tam nebyli, dostane generovaný vizuál. Abstrakce není selhání, nelicencovaný snímek
 by byl.
+
+Některé články nesou **vizualizaci něčeho, co ještě nestojí**. To je ten třetí druh a existuje
+kvůli mezeře, kterou první dva nepokryjí: když je zprávou samotný návrh — vyhraná soutěž, podaná
+žádost o povolení, zrušený tendr — není na místě co vyfotit a jediný způsob, jak čtenáři ukázat,
+o čem se doopravdy rozhoduje, je kresba zveřejněná městem, městskou částí nebo projektem. Každá
+taková:
+
+- je **označená slovem *Vizualizace* přímo ve snímku**, dřív než dojde na popisek, protože
+  vizualizace není fotografie místa, kam se dá zajít;
+- **uvádí autora** — ateliér, pokud ho zdroj jmenuje, jinak město, městskou část nebo projekt,
+  který vizualizaci vydal — což je podmínka, za níž se tyto materiály uvolňují, ne zdvořilost;
+- **odkazuje na stránku, kde byla zveřejněna**, abyste si původ mohli ověřit.
+
+Totéž platí pro obrázky uvnitř článku stejně jako pro ten nahoře. Vizualizace používáme jen pro
+nepostavené a vizualizace nikdy nenahrazuje fotografii něčeho, co existuje —
+tam se dá dojít — a tiskové fotografie nepřebíráme nikdy a od nikoho. Pokud držíte práva
+k některé zdejší vizualizaci a přejete si ji odstranit nebo uvést jinak, napište na
+[editor@pragueinsider.cz](mailto:editor@pragueinsider.cz) a zařídíme to.
 
 **Nenajdete tu AI generované fotografie**: věrohodně vypadající falešná fotografie skutečného
 místa je horší selhání než žádná fotografie. To platí dál a platit nepřestane.

@@ -66,11 +66,30 @@ const PHOTO_MAX_BYTES = 900 * 1024
 const MIN_ALT_CHARS = 15
 
 /**
- * Covers are either a generated plate or a photograph, and a photograph carries obligations the
- * plate does not: it has to exist, it has to be described for anyone who cannot see it, and it
- * has to say who took it. Those are the promises on the Editorial Standards page, so they are
- * enforced here rather than left to whoever attaches the file.
+ * Covers come in three kinds, and each carries different obligations.
+ *
+ * The plate is the default and needs nothing. A **photograph** has to exist, be described for
+ * anyone who cannot see it, and say who took it — and it is ours, because we do not publish
+ * photography we do not own.
+ *
+ * A **visualisation** is the third kind, and it exists because of a gap the first two cannot
+ * cover: an article about a building that has not been built cannot be illustrated by going and
+ * photographing it. The render is the news. So a credited, linked visualisation released by the
+ * investor or the designer is publishable — under conditions, all of them enforced here, because
+ * every one of them is what separates this from lifting somebody's picture:
+ *
+ *   - it says who drew it (`credit`) — the studio where the source names one, otherwise the body
+ *     that released it. That is the licence condition on nearly every press kit, not a courtesy,
+ *     and guessing a studio is worse than naming the publisher: a wrong credit fails the licence
+ *     and misattributes somebody's work at the same time;
+ *   - it links where it came from (`source`), so a reader can check the provenance we claim;
+ *   - it is labelled `kind: visualisation`, which makes the template mark it on the image itself.
+ *
+ * What this does not license is a *photograph* somebody else took. A press photo of a real place
+ * is a place we can go and photograph, and `kind: visualisation` on one would be a lie the gate
+ * cannot detect — so that rule lives with the desk, on the Editorial Standards page.
  */
+const COVER_KINDS = ['photo', 'visualisation']
 async function checkCover(file, fm, dir) {
   const cover = fm.cover
   if (cover === undefined) return
@@ -115,6 +134,25 @@ async function checkCover(file, fm, dir) {
   if (!isNonEmptyString(cover.credit)) {
     fail(file, 'cover.credit is required on a photographed cover — we publish no uncredited photography')
   }
+
+  const kind = cover.kind === undefined ? 'photo' : cover.kind
+  if (!COVER_KINDS.includes(kind)) {
+    fail(file, `cover.kind "${cover.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
+  }
+  if (kind === 'visualisation') {
+    if (!isHttpUrl(cover.source)) {
+      fail(
+        file,
+        'cover.source must be the http(s) page the visualisation was published on — a reader has ' +
+          'to be able to check where somebody else\'s drawing came from'
+      )
+    }
+    if (cover.shot !== undefined) {
+      fail(file, 'cover.shot dates a photograph somebody took; a visualisation has no shot date')
+    }
+  } else if (cover.source !== undefined) {
+    fail(file, 'cover.source belongs to a visualisation — our own photographs are not sourced from anywhere')
+  }
   if (!isNonEmptyString(cover.caption)) {
     warn(file, 'cover.caption is empty — the photograph runs without a caption')
   }
@@ -155,6 +193,94 @@ function checkLocation(file, fm) {
       `district "${fm.district}" names a place but location does not pin it — the article will be ` +
         'missing from the map. Look the site up: node scripts/geocode.mjs "<place>"'
     )
+  }
+}
+
+/**
+ * Pictures inside the body, which is the door the cover contract does not watch.
+ *
+ * `gatsby-remark-images` renders any `![alt](./file.jpg)` sitting beside the markdown, with no
+ * frontmatter needed — which is convenient and is exactly how an uncredited third-party render
+ * would reach the site while every rule about covers stayed green. So a body image carries the
+ * same obligations a cover does, declared in `figures`, and this checks that:
+ *
+ *   - every picture in the prose is declared, and everything declared is used;
+ *   - it exists beside the markdown, and its alt text describes it;
+ *   - it says who made it, and a visualisation says where it was published;
+ *   - the credit appears in the prose itself, because a declaration a reader never sees is not
+ *     a credit — it is a record of one.
+ */
+/**
+ * Is this credit visible in the prose?
+ *
+ * Not a string match, because Czech declines: a credit recorded as "Správa železnic" is written
+ * in a sentence as "od Správy železnic", and demanding the nominative would force the desk to
+ * write bad Czech to satisfy a checker. So each word of the credit has to appear in the body up
+ * to its last couple of characters — enough to catch a credit that was never written down, loose
+ * enough to let both languages read properly.
+ */
+function creditIsVisible(credit, body) {
+  const fold = (value) =>
+    value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  const haystack = fold(body)
+  return fold(credit)
+    .split(/[^a-z0-9]+/)
+    .filter((word) => word.length > 2)
+    .every((word) => haystack.includes(word.length >= 5 ? word.slice(0, -2) : word))
+}
+
+function checkFigures(file, fm, body, dir, exists) {
+  const used = [...body.matchAll(/!\[([^\]]*)\]\(\.\/([^)\s]+)\)/g)].map((m) => ({
+    alt: m[1],
+    file: m[2],
+  }))
+  const declared = fm.figures
+
+  if (declared !== undefined && !Array.isArray(declared)) {
+    fail(file, 'figures must be an array of { file, credit, kind?, source? }')
+    return
+  }
+  const entries = Array.isArray(declared) ? declared : []
+
+  for (const entry of entries) {
+    if (!entry || typeof entry !== 'object' || !isNonEmptyString(entry.file)) {
+      fail(file, 'each figures entry needs a file')
+      continue
+    }
+    if (!used.some((u) => u.file === entry.file)) {
+      fail(file, `figures declares "${entry.file}" but the body never shows it`)
+    }
+    if (!isNonEmptyString(entry.credit)) {
+      fail(file, `figures "${entry.file}" needs a credit — we publish no uncredited picture, in the body or on top of it`)
+    } else if (!creditIsVisible(entry.credit, body)) {
+      fail(
+        file,
+        `figures "${entry.file}" is credited to "${entry.credit}" in frontmatter, but that name ` +
+          'never appears in the prose — a reader has to be able to see whose picture it is'
+      )
+    }
+    const kind = entry.kind === undefined ? 'photo' : entry.kind
+    if (!COVER_KINDS.includes(kind)) {
+      fail(file, `figures "${entry.file}" kind "${entry.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
+    }
+    if (kind === 'visualisation' && !isHttpUrl(entry.source)) {
+      fail(file, `figures "${entry.file}" is a visualisation and needs source: the page it was published on`)
+    }
+    if (kind !== 'visualisation' && entry.source !== undefined) {
+      fail(file, `figures "${entry.file}" is ours; source belongs to a visualisation`)
+    }
+  }
+
+  for (const picture of used) {
+    if (!entries.some((e) => e?.file === picture.file)) {
+      fail(file, `the body shows "${picture.file}" but figures does not declare it — every picture says who made it`)
+    }
+    if (picture.alt.trim().length < MIN_ALT_CHARS) {
+      fail(file, `![${picture.alt}](./${picture.file}) needs alt text describing the picture (${MIN_ALT_CHARS}+ chars)`)
+    }
+    if (!exists.has(picture.file)) {
+      fail(file, `the body shows "${picture.file}", which is not in ${path.relative(ROOT, dir)}`)
+    }
   }
 }
 
@@ -288,6 +414,7 @@ async function validatePosts() {
 
       // --- body ---
       const body = content.trim()
+      checkFigures(file, fm, body, path.join(postsDir, dirName), new Set(files))
       if (body.length < MIN_BODY_CHARS) {
         fail(file, `body is ${body.length} chars — below the ${MIN_BODY_CHARS} minimum for a publishable article`)
       }
@@ -330,6 +457,20 @@ async function validatePosts() {
         }
         if ((a.cover?.credit || null) !== (b.cover?.credit || null)) {
           fail(rel, 'cover.credit differs between locales — the photographer does not change with the language')
+        }
+        if ((a.cover?.kind || null) !== (b.cover?.kind || null)) {
+          fail(rel, 'cover.kind differs between locales — a visualisation is one in both languages')
+        }
+        if ((a.cover?.source || null) !== (b.cover?.source || null)) {
+          fail(rel, 'cover.source differs between locales — one picture came from one place')
+        }
+        const figs = (fm) =>
+          (fm.figures || [])
+            .map((f) => `${f?.file}|${f?.credit}|${f?.kind || 'photo'}|${f?.source || ''}`)
+            .sort()
+            .join(' ')
+        if (figs(a) !== figs(b)) {
+          fail(rel, 'figures differ between locales — one article shows the same pictures, credited the same way')
         }
         const urlsA = (a.sources || []).map((s) => s?.url).sort().join('|')
         const urlsB = (b.sources || []).map((s) => s?.url).sort().join('|')
@@ -429,6 +570,7 @@ async function validateQueue(publishedSlugs) {
       }
 
       const body = content.trim()
+      checkFigures(file, fm, body, path.join(queueDir, slug), new Set(files))
       if (body.length < MIN_BODY_CHARS) {
         fail(file, `body is ${body.length} chars — below the ${MIN_BODY_CHARS} minimum`)
       }

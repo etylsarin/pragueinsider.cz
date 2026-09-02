@@ -11,11 +11,17 @@ correctness bug, not a style choice.
 - **Every article cites its sources.** `sources` is required in frontmatter, enforced by
   `scripts/validate-posts.mjs`. No exceptions, no "obvious" stories.
 - **`aiGenerated: true` on every post.** The disclosure is not optional and is not configurable.
-- **Only our own photographs.** A cover is either the generated plate from `src/lib/cover.js` or a
-  photograph somebody on the desk took themselves — credited, dated and described in both
-  languages. There is no third kind. Never embed source photography, press handouts or stock, and
-  never generate an AI photograph of a real place. The plate is the default and remains the
-  fallback for every article without a first-party frame.
+- **Only our own photographs — and, for the unbuilt, a labelled visualisation.** A cover is the
+  generated plate from `src/lib/cover.js`, a photograph somebody on the desk took themselves, or a
+  `kind: visualisation`. Never embed source *photography*, press handouts or stock, and never
+  generate an AI photograph of a real place. The plate is the default and remains the fallback.
+  A visualisation is the narrow exception for a story whose subject does not exist yet: it needs
+  `credit` (the studio if the source names one, otherwise the body that released it) and `source`
+  (the page it was published on), the gate refuses it without both, and the template stamps
+  *Visualisation* on the image. It never stands in for a photograph of somewhere that exists —
+  that is a place the desk can go. See `content/pages/editorial-standards/`, which says all of
+  this publicly, and keep the two in step. The same applies to pictures inside the body, declared
+  in `figures:` — see the Gotchas.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
   same figures, same sources; different prose.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
@@ -80,14 +86,29 @@ correctness bug, not a style choice.
   mosaic's `VIEW` is cut to about the size it displays at on purpose: widen it and the tiles are
   downscaled until Esri's baked-in street labels stop being readable, which loses the only thing
   the panel is for. Look at the panel, not the markup.
+- **Public funding is not a public-domain licence.** The argument that a visualisation was paid
+  for from public money and is therefore free to republish is wrong under Czech law — the studio
+  holds the rights even when the city commissioned it, and `úřední dílo` covers statutes and
+  decisions, not renders. What actually makes these publishable is that they are *issued as press
+  material for reporting, with credit*, which is a licence with a condition. That condition is why
+  `credit` and `source` are gate-enforced rather than encouraged.
+- **A render often carries its author's mark burned into a corner, and a centre crop eats it.**
+  METROPROJEKT's watermark sits in the bottom-left of the Olbrachtova visualisation; cropping it
+  to 16:9 from the middle removed the one thing the licence turns on. `attach-photo.mjs` takes
+  `--gravity north|centre|south` for exactly this. Look at the bottom corners before cropping.
 - **Desk plates are static files, not generated at build.** `scripts/make-covers.mjs` writes
   `static/covers/<desk>-<locale>-{card,hero,og}` and they are committed; `npm run covers`
   regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
   shows the same plate, so `cover.variant` and `cover.seed` are gone and the gate rejects them.
   Only a photographed article gets a social card of its own, built in `onPostBuild`.
-- Inline body images already work with no new code: drop the file beside `index.<locale>.md` and
-  write `![alt](./file.jpg)`. `content/posts` is a sourced filesystem and `gatsby-remark-images`
-  is configured. Only the **cover** needs `cover.photo` in frontmatter.
+- Inline body images render with no new code — drop the file beside `index.<locale>.md` and write
+  `![alt](./file.jpg)`; `content/posts` is a sourced filesystem and `gatsby-remark-images` is
+  configured. But they are **not** exempt from the cover rules, and that was the door the cover
+  contract did not watch: an uncredited third-party render could reach the page with every rule
+  about `cover:` still green. So every body picture is declared in `figures:`
+  (`file`, `credit`, and `kind`/`source` for a visualisation), the gate cross-checks the
+  declarations against the `![](./…)` in the prose both ways, and it also requires the credit to
+  appear **in the prose itself** — a credit a reader never sees is a record of one, not a credit.
 - A photographed cover is always 16:9, whatever `format` the caller asks for. The plate is drawn
   to order at each format; a photograph can only be cropped, and cropping the same frame twice —
   16:9 for a card, 2:1 for a hero — throws away different parts of it in different places.
