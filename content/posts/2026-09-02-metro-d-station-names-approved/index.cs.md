@@ -9,6 +9,13 @@ tags: ["metro D", "Ryšánka", "Nusle", "názvy stanic", "místopisná komise"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace severního vestibulu stanice metra Olbrachtova: nízký tmavě obložený vstupní pavilon s nápisem OLBRACHTOVA a symbolem linky D nad dvojicí prosklených dveří, vedle stojany na kola a lavičky, za nimi panelový dům a vzrostlé stromy."
+  caption: "Olbrachtova — stanice, kterou zastupitelstvo teď přejmenovalo na Ryšánku — v podobě, jak její severní vestibul nakreslil METROPROJEKT v roce 2016."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://www.dpp.cz/metro-d/fotogalerie/fotogalerie-stanice-olbrachtova"
 sources:
   - title: "Praha rozhodla o nových názvech budoucích stanic metra D"
     url: "https://pid.cz/praha-rozhodla-o-budoucich-nazvech-stanic-linky-metra-d"

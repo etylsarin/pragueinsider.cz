@@ -9,6 +9,13 @@ tags: ["metro D", "Ryšánka", "Nusle", "station names", "místopisná komise"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the Olbrachtova metro station's northern vestibule: a low dark-clad entrance pavilion with OLBRACHTOVA and the line D symbol above two sets of glass doors, cycle stands and benches beside it, a panel block and mature trees behind."
+  caption: "Olbrachtova, the station the city council has now renamed Ryšánka, as METROPROJEKT drew its northern vestibule in 2016."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://www.dpp.cz/metro-d/fotogalerie/fotogalerie-stanice-olbrachtova"
 sources:
   - title: "Praha rozhodla o nových názvech budoucích stanic metra D"
     url: "https://pid.cz/praha-rozhodla-o-budoucich-nazvech-stanic-linky-metra-d"

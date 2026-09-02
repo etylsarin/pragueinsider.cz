@@ -11,9 +11,31 @@ archive open: decide which story each picture belongs to, describe it in both la
 it.
 
 **A photograph on this site is first-party or it is nothing.** We shoot our own or we run the
-generated plate. Never source an image from a press release, a source article, a stock library or
-an image generator — that is the promise on `content/pages/editorial-standards/`, and it is the
-whole reason photography was allowed in at all.
+generated plate. Never source a *photograph* from a press release, a source article, a stock
+library or an image generator — that is the promise on `content/pages/editorial-standards/`, and
+it is the whole reason photography was allowed in at all.
+
+**The one exception is a visualisation of something that has not been built**, where there is
+nothing at the site to photograph and the design is the story. It is a different kind of cover,
+not a relaxation of the rule:
+
+```bash
+node scripts/attach-photo.mjs --photo <file> --slug <slug> \
+  --kind visualisation \
+  --credit "METROPROJEKT" \
+  --source "https://www.dpp.cz/metro-d/fotogalerie/…" \
+  --aspect 16:9 --gravity south \
+  --alt-en … --alt-cs … --caption-en … --caption-cs …
+```
+
+- `--credit` is the studio when the source names one, otherwise the city, district or project that
+  released it. **Never guess a studio** — a wrong credit fails the licence and misattributes
+  somebody's work in the same stroke. If you cannot establish either, do not attach it.
+- `--source` is the page it was published on, not a CDN path, so a reader can check it.
+- **Look at the bottom corners before you crop.** Renders often carry the author's mark burned in,
+  and a centre crop to 16:9 removes it. `--gravity south` keeps it.
+- Only for the unbuilt. A render never substitutes for a photograph of a place that exists, and a
+  press photograph of a real place is never publishable whatever it is labelled.
 
 ---
 

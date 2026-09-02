@@ -58,7 +58,7 @@ const Cover = ({ post, label, locale = 'cs', format = 'card', className = '' }) 
 /**
  * Every template that renders a Cover spreads this, so the crop and the caption fields are
  * decided in one place. `alt` and `caption` are per-locale — they live in each index.<locale>.md
- * like the prose does — while `photo` and `credit` are the same picture in both.
+ * like the prose does — while `photo`, `credit`, `kind` and `source` are the same picture in both.
  */
 export const coverFields = graphql`
   fragment CoverFields on CoverConfig {
@@ -66,6 +66,8 @@ export const coverFields = graphql`
     caption
     credit
     shot
+    kind
+    source
     photo {
       childImageSharp {
         gatsbyImageData(

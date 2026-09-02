@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace školy na Jahodnici: dřevem obložený horní blok na betonových sloupech nad otevřeným parterem, navazující na nižší zelené křídlo, před ním zaparkovaná auta, výsadba a děti mířící ke vchodu."
+  caption: "Návrh, jehož stavbu Praha 14 zahájila: osmnáct kmenových učeben pro 540 žáků v ulici U Hostavického potoka."
+  credit: "Městská část Praha 14"
+  kind: visualisation
+  source: "https://stavitel.cz/infoservis/praha-14-zacina-s-vystavbou-nove-zakladni-skoly-na-jahodnici/"
 sources:
   - title: "Praha 14 zahájila stavbu školy na Jahodnici za 950 milionů korun"
     url: "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun"

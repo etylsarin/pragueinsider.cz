@@ -120,6 +120,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       caption: String
       credit: String
       shot: Date @dateformat
+      kind: String
+      source: String
     }
   `)
 }
