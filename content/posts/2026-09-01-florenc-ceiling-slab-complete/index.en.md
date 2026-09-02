@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Ke Štvanici resurfaced and back in use: new white lane markings and a yellow box junction across fresh asphalt, an articulated DPP bus waiting at the left kerb and a second one pulling away, with a yellow neo-Renaissance building and site hoarding beyond."
+  caption: "Ke Štvanici carrying traffic again after four and a half years, over the finished Florenc ceiling slab."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "DPP dokončil rekonstrukci stropní desky nad vestibulem stanice metra Florenc a obnovuje provoz v ulici Ke Štvanici"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici"

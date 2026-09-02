@@ -101,10 +101,10 @@
     },
     "nakladove nadrazi zizkov": {
       "name": "Nákladové nádraží Žižkov",
-      "lat": 50.08507,
-      "lng": 14.4776,
+      "lat": 50.08451,
+      "lng": 14.47087,
       "district": "Praha 3 – Žižkov",
-      "osm": "Nákladové nádraží Žižkov, Žižkov, obvod Praha 3, Praha, Česko"
+      "osm": null
     },
     "ohrada": {
       "name": "Ohrada",

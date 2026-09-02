@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Popraskaná betonová plocha na Rohanském ostrově, na jejím okraji rozlámané obrubníky a pomalovaný blok, ze tří stran sevřená náletem topolů a pajasanů pod zataženou oblohou."
+  caption: "Plocha na Rohanském ostrově, která se má snížit a znovu otevřít Vltavě jako Park Maniny."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny"
     url: "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny"

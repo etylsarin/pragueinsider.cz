@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A junction below Strossmayerovo náměstí: fresh white markings split around a new island planted with black-and-white bollards, a no-entry sign stands at the far kerb, and a tiled office block fills the corner behind."
+  caption: "The bollards and new road markings TSK put in on 28 August to close the shortcut past the school."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Opatření proti tranzitní dopravě v okolí Strossu"
     url: "https://www.praha7.cz/tranzit_stross"
