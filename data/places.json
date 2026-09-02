@@ -85,6 +85,20 @@
       "district": "Praha 10 – Vršovice",
       "osm": "Moskevská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 33, Česko"
     },
+    "na kocince": {
+      "name": "Na Kocínce",
+      "lat": 50.10577,
+      "lng": 14.38609,
+      "district": "Praha 6",
+      "osm": "Na Kocínce, Baba, Praha 6, obvod Praha 6, Praha, 166 29, Česko"
+    },
+    "nadrazi holesovice": {
+      "name": "Nádraží Holešovice",
+      "lat": 50.10901,
+      "lng": 14.44013,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Nádraží Holešovice, Vrbenského, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
+    },
     "nakladove nadrazi zizkov": {
       "name": "Nákladové nádraží Žižkov",
       "lat": 50.08507,

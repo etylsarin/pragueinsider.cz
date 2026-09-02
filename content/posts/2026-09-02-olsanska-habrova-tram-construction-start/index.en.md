@@ -3,7 +3,7 @@ slug: olsanska-habrova-tram-construction-start
 lang: en
 title: "Prague Starts Building the Olšanská–Habrová Tram — and Its First Single-Track Section Since 1983"
 dek: "1.9 km for CZK 599.2m, six stops, twelve months of work, and a 600-metre single-track stretch deliberately built cheap because the Jarovská třída will one day cut through it."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "trams", "DPP", "FIRESTA", "Jarov"]
 district: "Praha 3 – Žižkov"

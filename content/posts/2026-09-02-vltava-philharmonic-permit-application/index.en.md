@@ -3,7 +3,7 @@ slug: vltava-philharmonic-permit-application
 lang: en
 title: "Prague Files for Permission to Build the Vltava Philharmonic — and for CZK 5bn of Ground Around It"
 dek: "The application went in on 31 August: a CZK 12.33bn concert building plus public space, a new embankment and transport works. Permission is expected in early 2027, construction in early 2028, trial operation in 2033 — with state funding still unsettled."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: development
 tags: ["Vltava Philharmonic", "Bubny-Zátory", "BIG", "Pražská developerská společnost", "permits"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4385
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha požádala o stavební povolení pro Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii"

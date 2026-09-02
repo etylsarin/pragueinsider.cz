@@ -3,7 +3,7 @@ slug: vltava-philharmonic-permit-application
 lang: cs
 title: "Praha požádala o povolení Vltavské filharmonie. Spolu s ní i o pět miliard na okolí"
 dek: "Žádost šla na úřad 31. srpna: budova za 12,33 miliardy plus veřejná prostranství, nové nábřeží a dopravní stavby. Povolení se čeká začátkem roku 2027, stavba o rok později, zkušební provoz v roce 2033. Financování jisté není."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: development
 tags: ["Vltavská filharmonie", "Bubny-Zátory", "BIG", "Pražská developerská společnost", "povolení"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4385
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha požádala o stavební povolení pro Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii"

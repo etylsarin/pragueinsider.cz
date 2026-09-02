@@ -3,7 +3,7 @@ slug: metro-d-station-names-approved
 lang: en
 title: "Olbrachtova Becomes Ryšánka, Náměstí Bratří Synků Becomes Nusle — and One Station Still Has No Name"
 dek: "Prague's city council fixed the official names of metro D's stations on 31 August. Two changed, several proposals were turned down, and the terminus is being left open until the district around it is designed."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: transport
 tags: ["metro D", "Ryšánka", "Nusle", "station names", "místopisná komise"]
 author: "Prague Insider Desk"

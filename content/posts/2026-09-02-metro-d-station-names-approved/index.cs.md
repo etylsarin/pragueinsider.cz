@@ -3,7 +3,7 @@ slug: metro-d-station-names-approved
 lang: cs
 title: "Z Olbrachtovy je Ryšánka, z náměstí Bratří Synků Nusle. Jedna stanice pořád nemá jméno"
 dek: "Pražští radní 31. srpna rozhodli o oficiálních názvech stanic metra D. Dvě se mění, několik návrhů neprošlo a u konečné se rozhodnutí odkládá, dokud nebude jasné, jak se okolí zastaví."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: transport
 tags: ["metro D", "Ryšánka", "Nusle", "názvy stanic", "místopisná komise"]
 author: "Prague Insider Desk"

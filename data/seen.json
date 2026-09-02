@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -92,6 +92,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-25",
       "usedInPost": "park-maniny-rohansky-ostrov"
+    },
+    "36caaee7b68ec8aa": {
+      "url": "https://www.archiweb.cz/n/domaci/detem-v-praze-6-se-dnes-otevrela-nova-zs-na-kocince-a-ms-libocka",
+      "title": "Dětem v Praze 6 se dnes otevřela nová ZŠ Na Kocínce a MŠ Libocká",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-02",
+      "usedInPost": "praha-6-kocince-libocka-schools-open"
     },
     "4088c1540b21984c": {
       "url": "https://praguemorning.cz/vltava-philharmonic-prague",
@@ -190,6 +197,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-25",
       "usedInPost": "brandejsuv-statek-gymnasium-tender"
+    },
+    "932ad38450f584d0": {
+      "url": "https://www.praha7.cz/barevnejsi-ulice",
+      "title": "Praha 7 vítá školáky barevnějšími ulicemi",
+      "source": "MČ Praha 7",
+      "firstSeen": "2026-09-02",
+      "usedInPost": "praha-7-asphalt-art-school-streets"
     },
     "9407329b421e45a5": {
       "url": "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii",

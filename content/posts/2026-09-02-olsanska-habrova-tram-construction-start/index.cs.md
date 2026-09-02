@@ -3,7 +3,7 @@ slug: olsanska-habrova-tram-construction-start
 lang: cs
 title: "Tramvaj Olšanská–Habrová se začala stavět. Bude na ní první jednokolejka od roku 1983"
 dek: "1,9 kilometru za 599,2 milionu bez DPH, šest zastávek, dvanáct měsíců stavby a 600 metrů jednokolejné tratě postavené záměrně úsporně, protože tudy jednou povede Jarovská třída."
-queuedAt: 2026-09-01
+date: 2026-09-02
 category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "tramvaje", "DPP", "FIRESTA", "Jarov"]
 district: "Praha 3 – Žižkov"
