@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Barokní hlavní průčelí Invalidovny: tři podlaží členěná růžovými a krémovými pilastry, uprostřed tympanon s hodinami se zlatými číslicemi, na atice šest kamenných soch a u klenutého vstupu česká a unijní vlajka."
+  caption: "Hlavní průčelí Invalidovny v Karlíně na začátku rekonstrukce za 2,15 miliardy korun, která má skončit v roce 2030."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Začíná kompletní oprava pražské Invalidovny, trvat by měla čtyři roky"
     url: "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974"

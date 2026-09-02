@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Znovu otevřená ulice Ke Štvanici s novým asfaltem, bílým vodorovným značením a žlutou křižovatkovou plochou, u levého obrubníku stojí kloubový autobus DPP a druhý odjíždí, v pozadí žlutá novorenesanční budova a stavební oplocení."
+  caption: "Ulice Ke Štvanici je po čtyřech a půl letech znovu průjezdná, nad dokončenou stropní deskou Florence."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "DPP dokončil rekonstrukci stropní desky nad vestibulem stanice metra Florenc a obnovuje provoz v ulici Ke Štvanici"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici"

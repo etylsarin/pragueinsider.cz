@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Cracked concrete hardstanding on Rohanský ostrov, with broken kerbstones and a graffitied block at its edge, closed in on three sides by self-seeded poplars and sumac under a clouded sky."
+  caption: "The ground on Rohanský ostrov that is to be dug down and opened back to the Vltava as Park Maniny."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny"
     url: "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny"

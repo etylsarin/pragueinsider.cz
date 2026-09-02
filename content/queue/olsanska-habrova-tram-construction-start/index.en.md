@@ -8,11 +8,17 @@ category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "trams", "DPP", "FIRESTA", "Jarov"]
 district: "Praha 3 – Žižkov"
 location:
-  lat: 50.0851
-  lng: 14.4776
+  lat: 50.0845
+  lng: 14.4709
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A wide strip of cleared, graded ground running away from the camera with heaps of spoil along it, a concrete loading platform on the left and the long functionalist freight terminal with its cantilevered canopy on the right."
+  caption: "The alignment north of the retained freight terminal, where the new tramway will run down what is to become the quarter's main street."
+  credit: "Filip Mareš"
+  shot: 2026-09-02
 sources:
   - title: "V Praze začala stavba nové tramvajové tratě Olšanská–Habrová"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3432-v-praze-zacala-stavba-nove-tramvajove-trate-olsanska-habrova"

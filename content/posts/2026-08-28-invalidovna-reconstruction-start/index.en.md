@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The Baroque main front of Invalidovna: three storeys of pink and cream pilasters under a pedimented centre with a gold-numbered clock, six stone statues along the roofline, and Czech and EU flags beside the arched entrance."
+  caption: "Invalidovna's main front in Karlín, at the start of a reconstruction costed at CZK 2.15bn and due to finish in 2030."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Začíná kompletní oprava pražské Invalidovny, trvat by měla čtyři roky"
     url: "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974"

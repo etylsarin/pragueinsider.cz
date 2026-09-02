@@ -70,6 +70,9 @@ correctness bug, not a style choice.
   street called Západní in Střešovice, twelve kilometres from Stodůlky. `geocode.mjs` checks every
   word of the name back and refuses to record a loose hit, but the geography it cannot check:
   "Ohrada" is a real place in Kunratice and a real tram stop in Žižkov. Read the candidate list.
+  The same name can also be two places half a kilometre apart and be right both times —
+  "Nákladové nádraží Žižkov" is the freight-yard site and the tram terminus that serves it, and
+  the top hit is the yard. Pin the one the story is about.
 - **The article locator is a real map, drawn without Leaflet.** `src/lib/staticmap.js` does the
   Web Mercator arithmetic and `LocationBox.jsx` renders the tiles as `<image>` in one `<svg>` with
   `preserveAspectRatio="slice"`, so it server-renders, needs no hydration and scales to whatever

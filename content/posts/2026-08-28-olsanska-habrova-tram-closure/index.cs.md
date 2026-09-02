@@ -8,11 +8,17 @@ category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "tramvaje", "DPP", "PID"]
 district: "Praha 3 – Žižkov"
 location:
-  lat: 50.0828
-  lng: 14.4593
+  lat: 50.0845
+  lng: 14.4709
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Práce na kolejišti u křižovatky Olšanská: rozebraný tramvajový svršek až na písek a štěrk, parta v oranžových vestách u řezačky kolejnic, rameno žlutého bagru a červený sklápěč, nad tím trolejové vedení a v pozadí tři bílé obytné věže."
+  caption: "Přestavba křižovatky v Olšanské, kvůli které na šest týdnů zmizely tramvaje z trati k Nákladovému nádraží Žižkov."
+  credit: "Filip Mareš"
+  shot: 2026-09-02
 sources:
   - title: "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají"
     url: "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3/"

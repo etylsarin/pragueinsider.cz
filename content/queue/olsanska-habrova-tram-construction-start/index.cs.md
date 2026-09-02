@@ -8,11 +8,17 @@ category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "tramvaje", "DPP", "FIRESTA", "Jarov"]
 district: "Praha 3 – Žižkov"
 location:
-  lat: 50.0851
-  lng: 14.4776
+  lat: 50.0845
+  lng: 14.4709
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Široký pruh vyklizené a srovnané plochy mířící do dálky, podél něj hromady výkopku, vlevo betonová nákladová rampa a vpravo dlouhá funkcionalistická budova nákladového nádraží s vyloženou stříškou."
+  caption: "Trasa severně od zachované budovy nákladového nádraží, kudy nová tramvajová trať povede středem budoucí hlavní ulice čtvrti."
+  credit: "Filip Mareš"
+  shot: 2026-09-02
 sources:
   - title: "V Praze začala stavba nové tramvajové tratě Olšanská–Habrová"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3432-v-praze-zacala-stavba-nove-tramvajove-trate-olsanska-habrova"
