@@ -141,6 +141,13 @@
       "district": "Praha 6 – Sedlec",
       "osm": "Roztocká, Sedlec, Praha 6, obvod Praha 6, Praha, 151 00, Česko"
     },
+    "smichovske nadrazi": {
+      "name": "Smíchovské nádraží",
+      "lat": 50.0612,
+      "lng": 14.40909,
+      "district": "Praha 5",
+      "osm": "Smíchovské nádraží, Nádražní, Dívčí hrady, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
+    },
     "strossmayerovo namesti": {
       "name": "Strossmayerovo náměstí",
       "lat": 50.0987,

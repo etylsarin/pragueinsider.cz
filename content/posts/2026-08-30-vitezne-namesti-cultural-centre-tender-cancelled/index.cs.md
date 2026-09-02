@@ -14,6 +14,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace čtvrtého kvadrantu Vítězného náměstí: zaoblený šestipodlažní blok se světlou rastrovou fasádou a dlouhou prosklenou sedlovou střechou, v parteru obchody, vpravo nižší zeleně obložené křídlo a alej stromů, přes žulovou dlažbu náměstí projíždí červenobílá tramvaj."
+  caption: "Čtvrtý kvadrant v podobě, jakou navrhli vítězové soutěže v roce 2023. Kulturní centrum uvnitř je ta část, na kterou se Praze 6 teď nepodařilo vysoutěžit zhotovitele."
+  credit: "Benthem Crouwel Architects + OVA"
+  kind: visualisation
+  source: "https://praha.camp/magazin/detail/praha-6-bude-mit-nove-kulturni-centrum-dostavbu-vitezneho-namesti-navrhne-tym-ceskeho-studia-ova-a-nizozemskych-benthem-crouwel-architects"
 sources:
   - title: "Praha 6 chce zrušit soutěž na kulturní centrum a vypíše nový tendr"
     url: "https://www.archiweb.cz/n/domaci/praha-6-chce-zrusit-soutez-na-kulturni-centrum-a-vypise-novy-tendr"
