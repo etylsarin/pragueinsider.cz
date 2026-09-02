@@ -108,8 +108,9 @@ what is actually being decided. Every one of them:
   project that released it — which is the condition these are issued under, not a courtesy;
 - **links to the page it was published on**, so you can check the provenance we claim.
 
-We use them only for the unbuilt. A visualisation never stands in for a photograph of somewhere
-that exists — that is a place we can go — and we take no press photography, of anything, ever.
+All of this holds for pictures inside an article as much as for the one at the top of it. We use
+visualisations only for the unbuilt, and a visualisation never stands in for a photograph of
+somewhere that exists — that is a place we can go — and we take no press photography, of anything, ever.
 If you hold the rights to a visualisation here and want it removed or credited differently, email
 [editor@pragueinsider.cz](mailto:editor@pragueinsider.cz) and we will act on it.
 

@@ -197,6 +197,75 @@ function checkLocation(file, fm) {
 }
 
 /**
+ * Pictures inside the body, which is the door the cover contract does not watch.
+ *
+ * `gatsby-remark-images` renders any `![alt](./file.jpg)` sitting beside the markdown, with no
+ * frontmatter needed — which is convenient and is exactly how an uncredited third-party render
+ * would reach the site while every rule about covers stayed green. So a body image carries the
+ * same obligations a cover does, declared in `figures`, and this checks that:
+ *
+ *   - every picture in the prose is declared, and everything declared is used;
+ *   - it exists beside the markdown, and its alt text describes it;
+ *   - it says who made it, and a visualisation says where it was published;
+ *   - the credit appears in the prose itself, because a declaration a reader never sees is not
+ *     a credit — it is a record of one.
+ */
+function checkFigures(file, fm, body, dir, exists) {
+  const used = [...body.matchAll(/!\[([^\]]*)\]\(\.\/([^)\s]+)\)/g)].map((m) => ({
+    alt: m[1],
+    file: m[2],
+  }))
+  const declared = fm.figures
+
+  if (declared !== undefined && !Array.isArray(declared)) {
+    fail(file, 'figures must be an array of { file, credit, kind?, source? }')
+    return
+  }
+  const entries = Array.isArray(declared) ? declared : []
+
+  for (const entry of entries) {
+    if (!entry || typeof entry !== 'object' || !isNonEmptyString(entry.file)) {
+      fail(file, 'each figures entry needs a file')
+      continue
+    }
+    if (!used.some((u) => u.file === entry.file)) {
+      fail(file, `figures declares "${entry.file}" but the body never shows it`)
+    }
+    if (!isNonEmptyString(entry.credit)) {
+      fail(file, `figures "${entry.file}" needs a credit — we publish no uncredited picture, in the body or on top of it`)
+    } else if (!body.includes(entry.credit)) {
+      fail(
+        file,
+        `figures "${entry.file}" is credited to "${entry.credit}" in frontmatter, but that name ` +
+          'never appears in the prose — a reader has to be able to see whose picture it is'
+      )
+    }
+    const kind = entry.kind === undefined ? 'photo' : entry.kind
+    if (!COVER_KINDS.includes(kind)) {
+      fail(file, `figures "${entry.file}" kind "${entry.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
+    }
+    if (kind === 'visualisation' && !isHttpUrl(entry.source)) {
+      fail(file, `figures "${entry.file}" is a visualisation and needs source: the page it was published on`)
+    }
+    if (kind !== 'visualisation' && entry.source !== undefined) {
+      fail(file, `figures "${entry.file}" is ours; source belongs to a visualisation`)
+    }
+  }
+
+  for (const picture of used) {
+    if (!entries.some((e) => e?.file === picture.file)) {
+      fail(file, `the body shows "${picture.file}" but figures does not declare it — every picture says who made it`)
+    }
+    if (picture.alt.trim().length < MIN_ALT_CHARS) {
+      fail(file, `![${picture.alt}](./${picture.file}) needs alt text describing the picture (${MIN_ALT_CHARS}+ chars)`)
+    }
+    if (!exists.has(picture.file)) {
+      fail(file, `the body shows "${picture.file}", which is not in ${path.relative(ROOT, dir)}`)
+    }
+  }
+}
+
+/**
  * Cross-filing. `category` is the desk that owns the article — it decides the cover's colour and
  * motif, the map marker and the label, and each of those needs exactly one answer. `alsoIn` only
  * adds the article to another desk's feed, which is a question with more than one right answer.
@@ -326,6 +395,7 @@ async function validatePosts() {
 
       // --- body ---
       const body = content.trim()
+      checkFigures(file, fm, body, path.join(postsDir, dirName), new Set(files))
       if (body.length < MIN_BODY_CHARS) {
         fail(file, `body is ${body.length} chars — below the ${MIN_BODY_CHARS} minimum for a publishable article`)
       }
@@ -374,6 +444,14 @@ async function validatePosts() {
         }
         if ((a.cover?.source || null) !== (b.cover?.source || null)) {
           fail(rel, 'cover.source differs between locales — one picture came from one place')
+        }
+        const figs = (fm) =>
+          (fm.figures || [])
+            .map((f) => `${f?.file}|${f?.credit}|${f?.kind || 'photo'}|${f?.source || ''}`)
+            .sort()
+            .join(' ')
+        if (figs(a) !== figs(b)) {
+          fail(rel, 'figures differ between locales — one article shows the same pictures, credited the same way')
         }
         const urlsA = (a.sources || []).map((s) => s?.url).sort().join('|')
         const urlsB = (b.sources || []).map((s) => s?.url).sort().join('|')
@@ -473,6 +551,7 @@ async function validateQueue(publishedSlugs) {
       }
 
       const body = content.trim()
+      checkFigures(file, fm, body, path.join(queueDir, slug), new Set(files))
       if (body.length < MIN_BODY_CHARS) {
         fail(file, `body is ${body.length} chars — below the ${MIN_BODY_CHARS} minimum`)
       }

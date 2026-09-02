@@ -20,7 +20,8 @@ correctness bug, not a style choice.
   (the page it was published on), the gate refuses it without both, and the template stamps
   *Visualisation* on the image. It never stands in for a photograph of somewhere that exists —
   that is a place the desk can go. See `content/pages/editorial-standards/`, which says all of
-  this publicly, and keep the two in step.
+  this publicly, and keep the two in step. The same applies to pictures inside the body, declared
+  in `figures:` — see the Gotchas.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
   same figures, same sources; different prose.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
@@ -100,9 +101,14 @@ correctness bug, not a style choice.
   regenerates them, and only a change to `src/lib/cover.js` needs it. Every article on a desk
   shows the same plate, so `cover.variant` and `cover.seed` are gone and the gate rejects them.
   Only a photographed article gets a social card of its own, built in `onPostBuild`.
-- Inline body images already work with no new code: drop the file beside `index.<locale>.md` and
-  write `![alt](./file.jpg)`. `content/posts` is a sourced filesystem and `gatsby-remark-images`
-  is configured. Only the **cover** needs `cover.photo` in frontmatter.
+- Inline body images render with no new code — drop the file beside `index.<locale>.md` and write
+  `![alt](./file.jpg)`; `content/posts` is a sourced filesystem and `gatsby-remark-images` is
+  configured. But they are **not** exempt from the cover rules, and that was the door the cover
+  contract did not watch: an uncredited third-party render could reach the page with every rule
+  about `cover:` still green. So every body picture is declared in `figures:`
+  (`file`, `credit`, and `kind`/`source` for a visualisation), the gate cross-checks the
+  declarations against the `![](./…)` in the prose both ways, and it also requires the credit to
+  appear **in the prose itself** — a credit a reader never sees is a record of one, not a credit.
 - A photographed cover is always 16:9, whatever `format` the caller asks for. The plate is drawn
   to order at each format; a photograph can only be cropped, and cropping the same frame twice —
   16:9 for a card, 2:1 for a hero — throws away different parts of it in different places.

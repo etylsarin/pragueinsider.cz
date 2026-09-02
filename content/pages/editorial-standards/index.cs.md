@@ -107,7 +107,8 @@ taková:
   který vizualizaci vydal — což je podmínka, za níž se tyto materiály uvolňují, ne zdvořilost;
 - **odkazuje na stránku, kde byla zveřejněna**, abyste si původ mohli ověřit.
 
-Používáme je jen pro nepostavené. Vizualizace nikdy nenahrazuje fotografii něčeho, co existuje —
+Totéž platí pro obrázky uvnitř článku stejně jako pro ten nahoře. Vizualizace používáme jen pro
+nepostavené a vizualizace nikdy nenahrazuje fotografii něčeho, co existuje —
 tam se dá dojít — a tiskové fotografie nepřebíráme nikdy a od nikoho. Pokud držíte práva
 k některé zdejší vizualizaci a přejete si ji odstranit nebo uvést jinak, napište na
 [editor@pragueinsider.cz](mailto:editor@pragueinsider.cz) a zařídíme to.

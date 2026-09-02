@@ -9,6 +9,11 @@ alsoIn: ["public-space"]
 tags: ["metro D", "železnice na letiště", "Smíchov", "Karlovo náměstí", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true
+figures:
+  - file: terminal-smichov.jpg
+    credit: "A69 - architekti"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/terminal-smichov"
 sources:
   - title: "Pražské priority: Velký update projektů, které promění tvář metropole"
     url: "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole"
@@ -70,6 +75,12 @@ Druhou polovinu příběhu vyprávějí brownfieldy. Smíchov je výjimkou, kter
 se staví, zhruba 1 600 bytů ve dvou částech, v jižní centrála České spořitelny a mezi nimi
 kilometrová pěší městská třída. Terminál má být hotov na konci roku 2028, přestupní terminál MHD
 do roku 2030.
+
+![Vizualizace Terminálu Smíchov při pohledu shora nad kolejiště: dlouhá tmavá střecha nad nástupišti s nápisem TERMINAL SMICHOV, přes nádraží vede lávka k prosklené hale vpravo, u nástupišť stojí vlaky a za nimi stoupá město k Petřínu.](./terminal-smichov.jpg)
+
+*Vizualizace dopravního terminálu od A69 - architekti, z karty projektu na
+[Praha zítra? od CAMPu](https://praha.camp/praha-zitra/projekt/terminal-smichov). Jde o návrh, ne
+o fotografii — terminál má být hotový v roce 2030.*
 
 Jinde jsou studie. Rohan City má vizualizaci od Daniela Libeskinda. Bubny-Zátory stále dokončují
 územní studii. Bohdalec-Slatiny mají od února 2025 hotové předověření od Jakuba Ciglera a připravuje

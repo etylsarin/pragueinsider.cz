@@ -94,6 +94,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       location: GeoPoint
       sources: [SourceRef!]
       cover: CoverConfig
+      figures: [FigureRef!]
       author: String
       aiGenerated: Boolean
       featured: Boolean
@@ -112,6 +113,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       url: String
       publisher: String
       date: Date @dateformat
+    }
+
+    type FigureRef {
+      file: String
+      credit: String
+      kind: String
+      source: String
     }
 
     type CoverConfig {

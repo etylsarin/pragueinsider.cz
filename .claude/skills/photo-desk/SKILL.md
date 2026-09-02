@@ -37,6 +37,23 @@ node scripts/attach-photo.mjs --photo <file> --slug <slug> \
 - Only for the unbuilt. A render never substitutes for a photograph of a place that exists, and a
   press photograph of a real place is never publishable whatever it is labelled.
 
+**A picture can also go inside the body**, which is the better place when it illustrates one
+section rather than the whole article — a roundup of ten projects should not be fronted by one of
+them. Drop the file beside `index.<locale>.md`, write `![alt](./file.jpg)` at the paragraph it
+belongs to, and declare it:
+
+```yaml
+figures:
+  - file: terminal-smichov.jpg
+    credit: "A69 - architekti"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/terminal-smichov"
+```
+
+The gate checks the declaration against the prose in both directions, and requires the credit to
+appear in the prose too — so write a credit line under the image, in both languages, saying who
+made it and that it is a design rather than a photograph.
+
 ---
 
 ## 1. Read the inbox

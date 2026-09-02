@@ -9,6 +9,11 @@ alsoIn: ["public-space"]
 tags: ["metro D", "airport rail", "Smíchov", "Karlovo náměstí", "brownfields"]
 author: "Prague Insider Desk"
 aiGenerated: true
+figures:
+  - file: terminal-smichov.jpg
+    credit: "A69 - architekti"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/terminal-smichov"
 sources:
   - title: "Pražské priority: Velký update projektů, které promění tvář metropole"
     url: "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole"
@@ -76,6 +81,12 @@ The brownfields tell the other half of the story. Smíchov is the exception that
 genuinely under construction, with around 1,600 apartments across two sections, a Česká spořitelna
 headquarters in the southern half, a kilometre-long pedestrian spine linking them, terminal
 completion at the end of 2028 and the public transport terminal by 2030.
+
+![A visualisation of Terminál Smíchov seen from above the tracks: a long dark canopy over the platforms carrying the words TERMINAL SMICHOV, a footbridge crossing the station to a glazed hall on the right, trains standing at the platforms and the city rising to Petřín beyond.](./terminal-smichov.jpg)
+
+*Visualisation of the transport terminal by A69 - architekti, from the project's entry on
+[CAMP's Praha zítra?](https://praha.camp/praha-zitra/projekt/terminal-smichov). It is a design, not
+a photograph — the terminal is due in 2030.*
 
 Elsewhere it is studies. Rohan City has a Daniel Libeskind visualisation. Bubny-Zátory is still
 completing its territorial study. Bohdalec-Slatiny finished a pre-verification study by Jakub
