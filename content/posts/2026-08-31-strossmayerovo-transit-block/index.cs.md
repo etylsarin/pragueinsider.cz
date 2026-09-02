@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Křižovatka pod Strossmayerovým náměstím: čerstvé bílé značení se rozděluje kolem nového ostrůvku osazeného černobílými sloupky, u protějšího obrubníku stojí značka zákazu vjezdu a nároží za ní vyplňuje obkládaná administrativní budova."
+  caption: "Sloupky a nové vodorovné značení, které TSK osadila 28. srpna, aby uzavřela zkratku kolem školy."
+  credit: "Filip Mareš"
+  shot: 2026-09-01
 sources:
   - title: "Opatření proti tranzitní dopravě v okolí Strossu"
     url: "https://www.praha7.cz/tranzit_stross"

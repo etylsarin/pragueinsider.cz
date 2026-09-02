@@ -8,11 +8,17 @@ category: transport
 tags: ["Olšanská–Habrová", "Nákladové nádraží Žižkov", "trams", "DPP", "PID"]
 district: "Praha 3 – Žižkov"
 location:
-  lat: 50.0828
-  lng: 14.4593
+  lat: 50.0845
+  lng: 14.4709
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Track works at the Olšanská junction: the tram bed opened down to sand and ballast, a crew in orange hi-vis around a rail cutter, the arm of a yellow excavator and a red tipper truck, all under overhead wires, with three white residential towers behind."
+  caption: "The junction rebuild at Olšanská that has taken the trams off the track to Nákladové nádraží Žižkov for six weeks."
+  credit: "Filip Mareš"
+  shot: 2026-09-02
 sources:
   - title: "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají"
     url: "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3/"
