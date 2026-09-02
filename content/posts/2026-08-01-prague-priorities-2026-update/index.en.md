@@ -10,10 +10,21 @@ tags: ["metro D", "airport rail", "Smíchov", "Karlovo náměstí", "brownfields
 author: "Prague Insider Desk"
 aiGenerated: true
 figures:
+  - file: letiste-vaclava-havla.jpg
+    credit: "Správa železnic"
+    kind: visualisation
+    source: "https://praha.camp/praha-zitra/projekt/zeleznicni-spojeni-na-letiste"
   - file: terminal-smichov.jpg
     credit: "A69 - architekti"
     kind: visualisation
     source: "https://praha.camp/praha-zitra/projekt/terminal-smichov"
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of Pankrác station on metro D, looking down from a footbridge that crosses above the platform: a vaulted perforated ceiling on slender steel struts, passengers on the bridge and on the platform below, escalators descending on the right and a train standing at the platform edge."
+  caption: "Pankrác, the interchange at the centre of metro D — the clearest of the projects that have moved from the 2020 exhibition into construction."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://www.dpp.cz/metro-d/fotogalerie/fotogalerie-stanice-pankrac"
 sources:
   - title: "Pražské priority: Velký update projektů, které promění tvář metropole"
     url: "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole"
@@ -42,6 +53,12 @@ this year, Veleslavín–Ruzyně in 2028, and the Výstaviště–Dejvice, Dejvi
 Ruzyně–airport sections in 2029. The finished route adds six stations, runs fully electrified and
 double-tracked, and includes a transfer terminal at Dlouhá Míle with over a thousand park-and-ride
 spaces.
+
+![A visualisation of the Praha – Letiště Václava Havla station entrance: a flat dark canopy on slender columns carrying the station name in white, a lit patterned soffit beneath it, escalators and two lifts descending to the platforms, travellers with wheeled suitcases crossing the paving, an elevated road curving past on the left.](./letiste-vaclava-havla.jpg)
+
+*Visualisation of the airport station by Správa železnic, from the project's entry on
+[CAMP's Praha zítra?](https://praha.camp/praha-zitra/projekt/zeleznicni-spojeni-na-letiste).
+A design, not a photograph — the line is due in 2030.*
 
 The city ring road remains the long tail. Documentation work on the 10.5-kilometre completion —
 Pelc-Tyrolka–Balabenka, the Štěrboholská radiála and the Libeňská spojka, largely in tunnel — began

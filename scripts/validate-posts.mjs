@@ -210,6 +210,25 @@ function checkLocation(file, fm) {
  *   - the credit appears in the prose itself, because a declaration a reader never sees is not
  *     a credit — it is a record of one.
  */
+/**
+ * Is this credit visible in the prose?
+ *
+ * Not a string match, because Czech declines: a credit recorded as "Správa železnic" is written
+ * in a sentence as "od Správy železnic", and demanding the nominative would force the desk to
+ * write bad Czech to satisfy a checker. So each word of the credit has to appear in the body up
+ * to its last couple of characters — enough to catch a credit that was never written down, loose
+ * enough to let both languages read properly.
+ */
+function creditIsVisible(credit, body) {
+  const fold = (value) =>
+    value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  const haystack = fold(body)
+  return fold(credit)
+    .split(/[^a-z0-9]+/)
+    .filter((word) => word.length > 2)
+    .every((word) => haystack.includes(word.length >= 5 ? word.slice(0, -2) : word))
+}
+
 function checkFigures(file, fm, body, dir, exists) {
   const used = [...body.matchAll(/!\[([^\]]*)\]\(\.\/([^)\s]+)\)/g)].map((m) => ({
     alt: m[1],
@@ -233,7 +252,7 @@ function checkFigures(file, fm, body, dir, exists) {
     }
     if (!isNonEmptyString(entry.credit)) {
       fail(file, `figures "${entry.file}" needs a credit — we publish no uncredited picture, in the body or on top of it`)
-    } else if (!body.includes(entry.credit)) {
+    } else if (!creditIsVisible(entry.credit, body)) {
       fail(
         file,
         `figures "${entry.file}" is credited to "${entry.credit}" in frontmatter, but that name ` +
