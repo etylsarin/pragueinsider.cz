@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace červenobílé tramvaje s cílem 13 Strahov na nové trati ve Vaníčkově ulici, podél dlouhého betonového bloku strahovských kolejí s pásovými okny a malovanými nápisy, vedle ní cyklistka v jízdním pruhu a nové osvětlovací stožáry u obrubníku."
+  caption: "Trať v podobě, jak by vedla kolem strahovských kolejí ve Vaníčkově ulici: 1,3 kilometru nové dvoukolejné trati ze smlouvy za 824 milionů korun, kterou DPP právě podepsal."
+  credit: "DPP / Atelier Onixia"
+  kind: visualisation
+  source: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov"
 sources:
   - title: "DPP uzavřel smlouvu se zhotovitelem nové tramvajové tratě Malovanka – Strahov"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov"

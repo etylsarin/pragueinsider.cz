@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of a red and white tram signed 13 Strahov running on new track along Vaníčkova, beside the long concrete slab of the Strahov halls of residence with their strip windows and painted lettering, a cyclist in the lane alongside and new lighting columns down the kerb."
+  caption: "The line as it would run past the Strahov halls of residence on Vaníčkova: 1.3 km of new double track under the CZK 824m contract DPP has just signed."
+  credit: "DPP / Atelier Onixia"
+  kind: visualisation
+  source: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov"
 sources:
   - title: "DPP uzavřel smlouvu se zhotovitelem nové tramvajové tratě Malovanka – Strahov"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov"
