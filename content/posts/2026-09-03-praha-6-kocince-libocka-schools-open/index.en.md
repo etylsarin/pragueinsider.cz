@@ -3,7 +3,7 @@ slug: praha-6-kocince-libocka-schools-open
 lang: en
 title: "Prague 6 Opens Two School Buildings on the First Day of Term, at a Combined CZK 276m"
 dek: "A passive-standard pavilion on Na Kocínce for 240 pupils and a rebuilt nursery in Liboc for 110 children. The city paid CZK 118m of it; the district found the rest."
-queuedAt: 2026-09-02
+date: 2026-09-03
 category: development
 tags: ["Praha 6", "školství", "AND", "pasivní standard", "MŠ Libocká"]
 district: "Praha 6"

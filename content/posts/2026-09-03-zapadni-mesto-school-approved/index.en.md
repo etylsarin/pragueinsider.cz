@@ -3,7 +3,7 @@ slug: zapadni-mesto-school-approved
 lang: en
 title: "Prague Approves a CZK 1.03bn School for 1,152 Pupils at Západní Město, With CZK 112m From Developers"
 dek: "The city council signed off the Stodůlky campus as a new investment on 31 August. Design documentation, a final permission and construction documentation are all in hand. The start date is not."
-queuedAt: 2026-09-01
+date: 2026-09-03
 category: development
 tags: ["Západní město", "Stodůlky", "schools", "planning agreement", "Praha 13"]
 district: "Praha 13"
@@ -12,7 +12,7 @@ location:
   lng: 14.3031
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V Praze 13 má vzniknout nová základní škola pro 1152 žáků, stát má 1,03 mld. Kč"
     url: "https://www.archiweb.cz/n/domaci/v-praze-13-ma-vzniknout-nova-zakladni-skola-pro-1152-zaku-stat-ma-1-03-mld-kc"

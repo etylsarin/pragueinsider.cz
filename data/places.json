@@ -134,6 +134,13 @@
       "district": "Praha 3 – Žižkov",
       "osm": "Pod Krejcárkem, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
     },
+    "prasny most": {
+      "name": "Prašný most",
+      "lat": 50.09147,
+      "lng": 14.39864,
+      "district": "Praha 1 – Hradčany",
+      "osm": "Prašný most, U Prašného mostu, Hradčany, obvod Praha 1, Praha, 119 00, Česko"
+    },
     "roztocka sedlec": {
       "name": "Roztocká, Sedlec",
       "lat": 50.13159,
@@ -161,6 +168,13 @@
       "lng": 14.56052,
       "district": "Praha 9",
       "osm": "U Hostavického potoka, Jahodnice, Praha 14, obvod Praha 9, Praha, 190 12, Česko"
+    },
+    "u prasneho mostu": {
+      "name": "U Prašného mostu",
+      "lat": 50.09423,
+      "lng": 14.39755,
+      "district": "Praha 6 – Střešovice",
+      "osm": "U Prašného mostu, Střešovice, Praha 6, obvod Praha 6, Praha, 160 41, Česko"
     },
     "vitezne namesti": {
       "name": "Vítězné náměstí",

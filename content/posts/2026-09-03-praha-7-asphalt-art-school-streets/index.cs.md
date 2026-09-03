@@ -3,7 +3,7 @@ slug: praha-7-asphalt-art-school-streets
 lang: cs
 title: "Praha 7 nabarvila tři ulice u holešovických škol, v září přijde na řadu Antonínská"
 dek: "Rajská, Plynární a Jablonského dostaly přes prázdniny barevné malby v rámci programu asfalt art. Návrhy kreslili žáci škol, kolem kterých ulice vedou."
-queuedAt: 2026-09-02
+date: 2026-09-03
 category: public-space
 tags: ["Praha 7", "Holešovice", "taktický urbanismus", "asfalt art", "Jakub Karlík"]
 district: "Praha 7 – Holešovice"

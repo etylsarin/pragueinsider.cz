@@ -3,7 +3,7 @@ slug: zapadni-mesto-school-approved
 lang: cs
 title: "V Západním městě má stát škola pro 1152 žáků za 1,03 miliardy. Investoři přidají 112 milionů"
 dek: "Radní 31. srpna schválili stodůlecký kampus jako novou investiční akci. Projektová dokumentace, pravomocné povolení i dokumentace pro stavbu jsou hotové. Termín zahájení není."
-queuedAt: 2026-09-01
+date: 2026-09-03
 category: development
 tags: ["Západní město", "Stodůlky", "školství", "plánovací smlouva", "Praha 13"]
 district: "Praha 13"
@@ -12,7 +12,7 @@ location:
   lng: 14.3031
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V Praze 13 má vzniknout nová základní škola pro 1152 žáků, stát má 1,03 mld. Kč"
     url: "https://www.archiweb.cz/n/domaci/v-praze-13-ma-vzniknout-nova-zakladni-skola-pro-1152-zaku-stat-ma-1-03-mld-kc"

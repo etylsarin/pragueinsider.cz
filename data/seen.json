@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -57,6 +57,13 @@
       "source": "Pražská integrovaná doprava (PID)",
       "firstSeen": "2026-09-01",
       "usedInPost": "metro-d-station-names-approved"
+    },
+    "25b28ab08e608aea": {
+      "url": "https://www.archiweb.cz/n/domaci/v-praze-bude-v-roce-2032-celosvetovy-kongres-architektu",
+      "title": "V Praze bude v roce 2032 celosvětový kongres architektů",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-03",
+      "usedInPost": "uia-world-congress-prague-2032"
     },
     "29c81c725599e9ff": {
       "url": "https://pid.cz/zmena/obratiste-spojovaci-docasne-preruseni-provozu-tramvaji-42225-3",
@@ -128,6 +135,13 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "lost-paths-study"
     },
+    "50d5221dcd4e5b25": {
+      "url": "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii",
+      "title": "Okružní linka metra by podle odhadu vyšla na 220 mld. Kč, Praha zadá studii",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-03",
+      "usedInPost": "metro-ring-line-e-feasibility-study"
+    },
     "50f1e8e91ba78142": {
       "url": "https://www.expats.cz/czech-news/article/prague-metro-closures-flora-reopening-delayed-as-hradcanska-shuts-for-2027",
       "title": "Prague metro closures: Flora reopening delayed as Hradčanská shuts for 2027",
@@ -161,7 +175,7 @@
       "title": "Místo Olbrachtovy Ryšánka. Pražská rada schválila změny v názvech stanic metra D",
       "source": "ČT24 (ČTK)",
       "firstSeen": "2026-09-01",
-      "usedInPost": "metro-d-station-names-approved"
+      "usedInPost": "metro-d-station-names-approved,metro-ring-line-e-feasibility-study"
     },
     "6af6db1987083926": {
       "url": "https://zdopravy.cz/ohradky-mizi-doprava-se-vraci-stropni-deska-nad-vestibulem-metra-florenc-je-po-letech-oprav-hotova-296926",
@@ -169,6 +183,20 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
+    },
+    "6cafd46b5d6683e2": {
+      "url": "https://iprpraha.cz/metropolitni-plan-ucinny",
+      "title": "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu",
+      "source": "IPR Praha",
+      "firstSeen": "2026-09-03",
+      "usedInPost": "metropolitan-plan-in-force-objections"
+    },
+    "7b82a6e61ae4aeca": {
+      "url": "https://www.archiweb.cz/n/domaci/zacal-platit-novy-prazsky-uzemni-plan-ma-usnadnit-vystavbu",
+      "title": "Začal platit nový pražský územní plán, má usnadnit výstavbu",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-03",
+      "usedInPost": "metropolitan-plan-in-force-objections"
     },
     "7d2ab6ddea8a6043": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci",
@@ -260,6 +288,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-28",
       "usedInPost": "vitezne-namesti-cultural-centre-tender-cancelled"
+    },
+    "c09afd009ec15c96": {
+      "url": "https://www.archiweb.cz/n/domaci/prazsky-hrad-vypise-soutez-na-promenu-stajoveho-dvora-zvazovala-se-uz-za-havla",
+      "title": "Pražský hrad vypíše soutěž na proměnu Stájového dvora, zvažovala se už za Havla",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-03",
+      "usedInPost": "prague-castle-stajovy-dvur-competition"
     },
     "caa1b508532c4979": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",

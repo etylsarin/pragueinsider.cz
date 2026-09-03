@@ -3,7 +3,7 @@ slug: praha-6-kocince-libocka-schools-open
 lang: cs
 title: "Praha 6 otevřela první školní den dvě budovy. Dohromady za 276 milionů"
 dek: "Pavilon v pasivním standardu v ulici Na Kocínce pro 240 žáků a přestavěná školka v Liboci pro 110 dětí. Magistrát na obojí dal 118 milionů, zbytek si sehnala městská část."
-queuedAt: 2026-09-02
+date: 2026-09-03
 category: development
 tags: ["Praha 6", "školství", "AND", "pasivní standard", "MŠ Libocká"]
 district: "Praha 6"

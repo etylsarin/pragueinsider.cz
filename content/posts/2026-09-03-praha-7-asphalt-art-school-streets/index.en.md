@@ -3,7 +3,7 @@ slug: praha-7-asphalt-art-school-streets
 lang: en
 title: "Prague 7 Paints Three Streets Around Its Holešovice Schools, With a Fourth Due in September"
 dek: "Rajská, Plynární and Jablonského were repainted over the summer holidays under the district's asfalt art programme. Antonínská, the link between Strossmayerovo náměstí and Vltavská, is next."
-queuedAt: 2026-09-02
+date: 2026-09-03
 category: public-space
 tags: ["Praha 7", "Holešovice", "taktický urbanismus", "asfalt art", "Jakub Karlík"]
 district: "Praha 7 – Holešovice"
