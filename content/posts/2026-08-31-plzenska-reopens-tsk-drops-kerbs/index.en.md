@@ -8,11 +8,17 @@ category: transport
 tags: ["Plzeňská", "TSK", "PVS", "Pražská plynárenská Distribuce", "roadworks", "Praha 5"]
 district: "Praha 5 – Košíře"
 location:
-  lat: 50.0694
-  lng: 14.3592
+  lat: 50.0709
+  lng: 14.3760
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A cream and red T3 tram numbered 8088 running on the reserved track along Plzeňská, fresh white lane markings and a cycle symbol on the resurfaced carriageway beside it, cars ahead and tenement blocks along the right-hand pavement."
+  caption: "Plzeňská carrying traffic again after works that ran from February — and without the concrete-filled kerbs Prague 5 objected to."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Rekonstrukce Plzeňské končí: obnova provozu začne v pátek večer"
     url: "https://www.praha5.cz/rekonstrukce-plzenske-konci-obnova-provozu-zacne-v-patek-vecer"

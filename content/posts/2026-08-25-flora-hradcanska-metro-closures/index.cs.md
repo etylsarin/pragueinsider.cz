@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Obchodní centrum Flora nad uzavřeným vstupem do metra, přes vestibul purpurové ohrazení s nápisem Metro má pauzu, vedle zaparkovaná bílá dodávka, za ním technika a v popředí zatáčející tramvajové koleje."
+  caption: "Vestibul Flory za ohrazením s nápisem, že metro má pauzu. DPP teď čeká otevření stanice v únoru, o tři měsíce později, než plánoval."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku"

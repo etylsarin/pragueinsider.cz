@@ -13,6 +13,12 @@ location:
   lng: 14.4177
 author: "Prague Insider Desk"
 aiGenerated: true
+cover:
+  photo: cover.jpg
+  alt: "Two of Prager's glass boxes seen from below: cantilevered upper floors carried on concrete piers, curtain walls with panes missing and paper taped inside, corrugated site hoarding along the base and a graffitied retaining wall in front."
+  caption: "The 1973 complex at Vyšehradská 51 being taken apart rather than demolished — item by item, over three years and CZK 1.4bn."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Rekonstrukce Pragerových kostek začíná. Důraz klade na recyklaci a návrat k původní kvalitě"
     url: "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite"

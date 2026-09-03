@@ -13,6 +13,12 @@ location:
   lng: 14.4177
 author: "Prague Insider Desk"
 aiGenerated: true
+cover:
+  photo: cover.jpg
+  alt: "Dvě z Pragerových prosklených krabic při pohledu zdola: vyložená podlaží nesená betonovými pilíři, lehké obvodové pláště s chybějícími tabulemi a zalepenými okny, u paty vlnité stavební ohrazení a před ním pomalovaná opěrná zeď."
+  caption: "Komplex z roku 1973 ve Vyšehradské 51 se nebourá, ale rozebírá — kus po kusu, po tři roky a za 1,4 miliardy korun."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Rekonstrukce Pragerových kostek začíná. Důraz klade na recyklaci a návrat k původní kvalitě"
     url: "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The narrow approach to the K Prádelně bridge: a single-lane asphalt road under willow branches, a green steel railing along the Botič channel with a worker in hi-vis leaning over it, pink survey markings sprayed on the road and a six-tonne weight limit sign on the right."
+  caption: "The lane down to the Botič with the works marked out. TSK is replacing the bridge with a wider single-span frame, and the street is shut until 15 December."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Most v ulici K Prádelně nahradí nová konstrukce"
     url: "https://praha10.cz/most-v-ulici-k-pradelne-nahradi-nova-konstrukce"
