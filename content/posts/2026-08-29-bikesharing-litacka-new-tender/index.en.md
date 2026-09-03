@@ -9,6 +9,12 @@ tags: ["bikesharing", "PID Lítačka", "Rekola", "Nextbike", "procurement"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Three pink Rekola bikesharing bikes with white front crates carrying the operator's cerise roundel, parked on a zebra crossing beside a bollard, with the Forum Karlín sign and a pale green corrugated facade behind."
+  caption: "Rekola bikes in Karlín. The city is re-tendering the contract that pays for their free rides, doubling the daily allowance to four."
+  credit: "Filip Mareš"
+  shot: 2026-09-02
 sources:
   - title: "Až čtyři jízdy zdarma denně. Bikesharing s Lítačkou se v Praze opět rozšíří"
     url: "https://zdopravy.cz/az-ctyri-jizdy-zdarma-denne-bikesharing-s-litackou-se-v-praze-opet-rozsiri-296301"

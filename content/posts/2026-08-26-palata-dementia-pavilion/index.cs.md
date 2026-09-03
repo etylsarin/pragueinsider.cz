@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Hlavní průčelí domova Palata: světle žlutá dvoupodlažní budova s nápisem FRANCISCO-JOSEPHINUM nad girlandovou štukovou výzdobou a pěti klenutými okny, nad vstupem ANNO-1893, na předním dvoře fontánka a lavičky, na jedné z nich sedí žena."
+  caption: "Palata, domov pro zrakově postižené založený na tomto místě v roce 1893. Pavilon, který přidá 73 míst pro lidi s demencí, stojí hned vedle a je už hotový v konstrukci."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Praha otevřela centrum duševního zdraví pro seniory a postaví nový pavilon"
     url: "https://www.archiweb.cz/n/domaci/praha-otevrela-centrum-dusevniho-zdravi-pro-seniory-a-postavi-novy-pavilon"

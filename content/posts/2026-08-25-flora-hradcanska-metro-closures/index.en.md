@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The Flora shopping centre above the closed metro entrance, with purple hoarding across the vestibule reading Metro má pauzu, a white van parked beside it, works equipment behind and tram tracks curving across the foreground."
+  caption: "Flora's vestibule behind hoarding announcing that the metro is on a break. DPP now expects the station back in February, three months later than planned."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku"

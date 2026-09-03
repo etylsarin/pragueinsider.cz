@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The main front of the Palata home: a pale yellow two-storey building inscribed FRANCISCO-JOSEPHINUM above garland stucco and five arched windows, ANNO-1893 over the entrance, with a small fountain and benches in the forecourt and a woman sitting on one."
+  caption: "Palata, the home for the visually impaired founded on this site in 1893. The pavilion that will add 73 dementia beds stands alongside it, already structurally complete."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Praha otevřela centrum duševního zdraví pro seniory a postaví nový pavilon"
     url: "https://www.archiweb.cz/n/domaci/praha-otevrela-centrum-dusevniho-zdravi-pro-seniory-a-postavi-novy-pavilon"

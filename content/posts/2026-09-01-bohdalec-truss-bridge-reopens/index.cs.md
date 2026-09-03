@@ -14,6 +14,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Bíle natřená nýtovaná příhradová konstrukce nadjezdu v Moskevské při pohledu podél vozovky, u vjezdu značka 30 km/h, v popředí oplocená stavba, červený sklápěč a pásový bagr, za tím vršovické výškové domy."
+  caption: "Příhradový most z roku 1913 je po druhé velké opravě znovu v provozu, s novou protikorozní ochranou — a se stavbou hned u příjezdu."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Práce na sourozenci Výtoňského mostu na Bohdalci jsou u konce. Vrací se na něj provoz"
     url: "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653"

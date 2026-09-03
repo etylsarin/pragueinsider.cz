@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Úzký příjezd k mostu v ulici K Prádelně: jednopruhová asfaltová cesta pod větvemi vrby, podél koryta Botiče zelené ocelové zábradlí, přes které se sklání pracovník v reflexní vestě, na vozovce nastříkané růžové vytyčovací značky a vpravo značka omezující hmotnost na šest tun."
+  caption: "Ulička k Botiči s vytyčenými pracemi. TSK most nahrazuje širším jednopolovým rámem, ulice je uzavřená do 15. prosince."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Most v ulici K Prádelně nahradí nová konstrukce"
     url: "https://praha10.cz/most-v-ulici-k-pradelne-nahradi-nova-konstrukce"

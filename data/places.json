@@ -127,6 +127,13 @@
       "district": "Praha 5 – Košíře",
       "osm": "Plzeňská, Košíře, Praha 5, obvod Praha 5, Praha, 150 06, Česko"
     },
+    "plzenska u demartinky": {
+      "name": "Plzeňská, U Demartinky",
+      "lat": 50.0709,
+      "lng": 14.376,
+      "district": "Praha 5 – Košíře",
+      "osm": null
+    },
     "pod krejcarkem": {
       "name": "Pod Krejcárkem",
       "lat": 50.09303,

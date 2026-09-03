@@ -14,6 +14,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The white-painted riveted steel truss of the Moskevská overpass seen end-on down the road, a 30 km/h sign at its mouth, with a fenced construction site, a red tipper truck and a tracked excavator in the foreground and Vršovice's tower blocks behind."
+  caption: "The 1913 truss back in service after its second overhaul, in fresh corrosion protection — with a building site alongside the approach."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Práce na sourozenci Výtoňského mostu na Bohdalci jsou u konce. Vrací se na něj provoz"
     url: "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653"
