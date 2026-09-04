@@ -3,12 +3,12 @@ slug: metropolitan-plan-in-force-objections
 lang: en
 title: "The Metropolitan Plan Is Now Binding — and the Architect Who Drew It Says It Lost the Thing It Was For"
 dek: "Prague's new zoning document replaced the 1999 plan on 1 September. IPR calls the result predictable flexibility. Roman Koucký, Arnika and a deputy mayor each object to a different part of it, and the property lobby's complaint is the opposite one."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: planning
 tags: ["Metropolitan Plan", "zoning", "IPR", "Roman Koucký", "Arnika"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu"
     url: "https://iprpraha.cz/metropolitni-plan-ucinny"

@@ -3,12 +3,12 @@ slug: metropolitan-plan-in-force-objections
 lang: cs
 title: "Metropolitní plán platí. Autor jeho původního návrhu říká, že cestou ztratil to hlavní"
 dek: "Nový územní plán nahradil 1. září dokument z roku 1999. IPR mluví o předvídatelné flexibilitě. Roman Koucký, Arnika i náměstkyně primátora mají výhrady — a každý jinou. Realitní trh si stěžuje na pravý opak."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: planning
 tags: ["Metropolitní plán", "územní plán", "IPR", "Roman Koucký", "Arnika"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu"
     url: "https://iprpraha.cz/metropolitni-plan-ucinny"

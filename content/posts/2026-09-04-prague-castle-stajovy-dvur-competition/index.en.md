@@ -3,7 +3,7 @@ slug: prague-castle-stajovy-dvur-competition
 lang: en
 title: "Prague Castle Will Compete the Stájový Dvůr This Winter, Picking Up an Unfinished 1990s Idea"
 dek: "The Renaissance stables courtyard behind the wall of U Prašného mostu is to become a visitor and information centre. The competition is announced for the winter months or early next year, and the castle skyline is the constraint the entrants will have to answer."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: architecture
 tags: ["Pražský hrad", "Stájový dvůr", "architectural competition", "Zdeněk Lukeš", "Jelení příkop"]
 district: "Praha 1 – Hradčany"

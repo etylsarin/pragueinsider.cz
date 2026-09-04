@@ -3,7 +3,7 @@ slug: metro-ring-line-e-feasibility-study
 lang: en
 title: "The Metro Ring Now Has a Number: CZK 220bn, and a Feasibility Study Due Next Week"
 dek: "Line E would run 22 kilometres from Smíchov to the planned high-speed rail terminal in the north, enlarging the network by 29 percent. Councillors are to commission the study that decides which parts of it are worth building — and which could be a tram instead."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: transport
 tags: ["metro E", "okružní linka", "IPR", "feasibility study", "metro D"]
 author: "Prague Insider Desk"

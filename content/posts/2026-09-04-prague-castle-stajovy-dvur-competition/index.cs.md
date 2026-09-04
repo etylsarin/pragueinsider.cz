@@ -3,7 +3,7 @@ slug: prague-castle-stajovy-dvur-competition
 lang: cs
 title: "Hrad vypíše v zimě soutěž na Stájový dvůr a vrací se k nedotažené úvaze z devadesátých let"
 dek: "Původně renesanční dvůr za zdí ulice U Prašného mostu se má proměnit v návštěvnické a informační centrum. Soutěž je ohlášená na zimní měsíce nebo začátek příštího roku a hradní panorama bude tím, s čím se architekti budou muset vypořádat."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: architecture
 tags: ["Pražský hrad", "Stájový dvůr", "architektonická soutěž", "Zdeněk Lukeš", "Jelení příkop"]
 district: "Praha 1 – Hradčany"

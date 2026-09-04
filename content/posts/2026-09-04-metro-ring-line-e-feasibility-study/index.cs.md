@@ -3,7 +3,7 @@ slug: metro-ring-line-e-feasibility-study
 lang: cs
 title: "Okružní metro má první číslo: 220 miliard. Radní příští týden zadají studii proveditelnosti"
 dek: "Linka E by měla vést 22 kilometrů ze Smíchova k plánovanému severnímu terminálu vysokorychlostní železnice a rozšířit síť o 29 procent. Studie má prověřit, co z toho dává smysl stavět jako metro — a kde by stačila tramvaj."
-queuedAt: 2026-09-03
+date: 2026-09-04
 category: transport
 tags: ["metro E", "okružní linka", "IPR", "studie proveditelnosti", "metro D"]
 author: "Prague Insider Desk"

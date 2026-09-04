@@ -22,6 +22,13 @@
       "district": "Praha 5 – Stodůlky",
       "osm": "Britská čtvrť, Stodůlky, Praha 13, obvod Praha 5, Praha, 155 00, Česko"
     },
+    "ceska zemedelska univerzita": {
+      "name": "Česká zemědělská univerzita",
+      "lat": 50.13018,
+      "lng": 14.37372,
+      "district": "Praha 6",
+      "osm": "Česká zemědělská univerzita v Praze, Sídlištní, Praha-Suchdol, obvod Praha 6, Praha, 165 00, Česko"
+    },
     "domov palata": {
       "name": "Domov Palata",
       "lat": 50.07573,
@@ -105,6 +112,13 @@
       "lng": 14.47087,
       "district": "Praha 3 – Žižkov",
       "osm": null
+    },
+    "namesti republiky": {
+      "name": "Náměstí Republiky",
+      "lat": 50.0888,
+      "lng": 14.43064,
+      "district": "Praha 1 – Nové Město",
+      "osm": "Náměstí Republiky, Na Poříčí, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
     "ohrada": {
       "name": "Ohrada",
@@ -196,6 +210,13 @@
       "lng": 14.43851,
       "district": "Praha 7 – Holešovice",
       "osm": "Vltavská, Bubenská, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
+    },
+    "vrbenskeho": {
+      "name": "Vrbenského",
+      "lat": 50.10968,
+      "lng": 14.44415,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Vrbenského, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -135,6 +135,13 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "lost-paths-study"
     },
+    "50249af0d08af752": {
+      "url": "https://www.archiweb.cz/n/domaci/czu-otevrela-v-suchdole-drevostavbu-lesovna-bude-slouzit-studentum",
+      "title": "ČZÚ otevřela v Suchdole dřevostavbu Lesovna, bude sloužit studentům",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-04",
+      "usedInPost": "czu-lesovna-timber-building"
+    },
     "50d5221dcd4e5b25": {
       "url": "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii",
       "title": "Okružní linka metra by podle odhadu vyšla na 220 mld. Kč, Praha zadá studii",
@@ -184,12 +191,26 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
     },
+    "6b0f882e5e505478": {
+      "url": "https://zdopravy.cz/praha-odmita-navrat-syslografu-na-benesovskou-trat-nelibi-se-ji-ani-plany-na-konec-nejstarsich-elefantu-297671",
+      "title": "Praha odmítá návrat syslografů na benešovskou trať. Nelíbí se jí ani plány na konec nejstarších elefantů",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-04",
+      "usedInPost": "prague-objects-s9-older-trains"
+    },
     "6cafd46b5d6683e2": {
       "url": "https://iprpraha.cz/metropolitni-plan-ucinny",
       "title": "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu",
       "source": "IPR Praha",
       "firstSeen": "2026-09-03",
       "usedInPost": "metropolitan-plan-in-force-objections"
+    },
+    "77656c59f089702a": {
+      "url": "https://www.praha7.cz/dokonceni-spot",
+      "title": "Praha 7 dokončila Spot Holešovice – prostor pro hru, sport a odpočinek",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-09-04",
+      "usedInPost": "spot-holesovice-opens"
     },
     "7b82a6e61ae4aeca": {
       "url": "https://www.archiweb.cz/n/domaci/zacal-platit-novy-prazsky-uzemni-plan-ma-usnadnit-vystavbu",
@@ -261,6 +282,13 @@
       "firstSeen": "2026-08-29",
       "usedInPost": "plzenska-reopens-tsk-drops-kerbs"
     },
+    "9cffabe53f9bd2c8": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-7-otevrela-sportovni-areal-v-holesovicich-nabizi-tzv-dobrodruzne-hriste",
+      "title": "Praha 7 otevřela sportovní areál v Holešovicích, nabízí dobrodružné hřiště",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-04",
+      "usedInPost": "spot-holesovice-opens"
+    },
     "ab7fcbe656f4503f": {
       "url": "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723",
       "title": "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení",
@@ -323,6 +351,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-26",
       "usedInPost": "roztocka-lane-closure-shortened"
+    },
+    "e09d7a03b30b6fc2": {
+      "url": "https://zdopravy.cz/prodlouzeni-linky-metra-d-do-centra-projektanti-vymysli-kudy-prestupovat-a-zda-vznikne-pokracovani-na-zizkov-297532",
+      "title": "Prodloužení linky metra D do centra: Projektanti vymyslí, kudy přestupovat a zda vznikne pokračování na Žižkov",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-04",
+      "usedInPost": "metro-d-centre-extension-study-awarded"
     },
     "e57f34a5ea69db15": {
       "url": "https://www.praha7.cz/tranzit_stross",
