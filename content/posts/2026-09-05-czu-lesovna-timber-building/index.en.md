@@ -3,7 +3,7 @@ slug: czu-lesovna-timber-building
 lang: en
 title: "Lesovna Opens in Suchdol: 405 Cubic Metres of Czech Timber, and a Government Target Attached"
 dek: "The forestry faculty's new CZK 49m research building by Mjölk architekti is 581 square metres of exposed timber structure. It was opened by the prime minister, who used it to restate a target of a quarter of new buildings in timber by 2035."
-queuedAt: 2026-09-04
+date: 2026-09-05
 category: architecture
 tags: ["Lesovna", "Mjölk architekti", "ČZU", "dřevostavby", "Suchdol"]
 district: "Praha-Suchdol"

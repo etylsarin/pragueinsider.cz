@@ -3,7 +3,7 @@ slug: uia-world-congress-prague-2032
 lang: en
 title: "Prague Will Host the 2032 World Congress of Architects, at a Cost of EUR 870,000"
 dek: "Councillors approved the hosting on 2 September. The fee goes to the International Union of Architects in annual instalments to 2032, and brings with it the right to call the city a World Capital of Architecture. Prague beat Dubai, and last held the congress in 1967."
-queuedAt: 2026-09-03
+date: 2026-09-05
 category: architecture
 tags: ["UIA", "world congress", "Obec architektů", "Světové město architektury"]
 author: "Prague Insider Desk"

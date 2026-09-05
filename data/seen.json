@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -135,6 +135,13 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "lost-paths-study"
     },
+    "49e78717eb951b46": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/k-narodnimu-muzeu-v-praze-se-vraceji-tramvaje-377289",
+      "title": "K Národnímu muzeu v Praze se vracejí tramvaje",
+      "source": "ČT24 / ČTK",
+      "firstSeen": "2026-09-05",
+      "usedInPost": "muzeum-tram-track-complete"
+    },
     "50249af0d08af752": {
       "url": "https://www.archiweb.cz/n/domaci/czu-otevrela-v-suchdole-drevostavbu-lesovna-bude-slouzit-studentum",
       "title": "ČZÚ otevřela v Suchdole dřevostavbu Lesovna, bude sloužit studentům",
@@ -205,6 +212,13 @@
       "firstSeen": "2026-09-03",
       "usedInPost": "metropolitan-plan-in-force-objections"
     },
+    "6ea51498d32212e5": {
+      "url": "https://zdopravy.cz/z-prahy-do-mnichova-s-novymi-vagony-dva-dopravci-vybiraji-vyrobce-pro-provoz-od-roku-2031-297178",
+      "title": "Z Prahy do Mnichova s novými vagóny. Dva dopravci vybírají výrobce pro provoz od roku 2031",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-05",
+      "usedInPost": "prague-munich-coaches-tender"
+    },
     "77656c59f089702a": {
       "url": "https://www.praha7.cz/dokonceni-spot",
       "title": "Praha 7 dokončila Spot Holešovice – prostor pro hru, sport a odpočinek",
@@ -240,6 +254,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
     },
+    "91958ec74db552b2": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3438-stavba-tramvajove-trate-muzeum-je-dokoncena-temer-o-pulrok-drive",
+      "title": "Stavba tramvajové tratě Muzeum je dokončena, téměř o půlrok dříve",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-09-05",
+      "usedInPost": "muzeum-tram-track-complete"
+    },
     "920747b3242bb7ee": {
       "url": "https://www.archiweb.cz/n/domaci/praha-vypsala-tendr-na-prestavbu-brandejsova-statku-na-gymnazium-za-miliardu",
       "title": "Praha vypsala tendr na přestavbu Brandejsova statku na gymnázium za miliardu",
@@ -260,6 +281,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-01",
       "usedInPost": "vltava-philharmonic-permit-application"
+    },
+    "95ea58e5548b6fa2": {
+      "url": "https://zdopravy.cz/uleva-pro-pretizenou-pasovku-na-prazskem-letisti-pribudou-nove-prepazky-297798",
+      "title": "Úleva pro přetíženou pasovku na pražském letišti, přibudou nové přepážky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-05",
+      "usedInPost": "airport-terminal-1-border-control-expansion"
     },
     "967b813a2855c612": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/stanice-prazskeho-metra-flora-bude-uzavrena-az-do-konce-unora-376799",

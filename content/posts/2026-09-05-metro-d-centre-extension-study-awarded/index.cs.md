@@ -3,7 +3,7 @@ slug: metro-d-centre-extension-study-awarded
 lang: cs
 title: "Za 12,85 milionu se má vymyslet, jak metro D dojede na obě hlavní nádraží"
 dek: "Studii proveditelnosti úseku Náměstí Míru – Náměstí Republiky zpracuje sdružení Metroprojektu, Sudopu a Mott MacDonald. Prověří i variantu odbočení a pokračování na Žižkov."
-queuedAt: 2026-09-04
+date: 2026-09-05
 category: transport
 tags: ["metro D", "DPP", "Hlavní nádraží", "Masarykovo nádraží", "Spodem", "studie proveditelnosti"]
 district: "Praha 1 – Nové Město"
@@ -12,7 +12,7 @@ location:
   lng: 14.4306
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Prodloužení linky metra D do centra: Projektanti vymyslí, kudy přestupovat a zda vznikne pokračování na Žižkov"
     url: "https://zdopravy.cz/prodlouzeni-linky-metra-d-do-centra-projektanti-vymysli-kudy-prestupovat-a-zda-vznikne-pokracovani-na-zizkov-297532"

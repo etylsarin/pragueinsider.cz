@@ -3,7 +3,7 @@ slug: uia-world-congress-prague-2032
 lang: cs
 title: "Praha bude v roce 2032 hostit světový kongres architektů. Zaplatí za to 870 tisíc eur"
 dek: "Radní pořadatelství schválili 2. září. Poplatek půjde Mezinárodní unii architektů v ročních splátkách do roku 2032 a je s ním spojen titul Světové město architektury. Praha v kandidatuře porazila Dubaj, naposledy kongres hostila v roce 1967."
-queuedAt: 2026-09-03
+date: 2026-09-05
 category: architecture
 tags: ["UIA", "světový kongres", "Obec architektů", "Světové město architektury"]
 author: "Prague Insider Desk"

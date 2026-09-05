@@ -78,6 +78,13 @@
       "district": "Praha 8 – Karlín",
       "osm": "Ke Štvanici, Florenc, Karlín, Praha 8, obvod Praha 8, Praha, 116 47, Česko"
     },
+    "letiste vaclava havla praha": {
+      "name": "Letiště Václava Havla Praha",
+      "lat": 50.10205,
+      "lng": 14.27057,
+      "district": null,
+      "osm": "Letiště Václava Havla Praha, 1019/6, K Letišti, Praha, okres Praha-západ, Středočeský kraj, 161 00, Česko"
+    },
     "malovanka": {
       "name": "Malovanka",
       "lat": 50.0883,
@@ -91,6 +98,13 @@
       "lng": 14.46318,
       "district": "Praha 10 – Vršovice",
       "osm": "Moskevská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 33, Česko"
+    },
+    "muzeum": {
+      "name": "Muzeum",
+      "lat": 50.07948,
+      "lng": 14.43166,
+      "district": "Praha 1 – Nové Město",
+      "osm": "Muzeum, Muzejní oáza, Nové Město, obvod Praha 1, Praha, 121 32, Česko"
     },
     "na kocince": {
       "name": "Na Kocínce",
@@ -182,6 +196,13 @@
       "lng": 14.43411,
       "district": "Praha 7 – Holešovice",
       "osm": "Strossmayerovo náměstí, Holešovice, Praha 7, obvod Praha 7, Praha, Česko"
+    },
+    "terminal 1": {
+      "name": "Terminál 1",
+      "lat": 50.10778,
+      "lng": 14.26733,
+      "district": "Praha 6",
+      "osm": "Terminál 1, Aviatická, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
     },
     "u hostavickeho potoka": {
       "name": "U Hostavického potoka",

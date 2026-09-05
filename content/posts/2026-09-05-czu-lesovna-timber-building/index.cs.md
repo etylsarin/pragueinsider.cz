@@ -3,7 +3,7 @@ slug: czu-lesovna-timber-building
 lang: cs
 title: "V Suchdole otevřeli Lesovnu: 405 kubíků českého dřeva a vládní cíl k tomu"
 dek: "Nová výzkumná budova lesnické fakulty od Mjölk architekti stála přes 49 milionů a má 581 metrů čtverečních přiznané dřevěné konstrukce. Otevírat ji přijel premiér a zopakoval u toho cíl čtvrtiny nových staveb ze dřeva do roku 2035."
-queuedAt: 2026-09-04
+date: 2026-09-05
 category: architecture
 tags: ["Lesovna", "Mjölk architekti", "ČZU", "dřevostavby", "Suchdol"]
 district: "Praha-Suchdol"
