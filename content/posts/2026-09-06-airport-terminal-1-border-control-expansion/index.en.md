@@ -3,7 +3,7 @@ slug: airport-terminal-1-border-control-expansion
 lang: en
 title: "Prague Airport Buys Five More Passport Desks, and Three Shops Come Out to Fit Them"
 dek: "CZK 259.8m of building work in Terminal 1 starts this month and runs to the end of April, at night and under full operation. Counters go from 12 to 17, e-gates from 9 to 13, and Costa Coffee, Food Lovers and Relay are removed from the perimeter wall."
-queuedAt: 2026-09-05
+date: 2026-09-06
 category: transport
 tags: ["Letiště Praha", "Terminál 1", "pasová kontrola", "EES", "BAK", "PULSKLIMA"]
 district: "Praha 6 – Ruzyně"

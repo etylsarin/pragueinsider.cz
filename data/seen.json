@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -14,7 +14,7 @@
       "title": "Trolejbusy Bozankaya už měsíce čekají v garážích. Kvůli překladu dokumentů je Praha stále nepřevzala",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
-      "usedInPost": "bozankaya-trolleybuses-still-unaccepted"
+      "usedInPost": "bozankaya-trolleybuses-still-unaccepted,bozankaya-trolleybuses-accepted"
     },
     "1547a190b5db5869": {
       "url": "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653",
@@ -43,6 +43,13 @@
       "source": "Prague Morning",
       "firstSeen": "2026-08-27",
       "usedInPost": "invalidovna-reconstruction-start"
+    },
+    "1e112848454351bd": {
+      "url": "https://www.expats.cz/czech-news/article/prague-trams-return-to-muzeum-today-with-new-safety-feature-in-place",
+      "title": "Prague trams return to Muzeum six months early, with new safety feature",
+      "source": "Expats.cz",
+      "firstSeen": "2026-09-06",
+      "usedInPost": "muzeum-tram-track-complete"
     },
     "1e4296005a1e3b95": {
       "url": "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy",
@@ -127,6 +134,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-01",
       "usedInPost": "olsanska-habrova-tram-construction-start"
+    },
+    "49045a014eef744d": {
+      "url": "https://zdopravy.cz/ledy-se-hnuly-dpp-prevzal-prvnich-11-trolejbusu-bozankaya-jeden-uz-jezdi-dalsi-si-mohou-lide-prohlednout-298041",
+      "title": "Ledy se hnuly, DPP převzal prvních 11 trolejbusů Bozankaya. Jeden už jezdí, další si mohou lidé prohlédnout",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-06",
+      "usedInPost": "bozankaya-trolleybuses-accepted"
     },
     "497ec52cc3072496": {
       "url": "https://iprpraha.cz/prazske-cesty",
@@ -316,6 +330,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
+    },
+    "a2b7dd9e0f2501b4": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3439-dpp-prevzal-prvnich-jedenact-trolejbusu-bozankaya-sng-12t-do-sveho-majetku",
+      "title": "DPP převzal prvních jedenáct trolejbusů Bozankaya SNG 12T do svého majetku",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-09-06",
+      "usedInPost": "bozankaya-trolleybuses-accepted"
     },
     "ab7fcbe656f4503f": {
       "url": "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723",

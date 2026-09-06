@@ -22,6 +22,10 @@ sources:
     url: "https://ct24.ceskatelevize.cz/clanek/regiony/k-narodnimu-muzeu-v-praze-se-vraceji-tramvaje-377289"
     publisher: "ČT24 / ČTK"
     date: 2026-09-05
+  - title: "Prague trams return to Muzeum six months early, with new safety feature"
+    url: "https://www.expats.cz/czech-news/article/prague-trams-return-to-muzeum-today-with-new-safety-feature-in-place"
+    publisher: "Expats.cz"
+    date: 2026-09-05
 ---
 
 Kolem Národního muzea zase jezdí tramvaje. Dopravní podnik hl. m. Prahy oznámil 4. září dokončení

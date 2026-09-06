@@ -3,12 +3,12 @@ slug: prague-objects-s9-older-trains
 lang: en
 title: "Prague Objects to Older, Unair-Conditioned Trains Returning to the Benešov Line"
 dek: "From December, ETCS-only running on Corridor IV pushes three loco-hauled sets onto line S9 in place of CityElefants. The city's transport councillor calls it unacceptable; ROPID says the swap he wants is not available."
-queuedAt: 2026-09-04
+date: 2026-09-06
 category: transport
 tags: ["S9", "České dráhy", "ROPID", "CityElefant", "ETCS", "Jaromír Beránek"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha odmítá návrat syslografů na benešovskou trať. Nelíbí se jí ani plány na konec nejstarších elefantů"
     url: "https://zdopravy.cz/praha-odmita-navrat-syslografu-na-benesovskou-trat-nelibi-se-ji-ani-plany-na-konec-nejstarsich-elefantu-297671"

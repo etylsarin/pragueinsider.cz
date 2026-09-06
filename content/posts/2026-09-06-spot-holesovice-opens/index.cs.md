@@ -3,7 +3,7 @@ slug: spot-holesovice-opens
 lang: cs
 title: "Ze zanedbaného pruhu u Nádraží Holešovice je Spot Holešovice"
 dek: "Za 6,5 milionu korun vzniklo mezi Plynární a Vrbenského dobrodružné hřiště, sportoviště a odpočinková zóna. Letos už třetí takové místo v Praze 7 — a stavěli ho i zaměstnanci úřadu."
-queuedAt: 2026-09-04
+date: 2026-09-06
 category: public-space
 tags: ["Spot Holešovice", "Praha 7", "dobrodružné hřiště", "U / U Studio", "veřejný prostor"]
 district: "Praha 7 – Holešovice"

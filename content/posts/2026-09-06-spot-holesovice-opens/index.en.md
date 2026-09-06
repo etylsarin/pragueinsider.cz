@@ -3,7 +3,7 @@ slug: spot-holesovice-opens
 lang: en
 title: "A Derelict Strip by Nádraží Holešovice Opens as Spot Holešovice"
 dek: "CZK 6.5m has turned the ground between Plynární and Vrbenského into an adventure playground, a sports yard and a rest area — the third such conversion in Praha 7 this year, and the district's own staff helped build it."
-queuedAt: 2026-09-04
+date: 2026-09-06
 category: public-space
 tags: ["Spot Holešovice", "Praha 7", "adventure playground", "U / U Studio", "veřejný prostor"]
 district: "Praha 7 – Holešovice"

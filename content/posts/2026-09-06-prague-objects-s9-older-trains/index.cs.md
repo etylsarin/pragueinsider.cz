@@ -3,12 +3,12 @@ slug: prague-objects-s9-older-trains
 lang: cs
 title: "Praha se ohradila proti návratu syslografů na benešovskou trať"
 dek: "Od prosince vytlačí výhradní provoz ETCS na IV. koridoru část nejstarších CityElefantů a nahradí je tři staré neklimatizované soupravy. Pro Prahu je to nepřijatelné, ROPID ale říká, že výměna, kterou město chce, není z čeho udělat."
-queuedAt: 2026-09-04
+date: 2026-09-06
 category: transport
 tags: ["S9", "České dráhy", "ROPID", "CityElefant", "ETCS", "Jaromír Beránek"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha odmítá návrat syslografů na benešovskou trať. Nelíbí se jí ani plány na konec nejstarších elefantů"
     url: "https://zdopravy.cz/praha-odmita-navrat-syslografu-na-benesovskou-trat-nelibi-se-ji-ani-plany-na-konec-nejstarsich-elefantu-297671"

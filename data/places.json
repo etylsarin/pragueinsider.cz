@@ -238,6 +238,13 @@
       "lng": 14.44415,
       "district": "Praha 7 – Holešovice",
       "osm": "Vrbenského, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
+    },
+    "waltrovka": {
+      "name": "Waltrovka",
+      "lat": 50.05742,
+      "lng": 14.37434,
+      "district": "Praha 5",
+      "osm": "Waltrovka, Vidoule, Praha 5, obvod Praha 5, Praha, 150 03, Česko"
     }
   }
 }

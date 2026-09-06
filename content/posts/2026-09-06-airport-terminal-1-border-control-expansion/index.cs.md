@@ -3,7 +3,7 @@ slug: airport-terminal-1-border-control-expansion
 lang: cs
 title: "Letiště rozšíří pasovku v Terminálu 1. Zaplatí za to i třemi obchody"
 dek: "Stavba za 259,8 milionu bez DPH začíná v první polovině září a potrvá do konce dubna, za plného provozu a hlavně v noci. Přepážek bude sedmnáct místo dvanácti, samoobslužných bran třináct místo devíti."
-queuedAt: 2026-09-05
+date: 2026-09-06
 category: transport
 tags: ["Letiště Praha", "Terminál 1", "pasová kontrola", "EES", "BAK", "PULSKLIMA"]
 district: "Praha 6 – Ruzyně"
