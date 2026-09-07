@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Palác Žofín na Slovanském ostrově od nároží: dvoupodlažní žluto-bílá novorenesanční budova s půlkruhově zakončenými okny, na tympanonu nápis ŽOFÍN nad sloupovým portikem, před ním zdobený litinový kandelábr a po stranách stromy."
+  caption: "Žofín na Slovanském ostrově. Praha 1 palác přidělila novému provozovateli v září 2024, původní nájemce v něm ale stále je."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Palác Žofín: jak se vyvíjí spor o předání novému nájemci"
     url: "https://www.praha1.cz/palac-zofin-jak-se-vyviji-spor-o-predani-novemu-najemci"

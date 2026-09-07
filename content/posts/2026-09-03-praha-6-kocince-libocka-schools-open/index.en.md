@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A new white school pavilion seen from below its corner: three storeys of dark-framed windows in a plain rendered facade, ŠKOLA in dark letters under the entrance canopy, children and adults visible through the glazed ground floor, and a wire trellis on the blank gable."
+  caption: "The new pavilion on Na Kocínce in its first week of use — a detached site of ZŠ Bílá, built to passive standard for 240 pupils."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Dětem v Praze 6 se dnes otevřela nová ZŠ Na Kocínce a MŠ Libocká"
     url: "https://www.archiweb.cz/n/domaci/detem-v-praze-6-se-dnes-otevrela-nova-zs-na-kocince-a-ms-libocka"

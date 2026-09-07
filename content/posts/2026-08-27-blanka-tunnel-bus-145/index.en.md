@@ -6,13 +6,19 @@ dek: "The first PID service to use the Blanka tunnel complex started on 15 Augus
 date: 2026-08-27
 category: transport
 tags: ["Blanka", "line 145", "PID", "ROPID", "buses", "Kobylisy", "Dejvická"]
-district: "Praha 6 – Střešovice"
+district: "Praha 1 – Hradčany"
 location:
-  lat: 50.0883
-  lng: 14.3795
+  lat: 50.0955
+  lng: 14.3979
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A red and white PID bus passing a tunnel portal: a steel gantry over the carriageway carrying black-and-yellow chevrons and a 4.6-metre height limit sign, a raised barrier beside it, and trees and a pale institutional building behind."
+  caption: "A PID bus at a Blanka portal. Since 15 August line 145 has run through the tunnel complex, every six minutes at the morning peak."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110"
     url: "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110"
