@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Nová mostovka mostu Pod Krejcárkem: čerstvý černý asfalt s bílým vodorovným značením a symbolem kola, po okraji pozinkované svodidlo a nové černé zábradlí, nový osvětlovací stožár a na chodníku muž s geodetickým přístrojem."
+  caption: "Most spojující Ohradu s Palmovkou je po pracích, které běžely od dubna, znovu v provozu a odkloněné autobusové linky se vrátily na své trasy."
+  credit: "Filip Mareš"
+  shot: 2026-09-07
 sources:
   - title: "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení"
     url: "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723"

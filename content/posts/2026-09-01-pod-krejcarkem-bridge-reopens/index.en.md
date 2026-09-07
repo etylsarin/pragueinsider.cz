@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The rebuilt deck of the Pod Krejcárkem bridge: fresh black asphalt with new white lane markings and a cycle symbol, a galvanised crash barrier and new black railing along the edge, a new lighting column, and a man with a surveying instrument standing on the footway."
+  caption: "The bridge linking Ohrada with Palmovka back in use after works that ran from April, with the diverted bus lines returned to their normal routes."
+  credit: "Filip Mareš"
+  shot: 2026-09-07
 sources:
   - title: "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení"
     url: "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723"
