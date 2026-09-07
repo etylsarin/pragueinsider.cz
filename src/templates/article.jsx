@@ -24,6 +24,10 @@ const ArticleTemplate = ({ data, pageContext }) => {
   // Not ours, and not a photograph: a third-party rendering of something unbuilt. See
   // content/pages/editorial-standards.
   const isVisualisation = fm.cover?.kind === 'visualisation'
+  // A diagram is ours, but it is still a drawing rather than a photograph, so it gets the same
+  // label on the image — a reader should never have to work out which of the two they are seeing.
+  const isDrawn = isVisualisation || fm.cover?.kind === 'diagram'
+  const drawnLabel = isVisualisation ? 'article.visualisation' : 'article.diagram'
 
   return (
     <Layout locale={locale} translationPath={translationPath}>
@@ -81,9 +85,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
             <figure className="w-full">
               <div className="border border-tertiary/80 relative">
                 <Cover post={coverPost} label={label} locale={locale} format="hero" />
-                {isVisualisation ? (
+                {isDrawn ? (
                   <span className="absolute top-0 left-0 bg-primary text-on-primary px-2 py-1 text-label-caps font-label-caps">
-                    {t(locale, 'article.visualisation')}
+                    {t(locale, drawnLabel)}
                   </span>
                 ) : null}
               </div>
@@ -91,14 +95,12 @@ const ArticleTemplate = ({ data, pageContext }) => {
                 {fm.cover.caption ? <span className="text-primary">{fm.cover.caption} </span> : null}
                 {[
                   fm.district,
-                  `${t(locale, isVisualisation ? 'article.visualisation' : 'article.photoCredit')}: ${
-                    fm.cover.credit
-                  }`,
+                  `${t(locale, isDrawn ? drawnLabel : 'article.photoCredit')}: ${fm.cover.credit}`,
                   formatDate(fm.cover.shot, locale),
                 ]
                   .filter(Boolean)
                   .join(' · ')}
-                {isVisualisation ? (
+                {isDrawn ? (
                   <>
                     {' · '}
                     <a

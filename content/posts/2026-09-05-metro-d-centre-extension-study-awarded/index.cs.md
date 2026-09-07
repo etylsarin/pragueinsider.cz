@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Mapa centra Prahy s navrhovaným prodloužením metra D vyneseným modrou přerušovanou čarou od Náměstí Míru na sever přes Prahu hlavní nádraží k Náměstí Republiky, každá stanice je čtverec s písmenem přestupní linky, jižním směrem vede přerušovaná šipka k Pankráci a Depu Písnice a východním tečkovaná šipka k Žižkovu."
+  caption: "Oněch 2,2 kilometru, které má sdružení vyřešit. Dvě ze tří nových stanic jsou přestupy na linky, které už jezdí, a obě jsou zároveň nádražími."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.dpp.cz/metro-d/popis-projektu/rozvoj-trasy-d"
 sources:
   - title: "Prodloužení linky metra D do centra: Projektanti vymyslí, kudy přestupovat a zda vznikne pokračování na Žižkov"
     url: "https://zdopravy.cz/prodlouzeni-linky-metra-d-do-centra-projektanti-vymysli-kudy-prestupovat-a-zda-vznikne-pokracovani-na-zizkov-297532"

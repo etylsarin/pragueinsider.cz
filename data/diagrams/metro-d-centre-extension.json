@@ -1,0 +1,38 @@
+{
+  "accent": "#0079c1",
+  "points": [
+    {
+      "name": "Náměstí Míru",
+      "label": "Náměstí Míru",
+      "interchange": "A",
+      "side": "right"
+    },
+    {
+      "name": "Praha hlavní nádraží",
+      "label": "Praha hlavní nádraží",
+      "interchange": "C",
+      "side": "right"
+    },
+    {
+      "name": "Náměstí Republiky",
+      "label": "Náměstí Republiky",
+      "interchange": "B",
+      "side": "right"
+    }
+  ],
+  "arrows": [
+    {
+      "from": "Náměstí Míru",
+      "bearing": 168,
+      "reach": 150,
+      "dash": "34 17",
+      "label": "Pankrác / Depo Písnice"
+    },
+    {
+      "from": "Náměstí Míru",
+      "bearing": 62,
+      "reach": 150,
+      "label": "Žižkov"
+    }
+  ]
+}

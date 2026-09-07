@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A map of central Prague with the proposed metro D extension drawn as a dashed blue line from Náměstí Míru north through Praha hlavní nádraží to Náměstí Republiky, each station a square with its interchange line letter, a dashed arrow south towards Pankrác and Depo Písnice and a dotted arrow east towards Žižkov."
+  caption: "The 2.2 km the consortium has been paid to work out. Two of the three new stations are interchanges with lines already running, and both are railway stations too."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.dpp.cz/metro-d/popis-projektu/rozvoj-trasy-d"
 sources:
   - title: "Prodloužení linky metra D do centra: Projektanti vymyslí, kudy přestupovat a zda vznikne pokračování na Žižkov"
     url: "https://zdopravy.cz/prodlouzeni-linky-metra-d-do-centra-projektanti-vymysli-kudy-prestupovat-a-zda-vznikne-pokracovani-na-zizkov-297532"

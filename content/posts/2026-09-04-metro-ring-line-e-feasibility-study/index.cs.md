@@ -9,6 +9,13 @@ tags: ["metro E", "okružní linka", "IPR", "studie proveditelnosti", "metro D"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Mapa Prahy s navrhovaným koridorem okružního metra vyneseným fialovou přerušovanou čarou od Smíchovského nádraží přes Pankrác, Bohdalec, Žižkov a Vysočany do Letňan, každá stanice je vyznačena čtvercem a přestupy písmenem linky, dál na sever pokračuje tečkovaná šipka k Terminálu Sever."
+  caption: "Koridor tak, jak ho popisuje město: 22 kilometrů ze Smíchova k plánovanému terminálu vysokorychlostní trati, odhadem za 220 miliard korun. Kde stanice doopravdy budou, rozhodne studie proveditelnosti."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii"
 sources:
   - title: "Okružní linka metra by podle odhadu vyšla na 220 mld. Kč, Praha zadá studii"
     url: "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii"

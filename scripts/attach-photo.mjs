@@ -506,21 +506,21 @@ async function attach(articles) {
   const caption = { en: arg('caption-en', ''), cs: arg('caption-cs', '') }
   const kind = arg('kind', 'photo')
   const source = arg('source')
-  const credit = arg('credit', kind === 'visualisation' ? null : DEFAULT_CREDIT)
+  const credit = arg('credit', kind === 'photo' ? DEFAULT_CREDIT : null)
   const name = arg('name', 'cover.jpg')
   // A visualisation has no shot date — nobody stood anywhere. The gate rejects one that claims a
   // date, so do not quietly inherit the sidecar's.
-  const shot = kind === 'visualisation' ? null : arg('shot', item.shot)
+  const shot = kind === 'photo' ? arg('shot', item.shot) : null
   const aspect = arg('aspect')
   const gravity = arg('gravity', 'centre')
   const dryRun = flag('dry-run')
 
-  if (!['photo', 'visualisation'].includes(kind)) {
-    console.error(`--kind must be photo or visualisation, not "${kind}"`)
+  if (!['photo', 'visualisation', 'diagram'].includes(kind)) {
+    console.error(`--kind must be photo, visualisation or diagram, not "${kind}"`)
     process.exitCode = 1
     return
   }
-  if (kind === 'visualisation' && (!credit || !source)) {
+  if ((kind === 'visualisation' || kind === 'diagram') && (!credit || !source)) {
     console.error(
       '--kind visualisation needs --credit (who drew it) and --source (the page it was published\n' +
         'on). Those are the licence conditions on a press visualisation, not decoration.'
