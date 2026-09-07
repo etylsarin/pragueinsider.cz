@@ -15,8 +15,8 @@ aiGenerated: true
 featured: false
 cover:
   photo: cover.jpg
-  alt: "The rebuilt deck of the Pod Krejcárkem bridge: fresh black asphalt with new white lane markings and a cycle symbol, a galvanised crash barrier and new black railing along the edge, a new lighting column, and a man with a surveying instrument standing on the footway."
-  caption: "The bridge linking Ohrada with Palmovka back in use after works that ran from April, with the diverted bus lines returned to their normal routes."
+  alt: "The Pod Krejcárkem bridge seen from above its southern end: a curving concrete deck carrying fresh asphalt and new lane markings, a galvanised crash barrier and dark screening along both parapets, railway tracks running through the cutting beneath it, and Prague's northern districts spread out to the horizon."
+  caption: "The bridge over the railway between Ohrada and Palmovka, reopened after works that ran from April. The diverted bus lines are back on their normal routes."
   credit: "Filip Mareš"
   shot: 2026-09-07
 sources:
