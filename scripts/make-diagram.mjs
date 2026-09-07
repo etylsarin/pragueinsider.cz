@@ -25,6 +25,7 @@
  *   {
  *     "accent": "#0079c1",
  *     "points":   [{ "name": "Smíchovské nádraží", "label": "Smíchov", "interchange": "B" }, …],
+ *     "polyline": [[50.08, 14.61], …],   the real alignment, if there is one to trace
  *     "arrows":   [{ "from": "Letňany", "bearing": 20, "label": "Terminál Sever (VRT)" }],
  *
  * An arrow's `dash` says what it means: the route's own dash pattern for a section that continues,
@@ -35,6 +36,11 @@
  *
  * `name` is looked up in the gazetteer, so a diagram cannot be drawn through a place the desk has
  * not resolved. `lat`/`lng` may be given directly instead.
+ *
+ * Without a `polyline` the route is the points joined in order, which is right for a corridor that
+ * is still a proposal — there is no surveyed line to trace, and the drawing says so. Where the
+ * alignment does exist, joining villages with straight segments would invent a route for a road
+ * that is already staked out, so pass the real geometry and the points become labels beside it.
  */
 
 import fs from 'node:fs/promises'
@@ -76,11 +82,16 @@ const reachOf = (arrow) => arrow.reach || ARROW_REACH
  * fits on its own can still throw its northern arrow through the title band. Laying out the points
  * and then discovering that is how the first cut of this looked wrong.
  */
-function layout(points, arrows) {
+function layout(points, arrows, polyline = []) {
   for (let zoom = MAX_NATIVE_ZOOM; zoom >= 8; zoom -= 1) {
     const at = points.map((p) => ({ ...p, ...project(p.lat, p.lng, zoom) }))
     const xs = at.map((p) => p.x)
     const ys = at.map((p) => p.y)
+    for (const [lat, lng] of polyline) {
+      const q = project(lat, lng, zoom)
+      xs.push(q.x)
+      ys.push(q.y)
+    }
 
     for (const arrow of arrows) {
       const anchor = at.find((p) => (p.label || p.name) === arrow.from)
@@ -150,9 +161,10 @@ const labelSide = (points, i) => {
   return next.y - prev.y >= 0 ? 'left' : 'right'
 }
 
-function overlay(spec, points, arrows, scale) {
+function overlay(spec, points, arrows, scale, route) {
   const accent = spec.accent || '#0079c1'
-  const path = points.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ')
+  const line = route.length ? route : points
+  const path = line.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ')
 
   const stations = points
     .map((p, i) => {
@@ -169,7 +181,7 @@ function overlay(spec, points, arrows, scale) {
       const nameX = side === 'left' ? p.x + dx : p.x + dx + (p.interchange ? 34 + chipGap : 0)
       return `
     <g>
-      <rect x="${(p.x - 11).toFixed(1)}" y="${(p.y - 11).toFixed(1)}" width="22" height="22" fill="${GROUND}" stroke="${accent}" stroke-width="5"/>
+      <rect x="${(p.x - 11).toFixed(1)}" y="${(p.y - 11).toFixed(1)}" width="22" height="22" fill="${p.filled ? accent : GROUND}" stroke="${accent}" stroke-width="5"/>
       ${p.interchange ? `<rect x="${(p.x - 5).toFixed(1)}" y="${(p.y - 5).toFixed(1)}" width="10" height="10" fill="${colour}"/>` : ''}
       ${
         p.interchange
@@ -240,11 +252,16 @@ async function main() {
 
   const resolved = spec.points.map(resolve)
   const specArrows = spec.arrows || []
-  const { zoom, originX, originY } = layout(resolved, specArrows)
+  const polyline = spec.polyline || []
+  const { zoom, originX, originY } = layout(resolved, specArrows, polyline)
 
   const points = resolved.map((p) => {
     const at = project(p.lat, p.lng, zoom)
     return { ...p, x: at.x - originX, y: at.y - originY }
+  })
+  const route = polyline.map(([lat, lng]) => {
+    const at = project(lat, lng, zoom)
+    return { x: at.x - originX, y: at.y - originY }
   })
   const arrows = specArrows.map((a) => {
     const anchor = points.find((p) => (p.label || p.name) === a.from)
@@ -261,11 +278,13 @@ async function main() {
 
   const base = await basemap(zoom, originX, originY)
   await sharp(base)
-    .composite([{ input: overlay(spec, points, arrows, scale) }])
+    .composite([{ input: overlay(spec, points, arrows, scale, route) }])
     .jpeg({ quality: 86, mozjpeg: true })
     .toFile(outPath)
 
-  console.log(`${outPath} — zoom ${zoom}, ${points.length} points, scale ${scale.label}`)
+  console.log(
+    `${outPath} — zoom ${zoom}, ${points.length} labels, ${route.length ? `${route.length}-point alignment` : 'points joined'}, scale ${scale.label}`
+  )
 }
 
 main().catch((error) => {

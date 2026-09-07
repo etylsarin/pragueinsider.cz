@@ -20,6 +20,7 @@
  *   node scripts/geocode.mjs --no-save "Botič"           look up without recording
  *   node scripts/geocode.mjs --set 50.0651,14.4646 "Bohdalecký most"
  *                                                        record a point Nominatim cannot name
+ *   node scripts/geocode.mjs --wide "Modletice"          search the whole country, not just Prague
  *
  * Nominatim is a free service run on donated hardware. It is queried at most once a second,
  * with the bot's own user agent, and only for names the gazetteer does not already hold.
@@ -35,6 +36,15 @@ const PLACES_PATH = path.join(ROOT, 'data', 'places.json')
 
 /** The same box the validator rejects pins outside of. Nominatim is asked not to leave it. */
 const PRAGUE_BOUNDS = { west: 14.15, east: 14.8, south: 49.9, north: 50.22 }
+
+/**
+ * Prague's stories do not always stop at Prague's boundary. The D0 ring reaches the D1 at
+ * Modletice, the Praha–Liberec line is mostly not in Prague at all, and Roztoky sits across the
+ * city limit from Suchdol. `--wide` drops the box and searches the country, which is right for a
+ * diagram point and wrong for an article's `location` — the gate still refuses a pin outside
+ * Prague, and should, because the map is a map of Prague.
+ */
+const CZ_BOUNDS = { west: 12.09, east: 18.86, south: 48.55, north: 51.06 }
 
 const NOMINATIM = 'https://nominatim.openstreetmap.org/search'
 const RATE_LIMIT_MS = 1100
@@ -72,11 +82,8 @@ async function savePlaces(gazetteer) {
   await fs.writeFile(PLACES_PATH, `${JSON.stringify({ version: 1, places: sorted }, null, 2)}\n`)
 }
 
-const inPrague = (lat, lng) =>
-  lat >= PRAGUE_BOUNDS.south &&
-  lat <= PRAGUE_BOUNDS.north &&
-  lng >= PRAGUE_BOUNDS.west &&
-  lng <= PRAGUE_BOUNDS.east
+const within = (bounds, lat, lng) =>
+  lat >= bounds.south && lat <= bounds.north && lng >= bounds.west && lng <= bounds.east
 
 /** Five decimals is ~1 m. More than that is precision the source does not have. */
 const round = (value) => Math.round(value * 1e5) / 1e5
@@ -116,22 +123,20 @@ function suggestDistrict(address = {}) {
 
 let lastQueryAt = 0
 
-async function queryNominatim(name) {
+async function queryNominatim(name, bounds = PRAGUE_BOUNDS) {
   const wait = RATE_LIMIT_MS - (Date.now() - lastQueryAt)
   if (wait > 0) await sleep(wait)
   lastQueryAt = Date.now()
 
   const url = new URL(NOMINATIM)
-  url.searchParams.set('q', /praha|prague/i.test(name) ? name : `${name}, Praha`)
+  const inPragueBox = bounds === PRAGUE_BOUNDS
+  url.searchParams.set('q', !inPragueBox || /praha|prague/i.test(name) ? name : `${name}, Praha`)
   url.searchParams.set('format', 'jsonv2')
   url.searchParams.set('addressdetails', '1')
   url.searchParams.set('countrycodes', 'cz')
   url.searchParams.set('limit', '6')
   url.searchParams.set('bounded', '1')
-  url.searchParams.set(
-    'viewbox',
-    `${PRAGUE_BOUNDS.west},${PRAGUE_BOUNDS.north},${PRAGUE_BOUNDS.east},${PRAGUE_BOUNDS.south}`
-  )
+  url.searchParams.set('viewbox', `${bounds.west},${bounds.north},${bounds.east},${bounds.south}`)
 
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), 20000)
@@ -151,7 +156,7 @@ async function queryNominatim(name) {
         district: suggestDistrict(result.address),
         loose: looseMatch(name, result.name),
       }))
-      .filter((candidate) => inPrague(candidate.lat, candidate.lng))
+      .filter((candidate) => within(bounds, candidate.lat, candidate.lng))
   } finally {
     clearTimeout(timer)
   }
@@ -163,14 +168,14 @@ async function queryNominatim(name) {
  * caller can see that it picked the square rather than the tram stop of the same name.
  */
 export async function geocode(name, options = {}) {
-  const { pick = 1, save = true, gazetteer } = options
+  const { pick = 1, save = true, gazetteer, wide = false } = options
   const places = gazetteer || (await loadPlaces())
   const key = foldKey(name)
 
   const known = places.places[key]
   if (known && pick === 1) return { name, key, hit: known, candidates: [], cached: true }
 
-  const candidates = await queryNominatim(name)
+  const candidates = await queryNominatim(name, wide ? CZ_BOUNDS : PRAGUE_BOUNDS)
   const chosen = candidates[pick - 1]
   if (!chosen) return { name, key, hit: null, candidates, cached: false }
 
@@ -197,6 +202,7 @@ const yaml = (entry) =>
 async function main() {
   const args = process.argv.slice(2)
   const save = !args.includes('--no-save')
+  const wide = args.includes('--wide')
 
   const names = []
   let pick = 1
@@ -227,8 +233,8 @@ async function main() {
   // once, from a source that was actually checked, rather than looked up wrong every time.
   if (set) {
     const [lat, lng] = set.split(',').map((part) => Number(part.trim()))
-    if (!Number.isFinite(lat) || !Number.isFinite(lng) || !inPrague(lat, lng)) {
-      console.error(`--set ${set} is not a coordinate pair inside Prague`)
+    if (!Number.isFinite(lat) || !Number.isFinite(lng) || !within(wide ? CZ_BOUNDS : PRAGUE_BOUNDS, lat, lng)) {
+      console.error(`--set ${set} is not a coordinate pair inside ${wide ? 'the country' : 'Prague'}`)
       process.exitCode = 1
       return
     }
@@ -264,9 +270,9 @@ async function main() {
   let resolved = 0
 
   for (const name of names) {
-    const result = await geocode(name, { pick, save, gazetteer })
+    const result = await geocode(name, { pick, save, gazetteer, wide })
     if (!result.hit) {
-      console.log(`\n✗ ${name} — no match inside Prague`)
+      console.log(`\n✗ ${name} — no match inside ${wide ? 'the country' : 'Prague'} (try --wide?)`)
       continue
     }
     resolved += result.recorded === false ? 0 : 1
