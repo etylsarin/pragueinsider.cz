@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Žofín Palace on Slovanský ostrov seen from its corner: a two-storey yellow and white neo-Renaissance building with round-arched windows, ŽOFÍN lettered on the pediment above a columned porch, an ornate cast-iron lamp standard in front and trees on both sides."
+  caption: "Žofín on Slovanský ostrov. Prague 1 awarded the palace to a new operator in September 2024; the old tenant is still in it."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Palác Žofín: jak se vyvíjí spor o předání novému nájemci"
     url: "https://www.praha1.cz/palac-zofin-jak-se-vyviji-spor-o-predani-novemu-najemci"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Nový bílý školní pavilon při pohledu od nároží: tři podlaží s tmavými rámy oken v hladké omítané fasádě, pod vstupní stříškou tmavý nápis ŠKOLA, prosklené přízemí, za nímž jsou vidět děti a dospělí, a na slepém štítu lanový rošt pro popínavou zeleň."
+  caption: "Nový pavilon Na Kocínce v prvním týdnu provozu — odloučené pracoviště ZŠ Bílá postavené v pasivním standardu pro 240 žáků."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Dětem v Praze 6 se dnes otevřela nová ZŠ Na Kocínce a MŠ Libocká"
     url: "https://www.archiweb.cz/n/domaci/detem-v-praze-6-se-dnes-otevrela-nova-zs-na-kocince-a-ms-libocka"

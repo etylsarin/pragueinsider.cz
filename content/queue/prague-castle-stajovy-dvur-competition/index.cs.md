@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Stájový dvůr na Pražském hradě: dlážděné nádvoří pod velkou lípou, nízké žluté křídlo s půlkruhově zakončenými okny a šikmo bedněnými vraty pod červenou pálenou střechou s vikýři a vlevo stěna s renesančním psaníčkovým sgrafitem."
+  caption: "Renesanční stájový dvůr za zdí U Prašného mostu, na který Pražský hrad v zimě vypíše soutěž — má z něj vzniknout návštěvnické a informační centrum."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Pražský hrad vypíše soutěž na proměnu Stájového dvora, zvažovala se už za Havla"
     url: "https://www.archiweb.cz/n/domaci/prazsky-hrad-vypise-soutez-na-promenu-stajoveho-dvora-zvazovala-se-uz-za-havla"

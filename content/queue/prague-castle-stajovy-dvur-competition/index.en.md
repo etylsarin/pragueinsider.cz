@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The stable court at Prague Castle: a cobbled yard under a large lime tree, a low yellow range with round-arched windows and diagonally boarded doors beneath a red pantiled roof with dormers, and a wall of Renaissance sgraffito diamond rustication at the left."
+  caption: "The Renaissance stable court behind the wall of U Prašného mostu, which Prague Castle will put to competition this winter as a visitor and information centre."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Pražský hrad vypíše soutěž na proměnu Stájového dvora, zvažovala se už za Havla"
     url: "https://www.archiweb.cz/n/domaci/prazsky-hrad-vypise-soutez-na-promenu-stajoveho-dvora-zvazovala-se-uz-za-havla"

@@ -6,13 +6,19 @@ dek: "První autobusová linka PID vedená Blankou vyjela 15. srpna, ve špičce
 date: 2026-08-27
 category: transport
 tags: ["Blanka", "linka 145", "PID", "ROPID", "autobusy", "Kobylisy", "Dejvická"]
-district: "Praha 6 – Střešovice"
+district: "Praha 1 – Hradčany"
 location:
-  lat: 50.0883
-  lng: 14.3795
+  lat: 50.0955
+  lng: 14.3979
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Červenobílý autobus PID projíždí kolem tunelového portálu: nad vozovkou ocelový portál s černožlutými šipkami a značkou omezující výšku na 4,6 metru, vedle zvednutá závora, za tím stromy a světlá historická budova."
+  caption: "Autobus PID u portálu Blanky. Od 15. srpna vede tunelovým komplexem linka 145, v ranní špičce každých šest minut."
+  credit: "Filip Mareš"
+  shot: 2026-09-04
 sources:
   - title: "Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110"
     url: "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110"
