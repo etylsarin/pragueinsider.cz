@@ -15,8 +15,8 @@ aiGenerated: true
 featured: false
 cover:
   photo: cover.jpg
-  alt: "Nová mostovka mostu Pod Krejcárkem: čerstvý černý asfalt s bílým vodorovným značením a symbolem kola, po okraji pozinkované svodidlo a nové černé zábradlí, nový osvětlovací stožár a na chodníku muž s geodetickým přístrojem."
-  caption: "Most spojující Ohradu s Palmovkou je po pracích, které běžely od dubna, znovu v provozu a odkloněné autobusové linky se vrátily na své trasy."
+  alt: "Most Pod Krejcárkem shora od jižního konce: zaoblená betonová mostovka s čerstvým asfaltem a novým vodorovným značením, po obou stranách pozinkované svodidlo a tmavé clony, pod mostem v zářezu železniční trať a za ní až k obzoru severní části Prahy."
+  caption: "Most přes železniční trať mezi Ohradou a Palmovkou je po pracích, které běžely od dubna, znovu otevřený. Odkloněné autobusové linky se vrátily na své trasy."
   credit: "Filip Mareš"
   shot: 2026-09-07
 sources:
