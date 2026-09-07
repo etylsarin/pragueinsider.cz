@@ -28,6 +28,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
   // label on the image — a reader should never have to work out which of the two they are seeing.
   const isDrawn = isVisualisation || fm.cover?.kind === 'diagram'
   const drawnLabel = isVisualisation ? 'article.visualisation' : 'article.diagram'
+  // A handout is a photograph, so it gets no badge — there is nothing to mistake it for. What it
+  // does get is the credit and the link out, because it is not ours.
+  const hasSource = isDrawn || fm.cover?.kind === 'handout'
 
   return (
     <Layout locale={locale} translationPath={translationPath}>
@@ -100,7 +103,7 @@ const ArticleTemplate = ({ data, pageContext }) => {
                 ]
                   .filter(Boolean)
                   .join(' · ')}
-                {isDrawn ? (
+                {hasSource ? (
                   <>
                     {' · '}
                     <a

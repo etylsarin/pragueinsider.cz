@@ -9,6 +9,13 @@ tags: ["Metropolitní plán", "územní plán", "IPR", "Roman Koucký", "Arnika"
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Metropolitní plán jako tištěný dokument: bílé pouzdro s nápisem Metropolitní plán s patnácti svazky stojí na bílém stole vedle rozložených velkých mapových listů a legend s barevnými výkresy plánu."
+  caption: "Dokument, který 1. září nahradil plán z roku 1999, v podobě, v jaké ho vydal IPR: patnáct svazků a výkresy, které k nim patří."
+  credit: "IPR Praha"
+  kind: handout
+  source: "https://iprpraha.cz/stranka/4432/metropolitni-plan-bude-zverejnen-letos-v-rijnu-na-podzim-se-uskutecni-verejna-projednani-a-schvalovat-se-bude-za-rok"
 sources:
   - title: "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu"
     url: "https://iprpraha.cz/metropolitni-plan-ucinny"

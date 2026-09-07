@@ -515,12 +515,12 @@ async function attach(articles) {
   const gravity = arg('gravity', 'centre')
   const dryRun = flag('dry-run')
 
-  if (!['photo', 'visualisation', 'diagram'].includes(kind)) {
-    console.error(`--kind must be photo, visualisation or diagram, not "${kind}"`)
+  if (!['photo', 'visualisation', 'diagram', 'handout'].includes(kind)) {
+    console.error(`--kind must be photo, visualisation, diagram or handout, not "${kind}"`)
     process.exitCode = 1
     return
   }
-  if ((kind === 'visualisation' || kind === 'diagram') && (!credit || !source)) {
+  if (kind !== 'photo' && (!credit || !source)) {
     console.error(
       '--kind visualisation needs --credit (who drew it) and --source (the page it was published\n' +
         'on). Those are the licence conditions on a press visualisation, not decoration.'

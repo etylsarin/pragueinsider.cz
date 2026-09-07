@@ -9,6 +9,13 @@ tags: ["Metropolitan Plan", "zoning", "IPR", "Roman Koucký", "Arnika"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The Metropolitan Plan as a printed document: a white slipcase lettered Metropolitní plán holding fifteen bound volumes, standing on a white table beside large folded map sheets and legend pages showing the plan's coloured zoning drawings."
+  caption: "The document that replaced the 1999 plan on 1 September, in the form IPR issued it: fifteen volumes and the drawings that go with them."
+  credit: "IPR Praha"
+  kind: handout
+  source: "https://iprpraha.cz/stranka/4432/metropolitni-plan-bude-zverejnen-letos-v-rijnu-na-podzim-se-uskutecni-verejna-projednani-a-schvalovat-se-bude-za-rok"
 sources:
   - title: "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu"
     url: "https://iprpraha.cz/metropolitni-plan-ucinny"
