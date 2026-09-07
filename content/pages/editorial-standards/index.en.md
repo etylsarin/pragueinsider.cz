@@ -95,14 +95,12 @@ Those are credited by name and dated, and the caption says where the frame was t
 about a place, we would rather go to the place.
 
 Some carry **a photograph issued by somebody else** — a press picture from a public institution,
-released for reporting. This site used to say it published no photography it did not own, and that
-is no longer true, so the promise has gone rather than being quietly bent around an exception. What
-replaces it is narrower and checkable: a picture we did not take **says who issued it and links to
-where it was published**, and it is never described as ours. `Photo: Prague Insider` means we stood
-there. Anything else names somebody else.
+released for reporting. A picture we did not take **names who issued it and links to where it was
+published**, and is never presented as ours. `Photo: Prague Insider` means somebody from the desk
+stood there; any other credit names somebody else.
 
-Some articles carry **a visualisation of something that has not been built**. This is the third
-kind, and it exists because the first two cannot cover a real gap: when the news *is* a design —
+Some articles carry **a visualisation of something that has not been built**. It exists because
+neither a plate nor a photograph covers a real gap: when the news *is* a design —
 a competition won, a permit filed, a tender cancelled — there is nothing at the site to photograph,
 and a drawing released by the city, the district or the project is the only way to show readers
 what is actually being decided. Every one of them:

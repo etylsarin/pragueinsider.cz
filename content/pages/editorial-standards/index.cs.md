@@ -92,15 +92,13 @@ Některé články nesou **fotografii, kterou jsme pořídili sami**, na místě
 v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly. Když je
 článek o nějakém místě, radši tam zajdeme.
 
-Některé nesou **fotografii, kterou vydal někdo jiný** — tiskový snímek veřejné instituce, uvolněný
-pro zpravodajství. Dřív tu stálo, že nepublikujeme žádnou fotografii, kterou sami nevlastníme. To
-už neplatí, a tak ten slib raději mizí, než aby se kolem něj potichu ohýbala výjimka. Nahrazuje ho
-pravidlo užší a ověřitelné: u snímku, který jsme nepořídili, **uvádíme, kdo ho vydal, a odkaz na
-místo, kde byl zveřejněn**, a nikdy ho nevydáváme za svůj. „Foto: Prague Insider“ znamená, že jsme
-tam stáli. Cokoli jiného jmenuje někoho jiného.
+Některé nesou **fotografii, kterou vydal někdo jiný** — tiskový snímek veřejné instituce uvolněný
+pro zpravodajství. U snímku, který jsme nepořídili, **uvádíme, kdo ho vydal, a odkaz na místo, kde
+byl zveřejněn**, a nikdy ho nevydáváme za svůj. „Foto: Prague Insider“ znamená, že tam někdo
+z redakce stál; jakýkoli jiný kredit jmenuje někoho jiného.
 
-Některé články nesou **vizualizaci něčeho, co ještě nestojí**. To je ten třetí druh a existuje
-kvůli mezeře, kterou první dva nepokryjí: když je zprávou samotný návrh — vyhraná soutěž, podaná
+Některé články nesou **vizualizaci něčeho, co ještě nestojí**. Existuje kvůli mezeře, kterou
+nepokryje generovaný vizuál ani fotografie: když je zprávou samotný návrh — vyhraná soutěž, podaná
 žádost o povolení, zrušený tendr — není na místě co vyfotit a jediný způsob, jak čtenáři ukázat,
 o čem se doopravdy rozhoduje, je kresba zveřejněná městem, městskou částí nebo projektem. Každá
 taková:
