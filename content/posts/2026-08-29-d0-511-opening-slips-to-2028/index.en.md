@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A map of Prague's eastern edge with the unfinished ring road section traced as a dashed green line running 12.5 km south from Běchovice to Modletice, hollow squares marking the junctions with the D11 and the D1 at each end and filled squares marking the two tunnels at Dubeč and Na Vysoké."
+  caption: "The 12.5 km still missing between the D11 and the D1, traced from the alignment as it is being built. The filled squares are the two tunnels whose geology pushed the opening to the second half of 2028."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.openstreetmap.org/#map=12/50.0323/14.6110"
 sources:
   - title: "Na budovaném úseku Pražského okruhu už se rýsují tubusy tunelů. Rostou mosty i protihlukové stěny"
     url: "https://zdopravy.cz/na-budovanem-useku-prazskeho-okruhu-uz-se-rysuji-tubusy-tunelu-rostou-mosty-i-protihlukove-steny-296116"

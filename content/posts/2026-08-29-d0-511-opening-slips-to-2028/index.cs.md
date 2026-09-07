@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Mapa východního okraje Prahy s nedostavěným úsekem Pražského okruhu vyneseným zelenou přerušovanou čarou, která vede 12,5 kilometru na jih od Běchovic k Modleticím; prázdné čtverce označují napojení na D11 a D1 na obou koncích, plné čtverce dva tunely u Dubče a Na Vysoké."
+  caption: "Oněch 12,5 kilometru, které mezi D11 a D1 stále chybí, vynesených podle stavěné trasy. Plné čtverce jsou dva tunely, jejichž geologie posunula otevření na druhou polovinu roku 2028."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.openstreetmap.org/#map=12/50.0323/14.6110"
 sources:
   - title: "Na budovaném úseku Pražského okruhu už se rýsují tubusy tunelů. Rostou mosty i protihlukové stěny"
     url: "https://zdopravy.cz/na-budovanem-useku-prazskeho-okruhu-uz-se-rysuji-tubusy-tunelu-rostou-mosty-i-protihlukove-steny-296116"

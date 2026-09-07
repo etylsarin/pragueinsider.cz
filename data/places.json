@@ -85,6 +85,20 @@
       "district": "Praha 8 – Karlín",
       "osm": "Ke Štvanici, Florenc, Karlín, Praha 8, obvod Praha 8, Praha, 116 47, Česko"
     },
+    "kolovraty": {
+      "name": "Kolovraty",
+      "lat": 50.01075,
+      "lng": 14.62959,
+      "district": "Praha 10",
+      "osm": "Kolovraty, obvod Praha 10, Praha, 103 00, Česko"
+    },
+    "kuri": {
+      "name": "Kuří",
+      "lat": 49.98792,
+      "lng": 14.62062,
+      "district": null,
+      "osm": "Kuří, Říčany, okres Praha-východ, Středočeský kraj, Česko"
+    },
     "letiste vaclava havla praha": {
       "name": "Letiště Václava Havla Praha",
       "lat": 50.10205,
@@ -106,6 +120,13 @@
       "district": "Praha 6 – Střešovice",
       "osm": "Malovanka, Na Petynce, Staré Střešovice, Střešovice, Praha 6, obvod Praha 6, Praha, 162 01, Česko"
     },
+    "modletice": {
+      "name": "Modletice",
+      "lat": 49.97051,
+      "lng": 14.59095,
+      "district": null,
+      "osm": "Modletice, okres Praha-východ, Středočeský kraj, Česko"
+    },
     "moskevska vrsovice": {
       "name": "Moskevská, Vršovice",
       "lat": 50.06511,
@@ -126,6 +147,13 @@
       "lng": 14.38609,
       "district": "Praha 6",
       "osm": "Na Kocínce, Baba, Praha 6, obvod Praha 6, Praha, 166 29, Česko"
+    },
+    "na vysoke": {
+      "name": "Na Vysoké",
+      "lat": 50.01235,
+      "lng": 14.64146,
+      "district": "Praha 10 – Kolovraty",
+      "osm": "Na Vysoké, Kolovraty, Praha-Kolovraty, obvod Praha 10, Praha, 103 00, Česko"
     },
     "nadrazi cakovice": {
       "name": "Nádraží Čakovice",
