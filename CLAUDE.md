@@ -22,6 +22,12 @@ correctness bug, not a style choice.
   that is a place the desk can go. See `content/pages/editorial-standards/`, which says all of
   this publicly, and keep the two in step. The same applies to pictures inside the body, declared
   in `figures:` — see the Gotchas.
+- **A `kind: diagram` is the one picture we draw ourselves.** `scripts/make-diagram.mjs` plots a
+  route over the same Esri basemap the article locator uses, from coordinates that must already be
+  in `data/places.json` — so a diagram cannot be drawn through a place the desk has not resolved,
+  and the geometry is looked up rather than sketched. It needs `credit` (ours) and `source` (the
+  page the route came from), because a line on a map is a claim about where something goes. The
+  spec lives in `data/diagrams/` so the drawing can be regenerated and argued with.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
   same figures, same sources; different prose.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
@@ -92,6 +98,11 @@ correctness bug, not a style choice.
   decisions, not renders. What actually makes these publishable is that they are *issued as press
   material for reporting, with credit*, which is a licence with a condition. That condition is why
   `credit` and `source` are gate-enforced rather than encouraged.
+- **One cover file serves both languages, so a drawing cannot carry sentences.** The gate requires
+  the two locales to name the same `cover.photo`, which means any text baked into a diagram is
+  wrong in one of them. Station names are proper nouns and survive; an interchange is a coloured
+  letter; everything needing a language goes in the per-locale caption. The first cut had a Czech
+  title band and would have shipped Czech furniture onto the English article.
 - **A render often carries its author's mark burned into a corner, and a centre crop eats it.**
   METROPROJEKT's watermark sits in the bottom-left of the Olbrachtova visualisation; cropping it
   to 16:9 from the middle removed the one thing the licence turns on. `attach-photo.mjs` takes

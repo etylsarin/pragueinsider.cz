@@ -1,0 +1,46 @@
+{
+  "accent": "#7a3fa0",
+  "points": [
+    {
+      "name": "Smíchovské nádraží",
+      "label": "Smíchovské nádraží",
+      "interchange": "B",
+      "side": "left",
+      "dy": -32
+    },
+    {
+      "name": "Pankrác",
+      "label": "Pankrác",
+      "interchange": "C",
+      "side": "left",
+      "dy": 0
+    },
+    {
+      "name": "Bohdalec",
+      "label": "Bohdalec",
+      "side": "right"
+    },
+    {
+      "name": "Nákladové nádraží Žižkov",
+      "label": "Žižkov"
+    },
+    {
+      "name": "Vysočanská",
+      "label": "Vysočany",
+      "interchange": "B"
+    },
+    {
+      "name": "Letňany",
+      "label": "Letňany",
+      "interchange": "C"
+    }
+  ],
+  "arrows": [
+    {
+      "from": "Letňany",
+      "bearing": 48,
+      "reach": 92,
+      "label": "Terminál Sever (VRT)"
+    }
+  ]
+}

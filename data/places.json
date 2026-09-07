@@ -92,6 +92,13 @@
       "district": null,
       "osm": "Letiště Václava Havla Praha, 1019/6, K Letišti, Praha, okres Praha-západ, Středočeský kraj, 161 00, Česko"
     },
+    "letnany": {
+      "name": "Letňany",
+      "lat": 50.13622,
+      "lng": 14.51581,
+      "district": "Praha 9",
+      "osm": "Letňany, obvod Praha 9, Praha, Česko"
+    },
     "malovanka": {
       "name": "Malovanka",
       "lat": 50.0883,
@@ -120,6 +127,13 @@
       "district": "Praha 6",
       "osm": "Na Kocínce, Baba, Praha 6, obvod Praha 6, Praha, 166 29, Česko"
     },
+    "nadrazi cakovice": {
+      "name": "Nádraží Čakovice",
+      "lat": 50.14962,
+      "lng": 14.52049,
+      "district": "Praha 9",
+      "osm": "Nádraží Čakovice, Ke Stadionu, Čakovice, Praha-Čakovice, obvod Praha 9, Praha, 196 00, Česko"
+    },
     "nadrazi holesovice": {
       "name": "Nádraží Holešovice",
       "lat": 50.10901,
@@ -133,6 +147,13 @@
       "lng": 14.47087,
       "district": "Praha 3 – Žižkov",
       "osm": null
+    },
+    "namesti miru": {
+      "name": "Náměstí Míru",
+      "lat": 50.0753,
+      "lng": 14.43908,
+      "district": "Praha 2 – Vyšehrad",
+      "osm": "Náměstí Míru, Korunní, Vyšehrad, obvod Praha 2, Praha, 120 09, Česko"
     },
     "namesti republiky": {
       "name": "Náměstí Republiky",
@@ -155,6 +176,13 @@
       "district": "Praha 3 – Žižkov",
       "osm": "Olšanské náměstí, Žižkov, obvod Praha 3, Praha, Česko"
     },
+    "pankrac": {
+      "name": "Pankrác",
+      "lat": 50.05108,
+      "lng": 14.43963,
+      "district": "Praha 4",
+      "osm": "Pankrác, Na Pankráci, Pankrác, Praha 4, obvod Praha 4, Praha, 140 63, Česko"
+    },
     "plzenska kosire": {
       "name": "Plzeňská, Košíře",
       "lat": 50.06937,
@@ -175,6 +203,13 @@
       "lng": 14.47209,
       "district": "Praha 3 – Žižkov",
       "osm": "Pod Krejcárkem, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
+    },
+    "praha hlavni nadrazi": {
+      "name": "Praha hlavní nádraží",
+      "lat": 50.08296,
+      "lng": 14.43609,
+      "district": "Praha 1 – Nové Město",
+      "osm": "Praha hlavní nádraží, Wilsonova, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
     "prasny most": {
       "name": "Prašný most",
@@ -245,6 +280,13 @@
       "lng": 14.44415,
       "district": "Praha 7 – Holešovice",
       "osm": "Vrbenského, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
+    },
+    "vysocanska": {
+      "name": "Vysočanská",
+      "lat": 50.11012,
+      "lng": 14.50127,
+      "district": "Praha 9 – Vysočany",
+      "osm": "Vysočanská, Freyova, Vysočany, Praha 9, obvod Praha 9, Praha, 190 07, Česko"
     },
     "waltrovka": {
       "name": "Waltrovka",

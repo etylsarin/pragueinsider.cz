@@ -83,7 +83,7 @@ people's reporting, and verify anything that matters against the primary source.
 
 ## Images
 
-Prague Insider publishes three kinds of cover, and the third one is labelled on the image.
+Prague Insider publishes four kinds of cover, and the two that are drawings say so on the image.
 
 Most articles carry **generated typography and geometry** — an architectural abstraction belonging
 to the desk the story sits on, not a depiction of the building being discussed. It is drawn from
@@ -107,6 +107,13 @@ what is actually being decided. Every one of them:
 - **names its author** — the studio where the source states one, otherwise the city, district or
   project that released it — which is the condition these are issued under, not a courtesy;
 - **links to the page it was published on**, so you can check the provenance we claim.
+
+Some articles carry **a diagram we drew**. When a story is about a *line* — a metro route, a
+corridor written into a plan — there is nothing at the site to photograph and often no render has
+been released, and the shape of the thing is the story. Those are drawn here, over a real map, from
+coordinates we looked up rather than sketched, and they name the page the route was taken from,
+because a line on a map is a claim about where something goes and you are entitled to check it.
+They are marked *Diagram* on the image for the same reason a visualisation is.
 
 All of this holds for pictures inside an article as much as for the one at the top of it. We use
 visualisations only for the unbuilt, and a visualisation never stands in for a photograph of

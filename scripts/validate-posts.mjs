@@ -85,11 +85,17 @@ const MIN_ALT_CHARS = 15
  *   - it links where it came from (`source`), so a reader can check the provenance we claim;
  *   - it is labelled `kind: visualisation`, which makes the template mark it on the image itself.
  *
+ * A **diagram** is the fourth kind and the only one we draw ourselves: a schematic of a route or
+ * a scheme, made here from published data. It is not a photograph and not somebody's render, so it
+ * is labelled as a drawing and it cites what the geometry was taken from — a line drawn on a map
+ * makes a claim about where something goes, and a reader is entitled to check it against the
+ * source. Credit is ours; `source` is where the route came from.
+ *
  * What this does not license is a *photograph* somebody else took. A press photo of a real place
  * is a place we can go and photograph, and `kind: visualisation` on one would be a lie the gate
  * cannot detect — so that rule lives with the desk, on the Editorial Standards page.
  */
-const COVER_KINDS = ['photo', 'visualisation']
+const COVER_KINDS = ['photo', 'visualisation', 'diagram']
 async function checkCover(file, fm, dir) {
   const cover = fm.cover
   if (cover === undefined) return
@@ -139,16 +145,17 @@ async function checkCover(file, fm, dir) {
   if (!COVER_KINDS.includes(kind)) {
     fail(file, `cover.kind "${cover.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
   }
-  if (kind === 'visualisation') {
+  if (kind === 'visualisation' || kind === 'diagram') {
     if (!isHttpUrl(cover.source)) {
       fail(
         file,
-        'cover.source must be the http(s) page the visualisation was published on — a reader has ' +
-          'to be able to check where somebody else\'s drawing came from'
+        kind === 'diagram'
+          ? 'cover.source must be the http(s) page the diagram was drawn from — a line on a map is a claim about where something goes'
+          : 'cover.source must be the http(s) page the visualisation was published on — a reader has to be able to check where somebody else\'s drawing came from'
       )
     }
     if (cover.shot !== undefined) {
-      fail(file, 'cover.shot dates a photograph somebody took; a visualisation has no shot date')
+      fail(file, `cover.shot dates a photograph somebody took; a ${kind} has no shot date`)
     }
   } else if (cover.source !== undefined) {
     fail(file, 'cover.source belongs to a visualisation — our own photographs are not sourced from anywhere')
@@ -263,10 +270,10 @@ function checkFigures(file, fm, body, dir, exists) {
     if (!COVER_KINDS.includes(kind)) {
       fail(file, `figures "${entry.file}" kind "${entry.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
     }
-    if (kind === 'visualisation' && !isHttpUrl(entry.source)) {
-      fail(file, `figures "${entry.file}" is a visualisation and needs source: the page it was published on`)
+    if ((kind === 'visualisation' || kind === 'diagram') && !isHttpUrl(entry.source)) {
+      fail(file, `figures "${entry.file}" is a ${kind} and needs source: the page it was drawn from or published on`)
     }
-    if (kind !== 'visualisation' && entry.source !== undefined) {
+    if (kind === 'photo' && entry.source !== undefined) {
       fail(file, `figures "${entry.file}" is ours; source belongs to a visualisation`)
     }
   }

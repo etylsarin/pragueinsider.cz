@@ -9,6 +9,13 @@ tags: ["metro E", "okružní linka", "IPR", "feasibility study", "metro D"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A map of Prague with the proposed orbital metro corridor drawn as a dashed purple line from Smíchovské nádraží through Pankrác, Bohdalec, Žižkov and Vysočany to Letňany, each station marked by a square and interchanges labelled with the line letter, continuing north as a dotted arrow to Terminál Sever."
+  caption: "The corridor as the city describes it: 22 km from Smíchov to the planned high-speed rail terminal, estimated at CZK 220bn. Where the stations actually go is what the feasibility study decides."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii"
 sources:
   - title: "Okružní linka metra by podle odhadu vyšla na 220 mld. Kč, Praha zadá studii"
     url: "https://www.archiweb.cz/n/domaci/okruzni-linka-metra-by-podle-odhadu-vysla-na-220-mld-kc-praha-zada-studii"
