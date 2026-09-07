@@ -3,7 +3,7 @@ slug: bozankaya-trolleybuses-accepted
 lang: en
 title: "Prague Takes Ownership of Eleven Bozankaya Trolleybuses, and Bus 137 Is Next to Go"
 dek: "The acceptance protocol was signed on Friday after months of deadlock. Three vehicles are fit for service, one ran on line 51 the same weekend, and once the other eight are finished DPP says the 137 bus will be converted permanently into trolleybus route 52."
-queuedAt: 2026-09-06
+date: 2026-09-07
 category: transport
 tags: ["trolleybuses", "Bozankaya", "DPP", "Garáže Řepy", "line 52"]
 district: "Praha 17 – Řepy"

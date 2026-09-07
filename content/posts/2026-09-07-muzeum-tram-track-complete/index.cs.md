@@ -3,7 +3,7 @@ slug: muzeum-tram-track-complete
 lang: cs
 title: "Tramvaje se k Národnímu muzeu vracejí téměř o půl roku dřív"
 dek: "Linky 11 a 13 jezdí přes Muzeum od sobotního ranního výjezdu. Stavba trvala necelých patnáct měsíců místo dvaceti, zastávky jsou poprvé bezbariérové a podél kolejí svítí prvních pět varovných světelných pásů v Praze."
-queuedAt: 2026-09-05
+date: 2026-09-07
 category: transport
 tags: ["Muzeum", "Václavské náměstí", "DPP", "PORR", "TSK", "tramvaje", "Kulturní distrikt"]
 district: "Praha 1 – Nové Město"
@@ -12,7 +12,7 @@ location:
   lng: 14.4317
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Stavba tramvajové tratě Muzeum je dokončena, téměř o půlrok dříve"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3438-stavba-tramvajove-trate-muzeum-je-dokoncena-temer-o-pulrok-drive"

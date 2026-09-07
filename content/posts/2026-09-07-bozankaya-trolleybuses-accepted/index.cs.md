@@ -3,7 +3,7 @@ slug: bozankaya-trolleybuses-accepted
 lang: cs
 title: "Prvních jedenáct Bozankay je konečně majetkem DPP. Sto třicítka sedmička skončí"
 dek: "Po měsících patové situace podepsal dopravní podnik předávací protokol. Tři vozy jsou připravené k výpravě, jeden vyjel v sobotu na linku 51 a jakmile bude hotových i zbylých osm, změní se podle DPP autobusová 137 natrvalo v trolejbusovou 52."
-queuedAt: 2026-09-06
+date: 2026-09-07
 category: transport
 tags: ["trolejbusy", "Bozankaya", "DPP", "Garáže Řepy", "linka 52"]
 district: "Praha 17 – Řepy"

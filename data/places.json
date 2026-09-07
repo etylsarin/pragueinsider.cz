@@ -1,6 +1,13 @@
 {
   "version": 1,
   "places": {
+    "bechovice": {
+      "name": "Běchovice",
+      "lat": 50.08117,
+      "lng": 14.61067,
+      "district": "Praha 9",
+      "osm": "Běchovice, obvod Praha 9, Praha, 190 11, Česko"
+    },
     "bohdalec": {
       "name": "Bohdalec",
       "lat": 50.05555,

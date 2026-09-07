@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -219,6 +219,13 @@
       "firstSeen": "2026-09-04",
       "usedInPost": "prague-objects-s9-older-trains"
     },
+    "6bed9467db7b82b0": {
+      "url": "https://zdopravy.cz/finale-nejvetsi-drazni-zakazky-politiky-ceka-schvalovani-tricetilete-smlouvy-na-vlaky-v-pid-za-165-miliard-298201",
+      "title": "Finále největší drážní zakázky. Politiky čeká schvalování třicetileté smlouvy na vlaky v PID za 165 miliard",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-07",
+      "usedInPost": "emu400-pid-thirty-year-rail-contract"
+    },
     "6cafd46b5d6683e2": {
       "url": "https://iprpraha.cz/metropolitni-plan-ucinny",
       "title": "Metropolitní plán je účinný. Otevírá brownfieldy, chrání výhledy a přináší předvídatelnou flexibilitu",
@@ -267,6 +274,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
+    },
+    "8e14dda9e3252208": {
+      "url": "https://zdopravy.cz/rsd-resi-problem-s-obrim-valem-na-prazskem-okruhu-zemina-je-nestabilni-za-vlhka-prilis-mekne-298061",
+      "title": "ŘSD řeší problém s obřím valem na Pražském okruhu. Zemina je nestabilní, za vlhka příliš měkne",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-07",
+      "usedInPost": "d0-511-bechovice-noise-embankment"
     },
     "91958ec74db552b2": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3438-stavba-tramvajove-trate-muzeum-je-dokoncena-temer-o-pulrok-drive",
@@ -442,6 +456,13 @@
       "source": "Městská část Praha 10",
       "firstSeen": "2026-08-29",
       "usedInPost": "k-pradelne-bridge-replacement"
+    },
+    "f39e6b3e71c29b2b": {
+      "url": "https://pid.cz/praha-upravi-a-rozsiri-podporu-bikesharingu-v-ramci-aplikace-pid-litacka",
+      "title": "Praha upraví a rozšíří podporu bikesharingu v rámci aplikace PID Lítačka",
+      "source": "PID / ROPID (tisková zpráva Magistrátu hl. m. Prahy)",
+      "firstSeen": "2026-09-07",
+      "usedInPost": "bikesharing-pid-litacka-2026-tender"
     },
     "f4ba7bc8395490e4": {
       "url": "https://iprpraha.cz/praha-v-evropskem-kontextu-aktualne-leto2026",

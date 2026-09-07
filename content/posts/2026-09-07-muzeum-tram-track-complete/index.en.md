@@ -3,7 +3,7 @@ slug: muzeum-tram-track-complete
 lang: en
 title: "Trams Return to the National Museum Nearly Six Months Early"
 dek: "Lines 11 and 13 run through Muzeum again from Saturday morning. The build took under fifteen months instead of twenty, the stops are step-free for the first time, and five illuminated warning strips along the rails are the first in Prague."
-queuedAt: 2026-09-05
+date: 2026-09-07
 category: transport
 tags: ["Muzeum", "Václavské náměstí", "DPP", "PORR", "TSK", "trams", "Kulturní distrikt"]
 district: "Praha 1 – Nové Město"
@@ -12,7 +12,7 @@ location:
   lng: 14.4317
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Stavba tramvajové tratě Muzeum je dokončena, téměř o půlrok dříve"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3438-stavba-tramvajove-trate-muzeum-je-dokoncena-temer-o-pulrok-drive"

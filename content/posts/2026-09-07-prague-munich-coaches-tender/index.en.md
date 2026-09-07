@@ -3,7 +3,7 @@ slug: prague-munich-coaches-tender
 lang: en
 title: "The Coaches for Prague–Munich Go Out to Tender Five Years Before They Run"
 dek: "Netinera has opened the vehicle competition on behalf of České dráhy and Die Länderbahn: at least 500 seats a train, air conditioning, wi-fi and a hybrid locomotive able to work both countries' wires and run off them. Requests to take part close on 14 September."
-queuedAt: 2026-09-05
+date: 2026-09-07
 category: transport
 tags: ["Praha–Mnichov", "České dráhy", "Die Länderbahn", "Netinera", "BEG", "Leo Express"]
 author: "Prague Insider Desk"

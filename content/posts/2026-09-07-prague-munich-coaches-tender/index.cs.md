@@ -3,7 +3,7 @@ slug: prague-munich-coaches-tender
 lang: cs
 title: "Vozy pro Prahu–Mnichov se soutěží pět let předem"
 dek: "Netinera vypsala za České dráhy a Die Länderbahn soutěž na nové vagony: nejméně 500 míst ve vlaku, klimatizace, wi-fi a hybridní lokomotiva, která zvládne obě napájecí soustavy i jízdu mimo trolej. Žádosti o účast se podávají do 14. září."
-queuedAt: 2026-09-05
+date: 2026-09-07
 category: transport
 tags: ["Praha–Mnichov", "České dráhy", "Die Länderbahn", "Netinera", "BEG", "Leo Express"]
 author: "Prague Insider Desk"
