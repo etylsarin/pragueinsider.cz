@@ -10,6 +10,13 @@ tags: ["Metropolitní plán", "územní plánování", "IPR", "brownfieldy"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Metropolitní plán jako tištěný dokument: bílé pouzdro s nápisem Metropolitní plán s patnácti svazky stojí na bílém stole vedle rozložených velkých mapových listů a legend s barevnými výkresy plánu."
+  caption: "Čtrnáct let příprav svázaných do desek: plán, který nahrazuje sto let starý princip zónování a otevírá cestu 350 tisícům bytů."
+  credit: "IPR Praha"
+  kind: handout
+  source: "https://iprpraha.cz/stranka/4432/metropolitni-plan-bude-zverejnen-letos-v-rijnu-na-podzim-se-uskutecni-verejna-projednani-a-schvalovat-se-bude-za-rok"
 sources:
   - title: "Cesta Metropolitního plánu: Čtrnáct let příprav nastartuje intenzivní rozvoj Prahy"
     url: "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy"

@@ -83,7 +83,7 @@ people's reporting, and verify anything that matters against the primary source.
 
 ## Images
 
-Prague Insider publishes four kinds of cover, and the two that are drawings say so on the image.
+Prague Insider publishes five kinds of cover. Two of them are drawings and say so on the image; two of them are photographs, and the credit under every picture says whose.
 
 Most articles carry **generated typography and geometry** — an architectural abstraction belonging
 to the desk the story sits on, not a depiction of the building being discussed. It is drawn from
@@ -91,13 +91,16 @@ the article's own identity, so the archive builds a visual language rather than 
 illustrated.
 
 Some articles carry **a photograph taken by us**, on the spot, of the thing the article is about.
-Those are credited by name and dated, and the caption says where the frame was taken. **We publish
-no photograph we do not own** — no press handouts, nothing lifted from the outlets we read, no
-stock. If a story is about a place, we go to the place. If we have not been, it gets the plate; an
-abstraction is not a failure, and an unlicensed picture would be.
+Those are credited by name and dated, and the caption says where the frame was taken. If a story is
+about a place, we would rather go to the place.
 
-Some articles carry **a visualisation of something that has not been built**. This is the third
-kind, and it exists because the first two cannot cover a real gap: when the news *is* a design —
+Some carry **a photograph issued by somebody else** — a press picture from a public institution,
+released for reporting. A picture we did not take **names who issued it and links to where it was
+published**, and is never presented as ours. `Photo: Prague Insider` means somebody from the desk
+stood there; any other credit names somebody else.
+
+Some articles carry **a visualisation of something that has not been built**. It exists because
+neither a plate nor a photograph covers a real gap: when the news *is* a design —
 a competition won, a permit filed, a tender cancelled — there is nothing at the site to photograph,
 and a drawing released by the city, the district or the project is the only way to show readers
 what is actually being decided. Every one of them:

@@ -10,6 +10,13 @@ tags: ["Metropolitan Plan", "zoning", "IPR", "brownfields"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The Metropolitan Plan as a printed document: a white slipcase lettered Metropolitní plán holding fifteen bound volumes, standing on a white table beside large folded map sheets and legend pages showing the plan's coloured zoning drawings."
+  caption: "Fourteen years of drafting, bound: the plan that replaces a zoning system conceived a century ago and clears the way for 350,000 homes."
+  credit: "IPR Praha"
+  kind: handout
+  source: "https://iprpraha.cz/stranka/4432/metropolitni-plan-bude-zverejnen-letos-v-rijnu-na-podzim-se-uskutecni-verejna-projednani-a-schvalovat-se-bude-za-rok"
 sources:
   - title: "Cesta Metropolitního plánu: Čtrnáct let příprav nastartuje intenzivní rozvoj Prahy"
     url: "https://praha.camp/magazin/detail/cesta-metropolitniho-planu-ctrnact-let-priprav-nastartuje-intenzivni-rozvoj-prahy"

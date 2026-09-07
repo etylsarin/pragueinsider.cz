@@ -11,10 +11,13 @@ correctness bug, not a style choice.
 - **Every article cites its sources.** `sources` is required in frontmatter, enforced by
   `scripts/validate-posts.mjs`. No exceptions, no "obvious" stories.
 - **`aiGenerated: true` on every post.** The disclosure is not optional and is not configurable.
-- **Only our own photographs — and, for the unbuilt, a labelled visualisation.** A cover is the
-  generated plate from `src/lib/cover.js`, a photograph somebody on the desk took themselves, or a
-  `kind: visualisation`. Never embed source *photography*, press handouts or stock, and never
-  generate an AI photograph of a real place. The plate is the default and remains the fallback.
+- **Every picture says whose it is.** A cover is the generated plate from `src/lib/cover.js`, a
+  `kind: photo` the desk took itself, a `kind: visualisation`, a `kind: diagram` we drew, or a
+  `kind: handout` somebody else issued. The old rule — nothing but our own photography — was given
+  up deliberately in September 2026 and the Editorial Standards page was rewritten to say so; what
+  survives is the enforceable half, that anything not ours names its issuer and links to where it
+  was published, and that `kind: photo` means ours and nothing else. Never lift from the outlets we
+  read without that, and never generate an AI photograph of a real place. The plate is the default and remains the fallback.
   A visualisation is the narrow exception for a story whose subject does not exist yet: it needs
   `credit` (the studio if the source names one, otherwise the body that released it) and `source`
   (the page it was published on), the gate refuses it without both, and the template stamps

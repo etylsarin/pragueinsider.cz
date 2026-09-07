@@ -82,21 +82,23 @@ práce a cokoli důležitého si ověřte v primárním zdroji.**
 
 ## Obrazový doprovod
 
-Prague Insider používá čtyři druhy titulních vizuálů a oba, které jsou kresbou, jsou ve snímku označené.
+Prague Insider používá pět druhů titulních vizuálů. Dva z nich jsou kresby a jsou ve snímku označené, dva jsou fotografie — a popisek pod každým snímkem říká, čí.
 
 Většina článků nese **generovanou typografii a geometrii** — architektonickou abstrakci příslušné
 rubriky, nikoli zobrazení konkrétní stavby, o níž se píše. Kresba vychází z identity článku, takže
 archiv si buduje vlastní vizuální jazyk místo náhodné ilustrace.
 
 Některé články nesou **fotografii, kterou jsme pořídili sami**, na místě, a zachycuje to, o čem se
-v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly.
-**Nepublikujeme žádnou fotografii, kterou sami nevlastníme** — žádné tiskové materiály, nic
-převzatého z médií, která čteme, nic ze stockových databází. Když je článek o nějakém místě, jdeme
-tam. Když jsme tam nebyli, dostane generovaný vizuál. Abstrakce není selhání, nelicencovaný snímek
-by byl.
+v článku píše. Takové snímky jsou jmenovitě uvedené a datované a popisek říká, kde vznikly. Když je
+článek o nějakém místě, radši tam zajdeme.
 
-Některé články nesou **vizualizaci něčeho, co ještě nestojí**. To je ten třetí druh a existuje
-kvůli mezeře, kterou první dva nepokryjí: když je zprávou samotný návrh — vyhraná soutěž, podaná
+Některé nesou **fotografii, kterou vydal někdo jiný** — tiskový snímek veřejné instituce uvolněný
+pro zpravodajství. U snímku, který jsme nepořídili, **uvádíme, kdo ho vydal, a odkaz na místo, kde
+byl zveřejněn**, a nikdy ho nevydáváme za svůj. „Foto: Prague Insider“ znamená, že tam někdo
+z redakce stál; jakýkoli jiný kredit jmenuje někoho jiného.
+
+Některé články nesou **vizualizaci něčeho, co ještě nestojí**. Existuje kvůli mezeře, kterou
+nepokryje generovaný vizuál ani fotografie: když je zprávou samotný návrh — vyhraná soutěž, podaná
 žádost o povolení, zrušený tendr — není na místě co vyfotit a jediný způsob, jak čtenáři ukázat,
 o čem se doopravdy rozhoduje, je kresba zveřejněná městem, městskou částí nebo projektem. Každá
 taková:

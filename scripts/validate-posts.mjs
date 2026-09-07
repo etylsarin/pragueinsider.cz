@@ -91,11 +91,19 @@ const MIN_ALT_CHARS = 15
  * makes a claim about where something goes, and a reader is entitled to check it against the
  * source. Credit is ours; `source` is where the route came from.
  *
- * What this does not license is a *photograph* somebody else took. A press photo of a real place
+ * A **handout** is a photograph somebody else took and issued for reporting. It is the newest kind
+ * and the one that costs the most: for a long time this site said it published no photography it
+ * did not own, and a handout is that promise given up rather than narrowed. It is here because the
+ * desk decided the trade was worth it, and the Editorial Standards page now says so plainly rather
+ * than keeping a rule the archive breaks. It carries the same obligations as a visualisation —
+ * name the body that issued it, link where it came from — and `kind: photo` still means ours, so
+ * the two can never be confused in the frontmatter.
+ *
+ * What this does not license is passing somebody else's photograph off as ours. A press photo of a real place
  * is a place we can go and photograph, and `kind: visualisation` on one would be a lie the gate
  * cannot detect — so that rule lives with the desk, on the Editorial Standards page.
  */
-const COVER_KINDS = ['photo', 'visualisation', 'diagram']
+const COVER_KINDS = ['photo', 'visualisation', 'diagram', 'handout']
 async function checkCover(file, fm, dir) {
   const cover = fm.cover
   if (cover === undefined) return
@@ -145,20 +153,20 @@ async function checkCover(file, fm, dir) {
   if (!COVER_KINDS.includes(kind)) {
     fail(file, `cover.kind "${cover.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
   }
-  if (kind === 'visualisation' || kind === 'diagram') {
+  if (kind === 'visualisation' || kind === 'diagram' || kind === 'handout') {
     if (!isHttpUrl(cover.source)) {
       fail(
         file,
         kind === 'diagram'
           ? 'cover.source must be the http(s) page the diagram was drawn from — a line on a map is a claim about where something goes'
-          : 'cover.source must be the http(s) page the visualisation was published on — a reader has to be able to check where somebody else\'s drawing came from'
+          : `cover.source must be the http(s) page the ${kind} was published on — a reader has to be able to check where somebody else's picture came from`
       )
     }
     if (cover.shot !== undefined) {
       fail(file, `cover.shot dates a photograph somebody took; a ${kind} has no shot date`)
     }
   } else if (cover.source !== undefined) {
-    fail(file, 'cover.source belongs to a visualisation — our own photographs are not sourced from anywhere')
+    fail(file, `cover.source names where a picture came from, so it belongs to a ${COVER_KINDS.filter((k) => k !== 'photo').join(', ')} — kind: photo means the desk took it`)
   }
   if (!isNonEmptyString(cover.caption)) {
     warn(file, 'cover.caption is empty — the photograph runs without a caption')
@@ -270,11 +278,11 @@ function checkFigures(file, fm, body, dir, exists) {
     if (!COVER_KINDS.includes(kind)) {
       fail(file, `figures "${entry.file}" kind "${entry.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
     }
-    if ((kind === 'visualisation' || kind === 'diagram') && !isHttpUrl(entry.source)) {
+    if (kind !== 'photo' && !isHttpUrl(entry.source)) {
       fail(file, `figures "${entry.file}" is a ${kind} and needs source: the page it was drawn from or published on`)
     }
     if (kind === 'photo' && entry.source !== undefined) {
-      fail(file, `figures "${entry.file}" is ours; source belongs to a visualisation`)
+      fail(file, `figures "${entry.file}" is kind: photo, which means ours; source names where somebody else's picture came from`)
     }
   }
 
@@ -466,7 +474,7 @@ async function validatePosts() {
           fail(rel, 'cover.credit differs between locales — the photographer does not change with the language')
         }
         if ((a.cover?.kind || null) !== (b.cover?.kind || null)) {
-          fail(rel, 'cover.kind differs between locales — a visualisation is one in both languages')
+          fail(rel, `cover.kind differs between locales: ${first}=${a.cover?.kind || 'photo'} ${locale}=${b.cover?.kind || 'photo'} — one picture has one provenance in both languages`)
         }
         if ((a.cover?.source || null) !== (b.cover?.source || null)) {
           fail(rel, 'cover.source differs between locales — one picture came from one place')
