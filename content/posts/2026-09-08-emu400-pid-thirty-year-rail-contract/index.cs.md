@@ -3,12 +3,12 @@ slug: emu400-pid-thirty-year-rail-contract
 lang: cs
 title: "O třicetileté smlouvě za 165 miliard na pražské příměstské vlaky rozhodují politici"
 dek: "Středočeští zastupitelé a pražská rada měli 7. září schvalovat provozní soubor EMU 400 s Českými drahami. Zbývá jediná překážka — řízení u ÚOHS, které se ale netýká provozu, nýbrž samotných vlaků."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["EMU 400", "České dráhy", "PID", "ÚOHS", "Škoda", "RegioJet"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Finále největší drážní zakázky. Politiky čeká schvalování třicetileté smlouvy na vlaky v PID za 165 miliard"
     url: "https://zdopravy.cz/finale-nejvetsi-drazni-zakazky-politiky-ceka-schvalovani-tricetilete-smlouvy-na-vlaky-v-pid-za-165-miliard-298201"

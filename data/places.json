@@ -1,6 +1,13 @@
 {
   "version": 1,
   "places": {
+    "aviaticka": {
+      "name": "Aviatická",
+      "lat": 50.10825,
+      "lng": 14.27258,
+      "district": "Praha 6",
+      "osm": "Aviatická, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
+    },
     "bechovice": {
       "name": "Běchovice",
       "lat": 50.08117,
@@ -134,6 +141,13 @@
       "district": "Praha 10 – Vršovice",
       "osm": "Moskevská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 33, Česko"
     },
+    "motol": {
+      "name": "Motol",
+      "lat": 50.06807,
+      "lng": 14.33788,
+      "district": "Praha 5",
+      "osm": "Motol, obvod Praha 5, Praha, Česko"
+    },
     "muzeum": {
       "name": "Muzeum",
       "lat": 50.07948,
@@ -190,6 +204,13 @@
       "district": "Praha 1 – Nové Město",
       "osm": "Náměstí Republiky, Na Poříčí, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
+    "nemocnice motol": {
+      "name": "Nemocnice Motol",
+      "lat": 50.07531,
+      "lng": 14.3413,
+      "district": "Praha 5 – Motol",
+      "osm": "Nemocnice Motol, Kukulova, Motol, Praha 5, obvod Praha 5, Praha, 169 00, Česko"
+    },
     "ohrada": {
       "name": "Ohrada",
       "lat": 50.09057,
@@ -225,6 +246,13 @@
       "district": "Praha 5 – Košíře",
       "osm": null
     },
+    "pocernicka": {
+      "name": "Počernická",
+      "lat": 50.08242,
+      "lng": 14.50371,
+      "district": "Praha 10 – Malešice",
+      "osm": "Počernická, Malešice, Praha 10, obvod Praha 10, Praha, 108 00, Česko"
+    },
     "pod krejcarkem": {
       "name": "Pod Krejcárkem",
       "lat": 50.09303,
@@ -252,6 +280,13 @@
       "lng": 14.39712,
       "district": "Praha 6 – Sedlec",
       "osm": "Roztocká, Sedlec, Praha 6, obvod Praha 6, Praha, 151 00, Česko"
+    },
+    "smetanovo nabrezi": {
+      "name": "Smetanovo nábřeží",
+      "lat": 50.08398,
+      "lng": 14.41335,
+      "district": "Praha 1 – Staré Město",
+      "osm": "Smetanovo nábřeží, Staré Město, obvod Praha 1, Praha, 116 65, Česko"
     },
     "smichovske nadrazi": {
       "name": "Smíchovské nádraží",

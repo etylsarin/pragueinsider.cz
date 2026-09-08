@@ -3,7 +3,7 @@ slug: d0-511-bechovice-noise-embankment
 lang: en
 title: "The Ring Road's Biggest Noise Bund Is Made of Soil That Will Not Hold"
 dek: "ŘSD planned to bury the spoil from the whole Běchovice–D1 section inside a ten-metre embankment at the Dubeč junction. The material turns to mud when wet, and the reinforced sections now have to be redesigned."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["D0", "Pražský okruh", "Běchovice", "Dubeč", "ŘSD", "noise protection"]
 district: "Praha 9 – Běchovice"

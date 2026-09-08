@@ -3,12 +3,12 @@ slug: emu400-pid-thirty-year-rail-contract
 lang: en
 title: "A Thirty-Year, 165-Billion Contract for Prague's Suburban Trains Goes to a Vote"
 dek: "Central Bohemian councillors and Prague's city cabinet were due to approve the EMU 400 package with České dráhy on 7 September. One obstacle is left: an antitrust case over the trains themselves."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["EMU 400", "České dráhy", "PID", "ÚOHS", "Škoda", "RegioJet"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Finále největší drážní zakázky. Politiky čeká schvalování třicetileté smlouvy na vlaky v PID za 165 miliard"
     url: "https://zdopravy.cz/finale-nejvetsi-drazni-zakazky-politiky-ceka-schvalovani-tricetilete-smlouvy-na-vlaky-v-pid-za-165-miliard-298201"

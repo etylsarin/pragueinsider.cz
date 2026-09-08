@@ -3,7 +3,7 @@ slug: d0-511-bechovice-noise-embankment
 lang: cs
 title: "Největší val na okruhu má vzniknout ze zeminy, která nedrží"
 dek: "ŘSD plánovalo uložit přebytečnou zeminu z celého úseku Běchovice–D1 do desetimetrového valu u křižovatky Dubeč. Materiál za vlhka měkne a vyztužené části valů se musí přeprojektovat."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["D0", "Pražský okruh", "Běchovice", "Dubeč", "ŘSD", "protihluková opatření"]
 district: "Praha 9 – Běchovice"

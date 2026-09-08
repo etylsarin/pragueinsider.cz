@@ -3,7 +3,7 @@ slug: bikesharing-pid-litacka-2026-tender
 lang: cs
 title: "Praha znovu soutěží podporu sdílených kol a na okraji města za jízdu zaplatí dvojnásobek"
 dek: "Rada schválila záměr zakázky za 50 milionů korun bez DPH. Podporovaných jízd bude místo dvou denně až čtyři a koeficient podle typu městského prostředí zvýhodní okrajové čtvrti."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["bikesharing", "PID Lítačka", "Jaromír Beránek", "TSK", "mikromobilita"]
 author: "Prague Insider Desk"

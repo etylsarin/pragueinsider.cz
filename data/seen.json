@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -64,6 +64,20 @@
       "source": "Pražská integrovaná doprava (PID)",
       "firstSeen": "2026-09-01",
       "usedInPost": "metro-d-station-names-approved"
+    },
+    "22cb5191df28f728": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-vybrala-firmu-pro-prestavbu-chrtiho-zavodiste-v-motole-na-stadion",
+      "title": "Praha vybrala firmu pro přestavbu chrtího závodiště v Motole na stadion",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "motol-greyhound-track-athletics-stadium"
+    },
+    "246292582abb83be": {
+      "url": "https://zdopravy.cz/praha-bleskove-nakoupi-dalsich-25-kusu-tramvaji-52t-tlaci-nas-nove-kyberbezpecnostni-narizeni-vysvetluje-298336",
+      "title": "Praha bleskově nakoupí dalších 25 kusů tramvají 52T. Tlačí nás nové kyberbezpečnostní nařízení, vysvětluje",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "prague-orders-25-more-52t-trams"
     },
     "25b28ab08e608aea": {
       "url": "https://www.archiweb.cz/n/domaci/v-praze-bude-v-roce-2032-celosvetovy-kongres-architektu",
@@ -184,6 +198,13 @@
       "firstSeen": "2026-08-27",
       "usedInPost": "t3-back-to-back-sets-return"
     },
+    "5f81f1aa2d1eb679": {
+      "url": "https://www.praha1.cz/praha-1-zahajila-obnovu-krannerovy-kasny-do-pamatky-se-vrati-voda",
+      "title": "Praha 1 zahájila obnovu Krannerovy kašny. Do památky se vrátí voda",
+      "source": "Městská část Praha 1",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "kranner-fountain-restoration-begins"
+    },
     "6732c3864f87becf": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku",
       "title": "Modernizace stanic metra Flora a Hradčanská ve druhé polovině letošního roku",
@@ -268,12 +289,26 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "citydeal-twelve-cities"
     },
+    "86bf37592ff546f6": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-chce-se-spravou-zeleznic-smenit-pozemky-pro-stavbu-vltavske-filharmonie",
+      "title": "Praha chce se Správou železnic směnit pozemky pro stavbu Vltavské filharmonie",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "vltava-philharmonic-land-swap"
+    },
     "8b4403f67f7ea130": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici",
       "title": "DPP dokončil rekonstrukci stropní desky nad vestibulem stanice metra Florenc a obnovuje provoz v ulici Ke Štvanici",
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
+    },
+    "8d004757c17e372d": {
+      "url": "https://zdopravy.cz/povoleni-pro-prestavbu-d7-mezi-letistem-a-prazskym-okruhem-plati-ministerstvo-zamitlo-odvolani-298386",
+      "title": "Povolení pro přestavbu D7 mezi letištěm a Pražským okruhem platí. Ministerstvo zamítlo odvolání",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "d7-airport-approach-permit-upheld"
     },
     "8e14dda9e3252208": {
       "url": "https://zdopravy.cz/rsd-resi-problem-s-obrim-valem-na-prazskem-okruhu-zemina-je-nestabilni-za-vlhka-prilis-mekne-298061",
@@ -477,6 +512,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-25",
       "usedInPost": "malovanka-strahov-tram-contract"
+    },
+    "f91995d83eead210": {
+      "url": "https://praha10.cz/tz-praha-10-svola-vsechny-aktery-staveb-v-malesicich-k-jednomu-stolu",
+      "title": "TZ: Praha 10 svolá všechny aktéry staveb v Malešicích k jednomu stolu",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-09-08",
+      "usedInPost": "malesice-works-coordination-meeting"
     },
     "fb8ba3b8bc4b2130": {
       "url": "https://www.praha1.cz/palac-zofin-jak-se-vyviji-spor-o-predani-novemu-najemci",

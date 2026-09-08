@@ -3,7 +3,7 @@ slug: bikesharing-pid-litacka-2026-tender
 lang: en
 title: "Prague Retenders Its Bikeshare Subsidy and Pays More to Reach the Edges"
 dek: "The city cabinet has approved a 50-million-crown procurement for the PID Lítačka bike benefit. Subsidised rides go from two a day to four, and a coefficient will pay operators double for trips in the outer city."
-queuedAt: 2026-09-07
+date: 2026-09-08
 category: transport
 tags: ["bikesharing", "PID Lítačka", "Jaromír Beránek", "TSK", "mikromobilita"]
 author: "Prague Insider Desk"
