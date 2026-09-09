@@ -3,7 +3,7 @@ slug: d7-airport-approach-permit-upheld
 lang: en
 title: "The Airport Approach Clears Its Appeal: Six Lanes, and a Road Bent Around a Runway"
 dek: "The Ministry of Transport has dismissed appeals by three residents of Nebušice and Číčovice against the planning decision for rebuilding I/7 between the Ruzyně and Aviatická interchanges. ŘSD now expects a building permit in 2027, construction from 2028 and completion in 2031."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: transport
 tags: ["D7", "MÚK Aviatická", "Pražský okruh", "ŘSD", "Letiště Václava Havla", "Přední Kopanina"]
 district: "Praha 6"
@@ -12,7 +12,7 @@ location:
   lng: 14.2726
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Povolení pro přestavbu D7 mezi letištěm a Pražským okruhem platí. Ministerstvo zamítlo odvolání"
     url: "https://zdopravy.cz/povoleni-pro-prestavbu-d7-mezi-letistem-a-prazskym-okruhem-plati-ministerstvo-zamitlo-odvolani-298386"

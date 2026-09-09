@@ -3,7 +3,7 @@ slug: malesice-works-coordination-meeting
 lang: cs
 title: "Praha 10 svolává stavby k jednomu stolu. Kdo za Malešice odpovídá?"
 dek: "Starosta pozve zhotovitele tramvajové trati Počernická, Pražské vodovody a kanalizace a firmy pokládající sítě. Po měsících souběžných výkopů, uzavírek a havárií vody chce jasné rozdělení odpovědnosti — přestože městská část většinu těch staveb neobjednala."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: transport
 tags: ["Malešice", "Počernická", "tramvajová trať", "Praha 10", "Pražské vodovody a kanalizace", "koordinace staveb"]
 district: "Praha 10 – Malešice"

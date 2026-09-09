@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -79,6 +79,13 @@
       "firstSeen": "2026-09-08",
       "usedInPost": "prague-orders-25-more-52t-trams"
     },
+    "24a47b39a9bcbd27": {
+      "url": "https://zdopravy.cz/hezky-ale-drahy-po-trech-letech-komplikaci-otevrela-praha-novy-velky-parkovaci-dum-298549",
+      "title": "Obrazem: Hezký, ale drahý. Po letech komplikací otevřela Praha nový velký parkovací dům",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-09",
+      "usedInPost": "dedina-parking-house-opens"
+    },
     "25b28ab08e608aea": {
       "url": "https://www.archiweb.cz/n/domaci/v-praze-bude-v-roce-2032-celosvetovy-kongres-architektu",
       "title": "V Praze bude v roce 2032 celosvětový kongres architektů",
@@ -127,6 +134,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-02",
       "usedInPost": "praha-6-kocince-libocka-schools-open"
+    },
+    "3acdfadd5eff7c1e": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-otevrela-parkovaci-dum-na-dedine-v-praze-6-s-290-misty-k-parkovani",
+      "title": "Praha otevřela parkovací dům na Dědině v Praze 6 s 290 místy k parkování",
+      "source": "archiweb.cz",
+      "firstSeen": "2026-09-09",
+      "usedInPost": "dedina-parking-house-opens"
     },
     "4088c1540b21984c": {
       "url": "https://praguemorning.cz/vltava-philharmonic-prague",
@@ -190,6 +204,13 @@
       "source": "Expats.cz",
       "firstSeen": "2026-08-25",
       "usedInPost": "flora-hradcanska-metro-closures"
+    },
+    "543971ffbce16bec": {
+      "url": "https://zdopravy.cz/sz-uz-vi-kdo-chce-projektovat-106-kilometru-rychlotrati-z-prahy-do-brna-cena-je-pod-limitem-298492",
+      "title": "SŽ už ví, kdo chce projektovat 106 kilometrů rychlotrati z Prahy do Brna. Cena je pod limitem",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-09",
+      "usedInPost": "vrt-bechovice-svetla-design-bids"
     },
     "5d8952a95266bef1": {
       "url": "https://zdopravy.cz/t3-zady-k-sobe-v-praze-se-vraci-do-provozu-neobvykle-soupravy-296003",
@@ -400,6 +421,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "b60fe4ce3489875a": {
+      "url": "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497",
+      "title": "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-09",
+      "usedInPost": "vyton-bridge-carbon-lamellae"
     },
     "b9418773be782e6f": {
       "url": "https://zdopravy.cz/az-ctyri-jizdy-zdarma-denne-bikesharing-s-litackou-se-v-praze-opet-rozsiri-296301",

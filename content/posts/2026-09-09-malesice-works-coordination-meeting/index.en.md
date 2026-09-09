@@ -3,7 +3,7 @@ slug: malesice-works-coordination-meeting
 lang: en
 title: "Prague 10 Calls the Diggers to One Table: Who Is Responsible for Malešice?"
 dek: "The mayor is convening the contractors of the Počernická tram line, Pražské vodovody a kanalizace and the utility firms after months of overlapping excavations, closures and burst mains. The district is not the investor in most of the works — and says that is not the same as having nothing to answer for."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: transport
 tags: ["Malešice", "Počernická", "tramvajová trať", "Praha 10", "Pražské vodovody a kanalizace", "koordinace staveb"]
 district: "Praha 10 – Malešice"

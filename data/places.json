@@ -43,6 +43,13 @@
       "district": "Praha 6",
       "osm": "Česká zemědělská univerzita v Praze, Sídlištní, Praha-Suchdol, obvod Praha 6, Praha, 165 00, Česko"
     },
+    "dedina": {
+      "name": "Dědina",
+      "lat": 50.08894,
+      "lng": 14.30796,
+      "district": "Praha 6 – Ruzyně",
+      "osm": "Dědina, Vlastina, Ruzyně, Praha 6, obvod Praha 6, Praha, 163 00, Česko"
+    },
     "domov palata": {
       "name": "Domov Palata",
       "lat": 50.07573,
@@ -350,6 +357,13 @@
       "lng": 14.50127,
       "district": "Praha 9 – Vysočany",
       "osm": "Vysočanská, Freyova, Vysočany, Praha 9, obvod Praha 9, Praha, 190 07, Česko"
+    },
+    "vyton": {
+      "name": "Výtoň",
+      "lat": 50.06803,
+      "lng": 14.41488,
+      "district": "Praha 2 – Vyšehrad",
+      "osm": "Výtoň, Rašínovo nábřeží, Vyšehrad, obvod Praha 2, Praha, 128 00, Česko"
     },
     "waltrovka": {
       "name": "Waltrovka",

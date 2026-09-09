@@ -3,7 +3,7 @@ slug: d7-airport-approach-permit-upheld
 lang: cs
 title: "Příjezd k letišti prošel odvoláním. Šest pruhů a silnice ohnutá kvůli dráze"
 dek: "Ministerstvo dopravy zamítlo námitky tří obyvatel Nebušic a Číčovic proti územnímu rozhodnutí na přestavbu I/7 mezi křižovatkami Ruzyně a Aviatická. ŘSD počítá se stavebním povolením v roce 2027, zahájením stavby v roce 2028 a dokončením v roce 2031."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: transport
 tags: ["D7", "MÚK Aviatická", "Pražský okruh", "ŘSD", "Letiště Václava Havla", "Přední Kopanina"]
 district: "Praha 6"
@@ -12,7 +12,7 @@ location:
   lng: 14.2726
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Povolení pro přestavbu D7 mezi letištěm a Pražským okruhem platí. Ministerstvo zamítlo odvolání"
     url: "https://zdopravy.cz/povoleni-pro-prestavbu-d7-mezi-letistem-a-prazskym-okruhem-plati-ministerstvo-zamitlo-odvolani-298386"

@@ -3,7 +3,7 @@ slug: kranner-fountain-restoration-begins
 lang: en
 title: "Water Returns to the Kranner Fountain After an Eighteen-Month Restoration Begins"
 dek: "Prague 1 has started work on the Monument to Emperor Francis I on Smetanovo nábřeží. A retendered contract went to Agentura „Jan Zrzavý“ at 16.9 million crowns before VAT — some 45 per cent under the estimate — and includes repairing the water technology so the fountain runs again."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: public-space
 tags: ["Krannerova kašna", "Smetanovo nábřeží", "Praha 1", "Josef Kranner", "památková obnova"]
 district: "Praha 1 – Staré Město"

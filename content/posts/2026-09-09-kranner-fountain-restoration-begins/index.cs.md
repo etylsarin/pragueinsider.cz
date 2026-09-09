@@ -3,7 +3,7 @@ slug: kranner-fountain-restoration-begins
 lang: cs
 title: "Do Krannerovy kašny se má vrátit voda. Obnova potrvá osmnáct měsíců"
 dek: "Praha 1 zahájila obnovu Pomníku císaře Františka I. na Smetanově nábřeží. Znovu vypsanou zakázku získala Agentura „Jan Zrzavý“ za 16,9 milionu korun bez DPH, tedy zhruba o 45 procent pod předpokladem. Součástí je oprava vodní technologie a zprovoznění kašny."
-queuedAt: 2026-09-08
+date: 2026-09-09
 category: public-space
 tags: ["Krannerova kašna", "Smetanovo nábřeží", "Praha 1", "Josef Kranner", "památková obnova"]
 district: "Praha 1 – Staré Město"
