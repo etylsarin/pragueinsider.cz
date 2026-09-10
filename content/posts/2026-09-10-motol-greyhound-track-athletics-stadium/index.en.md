@@ -3,7 +3,7 @@ slug: motol-greyhound-track-athletics-stadium
 lang: en
 title: "A Greyhound Track on Plzeňská Becomes Prague's Missing Western Athletics Stadium"
 dek: "Councillors picked VYSSPA Sports Technology on 7 September to design and build an eight-lane, 400-metre oval on the site the city bought from its own tenant last year. The bid of 70.35 million crowns before VAT came in 10.4 million under the estimate; opening is expected in 2028."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: development
 tags: ["Motol", "Plzeňská", "VYSSPA Sports Technology", "atletika", "SK Aktis Praha", "Design and Build"]
 district: "Praha 5 – Motol"

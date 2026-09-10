@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -8,6 +8,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-28",
       "usedInPost": "jahodnice-school-construction-start"
+    },
+    "0762d2158ed3b94e": {
+      "url": "https://www.praha5.cz/pristavba-zakladni-skoly-na-zlichove-je-hotova",
+      "title": "Přístavba základní školy na Zlíchově je hotová",
+      "source": "MČ Praha 5",
+      "firstSeen": "2026-09-10",
+      "usedInPost": "zlichov-special-school-pavilion"
     },
     "092655d959f3cec9": {
       "url": "https://zdopravy.cz/trolejbusy-bozankaya-uz-mesice-cekaji-v-garazich-kvuli-prekladu-dokumentu-je-praha-stale-neprevzala-296128",
@@ -22,6 +29,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-31",
       "usedInPost": "bohdalec-truss-bridge-reopens"
+    },
+    "16662f1032255117": {
+      "url": "https://www.archiweb.cz/n/domaci/v-motole-se-otevrelo-narodni-onkologicke-centrum-za-temer-pet-miliard-korun",
+      "title": "V Motole se otevřelo Národní onkologické centrum za téměř pět miliard korun",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-10",
+      "usedInPost": "motol-national-oncology-centre-opens"
     },
     "17193e40a93bfaad": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110",
@@ -114,6 +128,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "cooling-prague-before-air-conditioning"
     },
+    "2b8ff04a73592fd1": {
+      "url": "https://zdopravy.cz/velky-vypadek-cityelefantu-v-praze-na-casti-spoju-jezdi-misto-dvou-jednotek-jen-jedna-298628",
+      "title": "Velký výpadek CityElefantů v Praze a okolí. Na části spojů jezdí místo dvou jednotek jen jedna",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-10",
+      "usedInPost": "cityelefant-shortage-prague-commuter-trains"
+    },
     "2c287bfcafaea5bc": {
       "url": "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole",
       "title": "Pražské priority: Velký update projektů, které promění tvář metropole",
@@ -127,6 +148,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-25",
       "usedInPost": "park-maniny-rohansky-ostrov"
+    },
+    "326a58be83d43611": {
+      "url": "https://zdopravy.cz/posun-u-vnitrniho-prazskeho-okruhu-projektanti-potvrdili-datum-vystavby-a-ukazali-nove-vizualizace-298672",
+      "title": "Posun u vnitřního pražského okruhu: Projektanti potvrdili datum výstavby a ukázali nové vizualizace",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-10",
+      "usedInPost": "mestsky-okruh-east-permit-documentation"
     },
     "36caaee7b68ec8aa": {
       "url": "https://www.archiweb.cz/n/domaci/detem-v-praze-6-se-dnes-otevrela-nova-zs-na-kocince-a-ms-libocka",
@@ -400,6 +428,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
+    },
+    "9f229d87fe3f1957": {
+      "url": "https://zdopravy.cz/dalsich-160-km-jen-s-vlaky-vybavenymi-etcs-z-prahy-do-ceskych-budejovic-zmizi-az-450-rychlostniku-298737",
+      "title": "Dalších 160 km jen s vlaky vybavenými ETCS. Z Prahy do Českých Budějovic zmizí až 450 rychlostníků",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-10",
+      "usedInPost": "cityelefant-shortage-prague-commuter-trains"
     },
     "a2b7dd9e0f2501b4": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3439-dpp-prevzal-prvnich-jedenact-trolejbusu-bozankaya-sng-12t-do-sveho-majetku",

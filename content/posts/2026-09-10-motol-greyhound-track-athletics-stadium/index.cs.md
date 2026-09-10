@@ -3,7 +3,7 @@ slug: motol-greyhound-track-athletics-stadium
 lang: cs
 title: "Z chrtího závodiště na Plzeňské bude atletický stadion, který západu Prahy chybí"
 dek: "Radní 7. září vybrali společnost VYSSPA Sports Technology, která na místě koupeném loni od vlastního nájemce navrhne a postaví osmidráhový čtyřsetmetrový ovál. Nabídka za 70,35 milionu korun bez DPH je o 10,4 milionu pod předpokladem, otevřít by se mohlo v roce 2028."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: development
 tags: ["Motol", "Plzeňská", "VYSSPA Sports Technology", "atletika", "SK Aktis Praha", "Design and Build"]
 district: "Praha 5 – Motol"

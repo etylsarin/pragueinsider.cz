@@ -3,7 +3,7 @@ slug: vltava-philharmonic-land-swap
 lang: en
 title: "Prague Trades Land at the Main Station for the Ground the Philharmonic Stands On"
 dek: "Councillors approved a swap with Správa železnic on 7 September: the railway gets plots in Nové Město and Vinohrady for the main station's departure hall, the city gets the Holešovice land it needs for the concert hall, and the railway pays 152 million crowns for the difference."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: development
 tags: ["Vltavská filharmonie", "Správa železnic", "Bjarke Ingels Group", "hlavní nádraží", "Holešovice"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4385
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha chce se Správou železnic směnit pozemky pro stavbu Vltavské filharmonie"
     url: "https://www.archiweb.cz/n/domaci/praha-chce-se-spravou-zeleznic-smenit-pozemky-pro-stavbu-vltavske-filharmonie"

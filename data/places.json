@@ -8,6 +8,13 @@
       "district": "Praha 6",
       "osm": "Aviatická, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
     },
+    "balabenka": {
+      "name": "Balabenka",
+      "lat": 50.10566,
+      "lng": 14.48151,
+      "district": "Praha 9 – Prosek",
+      "osm": "Balabenka, Kovanecká, Balabenka, Prosek, Praha 9, obvod Praha 9, Praha, 190 93, Česko"
+    },
     "bechovice": {
       "name": "Běchovice",
       "lat": 50.08117,
@@ -63,6 +70,13 @@
       "lng": 14.58717,
       "district": "Praha 10 – Dubeč",
       "osm": "Praha-Dubeč, Dubeč, obvod Praha 10, Praha, 107 00, Česko"
+    },
+    "fakultni nemocnice motol": {
+      "name": "Fakultní nemocnice Motol",
+      "lat": 50.07269,
+      "lng": 14.34113,
+      "district": "Praha 5 – Motol",
+      "osm": "Fakultní Nemocnice Motol a Homolka, Hamsíkova, Motol, Praha 5, obvod Praha 5, Praha, 150 06, Česko"
     },
     "flora vinohradska": {
       "name": "Flora, Vinohradská",
@@ -371,6 +385,13 @@
       "lng": 14.37434,
       "district": "Praha 5",
       "osm": "Waltrovka, Vidoule, Praha 5, obvod Praha 5, Praha, 150 03, Česko"
+    },
+    "zlichov": {
+      "name": "Zlíchov",
+      "lat": 50.04716,
+      "lng": 14.40842,
+      "district": "Praha 5",
+      "osm": "Zlíchov, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
     }
   }
 }

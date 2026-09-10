@@ -3,7 +3,7 @@ slug: prague-orders-25-more-52t-trams
 lang: cs
 title: "Praha objednala dalších 25 tramvají 52T. Materiál vznikl za osm dní"
 dek: "Radní 7. září uvolnili 1,232 miliardy korun na čtvrtou sérii vozů Škoda ForCity 52T, polovinu z evropských peněz. Důvodem spěchu je podle nich chystané kyberbezpečnostní nařízení, které by dodávky prodražilo a protáhlo."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: transport
 tags: ["Škoda 52T", "Škoda Group", "DPP", "OP Doprava", "Zdeněk Kovářík", "Jaromír Beránek"]
 author: "Prague Insider Desk"

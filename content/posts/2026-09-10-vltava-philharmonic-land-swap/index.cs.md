@@ -3,7 +3,7 @@ slug: vltava-philharmonic-land-swap
 lang: cs
 title: "Praha smění pozemky u hlavního nádraží za zem, na které má stát filharmonie"
 dek: "Radní 7. září schválili směnu se Správou železnic: dráha získá pozemky na Novém Městě a Vinohradech pro odbavovací halu hlavního nádraží, město holešovické pozemky pro koncertní síň. Rozdíl v ceně 152 milionů korun doplatí Správa železnic."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: development
 tags: ["Vltavská filharmonie", "Správa železnic", "Bjarke Ingels Group", "hlavní nádraží", "Holešovice"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4385
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha chce se Správou železnic směnit pozemky pro stavbu Vltavské filharmonie"
     url: "https://www.archiweb.cz/n/domaci/praha-chce-se-spravou-zeleznic-smenit-pozemky-pro-stavbu-vltavske-filharmonie"

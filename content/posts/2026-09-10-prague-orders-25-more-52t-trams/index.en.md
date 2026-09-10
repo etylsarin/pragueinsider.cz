@@ -3,7 +3,7 @@ slug: prague-orders-25-more-52t-trams
 lang: en
 title: "Prague Orders 25 More 52T Trams in Eight Days, Ahead of New Cyber Rules"
 dek: "The city council released 1.232 billion crowns on 7 September for a fourth batch of Škoda ForCity 52T cars, half of it from EU funds. Councillors say the hurry is a European cyber-security regulation that would raise the price and stretch delivery once it applies."
-queuedAt: 2026-09-08
+date: 2026-09-10
 category: transport
 tags: ["Škoda 52T", "Škoda Group", "DPP", "OP Doprava", "Zdeněk Kovářík", "Jaromír Beránek"]
 author: "Prague Insider Desk"
