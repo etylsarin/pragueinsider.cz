@@ -78,6 +78,13 @@
       "district": "Praha 5 – Motol",
       "osm": "Fakultní Nemocnice Motol a Homolka, Hamsíkova, Motol, Praha 5, obvod Praha 5, Praha, 150 06, Česko"
     },
+    "flora": {
+      "name": "Flora",
+      "lat": 50.07824,
+      "lng": 14.46443,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Stanice Flora - stavba výtahů, Žižkov, obvod Praha 3, Praha, Česko"
+    },
     "flora vinohradska": {
       "name": "Flora, Vinohradská",
       "lat": 50.07789,
@@ -225,6 +232,13 @@
       "district": "Praha 1 – Nové Město",
       "osm": "Náměstí Republiky, Na Poříčí, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
+    "namesti svatopluka cecha": {
+      "name": "náměstí Svatopluka Čecha",
+      "lat": 50.06892,
+      "lng": 14.45927,
+      "district": "Praha 10 – Vršovice",
+      "osm": "náměstí Svatopluka Čecha, Vršovice, Praha 10, obvod Praha 10, Praha, 101 00, Česko"
+    },
     "nemocnice motol": {
       "name": "Nemocnice Motol",
       "lat": 50.07531,
@@ -252,6 +266,13 @@
       "lng": 14.43963,
       "district": "Praha 4",
       "osm": "Pankrác, Na Pankráci, Pankrác, Praha 4, obvod Praha 4, Praha, 140 63, Česko"
+    },
+    "petrin": {
+      "name": "Petřín",
+      "lat": 50.08166,
+      "lng": 14.39493,
+      "district": null,
+      "osm": "Petřín, Praha, 118 00, Česko"
     },
     "plzenska kosire": {
       "name": "Plzeňská, Košíře",
@@ -343,6 +364,13 @@
       "lng": 14.39755,
       "district": "Praha 6 – Střešovice",
       "osm": "U Prašného mostu, Střešovice, Praha 6, obvod Praha 6, Praha, 160 41, Česko"
+    },
+    "ujezd": {
+      "name": "Újezd",
+      "lat": 50.08011,
+      "lng": 14.40468,
+      "district": "Praha 5 – Smíchov",
+      "osm": "Újezd, Smíchov, Praha 5, obvod Praha 5, Praha, 150 21, Česko"
     },
     "vitezne namesti": {
       "name": "Vítězné náměstí",

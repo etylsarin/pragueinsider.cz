@@ -3,7 +3,7 @@ slug: vrt-bechovice-svetla-design-bids
 lang: en
 title: "Two Bids to Design the High-Speed Line Out of Běchovice, Both Under the Cap"
 dek: "Správa železnic opened bids for the design of 106 kilometres of high-speed railway from Prague-Běchovice to Světlá nad Sázavou. Bidders had called the 370-million ceiling too low; two of them went under it anyway, and two firms are challenging the tender at the competition authority."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["VRT", "Správa železnic", "Běchovice", "Sudop Praha", "Mott MacDonald", "ÚOHS"]
 author: "Prague Insider Desk"

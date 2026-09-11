@@ -3,7 +3,7 @@ slug: dedina-parking-house-opens
 lang: cs
 title: "Jedno stání na Dědině vyšlo na 1,38 milionu"
 dek: "Parkovací dům s 290 místy se v Praze 6 otevřel tři roky po tramvaji, s níž byl slíben, dva roky po předání staveniště na dvanáctiměsíční stavbu a zhruba o 80 milionů dráž, než zněla vysoutěžená cena."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["Dědina", "parkování", "TSK", "Ivan Kroupa architekti", "Praha 6"]
 district: "Praha 6 – Ruzyně"

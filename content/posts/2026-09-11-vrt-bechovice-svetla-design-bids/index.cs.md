@@ -3,7 +3,7 @@ slug: vrt-bechovice-svetla-design-bids
 lang: cs
 title: "Rychlotrať z Běchovic chtějí projektovat dva. Oba pod cenovým stropem"
 dek: "Správa železnic otevřela nabídky na projekt 106 kilometrů vysokorychlostní trati z Prahy-Běchovic do Světlé nad Sázavou. Uchazeči strop 370 milionů zpochybňovali jako nízký, dva pod něj přesto šli — a soutěž zároveň napadají u antimonopolního úřadu dvě firmy."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["VRT", "Správa železnic", "Běchovice", "Sudop Praha", "Mott MacDonald", "ÚOHS"]
 author: "Prague Insider Desk"

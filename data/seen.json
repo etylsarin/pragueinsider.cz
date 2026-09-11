@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -16,12 +16,26 @@
       "firstSeen": "2026-09-10",
       "usedInPost": "zlichov-special-school-pavilion"
     },
+    "0868f2232ad045cb": {
+      "url": "https://praguemorning.cz/pragues-petrin-funicular-reopening",
+      "title": "Prague's Petřín Funicular to Return to Service on September 22",
+      "source": "Prague Morning",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "petrin-funicular-reopens-22-september"
+    },
     "092655d959f3cec9": {
       "url": "https://zdopravy.cz/trolejbusy-bozankaya-uz-mesice-cekaji-v-garazich-kvuli-prekladu-dokumentu-je-praha-stale-neprevzala-296128",
       "title": "Trolejbusy Bozankaya už měsíce čekají v garážích. Kvůli překladu dokumentů je Praha stále nepřevzala",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
       "usedInPost": "bozankaya-trolleybuses-still-unaccepted,bozankaya-trolleybuses-accepted"
+    },
+    "1153592f13d75bea": {
+      "url": "https://praha10.cz/tz-praha-10-porada-treti-setkani-k-namesti-svatopluka-cecha-podnety-obcanu-pomohou-dopracovat-navrh",
+      "title": "TZ: Praha 10 pořádá třetí setkání k náměstí Svatopluka Čecha. Podněty občanů pomohou dopracovat návrh",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "svatopluka-cecha-square-third-meeting"
     },
     "1547a190b5db5869": {
       "url": "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653",
@@ -43,6 +57,13 @@
       "source": "PID / ROPID",
       "firstSeen": "2026-08-26",
       "usedInPost": "blanka-tunnel-bus-145"
+    },
+    "172da2759fe61877": {
+      "url": "https://zdopravy.cz/lanovka-na-petrin-opet-vyjede-s-cestujicimi-dpp-zverejnil-termin-litacka-uz-nabizi-specialni-jizdne-298632",
+      "title": "Lanovka na Petřín opět vyjede s cestujícími. DPP zveřejnil termín, Lítačka už nabízí speciální jízdné",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "petrin-funicular-reopens-22-september"
     },
     "17711e834a71f027": {
       "url": "https://praha10.cz/pet-autobusovych-linek-obslouzi-novou-zastavku-sourozencu-capkovych",
@@ -71,6 +92,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-08-01",
       "usedInPost": "metropolitan-plan-takes-effect"
+    },
+    "2052b7300e931d10": {
+      "url": "https://praha.camp/magazin/detail/ztracene-cesty-pod-poli-jak-sit-starych-stezek-muze-promenit-budoucnost-prazske-krajiny",
+      "title": "Ztracené cesty pod poli. Jak síť starých stezek může proměnit budoucnost pražské krajiny",
+      "source": "praha.camp (CAMP)",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "ipr-lost-paths-study-cesty"
     },
     "20f0a044b84d8571": {
       "url": "https://pid.cz/praha-rozhodla-o-budoucich-nazvech-stanic-linky-metra-d",
@@ -169,6 +197,13 @@
       "source": "archiweb.cz",
       "firstSeen": "2026-09-09",
       "usedInPost": "dedina-parking-house-opens"
+    },
+    "3cf28954f516fdfe": {
+      "url": "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape",
+      "title": "Prague moves ahead with plans for fifth metro line",
+      "source": "Expats.cz",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "metro-e-feasibility-study-approved"
     },
     "4088c1540b21984c": {
       "url": "https://praguemorning.cz/vltava-philharmonic-prague",
@@ -310,6 +345,13 @@
       "firstSeen": "2026-09-05",
       "usedInPost": "prague-munich-coaches-tender"
     },
+    "726bf03ccc31d2ca": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3440-stanice-metra-flora-je-fyzicky-propojena-s-povrchem-novymi-vytahovymi-sachtami",
+      "title": "Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami",
+      "source": "Dopravní podnik hl. m. Prahy",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "flora-metro-step-free-breakthrough"
+    },
     "77656c59f089702a": {
       "url": "https://www.praha7.cz/dokonceni-spot",
       "title": "Praha 7 dokončila Spot Holešovice – prostor pro hru, sport a odpočinek",
@@ -449,6 +491,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-31",
       "usedInPost": "pod-krejcarkem-bridge-reopens"
+    },
+    "ae24b2a5aa9fc497": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026",
+      "title": "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026",
+      "source": "Dopravní podnik hl. m. Prahy",
+      "firstSeen": "2026-09-11",
+      "usedInPost": "petrin-funicular-reopens-22-september"
     },
     "b2f5c106a764f5c6": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti",

@@ -3,7 +3,7 @@ slug: dedina-parking-house-opens
 lang: en
 title: "A Parking Space at Dědina Cost 1.38 Million Crowns"
 dek: "Prague 6's new 290-space parking house opened three years after the tram it was promised alongside, two years after the site was handed over for a twelve-month build, and about 80 million crowns above the tendered price."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["Dědina", "parking", "TSK", "Ivan Kroupa architekti", "Praha 6"]
 district: "Praha 6 – Ruzyně"

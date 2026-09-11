@@ -3,7 +3,7 @@ slug: vyton-bridge-carbon-lamellae
 lang: cs
 title: "Uhlíkové lamely mají Výtoňskému mostu koupit čas do roku 2028"
 dek: "Správa železnic začne příští týden lepit CFRP lamely na únavově poškozené diagonály železničního mostu na Výtoni. Šest týdnů práce, režim jednoho vlaku a dvaceti kilometrů v hodině zůstává a rozhodnutí o budoucnosti přemostění má padnout ještě letos."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["Výtoňský most", "Vyšehradský most", "Správa železnic", "ČVUT", "památková péče"]
 district: "Praha 2 – Výtoň"
@@ -12,7 +12,7 @@ location:
   lng: 14.4149
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami"
     url: "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497"

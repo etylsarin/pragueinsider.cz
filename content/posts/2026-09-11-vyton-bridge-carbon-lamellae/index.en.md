@@ -3,7 +3,7 @@ slug: vyton-bridge-carbon-lamellae
 lang: en
 title: "Carbon Strips Buy the Výtoň Bridge Two More Years"
 dek: "Správa železnic starts gluing CFRP laminates onto the fatigued diagonals of the railway bridge at Výtoň next week. Six weeks of work, no change to the one-train, 20 km/h regime, and a decision on the bridge's future promised before the year is out."
-queuedAt: 2026-09-09
+date: 2026-09-11
 category: transport
 tags: ["Výtoňský most", "Vyšehradský most", "Správa železnic", "ČVUT", "heritage"]
 district: "Praha 2 – Výtoň"
@@ -12,7 +12,7 @@ location:
   lng: 14.4149
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami"
     url: "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497"
