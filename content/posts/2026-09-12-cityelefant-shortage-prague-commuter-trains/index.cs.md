@@ -1,9 +1,9 @@
 ---
 slug: cityelefant-shortage-prague-commuter-trains
 lang: cs
-title: "Třetina CityElefantů stojí. Jednou z příčin je prosincový termín ETCS"
-dek: "Českým drahám je mimo provoz 24 ze 71 jednotek CityElefant provozovaných v Praze a Středočeském kraji, provozní potřeba je 57 — chybí zhruba deset vlaků. Na linkách S1, S9 a částečně S7 jezdí místo dvou jednotek jedna, v dotčených vlacích je první třída bez příplatku a kraj mluví o pokutě. Montáž ETCS před 13. prosincem, kdy začne výhradní provoz, je jednou z uváděných příčin."
-queuedAt: 2026-09-10
+title: "Ve středu chybělo deset vlaků, ve čtvrtek tři. Rezerva nebyla ani jeden den"
+dek: "Českým drahám bylo 9. září mimo provoz 24 ze 71 jednotek CityElefant provozovaných v Praze a Středočeském kraji proti provozní potřebě 57. Na linkách S1, S9 a částečně S7 jezdila místo dvou jednotek jedna a kraj mluvil o pokutě. Druhý den ráno chyběly už jen tři jednotky. Montáž ETCS před 13. prosincem, kdy začne výhradní provoz, je jednou z uváděných příčin — a hotová není."
+date: 2026-09-12
 category: transport
 tags: ["České dráhy", "CityElefant", "ETCS", "PID", "Správa železnic", "Železnice"]
 author: "Prague Insider Desk"
@@ -18,16 +18,20 @@ sources:
     url: "https://zdopravy.cz/dalsich-160-km-jen-s-vlaky-vybavenymi-etcs-z-prahy-do-ceskych-budejovic-zmizi-az-450-rychlostniku-298737"
     publisher: "Zdopravy.cz"
     date: 2026-09-10
+  - title: "Rychlá otočka u výpadku CityElefantů v Praze a okolí. Většina vlaků už jezdí v běžném řazení"
+    url: "https://zdopravy.cz/rychly-obrat-s-cityelefanty-v-praze-a-okoli-vetsina-vlaku-uz-jezdi-v-beznem-razeni-298817"
+    publisher: "Zdopravy.cz"
+    date: 2026-09-10
 ---
 
-Cestující příměstských vlaků Českých drah v okolí Prahy jezdí v polovičních soupravách. Dopravci
-stojí neobvykle vysoký počet elektrických jednotek CityElefant a na spojích, kde běžně jezdí dvě
-spojené jednotky, nasazuje jen jednu.
+Jeden zářijový den jezdili cestující příměstských vlaků Českých drah v okolí Prahy v polovičních
+soupravách. Dopravci stálo neobvykle vysoké množství elektrických jednotek CityElefant a na spojích,
+kde běžně jezdí dvě spojené jednotky, nasazoval jen jednu. Další den bylo po všem — a právě proto
+stojí za to si tu epizodu nechat.
 
 Čísla uvedla mluvčí ČD Vanda Rajnochová, podle níž bylo 9. září dopoledne mimo provoz 24 jednotek
 CityElefant ze 71, které dopravce provozuje v Praze a Středočeském kraji. Provozní potřeba je 57.
-Na vlacích tak chybí zhruba deset jednotek a výpadek dopadá na linky S1, S9 a částečně S7, přičemž
-konkrétní rozsah omezení se mění podle aktuální provozní situace.
+Na vlacích tak chybělo zhruba deset jednotek a výpadek dopadl na linky S1, S9 a částečně S7.
 
 Krajský politik, který dopravu objednává, mluvil přímočařeji. Středočeský radní pro veřejnou dopravu
 Petr Borecký uvedl, že předchozího dne bylo mimo provoz 22 CityElefantů a tři RegioPantery a že
@@ -40,8 +44,26 @@ potřebný počet vozidel se nepodařilo vrátit do provozu ani pro středeční
 České dráhy podle Boreckého dostanou pokutu. Dopravce na síti X uvedl, že se mu podařilo zachovat
 všechny spoje, že řada vlaků jede pouze s jednou jednotkou místo obvyklých dvou, a má tedy nižší
 kapacitu, a že na odstranění příčin intenzivně pracuje — omezení ale mohou přetrvávat i v dalších
-dnech. Ve vybraných dotčených vlacích mohou cestující využít oddíly první třídy bez příplatku a kraj
+dnech. Ve vybraných dotčených vlacích mohli cestující využít oddíly první třídy bez příplatku a kraj
 vyzval veřejnost, aby nespokojenost nesměřovala proti průvodčím, kteří délku souprav neovlivní.
+
+## Do dalších dnů to nepřetrvalo
+
+Nepřetrvalo. Ve čtvrtek 10. září ráno chyběly do turnusové potřeby už jen tři jednotky, řekla
+Zdopravy.cz Rajnochová, a většina vlaků jezdila v obvyklém řazení a s plánovanou kapacitou.
+
+> Díky mimořádnému nasazení zaměstnanců údržby a spolupráci s dodavateli se během středy podařilo
+> snížit počet chybějících jednotek v provozu přibližně o dvě třetiny.
+>
+> — Vanda Rajnochová, mluvčí Českých drah
+
+Mluvčí PID Filip Drápal ocenil rychlost i komunikaci dopravce s objednateli, kterou označil za
+příkladně intenzivní.
+
+Zavřít během jednoho dne dvě třetiny výpadku je na údržbu slušný výkon. Zároveň je to ale měřítko
+toho, o jaký výpadek šlo: nešlo o flotilu, která se rozbila, ale o flotilu bez jediného vozu navíc,
+v níž nešťastná souhra zcela běžných událostí vyprázdní turnus a jedna dobrá směna přesčasů ho zase
+naplní.
 
 ## Příčiny — a ta, která má termín
 
@@ -59,7 +81,7 @@ dalším odkladu; historické vlaky bez ETCS na trať vjedou jen na zvláštní 
 dopravce žádat dlouho dopředu.
 
 To je pevné datum pro flotilu, která se dovybavuje po jednotkách — a jednotka se kvůli montáži z
-provozu stáhnout musí. Současný nedostatek je zčásti cenou za to, že se termín drží.
+provozu stáhnout musí. Zářijový nedostatek byl zčásti cenou za to, že se termín drží.
 
 ## Co systém skutečně dělá
 
@@ -79,8 +101,8 @@ zůstanou — právě proto, aby měl strojvedoucí co číst, když ETCS vypadn
 
 ## Podobné to už jednou bylo, ze stejných důvodů
 
-Mluvčí organizátora dopravy PID Filip Drápal řekl, že je s dopravcem v úzkém kontaktu a věří, že
-dělá maximum pro co nejrychlejší navýšení počtu provozuschopných jednotek.
+V průběhu výpadku Drápal řekl, že je organizátor s dopravcem v úzkém kontaktu a věří, že dělá
+maximum pro co nejrychlejší navýšení počtu provozuschopných jednotek.
 
 > Situace nás samozřejmě vůbec netěší.
 >
@@ -91,3 +113,6 @@ devět méně, než objednatelé považovali za nutné minimum, a příčinou by
 technických závad, údržby a montáže ETCS. Dva výpadky ve dvou letech, oba ze tří stejných důvodů,
 popisují flotilu, která nemá žádnou rezervu, o kterou by mohla přijít. Pokuta míří na příznak.
 Problémem je ta rezerva.
+
+A montáž ETCS má před sebou ještě tři měsíce. Jednotky budou z provozu odcházet dál, po jedné, až do
+13. prosince.

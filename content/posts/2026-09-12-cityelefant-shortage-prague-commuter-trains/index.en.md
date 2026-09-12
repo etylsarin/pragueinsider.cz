@@ -1,9 +1,9 @@
 ---
 slug: cityelefant-shortage-prague-commuter-trains
 lang: en
-title: "A Third of the CityElefant Fleet Is Off the Road, and December's ETCS Deadline Is Part of Why"
-dek: "České dráhy have 24 of the 71 CityElefant units serving Prague and Central Bohemia out of service against an operational need of 57 — about ten trains short. Lines S1, S9 and partly S7 are running single units where they normally run pairs, first class is free on affected services, and Central Bohemia says the operator will be fined. Fitting ETCS before the 13 December switch to exclusive operation is one of the named causes."
-queuedAt: 2026-09-10
+title: "Ten Trains Short on Wednesday, Three on Thursday — and No Reserve Either Way"
+dek: "České dráhy had 24 of the 71 CityElefant units serving Prague and Central Bohemia out of service on 9 September against an operational need of 57. Lines S1, S9 and partly S7 ran single units where they normally run pairs, and Central Bohemia said the operator would be fined. By the next morning the gap was down to three. Fitting ETCS before the 13 December switch to exclusive operation is one of the named causes, and it is not finished."
+date: 2026-09-12
 category: transport
 tags: ["České dráhy", "CityElefant", "ETCS", "PID", "Správa železnic", "Železnice"]
 author: "Prague Insider Desk"
@@ -18,33 +18,57 @@ sources:
     url: "https://zdopravy.cz/dalsich-160-km-jen-s-vlaky-vybavenymi-etcs-z-prahy-do-ceskych-budejovic-zmizi-az-450-rychlostniku-298737"
     publisher: "Zdopravy.cz"
     date: 2026-09-10
+  - title: "Rychlá otočka u výpadku CityElefantů v Praze a okolí. Většina vlaků už jezdí v běžném řazení"
+    url: "https://zdopravy.cz/rychly-obrat-s-cityelefanty-v-praze-a-okoli-vetsina-vlaku-uz-jezdi-v-beznem-razeni-298817"
+    publisher: "Zdopravy.cz"
+    date: 2026-09-10
 ---
 
-Commuters on České dráhy services around Prague are travelling in half-length trains. The operator
-has an unusually high number of CityElefant electric units out of service and is running single
-units on services that normally take two coupled together.
+For one day in September, commuters on České dráhy services around Prague travelled in half-length
+trains. The operator had an unusually high number of CityElefant electric units out of service and
+ran single units on services that normally take two coupled together. A day later most of it was
+over — which is the good news, and also the reason the episode is worth keeping.
 
 The numbers came from ČD spokeswoman Vanda Rajnochová, who told Zdopravy.cz on the morning of
 9 September that 24 of the 71 CityElefant units the operator runs in Prague and Central Bohemia were
-out of service. Operational need is 57. That leaves the fleet roughly ten trains short of what the
-timetable requires, and the shortfall lands on lines S1, S9 and partly S7, with the exact scope
-shifting day to day.
+out of service. Operational need is 57. That left the fleet roughly ten trains short of what the
+timetable required, and the shortfall landed on lines S1, S9 and partly S7.
 
 The regional politician who orders those services put it more bluntly. Petr Borecký, the Central
 Bohemian councillor for public transport, said 22 CityElefants and three RegioPanters had been out
 of service the previous day, and that enough vehicles could not be returned to traffic even for the
 Wednesday morning peak.
 
-> Takže asi budete stát na jedné noze a ještě ne na té své.
+> So you will probably be standing on one leg, and not even on your own one.
 >
 > — Petr Borecký, Central Bohemian councillor for public transport
 
 České dráhy will be fined, according to Borecký. The operator said on X that it had managed to keep
 every service running, that many trains were formed of one unit rather than the usual two and
 therefore had lower capacity, and that it was working intensively to return vehicles to service —
-adding that the restrictions may persist for days. On affected trains, first-class compartments are
-available without a surcharge, and the region asked passengers not to take their frustration out on
-conductors, who cannot influence train length.
+adding that the restrictions might persist for days. On affected trains, first-class compartments
+were available without a surcharge, and the region asked passengers not to take their frustration
+out on conductors, who cannot influence train length.
+
+## It was over the next morning
+
+It did not persist for days. By the morning of 10 September only three units were missing from the
+roster, Rajnochová told Zdopravy.cz, and most trains were running in their usual formation and at
+planned capacity.
+
+> Thanks to the extraordinary effort of maintenance staff and cooperation with suppliers, we managed
+> during Wednesday to cut the number of missing units in service by roughly two thirds.
+>
+> — Vanda Rajnochová, spokeswoman, České dráhy
+
+Filip Drápal, spokesman for PID, said the organiser was glad the problems had been eliminated
+quickly and praised both the operator's effort and what he called exemplary intensive communication
+with the ordering authorities.
+
+Two thirds of a fleet gap closed in a single day is a real piece of work by a maintenance
+department. It is also a measure of what kind of gap it was: not a fleet that had broken, but a fleet
+with nothing spare, in which a bad coincidence of ordinary events empties the roster and a good day
+of overtime refills it.
 
 ## The causes, and the one with a date on it
 
@@ -84,10 +108,10 @@ have something to read when ETCS drops out.
 
 ## This has happened before, for the same reasons
 
-PID spokesman Filip Drápal said the organiser was in close contact with the operator and believed it
-was doing everything it could to raise the number of serviceable units.
+While it was going on, Drápal said the organiser was in close contact with the operator and believed
+it was doing everything it could to raise the number of serviceable units.
 
-> Situace nás samozřejmě vůbec netěší.
+> The situation naturally does not please us at all.
 >
 > — Filip Drápal, spokesman, PID
 
@@ -96,3 +120,6 @@ serviceable — nine below the minimum the ordering authorities considered neces
 then was the same combination of technical faults, maintenance and ETCS installation. Two shortages
 two years apart, produced by the same three things, describe a fleet with no spare capacity to lose.
 The fine is for the symptom. The reserve is the problem.
+
+And the ETCS retrofit still has three months to run. The units keep coming out of traffic to be
+fitted, one at a time, until 13 December.

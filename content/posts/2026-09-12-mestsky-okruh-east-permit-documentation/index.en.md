@@ -3,7 +3,7 @@ slug: mestsky-okruh-east-permit-documentation
 lang: en
 title: "The Eastern City Ring Loses Its Congestion Charge Condition and Gains a Tunnel One"
 dek: "Designers finished the permit documentation for the missing eastern section this month and will file with DESÚ in December. August's updated environmental decision drops the requirement for a central congestion charge and for the outer ring, but ties three sections to a tunnel that will not be finished until 2033."
-queuedAt: 2026-09-10
+date: 2026-09-12
 category: transport
 tags: ["Městský okruh", "Balabenka", "SATRA", "EIA", "Hloubětínský tunel", "Železniční uzel Praha"]
 district: "Praha 9 – Libeň"
@@ -12,7 +12,7 @@ location:
   lng: 14.4815
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Posun u vnitřního pražského okruhu: Projektanti potvrdili datum výstavby a ukázali nové vizualizace"
     url: "https://zdopravy.cz/posun-u-vnitrniho-prazskeho-okruhu-projektanti-potvrdili-datum-vystavby-a-ukazali-nove-vizualizace-298672"

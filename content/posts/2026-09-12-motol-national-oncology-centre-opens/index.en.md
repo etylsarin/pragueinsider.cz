@@ -3,7 +3,7 @@ slug: motol-national-oncology-centre-opens
 lang: en
 title: "Five Billion, Three Years and a Bribery Case: the Oncology Centre at Motol Opens"
 dek: "The National Oncology Centre at Motol and Na Homolce opened on 9 September at a cost of CZK 4.96 billion, most of it EU money from the National Recovery Plan. It will lift the hospital's oncology capacity by 40 percent. Its construction outlasted the hospital management that started it, a corruption investigation and a fire in the new cladding a week before the ribbon."
-queuedAt: 2026-09-10
+date: 2026-09-12
 category: development
 tags: ["Fakultní nemocnice Motol", "Národní onkologické centrum", "Národní plán obnovy", "Nemocnice Na Homolce"]
 district: "Praha 5 – Motol"

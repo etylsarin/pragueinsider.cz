@@ -1,110 +1,118 @@
-# Scan log — 2026-09-11
+# Scan log — 2026-09-12
 
-Scanned `2026-09-11T05:15:50.179Z`, window 21 days.
+Scanned `2026-09-12T05:06:48.075Z`, window 21 days.
 
 ## Sources
 
-- ✓ **praha.camp (CAMP)** — 1 new of 40 (0 off-topic, 0 covered, 39 outside window)
+- ✓ **praha.camp (CAMP)** — 0 new of 40 (0 off-topic, 1 covered, 39 outside window)
 - ✓ **IPR Praha** — 0 new of 24 (0 off-topic, 1 covered, 23 outside window)
-- ✓ **Dopravní podnik hl. m. Prahy** — 3 new of 10 (0 off-topic, 6 covered, 1 outside window)
+- ✓ **Dopravní podnik hl. m. Prahy** — 1 new of 10 (0 off-topic, 8 covered, 1 outside window)
 - ✓ **PID / ROPID** — 3 new of 10 (5 off-topic, 2 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
-- ✓ **archiweb.cz** — 0 new of 20 (19 off-topic, 1 covered, 0 outside window)
-- ✓ **Zdopravy.cz** — 3 new of 40 (31 off-topic, 6 covered, 0 outside window)
+- ✓ **archiweb.cz** — 2 new of 20 (18 off-topic, 0 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 3 new of 40 (33 off-topic, 4 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (8 off-topic, 2 covered, 0 outside window)
 - ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 3 new of 10 (7 off-topic, 0 covered, 0 outside window)
-- ✓ **Expats.cz** — 1 new of 25 (24 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 6 new of 32 (23 off-topic, 3 covered, 0 outside window)
+- ✓ **Prague Morning** — 2 new of 10 (7 off-topic, 1 covered, 0 outside window)
+- ✓ **Expats.cz** — 0 new of 25 (24 off-topic, 1 covered, 0 outside window)
+- ✓ **Městské části** — 5 new of 32 (24 off-topic, 3 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (5 off-topic, 0 covered, 5 outside window)
 
-## Candidates — 20 in 20 clusters
+## Candidates — 16 in 16 clusters
 
-1. `19` transport — Lanová dráha Petřín zahájí provoz v úterý 22. září 2026
+1. `19` transport — Podcast: Jak dál s metrem D. Do Libuše dočasně jako pendl z Nových Dvorů, řeší se trasa na sever
 2. `19` architecture — Hřiště v Tovární má novou toaletu
 3. `19` transport — Očekávané komplikace na příjezdových silnicích do Prahy v prvním zářijovém týdnu
 4. `17` development — Neziskové organizace se představí na Andělu
 5. `17` transport — DPP zve na den otevřených dveří v garáži Řepy v rámci oslav 90 let prvních pražských trolejbusů
-6. `16` architecture — TZ: Praha 10 pořádá třetí setkání k náměstí Svatopluka Čecha. Podněty občanů pomohou dopracovat návrh
-7. `16` development — Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami
-8. `16` transport — Stav přípravy železničního jízdního řádu 2026/2027 po projednání Návrhu JŘ pro tratě v rámci PID (srpen 2026)
-9. `14` transport — Prague’s Petřín Funicular to Return to Service on September 22
-10. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září
-11. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
-12. `12` development — Ztracené cesty pod poli. Jak síť starých stezek může proměnit budoucnost pražské krajiny
-13. `12` transport — Rychlá otočka u výpadku CityElefantů v Praze a okolí. Většina vlaků už jezdí v běžném řazení
-14. `12` planning — ZŠ Brána jazyků otevírá Předškoličku pro budoucí prvňáčky
-15. `12` transport — Natáčení v Letenských sadech
-16. `11` transport — Lanovka na Petřín opět vyjede s cestujícími. DPP zveřejnil termín, Lítačka už nabízí speciální jízdné
-17. `10` transport — Prague moves ahead with plans for fifth metro line
-18. `9` transport — „Kniha přání a stížností.“ Liberecký kraj sepsal, co očekává od státu na železnici, vede vlak do Prahy
-19. `9` transport — Prague to Add 51 New Trams Next Year as Network Expands
-20. `6` transport — September 28 Holiday in Czechia: What Will Be Open and Closed
+6. `16` transport — Stav přípravy železničního jízdního řádu 2026/2027 po projednání Návrhu JŘ pro tratě v rámci PID (srpen 2026)
+7. `14` architecture — Prague’s Industrial Palace to Reopen to the Public for Guided Tours
+8. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září
+9. `14` transport — Praha smění se Správou železnic pozemky pro metro či Vltavskou filharmonii
+10. `13` architecture — Dny evropského dědictví: Místa, která mají co vyprávět
+11. `12` transport — Rychlá otočka u výpadku CityElefantů v Praze a okolí. Většina vlaků už jezdí v běžném řazení
+12. `12` planning — ZŠ Brána jazyků otevírá Předškoličku pro budoucí prvňáčky
+13. `12` transport — Natáčení v Letenských sadech
+14. `9` transport — „Kniha přání a stížností.“ Liberecký kraj sepsal, co očekává od státu na železnici, vede vlak do Prahy
+15. `8` planning — Pražští zastupitelé schválili půjčku 165,8 mil. Kč Praze 7 na stavbu školy
+16. `6` transport — September 28 Holiday in Czechia: What Will Be Open and Closed
 
 
 ## Decisions
 
-### Written to the queue (5)
+### Written to the queue (4)
 
-- **petrin-funicular-reopens-22-september** — DPP named the reopening date (22 September, 7:00,
-  10-minute headways to 22:15) after two years out. Three sources cross-checked: DPP, Zdopravy.cz
-  and Prague Morning. Two disagreements reported rather than resolved — the car manufacturer
-  (Doppelmayr/Garaventa per Zdopravy vs CWA Constructions SA per Prague Morning) and capacity
-  (19 seated + up to 100 standing vs a stated total of 120). Fare rises 60 → 100 crowns paper,
-  90 in Lítačka.
-- **flora-metro-step-free-breakthrough** — second of two breakthroughs completed, the mined shafts
-  now joined to the station. Construction milestone with hard figures; lifts not until end of
-  February 2028, after which 12 of 61 stations remain inaccessible.
-- **metro-e-feasibility-study-approved** — councillors approved on 7 September that IPR prepare a
-  feasibility study for a fifth line. A decision taken. Single-sourced to Expats.cz and written as
-  such; the Portlík quote is attributed to iDnes.cz via Expats.cz. No `district`/`location`: the
-  route crosses six districts and has no single site.
-- **svatopluka-cecha-square-third-meeting** — the contested one. Two summer meetings (≈75 and ≈40
-  attending) split on parking against greenery, and heritage protection of the views to the church
-  of sv. Václav limits planting in the centre. Third meeting called for the autumn.
-- **ipr-lost-paths-study-cesty** — IPR's landscape office published the study Cesty: 3,673 km of
-  paths gone from the metropolitan area, 239 km mapped inside Prague, 141 km of that on city-owned
-  land. A published planning document with a method and a pilot route, not a decision — written as
-  a study. Citywide, so no pin.
+- **jankovcova-school-loan-approved** — city assembly voted a 165.8m repayable advance to Praha 7 on
+  Thursday night for the Jan Vodňanský primary school on Jankovcova; closes the financing on a 903m
+  building. Money committed, so it clears the bar. Pinned to Jankovcova (50.1007, 14.4548).
+- **nadrazi-krc-metro-d-land-agreement** — the assembly also approved the property agreement with
+  Správa železnic for the metro D station at Nádraží Krč: the city builds the station, a P+R and the
+  new railway station building, SŽ ends up owning the building, DPP puts the metro control room in
+  it, city pays 12.6m for the land-value difference. The Krč half was never covered here — the
+  2026-09-10 post was the council's approval of the philharmonic/hlavní nádraží swap only, and it
+  said the assembly still had to confirm. Pinned to Nádraží Krč (50.0342, 14.4467).
+- **metro-d-libus-shuttle-north-variants** — Zdopravy.cz podcast with Libor Martínek (Metroprojekt,
+  chief engineer on metro D). Two real milestones inside an interview: Metroprojekt has handed over
+  the project-intent documentation for Pankrác – Náměstí Míru (permit possible by end of 2027), and
+  the operating model for the second section is now on the record — no turnback beyond Libuš, so
+  Pankrác–Nové Dvory with one or two shuttles to Libuš. Písnice a year or two behind, Písnice depot
+  undecided. Martínek's hedges kept as hedges. No pin: the story runs the length of the line.
+- **industrial-palace-reopens-after-renovation** — the Výstaviště palace is finished after a 3bn+
+  renovation begun February 2022, and opens to the public 25 September – 11 October before returning
+  to fairs. Written as the completion of the reconstruction, not as the tour programme. One source
+  (Prague Morning), attributed in the text. Pinned to Průmyslový palác (50.1067, 14.4303).
 
-### Released today (3) — different from what was written
+### Corrected in the queue (1)
 
-Written on 9 September, released now by `release.mjs`: `dedina-parking-house-opens`,
-`vrt-bechovice-svetla-design-bids`, `vyton-bridge-carbon-lamellae`. The Výtoň bridge is the lead
-(`featured: true`) — work starting on the most contested structure in the city.
+- **cityelefant-shortage-prague-commuter-trains** — written on 10 September, still unreleased, and
+  describing the CityElefant shortage as ongoing. Cluster 11 today carries Zdopravy.cz reporting that
+  the gap fell from ten missing units on Wednesday to three on Thursday morning. Publishing the draft
+  unchanged would have put a resolved outage on the site in the present tense, and the skill forbids
+  a second article from the same story. The draft was revised instead: new headline and dek, a
+  section on the recovery with Rajnochová's and Drápal's quotes, the third source added, tenses
+  fixed, and the two Czech-language quotes in the English file translated. The ETCS analysis stands.
+  Released today.
 
-Queue depth after release: 9.
+### Released today (3)
+
+- **mestsky-okruh-east-permit-documentation** (queued 09-10) — pinned as the day's lead. The updated
+  EIA decision dropping the congestion-charge condition on Prague's largest road scheme is the most
+  consequential of the three.
+- **motol-national-oncology-centre-opens** (queued 09-10).
+- **cityelefant-shortage-prague-commuter-trains** (queued 09-10, corrected above).
 
 ### Skipped, with reasons
 
-- *Rychlá otočka u výpadku CityElefantů* — progress note on a story already sitting in the queue
-  (`cityelefant-shortage-prague-commuter-trains`); nothing decided since. Not marked covered.
-- *Prague to Add 51 New Trams Next Year* — already published as
-  `2026-09-10-prague-orders-25-more-52t-trams`.
-- *Hřiště v Tovární má novou toaletu* (Praha 7) — a genuine small building by students of Ateliér
-  Mádr, FA ČVUT, but the page is a three-line perex: no cost, no dimensions, no quotes. Thin, so
-  dropped rather than padded.
-- *Stav přípravy železničního JŘ 2026/2027* (PID) — procedural status note. The draft was amended
-  after consultation but the release lists no line, no added or cancelled service; timetable takes
-  effect 13 December 2026. Nothing concrete to report.
-- *Liberecký kraj sepsal, co očekává od státu na železnici* — a regional wish-list, not a Prague
-  built-environment story.
-- *Očekávané komplikace na příjezdových silnicích* — a works diversion, and already in the past.
-- *Den neziskových organizací, DPP den otevřených dveří v Řepích, Dny evropského dědictví, PID
-  Point jízdní řády, Předškolička ZŠ Brána jazyků, natáčení v Letenských sadech, 28. září what's
-  open* — events, notices and local administrative detail.
-- *TZ: Praha 10 svolá aktéry staveb v Malešicích* — already published 2026-09-09.
+1. Metro D podcast — **written** (see above), not skipped.
+2. `19` Hřiště v Tovární má novou toaletu (Praha 7) — a new accessible toilet at a playground.
+   Local administrative detail; fails the "would this matter in another district" test.
+3. `19` Očekávané komplikace na příjezdových silnicích (PID) — a week of roadworks delays on
+   approach roads. Nothing decided; worthless in a month.
+4. `17` Neziskové organizace se představí na Andělu (Praha 5) — a one-day event, and it already
+   happened on 10 September.
+5. `17` DPP den otevřených dveří v garáži Řepy — DPP talking about itself, and the open day was
+   5 September. Exactly the press-office case the skill says to skip.
+6. `16` Stav přípravy železničního JŘ 2026/2027 (PID) — fetched. A procedural notice that the train
+   path ordering process is closed and no further comments can be accepted before 13 December; the
+   substance is in Správa železnic PDFs it links to, and the page itself carries no service changes
+   for any Prague line. Dropped rather than padded.
+7. `14` PID Point — the mobile information centre's September tour schedule. Institutional notice.
+8. `13` Dny evropského dědictví (Praha 1) — a programme of events.
+9. `12` ZŠ Brána jazyků Předškolička (Praha 1) — preschool sessions for future first-years.
+10. `12` Natáčení v Letenských sadech (Praha 7) — a film shoot and a short parking closure.
+11. `9` Liberecký kraj's railway wish-list — a Liberec region story. It reached the digest on the
+    word *Prahy* in the headline (the train to Prague), and the decisions in it are the state's and
+    the region's, not the city's. Not a city misidentification, so nothing to fix in
+    `relevance.mjs` — just a weak match.
+12. `6` September 28 Holiday: What Will Be Open and Closed — shop opening hours.
 
-### Notes
+### Notes for a human
 
-- No source errored; all 13 returned. No adapter looks broken — the quiet ones (IPR 0 new,
-  archiweb 0, iROZHLAS 0, ČT24 0) are all explained by the covered/outside-window counts or by the
-  hard Prague + built-environment filter.
-- No misfiled non-Prague story caught this run: nothing reached the digest on a district name
-  alone that turned out to be Brno or elsewhere.
-- Geocoding reached Nominatim. Three places resolved and written to `data/places.json`: Petřín,
-  Flora (picked candidate 6, *Stanice Flora – stavba výtahů*, the actual lift site rather than the
-  tram stop) and náměstí Svatopluka Čecha. Újezd was looked up and discarded — Nominatim's first
-  hit is Újezd in Smíchov/Praha 5, the wrong side of the river from the funicular's lower station;
-  the Petřín pin is used instead.
-- Nothing needs a human.
+- No source errored. All thirteen adapters returned. `praha.camp`, `IPR` and `Klub Za starou Prahu`
+  reported zero new only because everything they carry is outside the 21-day window; `iROZHLAS`
+  filtered all 40 as off-topic, which is its normal behaviour.
+- Both archiweb stories today came from the same assembly sitting. ČTK dates them differently —
+  "ve čtvrtek v noci" on the school loan, "dnes" on an 11 September dispatch for the land swap — so
+  each article reports the timing its own source gives, and neither asserts they were one vote.
+- Geocoding reached Nominatim; three places resolved and were written back to `data/places.json`.
+- Queue depth after the release: 10.

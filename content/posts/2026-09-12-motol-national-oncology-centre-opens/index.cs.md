@@ -3,7 +3,7 @@ slug: motol-national-oncology-centre-opens
 lang: cs
 title: "Pět miliard, tři roky a korupční kauza. V Motole se otevřelo Národní onkologické centrum"
 dek: "Národní onkologické centrum ve FN Motol a Na Homolce se otevřelo 9. září, stálo 4,96 miliardy korun a většinu zaplatily evropské peníze z Národního plánu obnovy. Kapacita onkologické péče v nemocnici stoupne o 40 procent. Stavba přežila výměnu vedení nemocnice, vyšetřování úplatků i požár pláště týden před slavnostním otevřením."
-queuedAt: 2026-09-10
+date: 2026-09-12
 category: development
 tags: ["Fakultní nemocnice Motol", "Národní onkologické centrum", "Národní plán obnovy", "Nemocnice Na Homolce"]
 district: "Praha 5 – Motol"
