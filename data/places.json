@@ -134,6 +134,13 @@
       "district": "Praha 10",
       "osm": "Kolovraty, obvod Praha 10, Praha, 103 00, Česko"
     },
+    "kuchynka": {
+      "name": "Kuchyňka",
+      "lat": 50.1173,
+      "lng": 14.45183,
+      "district": "Praha 8 – Kobylisy",
+      "osm": "Kuchyňka, V Holešovičkách, Kobylisy, Praha 8, obvod Praha 8, Praha, 180 81, Česko"
+    },
     "kuri": {
       "name": "Kuří",
       "lat": 49.98792,

@@ -3,7 +3,7 @@ slug: ipr-lost-paths-study-cesty
 lang: en
 title: "IPR Has Mapped 239 Kilometres of Vanished Paths in Prague, and the City Owns 141 of Them"
 dek: "A new study from IPR's landscape office, Cesty, reconstructs the field and pilgrim routes erased by collectivisation and building. In the wider metropolitan area 3,673 kilometres have gone; inside Prague the lost network still exists in the cadastre, mostly on city land."
-queuedAt: 2026-09-11
+date: 2026-09-13
 category: planning
 tags: ["IPR Praha", "krajina", "cesty", "cyklogenerel", "Letňany", "studie Cesty"]
 author: "Prague Insider Desk"

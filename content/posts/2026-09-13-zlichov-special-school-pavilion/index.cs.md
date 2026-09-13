@@ -3,7 +3,7 @@ slug: zlichov-special-school-pavilion
 lang: cs
 title: "Nový pavilon na Zlíchově zvedl kapacitu školy z 50 na 120 žáků"
 dek: "Praha dokončila přístavbu pavilonu základní školy pro žáky se specifickými poruchami chování na Zlíchově. Kapacita prvního stupně stoupla z 50 na 120 dětí, pavilon je plně bezbariérový a přinesl škole tělocvičnu, kterou dosud neměla. Teď začíná další etapa — rekonstrukce budovy prvního stupně."
-queuedAt: 2026-09-10
+date: 2026-09-13
 category: development
 tags: ["Zlíchov", "školství", "Hlavní město Praha", "bezbariérovost"]
 district: "Praha 5 – Zlíchov"

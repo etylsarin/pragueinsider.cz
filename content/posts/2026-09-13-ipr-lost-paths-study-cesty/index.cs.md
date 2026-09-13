@@ -3,7 +3,7 @@ slug: ipr-lost-paths-study-cesty
 lang: cs
 title: "IPR zmapoval 239 kilometrů zaniklých cest v Praze. Na 141 z nich má město pozemky"
 dek: "Studie Cesty z Kanceláře krajiny a zelené infrastruktury IPR rekonstruuje polní a poutní cesty, které smazalo scelování pozemků a nová zástavba. V metropolitní oblasti jich zaniklo 3 673 kilometrů; v samotné Praze síť dál existuje v katastru, většinou na městských pozemcích."
-queuedAt: 2026-09-11
+date: 2026-09-13
 category: planning
 tags: ["IPR Praha", "krajina", "cesty", "cyklogenerel", "Letňany", "studie Cesty"]
 author: "Prague Insider Desk"

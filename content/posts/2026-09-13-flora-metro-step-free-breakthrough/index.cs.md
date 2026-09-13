@@ -3,7 +3,7 @@ slug: flora-metro-step-free-breakthrough
 lang: cs
 title: "Na Floře prorazili z povrchu až do stanice. Na výtah si cestující počkají do února 2028"
 dek: "STRABAG a OHLA ŽS dokončili druhou ze dvou prorážek a nově ražené prostory spojili se stávající stanicí metra A. Od zahájení ražeb loni v prosinci ubylo 3 900 kubíků horniny. Po zprovoznění zůstane bez bezbariérového přístupu dvanáct z jednašedesáti stanic."
-queuedAt: 2026-09-11
+date: 2026-09-13
 category: transport
 tags: ["metro Flora", "bezbariérovost", "DPP", "STRABAG", "OHLA ŽS", "Vinohradská"]
 district: "Praha 3 – Žižkov"
@@ -12,7 +12,7 @@ location:
   lng: 14.4644
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3440-stanice-metra-flora-je-fyzicky-propojena-s-povrchem-novymi-vytahovymi-sachtami"

@@ -3,7 +3,7 @@ slug: zlichov-special-school-pavilion
 lang: en
 title: "A New Pavilion at Zlíchov More Than Doubles a School Prague Has Too Few Of"
 dek: "The city has finished the new pavilion at the primary school for pupils with specific behavioural disorders at Zlíchov, lifting first-stage capacity from 50 pupils to 120. It is fully barrier-free, it brings the school the gym it never had, and the next stage — rebuilding the older building — starts now."
-queuedAt: 2026-09-10
+date: 2026-09-13
 category: development
 tags: ["Zlíchov", "školství", "Hlavní město Praha", "bezbariérovost"]
 district: "Praha 5 – Zlíchov"

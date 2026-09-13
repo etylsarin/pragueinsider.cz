@@ -3,7 +3,7 @@ slug: flora-metro-step-free-breakthrough
 lang: en
 title: "Flora's Lift Shafts Break Through to the Platform, With the Lifts Themselves Still Eighteen Months Away"
 dek: "STRABAG and OHLA ŽS have holed through from the new shafts into the existing station, finishing the mining phase of Flora's step-free access. DPP expects the lifts to run at the end of February 2028, after which 12 of Prague's 61 metro stations remain inaccessible."
-queuedAt: 2026-09-11
+date: 2026-09-13
 category: transport
 tags: ["metro Flora", "bezbariérovost", "DPP", "STRABAG", "OHLA ŽS", "Vinohradská"]
 district: "Praha 3 – Žižkov"
@@ -12,7 +12,7 @@ location:
   lng: 14.4644
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3440-stanice-metra-flora-je-fyzicky-propojena-s-povrchem-novymi-vytahovymi-sachtami"

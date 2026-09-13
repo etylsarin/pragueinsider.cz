@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -56,7 +56,7 @@
       "title": "Trvalé změny PID od 15. 8. 2026: tunelbus 145, prodloužení linky 218 a rozdělení linky 110",
       "source": "PID / ROPID",
       "firstSeen": "2026-08-26",
-      "usedInPost": "blanka-tunnel-bus-145"
+      "usedInPost": "blanka-tunnel-bus-145,line-145-kuchynka-stop"
     },
     "172da2759fe61877": {
       "url": "https://zdopravy.cz/lanovka-na-petrin-opet-vyjede-s-cestujicimi-dpp-zverejnil-termin-litacka-uz-nabizi-specialni-jizdne-298632",
@@ -197,6 +197,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-02",
       "usedInPost": "praha-6-kocince-libocka-schools-open"
+    },
+    "3ab572a51972d0ab": {
+      "url": "https://www.praha8.cz/Linka-145-zacne-od-29-zari-zastavovat-na-Kuchynce.html",
+      "title": "Linka 145 začne od 29. září zastavovat na Kuchyňce",
+      "source": "Městská část Praha 8",
+      "firstSeen": "2026-09-13",
+      "usedInPost": "line-145-kuchynka-stop"
     },
     "3acdfadd5eff7c1e": {
       "url": "https://www.archiweb.cz/n/domaci/praha-otevrela-parkovaci-dum-na-dedine-v-praze-6-s-290-misty-k-parkovani",
