@@ -3,7 +3,7 @@ slug: svatopluka-cecha-square-third-meeting
 lang: en
 title: "Parking or Planting: Prague 10 Calls a Third Meeting on Náměstí Svatopluka Čecha"
 dek: "Two summer meetings drew about 75 and 40 people and produced a split the architects now have to resolve — more greenery against keeping the parking. A third session comes in the autumn, and heritage protection of the views to St Wenceslas already limits what can be planted in the middle."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: public-space
 tags: ["náměstí Svatopluka Čecha", "Vršovice", "Praha 10", "architektonická soutěž", "modro-zelená infrastruktura"]
 district: "Praha 10 – Vršovice"

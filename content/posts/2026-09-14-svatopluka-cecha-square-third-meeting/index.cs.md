@@ -3,7 +3,7 @@ slug: svatopluka-cecha-square-third-meeting
 lang: cs
 title: "Parkování, nebo stromy. Praha 10 svolává třetí setkání k náměstí Svatopluka Čecha"
 dek: "Dvě prázdninová setkání přivedla zhruba 75 a 40 lidí a skončila rozporem, který teď mají vyřešit architekti. Třetí termín bude na podzim. Kolik zeleně vznikne uprostřed náměstí, přitom limituje památkový požadavek na zachování pohledů na kostel sv. Václava."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: public-space
 tags: ["náměstí Svatopluka Čecha", "Vršovice", "Praha 10", "architektonická soutěž", "modro-zelená infrastruktura"]
 district: "Praha 10 – Vršovice"

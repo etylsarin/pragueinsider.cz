@@ -3,7 +3,7 @@ slug: petrin-funicular-reopens-22-september
 lang: cs
 title: "Lanovka na Petřín vyjede 22. září. Jízdenka podražila na sto korun"
 dek: "DPP oznámil termín: zkušební provoz s cestujícími začne v úterý 22. září v sedm ráno, po dvou letech od konce třetí generace. Přestavba tratě stála 134 milionů, dva nové vozy 137,7 milionu a papírová jízdenka stoupá ze šedesáti na sto korun."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Anna Marešová designers", "Metrostav DIZ", "Újezd"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.3949
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026"

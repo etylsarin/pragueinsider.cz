@@ -3,7 +3,7 @@ slug: metro-e-feasibility-study-approved
 lang: en
 title: "Prague Commissions a Feasibility Study for a Fifth Metro Line It Cannot Currently Afford"
 dek: "City councillors approved on 7 September that IPR should prepare a feasibility study for a Smíchov–Pankrác–Bohdalec–Žižkov–Vysočany–Letňany route. Fully underground it would cost around 220 billion crowns, so the study will also weigh surface metro and light rail."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: transport
 tags: ["metro E", "metro O", "IPR Praha", "light rail", "Letňany", "Pankrác"]
 author: "Prague Insider Desk"

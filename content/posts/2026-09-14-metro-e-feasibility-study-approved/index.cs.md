@@ -3,7 +3,7 @@ slug: metro-e-feasibility-study-approved
 lang: cs
 title: "Praha si nechá prověřit pátou linku metra, na kterou zatím nemá"
 dek: "Radní 7. září schválili, že IPR zpracuje studii proveditelnosti trasy Smíchov–Pankrác–Bohdalec–Žižkov–Vysočany–Letňany. Celá pod zemí by vyšla zhruba na 220 miliard, a tak studie posoudí i povrchové metro nebo lehkou kolejovou dopravu."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: transport
 tags: ["metro E", "metro O", "IPR Praha", "lehká kolejová doprava", "Letňany", "Pankrác"]
 author: "Prague Insider Desk"

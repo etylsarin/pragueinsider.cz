@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -408,6 +408,13 @@
       "firstSeen": "2026-08-28",
       "usedInPost": "olsanska-habrova-tram-closure"
     },
+    "7f65aa3ef3952178": {
+      "url": "https://www.expats.cz/czech-news/article/can-you-make-the-next-metro-prague-rolls-out-smarter-countdown-screens",
+      "title": "Can you make the next metro? Prague rolls out smarter countdown screens",
+      "source": "Expats.cz",
+      "firstSeen": "2026-09-14",
+      "usedInPost": "metro-countdown-panels-redesign"
+    },
     "83add9b744d2fec0": {
       "url": "https://iprpraha.cz/city-deal-leto2026",
       "title": "Česká města sdílejí zkušenosti. A hovoří o reformě svého plánování",
@@ -541,6 +548,13 @@
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
     },
+    "b5792b917403dacf": {
+      "url": "https://zdopravy.cz/neberte-nam-nase-uspory-a-prispejte-na-stavby-vyzvala-praha-vladu-ministr-vsak-vidi-priority-jinde-299130",
+      "title": "Neberte nám naše úspory a přispějte na stavby, vyzvala Praha vládu. Ministr však vidí priority jinde",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-14",
+      "usedInPost": "prague-vat-transport-funding-resolution"
+    },
     "b60fe4ce3489875a": {
       "url": "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497",
       "title": "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami",
@@ -603,6 +617,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-26",
       "usedInPost": "roztocka-lane-closure-shortened"
+    },
+    "e0906498a338e1a1": {
+      "url": "https://zdopravy.cz/nova-grafika-i-delsi-odpocty-v-prazskem-metru-predelavaji-informacni-panely-298977",
+      "title": "Nová grafika i delší odpočty. V pražském metru předělávají informační panely",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-14",
+      "usedInPost": "metro-countdown-panels-redesign"
     },
     "e09d7a03b30b6fc2": {
       "url": "https://zdopravy.cz/prodlouzeni-linky-metra-d-do-centra-projektanti-vymysli-kudy-prestupovat-a-zda-vznikne-pokracovani-na-zizkov-297532",

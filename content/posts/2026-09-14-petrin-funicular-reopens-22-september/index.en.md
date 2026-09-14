@@ -3,7 +3,7 @@ slug: petrin-funicular-reopens-22-september
 lang: en
 title: "The Petřín Funicular Returns on 22 September, and the Fare Rises to a Hundred Crowns"
 dek: "Two years after heavy rain ended the third-generation funicular's life, DPP will start trial passenger service with the new cars at 7am on 22 September. The rebuilt track cost 134 million crowns, the two cars 137.7 million, and the single ticket goes from 60 crowns to 100."
-queuedAt: 2026-09-11
+date: 2026-09-14
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Anna Marešová designers", "Metrostav DIZ", "Újezd"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.3949
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026"
