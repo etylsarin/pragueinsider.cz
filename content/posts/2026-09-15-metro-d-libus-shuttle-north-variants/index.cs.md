@@ -3,7 +3,7 @@ slug: metro-d-libus-shuttle-north-variants
 lang: cs
 title: "Na Libuš pendlem. Déčko tam možná dojede dřív, než se bude mít kde otočit"
 dek: "Hlavní inženýr projektu metra D Libor Martínek popsal provozní model druhého úseku: jezdit se má z Pankráce na Nové Dvory a mezi Novými Dvory a Libuší jeden až dva pendly. Písnice vypadá na rok až dva skluzu, dokumentace k záměru projektu úseku Pankrác – Náměstí Míru je odevzdaná."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: transport
 tags: ["metro D", "Libuš", "Písnice", "Metroprojekt", "Žižkov"]
 author: "Prague Insider Desk"

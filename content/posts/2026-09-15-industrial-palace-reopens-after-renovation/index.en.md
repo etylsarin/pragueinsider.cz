@@ -3,7 +3,7 @@ slug: industrial-palace-reopens-after-renovation
 lang: en
 title: "The Industrial Palace Opens for Seventeen Days, Then Goes Back to Work"
 dek: "Eighteen years after fire took its left wing and four and a half years after the builders moved in, the Výstaviště landmark is finished. The public gets guided tours from 25 September to 11 October; after that it returns to being a hall for fairs and events, starting with Designblok."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: architecture
 tags: ["Průmyslový palác", "Výstaviště", "Holešovice", "Prague City Tourism", "rekonstrukce"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4303
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Prague’s Industrial Palace to Reopen to the Public for Guided Tours"
     url: "https://praguemorning.cz/prague-industrial-palace-reopening"

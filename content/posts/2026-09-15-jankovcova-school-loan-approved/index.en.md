@@ -3,7 +3,7 @@ slug: jankovcova-school-loan-approved
 lang: en
 title: "Prague Lends Praha 7 the Last 166 Million for a School It Cannot Fill Yet"
 dek: "City councillors approved a repayable 165.8-million-crown advance to Praha 7 for the Jan Vodňanský primary school on Jankovcova, closing the financing on a 903-million-crown building. The district's six schools are full; its own demographic study expects 4,500 school-age children by 2029."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: development
 tags: ["Jankovcova", "ZŠ Jana Vodňanského", "Praha 7", "Holešovice", "školy"]
 district: "Praha 7 – Holešovice"

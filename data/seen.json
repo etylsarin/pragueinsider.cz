@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -387,6 +387,13 @@
       "firstSeen": "2026-09-11",
       "usedInPost": "flora-metro-step-free-breakthrough"
     },
+    "74e60b6eb2408608": {
+      "url": "https://praha10.cz/tz-po-jednani-starosty-prichazeji-denni-kontroly-staveb-v-malesicich-a-verejne-harmonogramy",
+      "title": "TZ: Po jednání starosty přicházejí denní kontroly staveb v Malešicích a veřejné harmonogramy",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-09-15",
+      "usedInPost": "malesice-construction-daily-inspections"
+    },
     "77656c59f089702a": {
       "url": "https://www.praha7.cz/dokonceni-spot",
       "title": "Praha 7 dokončila Spot Holešovice – prostor pro hru, sport a odpočinek",
@@ -407,6 +414,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-28",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "7db3f4460d70e492": {
+      "url": "https://zdopravy.cz/rsd-uz-ma-smlouvu-na-rozsireni-casti-prazskeho-okruhu-na-sestipruh-o-vitezi-rozhodla-i-rychlost-299331",
+      "title": "ŘSD už má smlouvu na rozšíření části Pražského okruhu na šestipruh. O vítězi rozhodla i rychlost",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-15",
+      "usedInPost": "d0-pocernicky-rybnik-bridge-contract"
     },
     "7f65aa3ef3952178": {
       "url": "https://www.expats.cz/czech-news/article/can-you-make-the-next-metro-prague-rolls-out-smarter-countdown-screens",

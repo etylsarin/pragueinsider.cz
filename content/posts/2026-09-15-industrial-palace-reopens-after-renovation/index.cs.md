@@ -3,7 +3,7 @@ slug: industrial-palace-reopens-after-renovation
 lang: cs
 title: "Průmyslový palác se otevře na sedmnáct dní, pak se vrátí k veletrhům"
 dek: "Osmnáct let po požáru levého křídla a čtyři a půl roku po nástupu stavbařů je rekonstrukce za víc než tři miliardy hotová. Veřejnost se dovnitř dostane na komentované prohlídky od 25. září do 11. října, pak palác obsadí Designblok."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: architecture
 tags: ["Průmyslový palác", "Výstaviště", "Holešovice", "Prague City Tourism", "rekonstrukce"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4303
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Prague’s Industrial Palace to Reopen to the Public for Guided Tours"
     url: "https://praguemorning.cz/prague-industrial-palace-reopening"

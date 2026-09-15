@@ -3,7 +3,7 @@ slug: jankovcova-school-loan-approved
 lang: cs
 title: "Praha půjčí sedmičce 165,8 milionu. Škola v Jankovcově má dofinancováno"
 dek: "Zastupitelstvo hlavního města schválilo Praze 7 návratnou finanční výpomoc na stavbu ZŠ Jana Vodňanského. Celá škola za 903 milionů nabídne 550 míst; šest stávajících základních škol v městské části je zaplněno na sto procent."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: development
 tags: ["Jankovcova", "ZŠ Jana Vodňanského", "Praha 7", "Holešovice", "školy"]
 district: "Praha 7 – Holešovice"

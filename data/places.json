@@ -162,6 +162,13 @@
       "district": "Praha 9",
       "osm": "Letňany, obvod Praha 9, Praha, Česko"
     },
+    "malesice": {
+      "name": "Malešice",
+      "lat": 50.08135,
+      "lng": 14.51651,
+      "district": "Praha 10",
+      "osm": "Malešice, obvod Praha 10, Praha, 108 00, Česko"
+    },
     "malovanka": {
       "name": "Malovanka",
       "lat": 50.0883,
@@ -315,6 +322,13 @@
       "lng": 14.50371,
       "district": "Praha 10 – Malešice",
       "osm": "Počernická, Malešice, Praha 10, obvod Praha 10, Praha, 108 00, Česko"
+    },
+    "pocernicky rybnik": {
+      "name": "Počernický rybník",
+      "lat": 50.08525,
+      "lng": 14.58694,
+      "district": "Praha 9",
+      "osm": "Počernický rybník, Praha-Dolní Počernice, obvod Praha 9, Praha, Česko"
     },
     "pod krejcarkem": {
       "name": "Pod Krejcárkem",

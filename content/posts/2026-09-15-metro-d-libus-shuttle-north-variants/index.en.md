@@ -3,7 +3,7 @@ slug: metro-d-libus-shuttle-north-variants
 lang: en
 title: "Metro D May Reach Libuš Without Being Able to Turn Round There"
 dek: "The line's chief engineer says Libuš could open with the second section, but the turnback sidings are at Nové Dvory — so trains would run Pankrác–Nové Dvory with one or two shuttles beyond. Písnice looks a year or two behind, and the documentation for Pankrác–Náměstí Míru has just gone in."
-queuedAt: 2026-09-12
+date: 2026-09-15
 category: transport
 tags: ["metro D", "Libuš", "Písnice", "Metroprojekt", "Žižkov"]
 author: "Prague Insider Desk"
