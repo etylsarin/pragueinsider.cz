@@ -3,7 +3,7 @@ slug: line-145-kuchynka-stop
 lang: cs
 title: "Tunelbus 145 zastaví na Kuchyňce. Do úseku, který měl projíždět bez zastavení"
 dek: "Od 29. září, kdy začíná akademický rok, obslouží linka 145 univerzitní areál na Pelc–Tyrolce. Praha 8 o zastávku opakovaně žádala ROPID, oficiální žádost poslala i Univerzita Karlova. V srpnovém jízdním řádu měla linka projet V Holešovičkách bez jediné zastávky."
-queuedAt: 2026-09-13
+date: 2026-09-16
 category: transport
 tags: ["linka 145", "Kuchyňka", "ROPID", "PID", "Pelc-Tyrolka", "Univerzita Karlova", "autobusy"]
 district: "Praha 8 – Libeň"

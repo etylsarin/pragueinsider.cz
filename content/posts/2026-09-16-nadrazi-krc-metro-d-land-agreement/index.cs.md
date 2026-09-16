@@ -3,7 +3,7 @@ slug: nadrazi-krc-metro-d-land-agreement
 lang: cs
 title: "Výpravní budovu v Krči postaví město a předá ji Správě železnic"
 dek: "Zastupitelstvo schválilo majetkovou dohodu se Správou železnic k budoucí stanici metra D Nádraží Krč. Město tam postaví stanici, P+R i novou výpravní budovu; vlastnit ji bude Správa železnic a dopravní podnik do ní umístí dispečink metra."
-queuedAt: 2026-09-12
+date: 2026-09-16
 category: transport
 tags: ["metro D", "Nádraží Krč", "Správa železnic", "DPP", "P+R"]
 district: "Praha 4 – Krč"
@@ -12,7 +12,7 @@ location:
   lng: 14.4467
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha smění se Správou železnic pozemky pro metro či Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-smeni-se-spravou-zeleznic-pozemky-pro-metro-ci-vltavskou-filharmonii"

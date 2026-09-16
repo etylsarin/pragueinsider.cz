@@ -15,6 +15,13 @@
       "district": "Praha 9 – Prosek",
       "osm": "Balabenka, Kovanecká, Balabenka, Prosek, Praha 9, obvod Praha 9, Praha, 190 93, Česko"
     },
+    "bartolomejska": {
+      "name": "Bartolomějská",
+      "lat": 50.08315,
+      "lng": 14.41779,
+      "district": "Praha 1 – Staré Město",
+      "osm": "Bartolomějská, Staré Město, obvod Praha 1, Praha, 116 65, Česko"
+    },
     "bechovice": {
       "name": "Běchovice",
       "lat": 50.08117,
@@ -120,6 +127,13 @@
       "district": "Praha 10 – Záběhlice",
       "osm": "K Prádelně, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
     },
+    "kampa": {
+      "name": "Kampa",
+      "lat": 50.08388,
+      "lng": 14.40766,
+      "district": "Praha 1 – Malá Strana",
+      "osm": "Kampa, Malá Strana, obvod Praha 1, Praha, Česko"
+    },
     "ke stvanici": {
       "name": "Ke Štvanici",
       "lat": 50.09066,
@@ -161,6 +175,13 @@
       "lng": 14.51581,
       "district": "Praha 9",
       "osm": "Letňany, obvod Praha 9, Praha, Česko"
+    },
+    "lochkov": {
+      "name": "Lochkov",
+      "lat": 50.00251,
+      "lng": 14.35367,
+      "district": "Praha 5",
+      "osm": "Praha-Lochkov, obvod Praha 5, Praha, Česko"
     },
     "malesice": {
       "name": "Malešice",
@@ -344,6 +365,13 @@
       "district": "Praha 1 – Nové Město",
       "osm": "Praha hlavní nádraží, Wilsonova, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
+    "praha smichov": {
+      "name": "Praha-Smíchov",
+      "lat": 50.06098,
+      "lng": 14.40813,
+      "district": "Praha 5",
+      "osm": "Praha-Smíchov, Nádražní, Dívčí hrady, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
+    },
     "prasny most": {
       "name": "Prašný most",
       "lat": 50.09147,
@@ -371,6 +399,13 @@
       "lng": 14.41335,
       "district": "Praha 1 – Staré Město",
       "osm": "Smetanovo nábřeží, Staré Město, obvod Praha 1, Praha, 116 65, Česko"
+    },
+    "smichov city": {
+      "name": "Smíchov City",
+      "lat": 50.05931,
+      "lng": 14.40758,
+      "district": "Praha 5",
+      "osm": "Smíchov City, Praha 5, obvod Praha 5, Praha, Česko"
     },
     "smichovske nadrazi": {
       "name": "Smíchovské nádraží",

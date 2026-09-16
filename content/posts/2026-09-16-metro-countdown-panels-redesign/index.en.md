@@ -3,7 +3,7 @@ slug: metro-countdown-panels-redesign
 lang: en
 title: "The Metro's Countdown Screens Are Being Redrawn, and the Countdown Itself Is Being Made to Last Longer"
 dek: "PID and DPP are rolling out new graphics on the IPOČ panels at station entrances and testing, at selected stations, a longer display of the next train. The old timing assumed you stand still on the escalator; most passengers walk."
-queuedAt: 2026-09-14
+date: 2026-09-16
 category: transport
 tags: ["metro", "PID", "DPP", "IPOČ", "informační systém"]
 author: "Prague Insider Desk"

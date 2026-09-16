@@ -3,7 +3,7 @@ slug: metro-countdown-panels-redesign
 lang: cs
 title: "Panely v metru dostávají novou grafiku. A odpočet na nich má vydržet déle"
 dek: "PID s dopravním podnikem nasazují upravenou grafiku panelů IPOČ u vstupů do stanic a na vybraných stanicích testují delší zobrazení nejbližšího spoje. Dosavadní nastavení počítalo s tím, že na eskalátoru stojíte. Většina cestujících po něm chodí."
-queuedAt: 2026-09-14
+date: 2026-09-16
 category: transport
 tags: ["metro", "PID", "DPP", "IPOČ", "informační systém"]
 author: "Prague Insider Desk"

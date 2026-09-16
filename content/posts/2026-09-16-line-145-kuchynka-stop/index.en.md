@@ -3,7 +3,7 @@ slug: line-145-kuchynka-stop
 lang: en
 title: "Line 145 Will Stop at Kuchyňka, Putting the First Break in Its Run Under the Hill"
 dek: "From 29 September the Blanka tunnel bus calls at the Pelc–Tyrolka campus, after repeated approaches from Prague 8 and a formal request from Charles University. The line was timetabled in August to run V Holešovičkách without stopping at all."
-queuedAt: 2026-09-13
+date: 2026-09-16
 category: transport
 tags: ["line 145", "Kuchyňka", "ROPID", "PID", "Pelc-Tyrolka", "Charles University", "buses"]
 district: "Praha 8 – Libeň"

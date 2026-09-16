@@ -3,7 +3,7 @@ slug: nadrazi-krc-metro-d-land-agreement
 lang: en
 title: "At Nádraží Krč the City Will Build the Station Hall and Then Give It Away"
 dek: "Prague's assembly signed off the property deal that makes the metro D station, a P+R car park and a rebuilt railway station at Krč one construction site. The city demolishes the old station building and puts up the new one; Správa železnic will own it, and DPP will run the metro's control room inside it."
-queuedAt: 2026-09-12
+date: 2026-09-16
 category: transport
 tags: ["metro D", "Nádraží Krč", "Správa železnic", "DPP", "P+R"]
 district: "Praha 4 – Krč"
@@ -12,7 +12,7 @@ location:
   lng: 14.4467
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha smění se Správou železnic pozemky pro metro či Vltavskou filharmonii"
     url: "https://www.archiweb.cz/n/domaci/praha-smeni-se-spravou-zeleznic-pozemky-pro-metro-ci-vltavskou-filharmonii"

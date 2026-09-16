@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -197,6 +197,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-02",
       "usedInPost": "praha-6-kocince-libocka-schools-open"
+    },
+    "37d06f705647bc3c": {
+      "url": "https://zdopravy.cz/nova-spojka-ulevi-doprave-na-jihozapade-prahy-vznikla-z-cesty-pro-stavbare-okruhu-299460",
+      "title": "Nová spojka uleví dopravě na jihozápadě Prahy. Vznikla z cesty pro stavbaře okruhu",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "lochkov-slivenec-link-road-opens"
     },
     "3ab572a51972d0ab": {
       "url": "https://www.praha8.cz/Linka-145-zacne-od-29-zari-zastavovat-na-Kuchynce.html",
@@ -443,6 +450,13 @@
       "firstSeen": "2026-09-08",
       "usedInPost": "vltava-philharmonic-land-swap"
     },
+    "8ac793a9123fcb79": {
+      "url": "https://zdopravy.cz/sz-chysta-dalsi-velkou-soutez-na-projektovani-vysokorychlostni-trati-vyvede-vlaky-z-vrsovic-do-bechovic-299538",
+      "title": "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "vrt-vrsovice-bechovice-design-tender"
+    },
     "8b4403f67f7ea130": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici",
       "title": "DPP dokončil rekonstrukci stropní desky nad vestibulem stanice metra Florenc a obnovuje provoz v ulici Ke Štvanici",
@@ -555,6 +569,13 @@
       "firstSeen": "2026-09-11",
       "usedInPost": "petrin-funicular-reopens-22-september"
     },
+    "af1cb393d337634d": {
+      "url": "https://www.praha1.cz/uohs-potvrdil-postup-prahy-1-revitalizace-parku-kampa-muze-zacit",
+      "title": "ÚOHS potvrdil postup Prahy 1. Revitalizace parku Kampa může začít",
+      "source": "Městská část Praha 1",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "kampa-park-uohs-clears-contract"
+    },
     "b2f5c106a764f5c6": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3331-dpp-vysoutezil-zhotovitele-nove-tramvajove-trate-olsanska-habrova-vystavba-zacne-ve-tretim-ctvrtleti",
       "title": "DPP vysoutěžil zhotovitele nové tramvajové tratě Olšanská–Habrová, výstavba začne ve třetím čtvrtletí",
@@ -575,6 +596,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-09",
       "usedInPost": "vyton-bridge-carbon-lamellae"
+    },
+    "b7438747afdf42aa": {
+      "url": "https://www.archiweb.cz/n/domaci/rekonstrukce-budovy-smichovskeho-nadrazi-ma-zacit-v-roce-2029",
+      "title": "Rekonstrukce budovy Smíchovského nádraží má začít v roce 2029",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "smichov-station-building-2029"
     },
     "b9094de3cc00f8c0": {
       "url": "https://www.archiweb.cz/n/domaci/praha-smeni-se-spravou-zeleznic-pozemky-pro-metro-ci-vltavskou-filharmonii",
@@ -617,6 +645,20 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
       "usedInPost": "d0-511-opening-slips-to-2028"
+    },
+    "cc321e33e45ae028": {
+      "url": "https://www.praha5.cz/investor-da-na-rozvoj-smichova-temer-120-milionu",
+      "title": "Investor dá na rozvoj Smíchova téměř 120 milionů",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "smichov-city-school-donation"
+    },
+    "cd6cdaf7db826c74": {
+      "url": "https://www.praha1.cz/ziva-pamet-vyhlasuje-umeleckou-soutez-na-navrh-pametni-desky-obetem-holokaustu-romu-a-sintu",
+      "title": "Živá paměť vyhlašuje uměleckou soutěž na návrh pamětní desky obětem holokaustu Romů a Sintů",
+      "source": "Městská část Praha 1 (převzatá tisková zpráva Živé paměti, o.p.s.)",
+      "firstSeen": "2026-09-16",
+      "usedInPost": "bartolomejska-roma-memorial-competition"
     },
     "d8b3f57474089b26": {
       "url": "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3",
