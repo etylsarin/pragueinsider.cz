@@ -3,12 +3,12 @@ slug: prague-vat-transport-funding-resolution
 lang: cs
 title: "Praha vyzvala vládu, ať jí nesahá na úspory. Ministr dopravy odpovídá, že není ministrem Prahy"
 dek: "Zastupitelé schválili usnesení proti zdanění kompenzací za veřejnou dopravu, které podle Adama Scheinherra může stát až šest miliard ročně, i proti tomu, aby SFDI přestal přispívat na pražské silnice. Ivan Bednárik nabízí protihodnotu: spolufinancování ve výši 30 až 40 procent."
-queuedAt: 2026-09-14
+date: 2026-09-17
 category: transport
 tags: ["DPH", "SFDI", "metro D", "Městský okruh", "Adam Scheinherr", "Ivan Bednárik", "financování"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Neberte nám naše úspory a přispějte na stavby, vyzvala Praha vládu. Ministr však vidí priority jinde"
     url: "https://zdopravy.cz/neberte-nam-nase-uspory-a-prispejte-na-stavby-vyzvala-praha-vladu-ministr-vsak-vidi-priority-jinde-299130"

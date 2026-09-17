@@ -57,6 +57,13 @@
       "district": "Praha 6",
       "osm": "Česká zemědělská univerzita v Praze, Sídlištní, Praha-Suchdol, obvod Praha 6, Praha, 165 00, Česko"
     },
+    "cisarsky ostrov": {
+      "name": "Císařský ostrov",
+      "lat": 50.11628,
+      "lng": 14.39653,
+      "district": "Praha 6",
+      "osm": "Císařský ostrov, Praha 6, obvod Praha 6, Praha, Česko"
+    },
     "dedina": {
       "name": "Dědina",
       "lat": 50.08894,
@@ -105,6 +112,13 @@
       "lng": 14.30375,
       "district": "Praha 6 – Řepy",
       "osm": "garáže Řepy, Řepy, Praha 17, obvod Praha 6, Praha, Česko"
+    },
+    "hogerova": {
+      "name": "Högerova",
+      "lat": 50.03258,
+      "lng": 14.37733,
+      "district": "Praha 5",
+      "osm": "Högerova, Barrandov, Praha 5, obvod Praha 5, Praha, 152 00, Česko"
     },
     "jahodnice": {
       "name": "Jahodnice",
@@ -161,6 +175,13 @@
       "lng": 14.62062,
       "district": null,
       "osm": "Kuří, Říčany, okres Praha-východ, Středočeský kraj, Česko"
+    },
+    "lanova draha na petrin": {
+      "name": "Lanová dráha na Petřín",
+      "lat": 50.08265,
+      "lng": 14.40303,
+      "district": "Praha 1 – Malá Strana",
+      "osm": "Lanová dráha na Petřín, U Lanové dráhy, Malá Strana, obvod Praha 1, Praha, 118 00, Česko"
     },
     "letiste vaclava havla praha": {
       "name": "Letiště Václava Havla Praha",

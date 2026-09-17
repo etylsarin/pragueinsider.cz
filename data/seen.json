@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "entries": {
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
@@ -22,6 +22,13 @@
       "source": "Prague Morning",
       "firstSeen": "2026-09-11",
       "usedInPost": "petrin-funicular-reopens-22-september"
+    },
+    "0871634ba4568ff1": {
+      "url": "https://www.archiweb.cz/n/domaci/v-praze-zacne-v-rijnu-rekonstrukce-stare-vodni-linky-za-4-79-miliardy-korun",
+      "title": "V Praze začne v říjnu rekonstrukce staré vodní linky za 4,79 miliardy korun",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-17",
+      "usedInPost": "ucov-old-water-line-reconstruction"
     },
     "092655d959f3cec9": {
       "url": "https://zdopravy.cz/trolejbusy-bozankaya-uz-mesice-cekaji-v-garazich-kvuli-prekladu-dokumentu-je-praha-stale-neprevzala-296128",
@@ -317,6 +324,13 @@
       "firstSeen": "2026-09-09",
       "usedInPost": "vrt-bechovice-svetla-design-bids"
     },
+    "587ab1d6b56a080f": {
+      "url": "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti",
+      "title": "Návrh okolí stanice metra Nádraží Holešovice připraví CHYBIK + KRISTOF",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-17",
+      "usedInPost": "nadrazi-holesovice-competition-chybik-kristof"
+    },
     "5d8952a95266bef1": {
       "url": "https://zdopravy.cz/t3-zady-k-sobe-v-praze-se-vraci-do-provozu-neobvykle-soupravy-296003",
       "title": "T3 zády k sobě. V Praze se vrací do provozu neobvyklé soupravy",
@@ -443,6 +457,13 @@
       "firstSeen": "2026-08-26",
       "usedInPost": "citydeal-twelve-cities"
     },
+    "867e5588507d10df": {
+      "url": "https://www.praha5.cz/nova-stredni-skola-pro-barrandov",
+      "title": "Nová střední škola pro Barrandov",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-09-17",
+      "usedInPost": "barrandov-secondary-school-study"
+    },
     "86bf37592ff546f6": {
       "url": "https://www.archiweb.cz/n/domaci/praha-chce-se-spravou-zeleznic-smenit-pozemky-pro-stavbu-vltavske-filharmonie",
       "title": "Praha chce se Správou železnic směnit pozemky pro stavbu Vltavské filharmonie",
@@ -491,6 +512,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-25",
       "usedInPost": "brandejsuv-statek-gymnasium-tender"
+    },
+    "9311a99548774cca": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/v-praze-zacne-miliardova-rekonstrukce-stare-vodni-linky-ustredni-cistirny-377673",
+      "title": "V Praze začne miliardová rekonstrukce staré vodní linky ústřední čistírny",
+      "source": "ČT24 (ČTK)",
+      "firstSeen": "2026-09-17",
+      "usedInPost": "ucov-old-water-line-reconstruction"
     },
     "932ad38450f584d0": {
       "url": "https://www.praha7.cz/barevnejsi-ulice",
@@ -673,6 +701,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-26",
       "usedInPost": "roztocka-lane-closure-shortened"
+    },
+    "de11023276bd1fc0": {
+      "url": "https://praguemorning.cz/holesovice-station-redevelopment",
+      "title": "Two New Squares and a Tower Planned Around Holešovice Station",
+      "source": "Prague Morning",
+      "firstSeen": "2026-09-17",
+      "usedInPost": "nadrazi-holesovice-competition-chybik-kristof"
     },
     "e0906498a338e1a1": {
       "url": "https://zdopravy.cz/nova-grafika-i-delsi-odpocty-v-prazskem-metru-predelavaji-informacni-panely-298977",

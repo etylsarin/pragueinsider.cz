@@ -3,12 +3,12 @@ slug: prague-vat-transport-funding-resolution
 lang: en
 title: "Prague Tells the Government to Leave Its Savings Alone. The Transport Minister Says He Is Not Prague's Minister"
 dek: "City councillors have passed a resolution against extending VAT to public transport compensation — a change Adam Scheinherr puts at up to six billion crowns a year — and against the state road fund pulling out of Prague's roads. Ivan Bednárik's answer: co-finance 30 to 40 percent and he will listen."
-queuedAt: 2026-09-14
+date: 2026-09-17
 category: transport
 tags: ["DPH", "SFDI", "metro D", "Městský okruh", "Adam Scheinherr", "Ivan Bednárik", "financování"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Neberte nám naše úspory a přispějte na stavby, vyzvala Praha vládu. Ministr však vidí priority jinde"
     url: "https://zdopravy.cz/neberte-nam-nase-uspory-a-prispejte-na-stavby-vyzvala-praha-vladu-ministr-vsak-vidi-priority-jinde-299130"

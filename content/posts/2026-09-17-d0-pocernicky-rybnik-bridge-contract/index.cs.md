@@ -3,7 +3,7 @@ slug: d0-pocernicky-rybnik-bridge-contract
 lang: cs
 title: "Za kratší omezení na okruhu dalo ŘSD o 190 milionů víc. Smlouva na most přes Počernický rybník je podepsaná"
 dek: "Most na Pražském okruhu čeká demolice a nová šestipruhová mostovka. Vyhrálo sdružení Metrostav TBR a FIRESTA, které nebylo nejlevnější — o výsledku rozhodlo, že slíbilo omezení o 163 dnů kratší."
-queuedAt: 2026-09-15
+date: 2026-09-17
 category: transport
 tags: ["D0", "Pražský okruh", "ŘSD", "Metrostav", "Počernický rybník", "Dubeč"]
 district: "Praha-Dolní Počernice"

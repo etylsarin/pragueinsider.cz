@@ -3,7 +3,7 @@ slug: malesice-construction-daily-inspections
 lang: en
 title: "Prague 10 Now Sends Someone to Walk the Malešice Building Sites Every Day"
 dek: "After a 10 September meeting with the transport company, the water utility and the Počernická tram contractors, the district has put a staff member on the ground daily, extracted direct contacts and promised a single website with every schedule on it. If new contaminants turn up in the spoil, work stops."
-queuedAt: 2026-09-15
+date: 2026-09-17
 category: public-space
 tags: ["Malešice", "Počernická", "tram line", "Praha 10", "construction", "Centrum Paraple"]
 district: "Praha 10 – Malešice"

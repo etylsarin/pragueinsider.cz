@@ -3,7 +3,7 @@ slug: d0-pocernicky-rybnik-bridge-contract
 lang: en
 title: "ŘSD Paid 190 Million Above the Cheapest Bid to Rebuild the Ring Road Bridge Five Months Faster"
 dek: "A Metrostav TBR and FIRESTA consortium has signed the contract to demolish and rebuild the D0 bridge over Počernický rybník as a six-lane structure. It was not the cheapest of five bids; ŘSD gave a fifth of the score to how long the restriction would last."
-queuedAt: 2026-09-15
+date: 2026-09-17
 category: transport
 tags: ["D0", "Pražský okruh", "ŘSD", "Metrostav", "Počernický rybník", "Dubeč"]
 district: "Praha-Dolní Počernice"

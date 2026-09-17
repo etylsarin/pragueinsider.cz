@@ -3,7 +3,7 @@ slug: malesice-construction-daily-inspections
 lang: cs
 title: "Po Malešicích chodí každý den kontrolor radnice. A když se v zemině objeví nový kontaminant, stavba stojí"
 dek: "Z jednání svolaného 10. září vyšla Praha 10 se sadou konkrétních opatření: vlastní pracovník denně v terénu, přímé kontakty na odpovědné lidi, jeden web se všemi harmonogramy a vzorkování výkopové zeminy s právem práce zastavit."
-queuedAt: 2026-09-15
+date: 2026-09-17
 category: public-space
 tags: ["Malešice", "Počernická", "tramvajová trať", "Praha 10", "stavby", "Centrum Paraple"]
 district: "Praha 10 – Malešice"
