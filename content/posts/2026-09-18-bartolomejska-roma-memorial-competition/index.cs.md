@@ -3,7 +3,7 @@ slug: bartolomejska-roma-memorial-competition
 lang: cs
 title: "Na dům v Bartolomějské, odkud se organizovaly transporty Romů, hledá soutěž pamětní desku"
 dek: "Živá paměť a Akademie výtvarných umění chtějí návrh pro Bartolomějskou 10 od autorů do 35 let, termín je 21. listopadu. Posoudí ho šestičlenná komise, v níž zasednou i potomci přeživších."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: public-space
 tags: ["Bartolomějská", "Živá paměť", "AVU", "památník", "Praha 1"]
 district: "Praha 1 – Staré Město"

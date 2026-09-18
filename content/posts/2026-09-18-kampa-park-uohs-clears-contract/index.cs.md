@@ -3,7 +3,7 @@ slug: kampa-park-uohs-clears-contract
 lang: cs
 title: "Kampu brzdila firma, která do soutěže nabídku nepodala. ÚOHS její námitky definitivně smetl"
 dek: "Rozhodnutí nabylo právní moci, Praha 1 může podepsat smlouvu s Konsorciem park KAMPA za 51 899 816 korun bez DPH — zhruba 16,7 milionu pod schváleným finančním rámcem."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: public-space
 tags: ["Kampa", "ÚOHS", "Praha 1", "TAK", "Čertovka"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.4077
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "ÚOHS potvrdil postup Prahy 1. Revitalizace parku Kampa může začít"
     url: "https://www.praha1.cz/uohs-potvrdil-postup-prahy-1-revitalizace-parku-kampa-muze-zacit"

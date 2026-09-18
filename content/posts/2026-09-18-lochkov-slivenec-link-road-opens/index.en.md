@@ -3,7 +3,7 @@ slug: lochkov-slivenec-link-road-opens
 lang: en
 title: "The Ring Road's Haul Route Has Become a Public Street Between Lochkov and Slivenec"
 dek: "Prague has opened 2.3 kilometres of road rebuilt from the construction access ŘSD laid more than a decade ago and left unused. Three hundred days of work, just under 30 million crowns against a 52-million estimate."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: transport
 tags: ["Lochkov", "Slivenec", "Pražský okruh", "ŘSD", "SWIETELSKY"]
 district: "Praha-Lochkov"

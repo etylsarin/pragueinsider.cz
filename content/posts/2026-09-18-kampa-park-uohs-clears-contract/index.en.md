@@ -3,7 +3,7 @@ slug: kampa-park-uohs-clears-contract
 lang: en
 title: "A Firm That Never Bid Held Kampa Up for Months. The Competition Authority Has Now Dismissed It"
 dek: "ÚOHS has confirmed Prague 1's tender and the decision is final, so the district can sign with Konsorcium park KAMPA at 51,899,816 crowns excluding VAT — about 16.7 million under the budget it had approved."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: public-space
 tags: ["Kampa", "ÚOHS", "Praha 1", "TAK", "Čertovka"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.4077
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "ÚOHS potvrdil postup Prahy 1. Revitalizace parku Kampa může začít"
     url: "https://www.praha1.cz/uohs-potvrdil-postup-prahy-1-revitalizace-parku-kampa-muze-zacit"

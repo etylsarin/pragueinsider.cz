@@ -3,7 +3,7 @@ slug: bartolomejska-roma-memorial-competition
 lang: en
 title: "An Art Competition Opens for a Plaque on the Building Where the Roma Transports Were Organised"
 dek: "Živá paměť and the Academy of Fine Arts want a design for Bartolomějská 10 from artists under 35 by 21 November. A six-member jury including descendants of survivors will judge it."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: public-space
 tags: ["Bartolomějská", "Živá paměť", "AVU", "památník", "Praha 1"]
 district: "Praha 1 – Staré Město"

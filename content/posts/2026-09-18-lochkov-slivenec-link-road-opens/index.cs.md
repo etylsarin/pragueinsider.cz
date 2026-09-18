@@ -3,7 +3,7 @@ slug: lochkov-slivenec-link-road-opens
 lang: cs
 title: "Z cesty pro stavbaře okruhu je veřejná silnice. Lochkov a Slivenec spojuje 2,3 kilometru"
 dek: "Praha zprovoznila komunikaci přestavěnou ze staveništní cesty, kterou ŘSD postavilo před více než deseti lety a od dokončení okruhu neměla využití. Tři sta dní prací, necelých 30 milionů proti odhadu 52."
-queuedAt: 2026-09-16
+date: 2026-09-18
 category: transport
 tags: ["Lochkov", "Slivenec", "Pražský okruh", "ŘSD", "SWIETELSKY"]
 district: "Praha-Lochkov"

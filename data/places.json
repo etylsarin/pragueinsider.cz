@@ -43,12 +43,26 @@
       "district": "Praha 10 – Bohdalec",
       "osm": null
     },
+    "bohnicky hrbitov": {
+      "name": "Bohnický hřbitov",
+      "lat": 50.13413,
+      "lng": 14.41127,
+      "district": "Praha 8 – Bohnice",
+      "osm": "Bohnický hřbitov, Dolákova, Bohnice, Praha 8, obvod Praha 8, Praha, 151 00, Česko"
+    },
     "britska ctvrt": {
       "name": "Britská čtvrť",
       "lat": 50.04754,
       "lng": 14.30313,
       "district": "Praha 5 – Stodůlky",
       "osm": "Britská čtvrť, Stodůlky, Praha 13, obvod Praha 5, Praha, 155 00, Česko"
+    },
+    "budejovicka": {
+      "name": "Budějovická",
+      "lat": 50.04442,
+      "lng": 14.44876,
+      "district": "Praha 4 – Krč",
+      "osm": "Budějovická, Zelená Liška, Krč, Praha 4, obvod Praha 4, Praha, 140 02, Česko"
     },
     "ceska zemedelska univerzita": {
       "name": "Česká zemědělská univerzita",
@@ -119,6 +133,13 @@
       "lng": 14.37733,
       "district": "Praha 5",
       "osm": "Högerova, Barrandov, Praha 5, obvod Praha 5, Praha, 152 00, Česko"
+    },
+    "hrbitov chovancu ustavu pro choromyslne v bohnicich": {
+      "name": "Hřbitov chovanců Ústavu pro choromyslné v Bohnicích",
+      "lat": 50.13864,
+      "lng": 14.40357,
+      "district": "Praha 8 – Bohnice",
+      "osm": "Hřbitov chovanců Ústavu pro choromyslné v Bohnicích (bývalý), Bohnice, Praha 8, obvod Praha 8, Praha, Česko"
     },
     "jahodnice": {
       "name": "Jahodnice",
