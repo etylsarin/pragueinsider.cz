@@ -3,7 +3,7 @@ slug: smichov-city-school-donation
 lang: cs
 title: "Investor Smíchov City dá 120 milionů na školu, kterou si městská část nemohla dovolit"
 dek: "Darovací smlouvu s hlavním městem podepsala společnost Hrotano Czech, přijetí daru schválilo pražské zastupitelstvo minulý týden. Praha 5 předala stavbu za 1,16 miliardy magistrátu už v červenci."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: development
 tags: ["Smíchov City", "ZŠ Smíchov City", "Hrotano Czech", "Praha 5", "Atelier M1"]
 district: "Praha 5 – Smíchov"

@@ -22,6 +22,10 @@ sources:
     url: "https://praguemorning.cz/holesovice-station-redevelopment"
     publisher: "Prague Morning"
     date: 2026-09-16
+  - title: "Nové Holešovice představily vítězný návrh, výstava na radnici od 5. října"
+    url: "https://www.praha7.cz/vitez-nove-holesovice"
+    publisher: "Městská část Praha 7"
+    date: 2026-09-17
 ---
 
 Soutěž na zástavbu v okolí stanice metra Nádraží Holešovice vyhrálo brněnské studio Chybík + Krištof.
@@ -56,8 +60,14 @@ ekonomické proveditelnosti a zapracovali do nich závěry expertních posouzen�
 jaký většina zdejších soutěží dopřeje, a je to důvod, proč výsledek přichází i s dopravním řešením,
 nikoli jen s obrázkem.
 
-Všechny soutěžní návrhy bude možné si prohlédnout od 5. října na výstavě na radnici Prahy 7 v ulici
-U Průhonu.
+Praha 7, která výsledek zveřejnila 17. září na svém webu, doplňuje zbytek pořadí: druhé místo obsadilo
+studio ADEPT, třetí Behnisch Architekten. Městská část také uvádí, čím je Jörn Walter — bývalým
+hlavním stavebním ředitelem Hamburku.
+
+Všechny soutěžní návrhy bude možné si prohlédnout od 5. října, kdy se otevře výstava na radnici
+Prahy 7 v ulici U Průhonu. Podle městské části budou návrhy vystavené i v severním vestibulu stanice
+metra Nádraží Holešovice — tedy na jediném místě, kterým lidé, jichž se to týká, procházejí tak jako
+tak.
 
 Prague Morning odhaduje rozlohu řešeného území zhruba na osm hektarů a vítězný návrh popisuje jako
 dvě nová veřejná náměstí a výškovou dominantu na místě, které se dosud četlo jako dopravní

@@ -99,6 +99,13 @@
       "district": "Praha 10 – Dubeč",
       "osm": "Praha-Dubeč, Dubeč, obvod Praha 10, Praha, 107 00, Česko"
     },
+    "durychova": {
+      "name": "Durychova",
+      "lat": 50.01843,
+      "lng": 14.45109,
+      "district": "Praha 4",
+      "osm": "Durychova, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
+    },
     "fakultni nemocnice motol": {
       "name": "Fakultní nemocnice Motol",
       "lat": 50.07269,
@@ -217,6 +224,13 @@
       "lng": 14.51581,
       "district": "Praha 9",
       "osm": "Letňany, obvod Praha 9, Praha, Česko"
+    },
+    "libusska": {
+      "name": "Libušská",
+      "lat": 50.015,
+      "lng": 14.4558,
+      "district": "Praha 4",
+      "osm": "Libušská, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
     },
     "lochkov": {
       "name": "Lochkov",
@@ -337,6 +351,13 @@
       "district": "Praha 5 – Motol",
       "osm": "Nemocnice Motol, Kukulova, Motol, Praha 5, obvod Praha 5, Praha, 169 00, Česko"
     },
+    "nove dvory": {
+      "name": "Nové Dvory",
+      "lat": 50.01645,
+      "lng": 14.45123,
+      "district": "Praha 4 – Kamýk",
+      "osm": "Nové Dvory, Novodvorská, Kamýk, Praha 12, obvod Praha 4, Praha, 142 00, Česko"
+    },
     "ohrada": {
       "name": "Ohrada",
       "lat": 50.09057,
@@ -427,6 +448,13 @@
       "lng": 14.4303,
       "district": "Praha 7 – Holešovice",
       "osm": "Průmyslový palác, 416, U Výstaviště, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
+    },
+    "rasinovo nabrezi": {
+      "name": "Rašínovo nábřeží",
+      "lat": 50.07469,
+      "lng": 14.41381,
+      "district": "Praha 2 – Vyšehrad",
+      "osm": "Rašínovo nábřeží, Vyšehrad, obvod Praha 2, Praha, 121 35, Česko"
     },
     "roztocka sedlec": {
       "name": "Roztocká, Sedlec",

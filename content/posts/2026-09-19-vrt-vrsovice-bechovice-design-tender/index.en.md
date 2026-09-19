@@ -3,12 +3,12 @@ slug: vrt-vrsovice-bechovice-design-tender
 lang: en
 title: "The High-Speed Line's Only Prague Section Goes to Tender for 300 Million"
 dek: "Správa železnic's board has approved a designer contract for the northern branch from Praha-Vršovice to Praha-Běchovice. It is short by high-speed standards and the most complicated piece, because it is the part inside the city."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: transport
 tags: ["VRT", "Správa železnic", "Vršovice", "Běchovice", "Jahodnická spojka"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic"
     url: "https://zdopravy.cz/sz-chysta-dalsi-velkou-soutez-na-projektovani-vysokorychlostni-trati-vyvede-vlaky-z-vrsovic-do-bechovic-299538"

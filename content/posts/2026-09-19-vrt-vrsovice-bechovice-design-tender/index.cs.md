@@ -3,12 +3,12 @@ slug: vrt-vrsovice-bechovice-design-tender
 lang: cs
 title: "Jediný pražský úsek rychlotrati půjde do soutěže. Za projekt tři sta milionů"
 dek: "Správní rada Správy železnic schválila vypsání zakázky na projektanta severní větve VRT z Vršovic do Běchovic. Na poměry vysokorychlostní trati je krátká — a je to ta nejsložitější část, protože leží uvnitř města."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: transport
 tags: ["VRT", "Správa železnic", "Vršovice", "Běchovice", "Jahodnická spojka"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic"
     url: "https://zdopravy.cz/sz-chysta-dalsi-velkou-soutez-na-projektovani-vysokorychlostni-trati-vyvede-vlaky-z-vrsovic-do-bechovic-299538"

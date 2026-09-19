@@ -3,7 +3,7 @@ slug: smichov-station-building-2029
 lang: en
 title: "Smíchov's Station Building Will Not Be Touched Until 2029, a Year After the Tracks Are Done"
 dek: "Správa železnic's head of construction preparation told the Prague Transport Forum that the reconstruction and a new southern wing could start in 2029 and take two years. Sudop is drawing the documentation."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: transport
 tags: ["Praha-Smíchov", "Správa železnic", "Sudop", "Na Knížecí", "Praha hlavní nádraží"]
 district: "Praha 5 – Smíchov"

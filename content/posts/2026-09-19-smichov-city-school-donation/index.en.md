@@ -3,7 +3,7 @@ slug: smichov-city-school-donation
 lang: en
 title: "Smíchov City's Investor Will Pay 120 Million Towards the School the District Could Not Afford"
 dek: "Hrotano Czech has given the City of Prague a donation the city assembly accepted last week. Prague 5 handed the 1.16-billion primary school over to the city in July because building it exceeded what a district can carry."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: development
 tags: ["Smíchov City", "ZŠ Smíchov City", "Hrotano Czech", "Praha 5", "Atelier M1"]
 district: "Praha 5 – Smíchov"

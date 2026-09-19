@@ -3,7 +3,7 @@ slug: smichov-station-building-2029
 lang: cs
 title: "Na budovu smíchovského nádraží dojde až v roce 2029, rok poté, co skončí přestavba kolejiště"
 dek: "Ředitel odboru přípravy staveb Správy železnic Pavel Paidar na Pražském dopravním fóru řekl, že rekonstrukce a nové jižní křídlo by mohly začít v roce 2029 a trvat dva roky. Dokumentaci připravuje Sudop."
-queuedAt: 2026-09-16
+date: 2026-09-19
 category: transport
 tags: ["Praha-Smíchov", "Správa železnic", "Sudop", "Na Knížecí", "Praha hlavní nádraží"]
 district: "Praha 5 – Smíchov"

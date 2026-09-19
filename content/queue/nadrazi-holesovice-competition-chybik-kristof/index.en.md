@@ -22,6 +22,10 @@ sources:
     url: "https://praguemorning.cz/holesovice-station-redevelopment"
     publisher: "Prague Morning"
     date: 2026-09-16
+  - title: "Nové Holešovice představily vítězný návrh, výstava na radnici od 5. října"
+    url: "https://www.praha7.cz/vitez-nove-holesovice"
+    publisher: "Městská část Praha 7"
+    date: 2026-09-17
 ---
 
 The competition for what gets built around the Nádraží Holešovice metro station has been won by the
@@ -57,7 +61,13 @@ economic feasibility, and worked the conclusions of expert assessments into them
 leash than most Czech competitions give, and it is the reason the result arrives with a transport
 answer attached rather than a picture alone.
 
-All the entries go on public show from 5 October at the Prague 7 town hall on U Průhonu.
+Prague 7, which published the result on its own site on 17 September, names the rest of the podium:
+ADEPT came second and Behnisch Architekten third. The district also gives Jörn Walter's standing —
+he is the former chief building director of Hamburg.
+
+All the entries go on public show from 5 October, when the exhibition opens at the Prague 7 town hall
+on U Průhonu; the district says it will also be shown in the northern vestibule of the Nádraží
+Holešovice metro station, which is the one place the people it concerns pass through anyway.
 
 Prague Morning puts the area at roughly eight hectares and describes the winning scheme as bringing
 two new public squares and a high-rise landmark to a site that has until now been read as transport

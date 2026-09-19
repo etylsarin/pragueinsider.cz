@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "entries": {
+    "0138676fe304ef24": {
+      "url": "https://www.praha7.cz/vitez-nove-holesovice",
+      "title": "Nové Holešovice představily vítězný návrh, výstava na radnici od 5. října",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "nadrazi-holesovice-competition-chybik-kristof"
+    },
     "01a2d7a8b7cf58bd": {
       "url": "https://www.archiweb.cz/n/domaci/praha-14-zahajila-stavbu-skoly-na-jahodnici-za-950-milionu-korun",
       "title": "Praha 14 zahájila stavbu školy na Jahodnici za 950 milionů korun",
@@ -50,6 +57,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-31",
       "usedInPost": "bohdalec-truss-bridge-reopens"
+    },
+    "15c7cdb4b3ccbbd7": {
+      "url": "https://praguemorning.cz/prague-metro-line-d-namesti-miru-nusle-stations",
+      "title": "Prague Unveils Future Metro Stations in Nusle and Náměstí Míru",
+      "source": "Prague Morning",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "metro-d-namesti-miru-nusle-visualisations"
     },
     "16662f1032255117": {
       "url": "https://www.archiweb.cz/n/domaci/v-motole-se-otevrelo-narodni-onkologicke-centrum-za-temer-pet-miliard-korun",
@@ -177,6 +191,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-priorities-2026-update"
     },
+    "2c2ae0eab4e072bd": {
+      "url": "https://zdopravy.cz/obrazem-projektant-ukazal-nove-navrhy-stanic-metra-d-na-miraku-a-v-nuslich-299482",
+      "title": "Obrazem: Projektant ukázal nové návrhy stanic metra D na Míráku a v Nuslích",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "metro-d-namesti-miru-nusle-visualisations"
+    },
     "2f6fe8477193d6c8": {
       "url": "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny",
       "title": "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny",
@@ -225,6 +246,13 @@
       "source": "archiweb.cz",
       "firstSeen": "2026-09-09",
       "usedInPost": "dedina-parking-house-opens"
+    },
+    "3c0b487035a09627": {
+      "url": "https://www.expats.cz/czech-news/article/prague-s-naplavka-embankment-gets-new-wooden-benches-that-can-survive-floods",
+      "title": "Prague's Náplavka embankment gets new wooden benches that can survive floods",
+      "source": "Expats.cz",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "naplavka-oak-benches-flood-proof"
     },
     "3cf28954f516fdfe": {
       "url": "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape",
@@ -351,6 +379,13 @@
       "source": "Městská část Praha 1",
       "firstSeen": "2026-09-08",
       "usedInPost": "kranner-fountain-restoration-begins"
+    },
+    "5f98eff50da22edb": {
+      "url": "https://www.archiweb.cz/n/domaci/praha-vybrala-podobu-vystavby-tisice-bytu-na-novych-dvorech",
+      "title": "Praha vybrala podobu výstavby tisíce bytů na Nových Dvorech",
+      "source": "archiweb.cz (ČTK)",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "nove-dvory-blocks-competition-winners"
     },
     "6732c3864f87becf": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku",
@@ -575,6 +610,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
+    },
+    "9ec64571cf6440bb": {
+      "url": "https://www.archiweb.cz/n/souteze/mestske-bloky-nove-dvory-5-a-6-maji-sve-viteze",
+      "title": "Městské bloky Nové Dvory 5 a 6 mají své vítěze",
+      "source": "archiweb.cz (tisková zpráva Pražské developerské společnosti)",
+      "firstSeen": "2026-09-19",
+      "usedInPost": "nove-dvory-blocks-competition-winners"
     },
     "9f229d87fe3f1957": {
       "url": "https://zdopravy.cz/dalsich-160-km-jen-s-vlaky-vybavenymi-etcs-z-prahy-do-ceskych-budejovic-zmizi-az-450-rychlostniku-298737",
