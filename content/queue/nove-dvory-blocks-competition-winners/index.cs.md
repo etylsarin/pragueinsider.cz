@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace vítězného návrhu bloku 5 na Nových Dvorech: světle růžové obytné domy stoupající od čtyř podlaží k nárožní čtrnáctipodlažní věži, na ustoupených podlažích balkony a osázené terasy, v proskleném parteru obchody a dole ulicí projíždí tramvaj v podvečerním světle."
+  caption: "Návrh bloku 5 od re:architekti, jeden ze dvou vybraných ze třiceti ateliérů pro čtvrť kolem stanice metra D, která má být otevřená nejdřív ve druhé polovině roku 2032."
+  credit: "re:architekti"
+  kind: visualisation
+  source: "https://www.archiweb.cz/n/souteze/mestske-bloky-nove-dvory-5-a-6-maji-sve-viteze"
 sources:
   - title: "Praha vybrala podobu výstavby tisíce bytů na Nových Dvorech"
     url: "https://www.archiweb.cz/n/domaci/praha-vybrala-podobu-vystavby-tisice-bytu-na-novych-dvorech"

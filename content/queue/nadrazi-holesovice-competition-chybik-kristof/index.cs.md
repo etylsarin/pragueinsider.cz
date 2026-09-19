@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace vítězného návrhu u stanice Nádraží Holešovice: bílý blok s betonovým rastrem, hlubokými ostěními a osázenými ustoupenými podlažími podél tramvajové ulice, za ním korálově červená věž, v proskleném parteru obchody a kavárna a po mokrém asfaltu projíždí červená tramvaj."
+  caption: "Vítězný návrh brněnského studia pro pozemky severně od Plynární, na kterém porotu přesvědčily klenuté haly nad přestupním uzlem a obchody pod železničním viaduktem."
+  credit: "Chybík + Krištof"
+  kind: visualisation
+  source: "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti"
 sources:
   - title: "Návrh okolí stanice metra Nádraží Holešovice připraví CHYBIK + KRISTOF"
     url: "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti"

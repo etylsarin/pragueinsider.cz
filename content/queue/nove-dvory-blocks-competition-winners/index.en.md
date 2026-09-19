@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the winning design for block 5 at Nové Dvory: pale pink residential buildings stepping from four storeys to a fourteen-storey corner tower, balconies and planted terraces on the setbacks, shops in the glazed ground floor and a tram passing on the street below at sunset."
+  caption: "re:architekti's design for block 5, one of two picked out of thirty studios for the quarter around a metro D station not due before the second half of 2032."
+  credit: "re:architekti"
+  kind: visualisation
+  source: "https://www.archiweb.cz/n/souteze/mestske-bloky-nove-dvory-5-a-6-maji-sve-viteze"
 sources:
   - title: "Praha vybrala podobu výstavby tisíce bytů na Nových Dvorech"
     url: "https://www.archiweb.cz/n/domaci/praha-vybrala-podobu-vystavby-tisice-bytu-na-novych-dvorech"
