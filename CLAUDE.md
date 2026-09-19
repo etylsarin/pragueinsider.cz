@@ -32,7 +32,12 @@ correctness bug, not a style choice.
   page the route came from), because a line on a map is a claim about where something goes. The
   spec lives in `data/diagrams/` so the drawing can be regenerated and argued with.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
-  same figures, same sources; different prose.
+  same figures, same sources; different prose. The headline is where this breaks first and shows
+  most: a numeral with its noun eaten (*"chtějí projektovat dva"* — two what?), an English present
+  tense calqued into an imperfective (*svolává* for one announced meeting), an English metaphor
+  carried over whole (convening *stavby*, building sites, rather than *zhotovitele*), or an invented
+  colloquial number (*"sto třicítka sedmička"* for line 137). See `### The headline` in the
+  daily-scan skill.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
   figures, dates and quotations are not.
 
@@ -59,6 +64,13 @@ correctness bug, not a style choice.
 - **What counts as a story** — `scripts/lib/relevance.mjs`. The `pragueByDefault` /
   `topicByDefault` flags on each adapter carry most of the filtering; prefer adjusting those over
   piling on keywords.
+- **Which stories share a front page** — `scripts/release.mjs`. It takes the oldest queued
+  articles, but will not put three from one desk on one day while another desk is waiting. That is
+  the counterweight to a source list where Zdopravy, DPP and PID are transport-only and prolific:
+  taking the plain oldest three ran transport at over half the archive. It reorders within a day
+  and never across one, so nothing starves — an article passed over is still the oldest tomorrow.
+  The bar itself is untouched; the desk-mix guidance that belongs to editorial judgement is in the
+  daily-scan skill.
 
 ## Gotchas
 

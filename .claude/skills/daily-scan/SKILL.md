@@ -69,6 +69,31 @@ worth publishing, write now.
 Do not pad to fill the queue either. The bar is the only test; the queue simply means clearing it
 is never wasted.
 
+### Watch the desk mix
+
+The scan cannot help leaning transport. Of the registered sources, Zdopravy, DPP and PID file
+nothing else and file a lot of it, so the candidate list arrives with transport on most of the
+lines — and the relevance score tags anything transport-adjacent the same way, which puts open
+days, timetable leaflets, safety campaigns and airline business under `transport` alongside real
+stories. Left alone this compounds: transport has run at well over half of everything published,
+against roughly one in seven for development and one in twenty for planning.
+
+**The bar does not move for this.** Do not write a thin planning story to even the numbers, and do
+not spike a good transport story because transport is over-represented. Two things instead:
+
+- **Hold the transport wire to the same bar as everything else.** Most of what makes the list from
+  those three sources is not a story by the tests above — an open day is an event, a timetable
+  leaflet is a notice, a safety campaign is not the built environment. The imbalance is fed as much
+  by transport items being waved through as by there being more of them.
+- **Read the whole list before writing any of it.** A good development or public-space candidate
+  sits low in the digest because the score ranks relevance, not worth; the transport items at the
+  top are not there because they are better. When you have written three transport pieces and a
+  planning candidate is still unread, read it before deciding the day is done.
+
+`release.mjs` does the rest. It will not put three articles from one desk on a front page while
+another desk waits in the queue, so a transport-heavy morning spreads itself over several days
+rather than burying everything else.
+
 ### Press offices: what they are doing vs. what they are saying about themselves
 
 Two sources — DPP and IPR — are institutional press offices, and they are among our best sources
@@ -225,11 +250,41 @@ the story is not, and do not drop `district` to get past the gate.
 If the lookup cannot reach the network, say so in the run log. Known places still resolve from the
 gazetteer; genuinely new ones go unpinned that day rather than guessed.
 
+### The headline
+
+Headlines are where a translated-sounding Czech article gives itself away fastest, and where it
+does the most damage — the headline is what appears on the card, in the feed and on the social
+image, often without the body underneath it to redeem it.
+
+**Write the Czech headline in Czech, from the facts.** Not from the English one. If you find
+yourself asking how to say the English headline in Czech, you are already producing the wrong
+thing. Write what a Czech editor would put on this story, then check it against the English for
+the same facts — not the same words.
+
+Four failures that have all reached the site:
+
+- **A numeral with its noun eaten.** English drops the head noun freely — "Two bids", "the first
+  eleven". Czech does not. *"Rychlotrať z Běchovic chtějí projektovat dva."* — two what? It needs
+  `dva zájemci`. When a headline turns on a number, say what is being counted.
+- **The wrong aspect.** Czech news headlines take the perfective for a discrete event; the English
+  present tense calqued across becomes an imperfective that reads like something ongoing.
+  *"Praha 10 svolává stavby k jednomu stolu"* — the meeting is one announced event, so `svolá` or
+  `posadí`, not `svolává`.
+- **A metaphor carried over whole.** The same headline convened *stavby* — building sites — because
+  the English said "calls the diggers to one table". You convene people: `zhotovitele`. An English
+  figure of speech translated literally is almost never a Czech figure of speech.
+- **Made-up colloquial numbers.** Line 137 is `sto třicet sedmička`. *"Sto třicítka sedmička"* is
+  not a word — it welds `stotřicítka` (130) to a stray seven. If you are not certain of the
+  colloquial form, use the plain one: `linka 137`.
+
+Read the finished Czech headline aloud. If it sounds like something rendered out of another
+language, it is, and the fix is to write it again rather than to repair it.
+
 ### How to write
 
 Both versions are **composed separately for their own readers**. The Czech is not a translation of
 the English and must not read like one — different idiom, different framing, same facts, same
-figures, same sources. Write the Czech as a Czech editor would.
+figures, same sources. Write the Czech as a Czech editor would; the headline especially, see above.
 
 - 400–800 words. Lead with what happened and why it matters, not with background.
 - Use the specifics: figures, dates, firm names, districts, distances, budgets. They are what
