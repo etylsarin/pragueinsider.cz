@@ -86,7 +86,12 @@ async function main() {
     const enPath = path.join(QUEUE_DIR, slug, 'index.en.md')
     try {
       const { data } = matter(await fs.readFile(enPath, 'utf8'))
-      entries.push({ slug, queuedAt: isoDay(data.queuedAt) || '9999-12-31', title: data.title })
+      entries.push({
+        slug,
+        queuedAt: isoDay(data.queuedAt) || '9999-12-31',
+        title: data.title,
+        category: data.category || 'uncategorised',
+      })
     } catch {
       console.error(`  ! ${slug}: unreadable index.en.md, skipping`)
     }
@@ -98,7 +103,8 @@ async function main() {
   // A second run on the same day must not double up. The daily limit is per calendar day, not
   // per invocation, so count what is already published under today's date and release only the
   // remainder. Without this, two runs in one morning put six articles on one date.
-  const publishedToday = (await readDirs(POSTS_DIR)).filter((name) => name.startsWith(`${release}-`)).length
+  const publishedSlugsToday = (await readDirs(POSTS_DIR)).filter((name) => name.startsWith(`${release}-`))
+  const publishedToday = publishedSlugsToday.length
   const budget = Math.max(0, max - publishedToday)
   if (publishedToday > 0) {
     console.log(`${publishedToday} article(s) already published today; releasing at most ${budget} more.`)
@@ -109,15 +115,59 @@ async function main() {
   }
 
   const cutoff = Date.now() - STALE_AFTER_DAYS * 86400000
-  let released = 0
 
+  // Desks already on today's front page, so a second run in the same morning spreads too.
+  const desksToday = new Set()
+  for (const name of publishedSlugsToday) {
+    try {
+      const { data } = matter(await fs.readFile(path.join(POSTS_DIR, name, 'index.en.md'), 'utf8'))
+      if (data.category) desksToday.add(data.category)
+    } catch {
+      /* a malformed post is the gate's problem, not this script's */
+    }
+  }
+
+  /**
+   * Oldest first, but not three from one desk while another waits.
+   *
+   * The scan cannot help being transport-heavy: of the registered sources, Zdopravy, DPP and PID
+   * are transport and nothing else, and they file more than anybody. Taking the oldest three each
+   * morning turned that supply straight into the archive — transport ran at well over half of
+   * everything published. This does not touch the bar, and it does not promote a weaker story over
+   * a better one: every article here already cleared the bar on the day it was written. It only
+   * decides which of them share a front page, by preferring a desk that is not on it yet.
+   *
+   * Nothing starves, because this reorders within a day and never across one: an article passed
+   * over today is still the oldest tomorrow, and `STALE_AFTER_DAYS` still catches anything that
+   * waits too long.
+   */
+  const order = (pool) => {
+    const remaining = [...pool]
+    const picked = []
+    const desks = new Set(desksToday)
+    while (remaining.length) {
+      let i = remaining.findIndex((entry) => !desks.has(entry.category))
+      if (i === -1) i = 0
+      const [entry] = remaining.splice(i, 1)
+      desks.add(entry.category)
+      picked.push(entry)
+    }
+    return picked
+  }
+
+  const fresh = []
   for (const entry of entries) {
-    if (released >= budget) break
-
     if (Date.parse(entry.queuedAt) < cutoff) {
       console.log(`  ~ ${entry.slug}: queued ${entry.queuedAt}, older than ${STALE_AFTER_DAYS} days — held back, check it is still current`)
       continue
     }
+    fresh.push(entry)
+  }
+
+  let released = 0
+
+  for (const entry of order(fresh)) {
+    if (released >= budget) break
 
     const from = path.join(QUEUE_DIR, entry.slug)
     const to = path.join(POSTS_DIR, `${release}-${entry.slug}`)
@@ -146,7 +196,7 @@ async function main() {
     }
 
     console.log(
-      `  → ${entry.slug} (queued ${entry.queuedAt})` +
+      `  → ${entry.slug} (${entry.category}, queued ${entry.queuedAt})` +
         (assets.length ? ` + ${assets.length} asset(s): ${assets.join(', ')}` : '')
     )
     released += 1
