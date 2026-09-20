@@ -3,7 +3,7 @@ slug: metro-d-namesti-miru-nusle-visualisations
 lang: en
 title: "Metro D's Vinohrady Terminus Has Been Drawn, but It Has Not Been Designed"
 dek: "DPP has published Metroprojekt's visualisations of Náměstí Míru and Nusle — a mined single-vault station forty metres down, and a cut-and-cover box thirteen metres down. What they show is not the architecture: that is to come from a competition DPP is still hiring an organiser for."
-queuedAt: 2026-09-19
+date: 2026-09-20
 category: transport
 tags: ["metro D", "Náměstí Míru", "Nusle", "Metroprojekt", "DPP", "I.D3"]
 district: "Praha 2 – Vinohrady"

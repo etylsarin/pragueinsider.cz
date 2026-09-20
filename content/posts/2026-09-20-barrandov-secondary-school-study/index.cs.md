@@ -3,7 +3,7 @@ slug: barrandov-secondary-school-study
 lang: cs
 title: "Barrandov má střední školu zatím na papíře — zato na vlastním pozemku"
 dek: "Výbor územního rozvoje Prahy 5 viděl koncept studie střední školy pro 480 studentů na trianglu mezi ulicemi Högerova, K Barrandovu a Štěpařská. Studii si městská část vzala od magistrátu na sebe, aby přípravu urychlila."
-queuedAt: 2026-09-17
+date: 2026-09-20
 category: development
 tags: ["Barrandov", "Praha 5", "střední škola", "Högerova", "Zdeněk Doležal"]
 district: "Praha 5 – Barrandov"

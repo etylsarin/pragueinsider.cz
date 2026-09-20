@@ -3,7 +3,7 @@ slug: nadrazi-holesovice-competition-chybik-kristof
 lang: en
 title: "Chybík + Krištof Will Draw the Ground Around Nádraží Holešovice"
 dek: "The Brno studio has won the competition run by Nové Holešovice, the joint venture of DPP and private developers, for the plots north of Plynární. The jury bought arched halls over the interchange, a railway viaduct given shops and culture, and a rotated tower as the landmark."
-queuedAt: 2026-09-17
+date: 2026-09-20
 category: architecture
 tags: ["Nádraží Holešovice", "Chybík + Krištof", "Nové Holešovice", "DPP", "Jörn Walter"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4401
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 cover:
   photo: cover.jpg
   alt: "A visualisation of the winning scheme by Nádraží Holešovice: a white concrete-framed block with deep window reveals and planted setbacks along a tram street, a coral-red tower rising behind it, shops and a café in the glazed ground floor, and a red tram passing on wet asphalt."

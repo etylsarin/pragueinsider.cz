@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "entries": {
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
@@ -261,6 +261,13 @@
       "firstSeen": "2026-09-11",
       "usedInPost": "metro-e-feasibility-study-approved"
     },
+    "3d7c58330aa2b958": {
+      "url": "https://pid.cz/230615",
+      "title": "The Petřín funicular resumes service with new cabins on Tuesday, September 22.",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-09-20",
+      "usedInPost": "petrin-funicular-returns-fourth-generation"
+    },
     "3f82d399caf6a8e6": {
       "url": "https://www.archiweb.cz/n/domaci/praha-8-dokoncila-obnovu-kaple-na-tzv-hrbitove-blaznu-chysta-dalsi-upravy",
       "title": "Praha 8 dokončila obnovu kaple na tzv. hřbitově bláznů, chystá další úpravy",
@@ -359,6 +366,13 @@
       "firstSeen": "2026-09-09",
       "usedInPost": "vrt-bechovice-svetla-design-bids"
     },
+    "57a481ad756bbedf": {
+      "url": "https://www.fa.cvut.cz/cs/aktualne/kalendar/39720-jsme-s-vami-jsme-spolu",
+      "title": "Jsme s vámi, jsme spolu — Ateliér Mádr, slavnostní otevření toalety",
+      "source": "Fakulta architektury ČVUT v Praze",
+      "firstSeen": "2026-09-20",
+      "usedInPost": "tovarni-playground-toilet-students"
+    },
     "587ab1d6b56a080f": {
       "url": "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti",
       "title": "Návrh okolí stanice metra Nádraží Holešovice připraví CHYBIK + KRISTOF",
@@ -428,6 +442,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-07",
       "usedInPost": "emu400-pid-thirty-year-rail-contract"
+    },
+    "6c496b111ab5621a": {
+      "url": "https://www.praha7.cz/hriste-v-tovarni-ma-novou-toaletu",
+      "title": "Hřiště v Tovární má novou toaletu",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-09-20",
+      "usedInPost": "tovarni-playground-toilet-students"
     },
     "6cafd46b5d6683e2": {
       "url": "https://iprpraha.cz/metropolitni-plan-ucinny",
@@ -786,6 +807,13 @@
       "firstSeen": "2026-08-29",
       "usedInPost": "strossmayerovo-transit-block"
     },
+    "ec1986c7e06fcaf6": {
+      "url": "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace",
+      "title": "Petřínská lanovka se vrací. DPP zahájí provoz nových vozů čtvrté generace",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-09-20",
+      "usedInPost": "petrin-funicular-returns-fourth-generation"
+    },
     "edb3753600a169c5": {
       "url": "https://www.praha7.cz/zmeny-tram-29-8",
       "title": "Změny ve vedení tramvají od 29. srpna, do centra rychleji linkou 5",
@@ -827,6 +855,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-in-european-context"
+    },
+    "f77d62ad5a1ce596": {
+      "url": "https://pid.cz/lanovka-na-petrin-s-novymi-kabinami-obnovuje-provoz-v-utery-22-zari",
+      "title": "Lanovka na Petřín s novými kabinami obnovuje provoz v úterý 22. září",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-09-20",
+      "usedInPost": "petrin-funicular-returns-fourth-generation"
     },
     "f7baa479f0b132f9": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3422-dpp-uzavrel-smlouvu-se-zhotovitelem-nove-tramvajove-trate-malovanka-strahov",

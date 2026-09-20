@@ -498,6 +498,13 @@
       "district": "Praha 6",
       "osm": "Terminál 1, Aviatická, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
     },
+    "tovarni praha 7": {
+      "name": "Tovární, Praha 7",
+      "lat": 50.10247,
+      "lng": 14.44521,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Tovární, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
+    },
     "u hostavickeho potoka": {
       "name": "U Hostavického potoka",
       "lat": 50.08223,

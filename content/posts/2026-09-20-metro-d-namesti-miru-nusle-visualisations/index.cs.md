@@ -3,7 +3,7 @@ slug: metro-d-namesti-miru-nusle-visualisations
 lang: cs
 title: "Stanice metra D na Míráku je nakreslená, architekturu ale teprve dostane"
 dek: "Dopravní podnik zveřejnil vizualizace Náměstí Míru a Nuslí od Metroprojektu: ražená jednolodní stanice čtyřicet metrů pod povrchem a hloubená třináct metrů pod terénem. Definitivní podobu interiérů má určit soutěž, na kterou DPP zatím hledá organizátora."
-queuedAt: 2026-09-19
+date: 2026-09-20
 category: transport
 tags: ["metro D", "Náměstí Míru", "Nusle", "Metroprojekt", "DPP", "I.D3"]
 district: "Praha 2 – Vinohrady"

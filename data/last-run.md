@@ -1,6 +1,6 @@
-# Scan log — 2026-09-19
+# Scan log — 2026-09-20
 
-Scanned `2026-09-19T05:07:14.949Z`, window 21 days.
+Scanned `2026-09-20T05:06:42.541Z`, window 21 days.
 
 ## Sources
 
@@ -9,121 +9,112 @@ Scanned `2026-09-19T05:07:14.949Z`, window 21 days.
 - ✓ **Dopravní podnik hl. m. Prahy** — 1 new of 10 (0 off-topic, 6 covered, 3 outside window)
 - ✓ **PID / ROPID** — 5 new of 10 (5 off-topic, 0 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
-- ✓ **archiweb.cz** — 1 new of 20 (17 off-topic, 2 covered, 0 outside window)
-- ✓ **Zdopravy.cz** — 4 new of 40 (36 off-topic, 0 covered, 0 outside window)
+- ✓ **archiweb.cz** — 0 new of 20 (17 off-topic, 3 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 3 new of 40 (37 off-topic, 0 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (8 off-topic, 2 covered, 0 outside window)
-- ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 2 new of 10 (7 off-topic, 1 covered, 0 outside window)
-- ✓ **Expats.cz** — 1 new of 25 (24 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 6 new of 37 (29 off-topic, 2 covered, 0 outside window)
+- ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 1 new of 10 (7 off-topic, 2 covered, 0 outside window)
+- ✓ **Expats.cz** — 1 new of 25 (23 off-topic, 1 covered, 0 outside window)
+- ✓ **Městské části** — 5 new of 32 (24 off-topic, 3 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (5 off-topic, 0 covered, 5 outside window)
 
-## Candidates — 21 in 21 clusters
+## Candidates — 18 in 18 clusters
 
-1. `29` architecture — Nové Holešovice představily vítězný návrh, výstava na radnici od 5. října
-2. `20` transport — Prague Unveils Future Metro Stations in Nusle and Náměstí Míru
-3. `19` public-space — Psí hřiště u Lannova parku je otevřené. Zájem byl hned při prvním dni
-4. `19` architecture — Hřiště v Tovární má novou toaletu
-5. `18` transport — Lanovka na Petřín s novými kabinami obnovuje provoz v úterý 22. září
-6. `18` development — Prague Is Turning a Historic Factory Chimney Into an Observation Deck
-7. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
-8. `17` transport — Noční přerušení provozu tramvají na Strossmayerově náměstí
-9. `17` transport — DPP zve na den otevřených dveří v garáži Řepy v rámci oslav 90 let prvních pražských trolejbusů
-10. `16` transport — Zažijte město jinak v sobotu 19. září
-11. `16` transport — Stav přípravy železničního jízdního řádu 2026/2027 po projednání Návrhu JŘ pro tratě v rámci PID (srpen 2026)
-12. `15` transport — Zůstáváme, ujišťují Eurowings před zmenšením základny na Ruzyni
-13. `14` transport — Hned několik řidičů Arrivy postihla náhle nevolnost. PID škrtá spoje, část zachraňují jiní dopravci
-14. `14` transport — The Petřín funicular resumes service with new cabins on Tuesday, September 22.
-15. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září a říjen
-16. `12` transport — Psi, kteří dokážou měnit životy, mají promoci
-17. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
-18. `10` development — Praha vybrala podobu výstavby tisíce bytů na Nových Dvorech
-19. `8` transport — 13 otázek a odpovědí. Jak je to s nástupem RegioJetu na rychlíky Praha – Hradec Králové – Trutnov
-20. `7` transport — Další změny Letiště Praha pod Lašákovým vedením: Ministerstvo hledá dva členy představenstva
-21. `6` development — Prague's Náplavka embankment gets new wooden benches that can survive floods
+1. `19` public-space — Psí hřiště u Lannova parku je otevřené. Zájem byl hned při prvním dni
+2. `19` architecture — Hřiště v Tovární má novou toaletu
+3. `18` transport — Lanovka na Petřín s novými kabinami obnovuje provoz v úterý 22. září
+4. `18` development — Prague Is Turning a Historic Factory Chimney Into an Observation Deck
+5. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
+6. `17` transport — Noční přerušení provozu tramvají na Strossmayerově náměstí
+7. `17` transport — DPP zve na den otevřených dveří v garáži Řepy v rámci oslav 90 let prvních pražských trolejbusů
+8. `16` transport — Zažijte město jinak v sobotu 19. září
+9. `16` transport — Stav přípravy železničního jízdního řádu 2026/2027 po projednání Návrhu JŘ pro tratě v rámci PID (srpen 2026)
+10. `15` transport — Delfín je zpět v Česku. Legendární vlak přijel po 23 letech do Prahy, zachránili ho nadšenci z Německa
+11. `14` transport — Hned několik řidičů Arrivy postihla náhle nevolnost. PID škrtá spoje, část zachraňují jiní dopravci
+12. `14` transport — The Petřín funicular resumes service with new cabins on Tuesday, September 22.
+13. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září a říjen
+14. `12` transport — Psi, kteří dokážou měnit životy, mají promoci
+15. `10` transport — Na vlastní kůži: Co si člověk neobjedná sám, to nemá. Z Prahy do Maťovců vlakem vedle ŠRT
+16. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
+17. `7` transport — PHOTOS: How Prague's Metro D will change the face of Náměstí Míru
+18. `7` transport — Další změny Letiště Praha pod Lašákovým vedením: Ministerstvo hledá dva členy představenstva
 
 
 ## Decisions
 
-### Written to the queue (3)
+### Written to the queue (2)
 
-- **`nove-dvory-blocks-competition-winners`** (development) — PDS announced the winners of two
-  restricted competitions for the blocks around the future metro D station: re:architekti and Apropos
-  Architects, roughly a thousand municipal rental flats. A decision, with money and a procurement
-  step attached. Second source found by search (`archiweb.cz/n/souteze`, the PDS press release) gave
-  the competition mechanics; the two sources disagree on the block count (press release: two
-  competitions, Nové Dvory 5 and 6; ČTK: three blocks) and the article reports that rather than
-  resolving it.
-- **`metro-d-namesti-miru-nusle-visualisations`** (transport) — DPP published Metroprojekt's
-  visualisations of Náměstí Míru and Nusle. Published as a story about what is *not* settled: the
-  interiors go to an open two-round competition DPP is still hiring an organiser for, and the I.D3
-  section is scheduled Q2 2029 – Q1 2036. Cross-check disagreement reported: Zdopravy (15 Sept)
-  attributes the whole set to Metroprojekt; Prague Morning (18 Sept) credits no studio with the
-  stations and names Metroprojekt only for a ventilation outlet.
-- **`naplavka-oak-benches-flood-proof`** (public-space) — 27 oak seating arrangements, 69 elements,
-  CZK 4.121m before VAT, going in along Rašínovo nábřeží by 15 October; Projektil's design settled by
-  a prototype left untreated for 8.5 years. Single-source (Expats.cz) but the article is detailed and
-  the installation is under way.
-
-### Amended in the queue
-
-- **`nadrazi-holesovice-competition-chybik-kristof`** — candidate 1 (`praha7.cz/vitez-nove-holesovice`)
-  is the same story as the draft already queued on 17 September, so no second article was written. The
-  district's release added the rest of the podium (ADEPT second, Behnisch Architekten third), Jörn
-  Walter's standing as former chief building director of Hamburg, and the second exhibition venue in
-  the northern vestibule of Nádraží Holešovice metro. Added to both locales with praha7.cz as a third
-  source.
-
-### Released today (3) — all queued 2026-09-16, none written today
-
-- `vrt-vrsovice-bechovice-design-tender` — **lead** (`featured: true`). Správa železnic's board
-  approved a ~CZK 300m designer contract for the high-speed line's only Prague section.
-- `smichov-city-school-donation`
-- `smichov-station-building-2029`
-
-Queue after release: 8 (oldest `queuedAt` 2026-09-17). Nothing was held back for age.
+- **`petrin-funicular-returns-fourth-generation`** (transport) — the funicular returns to service
+  on 22 September after two years, with fourth-generation Doppelmayr/Garaventa cars designed by
+  Anna Marešová designers. Something opens, and two decisions ride with it: the single fare goes
+  from 60 to 100 Kč, and the downhill run drops the Nebozízek stop. The sharper half is what did
+  not get fixed — PID says the stations will not be step-free until 2030, with project preparation
+  only starting now "after long debates, in particular with the owners of the building on Újezd in
+  which the lower station sits", then property settlement, a contractor tender and construction in
+  2029–2030. Written from DPP's release (10 September) and PID's Czech and English releases
+  (16 September). DPP's page was read with the browser user-agent via curl.
+- **`tovarni-playground-toilet-students`** (architecture) — a step-free public toilet designed and
+  built by students of Ateliér Mádr at FA ČVUT stands on the Tovární playground and is in use; the
+  district and the faculty close the collaboration with a gathering and an exhibition of every
+  student design on 22 September. Small object, but a finished piece of public architecture with
+  named authors (Klára Klingová, Viktor Ondřích; teachers Josef Mádr and Štěpán Tomše) and a
+  procurement model that matters outside Praha 7 — a district commissioning a prototype from a
+  school rather than buying a cabin. Neither source gives a cost; the article says so.
 
 ### Skipped, with reasons
 
-- `18` **Petřín funicular resumes service 22 September** (PID, both cs and en, candidates 5 and 14) —
-  already published as `2026-09-14-petrin-funicular-reopens-22-september`, with the same reopening
-  date, the rebuilt track and the new Doppelmayr cars. Not a new story.
-- `18` **Lihovar chimney observation deck** (Prague Morning) — fetched; nothing has been decided. No
-  stage, no permit, no opening date, no architect, no cost. A description of a Trigema plan, so it
-  fails the "has something changed" test.
-- `19` **Dog agility ground by Lannova park** (Praha 1) and `19` **new accessible toilet at the
-  Tovární playground** (Praha 7) — both real openings, both local administrative detail that would not
-  matter to a reader in another district.
-- `17` **ROPID's "3 sekundy… to je easy!" campaign** — a road-safety campaign, not a change to the
-  city.
-- `17` **Overnight tram interruption at Strossmayerovo náměstí** — one night, and it was 16 September.
-- `17` **DPP open day at the Řepy garage** — the institution talking about itself, and the event was
-  5 September.
-- `16` **Zažít město jinak, 19 September** — an events programme.
-- `16` **State of the 2026/2027 railway timetable after consultation** (ROPID) — a progress note on a
-  draft that is explicitly not final; nothing decided since the last version.
-- `15` **Eurowings confirms it is keeping its Prague base while cutting to one aircraft** — fetched.
-  An airline's fleet allocation and a reassurance, not the built environment. Skipped on remit.
-- `14` **Arriva driver shortage, PID cutting services** — Kladno area, outside Prague, and a
-  transient operational cut.
-- `14` **PID Point timetable for September and October** — a van's schedule.
-- `12` **Helppes assistance-dog graduation** (Praha 5) — an event.
-- `10` **CAMP magazine, "Kam po škole?"** — a magazine piece, nothing decided.
-- `8` **RegioJet on the Praha–Hradec Králové–Trutnov fast trains** — intercity rail beyond Prague.
-- `7` **Prague Airport board vacancies** — corporate governance, not the built environment.
+- **Psí hřiště u Lannova parku (Praha 1)** — an agility course opened, but it is local amenity
+  detail: an unfenced dog run with five obstacles. Fails the district test — it would not matter to
+  a reader in another district.
+- **Prague Is Turning a Historic Factory Chimney Into an Observation Deck (Prague Morning)** —
+  dropped as thin. The piece describes the Lihovar chimney viewpoint but carries no stage, no
+  permit, no date, no architect and no quote: something described, not something changed.
+  Trigema's own release announcing the second stage (which contains the viewpoint) and Ekonomický
+  deník are both **blocked by the network egress proxy**, so there was no way to read a second
+  source. Worth returning to when the lift is actually installed.
+- **PHOTOS: How Prague's Metro D will change the face of Náměstí Míru (Expats.cz)** — the same
+  story as `metro-d-namesti-miru-nusle-visualisations`, which was already in the queue and was
+  released today. One story, one article.
+- **3 sekundy… to je easy (ROPID)** — a road-safety campaign for 11–19-year-olds. Not the built
+  environment.
+- **DPP open day at the Řepy garage / Zažijte město jinak / PID Point timetables / Helppes
+  assistance-dog graduation** — events and notices. None of them changes what gets built or how
+  people move.
+- **Noční přerušení provozu tramvají na Strossmayerově náměstí** — a four-hour night diversion.
+  Worthless in a month.
+- **Stav přípravy železničního jízdního řádu 2026/2027 (PID)** — a draft timetable amended after
+  consultation and explicitly not final. A progress note; nothing decided since the last one.
+- **Arriva drivers taken ill, PID cutting services (Zdopravy)** — the cuts are on the Kladno
+  network, outside Prague, and the story is operational rather than about the built environment.
+- **Delfín train returns after 23 years (iROZHLAS)** — railway heritage, not Prague's built
+  environment.
+- **Na vlastní kůži: z Prahy do Maťovců vlakem (Zdopravy)** — a travel column.
+- **Kam po škole? (CAMP)** — a magazine feature, not a decision.
+- **Letiště Praha board vacancies (Zdopravy)** — corporate governance at the airport company, not
+  planning or construction.
+
+### Released today (3, oldest first)
+
+- `barrandov-secondary-school-study` (development, queued 17 September)
+- `nadrazi-holesovice-competition-chybik-kristof` (architecture, queued 17 September) — **lead**,
+  `featured: true`: a competition decided for the ground around a major interchange.
+- `metro-d-namesti-miru-nusle-visualisations` (transport, queued 19 September)
+
+`release.mjs` held `ucov-old-water-line-reconstruction` (development, also queued 17 September)
+rather than put two development pieces plus another on one front page. It is still the oldest
+tomorrow. Queue depth after the release: **7**.
 
 ### Notes for a human
 
-- **No source errored.** All thirteen adapters returned. `IPR Praha`, `Klub Za starou Prahu`,
-  `ČT24 — Praha`, `iROZHLAS` and `Prague City Tourism` returned zero new items, which for those five
-  is within normal range.
-- **Egress allowlist blocked every Czech cross-check on the Náplavka benches.**
-  `www.prazskypatriot.cz`, `www.tcp-as.cz` (Trade Centre Praha's own release), `www.prahain.cz`,
-  `prazsky.denik.cz` and `www.newstream.cz` all returned `EGRESS_BLOCKED`, as did `pds-novedvory.eu`.
-  Search snippets suggested TCP's own release headlines *25* seating arrangements against the *27* in
-  the article we could read, and that the local press has been running a row about the benches' price
-  and appearance — a contested angle we could not source. Adding those hosts to the allowlist would
-  have made this a two-source story with a dispute in it.
-- Marta Pražáková's quotation exists here only as Expats.cz's English rendering, so the Czech version
-  reports it in indirect speech rather than inventing a Czech original.
-
+- No source errored. All thirteen returned.
+- **Egress blocks hit three hosts today**: `www.trigema.cz`, `ekonomickydenik.cz` and
+  `www.fa.cvut.cz`. The first two killed the Lihovar chimney story. The third matters more: the
+  faculty's own page for the Tovární toilet is cited in that article, and its details (the authors,
+  the "house within a house" principle, the larch skin turning into a bicycle stand, the teachers)
+  were recovered through search rather than by reading the page directly. They were consistent
+  across two independent queries against the same page, and nothing in the article rests on them
+  alone, but the page should be added to the egress allowlist so the next run can read it.
+- An outlet reported the new cars' capacity as 120 passengers; DPP's own technical parameters say
+  100. The article uses DPP's figure and does not cite the other, because the page carrying it
+  (`ekonomickydenik.cz`) was blocked and could not be read. Worth resolving if the number is ever
+  needed.

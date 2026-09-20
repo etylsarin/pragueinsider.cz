@@ -3,7 +3,7 @@ slug: nadrazi-holesovice-competition-chybik-kristof
 lang: cs
 title: "Okolí Nádraží Holešovice navrhnou Chybík + Krištof"
 dek: "Soutěž společnosti Nové Holešovice, společného podniku DPP a soukromých developerů, vyhrálo brněnské studio. Porotu zaujaly obloukové haly nad přestupním uzlem, viadukt s obchodem a kulturou a natočená výšková budova jako dominanta."
-queuedAt: 2026-09-17
+date: 2026-09-20
 category: architecture
 tags: ["Nádraží Holešovice", "Chybík + Krištof", "Nové Holešovice", "DPP", "Jörn Walter"]
 district: "Praha 7 – Holešovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4401
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 cover:
   photo: cover.jpg
   alt: "Vizualizace vítězného návrhu u stanice Nádraží Holešovice: bílý blok s betonovým rastrem, hlubokými ostěními a osázenými ustoupenými podlažími podél tramvajové ulice, za ním korálově červená věž, v proskleném parteru obchody a kavárna a po mokrém asfaltu projíždí červená tramvaj."

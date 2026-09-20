@@ -3,7 +3,7 @@ slug: barrandov-secondary-school-study
 lang: en
 title: "Barrandov Gets a Secondary School on Paper, on Land the District Already Owns"
 dek: "Praha 5's development committee has seen the concept study for a 480-pupil secondary school on the triangle between Högerova, K Barrandovu and Štěpařská. The district took the study off the city's hands to speed the preparation up."
-queuedAt: 2026-09-17
+date: 2026-09-20
 category: development
 tags: ["Barrandov", "Praha 5", "střední škola", "Högerova", "Zdeněk Doležal"]
 district: "Praha 5 – Barrandov"
