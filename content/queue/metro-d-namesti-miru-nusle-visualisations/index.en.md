@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the Náměstí Míru platform on metro D: a wide granite-floored hall under a perforated metal ceiling with recessed light lines, a train standing behind platform doors on the right, blue-lit signage overhead reading Depo Písnice, and passengers crossing towards an escalator in the foreground."
+  caption: "Metroprojekt's drawing of the platform forty metres under Náměstí Míru. What it shows is the engineering; the architecture is still to be designed."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://zdopravy.cz/obrazem-projektant-ukazal-nove-navrhy-stanic-metra-d-na-miraku-a-v-nuslich-299482/"
 sources:
   - title: "Obrazem: Projektant ukázal nové návrhy stanic metra D na Míráku a v Nuslích"
     url: "https://zdopravy.cz/obrazem-projektant-ukazal-nove-navrhy-stanic-metra-d-na-miraku-a-v-nuslich-299482/"

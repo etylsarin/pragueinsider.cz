@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A visualisation of the winning scheme by Nádraží Holešovice: a white concrete-framed block with deep window reveals and planted setbacks along a tram street, a coral-red tower rising behind it, shops and a café in the glazed ground floor, and a red tram passing on wet asphalt."
+  caption: "The Brno studio's winning entry for the plots north of Plynární, which the jury bought for its arched halls over the interchange and shops under the railway viaduct."
+  credit: "Chybík + Krištof"
+  kind: visualisation
+  source: "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti"
 sources:
   - title: "Návrh okolí stanice metra Nádraží Holešovice připraví CHYBIK + KRISTOF"
     url: "https://www.archiweb.cz/n/domaci/navrh-okoli-stanice-metra-nadrazi-holesovice-pripravi-cesti-architekti"

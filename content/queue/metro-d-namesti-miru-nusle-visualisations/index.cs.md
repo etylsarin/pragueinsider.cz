@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Vizualizace nástupiště stanice Náměstí Míru na metru D: široká hala se žulovou dlažbou pod perforovaným kovovým podhledem s liniemi svítidel, vpravo za nástupištními dveřmi stojící souprava, nad hlavou modře podsvícené značení s nápisem Depo Písnice a v popředí cestující mířící k eskalátoru."
+  caption: "Kresba nástupiště čtyřicet metrů pod Náměstím Míru od Metroprojektu. Ukazuje inženýrské řešení, architektura teprve vznikne."
+  credit: "METROPROJEKT"
+  kind: visualisation
+  source: "https://zdopravy.cz/obrazem-projektant-ukazal-nove-navrhy-stanic-metra-d-na-miraku-a-v-nuslich-299482/"
 sources:
   - title: "Obrazem: Projektant ukázal nové návrhy stanic metra D na Míráku a v Nuslích"
     url: "https://zdopravy.cz/obrazem-projektant-ukazal-nove-navrhy-stanic-metra-d-na-miraku-a-v-nuslich-299482/"
