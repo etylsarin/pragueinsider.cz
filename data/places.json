@@ -85,6 +85,13 @@
       "district": "Praha 6 – Ruzyně",
       "osm": "Dědina, Vlastina, Ruzyně, Praha 6, obvod Praha 6, Praha, 163 00, Česko"
     },
+    "dolni chabry": {
+      "name": "Dolní Chabry",
+      "lat": 50.14542,
+      "lng": 14.44909,
+      "district": "Praha 8",
+      "osm": "Praha-Dolní Chabry, obvod Praha 8, Praha, 184 00, Česko"
+    },
     "domov palata": {
       "name": "Domov Palata",
       "lat": 50.07573,
@@ -490,6 +497,13 @@
       "lng": 14.43411,
       "district": "Praha 7 – Holešovice",
       "osm": "Strossmayerovo náměstí, Holešovice, Praha 7, obvod Praha 7, Praha, Česko"
+    },
+    "suchdol": {
+      "name": "Suchdol",
+      "lat": 50.13868,
+      "lng": 14.37711,
+      "district": "Praha 6",
+      "osm": "Praha-Suchdol, obvod Praha 6, Praha, 165 00, Česko"
     },
     "terminal 1": {
       "name": "Terminál 1",

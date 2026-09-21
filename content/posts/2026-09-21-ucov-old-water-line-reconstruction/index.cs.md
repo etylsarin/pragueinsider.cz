@@ -3,7 +3,7 @@ slug: ucov-old-water-line-reconstruction
 lang: cs
 title: "Stavba za 4,79 miliardy, kterou nemá nikdo poznat"
 dek: "Rekonstrukce staré vodní linky Ústřední čistírny odpadních vod na Císařském ostrově začne 1. října a potrvá 43 měsíců. Zakázku má sdružení vedené SMP Construction, čištění mezitím převezme linka z roku 2019."
-queuedAt: 2026-09-17
+date: 2026-09-21
 category: development
 tags: ["Ústřední čistírna odpadních vod", "Císařský ostrov", "PVS", "SMP Construction", "Povodí Vltavy"]
 district: "Praha 6 – Bubeneč"
@@ -12,7 +12,7 @@ location:
   lng: 14.3965
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V Praze začne v říjnu rekonstrukce staré vodní linky za 4,79 miliardy korun"
     url: "https://www.archiweb.cz/n/domaci/v-praze-zacne-v-rijnu-rekonstrukce-stare-vodni-linky-za-4-79-miliardy-korun"

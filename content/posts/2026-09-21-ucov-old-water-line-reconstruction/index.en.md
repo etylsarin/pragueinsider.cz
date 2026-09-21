@@ -3,7 +3,7 @@ slug: ucov-old-water-line-reconstruction
 lang: en
 title: "The 4.79-Billion Rebuild Nobody Is Meant to Notice"
 dek: "Reconstruction of the old water line at Prague's central wastewater treatment plant on Císařský ostrov starts on 1 October and runs 43 months. A consortium led by SMP Construction has the contract; the 2019 line takes the whole city's sewage in the meantime."
-queuedAt: 2026-09-17
+date: 2026-09-21
 category: development
 tags: ["Ústřední čistírna odpadních vod", "Císařský ostrov", "PVS", "SMP Construction", "Povodí Vltavy"]
 district: "Praha 6 – Bubeneč"
@@ -12,7 +12,7 @@ location:
   lng: 14.3965
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V Praze začne v říjnu rekonstrukce staré vodní linky za 4,79 miliardy korun"
     url: "https://www.archiweb.cz/n/domaci/v-praze-zacne-v-rijnu-rekonstrukce-stare-vodni-linky-za-4-79-miliardy-korun"

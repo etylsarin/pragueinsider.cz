@@ -3,7 +3,7 @@ slug: naplavka-oak-benches-flood-proof
 lang: en
 title: "Náplavka's New Benches Took Twelve Years and One Prototype Left Out in the Weather"
 dek: "Twenty-seven oak seating arrangements are going in along Rašínovo nábřeží, bolted to steel frames set in concrete so the Vltava can wash over them. The contract is 4.121 million crowns before VAT and the material was chosen after a single prototype was left untreated for eight and a half years."
-queuedAt: 2026-09-19
+date: 2026-09-21
 category: public-space
 tags: ["náplavka", "Rašínovo nábřeží", "Projektil architekti", "Trade Centre Praha", "Vltava"]
 district: "Praha 2 – Nové Město"

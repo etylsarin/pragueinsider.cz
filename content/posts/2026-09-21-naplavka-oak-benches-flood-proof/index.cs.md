@@ -3,7 +3,7 @@ slug: naplavka-oak-benches-flood-proof
 lang: cs
 title: "Dubové lavice na náplavce: dvanáct let přípravy a prototyp nechaný venku bez nátěru"
 dek: "Na Rašínově nábřeží se instaluje sedmadvacet sestav z masivního dubu, ukotvených na ocelových rámech v betonových základech, aby přes ně mohla přejít voda. Zakázka stojí 4,121 milionu korun bez DPH a materiál vybral prototyp, který osm a půl roku stál na náplavce bez ošetření."
-queuedAt: 2026-09-19
+date: 2026-09-21
 category: public-space
 tags: ["náplavka", "Rašínovo nábřeží", "Projektil architekti", "Trade Centre Praha", "Vltava"]
 district: "Praha 2 – Nové Město"

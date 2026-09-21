@@ -3,7 +3,7 @@ slug: bohnice-asylum-cemetery-chapel
 lang: en
 title: "Praha 8 Has Finished the Chapel at the Bohnice Asylum Cemetery, and It Has No Roof"
 dek: "OHA architects kept the surviving perimeter walls and put an open steel structure where the roof was. The 8.5-million-crown rebuild opens to the public on 1 October; the paths, the mound and the cross come next."
-queuedAt: 2026-09-18
+date: 2026-09-21
 category: architecture
 tags: ["Bohnice", "hřbitov bláznů", "OHA architects", "Praha 8", "Jiří Vítek", "Radomír Nepil"]
 district: "Praha 8 – Bohnice"

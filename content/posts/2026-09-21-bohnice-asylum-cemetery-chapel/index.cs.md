@@ -3,7 +3,7 @@ slug: bohnice-asylum-cemetery-chapel
 lang: cs
 title: "Kaple na bohnickém hřbitově bláznů je hotová. Místo střechy má ocelovou trnovou korunu"
 dek: "Studio OHA architects postavilo novou kapli na dochovaných obvodových zdech té původní. Přestavba za 8,5 milionu korun bez DPH se veřejnosti otevře 1. října, na cesty, mohylu a kříž teprve dojde."
-queuedAt: 2026-09-18
+date: 2026-09-21
 category: architecture
 tags: ["Bohnice", "hřbitov bláznů", "OHA architects", "Praha 8", "Jiří Vítek", "Radomír Nepil"]
 district: "Praha 8 – Bohnice"
