@@ -232,6 +232,13 @@
       "district": "Praha 9",
       "osm": "Letňany, obvod Praha 9, Praha, Česko"
     },
+    "libus": {
+      "name": "Libuš",
+      "lat": 50.00902,
+      "lng": 14.46223,
+      "district": "Praha 4",
+      "osm": "Libuš, obvod Praha 4, Praha, Česko"
+    },
     "libusska": {
       "name": "Libušská",
       "lat": 50.015,

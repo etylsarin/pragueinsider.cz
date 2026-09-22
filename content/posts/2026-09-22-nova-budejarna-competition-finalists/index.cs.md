@@ -3,7 +3,7 @@ slug: nova-budejarna-competition-finalists
 lang: cs
 title: "O podobě Budějovické rozhodnou čtyři týmy. Vítěze vybere porota v listopadu"
 dek: "Do druhé fáze soutěže Nová Budějárna postoupily ateliéry A8000, UNIT architekti, francouzský Harmonic + Masson & Associés a britský Howells. Soutěž na území o rozloze zhruba 40 tisíc metrů čtverečních vypsala Penta Real Estate spolu s obchodním domem DBK, magistrátem a Prahou 4."
-queuedAt: 2026-09-18
+date: 2026-09-22
 category: architecture
 tags: ["Budějovická", "Nová Budějárna", "Penta Real Estate", "UNIT architekti", "A8000", "Stefan Behnisch"]
 district: "Praha 4 – Krč"

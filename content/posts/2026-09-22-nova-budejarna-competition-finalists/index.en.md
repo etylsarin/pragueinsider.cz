@@ -3,7 +3,7 @@ slug: nova-budejarna-competition-finalists
 lang: en
 title: "Four Teams Left in the Competition for Budějovická, With a Winner Due in November"
 dek: "A8000, UNIT architekti, Harmonic + Masson & Associés and Howells will develop their concepts further for the 40,000-square-metre block around the metro station. The competition was called by Penta Real Estate with DBK, the city and Praha 4."
-queuedAt: 2026-09-18
+date: 2026-09-22
 category: architecture
 tags: ["Budějovická", "Nová Budějárna", "Penta Real Estate", "UNIT architekti", "A8000", "Stefan Behnisch"]
 district: "Praha 4 – Krč"

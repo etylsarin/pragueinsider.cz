@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "entries": {
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
@@ -135,6 +135,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "metro-d-station-names-approved"
     },
+    "222daee44382a97f": {
+      "url": "https://zdopravy.cz/u-vas-budeme-recyklovat-ale-nedame-vam-vedet-prestavba-balabenky-rozhorcila-obce-u-prahy-300303",
+      "title": "U vás budeme recyklovat, ale nedáme vám vědět. Přestavba Balabenky rozhořčila obce u Prahy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-22",
+      "usedInPost": "balabenka-recycling-line-objections"
+    },
     "22cb5191df28f728": {
       "url": "https://www.archiweb.cz/n/domaci/praha-vybrala-firmu-pro-prestavbu-chrtiho-zavodiste-v-motole-na-stadion",
       "title": "Praha vybrala firmu pro přestavbu chrtího závodiště v Motole na stadion",
@@ -218,6 +225,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-10",
       "usedInPost": "mestsky-okruh-east-permit-documentation"
+    },
+    "335696b20fb957f8": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/praha-ma-nepravomocne-povoleni-na-stavbu-stanice-metra-d-libus-377802",
+      "title": "Praha má nepravomocné povolení na stavbu stanice metra D Libuš",
+      "source": "ČT24 (ČTK)",
+      "firstSeen": "2026-09-22",
+      "usedInPost": "metro-d-libus-station-permit"
     },
     "35292172861cec20": {
       "url": "https://praguemorning.cz/prague-industrial-palace-reopening",

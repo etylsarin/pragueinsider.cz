@@ -3,7 +3,7 @@ slug: petrin-funicular-returns-fourth-generation
 lang: en
 title: "The Petřín Funicular Reopens on Tuesday. Its Stations Stay Inaccessible Until 2030"
 dek: "Two years after extreme rainfall wrecked the track and part of the hillside, DPP starts trial operation with passengers on 22 September. The single fare goes from 60 to 100 crowns, the downhill trip no longer calls at Nebozízek, and step-free access to the lower station is still at the project-preparation stage."
-queuedAt: 2026-09-20
+date: 2026-09-22
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Doppelmayr", "Anna Marešová"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.4030
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Petřínská lanovka se vrací. DPP zahájí provoz nových vozů čtvrté generace"
     url: "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace"

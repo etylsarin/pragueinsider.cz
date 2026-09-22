@@ -3,7 +3,7 @@ slug: petrin-funicular-returns-fourth-generation
 lang: cs
 title: "Lanovka na Petřín se v úterý vrátí do provozu. Bezbariérové stanice ale až v roce 2030"
 dek: "Po dvou letech výluky zahájí Dopravní podnik 22. září zkušební provoz s cestujícími a novými vozy čtvrté generace. Jednotlivé jízdné stoupne z 60 na 100 korun, cestou dolů lanovka nezastaví na Nebozízku a spodní stanice na Újezdě zůstane bez bezbariérového přístupu."
-queuedAt: 2026-09-20
+date: 2026-09-22
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Doppelmayr", "Anna Marešová"]
 district: "Praha 1 – Malá Strana"
@@ -12,7 +12,7 @@ location:
   lng: 14.4030
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Petřínská lanovka se vrací. DPP zahájí provoz nových vozů čtvrté generace"
     url: "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace"

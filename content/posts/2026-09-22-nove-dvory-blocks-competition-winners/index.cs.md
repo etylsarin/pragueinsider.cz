@@ -3,7 +3,7 @@ slug: nove-dvory-blocks-competition-winners
 lang: cs
 title: "Tisíc nájemních bytů na Nových Dvorech nakreslí re:architekti a Apropos"
 dek: "Pražská developerská společnost vybrala ve dvou soutěžích ze třiceti účastníků podobu bloků u budoucí stanice metra D, která má být v provozu až ve druhé polovině roku 2032. Dva domy přímo nad stanicí se teprve připravují."
-queuedAt: 2026-09-19
+date: 2026-09-22
 category: development
 tags: ["Nové Dvory", "metro D", "Pražská developerská společnost", "re:architekti", "Apropos Architects", "CCEA MOBA"]
 district: "Praha 4"

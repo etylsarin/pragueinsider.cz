@@ -3,7 +3,7 @@ slug: nove-dvory-blocks-competition-winners
 lang: en
 title: "The City Has Picked the Architects for a Thousand Rental Flats at Nové Dvory"
 dek: "Pražská developerská společnost chose re:architekti and Apropos Architects out of thirty studios for the blocks around a metro D station that is not due to open before the second half of 2032. Two more buildings, sitting directly on top of the station, are still being prepared."
-queuedAt: 2026-09-19
+date: 2026-09-22
 category: development
 tags: ["Nové Dvory", "metro D", "Pražská developerská společnost", "re:architekti", "Apropos Architects", "CCEA MOBA"]
 district: "Praha 4"
