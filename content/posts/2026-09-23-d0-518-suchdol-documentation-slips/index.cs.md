@@ -3,7 +3,7 @@ slug: d0-518-suchdol-documentation-slips
 lang: cs
 title: "ŘSD letos čistopis dokumentace k úseku okruhu u Suchdola neodevzdá"
 dek: "Dokončení se posouvá na první čtvrtletí roku 2027, potvrdil generální ředitel Radek Mátl. S ním se posouvá i žádost o povolení záměru, soutěž na zhotovitele a zahájení stavby plánované na rok 2028."
-queuedAt: 2026-09-21
+date: 2026-09-23
 category: transport
 tags: ["Pražský okruh", "D0", "D0 518", "ŘSD", "Suchdol", "Jan Kasl"]
 district: "Praha-Suchdol"
@@ -12,7 +12,7 @@ location:
   lng: 14.3771
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Proč nejde na tunelu stavět? Přípravu Pražského okruhu brzdí jednání se Suchdolem, termín se posunuje"
     url: "https://zdopravy.cz/proc-nejde-na-tunelu-stavet-pripravu-prazskeho-okruhu-brzdi-jednani-se-suchdolem-termin-se-posunuje-300102"

@@ -2,8 +2,8 @@
 slug: tovarni-playground-toilet-students
 lang: en
 title: "Architecture Students Designed and Built the New Public Toilet on the Tovární Playground"
-dek: "A larch-clad structure made by Prague 7 and the CTU Faculty of Architecture together. It has a changing table and opens April to October, 8am to 6pm; on 22 September its authors gather on the playground and put every design the studio produced on show."
-queuedAt: 2026-09-20
+dek: "A larch-clad structure made by Prague 7 and the CTU Faculty of Architecture together. It has a changing table and opens April to October, 8am to 6pm; on 22 September its authors gathered on the playground and put every design the studio produced on show."
+date: 2026-09-23
 category: architecture
 tags: ["Holešovice", "FA ČVUT", "Ateliér Mádr", "veřejné toalety", "Praha 7"]
 district: "Praha 7 – Holešovice"
@@ -29,9 +29,9 @@ designed and built by students of Ateliér Mádr at the Czech Technical Universi
 Architecture, working with the Prague 7 district council. It has a changing table and is open
 from April to October between 8am and 6pm.
 
-On Tuesday 22 September at 4pm the students and their teachers meet on the playground. The
+On Tuesday 22 September at 4pm the students and their teachers met on the playground. The
 council says the gathering "concludes a successful collaboration on the creation of the new
-toilet in this place", and every student design for the toilet will be exhibited there — not
+toilet in this place", and every student design for the toilet was exhibited there — not
 only the one that got built.
 
 ## A house inside a house

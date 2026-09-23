@@ -2,8 +2,8 @@
 slug: tovarni-playground-toilet-students
 lang: cs
 title: "Bezbariérovou toaletu na hřišti v Tovární navrhli a postavili studenti architektury"
-dek: "Dřevem obložený objekt vznikl ve spolupráci Prahy 7 a Fakulty architektury ČVUT. Toaleta s přebalovacím pultem slouží od dubna do října mezi osmou a osmnáctou hodinou; v úterý 22. září se na hřišti sejdou autoři a vystaví všechny návrhy, které v ateliéru vznikly."
-queuedAt: 2026-09-20
+dek: "Dřevem obložený objekt vznikl ve spolupráci Prahy 7 a Fakulty architektury ČVUT. Toaleta s přebalovacím pultem slouží od dubna do října mezi osmou a osmnáctou hodinou; v úterý 22. září se na hřišti sešli autoři a vystavili všechny návrhy, které v ateliéru vznikly."
+date: 2026-09-23
 category: architecture
 tags: ["Holešovice", "FA ČVUT", "Ateliér Mádr", "veřejné toalety", "Praha 7"]
 district: "Praha 7 – Holešovice"
@@ -29,8 +29,8 @@ navrhli a postavili studenti Ateliéru Mádr na Fakultě architektury ČVUT, a t
 s městskou částí Praha 7. Toaleta má přebalovací pult a je otevřená od dubna do října mezi
 osmou a osmnáctou hodinou.
 
-V úterý 22. září od 16 hodin se na hřišti sejdou studenti se svými pedagogy. Podle radnice se
-tím „završí úspěšná spolupráce na vzniku nové toalety na tomto místě“ a vystaveny budou i
+V úterý 22. září od 16 hodin se na hřišti sešli studenti se svými pedagogy. Podle radnice se
+tím „završí úspěšná spolupráce na vzniku nové toalety na tomto místě“ a vystaveny byly i
 všechny studentské práce a návrhy toalet, které v ateliéru vznikly — tedy nejen ta jedna, co se
 postavila.
 

@@ -3,7 +3,7 @@ slug: d0-518-suchdol-documentation-slips
 lang: en
 title: "The Suchdol Ring Road Section Loses Another Year to a Question About What Can Stand on Top of a Tunnel"
 dek: "ŘSD will not deliver the final documentation for D0 section 518 this year as its schedule assumed. Its director general now expects it in the first quarter of 2027, with the permit application, the contractor tender and a 2028 construction start all pushed behind it."
-queuedAt: 2026-09-21
+date: 2026-09-23
 category: transport
 tags: ["Pražský okruh", "D0", "D0 518", "ŘSD", "Suchdol", "Jan Kasl"]
 district: "Praha-Suchdol"
@@ -12,7 +12,7 @@ location:
   lng: 14.3771
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Proč nejde na tunelu stavět? Přípravu Pražského okruhu brzdí jednání se Suchdolem, termín se posunuje"
     url: "https://zdopravy.cz/proc-nejde-na-tunelu-stavet-pripravu-prazskeho-okruhu-brzdi-jednani-se-suchdolem-termin-se-posunuje-300102"

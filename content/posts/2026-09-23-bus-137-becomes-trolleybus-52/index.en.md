@@ -3,7 +3,7 @@ slug: bus-137-becomes-trolleybus-52
 lang: en
 title: "Bus 137 Ran for the Last Time on Sunday. On Monday the Route Is Trolleybus 52"
 dek: "DPP now owns thirteen Bozankaya SNG 12T battery trolleybuses, enough to put ten on the road every day, and has converted the Na Knížecí – Waltrovka – Jinonice route to electric traction outright. Every second run will now continue to Jinonice, weekends included."
-queuedAt: 2026-09-21
+date: 2026-09-23
 category: transport
 tags: ["trolleybuses", "Bozankaya", "DPP", "line 52", "Waltrovka", "Malvazinky"]
 district: "Praha 5 – Jinonice"

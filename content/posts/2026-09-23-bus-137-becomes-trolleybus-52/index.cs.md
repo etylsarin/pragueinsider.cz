@@ -3,7 +3,7 @@ slug: bus-137-becomes-trolleybus-52
 lang: cs
 title: "Autobus 137 vyjel naposledy v neděli, od pondělí jezdí trolejbusová linka 52"
 dek: "Dopravní podnik převzal třináct bateriových trolejbusů Bozankaya SNG 12T, což mu stačí na deset denních pořadí. Trasu Na Knížecí – Waltrovka – Jinonice tak překlopil natrvalo do elektrické trakce a do Jinonic nově zajíždí každý druhý spoj."
-queuedAt: 2026-09-21
+date: 2026-09-23
 category: transport
 tags: ["trolejbusy", "Bozankaya", "DPP", "linka 52", "Waltrovka", "Malvazinky"]
 district: "Praha 5 – Jinonice"

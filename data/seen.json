@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "entries": {
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
@@ -506,6 +506,13 @@
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
     },
+    "79d024e5d5781eaa": {
+      "url": "https://zdopravy.cz/z-litacky-ma-byt-superaplikace-nove-funkce-podpori-praha-dalsimi-25-miliony-300309",
+      "title": "Z Lítačky má být superaplikace. Nové funkce podpoří Praha dalšími 25 miliony",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-23",
+      "usedInPost": "pid-litacka-second-generation-funding"
+    },
     "7b82a6e61ae4aeca": {
       "url": "https://www.archiweb.cz/n/domaci/zacal-platit-novy-prazsky-uzemni-plan-ma-usnadnit-vystavbu",
       "title": "Začal platit nový pražský územní plán, má usnadnit výstavbu",
@@ -778,6 +785,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-03",
       "usedInPost": "prague-castle-stajovy-dvur-competition"
+    },
+    "c40aab83c36419c5": {
+      "url": "https://zdopravy.cz/po-trati-a-vozech-take-stanice-praha-uz-chysta-dalsi-etapu-rekonstrukce-petrinske-lanovky-300386",
+      "title": "Po trati a vozech také stanice. Praha už chystá další etapu rekonstrukce petřínské lanovky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-23",
+      "usedInPost": "petrin-funicular-stations-rebuild-schedule"
     },
     "caa1b508532c4979": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",
