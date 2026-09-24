@@ -568,6 +568,13 @@
       "district": "Praha 7 – Holešovice",
       "osm": "Vrbenského, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
     },
+    "vychovatelna": {
+      "name": "Vychovatelna",
+      "lat": 50.11918,
+      "lng": 14.46424,
+      "district": "Praha 8 – Libeň",
+      "osm": "Vychovatelna, Zenklova, Libeň, Praha 8, obvod Praha 8, Praha, 180 81, Česko"
+    },
     "vysocanska": {
       "name": "Vysočanská",
       "lat": 50.11012,

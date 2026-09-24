@@ -3,7 +3,7 @@ slug: nove-dvory-metro-d-tunnelling-starts
 lang: cs
 title: "Na Nových Dvorech začaly ražby přístupového tunelu metra D"
 dek: "Zarážka měří 2,5 metru, přístupový a větrací tunel dohromady vyjdou asi na 300 metrů. Stanice má být vyražena dřív, než v polovině roku 2027 dorazí na staveniště Rezerva razicí štíty."
-queuedAt: 2026-09-21
+date: 2026-09-24
 category: transport
 tags: ["metro D", "Nové Dvory", "HOCHTIEF CZ", "Subterra", "DPP", "Ryšánka"]
 district: "Praha 4"

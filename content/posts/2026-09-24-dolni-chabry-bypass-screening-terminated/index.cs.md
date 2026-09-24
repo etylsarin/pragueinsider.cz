@@ -3,7 +3,7 @@ slug: dolni-chabry-bypass-screening-terminated
 lang: cs
 title: "Zjišťovací řízení k obchvatu Dolních Chaber skončilo předčasně, radnice do něj poslala 288 připomínek"
 dek: "Odbor ochrany přírody magistrátu řízení ukončil na žádost projektanta, společnosti Pudis. Praha zároveň jedná s ŘSD o tom, že by 1,2 kilometru dlouhou silnici převzalo — koliduje totiž s tunelovou křižovatkou u Čimic."
-queuedAt: 2026-09-21
+date: 2026-09-24
 category: transport
 tags: ["obchvat Dolních Chaber", "EIA", "Dolní Chabry", "ŘSD", "D0", "MÚK Čimice"]
 district: "Praha-Dolní Chabry"
@@ -12,7 +12,7 @@ location:
   lng: 14.4491
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Obchvat Dolních Chaber jde zatím k ledu. Praha stáhla svou žádost o prověření, chce zapojit ŘSD"
     url: "https://zdopravy.cz/obchvat-dolnich-chaber-jde-zatim-k-ledu-praha-stahla-svou-zadost-o-provereni-chce-zapojit-rsd-300036"

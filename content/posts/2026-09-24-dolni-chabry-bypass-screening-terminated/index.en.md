@@ -3,7 +3,7 @@ slug: dolni-chabry-bypass-screening-terminated
 lang: en
 title: "The Dolní Chabry Bypass Is Pulled Out of Its Environmental Screening After 288 Objections"
 dek: "The city hall's nature protection department ended the procedure early, on a request filed by the designer Pudis. Prague is talking to ŘSD about handing the 1.2km road over, because it collides with the ring road junction being prepared next door."
-queuedAt: 2026-09-21
+date: 2026-09-24
 category: transport
 tags: ["obchvat Dolních Chaber", "EIA", "Dolní Chabry", "ŘSD", "D0", "MÚK Čimice"]
 district: "Praha-Dolní Chabry"
@@ -12,7 +12,7 @@ location:
   lng: 14.4491
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Obchvat Dolních Chaber jde zatím k ledu. Praha stáhla svou žádost o prověření, chce zapojit ŘSD"
     url: "https://zdopravy.cz/obchvat-dolnich-chaber-jde-zatim-k-ledu-praha-stahla-svou-zadost-o-provereni-chce-zapojit-rsd-300036"

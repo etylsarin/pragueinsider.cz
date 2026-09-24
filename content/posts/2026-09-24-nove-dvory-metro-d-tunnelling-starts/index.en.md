@@ -3,7 +3,7 @@ slug: nove-dvory-metro-d-tunnelling-starts
 lang: en
 title: "Metro D Goes Underground at Nové Dvory, Three Months After the Second Stage Broke Ground"
 dek: "The first 2.5 metres of the access tunnel are driven. Roughly 300 metres of access and ventilation tunnel come first, the station itself is to be excavated before the tunnel boring machines arrive at Rezerva in mid-2027, and a lime-wood Saint Barbara now sits over the portal."
-queuedAt: 2026-09-21
+date: 2026-09-24
 category: transport
 tags: ["metro D", "Nové Dvory", "HOCHTIEF CZ", "Subterra", "DPP", "Ryšánka"]
 district: "Praha 4"
