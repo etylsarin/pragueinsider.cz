@@ -3,7 +3,7 @@ slug: balabenka-recycling-line-objections
 lang: cs
 title: "Suť z Balabenky se má drtit u Měšic. Tamní obce se o tom dozvěděly náhodou"
 dek: "Bašť, Bořanovice a Zlonín podaly rozklad na ministerstvo životního prostředí a společnou pozici na ministerstvo dopravy. Recyklační linka pro přestavbu odbočky Balabenka má stát v areálu stanice Měšice u Prahy, po přetížené I/9 k ní má jezdit až padesát nákladních aut denně — a žádná z obcí nebyla mezi dotčenými samosprávami."
-queuedAt: 2026-09-22
+date: 2026-09-25
 category: transport
 tags: ["Balabenka", "EIA", "Správa železnic", "VRT Praha – Drážďany", "Měšice u Prahy"]
 district: "Praha 9 – Libeň"

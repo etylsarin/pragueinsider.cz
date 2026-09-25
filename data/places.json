@@ -141,6 +141,13 @@
       "district": "Praha 6 – Řepy",
       "osm": "garáže Řepy, Řepy, Praha 17, obvod Praha 6, Praha, Česko"
     },
+    "generala sisky": {
+      "name": "Generála Šišky",
+      "lat": 50.00277,
+      "lng": 14.41479,
+      "district": "Praha 4 – Modřany",
+      "osm": "Generála Šišky, Modřany, Praha 12, obvod Praha 4, Praha, 143 00, Česko"
+    },
     "hogerova": {
       "name": "Högerova",
       "lat": 50.03258,
@@ -273,6 +280,13 @@
       "lng": 14.59095,
       "district": null,
       "osm": "Modletice, okres Praha-východ, Středočeský kraj, Česko"
+    },
+    "modrany": {
+      "name": "Modřany",
+      "lat": 50.0036,
+      "lng": 14.42541,
+      "district": "Praha 4",
+      "osm": "Modřany, obvod Praha 4, Praha, 143 00, Česko"
     },
     "moskevska vrsovice": {
       "name": "Moskevská, Vršovice",
@@ -470,6 +484,13 @@
       "district": "Praha 2 – Vyšehrad",
       "osm": "Rašínovo nábřeží, Vyšehrad, obvod Praha 2, Praha, 121 35, Česko"
     },
+    "rohansky ostrov": {
+      "name": "Rohanský ostrov",
+      "lat": 50.0997,
+      "lng": 14.45995,
+      "district": "Praha 8",
+      "osm": "Rohanský ostrov, Praha 8, obvod Praha 8, Praha, Česko"
+    },
     "roztocka sedlec": {
       "name": "Roztocká, Sedlec",
       "lat": 50.13159,
@@ -525,6 +546,13 @@
       "lng": 14.44521,
       "district": "Praha 7 – Holešovice",
       "osm": "Tovární, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
+    },
+    "trebonice": {
+      "name": "Třebonice",
+      "lat": 50.04283,
+      "lng": 14.27801,
+      "district": "Praha 5",
+      "osm": "Třebonice, obvod Praha 5, Praha, Česko"
     },
     "u hostavickeho potoka": {
       "name": "U Hostavického potoka",

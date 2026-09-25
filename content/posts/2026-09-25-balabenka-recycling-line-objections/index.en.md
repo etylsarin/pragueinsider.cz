@@ -3,7 +3,7 @@ slug: balabenka-recycling-line-objections
 lang: en
 title: "Balabenka's Spoil Is to Be Crushed 20 Kilometres Away. The Villages There Were Never Asked"
 dek: "Bašť, Bořanovice and Zlonín have filed an appeal with the Environment Ministry and a joint complaint with the Transport Ministry. A mobile recycling plant serving the rebuild of the Balabenka rail junction sits in the plans at Měšice station, with up to 50 lorries a day on road I/9 — and none of the three was listed as an affected authority."
-queuedAt: 2026-09-22
+date: 2026-09-25
 category: transport
 tags: ["Balabenka", "EIA", "Správa železnic", "VRT Praha – Drážďany", "Měšice u Prahy"]
 district: "Praha 9 – Libeň"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "entries": {
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
@@ -15,6 +15,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-28",
       "usedInPost": "jahodnice-school-construction-start"
+    },
+    "02c2deef5b333556": {
+      "url": "https://www.praha7.cz/prumyslovy-palac-se-otevira-po-rekonstrukci",
+      "title": "Průmyslový palác se otevírá po rekonstrukci",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-09-25",
+      "usedInPost": "prumyslovy-palac-reopens"
     },
     "0762d2158ed3b94e": {
       "url": "https://www.praha5.cz/pristavba-zakladni-skoly-na-zlichove-je-hotova",
@@ -527,12 +534,26 @@
       "firstSeen": "2026-09-23",
       "usedInPost": "pid-litacka-second-generation-funding"
     },
+    "7b6ea78a141c2f65": {
+      "url": "https://zdopravy.cz/prestavba-pretizene-krizovatky-u-zlicina-se-rozbiha-hlavni-prace-odstartuji-pristi-rok-300161",
+      "title": "Přestavba přetížené křižovatky u Zličína se rozbíhá. Hlavní práce odstartují příští rok",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-25",
+      "usedInPost": "trebonice-junction-capacity-works"
+    },
     "7b82a6e61ae4aeca": {
       "url": "https://www.archiweb.cz/n/domaci/zacal-platit-novy-prazsky-uzemni-plan-ma-usnadnit-vystavbu",
       "title": "Začal platit nový pražský územní plán, má usnadnit výstavbu",
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-03",
       "usedInPost": "metropolitan-plan-in-force-objections"
+    },
+    "7be61e7423468848": {
+      "url": "https://zdopravy.cz/v-praze-vzniklo-dalsi-velke-pr-parkoviste-na-pulku-dne-pujde-odstavit-auto-bezplatne-300591",
+      "title": "V Praze vzniklo další velké P+R parkoviště. Na půlku dne půjde odstavit auto bezplatně",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-09-25",
+      "usedInPost": "modrany-park-and-ride-opens"
     },
     "7d2ab6ddea8a6043": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci",
@@ -723,6 +744,13 @@
       "firstSeen": "2026-08-31",
       "usedInPost": "pod-krejcarkem-bridge-reopens"
     },
+    "ad117eaaec832695": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/prumyslovy-palac-v-praze-je-po-rekonstrukci-377917",
+      "title": "Průmyslový palác v Praze je po rekonstrukci",
+      "source": "ČT24",
+      "firstSeen": "2026-09-25",
+      "usedInPost": "prumyslovy-palac-reopens"
+    },
     "ae24b2a5aa9fc497": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026",
       "title": "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026",
@@ -855,6 +883,13 @@
       "source": "Prague Morning",
       "firstSeen": "2026-09-17",
       "usedInPost": "nadrazi-holesovice-competition-chybik-kristof"
+    },
+    "df753949bf6f905d": {
+      "url": "https://www.praha8.cz/Rohansky-ostrov-ma-novou-galerii-pod-sirym-nebem.html",
+      "title": "Rohanský ostrov má novou galerii pod širým nebem",
+      "source": "Městská část Praha 8",
+      "firstSeen": "2026-09-25",
+      "usedInPost": "rohansky-ostrov-concrete-plant-2028"
     },
     "e0906498a338e1a1": {
       "url": "https://zdopravy.cz/nova-grafika-i-delsi-odpocty-v-prazskem-metru-predelavaji-informacni-panely-298977",
