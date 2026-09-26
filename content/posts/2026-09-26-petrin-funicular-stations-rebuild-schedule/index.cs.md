@@ -3,7 +3,7 @@ slug: petrin-funicular-stations-rebuild-schedule
 lang: cs
 title: "Stanice petřínské lanovky přijdou na řadu až po vozech. Újezd dostane dva výtahy, hotovo má být v roce 2030"
 dek: "Lanovka se v úterý rozjela s novými vozy po opravené trati. Stanice do obnovy nepatřily. Rada města schválila jejich bezbariérové zpřístupnění už v červnu za odhadovaných 80 milionů korun bez DPH, náměstek Beránek teď řekl, v jakém pořadí se do nich Praha pustí."
-queuedAt: 2026-09-23
+date: 2026-09-26
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Jaromír Beránek", "bezbariérovost"]
 district: "Praha 1 – Malá Strana"

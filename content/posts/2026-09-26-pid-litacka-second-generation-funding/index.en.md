@@ -3,7 +3,7 @@ slug: pid-litacka-second-generation-funding
 lang: en
 title: "Prague Commits 25 Million Crowns to a Rebuilt PID Lítačka. It Arrives as an Update in Early 2027"
 dek: "The city council has approved the money for a second generation of the transport app, with another six million from ROPID and IDSK. The rebuild is architectural rather than cosmetic: the new version is meant to carry step-free routing, demand-responsive services and EV charging payments."
-queuedAt: 2026-09-23
+date: 2026-09-26
 category: transport
 tags: ["PID Lítačka", "OICT", "ROPID", "Jaromír Beránek", "bezbariérovost"]
 author: "Prague Insider Desk"

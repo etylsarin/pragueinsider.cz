@@ -3,7 +3,7 @@ slug: petrin-funicular-stations-rebuild-schedule
 lang: en
 title: "Prague Puts Dates on the Petřín Funicular's Stations. Újezd First, All Three Step-Free by 2030"
 dek: "The line reopened on Tuesday with new cars on a rebuilt track. Its three stations were left out of that work; the city council approved the accessibility scheme in June at an estimated 80 million crowns, and the deputy mayor for transport has now set out the order."
-queuedAt: 2026-09-23
+date: 2026-09-26
 category: transport
 tags: ["Petřín", "lanová dráha", "DPP", "Jaromír Beránek", "bezbariérovost"]
 district: "Praha 1 – Malá Strana"

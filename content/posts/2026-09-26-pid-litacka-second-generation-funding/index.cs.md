@@ -3,7 +3,7 @@ slug: pid-litacka-second-generation-funding
 lang: cs
 title: "Praha dá 25 milionů na přestavbu Lítačky. Novou verzi dostanou cestující aktualizací na začátku roku 2027"
 dek: "Radní schválili peníze na druhou generaci aplikace, dalších šest milionů přidají ROPID a IDSK. Nejde o kosmetiku: nová architektura má unést bezbariérové vyhledávání spojení, poptávkovou dopravu i placení za nabíjení elektromobilů."
-queuedAt: 2026-09-23
+date: 2026-09-26
 category: transport
 tags: ["PID Lítačka", "OICT", "ROPID", "Jaromír Beránek", "bezbariérovost"]
 author: "Prague Insider Desk"

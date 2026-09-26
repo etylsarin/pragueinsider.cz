@@ -3,7 +3,7 @@ slug: metro-d-libus-station-permit
 lang: en
 title: "Libuš Station Has a Building Permit. Whether Metro D Reaches It in 2032 Turns on Mid-2028"
 dek: "The permit is not final yet, and DPP cannot start the contractor tender until it is. Spokesman Daniel Šabík says that if the station is under construction by the middle of 2028, the first stretch of line D could open as far as Libuš instead of terminating at Nové Dvory."
-queuedAt: 2026-09-22
+date: 2026-09-26
 category: transport
 tags: ["metro D", "Libuš", "DPP", "Nové Dvory", "Písnice"]
 district: "Praha 4 – Libuš"
@@ -12,7 +12,7 @@ location:
   lng: 14.4622
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha má nepravomocné povolení na stavbu stanice metra D Libuš"
     url: "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/praha-ma-nepravomocne-povoleni-na-stavbu-stanice-metra-d-libus-377802"
