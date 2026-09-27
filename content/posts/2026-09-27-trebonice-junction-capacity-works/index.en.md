@@ -3,7 +3,7 @@ slug: trebonice-junction-capacity-works
 lang: en
 title: "The Ring Road's Busiest Junction Goes Under the Diggers. Three Weeks Now, the Real Work in Spring 2027"
 dek: "ŘSD has started the first stage of widening the Třebonice interchange, where the D0 meets the D5 and the Rozvadov spur and more than 75,000 vehicles pass a day. Silnice Group has the contract at 568.1 million crowns before VAT; the stage is to finish in 2028."
-queuedAt: 2026-09-25
+date: 2026-09-27
 category: transport
 tags: ["MÚK Třebonice", "Pražský okruh", "D0", "D5", "ŘSD", "Silnice Group"]
 district: "Praha 13 – Třebonice"

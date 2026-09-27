@@ -3,7 +3,7 @@ slug: zenklova-cycle-lane-objection
 lang: cs
 title: "Cyklopruh na Zenklově se objevil až v připomínkách. Praha 8 dvakrát žádala o přehodnocení, marně"
 dek: "TSK už značení realizuje. Dopravní komise i radní pro dopravu Martin Jedlička tvrdí, že pruh ukončený mezi dvěma jízdními pruhy na ulici, kudy v jednom směru denně projede 13 800 vozidel, je horší než žádný — a že se do návrhu opatření obecné povahy dostal až ve fázi, kdy k němu městská část nemohla zaujmout stanovisko."
-queuedAt: 2026-09-24
+date: 2026-09-27
 category: transport
 tags: ["Zenklova", "Vychovatelna", "cyklodoprava", "TSK", "Praha 8"]
 district: "Praha 8 – Libeň"
@@ -12,7 +12,7 @@ location:
   lng: 14.4642
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Cyklopruh na Zenklově ulici u Vychovatelny v Praze 8 je nebezpečný, tvrdí dopravní komise i radní pro dopravu"
     url: "https://www.praha8.cz/Cyklopruh-na-Zenklove-ulici-u-Vychovatelny-v-Praze-8-je-nebezpecny-tvrdi-dopravni-komise-i-radni-pro-dopravu.html"

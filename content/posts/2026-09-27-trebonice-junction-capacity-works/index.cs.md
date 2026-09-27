@@ -3,7 +3,7 @@ slug: trebonice-junction-capacity-works
 lang: cs
 title: "Na MÚK Třebonice se začalo stavět. Tři týdny příprav teď, hlavní práce až na jaře 2027"
 dek: "ŘSD zahájilo nultou etapu zkapacitnění křižovatky, kde se Pražský okruh potkává s D5 a Rozvadovskou spojkou a kde denně projede přes 75 tisíc vozidel. Zakázku za 568,1 milionu korun bez DPH má Silnice Group, hotovo má být v roce 2028."
-queuedAt: 2026-09-25
+date: 2026-09-27
 category: transport
 tags: ["MÚK Třebonice", "Pražský okruh", "D0", "D5", "ŘSD", "Silnice Group"]
 district: "Praha 13 – Třebonice"

@@ -3,7 +3,7 @@ slug: modrany-park-and-ride-opens
 lang: cs
 title: "Z nevyužitého pozemku mezi tramvají a tratí v Modřanech je 52 parkovacích stání"
 dek: "TSK dokončila úpravu plochy na nové záchytné parkoviště P+R. Stání je bezplatné, nejdéle na dvanáct hodin, tři místa jsou vyhrazená pro držitele ZTP. Práce spočívaly hlavně v úklidu: odstranění náletů a oprava asfaltu poškozeného kořeny."
-queuedAt: 2026-09-25
+date: 2026-09-27
 category: transport
 tags: ["P+R", "Modřany", "TSK", "Jaromír Beránek", "parkování"]
 district: "Praha 12 – Modřany"

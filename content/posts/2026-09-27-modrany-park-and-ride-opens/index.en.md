@@ -3,7 +3,7 @@ slug: modrany-park-and-ride-opens
 lang: en
 title: "A Strip of Waste Ground Between the Tram and the Railway in Modřany Is Now 52 Parking Spaces"
 dek: "TSK has finished converting an unused plot into a park-and-ride, free to use for up to twelve hours. Three of the bays are reserved for blue-badge holders, and the works were mostly clearance: scrub removed, root-damaged asphalt patched."
-queuedAt: 2026-09-25
+date: 2026-09-27
 category: transport
 tags: ["P+R", "Modřany", "TSK", "Jaromír Beránek", "parkování"]
 district: "Praha 12 – Modřany"

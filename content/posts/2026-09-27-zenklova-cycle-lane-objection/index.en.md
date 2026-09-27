@@ -3,7 +3,7 @@ slug: zenklova-cycle-lane-objection
 lang: en
 title: "Prague 8 Calls the New Zenklova Cycle Lane Dangerous, and Says It Never Got the Chance to Object"
 dek: "TSK is painting the markings now. The district's transport commission and its transport councillor say a lane that ends between two running traffic lanes on a street carrying 13,800 vehicles a day is worse than none — and that it surfaced only in the comments on the draft, after the point at which Prague 8 could have filed a position."
-queuedAt: 2026-09-24
+date: 2026-09-27
 category: transport
 tags: ["Zenklova", "Vychovatelna", "cycling", "TSK", "Praha 8"]
 district: "Praha 8 – Libeň"
@@ -12,7 +12,7 @@ location:
   lng: 14.4642
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Cyklopruh na Zenklově ulici u Vychovatelny v Praze 8 je nebezpečný, tvrdí dopravní komise i radní pro dopravu"
     url: "https://www.praha8.cz/Cyklopruh-na-Zenklove-ulici-u-Vychovatelny-v-Praze-8-je-nebezpecny-tvrdi-dopravni-komise-i-radni-pro-dopravu.html"
