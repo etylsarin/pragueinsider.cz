@@ -74,8 +74,19 @@ export const isoDate = (date) => new Date(date).toISOString().slice(0, 10)
  * archiweb prints "28.07." with no year. Assume the most recent occurrence: a month ahead of
  * today means it belongs to last year, not the future.
  */
+const RELATIVE_DAYS = { dnes: 0, včera: 1, vcera: 1, předevčírem: 2, predevcirem: 2 }
+
 export const dayMonthToIso = (text, now = new Date()) => {
-  const match = /(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*(\d{4})?/.exec(String(text || ''))
+  const raw = String(text || '').trim().toLowerCase()
+  // Some listings print the newest items relatively ("dnes", "včera") and only fall back to
+  // "25.09." further down the page. archiweb does this for roughly the top fifth of its
+  // listing — precisely the items inside the scan window — so dropping them loses the freshest
+  // news rather than the stalest.
+  const relative = RELATIVE_DAYS[raw]
+  if (relative !== undefined) {
+    return isoDate(new Date(now.getTime() - relative * 86400000))
+  }
+  const match = /(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*(\d{4})?/.exec(raw)
   if (!match) return null
   const [, day, month, year] = match
   let resolvedYear = year ? Number(year) : now.getUTCFullYear()
