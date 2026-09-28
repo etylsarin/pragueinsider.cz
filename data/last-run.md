@@ -1,6 +1,6 @@
-# Scan log — 2026-09-27
+# Scan log — 2026-09-28
 
-Scanned `2026-09-27T05:06:37.768Z`, window 21 days.
+Scanned `2026-09-28T05:08:06.100Z`, window 21 days.
 
 ## Sources
 
@@ -10,137 +10,108 @@ Scanned `2026-09-27T05:06:37.768Z`, window 21 days.
 - ✓ **PID / ROPID** — 4 new of 10 (4 off-topic, 2 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 2 new of 40 (36 off-topic, 2 covered, 0 outside window)
-- ✓ **ČT24 — Praha** — 1 new of 10 (7 off-topic, 2 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 2 new of 40 (37 off-topic, 1 covered, 0 outside window)
+- ✓ **ČT24 — Praha** — 1 new of 10 (8 off-topic, 1 covered, 0 outside window)
 - ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 3 new of 10 (7 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 2 new of 10 (8 off-topic, 0 covered, 0 outside window)
 - ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 8 new of 40 (29 off-topic, 3 covered, 0 outside window)
+- ✓ **Městské části** — 8 new of 38 (27 off-topic, 3 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 
-## Candidates — 21 in 21 clusters
+## Candidates — 20 in 20 clusters
 
-1. `30` transport — Prague Metro and Tram Disruptions Planned for September 28 Weekend
-2. `22` architecture — V cenách Opera Pragensia bodovala ředitelka CSOP i Raudnitzův dům
-3. `22` transport — Trvalé změny PID v září a říjnu 2026
-4. `20` transport — Oznámení plánovaných hlučných prací v oblasti Nového spojení
-5. `19` transport — DPP o prodlouženém víkendu vymění další pražce na trati C
-6. `19` planning — Pražské ulice mají co vyprávět. Přibývají modré tabulky
-7. `18` planning — Radní podpořili granty na příští rok
-8. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
-9. `14` transport — V domově seniorů U Vršovického nádraží proběhne školení s možností cvičné střelby
-10. `14` public-space — Ve škole a školce přibude zeleň
-11. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září a říjen
-12. `13` transport — Pozvánka na prodloužený víkend s PID: Den hrdinů a Poznej Vltavu
-13. `13` development — Petřínská lanovka dnes po dvou letech obnovila provoz
-14. `12` transport — Potvrzeno: Italské rychlovlaky spojí Mnichov a Řím. Z Prahy do italské metropole bude stačit jeden přestup
-15. `12` transport — Letů na Madeiru z Prahy ubude. Eurowings zrušily plánované spojení
-16. `11` development — Bolt and Lucid Plan 25,000 Autonomous Vehicles Across Europe
-17. `10` transport — Praha 5 vezme seniory na výlet
-18. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
-19. `9` planning — Czech Statehood Day 2026: What Is Open and What to Do in Prague
-20. `9` planning — Úřad bude v pátek 25. 9. od 10.30 uzavřen kvůli požárnímu cvičení
-21. `7` transport — Požár bytu v centru Prahy omezil provoz tramvají
+1. `22` architecture — V cenách Opera Pragensia bodovala ředitelka CSOP i Raudnitzův dům
+2. `22` transport — Trvalé změny PID v září a říjnu 2026
+3. `20` transport — Oznámení plánovaných hlučných prací v oblasti Nového spojení
+4. `19` transport — DPP o prodlouženém víkendu vymění další pražce na trati C
+5. `19` planning — Pražské ulice mají co vyprávět. Přibývají modré tabulky
+6. `18` planning — Radní podpořili granty na příští rok
+7. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
+8. `14` transport — V domově seniorů U Vršovického nádraží proběhne školení s možností cvičné střelby
+9. `14` public-space — Ve škole a školce přibude zeleň
+10. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na září a říjen
+11. `13` transport — Pozvánka na prodloužený víkend s PID: Den hrdinů a Poznej Vltavu
+12. `13` development — Petřínská lanovka dnes po dvou letech obnovila provoz
+13. `11` development — Bolt and Lucid Plan 25,000 Autonomous Vehicles Across Europe
+14. `10` transport — Pražský okruh neplánovaně uzavřou, bude se usazovat mostní nosník
+15. `10` transport — Praha 5 vezme seniory na výlet
+16. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
+17. `9` planning — Czech Statehood Day 2026: What Is Open and What to Do in Prague
+18. `9` planning — Úřad bude v pátek 25. 9. od 10.30 uzavřen kvůli požárnímu cvičení
+19. `7` transport — Miliardový zisk na kolejích. AŽD Praha odhalila výsledky za poslední rok
+20. `7` transport — Požár bytu v centru Prahy omezil provoz tramvají
 
 
 ## Decisions
 
-**Nothing was written today.** Twenty-one candidates, and the two that looked publishable turned
-out to be stories already in the archive, reaching the digest through a second source URL. Three
-articles were released from the queue, which has now run dry — see *Needs a human*.
-
-### Released (from the queue, not written today)
-
-- **`zenklova-cycle-lane-objection`** (queued 2026-09-24) — **the day's lead.** Praha 8 calls the
-  new Zenklova cycle lane dangerous and says it was never given the chance to object. The
-  contested story of the three.
-- **`modrany-park-and-ride-opens`** (queued 2026-09-25) — 52 spaces on the waste ground between
-  the tram and the railway in Modřany.
-- **`trebonice-junction-capacity-works`** (queued 2026-09-25) — three weeks of work now on the
-  ring road's busiest junction, the real rebuild in spring 2027.
-
-All three are transport, and so was everything in the queue, so `release.mjs` had no other desk to
-hold a slot for. The queue is now empty.
-
-### Already covered, reached the digest on a second URL
-
-- **Petřínská lanovka dnes po dvou letech obnovila provoz** (DPP, 22 Sept) — the reopening is
-  already published three times over: `2026-09-14-petrin-funicular-reopens-22-september`,
-  `2026-09-22-petrin-funicular-returns-fourth-generation` and
-  `2026-09-26-petrin-funicular-stations-rebuild-schedule`. This DPP release carries nothing the
-  archive does not have; it simply was not one of the URLs those pieces cited.
-- **Trvalé změny PID v září a říjnu 2026** (PID) — the trolleybus 52 conversion is
-  `2026-09-23-bus-137-becomes-trolleybus-52`. The one uncovered item in the roundup is tram 23's
-  permanent reroute of 19 September (Královka – Pražský hrad – Malostranská – Újezd – Národní
-  třída – Václavské náměstí – Bílá labuť), and the source gives the route string and the date and
-  nothing else: no reason, no official, no cost. Not 400 words without inventing the context, so
-  dropped rather than padded. Worth watching for a fuller source.
+**Written: none. Released: none — the queue was already empty.** Nothing in the digest cleared the
+bar. Most of the list is the same twenty items that were passed over on 27 September; the two
+genuinely new Prague stories were both already published.
 
 ### Skipped, with reasons
 
-- **Prague Metro and Tram Disruptions Planned for September 28 Weekend** (Prague Morning) — a
-  weekend service notice.
-- **DPP o prodlouženém víkendu vymění další pražce na trati C** — a one-weekend works diversion,
-  the same closure from the operator's side.
-- **V cenách Opera Pragensia bodovala ředitelka CSOP i Raudnitzův dům** (Praha 5) — an awards
-  evening, and the source is the district congratulating its own mayor's prize to its own
-  institution's director. Nothing was built, funded or decided; the Raudnitzův dům reconstruction
-  appears only as the winning entry, not as news.
-- **Oznámení plánovaných hlučných prací v oblasti Nového spojení** (Praha 8) — a noise notice for
-  railway maintenance at the Sluncová viaduct.
-- **Pražské ulice mají co vyprávět. Přibývají modré tabulky** (Praha 1) — a progress note on a
-  plaque project running since 2020; nothing decided since last time.
-- **Radní podpořili granty na příští rok** (Praha 5) — grant programmes approved in principle, with
-  the total explicitly left to the 2027 budget, so no money is committed. District administrative.
-- **Tři sekundy, které mohou zachránit život** (ROPID) — a pedestrian safety campaign, not the
+- `22` **Opera Pragensia awards** (praha5.cz) — read in full. A prize-giving and nothing else: 15
+  awards handed out on 25 September, this year for social infrastructure, to twelve městské části,
+  the magistrát and Berlin. Raudnitzův dům in Hlubočepy (22 accessible flats) and the Vlček family's
+  Cibulka hospice are real projects, but the trigger is the ceremony, not a decision, a budget or a
+  building finished. No money committed, nothing built.
+- `22` **Trvalé změny PID v září a říjnu 2026** (pid.cz) — read in full. Of the Prague items, the
+  trolleybus 52 / bus 137 changeover is already ours (`bus-137-becomes-trolleybus-52`, 23 September).
+  What is left uncovered is a permanent reroute of tram 23 from 19 September, and that is a real
+  change — but the source for it is one row of a notice table: the new route and the date, no reason
+  given, no figures, nobody quoted, and no second outlet. Writing 400 words off that means either
+  padding or asserting the old route from memory, so it is dropped rather than invented. **Worth
+  watching for a proper write-up if Zdopravy or DPP carries one.**
+- `20` **Hlučné práce, Nové spojení / estakáda Sluncová** (praha8.cz) — read in full. Maintenance
+  notice: expansion devices, track geometry and rubber pads on tracks 601–602 across three weeks in
+  late September and October. No contractor, no budget, no project behind it. A noise warning.
+- `19` **DPP sleeper replacement, metro C Budějovická–Kačerov** (dpp.cz) — a long-weekend works
+  diversion. Nothing decided since the last batch.
+- `19` **Praha 1 modré tabulky** (praha1.cz) — read in full. Progress note on a programme running
+  since 2020: six more sites first (Jánský vršek, Biskupský dvůr, Na Poříčí, Na Struze, Pohořelec,
+  Újezd), "nearly fifty" eventually. No count of what exists, no cost, no decision this phase.
+- `18` **Praha 5 grant programmes for 2027** (praha5.cz) — announced, but the amounts "will depend on
+  the 2027 budget". No money committed, and local administrative detail either way.
+- `17` **ROPID "3 sekundy… to je easy"** (pid.cz) — a road-safety campaign, not the built environment.
+- `14` **Active-shooter training, U Vršovického nádraží care home** (praha10.cz) — not the built
+  environment at all; reached the list on a station name.
+- `14` **Greenery at ZŠ/MŠ Radlická** (praha5.cz) — one school garden on a Nadace ČEZ grant. Would not
+  matter to a reader in another district.
+- `14` **PID Point timetables** / `13` **PID at Den hrdinů and Poznej Vltavu** (pid.cz) — a notice and
+  an events listing.
+- `13` **Petřínská lanovka obnovila provoz** (dpp.cz) — the reopening itself, and already covered three
+  times: `petrin-funicular-reopens-22-september` (14 Sept), `-returns-fourth-generation` (22 Sept),
+  `-stations-rebuild-schedule` (26 Sept). One story, one article.
+- `11` **Bolt and Lucid, 25,000 autonomous vehicles in Europe** (praguemorning.cz) — a corporate
+  partnership announcement about future European deployment, with no Prague commitment in it.
+- `10` **Pražský okruh closed for a bridge girder** (zdopravy.cz) — read in full. A two-hour overnight
+  closure at km 16.5 near Slivenec. The construction behind it (Skanska, two new overpasses between
+  Ořech and the Barrandov exit, ahead of the D0 515 six-laning) is the story, and its junction half is
+  already ours as `trebonice-junction-capacity-works` (27 September). The closure is a diversion.
+- `10` **Praha 5 seniors' outing** (praha5.cz) — a district trip to Louny.
+- `10` **Kam po škole? Praha jako hřiště** (praha.camp) — read in full. A magazine essay by Dominika
+  Antonie Pfister surveying existing provision for teenagers. Good piece, no news event: nothing dated,
+  nobody quoted, no new commitment.
+- `9` **Czech Statehood Day: what is open** (praguemorning.cz) — service journalism for the holiday.
+- `9` **Praha 10 office closed for a fire drill** (praha10.cz) — an opening-hours notice.
+- `7` **AŽD Praha annual results** (zdopravy.cz) — a national signalling firm's profit, not Prague's
   built environment.
-- **Kam po škole? Praha jako hřiště pro děti** (CAMP) — a magazine essay. It names real places
-  (Spot Holešovice, the Pražačka and Jinonice skateparks, a planned Jižní Město complex) but
-  reports no decision, budget or approval for any of them.
-- **Potvrzeno: Italské rychlovlaky spojí Mnichov a Řím** (Zdopravy) — the confirmed train is
-  Berlin–Naples and does not serve Prague; the Prague angle is one interchange.
-- **Letů na Madeiru z Prahy ubude** (Zdopravy) — airline scheduling.
-- **Bolt and Lucid Plan 25,000 Autonomous Vehicles Across Europe** (Prague Morning) — a European
-  corporate announcement with no Prague deployment named.
-- **Požár bytu v centru Prahy omezil provoz tramvají** (ČT24) — an incident.
-- **PID Point jízdní řády**, **Pozvánka na prodloužený víkend s PID**, **V domově seniorů U
-  Vršovického nádraží proběhne školení**, **Ve škole a školce přibude zeleň**, **Praha 5 vezme
-  seniory na výlet**, **Czech Statehood Day 2026**, **Úřad bude v pátek uzavřen kvůli požárnímu
-  cvičení** — notices, events and council housekeeping.
+- `7` **Flat fire disrupts trams** (ct24) — an incident, resolved the same day.
 
-No item reached the desk on a district name that turned out to belong to another city.
+Nothing was marked covered: `mark-covered.mjs` reported 0 new, 0 updated, and the items above stay in
+the digest until they age out, as intended.
 
-### Source fixes committed separately
+### Source that needs a human
 
-`archiweb.cz` has now failed two days running, and the cause is not what a 429 suggests. Probing
-the listing with spaced requests: the bot user-agent gets 429 and 18 bytes, a browser user-agent
-gets 200, and **no user-agent header at all also gets 200**. archiweb is refusing the string
-`PragueInsiderBot` specifically. That is not a rate limit, it is a publisher declining to be
-scraped, and `scripts/lib/http.mjs` exists to make exactly that refusal possible and audible. The
-adapter is therefore left alone — see *Needs a human*.
+**archiweb.cz has blocked our bot, and this is the second consecutive day of HTTP 429.** It is not a
+rate limit that will clear: the 429 arrives on the first request, on every path including the
+homepage, and only for our declared `PragueInsiderBot/1.0` User-Agent — the identical URL with a
+browser User-Agent returns 200. Separately, the adapter's listing URL `/n` now 301s to `/cs/n/`; that
+part is fixed in this run's adapter commit, and it is not what causes the 429.
 
-What the probe did surface is a real parsing bug, fixed here: archiweb now prints the newest
-listing dates relatively (`včera`), and `dayMonthToIso` returned null for those. Four of twenty
-items on the current listing, and they are the freshest — precisely the ones inside the scan
-window. `RELATIVE_DAYS` in `scripts/lib/text.mjs` now resolves `dnes`, `včera` and `předevčírem`.
-Verified by running the adapter's own selectors over the saved listing: 18 items parsed, 0 null
-dates, against 4 null before. The listing markup itself is unchanged and the selectors still fit.
-
-The block is costing nothing today: archiweb's current listing is Rumunsko, Valašské Meziříčí,
-Kladno, Kyjov, Brno, Opava, Benešov, Čelákovice, Karlovy Vary, Konstantinovy Lázně — and its only
-two Prague items are the Průmyslový palác, already published as
-`2026-09-25-prumyslovy-palac-reopens`.
-
-### Needs a human
-
-1. **The queue is empty for the first time in weeks.** Three out, none written, nothing banked.
-   Tomorrow publishes nothing unless tomorrow's scan yields something, and the last two days have
-   yielded nothing — the 21-day window is largely picked over and the same twenty candidates keep
-   resurfacing. Two consecutive zero-write days is the signal the queue was built to absorb, and it
-   has now absorbed it.
-2. **archiweb.cz is blocking `PragueInsiderBot` by name.** Someone has to decide the policy, because
-   the desk should not decide it alone: either accept the block and drop archiweb from the scan, or
-   write to the address in the user-agent and ask to be allowed, or change the bot's identity —
-   which would reverse a stated editorial commitment for every source at once, and is the reason
-   this run did not just quietly swap in a browser string.
-
+We declare ourselves in every request precisely so a publisher who wants us gone can say so in their
+logs, and archiweb appears to have said it. Spoofing a browser User-Agent would get the source back
+and would also be overriding that refusal, which is an editorial call, not an adapter fix — so the
+adapter is left returning nothing, with the diagnosis written into its header comment, and **a human
+should decide whether to ask archiweb for access or drop the source.** The architecture desk loses
+its only national wire meanwhile.
