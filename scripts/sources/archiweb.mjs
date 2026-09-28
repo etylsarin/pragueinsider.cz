@@ -4,7 +4,15 @@ import { clean, canonicalUrl, dayMonthToIso } from '../lib/text.mjs'
 
 /**
  * archiweb.cz — the Czech architecture news service. It publishes no RSS (both /rss and
- * /en/rss 404), so the listing at /n is parsed directly.
+ * /en/rss 404), so the listing at /cs/n/ is parsed directly. Bare /n 301s there.
+ *
+ * SITE IS REFUSING OUR BOT (noted 2026-09-28, second day of HTTP 429). The 429 is not a rate
+ * limit we can wait out: it comes back on the first request, on every path including the
+ * homepage, and only for our declared User-Agent — the same URL with a browser UA returns 200.
+ * Functionally archiweb has blocked PragueInsiderBot by name. We identify ourselves precisely so
+ * a publisher who wants us gone can say so, so spoofing a browser UA to get back in is an
+ * editorial decision for a human, not an adapter fix. Until someone makes it, this source
+ * returns nothing and the scan carries on without it.
  *
  * Markup, stable as of the last check:
  *   <a href="/n/{section}/{slug}">
@@ -15,7 +23,7 @@ import { clean, canonicalUrl, dayMonthToIso } from '../lib/text.mjs'
  * does the work, and most items are correctly discarded.
  */
 
-const LISTING = 'https://www.archiweb.cz/n'
+const LISTING = 'https://www.archiweb.cz/cs/n/'
 
 export default {
   id: 'archiweb',
