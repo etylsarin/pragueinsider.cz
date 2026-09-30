@@ -35,9 +35,15 @@ const PRAGUE_PLACES = [
   'smichovske nadrazi', 'nakladove nadrazi', 'florenc', 'vaclavske namesti', 'staromestsk',
   'malostransk', 'invalidovna', 'palmovka', 'cerny most', 'opatov', 'roztyly', 'budejovick',
   'dvorecky most', 'letna', 'petrin', 'kampa', 'cakovic', 'kbely', 'dablic', 'satalic',
-  'reporyje', 'radotin', 'chuchle', 'lipenc', 'sterboholy', 'dubec', 'kolovraty',
+  'reporyje', 'radotin', 'chuchl', 'lipenc', 'sterboholy', 'dubec', 'kolovraty',
   'vyton', 'zbraslav', 'hostivar', 'jarov', 'sporilov', 'krc', 'lhotka', 'kamyk',
-  'cerny most', 'letnany', 'vinoklasy', 'hlubocepy', 'velka chuchle', 'trojsk',
+  'cerny most', 'letnany', 'vinoklasy', 'hlubocepy', 'velka chuchl', 'trojsk',
+  // Czech declines place names and this list is matched as substrings, so an entry has to be the
+  // stem, not the nominative. 'chuchle' never matched "ve Velké Chuchli" and a 474-million-crown
+  // railway overpass there went unseen for a day; Hodkovičky was simply missing. Both forms are
+  // needed and neither may be shortened to 'hodkovic': that also matches Hodkovice nad Mohelkou
+  // in the Liberec region.
+  'hodkovick', 'hodkovicek',
 ]
 
 /**
