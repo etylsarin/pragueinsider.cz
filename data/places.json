@@ -148,6 +148,13 @@
       "district": "Praha 4 – Modřany",
       "osm": "Generála Šišky, Modřany, Praha 12, obvod Praha 4, Praha, 143 00, Česko"
     },
+    "hodkovicky": {
+      "name": "Hodkovičky",
+      "lat": 50.02268,
+      "lng": 14.40969,
+      "district": "Praha 4",
+      "osm": "Hodkovičky, obvod Praha 4, Praha, Česko"
+    },
     "hogerova": {
       "name": "Högerova",
       "lat": 50.03258,
@@ -498,6 +505,13 @@
       "district": "Praha 6 – Sedlec",
       "osm": "Roztocká, Sedlec, Praha 6, obvod Praha 6, Praha, 151 00, Česko"
     },
+    "sifarska": {
+      "name": "Šífařská",
+      "lat": 50.02086,
+      "lng": 14.40305,
+      "district": "Praha 4 – Hodkovičky",
+      "osm": "Šífařská, Hodkovičky, Praha 4, obvod Praha 4, Praha, 146 00, Česko"
+    },
     "smetanovo nabrezi": {
       "name": "Smetanovo nábřeží",
       "lat": 50.08398,
@@ -518,6 +532,13 @@
       "lng": 14.40909,
       "district": "Praha 5",
       "osm": "Smíchovské nádraží, Nádražní, Dívčí hrady, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
+    },
+    "starochuchelska": {
+      "name": "Starochuchelská",
+      "lat": 50.01228,
+      "lng": 14.38149,
+      "district": "Praha 5 – Velká Chuchle",
+      "osm": "Starochuchelská, Velká Chuchle, Praha-Velká Chuchle, obvod Praha 5, Praha, 159 00, Česko"
     },
     "strossmayerovo namesti": {
       "name": "Strossmayerovo náměstí",
@@ -574,6 +595,13 @@
       "lng": 14.40468,
       "district": "Praha 5 – Smíchov",
       "osm": "Újezd, Smíchov, Praha 5, obvod Praha 5, Praha, 150 21, Česko"
+    },
+    "velka chuchle": {
+      "name": "Velká Chuchle",
+      "lat": 50.00985,
+      "lng": 14.3825,
+      "district": "Praha 5",
+      "osm": "Velká Chuchle, obvod Praha 5, Praha, 159 00, Česko"
     },
     "vitezne namesti": {
       "name": "Vítězné náměstí",
