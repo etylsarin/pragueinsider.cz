@@ -1,7 +1,14 @@
 {
   "version": 1,
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "entries": {
+    "0048a9286f123fef": {
+      "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
+      "title": "Pozor na výluku v Nádražní",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "nadrazni-railway-bridge-second-half"
+    },
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
       "title": "Nové Holešovice představily vítězný návrh, výstava na radnici od 5. října",
@@ -36,6 +43,13 @@
       "source": "Městská část Praha 8",
       "firstSeen": "2026-09-24",
       "usedInPost": "zenklova-cycle-lane-objection"
+    },
+    "079065a417fd66e2": {
+      "url": "https://zdopravy.cz/300-tun-na-kolech-prahou-projel-novy-zeleznicni-most-na-smichove-nahradi-konstrukci-z-roku-1955-251974",
+      "title": "300 tun na kolech. Prahou projel obří železniční most, na Smíchově nahradí konstrukci z roku 1955",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "nadrazni-railway-bridge-second-half"
     },
     "0868f2232ad045cb": {
       "url": "https://praguemorning.cz/pragues-petrin-funicular-reopening",
@@ -793,6 +807,13 @@
       "firstSeen": "2026-09-14",
       "usedInPost": "prague-vat-transport-funding-resolution"
     },
+    "b5ce952562ba38fc": {
+      "url": "https://praha10.cz/vystup-z-ii-verejneho-setkani-o-budouci-podobe-namesti-svatopluka-cecha",
+      "title": "Výstup z II. veřejného setkání o budoucí podobě náměstí Svatopluka Čecha",
+      "source": "Městská část Praha 10",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "svatopluka-cecha-parking-split"
+    },
     "b60fe4ce3489875a": {
       "url": "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497",
       "title": "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami",
@@ -841,6 +862,20 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-03",
       "usedInPost": "prague-castle-stajovy-dvur-competition"
+    },
+    "c1c09593718d65b6": {
+      "url": "https://zdopravy.cz/prestavba-smichovskeho-nadrazi-je-v-dalsi-fazi-vlaky-ceka-omezeni-mesto-pokrocilo-v-priprave-terminalu-293761",
+      "title": "Přestavba Smíchovského nádraží je v další fázi. Vlaky čeká omezení, město pokročilo v přípravě terminálu",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "nadrazni-railway-bridge-second-half"
+    },
+    "c3c5b679c73df976": {
+      "url": "https://praha10.cz/wp-content/uploads/2026/09/Finalni-vystup_II-verejne-setkani-NSC.pdf",
+      "title": "Představení vítězného soutěžního návrhu Náměstí Svatopluka Čecha, Praha 10 — výstup",
+      "source": "ARCHITEKTI PROSTORU pro MČ Praha 10",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "svatopluka-cecha-parking-split"
     },
     "c40aab83c36419c5": {
       "url": "https://zdopravy.cz/po-trati-a-vozech-take-stanice-praha-uz-chysta-dalsi-etapu-rekonstrukce-petrinske-lanovky-300386",
@@ -974,6 +1009,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-in-european-context"
+    },
+    "f7204e342fb42d90": {
+      "url": "https://www.praha5.cz/planovana-dopravni-omezeni-na-smichove",
+      "title": "Plánovaná dopravní omezení na Smíchově",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-10-01",
+      "usedInPost": "nadrazni-railway-bridge-second-half"
     },
     "f77d62ad5a1ce596": {
       "url": "https://pid.cz/lanovka-na-petrin-s-novymi-kabinami-obnovuje-provoz-v-utery-22-zari",

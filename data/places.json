@@ -589,6 +589,13 @@
       "district": "Praha 6 – Střešovice",
       "osm": "U Prašného mostu, Střešovice, Praha 6, obvod Praha 6, Praha, 160 41, Česko"
     },
+    "u zeleznicniho mostu": {
+      "name": "U železničního mostu",
+      "lat": 50.06632,
+      "lng": 14.40879,
+      "district": "Praha 5 – Smíchov",
+      "osm": "U Železničního mostu, Smíchov, Praha 5, obvod Praha 5, Praha, 150 21, Česko"
+    },
     "ujezd": {
       "name": "Újezd",
       "lat": 50.08011,
