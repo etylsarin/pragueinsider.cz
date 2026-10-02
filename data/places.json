@@ -218,6 +218,13 @@
       "district": "Praha 8 – Kobylisy",
       "osm": "Kuchyňka, V Holešovičkách, Kobylisy, Praha 8, obvod Praha 8, Praha, 180 81, Česko"
     },
+    "kulturni dum eden": {
+      "name": "Kulturní dům Eden",
+      "lat": 50.06807,
+      "lng": 14.46718,
+      "district": "Praha 10 – Vršovice",
+      "osm": "Kulturní dům Eden, Kirgizská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 38, Česko"
+    },
     "kuri": {
       "name": "Kuří",
       "lat": 49.98792,
@@ -433,6 +440,13 @@
       "lat": 50.0709,
       "lng": 14.376,
       "district": "Praha 5 – Košíře",
+      "osm": null
+    },
+    "pobrezni 20a": {
+      "name": "Pobřežní 20a",
+      "lat": 50.093,
+      "lng": 14.4435,
+      "district": null,
       "osm": null
     },
     "pocernicka": {
