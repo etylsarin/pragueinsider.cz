@@ -3,7 +3,7 @@ slug: vlasta-estate-cooperation-agreement
 lang: en
 title: "Prague 10 Signs Six Residents' Associations Into the Redevelopment of the Town Hall It Sold"
 dek: "The district sold the derelict old town hall, the Eden cultural centre and the land around them for 1.117 billion crowns in June. On 29 September it signed an agreement with six owners' associations from the Vlasta estate, who are to take part in preparing the architectural competition."
-queuedAt: 2026-10-02
+date: 2026-10-03
 category: planning
 tags: ["Vlasta", "Eden", "Praha 10", "EPRE Vršovická", "architectural competition"]
 district: "Praha 10 – Vršovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4672
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha 10 a společenství vlastníků se dohodly na spolupráci při proměně okolí bývalé radnice"
     url: "https://praha10.cz/praha-10-a-spolecenstvi-vlastniku-se-dohodly-na-spolupraci-pri-promene-okoli-byvale-radnice"

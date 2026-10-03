@@ -3,7 +3,7 @@ slug: tram-15t-air-conditioning-first-car-lodz
 lang: en
 title: "The First of 123 Trams Leaves for Łódź to Have Air Conditioning Fitted"
 dek: "Škoda 15T number 9239 was loaded at DPP's central workshops on Thursday. Three units per car, 3.217 million crowns each excluding VAT, 395.685 million for the whole first series — and nothing else moves until this one passes homologation."
-queuedAt: 2026-10-02
+date: 2026-10-03
 category: transport
 tags: ["Škoda 15T", "air conditioning", "ENIKA", "DPP", "MPK Łódź"]
 author: "Prague Insider Desk"

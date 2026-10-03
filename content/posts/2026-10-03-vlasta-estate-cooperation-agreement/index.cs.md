@@ -3,7 +3,7 @@ slug: vlasta-estate-cooperation-agreement
 lang: cs
 title: "Praha 10 podepsala dohodu se šesti společenstvími vlastníků. Vlasta chce mluvit do přestavby okolí bývalé radnice"
 dek: "Zchátralou starou radnici, kulturní dům Eden a okolní pozemky prodala městská část v červnu za 1,117 miliardy korun. Devětadvacátého září uzavřela dohodu o spolupráci se šesti společenstvími ze sídliště Vlasta, která se mají zapojit i do přípravy architektonické soutěže."
-queuedAt: 2026-10-02
+date: 2026-10-03
 category: planning
 tags: ["Vlasta", "Eden", "Praha 10", "EPRE Vršovická", "architektonická soutěž"]
 district: "Praha 10 – Vršovice"
@@ -12,7 +12,7 @@ location:
   lng: 14.4672
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Praha 10 a společenství vlastníků se dohodly na spolupráci při proměně okolí bývalé radnice"
     url: "https://praha10.cz/praha-10-a-spolecenstvi-vlastniku-se-dohodly-na-spolupraci-pri-promene-okoli-byvale-radnice"

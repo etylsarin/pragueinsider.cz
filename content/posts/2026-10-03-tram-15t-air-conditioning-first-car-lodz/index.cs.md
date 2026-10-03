@@ -3,7 +3,7 @@ slug: tram-15t-air-conditioning-first-car-lodz
 lang: cs
 title: "Do Lodže odjela první ze 123 tramvají 15T, které dostanou klimatizaci. Jedna vyjde na 3,2 milionu"
 dek: "Vůz Škoda 15T číslo 9239 naložili ve čtvrtek v ústředních dílnách dopravního podniku. Tři jednotky na vůz, 3,217 milionu korun bez DPH za kus, 395,685 milionu za celou první sérii — a než pilotní vůz projde homologací, nikam další tramvaj nepojede."
-queuedAt: 2026-10-02
+date: 2026-10-03
 category: transport
 tags: ["Škoda 15T", "klimatizace", "ENIKA", "DPP", "MPK Łódź"]
 author: "Prague Insider Desk"

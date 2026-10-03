@@ -505,6 +505,13 @@
       "district": "Praha 2 – Vyšehrad",
       "osm": "Rašínovo nábřeží, Vyšehrad, obvod Praha 2, Praha, 121 35, Česko"
     },
+    "renoirova": {
+      "name": "Renoirova",
+      "lat": 50.0377,
+      "lng": 14.38197,
+      "district": "Praha 5",
+      "osm": "Renoirova, Barrandov, Praha 5, obvod Praha 5, Praha, 152 00, Česko"
+    },
     "rohansky ostrov": {
       "name": "Rohanský ostrov",
       "lat": 50.0997,

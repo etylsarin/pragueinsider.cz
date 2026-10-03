@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -310,6 +310,13 @@
       "firstSeen": "2026-09-24",
       "usedInPost": "ipr-heat-island-storymap"
     },
+    "3a561efa1013c9bb": {
+      "url": "https://www.praha5.cz/do-byvale-materinky-se-vrati-skolstvi",
+      "title": "Do bývalé mateřinky se vrátí školství",
+      "source": "Městská část Praha 5",
+      "firstSeen": "2026-10-03",
+      "usedInPost": "renoirova-nursery-becomes-primary-school"
+    },
     "3ab572a51972d0ab": {
       "url": "https://www.praha8.cz/Linka-145-zacne-od-29-zari-zastavovat-na-Kuchynce.html",
       "title": "Linka 145 začne od 29. září zastavovat na Kuchyňce",
@@ -386,6 +393,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-30",
       "usedInPost": "hodkovicky-tram-stop-opens"
+    },
+    "478d0ed2e064d473": {
+      "url": "https://iprpraha.cz/verejne-osvetleni",
+      "title": "Proběhly odborné konzultace potřebné pro koncepci veřejného osvětlení v Praze",
+      "source": "IPR Praha",
+      "firstSeen": "2026-10-03",
+      "usedInPost": "public-lighting-concept-consultations"
     },
     "49045a014eef744d": {
       "url": "https://zdopravy.cz/ledy-se-hnuly-dpp-prevzal-prvnich-11-trolejbusu-bozankaya-jeden-uz-jezdi-dalsi-si-mohou-lide-prohlednout-298041",
@@ -660,6 +674,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "florenc-ceiling-slab-complete"
     },
+    "8b5d95ea02da024e": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3473-dpp-vyhlasuje-verejnou-zakazku-na-zhotovitele-stanice-metra-d-libus",
+      "title": "DPP vyhlašuje veřejnou zakázku na zhotovitele stanice metra D Libuš",
+      "source": "Dopravní podnik hl. m. Prahy",
+      "firstSeen": "2026-10-03",
+      "usedInPost": "metro-d-libus-station-tender"
+    },
     "8d004757c17e372d": {
       "url": "https://zdopravy.cz/povoleni-pro-prestavbu-d7-mezi-letistem-a-prazskym-okruhem-plati-ministerstvo-zamitlo-odvolani-298386",
       "title": "Povolení pro přestavbu D7 mezi letištěm a Pražským okruhem platí. Ministerstvo zamítlo odvolání",
@@ -876,6 +897,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-21",
       "usedInPost": "nove-dvory-metro-d-tunnelling-starts"
+    },
+    "bc6b380a14792e27": {
+      "url": "https://zdopravy.cz/dpp-vypsal-tendr-na-stavbu-stanice-metra-d-libus-cenu-odhadl-na-temer-4-miliardy-301787",
+      "title": "DPP vypsal tendr na stavbu stanice metra D Libuš, cenu odhadl na 3,8 miliardy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-03",
+      "usedInPost": "metro-d-libus-station-tender"
     },
     "bceabe52dd874bb4": {
       "url": "https://www.archiweb.cz/n/domaci/praha-6-chce-zrusit-soutez-na-kulturni-centrum-a-vypise-novy-tendr",
