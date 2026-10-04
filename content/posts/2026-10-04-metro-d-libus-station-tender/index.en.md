@@ -3,7 +3,7 @@ slug: metro-d-libus-station-tender
 lang: en
 title: "Libuš Metro Station Goes Out to Tender at 3.755 Billion, With Price the Only Criterion"
 dek: "DPP wants a contractor for the sixth station of the shortest operable stretch of line D, built in 54 months from site handover and open with the rest in 2032. The winner will not dig the tunnels — those arrive already bored."
-queuedAt: 2026-10-03
+date: 2026-10-04
 category: transport
 tags: ["Metro D", "Libuš", "Dopravní podnik", "public procurement", "Novodvorská"]
 district: "Praha 4 – Libuš"
@@ -12,7 +12,7 @@ location:
   lng: 14.4622
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "DPP vyhlašuje veřejnou zakázku na zhotovitele stanice metra D Libuš"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3473-dpp-vyhlasuje-verejnou-zakazku-na-zhotovitele-stanice-metra-d-libus"

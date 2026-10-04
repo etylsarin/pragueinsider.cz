@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -127,6 +127,13 @@
       "source": "Městská část Praha 10",
       "firstSeen": "2026-08-26",
       "usedInPost": "blanka-tunnel-bus-145"
+    },
+    "178a199fdb0a4c26": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/domaci/prazske-letiste-planuje-zvysit-poplatky-pro-cestujici-rekl-ct-lasak-378214",
+      "title": "Pražské letiště plánuje zvýšit poplatky pro cestující, řekl ČT Lašák",
+      "source": "ČT24",
+      "firstSeen": "2026-10-04",
+      "usedInPost": "airport-departure-charge-six-percent"
     },
     "1c9435f4f42cdae4": {
       "url": "https://zdopravy.cz/obrazem-stavba-roky-blokovaneho-nadjezdu-koridoru-ve-velke-chuchli-se-posunula-do-dalsi-faze-300996",
@@ -786,6 +793,13 @@
       "firstSeen": "2026-09-19",
       "usedInPost": "nove-dvory-blocks-competition-winners"
     },
+    "9ed8cb4929a8df19": {
+      "url": "https://zdopravy.cz/lasakuv-prvni-velky-krok-v-cele-letiste-na-ruzyni-zdrazi-poplatky-301976",
+      "title": "Lašákův první velký krok v čele letiště. Na Ruzyni zdraží poplatky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-04",
+      "usedInPost": "airport-departure-charge-six-percent"
+    },
     "9f229d87fe3f1957": {
       "url": "https://zdopravy.cz/dalsich-160-km-jen-s-vlaky-vybavenymi-etcs-z-prahy-do-ceskych-budejovic-zmizi-az-450-rychlostniku-298737",
       "title": "Dalších 160 km jen s vlaky vybavenými ETCS. Z Prahy do Českých Budějovic zmizí až 450 rychlostníků",
@@ -1045,6 +1059,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "zapadni-mesto-school-approved"
     },
+    "f22f39e3e3d84556": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/na-prazskem-smichove-zacala-dvoutydenni-vyluka-tramvaji-kvuli-vymene-mostu-378200",
+      "title": "Na pražském Smíchově začala výluka tramvají kvůli výměně mostu",
+      "source": "ČT24",
+      "firstSeen": "2026-10-04",
+      "usedInPost": "nadrazni-bridge-last-two-structures"
+    },
     "f2585ef45cacab77": {
       "url": "https://praha.camp/magazin/detail/rekonstrukce-pragerovych-kostek-zacina-duraz-klade-na-recyklaci-a-navrat-k-puvodni-kvalite",
       "title": "Rekonstrukce Pragerových kostek začíná. Důraz klade na recyklaci a návrat k původní kvalitě",
@@ -1107,6 +1128,13 @@
       "source": "Městská část Praha 1",
       "firstSeen": "2026-08-26",
       "usedInPost": "zofin-palace-handover-dispute"
+    },
+    "feb9533829802ef0": {
+      "url": "https://zdopravy.cz/na-smichove-osadi-druhou-cast-noveho-zeleznicniho-mostu-prerusi-kvuli-tomu-provoz-tramvaji-301861",
+      "title": "Na Smíchově osadí druhou část nového železničního mostu. Přeruší kvůli tomu provoz tramvají",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-04",
+      "usedInPost": "nadrazni-bridge-last-two-structures"
     }
   }
 }

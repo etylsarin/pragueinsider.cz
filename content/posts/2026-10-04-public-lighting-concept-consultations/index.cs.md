@@ -3,7 +3,7 @@ slug: public-lighting-concept-consultations
 lang: cs
 title: "Praha dokončila odborné konzultace ke koncepci veřejného osvětlení. Zadání dalo zastupitelstvo"
 dek: "Dva workshopy posadily k jednomu stolu světelné techniky, chronobiology, ekology a dopravní odborníky. IPR teď začne psát aktualizovanou koncepci, hlavním partnerem jsou Technologie hl. m. Prahy."
-queuedAt: 2026-10-03
+date: 2026-10-04
 category: planning
 tags: ["veřejné osvětlení", "IPR Praha", "Technologie hl. m. Prahy", "světelné znečištění"]
 author: "Prague Insider Desk"

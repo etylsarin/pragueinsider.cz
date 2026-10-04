@@ -3,7 +3,7 @@ slug: public-lighting-concept-consultations
 lang: en
 title: "Prague Finishes the Expert Round on Its Public Lighting Concept, With Darkness Now an Explicit Constraint"
 dek: "IPR has closed the first stage of updating the city's lighting concept: two workshops that put lighting engineers in a room with chronobiologists, ecologists and traffic specialists. The brief came from the city assembly, and the drafting starts now."
-queuedAt: 2026-10-03
+date: 2026-10-04
 category: planning
 tags: ["public lighting", "IPR Praha", "Technologie hl. m. Prahy", "light pollution"]
 author: "Prague Insider Desk"

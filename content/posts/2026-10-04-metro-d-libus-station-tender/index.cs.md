@@ -3,7 +3,7 @@ slug: metro-d-libus-station-tender
 lang: cs
 title: "Dopravní podnik vypsal tendr na stanici metra Libuš za 3,755 miliardy korun. Rozhodne jen nejnižší cena"
 dek: "Vybraný zhotovitel bude mít 54 měsíců od předání staveniště a tunely razit nebude — dostane je hotové. Stanice má otevřít v roce 2032 spolu s prvním úsekem linky D."
-queuedAt: 2026-10-03
+date: 2026-10-04
 category: transport
 tags: ["Metro D", "Libuš", "Dopravní podnik", "veřejné zakázky", "Novodvorská"]
 district: "Praha 4 – Libuš"
@@ -12,7 +12,7 @@ location:
   lng: 14.4622
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "DPP vyhlašuje veřejnou zakázku na zhotovitele stanice metra D Libuš"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3473-dpp-vyhlasuje-verejnou-zakazku-na-zhotovitele-stanice-metra-d-libus"
