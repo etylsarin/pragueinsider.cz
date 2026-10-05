@@ -110,12 +110,17 @@ now **empty**, so a thin tomorrow has nothing banked to draw on.
 
 ### Sources that errored
 
-- **archiweb.cz — HTTP 429, second day running.** This is *not* broken markup and not an adapter
-  fix. The adapter's own header documents it: since 2026-09-28 archiweb returns 429 to our
+- **archiweb.cz — HTTP 429 for the fourteenth consecutive day (22 September – 5 October).** The
+  2026-10-04 log counted thirteen; today makes fourteen. This is *not* broken markup and not an
+  adapter fix. The adapter's own header documents it: since 2026-09-28 archiweb returns 429 to our
   declared `PragueInsiderBot` user-agent on every path including the homepage, while the same URLs
   answer 200 to a browser UA. The site has effectively blocked us by name. Spoofing a browser UA
   to get back in is an editorial decision for a human, not something the desk should do on its own
-  — **this needs a human call.** Until then the source returns nothing and the scan carries on.
+  — **this needs a human call, and it has been pending for two weeks.** Until someone makes it
+  (ask archiweb for access, change the declared agent with their agreement, or drop the source)
+  the architecture wire stays dark. Today shows the cost again: the only architecture candidates
+  the scan could offer were an awards gala, a lecture series for seniors and a schools education
+  programme, and all three were skipped.
 
 ### Blocked hosts (new today, needs a human)
 
