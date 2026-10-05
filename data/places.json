@@ -29,6 +29,13 @@
       "district": "Praha 9",
       "osm": "Běchovice, obvod Praha 9, Praha, 190 11, Česko"
     },
+    "bila labut": {
+      "name": "Bílá labuť",
+      "lat": 50.09015,
+      "lng": 14.43547,
+      "district": "Praha 1 – Nové Město",
+      "osm": "Bílá labuť, Na Poříčí, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
+    },
     "bohdalec": {
       "name": "Bohdalec",
       "lat": 50.05555,

@@ -3,7 +3,7 @@ slug: nadrazni-bridge-last-two-structures
 lang: en
 title: "A Crane Seats the Last Steel Over Nádražní on Two October Nights"
 dek: "Správa železnic says two steel structures go in on the nights of 6–7 and 8–9 October, completing the crossing whose first part was lowered in July last year. The finished bridge over Nádražní is the only three-track structure on the stretch between Smíchov station and the Vltava."
-queuedAt: 2026-10-04
+date: 2026-10-05
 category: transport
 tags: ["Praha-Smíchov", "Správa železnic", "Nádražní", "railway bridges", "tram closure", "Výtoň"]
 district: "Praha 5 – Smíchov"
@@ -12,7 +12,7 @@ location:
   lng: 14.4088
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Na Smíchově osadí druhou část nového železničního mostu. Přeruší kvůli tomu provoz tramvají"
     url: "https://zdopravy.cz/na-smichove-osadi-druhou-cast-noveho-zeleznicniho-mostu-prerusi-kvuli-tomu-provoz-tramvaji-301861"

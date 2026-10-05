@@ -1,6 +1,6 @@
-# Scan log — 2026-10-04
+# Scan log — 2026-10-05
 
-Scanned `2026-10-04T05:08:16.933Z`, window 21 days.
+Scanned `2026-10-05T05:08:37.840Z`, window 21 days.
 
 ## Sources
 
@@ -10,134 +10,126 @@ Scanned `2026-10-04T05:08:16.933Z`, window 21 days.
 - ✓ **PID / ROPID** — 4 new of 10 (4 off-topic, 2 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 1 new of 10 (0 off-topic, 0 covered, 9 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 6 new of 40 (31 off-topic, 3 covered, 0 outside window)
-- ✓ **ČT24 — Praha** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 2 new of 40 (35 off-topic, 3 covered, 0 outside window)
+- ✓ **ČT24 — Praha** — 0 new of 10 (9 off-topic, 1 covered, 0 outside window)
 - ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
 - ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
 - ✓ **Městské části** — 7 new of 39 (27 off-topic, 5 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (1 off-topic, 0 covered, 9 outside window)
 
-## Candidates — 23 in 21 clusters
+## Candidates — 19 in 19 clusters
 
-1. `28` transport _[2 sources]_ — Na Smíchově osadí druhou část nového železničního mostu. Přeruší kvůli tomu provoz tramvají
-2. `27` transport — Na Malé Straně pokřtili knihu o historii petřínské lanovky
-3. `23` transport _[2 sources]_ — Zastávka Nádraží Holešovice bude v pátek 2. října Knižní
-4. `22` architecture — V cenách Opera Pragensia bodovala ředitelka CSOP i Raudnitzův dům
-5. `22` transport — Trvalé změny PID v září a říjnu 2026
-6. `19` transport — DPP o prodlouženém víkendu vymění další pražce na trati C
-7. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
-8. `16` architecture — Rozhodni o Praze! Praha v památkových sporech
-9. `16` architecture — Zmizelá Praha: přednášky pro seniory na radnici
-10. `15` architecture — Open House Praha na podzim odhalí zapomenuté příběhy Prahy
-11. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na říjen
-12. `14` transport — Dočasné umístění citybloků v Ovenecké
-13. `13` transport — Obce si objednaly rychlík Žatec – Praha na jeden den. Chtějí ukázat potenciál tratě 110
-14. `13` transport — Pozvánka na prodloužený víkend s PID: Den hrdinů a Poznej Vltavu
-15. `13` development — Petřínská lanovka dnes po dvou letech obnovila provoz
-16. `12` transport — Petřínská lanovka za osm dní svezla téměř sto tisíc lidí. DPP vypravil stovky jízd navíc
-17. `11` transport — Lašákův první velký krok v čele letiště. Na Ruzyni zdraží poplatky
-18. `11` transport — Rumunské AnimaWings míří do insolvence, ruší i lety do Prahy
-19. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
-20. `9` transport — Leo Express přestane od pondělí jezdit s dlouhou linkou Frankfurt – Praha – Přemyšl. Viní německé výluky
-21. `9` planning — Úřad bude v pátek 25. 9. od 10.30 uzavřen kvůli požárnímu cvičení
+1. `27` transport — Na Malé Straně pokřtili knihu o historii petřínské lanovky
+2. `23` transport — Zastávka Nádraží Holešovice bude v pátek 2. října Knižní
+3. `22` architecture — V cenách Opera Pragensia bodovala ředitelka CSOP i Raudnitzův dům
+4. `22` transport — Trvalé změny PID v září a říjnu 2026
+5. `19` transport — DPP o prodlouženém víkendu vymění další pražce na trati C
+6. `17` transport — Tři sekundy, které mohou zachránit život. ROPID cílí na mladé chodce s mobily a sluchátky v ulicích Prahy
+7. `16` architecture — Rozhodni o Praze! Praha v památkových sporech
+8. `16` architecture — Zmizelá Praha: přednášky pro seniory na radnici
+9. `15` architecture — Open House Praha na podzim odhalí zapomenuté příběhy Prahy
+10. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na říjen
+11. `14` transport — Dočasné umístění citybloků v Ovenecké
+12. `13` transport — Pozvánka na prodloužený víkend s PID: Den hrdinů a Poznej Vltavu
+13. `13` development — Petřínská lanovka dnes po dvou letech obnovila provoz
+14. `10` public-space — Kam po škole? Praha jako hřiště pro děti, které už z hřiště vyrostly
+15. `9` transport — Lego to Open New Prague Store on Na Příkopě Street on October 22
+16. `9` transport — Leo Express přestane od pondělí jezdit s dlouhou linkou Frankfurt – Praha – Přemyšl. Viní německé výluky
+17. `9` planning — Úřad bude v pátek 25. 9. od 10.30 uzavřen kvůli požárnímu cvičení
+18. `8` transport — Praha hostí šéfy letišť z Evropy a USA. Sama celoroční linku do Ameriky nemá
+19. `7` transport — Opravy na Pražské ulici v Jablonci nad Nisou omezí dopravu. Jablonecká dopravní mění trasy dvou linek
 
 
 ## Decisions
 
-Two candidates cleared the bar. Both are transport, and that is what the list carried — the
-development, architecture and planning wire was events, awards and lectures today, with `archiweb.cz`
-still blocked (see below).
+Thin day. Nineteen candidates in nineteen clusters, not one with `sourceCount > 1`, and the two
+items that read strongest on the list turned out to be stories we had already published.
 
-### Written to the queue
+### Written (1)
 
-- **`airport-departure-charge-six-percent`** — Letiště Praha's board voted unanimously to raise the
-  departing-passenger charge six per cent, CZK 682 → 723, for the price list beginning 28 March 2027.
-  A decision taken with money attached, publicly contested before the figure was even out (Kupka),
-  and with a Ryanair precedent the sources name. Two sources: Zdopravy.cz 3 October and ČT24
-  3 October, which broke it in Lašák's first interview in the job. Released today.
-- **`nadrazni-bridge-last-two-structures`** — Správa železnic seats the remaining steel over Nádražní
-  on the nights of 6–7 and 8–9 October, with spokesman David Kabele on the record. Two sources:
-  Zdopravy.cz 2 October and ČT24 3 October. Held in the queue by `release.mjs` (three a day); still
-  current when it goes out tomorrow, ahead of the lifts.
+- **`heritage-tram-23-drops-zvonarka`** — the nostalgic line 23 was rerouted on 19 September and
+  now ends at Bílá labuť instead of Zvonařka, losing the leg beyond Národní třída towards
+  I. P. Pavlova. ROPID files it under *trvalé* changes, so it is a standing routing decision and
+  not a diversion. Three sources: the ROPID bulletin for the change and date, DPP's own line page
+  for the full stop list and the operating detail (daily, modernised T3s only, PID tariff, ~8.30
+  to 18.00, 30-minute interval, 31 minutes end to end), and Expats.cz from March 2017 for the
+  original Královka–Zvonařka route. **Neither ROPID nor DPP gives a reason for the change, and the
+  article says so rather than supplying one** — see the note on blocked hosts below, which is why
+  it could not be chased further.
 
-### Released today (three, from the queue)
+### Released (2)
 
-- **`metro-d-libus-station-tender`** (transport, queued 3 October) — **lead**, `featured: true`.
-  A CZK 3.755bn contract going to tender with price as the only criterion is the strongest thing on
-  the front page.
-- **`public-lighting-concept-consultations`** (planning, queued 3 October).
-- **`airport-departure-charge-six-percent`** (transport, written today).
+- `nadrazni-bridge-last-two-structures` — written 2026-10-04, released today as the lead
+  (`featured: true`). The two steel structures go in on the nights of 6–7 and 8–9 October, so it
+  is the stronger of the two and dated to this week.
+- `heritage-tram-23-drops-zvonarka` — written today, released today.
 
-Queue depth after release: **1** (`nadrazni-bridge-last-two-structures`).
-
-### Needs a human — two things
-
-**1. `archiweb.cz` has now returned HTTP 429 for thirteen consecutive days (22 September – 4 October).**
-This is not rotted markup; it is a rate limit, and the adapter fix in the skill's "when a source
-adapter breaks" section does not apply. The architecture wire has been dark the whole time, and today
-is a clear illustration of the cost: the only architecture candidates the scan could offer were an
-awards gala, a lecture series for seniors and a schools education programme. Someone has to decide the
-policy — ask archiweb for access, change the declared agent with their agreement, or drop the source.
-The desk will not spoof a browser User-Agent to get round a block the site appears to have set
-deliberately.
-
-**2. A published article may carry a wrong inference, and the sources now disagree with each other.**
-`content/posts/2026-10-01-nadrazni-railway-bridge-second-half/` says of the span going in this month
-that "unlike the first, it carries two tracks" — an inference the desk drew from Prague 5's closure
-notice and older Zdopravy.cz reporting, and flagged as such ("on that published sequence"). Správa
-železnic's account, carried by Zdopravy.cz on 2 October, is that the first part is **one third** of
-the crossing and carries one track, which makes the two structures now going in the remaining two
-thirds. ČT24 describes it differently again, as a two-part job: north last year, south now. Today's
-queued article reports that disagreement and attributes each account rather than resolving it, per the
-skill. Whether the 1 October article should be amended is an editorial call for a human, so the
-archive is left alone.
+Both are transport; `release.mjs` permits two from one desk and only blocks a third. The queue is
+now **empty**, so a thin tomorrow has nothing banked to draw on.
 
 ### Skipped, with reasons
 
-- `28` **Smíchov bridge / tram closure** — not skipped; see `nadrazni-bridge-last-two-structures`
-  above. The 1 October article covered the closure itself, so today's piece is confined to the lifts
-  and the structure, which are new and attributed to Správa železnic.
-- `27` **Book on the Petřín funicular launched on Malá Strana** — a book launch. An event.
-- `23` **Nádraží Holešovice becomes "Knižní" for a day** — a one-day themed tram stop. An event, and
-  gone by the time anyone reads it.
-- `22` **Opera Pragensia awards** — an institution's prize gala. Awards are in the Skip column of the
-  press-office test: what the city says about itself, not what it does to the city.
-- `22` **Trvalé změny PID v září a říjnu 2026** — a bundled timetable notice. Its headline item,
-  bus 137 becoming trolleybus 52, we published on 23 September
-  (`2026-09-23-bus-137-becomes-trolleybus-52`). The one genuinely new item is tram 23's permanent
-  reroute from 19 September (now Královka – Pražský hrad – Malostranská – Újezd – Národní třída –
-  Václavské náměstí – Bílá labuť), but no source anywhere gives a reason for it, and a terminus
-  moved on the heritage line with no explanation is a notice, not a story. Worth watching if DPP
-  explains it.
-- `19` **DPP replacing more sleepers on metro line C** — routine maintenance over one long weekend.
-  Nothing decided since the last batch.
-- `17` **ROPID "3 seconds" pedestrian safety campaign** — a safety campaign. Named in the skill as
-  not the built environment.
-- `16` **Klub Za starou Prahu schools programme**, `16` **Praha 7 lectures for seniors**,
-  `15` **Open House autumn walks**, `14` **PID Point October timetables**, `13` **PID weekend events**
-  — programmes, lectures and notices. None of them changes anything.
-- `14` **Citybloky installed in Ovenecká, Praha 7** — this one was read in full before being dropped,
-  because a street rebuilt without anti-parking bollards and immediately driven on is a real
-  public-space point. The page is four sentences: no count, no material, no cost, no date beyond
-  September, no name and no quote. It cannot be written to 400 words without inventing the specifics.
-  Dropped as too thin to source, per step 3.
-- `13` **One-day Žatec – Praha express ordered by municipalities** — a demonstration service on line
-  110, outside Prague and outside the built environment.
-- `13`/`12` **Petřín funicular reopened; 100,000 riders in eight days** — covered three times already
-  (14, 22 and 26 September). The ridership figure is a progress note.
-- `11` **AnimaWings insolvency**, `9` **Leo Express ends the Frankfurt – Praha – Przemyśl service** —
-  carriers' commercial decisions. Neither changes what is built in Prague or how the city moves.
-- `10` **"Kam po škole?" (CAMP)** — fetched and read. A magazine essay surveying school streets,
-  skateparks and Spot Holešovice. Good material, but it announces nothing: no budget, no timeline, no
-  decision. A magazine issue is in the skill's no column.
-- `9` **Praha 10 office closed for a fire drill** — administrative notice.
+- `27` **Petřínská lanovka book launch (Praha 1)** — a book christening. An event, not the built
+  environment.
+- `23` **Nádraží Holešovice as a "book stop" (Praha 7)** — a themed tram stop for one day.
+- `22` **Opera Pragensia awards (Praha 5)** — awards, and a district newsletter reporting that its
+  own people won them. Nothing decided about anything that gets built.
+- `22` **Trvalé změny PID v září a říjnu 2026** — written, see above. Its headline item (bus 137 →
+  trolleybus 52) was already published on 2026-09-23.
+- `19` **DPP replacing more sleepers on line C** — a maintenance weekend, and the third in a
+  series. Progress note with nothing decided since last time.
+- `17` **ROPID "3 sekundy… to je easy" campaign** — a road-safety campaign, not the built
+  environment.
+- `16` **Klub Za starou Prahu school programmes on heritage disputes** — an education programme.
+- `16` **"Zmizelá Praha" lectures for seniors (Praha 7)** — a lecture series.
+- `15` **Open House Praha autumn walks** — a programme of events.
+- `14` **PID Point October timetables** — a notice.
+- `14` **Citybloky in Ovenecká (Praha 7)** — fetched it. Temporary concrete blocks put in at TSK's
+  request to stop cars mounting the new footways, pending permanent bollards. No count, no cost, no
+  date for the replacement, no named official. Thin, local and temporary; dropped rather than
+  padded.
+- `13` **PID at Den hrdinů / Poznej Vltavu** — an event invitation.
+- `13` **Petřín funicular back in service** — already published, twice: 2026-09-14 (the date being
+  set) and 2026-09-22 (the reopening).
+- `10` **CAMP: "Kam po škole?"** — fetched it. A magazine essay by Dominika Antonie Pfister
+  surveying existing interventions for teenagers. No decision, no budget, no timetable, no named
+  official. A magazine piece is not a story.
+- `9` **Lego store on Na Příkopě** — a shop fit-out.
+- `9` **Leo Express ends Frankfurt – Praha – Přemyšl** — a service does close, but the cause is
+  German engineering work and the subject is an operator's commercial decision about an
+  international line, not Prague's built environment.
+- `9` **Praha 10 office shut for a fire drill** — an administrative notice.
+- `8` **Prague hosts European and US airport chiefs** — a conference.
+- `7` **Roadworks on Pražská in Jablonec nad Nisou** — **not Prague.** The street name *Pražská*
+  got it past the filter and the iROZHLAS feed carries no Prague-district clue to veto on. This is
+  the wrong-city case the skill warns about; the misleading token is the adjective *Pražská* used
+  as a street name outside Prague. Possibly addressable in `scripts/lib/relevance.mjs` by vetoing
+  on *Pražská/Pražské* as a street name when another town is named in the title — here "Jablonec
+  nad Nisou" is in the title, so it looks fixable. Not changed today; flagged for a human.
 
-### Other notes
+### Sources that errored
 
-- No wrong-city catches today. Nothing reached the list on a district name alone.
-- `zdopravy.cz` again returned HTTP 403 to WebFetch and was read with a browser User-Agent per the
-  skill. Expected, not a failure.
-- Nominatim was reachable; no new places needed resolving. Both articles reuse points already in
-  `data/places.json` and already published (Smíchov 50.0663/14.4088 from the 1 October article,
-  Ruzyně 50.1078/14.2673 from `2026-09-06-airport-terminal-1-border-control-expansion`).
+- **archiweb.cz — HTTP 429, second day running.** This is *not* broken markup and not an adapter
+  fix. The adapter's own header documents it: since 2026-09-28 archiweb returns 429 to our
+  declared `PragueInsiderBot` user-agent on every path including the homepage, while the same URLs
+  answer 200 to a browser UA. The site has effectively blocked us by name. Spoofing a browser UA
+  to get back in is an editorial decision for a human, not something the desk should do on its own
+  — **this needs a human call.** Until then the source returns nothing and the scan carries on.
+
+### Blocked hosts (new today, needs a human)
+
+Three hosts that would have improved today's one story are refused by the environment's network
+egress allowlist:
+
+- `izdoprava.cz` and `muzeum.dpp.cz` — EGRESS_BLOCKED. Both carry the line 23 reroute in more
+  detail than ROPID's one-line bulletin.
+- `www.praha2.cz` — EGRESS_BLOCKED. Its page "Dočasné změny tramvajového provozu na Zvonařce"
+  looks like the explanation for why line 23 lost its Zvonařka terminus, and it is the one host
+  that would have let the article answer its own open question. Note that `www.praha2.cz` is a
+  separate allowlist entry from the district hosts that do work (`praha1.cz`, `praha5.cz`,
+  `praha7.cz`, `praha10.cz`), per the per-host rule in `CLAUDE.md`.
+
+Nominatim was reachable; `Bílá labuť` was resolved to the tram stop (`--pick 4`, 50.0902/14.4355)
+rather than the default department-store hit, and written back to the gazetteer.
+

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -394,6 +394,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "olsanska-habrova-tram-construction-start"
     },
+    "45d9e8b89febe86b": {
+      "url": "https://pid.cz/trvale-zmeny-pid-v-zari-rijnu-2026",
+      "title": "Trvalé změny PID v září a říjnu 2026",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-10-05",
+      "usedInPost": "heritage-tram-23-drops-zvonarka"
+    },
     "470eece1ee784b25": {
       "url": "https://zdopravy.cz/zbrusu-nova-tramvajova-zastavka-uz-ma-datum-otevreni-rozpuli-dosud-kilometrovy-usek-301243",
       "title": "Zbrusu nová tramvajová zastávka už má datum otevření. Rozpůlí dosud kilometrový úsek",
@@ -667,6 +674,13 @@
       "firstSeen": "2026-09-21",
       "usedInPost": "d0-518-suchdol-documentation-slips"
     },
+    "89aa2e5f85876f3e": {
+      "url": "https://www.dpp.cz/zabava-a-zazitky/historie-dpp/nostalgicka-linka-c-23",
+      "title": "Nostalgická linka č. 23",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-10-05",
+      "usedInPost": "heritage-tram-23-drops-zvonarka"
+    },
     "8ac793a9123fcb79": {
       "url": "https://zdopravy.cz/sz-chysta-dalsi-velkou-soutez-na-projektovani-vysokorychlostni-trati-vyvede-vlaky-z-vrsovic-do-bechovic-299538",
       "title": "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic",
@@ -939,6 +953,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-01",
       "usedInPost": "nadrazni-railway-bridge-second-half"
+    },
+    "c3c4aca181a9fedf": {
+      "url": "https://www.expats.cz/czech-news/article/prague-rolls-out-nostalgic-tram-line-23-next-weekend",
+      "title": "Prague Rolls Out Nostalgic Tram Line 23 Next Weekend",
+      "source": "Expats.cz",
+      "firstSeen": "2026-10-05",
+      "usedInPost": "heritage-tram-23-drops-zvonarka"
     },
     "c3c5b679c73df976": {
       "url": "https://praha10.cz/wp-content/uploads/2026/09/Finalni-vystup_II-verejne-setkani-NSC.pdf",
