@@ -190,6 +190,13 @@
       "district": "Praha 7 – Holešovice",
       "osm": "Jankovcova, Holešovice, Praha 7, obvod Praha 7, Praha, 170 04, Česko"
     },
+    "jiraskovo namesti": {
+      "name": "Jiráskovo náměstí",
+      "lat": 50.07597,
+      "lng": 14.41432,
+      "district": "Praha 2 – Vyšehrad",
+      "osm": "Jiráskovo náměstí, Vyšehrad, obvod Praha 2, Praha, Česko"
+    },
     "k pradelne": {
       "name": "K Prádelně",
       "lat": 50.05316,
@@ -560,6 +567,13 @@
       "lng": 14.40909,
       "district": "Praha 5",
       "osm": "Smíchovské nádraží, Nádražní, Dívčí hrady, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
+    },
+    "stadion strahov": {
+      "name": "Stadion Strahov",
+      "lat": 50.07859,
+      "lng": 14.38865,
+      "district": "Praha 6 – Střešovice",
+      "osm": "Stadion Strahov, Střešovice, Praha 6, obvod Praha 6, Praha, 150 00, Česko"
     },
     "starochuchelska": {
       "name": "Starochuchelská",

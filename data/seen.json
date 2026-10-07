@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-07",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -71,6 +71,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
       "usedInPost": "bozankaya-trolleybuses-still-unaccepted,bozankaya-trolleybuses-accepted"
+    },
+    "0d01593a6d1be20d": {
+      "url": "https://zdopravy.cz/praha-vybrala-stavitele-nejvetsiho-dopravniho-terminalu-v-metropoli-cena-v-soutezi-klesla-o-miliardu-302091",
+      "title": "Praha vybrala stavitele největšího dopravního terminálu v metropoli. Cena v soutěži klesla o miliardu",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "smichov-terminal-builder-selected"
     },
     "1153592f13d75bea": {
       "url": "https://praha10.cz/tz-praha-10-porada-treti-setkani-k-namesti-svatopluka-cecha-podnety-obcanu-pomohou-dopracovat-navrh",
@@ -464,6 +471,13 @@
       "firstSeen": "2026-08-25",
       "usedInPost": "flora-hradcanska-metro-closures"
     },
+    "51f41183d0688848": {
+      "url": "https://iprpraha.cz/standard-tramvajovych-trati",
+      "title": "Kvalitnější dlažba i sukulenty mezi kolejemi. Praha představila Standard tramvajových tratí",
+      "source": "IPR Praha",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "tram-track-design-standard"
+    },
     "5382ffee3cbd1fdc": {
       "url": "https://zdopravy.cz/rychly-obrat-s-cityelefanty-v-praze-a-okoli-vetsina-vlaku-uz-jezdi-v-beznem-razeni-298817",
       "title": "Rychlá otočka u výpadku CityElefantů v Praze a okolí. Většina vlaků už jezdí v běžném řazení",
@@ -512,6 +526,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-19",
       "usedInPost": "nove-dvory-blocks-competition-winners"
+    },
+    "640c9c70b964f804": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3476-v-praze-vznika-dalsi-nova-tramvajova-trat-malovanka-strahov",
+      "title": "V Praze vzniká další nová tramvajová trať Malovanka – Strahov",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "malovanka-strahov-ground-broken"
     },
     "6732c3864f87becf": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3418-modernizace-stanic-metra-flora-a-hradcanska-ve-druhe-polovine-letosniho-roku",
@@ -652,6 +673,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-26",
       "usedInPost": "citydeal-twelve-cities"
+    },
+    "84c28d07b2e0e51d": {
+      "url": "https://praguemorning.cz/dancing-house-photo-spot-renovation",
+      "title": "Famous Dancing House Photo Spot in Prague Is Set for a Major Makeover",
+      "source": "Prague Morning",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "jiraskovo-namesti-redesign"
     },
     "867e5588507d10df": {
       "url": "https://www.praha5.cz/nova-stredni-skola-pro-barrandov",
@@ -842,6 +870,13 @@
       "firstSeen": "2026-09-06",
       "usedInPost": "bozankaya-trolleybuses-accepted"
     },
+    "a9a5d57b6e5e2f29": {
+      "url": "https://www.expats.cz/czech-news/article/prague-starts-construction-of-new-tram-line-connecting-strahov-to-city-network",
+      "title": "Prague starts construction of new tram line connecting Strahov to city network",
+      "source": "Expats.cz",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "malovanka-strahov-ground-broken"
+    },
     "ab7fcbe656f4503f": {
       "url": "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723",
       "title": "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení",
@@ -1003,6 +1038,13 @@
       "firstSeen": "2026-09-16",
       "usedInPost": "bartolomejska-roma-memorial-competition"
     },
+    "ce6165f2688ce689": {
+      "url": "https://zdopravy.cz/i-tramvajova-trat-muze-zkulturnit-mesto-praha-dostala-navod-jak-by-ty-nove-mely-vypadat-302153",
+      "title": "I tramvajová trať může zkulturnit město. Praha dostala návod, jak by ty nové měly vypadat",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "tram-track-design-standard"
+    },
     "d8b3f57474089b26": {
       "url": "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3",
       "title": "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají",
@@ -1107,6 +1149,13 @@
       "source": "PID / ROPID (tisková zpráva Magistrátu hl. m. Prahy)",
       "firstSeen": "2026-09-07",
       "usedInPost": "bikesharing-pid-litacka-2026-tender"
+    },
+    "f4b18eca443942b1": {
+      "url": "https://zdopravy.cz/tramvajovy-boom-v-praze-vrcholi-zacala-stavba-nove-trati-z-malovanky-na-strahov-302084",
+      "title": "Tramvajový boom v Praze vrcholí: Začala stavba nové trati z Malovanky na Strahov",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-07",
+      "usedInPost": "malovanka-strahov-ground-broken"
     },
     "f4ba7bc8395490e4": {
       "url": "https://iprpraha.cz/praha-v-evropskem-kontextu-aktualne-leto2026",
