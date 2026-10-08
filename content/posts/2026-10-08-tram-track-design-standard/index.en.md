@@ -3,7 +3,7 @@ slug: tram-track-design-standard
 lang: en
 title: "Prague Writes Down What a Tram Line Should Look Like"
 dek: "IPR and DPP have published a design standard covering the surfaces, stops and street furniture of a network spread over nearly 1.25 million square metres. It is a recommendation to designers rather than a regulation, and it is meant to be amended chapter by chapter."
-queuedAt: 2026-10-07
+date: 2026-10-08
 category: public-space
 tags: ["IPR Praha", "DPP", "tramvaje", "Katalog doporučených prvků", "standardy"]
 author: "Prague Insider Desk"

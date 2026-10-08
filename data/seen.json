@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -71,6 +71,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-08-28",
       "usedInPost": "bozankaya-trolleybuses-still-unaccepted,bozankaya-trolleybuses-accepted"
+    },
+    "0bac35859776e61d": {
+      "url": "https://zdopravy.cz/zablokovana-obnova-libenskeho-soumosti-oziva-tsk-vypsala-zakazku-na-dokonceni-rozestaveneho-torza-302422",
+      "title": "Zablokovaná obnova Libeňského soumostí ožívá. TSK vypsala zakázku na dokončení rozestavěného torza",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-08",
+      "usedInPost": "liben-soumosti-u-lodenice-tender"
     },
     "0d01593a6d1be20d": {
       "url": "https://zdopravy.cz/praha-vybrala-stavitele-nejvetsiho-dopravniho-terminalu-v-metropoli-cena-v-soutezi-klesla-o-miliardu-302091",
@@ -443,6 +450,13 @@
       "firstSeen": "2026-09-05",
       "usedInPost": "muzeum-tram-track-complete"
     },
+    "4c5e3dc609b5a0b9": {
+      "url": "https://zdopravy.cz/nejdrazsi-parkovaci-dum-v-cesku-uz-slouzi-ridicum-pr-opatov-nabidne-495-mist-stoji-nedaleko-d1-i-metra-302502",
+      "title": "Nejdražší parkovací dům v Česku už slouží řidičům. P+R Opatov nabízí 495 míst, stojí nedaleko D1 i metra",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-08",
+      "usedInPost": "opatov-park-and-ride-opens"
+    },
     "50249af0d08af752": {
       "url": "https://www.archiweb.cz/n/domaci/czu-otevrela-v-suchdole-drevostavbu-lesovna-bude-slouzit-studentum",
       "title": "ČZÚ otevřela v Suchdole dřevostavbu Lesovna, bude sloužit studentům",
@@ -646,6 +660,13 @@
       "firstSeen": "2026-09-25",
       "usedInPost": "modrany-park-and-ride-opens"
     },
+    "7c9e1a55af8f95ef": {
+      "url": "https://www.praha1.cz/zlata-ulicka-prokoukne-restauratori-zacali-s-obnovou-fasad-barevnych-domecku",
+      "title": "Zlatá ulička prokoukne. Restaurátoři začali s obnovou fasád barevných domečků",
+      "source": "Městská část Praha 1 (přejatá tisková zpráva Správy Pražského hradu)",
+      "firstSeen": "2026-10-08",
+      "usedInPost": "zlata-ulicka-facade-restoration"
+    },
     "7d2ab6ddea8a6043": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3429-dpp-zacne-stavet-napojeni-budouci-trate-olsanska-habrova-do-stavajici-kolejove-site-a-opravi-trat-ve-smycce-spojovaci",
       "title": "DPP začne stavět napojení budoucí tratě Olšanská – Habrová do stávající kolejové sítě a opraví trať ve smyčce Spojovací",
@@ -807,6 +828,13 @@
       "firstSeen": "2026-08-01",
       "usedInPost": "prager-cubes-circular-reconstruction"
     },
+    "98c542897fa65d10": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3478-prazska-tramvajova-sit-se-rozroste-o-dalsi-novou-trat-libus-nove-dvory",
+      "title": "Pražská tramvajová síť se rozroste o další novou trať Libuš – Nové Dvory",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-10-08",
+      "usedInPost": "libus-nove-dvory-tram-construction-start"
+    },
     "9ab09ccc78644371": {
       "url": "https://www.praha5.cz/rekonstrukce-plzenske-konci-obnova-provozu-zacne-v-patek-vecer",
       "title": "Rekonstrukce Plzeňské končí: obnova provozu začne v pátek večer",
@@ -911,6 +939,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "b4eedbf9165f3d83": {
+      "url": "https://zdopravy.cz/v-libusi-zacala-na-delsi-dobu-posledni-stavba-nove-tramvajove-trate-sef-dpp-popsal-jake-by-mely-nasledovat-302466",
+      "title": "V Libuši začala na delší dobu poslední stavba nové tramvajové tratě. Jan Šurovský z DPP popsal, které by měly následovat",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-08",
+      "usedInPost": "libus-nove-dvory-tram-construction-start"
     },
     "b5792b917403dacf": {
       "url": "https://zdopravy.cz/neberte-nam-nase-uspory-a-prispejte-na-stavby-vyzvala-praha-vladu-ministr-vsak-vidi-priority-jinde-299130",

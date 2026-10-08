@@ -3,7 +3,7 @@ slug: tram-track-design-standard
 lang: cs
 title: "Rozchodníky mezi kolejemi i kvalitnější dlažba. Praha vydala standard tramvajových tratí"
 dek: "Dokument IPR a dopravního podniku popisuje povrchy, zastávky i mobiliář sítě, která se rozkládá na bezmála milionu a čtvrt metrů čtverečních. Je to doporučení projektantům, nikoli předpis, a má se aktualizovat po kapitolách."
-queuedAt: 2026-10-07
+date: 2026-10-08
 category: public-space
 tags: ["IPR Praha", "DPP", "tramvaje", "Katalog doporučených prvků", "standardy"]
 author: "Prague Insider Desk"

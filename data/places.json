@@ -267,6 +267,13 @@
       "district": "Praha 9",
       "osm": "Letňany, obvod Praha 9, Praha, Česko"
     },
+    "libensky most": {
+      "name": "Libeňský most",
+      "lat": 50.10347,
+      "lng": 14.46499,
+      "district": "Praha 8",
+      "osm": "Libeňský most, Palmovka, Praha 8, obvod Praha 8, Praha, 186 76, Česko"
+    },
     "libus": {
       "name": "Libuš",
       "lat": 50.00902,
@@ -427,6 +434,13 @@
       "lng": 14.45926,
       "district": "Praha 3 – Žižkov",
       "osm": "Olšanské náměstí, Žižkov, obvod Praha 3, Praha, Česko"
+    },
+    "opatov": {
+      "name": "Opatov",
+      "lat": 50.0279,
+      "lng": 14.50921,
+      "district": "Praha 4 – Chodov",
+      "osm": "Opatov, Chilská, Litochleby, Chodov, Praha 11, obvod Praha 4, Praha, 149 00, Česko"
     },
     "pankrac": {
       "name": "Pankrác",
@@ -700,6 +714,13 @@
       "lng": 14.37434,
       "district": "Praha 5",
       "osm": "Waltrovka, Vidoule, Praha 5, obvod Praha 5, Praha, 150 03, Česko"
+    },
+    "zlata ulicka": {
+      "name": "Zlatá ulička",
+      "lat": 50.09206,
+      "lng": 14.40427,
+      "district": "Praha 1 – Malá Strana",
+      "osm": "Zlatá ulička, Zlatá ulička u Daliborky, Malá Strana, obvod Praha 1, Praha, 119 00, Česko"
     },
     "zlichov": {
       "name": "Zlíchov",
