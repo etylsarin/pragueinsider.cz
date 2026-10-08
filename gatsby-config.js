@@ -73,7 +73,28 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-sitemap',
-      options: { output: '/sitemap' },
+      options: {
+        output: '/sitemap',
+        // Articles carry their publication (or correction) date as <lastmod>, so a crawler
+        // can tell today's three stories from the archive without fetching every page.
+        query: `{
+          allSitePage { nodes { path } }
+          allMarkdownRemark(filter: { fields: { collection: { eq: "posts" } } }) {
+            nodes { fields { path } frontmatter { date updated } }
+          }
+        }`,
+        resolveSiteUrl: () => siteMetadata.siteUrl,
+        resolvePages: ({ allSitePage, allMarkdownRemark }) => {
+          const lastmod = new Map(
+            allMarkdownRemark.nodes.map((node) => [
+              node.fields.path,
+              node.frontmatter.updated || node.frontmatter.date,
+            ]),
+          )
+          return allSitePage.nodes.map((page) => ({ ...page, lastmod: lastmod.get(page.path) }))
+        },
+        serialize: ({ path: url, lastmod }) => (lastmod ? { url, lastmod } : { url }),
+      },
     },
     {
       resolve: 'gatsby-plugin-feed',

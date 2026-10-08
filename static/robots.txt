@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# gatsby-plugin-sitemap writes to /sitemap/ (see gatsby-config.js), not the
+# /sitemap.xml crawlers try by default, so it has to be announced here.
+Sitemap: https://www.pragueinsider.cz/sitemap/sitemap-index.xml
