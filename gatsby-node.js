@@ -295,6 +295,28 @@ exports.onCreatePage = ({ page, actions }) => {
 }
 
 /**
+ * React's SSR stream occasionally emits a stray NUL byte at a chunk boundary, sometimes inside a
+ * multi-byte UTF-8 character. It corrupts the rendered text and makes the file read as binary data
+ * rather than HTML; 33 live pages had one. Returns the files it cleaned.
+ */
+const stripNulBytes = async (dir) => {
+  const cleaned = []
+  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name)
+    if (entry.isDirectory()) {
+      cleaned.push(...(await stripNulBytes(full)))
+    } else if (entry.name.endsWith('.html')) {
+      const buf = await fs.readFile(full)
+      if (buf.includes(0)) {
+        await fs.writeFile(full, buf.filter((byte) => byte !== 0))
+        cleaned.push(full)
+      }
+    }
+  }
+  return cleaned
+}
+
+/**
  * Post-build artefacts: the client-side search index and the social cards.
  *
  * OG cards are now built only for articles carrying a photograph; every other article shares its
@@ -304,6 +326,14 @@ exports.onCreatePage = ({ page, actions }) => {
  * fidelity on a 1200x630 social thumbnail and keeps one cover implementation instead of two.
  */
 exports.onPostBuild = async ({ graphql, reporter }) => {
+  const publicDir = path.join(__dirname, 'public')
+
+  // First, because the steps below can return early.
+  const cleaned = await stripNulBytes(publicDir)
+  if (cleaned.length) {
+    reporter.warn(`[prague-insider] stripped stray NUL bytes from ${cleaned.length} HTML file(s)`)
+  }
+
   const result = await graphql(`
     {
       allMarkdownRemark(
@@ -332,7 +362,6 @@ exports.onPostBuild = async ({ graphql, reporter }) => {
   }
 
   const nodes = result.data.allMarkdownRemark.nodes
-  const publicDir = path.join(__dirname, 'public')
 
   // --- search index -----------------------------------------------------------------------
   const index = nodes.map((node) => ({
