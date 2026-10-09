@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -8,6 +8,13 @@
       "source": "Městská část Praha 5",
       "firstSeen": "2026-10-01",
       "usedInPost": "nadrazni-railway-bridge-second-half"
+    },
+    "007c97e8c2f02ace": {
+      "url": "https://zdopravy.cz/prazske-letiste-chysta-generacni-obmenu-odbavovacich-systemu-pribudou-i-samoobsluzne-prepazky-301466",
+      "title": "Pražské letiště chystá generační obměnu platforem pro odbavovací systémy. Přibudou i samoobslužné přepážky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-09",
+      "usedInPost": "airport-check-in-platforms-sita-contract"
     },
     "0138676fe304ef24": {
       "url": "https://www.praha7.cz/vitez-nove-holesovice",
@@ -702,6 +709,13 @@
       "firstSeen": "2026-10-07",
       "usedInPost": "jiraskovo-namesti-redesign"
     },
+    "865c7fe9e4afe04c": {
+      "url": "https://www.expats.cz/czech-news/article/czech-railways-promises-changes-after-overcrowding-hits-prague-commuter-trains",
+      "title": "Czech Railways promises changes after overcrowding hits Prague commuter trains",
+      "source": "Expats.cz (ČTK)",
+      "firstSeen": "2026-10-09",
+      "usedInPost": "cd-commuter-shortage-maintenance-measures"
+    },
     "867e5588507d10df": {
       "url": "https://www.praha5.cz/nova-stredni-skola-pro-barrandov",
       "title": "Nová střední škola pro Barrandov",
@@ -806,6 +820,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-01",
       "usedInPost": "vltava-philharmonic-permit-application"
+    },
+    "9540979b8bd717bc": {
+      "url": "https://www.expats.cz/czech-news/article/zizkov-tram-closure-starts-sunday-with-replacement-buses-until-december",
+      "title": "Žižkov tram closure starts Sunday, with replacement buses until December",
+      "source": "Expats.cz (ČTK)",
+      "firstSeen": "2026-10-09",
+      "usedInPost": "jana-zelivskeho-final-stage-closure"
     },
     "95ea58e5548b6fa2": {
       "url": "https://zdopravy.cz/uleva-pro-pretizenou-pasovku-na-prazskem-letisti-pribudou-nove-prepazky-297798",
@@ -995,6 +1016,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-21",
       "usedInPost": "nove-dvory-metro-d-tunnelling-starts"
+    },
+    "bbebbb609fbee1f3": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3482-v-nedeli-zacne-posledni-etapa-modernizace-tramvajove-trate-v-ulici-jana-zelivskeho",
+      "title": "V neděli začne poslední etapa modernizace tramvajové tratě v ulici Jana Želivského",
+      "source": "Dopravní podnik hl. m. Prahy",
+      "firstSeen": "2026-10-09",
+      "usedInPost": "jana-zelivskeho-final-stage-closure"
     },
     "bc6b380a14792e27": {
       "url": "https://zdopravy.cz/dpp-vypsal-tendr-na-stavbu-stanice-metra-d-libus-cenu-odhadl-na-temer-4-miliardy-301787",

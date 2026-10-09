@@ -22,6 +22,13 @@
       "district": "Praha 1 – Staré Město",
       "osm": "Bartolomějská, Staré Město, obvod Praha 1, Praha, 116 65, Česko"
     },
+    "basilejske namesti": {
+      "name": "Basilejské náměstí",
+      "lat": 50.08688,
+      "lng": 14.46925,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Basilejské náměstí, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
+    },
     "bechovice": {
       "name": "Běchovice",
       "lat": 50.08117,
@@ -35,6 +42,13 @@
       "lng": 14.43547,
       "district": "Praha 1 – Nové Město",
       "osm": "Bílá labuť, Na Poříčí, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
+    },
+    "biskupcova": {
+      "name": "Biskupcova",
+      "lat": 50.09122,
+      "lng": 14.47999,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Biskupcova, Žižkov, obvod Praha 3, Praha, 130 24, Česko"
     },
     "bohdalec": {
       "name": "Bohdalec",
@@ -183,6 +197,13 @@
       "district": "Praha 9",
       "osm": "Jahodnice, Praha 14, obvod Praha 9, Praha, 198 00, Česko"
     },
+    "jana zelivskeho": {
+      "name": "Jana Želivského",
+      "lat": 50.08174,
+      "lng": 14.47165,
+      "district": "Praha 3 – Žižkov",
+      "osm": "Jana Želivského, Žižkov, obvod Praha 3, Praha, 130 20, Česko"
+    },
     "jankovcova": {
       "name": "Jankovcova",
       "lat": 50.10066,
@@ -252,6 +273,13 @@
       "lng": 14.40303,
       "district": "Praha 1 – Malá Strana",
       "osm": "Lanová dráha na Petřín, U Lanové dráhy, Malá Strana, obvod Praha 1, Praha, 118 00, Česko"
+    },
+    "letiste vaclava havla": {
+      "name": "Letiště Václava Havla",
+      "lat": 50.10205,
+      "lng": 14.27057,
+      "district": null,
+      "osm": "Letiště Václava Havla Praha, 1019/6, K Letišti, Praha, okres Praha-západ, Středočeský kraj, 161 00, Česko"
     },
     "letiste vaclava havla praha": {
       "name": "Letiště Václava Havla Praha",

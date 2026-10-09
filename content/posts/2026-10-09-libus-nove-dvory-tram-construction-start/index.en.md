@@ -3,7 +3,7 @@ slug: libus-nove-dvory-tram-construction-start
 lang: en
 title: "The Eighth New Tram Line Starts at Libuš: 1.8 Kilometres to Nové Dvory for CZK 1.26 Billion, Half the Time Spent on Water Mains"
 dek: "DPP laid the foundation stone on 7 October, nine months later than planned, after the competition office cleared the tender. OHLA ŽS has two construction seasons; trial running is set for the end of 2028."
-queuedAt: 2026-10-08
+date: 2026-10-09
 category: transport
 tags: ["Libuš–Nové Dvory", "OHLA ŽS", "DPP", "metro D", "Novodvorská"]
 district: "Praha 4"
@@ -12,7 +12,7 @@ location:
   lng: 14.4512
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "Pražská tramvajová síť se rozroste o další novou trať Libuš – Nové Dvory"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3478-prazska-tramvajova-sit-se-rozroste-o-dalsi-novou-trat-libus-nove-dvory"

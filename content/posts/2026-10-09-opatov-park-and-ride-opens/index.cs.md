@@ -3,7 +3,7 @@ slug: opatov-park-and-ride-opens
 lang: cs
 title: "Jedno parkovací místo za 1,62 milionu. Na Opatově otevřela Praha nejdražší P+R dům v zemi"
 dek: "Čtyřpodlažní objekt u metra C stál 663,8 milionu korun bez DPH a nabízí 495 míst. Srovnatelný dům v Českých Budějovicích vyšel na 175 milionů. Střešní park zatím hotový není."
-queuedAt: 2026-10-08
+date: 2026-10-09
 category: transport
 tags: ["P+R Opatov", "TSK", "Jižní Město", "Chilská", "veřejné zakázky"]
 district: "Praha 11 – Chodov"

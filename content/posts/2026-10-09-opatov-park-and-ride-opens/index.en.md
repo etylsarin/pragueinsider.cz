@@ -3,7 +3,7 @@ slug: opatov-park-and-ride-opens
 lang: en
 title: "CZK 1.62 Million a Parking Space: Prague Opens the Country's Dearest Park-and-Ride at Opatov"
 dek: "The four-storey garage beside metro C took 663.8 million crowns excluding VAT for 495 cars. A comparable building in České Budějovice cost 175 million. The rooftop park is not finished."
-queuedAt: 2026-10-08
+date: 2026-10-09
 category: transport
 tags: ["P+R Opatov", "TSK", "Jižní Město", "Chilská", "veřejné zakázky"]
 district: "Praha 11 – Chodov"
