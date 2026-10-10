@@ -3,7 +3,7 @@ slug: cd-commuter-shortage-maintenance-measures
 lang: cs
 title: "Chybělo 23 CityElefantů z potřebných 57. České dráhy slíbily změny v plánování údržby, kraj hrozil maximálními sankcemi"
 dek: "V pondělí mělo dopravce mimo provoz 23 jednotek CityElefant proti potřebě 57 a chybělo i pět RegioPanterů; v nejsilnějších časech jezdily místo dvou jednotek jedna. ČD teď zavádějí druhou kontrolu při plánování oprav, posilují kapacitu dep a slibují informaci o kratší soupravě den předem po šesté večer. Za loňský rok zaplatily 46 milionů na pokutách, za první půlrok letošního jim bylo vyměřeno dalších 31 milionů."
-queuedAt: 2026-10-09
+date: 2026-10-10
 category: transport
 tags: ["České dráhy", "CityElefant", "RegioPanter", "PID", "Středočeský kraj", "železnice"]
 author: "Prague Insider Desk"

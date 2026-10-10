@@ -3,7 +3,7 @@ slug: cd-commuter-shortage-maintenance-measures
 lang: en
 title: "Twenty-Three Units Short of Fifty-Seven: ČD Changes How It Schedules Repairs After Central Bohemia Threatens Maximum Penalties"
 dek: "On Monday 23 CityElefant units were out of service against an operational need of 57, with five RegioPanters missing as well, and peak trains ran as single three-car sets. České dráhy has now committed to a second check on repair scheduling, more depot capacity and a 6 p.m. warning the night before a train runs short. It paid 46 million crowns in penalties last year and had another 31 million imposed in the first half of this one."
-queuedAt: 2026-10-09
+date: 2026-10-10
 category: transport
 tags: ["České dráhy", "CityElefant", "RegioPanter", "PID", "Středočeský kraj", "železnice"]
 author: "Prague Insider Desk"

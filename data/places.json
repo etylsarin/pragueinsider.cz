@@ -246,6 +246,13 @@
       "district": "Praha 10",
       "osm": "Kolovraty, obvod Praha 10, Praha, 103 00, Česko"
     },
+    "koupaliste ladvi": {
+      "name": "Koupaliště Ládví",
+      "lat": 50.12933,
+      "lng": 14.46361,
+      "district": "Praha 8 – Kobylisy",
+      "osm": "Koupaliště Ládví, Kobylisy, Praha 8, obvod Praha 8, Praha, Česko"
+    },
     "kuchynka": {
       "name": "Kuchyňka",
       "lat": 50.1173,
@@ -413,6 +420,13 @@
       "lng": 14.47087,
       "district": "Praha 3 – Žižkov",
       "osm": null
+    },
+    "namesti jana palacha": {
+      "name": "náměstí Jana Palacha",
+      "lat": 50.0891,
+      "lng": 14.4157,
+      "district": "Praha 1 – Josefov",
+      "osm": "náměstí Jana Palacha, Josefov, obvod Praha 1, Praha, Česko"
     },
     "namesti miru": {
       "name": "Náměstí Míru",

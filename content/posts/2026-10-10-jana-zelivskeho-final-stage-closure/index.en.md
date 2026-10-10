@@ -3,7 +3,7 @@ slug: jana-zelivskeho-final-stage-closure
 lang: en
 title: "Žižkov Loses Its Trams Until 18 December for the Last 700 Metres of Jana Želivského"
 dek: "DPP suspends trams between Nákladové nádraží Žižkov and Ohrada from the night of 10 October until 18 December. Nine lines are rerouted or cancelled, 16 and 34 disappear for the duration, and the second phase of the Olšanská crossing rebuild ties the new Jarov line into the network."
-queuedAt: 2026-10-09
+date: 2026-10-10
 category: transport
 tags: ["Jana Želivského", "Žižkov", "DPP", "Jarov", "Olšanská", "tramvaje"]
 district: "Praha 3 – Žižkov"
@@ -12,7 +12,7 @@ location:
   lng: 14.4693
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V neděli začne poslední etapa modernizace tramvajové tratě v ulici Jana Želivského"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3482-v-nedeli-zacne-posledni-etapa-modernizace-tramvajove-trate-v-ulici-jana-zelivskeho"

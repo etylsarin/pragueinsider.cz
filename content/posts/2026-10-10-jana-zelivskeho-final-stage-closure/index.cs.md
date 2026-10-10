@@ -3,7 +3,7 @@ slug: jana-zelivskeho-final-stage-closure
 lang: cs
 title: "Žižkov bude do 18. prosince bez tramvají. Přijde posledních 700 metrů Jana Želivského a křižovatka, která připojí Jarov"
 dek: "Od noci z 10. na 11. října nepojedou tramvaje mezi Nákladovým nádražím Žižkov a Ohradou. Devět linek pojede jinak nebo vůbec, šestnáctka a čtyřiatřicítka na deset týdnů zmizí. Zároveň se dokončí přestavba kolejového křížení v Olšanské, které napojí novou trať na Jarov."
-queuedAt: 2026-10-09
+date: 2026-10-10
 category: transport
 tags: ["Jana Želivského", "Žižkov", "DPP", "Jarov", "Olšanská", "tramvaje"]
 district: "Praha 3 – Žižkov"
@@ -12,7 +12,7 @@ location:
   lng: 14.4693
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "V neděli začne poslední etapa modernizace tramvajové tratě v ulici Jana Želivského"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3482-v-nedeli-zacne-posledni-etapa-modernizace-tramvajove-trate-v-ulici-jana-zelivskeho"
