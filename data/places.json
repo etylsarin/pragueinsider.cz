@@ -680,6 +680,20 @@
       "district": "Praha 9",
       "osm": "U Hostavického potoka, Jahodnice, Praha 14, obvod Praha 9, Praha, 190 12, Česko"
     },
+    "u krcskeho nadrazi": {
+      "name": "U Krčského nádraží",
+      "lat": 50.03419,
+      "lng": 14.44902,
+      "district": "Praha 4 – Krč",
+      "osm": "U Krčského nádraží, Krč, Praha 4, obvod Praha 4, Praha, 140 21, Česko"
+    },
+    "u labute": {
+      "name": "U Labutě",
+      "lat": 50.03526,
+      "lng": 14.45607,
+      "district": "Praha 4 – Krč",
+      "osm": "U Labutě, Krč, Praha 4, obvod Praha 4, Praha, 140 21, Česko"
+    },
     "u prasneho mostu": {
       "name": "U Prašného mostu",
       "lat": 50.09423,
@@ -707,6 +721,13 @@
       "lng": 14.3825,
       "district": "Praha 5",
       "osm": "Velká Chuchle, obvod Praha 5, Praha, 159 00, Česko"
+    },
+    "videnska": {
+      "name": "Vídeňská",
+      "lat": 50.00153,
+      "lng": 14.48291,
+      "district": "Praha 4 – Kunratice",
+      "osm": "Vídeňská, Kunratice, Praha-Kunratice, obvod Praha 4, Praha, 140 04, Česko"
     },
     "vitezne namesti": {
       "name": "Vítězné náměstí",

@@ -3,7 +3,7 @@ slug: ladvi-zabak-fountain-rebuilt
 lang: cs
 title: "Fontánka na Ládví obstála v zatěžkávací zkoušce, Žabák se na ni vrátí v replice z modelu od Vinglerovy rodiny"
 dek: "Praha 8 vyzkoušela 8. října technologie obnoveného vodního prvku u koupaliště Ládví; po desítkách let pod Žabákem znovu teče voda. Původní bronz vandalové v roce 2007 odtrhli, v roce 2008 zmizel nadobro. Replika zůstane na radnici, dokud nebudou osazené kamery."
-queuedAt: 2026-10-10
+date: 2026-10-11
 category: public-space
 tags: ["sídliště Ďáblice", "Ládví", "Vincenc Vingler", "fontána", "Praha 8"]
 district: "Praha 8 – Kobylisy"

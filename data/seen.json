@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -387,6 +387,13 @@
       "firstSeen": "2026-09-20",
       "usedInPost": "petrin-funicular-returns-fourth-generation"
     },
+    "3e83ec1bd7ffee38": {
+      "url": "https://zdopravy.cz/sz-nasazuje-v-praze-svuj-tank-pod-mostem-v-krci-uvazla-vrtna-souprava-nedari-se-ji-vyprostit-302611",
+      "title": "SŽ povolává do Krče další tanky. Uvázlou vrtnou soupravu se nedaří vyprostit",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-11",
+      "usedInPost": "krc-videnska-bridge-damaged"
+    },
     "3f82d399caf6a8e6": {
       "url": "https://www.archiweb.cz/n/domaci/praha-8-dokoncila-obnovu-kaple-na-tzv-hrbitove-blaznu-chysta-dalsi-upravy",
       "title": "Praha 8 dokončila obnovu kaple na tzv. hřbitově bláznů, chystá další úpravy",
@@ -406,7 +413,7 @@
       "title": "Pražští zastupitelé schválili půjčku 165,8 mil. Kč Praze 7 na stavbu školy",
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-12",
-      "usedInPost": "jankovcova-school-loan-approved"
+      "usedInPost": "jankovcova-school-loan-approved,jankovcova-school-demolition-begins"
     },
     "42f5436b385589c2": {
       "url": "https://www.archiweb.cz/n/domaci/praha-otevrela-centrum-dusevniho-zdravi-pro-seniory-a-postavi-novy-pavilon",
@@ -1122,6 +1129,13 @@
       "firstSeen": "2026-10-07",
       "usedInPost": "tram-track-design-standard"
     },
+    "d2cb787c6e23d857": {
+      "url": "https://zdopravy.cz/hasici-uvolnili-kamion-zasekly-pod-viaduktem-v-krci-vyprostovani-pokracuje-302719",
+      "title": "Hasiči v noci uvolnili kamion zaseklý pod viaduktem v Krči. Lidé zahltili tísňové linky radami",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-11",
+      "usedInPost": "krc-videnska-bridge-damaged"
+    },
     "d8b3f57474089b26": {
       "url": "https://pid.cz/zmena/olsanske-namesti-nakladove-nadrazi-zizkov-docasne-preruseni-provozu-tramvaji-42224-3",
       "title": "Olšanské náměstí – Nákladové nádraží Žižkov: dočasné přerušení provozu tramvají",
@@ -1198,6 +1212,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-01",
       "usedInPost": "zapadni-mesto-school-approved"
+    },
+    "f20b183cbf6006c3": {
+      "url": "https://www.praha7.cz/skoly-rekonstrukce-26",
+      "title": "Praha 7 modernizuje školní budovy a začne stavět novou školu pro 570 žáků",
+      "source": "Městská část Praha 7",
+      "firstSeen": "2026-10-11",
+      "usedInPost": "jankovcova-school-demolition-begins"
     },
     "f22f39e3e3d84556": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/na-prazskem-smichove-zacala-dvoutydenni-vyluka-tramvaji-kvuli-vymene-mostu-378200",

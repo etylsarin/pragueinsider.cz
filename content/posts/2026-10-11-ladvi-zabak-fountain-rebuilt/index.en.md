@@ -3,7 +3,7 @@ slug: ladvi-zabak-fountain-rebuilt
 lang: en
 title: "The Ládví Frog Comes Back as a Replica Cast From the Sculptor's Own Model, This Time Under Cameras"
 dek: "Prague 8 load-tested the rebuilt fountain by the Ládví pool on 8 October, and water runs under Vincenc Vingler's bronze for the first time in decades. The original was torn off by vandals in 2007 and stolen for good in 2008. The replica stays in the town hall until the security system is installed."
-queuedAt: 2026-10-10
+date: 2026-10-11
 category: public-space
 tags: ["sídliště Ďáblice", "Ládví", "Vincenc Vingler", "fontána", "Praha 8"]
 district: "Praha 8 – Kobylisy"
