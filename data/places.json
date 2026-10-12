@@ -344,6 +344,13 @@
       "district": "Praha 6 – Střešovice",
       "osm": "Malovanka, Na Petynce, Staré Střešovice, Střešovice, Praha 6, obvod Praha 6, Praha, 162 01, Česko"
     },
+    "masarykovo nadrazi": {
+      "name": "Masarykovo nádraží",
+      "lat": 50.08768,
+      "lng": 14.4342,
+      "district": "Praha 1 – Nové Město",
+      "osm": "Praha Masarykovo nádraží, Hybernská, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
+    },
     "modletice": {
       "name": "Modletice",
       "lat": 49.97051,

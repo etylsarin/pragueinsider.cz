@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -562,6 +562,13 @@
       "firstSeen": "2026-09-19",
       "usedInPost": "nove-dvory-blocks-competition-winners"
     },
+    "61cae4ed8d4ad89f": {
+      "url": "https://zdopravy.cz/doklimatizovani-prvni-prazske-tramvaje-15t-v-lodzi-zacalo-zprava-ukazuje-o-kolik-byli-polaci-levnejsi-302900",
+      "title": "Doklimatizování první pražské tramvaje 15T v Lodži začalo. Zpráva ukazuje, o kolik byli Poláci levnější",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-12",
+      "usedInPost": "tram-15t-air-conditioning-bid-report"
+    },
     "640c9c70b964f804": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3476-v-praze-vznika-dalsi-nova-tramvajova-trat-malovanka-strahov",
       "title": "V Praze vzniká další nová tramvajová trať Malovanka – Strahov",
@@ -876,6 +883,13 @@
       "source": "Městská část Praha 5",
       "firstSeen": "2026-08-29",
       "usedInPost": "plzenska-reopens-tsk-drops-kerbs"
+    },
+    "9c6a49a8994ffb2b": {
+      "url": "https://zdopravy.cz/urad-schvalil-vyluky-na-pristi-rok-pochvalil-sz-nejvetsi-omezeni-cekaji-trat-pres-tisnov-a-masarykovo-nadrazi-302997",
+      "title": "Úřad schválil výluky na příští rok, pochválil SŽ. Největší omezení čekají trať přes Tišnov a Masarykovo nádraží",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-12",
+      "usedInPost": "masaryk-station-2027-closures-approved"
     },
     "9cffabe53f9bd2c8": {
       "url": "https://www.archiweb.cz/n/domaci/praha-7-otevrela-sportovni-areal-v-holesovicich-nabizi-tzv-dobrodruzne-hriste",
