@@ -115,12 +115,21 @@ stories already published; the day's live candidate list was shorter than its 17
 
 ### Sources
 
-- **archiweb.cz — HTTP 429, and this is the SECOND CONSECUTIVE DAY.** Yesterday's log recorded it
-  as a first occurrence. It is a rate-limit, not the markup failure the skill warns about, so the
-  adapter in `scripts/sources/` is probably fine — but two days running means archiweb has
-  contributed nothing to the digest since 11 October and a real architecture story could be sitting
-  behind it. **Needs a human** if it returns 429 a third time: the likely fixes are throttling the
-  adapter or spacing the run, not a selector change.
+- **archiweb.cz — HTTP 429, and this is day 22 of a continuous outage.** It has returned 429 on
+  every run since 22 September 2026; the last clean fetch was the 21 September run. **Yesterday's
+  log recorded it as a "first occurrence", which was wrong** — and wrong in the way `CLAUDE.md`
+  warns about, because a run on 6 October had already caught the same mistake and committed
+  `scan: correct the archiweb outage count to fourteen days` to fix it. The "second day running"
+  framing comes from comparing against yesterday's log instead of the history; checked against the
+  history, this is three weeks.
+  It is a rate-limit rather than the markup failure the skill's broken-adapter procedure addresses,
+  so the selector in `scripts/sources/archiweb.mjs` is probably intact and re-running the scan will
+  not help. **This needs a human.** Three weeks is long enough that it is not transient
+  throttling: archiweb is most likely refusing the scan's declared user-agent or its source IP
+  outright. The fix is in that class — a browser user-agent, as the skill already prescribes for
+  zdopravy.cz, or a delay between requests — not a change to the parsing. In the meantime the
+  architecture desk has had no archiweb candidate for 22 days, which is the one gap in the scan
+  that is not a quiet news day.
 - Every other source answered. Geocoding was not needed — the one story is citywide.
 - **Cross-checking outside the registered source list is not possible from this container.**
   `www.echo24.cz`, `volby.blesk.cz` and `aroundprague.cz` all fail DNS resolution, because the
