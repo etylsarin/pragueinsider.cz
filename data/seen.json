@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -281,6 +281,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-10",
       "usedInPost": "cityelefant-shortage-prague-commuter-trains"
+    },
+    "2bc1ac73b14d8e09": {
+      "url": "https://zdopravy.cz/myto-uvnitr-okruhu-drazsi-parkovani-a-litacka-za-4750-korun-vitez-voleb-v-praze-predstavil-plany-303037",
+      "title": "Mýto uvnitř okruhu, dražší parkování a roční kupon za 4750 korun. Vítěz voleb v Praze představil plány",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-13",
+      "usedInPost": "annual-coupon-4750-toll-inside-ring"
     },
     "2c287bfcafaea5bc": {
       "url": "https://praha.camp/magazin/detail/prazske-priority-velky-update-projektu-ktere-promeni-tvar-metropole",
