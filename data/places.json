@@ -92,6 +92,13 @@
       "district": "Praha 6",
       "osm": "Česká zemědělská univerzita v Praze, Sídlištní, Praha-Suchdol, obvod Praha 6, Praha, 165 00, Česko"
     },
+    "cinovecka": {
+      "name": "Cínovecká",
+      "lat": 50.16117,
+      "lng": 14.4777,
+      "district": "Praha 8",
+      "osm": "Cínovecká, Praha-Ďáblice, obvod Praha 8, Praha, 182 00, Česko"
+    },
     "cisarsky ostrov": {
       "name": "Císařský ostrov",
       "lat": 50.11628,
@@ -231,6 +238,13 @@
       "lng": 14.40766,
       "district": "Praha 1 – Malá Strana",
       "osm": "Kampa, Malá Strana, obvod Praha 1, Praha, Česko"
+    },
+    "kbelska": {
+      "name": "Kbelská",
+      "lat": 50.11257,
+      "lng": 14.53064,
+      "district": "Praha 9 – Hloubětín",
+      "osm": "Kbelská, Hloubětín, Praha 14, obvod Praha 9, Praha, 194 00, Česko"
     },
     "ke stvanici": {
       "name": "Ke Štvanici",

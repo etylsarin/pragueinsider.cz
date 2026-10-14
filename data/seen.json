@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -246,6 +246,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-09",
       "usedInPost": "dedina-parking-house-opens"
+    },
+    "2540b3feb58c99e3": {
+      "url": "https://zdopravy.cz/past-na-vjezdu-do-prahy-od-severu-k-rozkopane-krizovatce-se-prida-oprava-ctyrpruhove-vypadovky-303245",
+      "title": "Past na vjezdu do Prahy od severu. K rozkopané křižovatce se přidá oprava čtyřpruhové výpadovky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-14",
+      "usedInPost": "cinovecka-narrows-to-one-lane"
     },
     "25b28ab08e608aea": {
       "url": "https://www.archiweb.cz/n/domaci/v-praze-bude-v-roce-2032-celosvetovy-kongres-architektu",
@@ -547,6 +554,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-17",
       "usedInPost": "nadrazi-holesovice-competition-chybik-kristof"
+    },
+    "5ccf919e4199ce41": {
+      "url": "https://zdopravy.cz/stavbari-se-vraci-na-obavanou-kbelskou-treti-faze-omezeni-na-tranzitni-tepne-potrva-40-dni-303063",
+      "title": "Stavbaři se vrací na obávanou Kbelskou. Třetí fáze omezení na tranzitní tepně potrvá 40 dní",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-14",
+      "usedInPost": "cinovecka-narrows-to-one-lane"
     },
     "5d8952a95266bef1": {
       "url": "https://zdopravy.cz/t3-zady-k-sobe-v-praze-se-vraci-do-provozu-neobvykle-soupravy-296003",
