@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -967,6 +967,20 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-09-06",
       "usedInPost": "bozankaya-trolleybuses-accepted"
+    },
+    "a309e72d4bf7ca1f": {
+      "url": "https://praha.camp/en/prague-tomorrow/project/vaclav-havel-airport-public-area",
+      "title": "Václav Havel Airport, Public area in front of the Terminals",
+      "source": "praha.camp (CAMP)",
+      "firstSeen": "2026-10-15",
+      "usedInPost": "airport-skywalk-cut-back"
+    },
+    "a5a11b96aeb1265f": {
+      "url": "https://zdopravy.cz/z-obchodni-pasaze-spojovaci-chodba-letiste-praha-zacalo-skrtat-v-planovane-modernizaci-303054",
+      "title": "Z obchodní pasáže spojovací chodba. Letiště Praha začalo škrtat v plánované modernizaci",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-15",
+      "usedInPost": "airport-skywalk-cut-back"
     },
     "a9a5d57b6e5e2f29": {
       "url": "https://www.expats.cz/czech-news/article/prague-starts-construction-of-new-tram-line-connecting-strahov-to-city-network",

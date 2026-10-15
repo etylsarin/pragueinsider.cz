@@ -680,6 +680,13 @@
       "district": "Praha 6",
       "osm": "Terminál 1, Aviatická, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
     },
+    "terminal 2": {
+      "name": "Terminál 2",
+      "lat": 50.10526,
+      "lng": 14.26637,
+      "district": "Praha 6",
+      "osm": "Terminál 2, Schengenská, Praha 6, obvod Praha 6, Praha, 161 08, Česko"
+    },
     "tovarni praha 7": {
       "name": "Tovární, Praha 7",
       "lat": 50.10247,
