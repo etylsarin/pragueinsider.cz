@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -29,6 +29,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-08-28",
       "usedInPost": "jahodnice-school-construction-start"
+    },
+    "023269d4c910cc13": {
+      "url": "https://zdopravy.cz/rozsirene-zastavky-na-zizkove-se-opet-mirne-smrsknou-na-koleje-se-pote-lepe-vejdou-i-autobusy-303301",
+      "title": "Pryč s legem. Rozšířené zastávky na Žižkově se opět mírně smrsknou, aby se na koleje lépe vešly autobusy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-16",
+      "usedInPost": "biskupcova-stops-rebuilt-narrower"
     },
     "02c2deef5b333556": {
       "url": "https://www.praha7.cz/prumyslovy-palac-se-otevira-po-rekonstrukci",

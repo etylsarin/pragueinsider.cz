@@ -806,6 +806,13 @@
       "district": "Praha 5",
       "osm": "Waltrovka, Vidoule, Praha 5, obvod Praha 5, Praha, 150 03, Česko"
     },
+    "zastavka biskupcova": {
+      "name": "Zastávka Biskupcova",
+      "lat": 50.0895,
+      "lng": 14.4699,
+      "district": null,
+      "osm": null
+    },
     "zlata ulicka": {
       "name": "Zlatá ulička",
       "lat": 50.09206,
