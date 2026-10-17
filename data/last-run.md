@@ -1,98 +1,123 @@
-# Scan log — 2026-10-16
+# Scan log — 2026-10-17
 
-Scanned `2026-10-16T05:17:56.342Z`, window 21 days.
+Scanned `2026-10-17T05:12:19.926Z`, window 21 days.
 
 ## Sources
 
 - ✓ **praha.camp (CAMP)** — 2 new of 40 (0 off-topic, 1 covered, 37 outside window)
 - ✓ **IPR Praha** — 0 new of 24 (0 off-topic, 2 covered, 22 outside window)
-- ✓ **Dopravní podnik hl. m. Prahy** — 2 new of 10 (0 off-topic, 4 covered, 4 outside window)
-- ✓ **PID / ROPID** — 1 new of 10 (2 off-topic, 0 covered, 7 outside window)
+- ✓ **Dopravní podnik hl. m. Prahy** — 3 new of 10 (0 off-topic, 4 covered, 3 outside window)
+- ✓ **PID / ROPID** — 3 new of 10 (3 off-topic, 0 covered, 4 outside window)
 - ✓ **Klub Za starou Prahu** — 2 new of 10 (0 off-topic, 0 covered, 8 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 5 new of 40 (33 off-topic, 2 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 6 new of 40 (33 off-topic, 1 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
 - ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 6 new of 35 (29 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
+- ✓ **Expats.cz** — 1 new of 25 (24 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 5 new of 36 (31 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (3 off-topic, 0 covered, 7 outside window)
 
-## Candidates — 19 in 19 clusters
+## Candidates — 24 in 24 clusters
 
-1. `26` transport — Nové tramvajové zastávky Hodkovičky ode dneška slouží cestujícím
-2. `19` transport — Magistrát doporučuje v souvislosti se Signal Festivalem omezit jízdy autem do centra Prahy a Dejvic
-3. `18` transport — Den otevřených dveří DPP ve vozovně Pankrác již tuto sobotu
-4. `18` transport — Oprava semaforů omezí provoz
-5. `17` transport — Pryč s legem. Rozšířené zastávky na Žižkově se opět mírně smrsknou, aby se na koleje lépe vešly autobusy
-6. `16` architecture — Rozhodni o Praze! Praha v památkových sporech
-7. `15` transport — Co ještě vydrží pražské mosty a silnice. Ptejte se Filipa Hájka, šéfa TSK
-8. `14` development — Projekt MAP V slavnostně zahájili v Rezidenci primátora Prahy
-9. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na říjen
-10. `12` transport — Více vlaků mezi Prahou a Vratislaví. Ministerstvo přiobjedná IC Glacensis, „vychází vstříc poptávce“
-11. `12` transport — Další etapa rekonstrukce vodovodů v Tusarově ulici
-12. `12` transport — Zamítnuto. RegioJet je o krok blíže rychlíkům z Prahy do Trutnova, ČD neuspěly se stížností na cenu
-13. `11` transport — Před 85 lety odjel z nádraží Bubny první transport Židů do Lodže. Z tisíce jich přežilo pouze 27
-14. `11` transport — Velkoobjemový kontejner ve Štěpánské ulici nebude 13. října přistaven
-15. `11` development — Nová tvář Výstaviště: Střešní běžecká dráha, otevřený areál a obnovený Průmyslový palác
-16. `9` transport — TZ: Praha 10 zmodernizovala a otevřela dopravní hřiště V Olšinách
-17. `8` transport — Nové polské lokomotivy mají od prosince jezdit do Prahy. Nahradí Vectrony na Baltic Expressu
-18. `7` planning — Kompromis není prohra, říká ředitelka Sekce koordinace Kristýna Lhotská
-19. `6` development — PONDĚLNÍ PŘEDNÁŠKY OBNOVENY
+1. `31` transport — V Praze se staví pět tramvajových tratí současně. Nové koleje míří na Strahov i Nové Dvory
+2. `27` transport — Prague Expands Tram Network With Five Projects Underway
+3. `26` transport — Nové tramvajové zastávky Hodkovičky ode dneška slouží cestujícím
+4. `25` transport — Smíchovské nádraží otevře dvě nová nástupiště. Výtahy i eskalátory cestujícím pomohou, říká správce
+5. `24` transport — Obrazem: Přestavba Smíchovského nádraží je v polovině. Příští týden se stavba přesune k výpravní budově
+6. `19` transport — Oprava semaforů ovlivní dopravu
+7. `18` transport — Den otevřených dveří DPP ve vozovně Pankrác již tuto sobotu
+8. `16` transport — Železniční soutěž století je v cílové stanici, páteřní spojení středních Čech a Prahy zajistí na dalších 30 let České dráhy
+9. `16` transport — Soužití cyklistů a chodců na Dvoreckém mostě skřípe. Praha je nově zkouší usměrnit piktogramy
+10. `16` architecture — Rozhodni o Praze! Praha v památkových sporech
+11. `15` transport — Co ještě vydrží pražské mosty a silnice. Ptejte se Filipa Hájka, šéfa TSK
+12. `14` transport — DPP si do svého majetku převzal dalších patnáct trolejbusů Bozankaya SNG 12T
+13. `14` public-space — Cestu u vstupu do Lobkovické zahrady čekají dvě uzavírky
+14. `14` development — Projekt MAP V slavnostně zahájili v Rezidenci primátora Prahy
+15. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na říjen
+16. `13` transport — Pozor na omezení v Nádražní
+17. `12` transport — Více vlaků mezi Prahou a Vratislaví. Ministerstvo přiobjedná IC Glacensis, „vychází vstříc poptávce“
+18. `12` transport — Další etapa rekonstrukce vodovodů v Tusarově ulici
+19. `12` transport — Zamítnuto. RegioJet je o krok blíže rychlíkům z Prahy do Trutnova, ČD neuspěly se stížností na cenu
+20. `11` development — Nová tvář Výstaviště: Střešní běžecká dráha, otevřený areál a obnovený Průmyslový palác
+21. `10` development — Trolejbusy v Praze plně přebírají další dvě linky na nových tratích. Zatím hlavně na víkendy
+22. `7` planning — Kompromis není prohra, říká ředitelka Sekce koordinace Kristýna Lhotská
+23. `6` transport — Prague coalition talks advance on housing, schools, and transport
+24. `6` development — PONDĚLNÍ PŘEDNÁŠKY OBNOVENY
 
 
 ## Decisions
 
-### Written
+### Written (4)
 
-- **`biskupcova-stops-rebuilt-narrower`** (transport, candidate 5): the Biskupcova tram/bus
-  platforms on Jana Želivského, widened in 2023 with a modular "lego" kit laid on the carriageway,
-  are being rebuilt as permanent anchored structures during the track renewal that began on
-  11 October. Tracks move 60 cm apart so buses can pass; the new islands are 3.1 m (to centre) and
-  2.9 m (from centre) against 3.15 m and 3.45 m temporary and 1.8 m originally. Something has
-  changed (construction under a permit, with new dimensions), and it is contested — tabloid
-  criticism of "wasted" work, answered on the record by Praha 3 deputy mayor Ondřej Rut and DPP's
-  Daniel Šabík. Single source, Zdopravy.cz (15 October, fetched with a browser user-agent), so the
-  figures and the tabloid criticism are attributed to it. The article also reconciles it with our
-  10 October closure piece, which (from DPP's notice) said the platforms are "enlarged": true
-  against the original kerbs, not against the 2023 temporary width. Pinned on a new gazetteer
-  entry, "Zastávka Biskupcova" (50.0895, 14.4699), set by hand at the Jana Želivského junction:
-  the existing "Biskupcova" entry (50.0912, 14.4800) is a point on the street about 750 m east of
-  the stop. No post used that entry, but it is left untouched.
+- **`cd-signs-thirty-year-suburban-rail-contract`** — transport, citywide (no pin). Not a digest
+  cluster of its own: candidate 8 (PID's release on the signing) led to three Zdopravy.cz pieces in
+  its feed that the filter had passed over as off-topic (signing report 16 Oct; ÚOHS rejecting
+  Stadler's first complaint and opening a second case, both 15 Oct). The 165bn Kč, 30-year EMU 400
+  operating contract was signed on 16 October — a follow-up to our 8 September piece on the vote.
+  Contested: ČD signed before it can contract the trains, ÚOHS's preliminary measure still bars the
+  Škoda contract, and Stadler's new "material change" complaint opened first-instance proceedings.
+  **Disagreement reported, not resolved:** the PID release says "more than sixty" units, ČD's Ješeta
+  (in the same release) "up to 60" for the base scope, Zdopravy "at least 60" — all three attributed.
+  Also left out: Zdopravy's headline says "over a thousand pages" of contract, its body "more than
+  110" — page count not used. Released today as the lead (`featured: true`).
+- **`smichov-station-halfway-platforms-open`** — transport, candidates 4 and 5 (one story). Platforms
+  3 and 4 and the south underpass open 20 October; works move to the station-building side; the
+  Smíchov–Radlice footbridge: SŽ press release says possibly end-2027, its representative on site
+  "mid-2028" — both reported. 40 terminal-platform columns standing; 4.14bn Kč price. Written from
+  Zdopravy.cz only: **iROZHLAS (candidate 4) served a bot-challenge page** ("Ještě zbývá jeden krok")
+  to both WebFetch (403) and curl, so it was not read and is not cited. Pinned on the existing
+  "Smíchovské nádraží" gazetteer entry. Released today.
+- **`dvorecky-bridge-cycle-pictograms`** — public-space, candidate 9. Non-binding pictograms at the
+  bridge's stops, the first adjustment to the shared C 9 footway regime the cycling commission chose
+  over the designed separate lanes; contested since opening. Single source (Zdopravy.cz). Pinned on a new
+  gazetteer entry "Dvorecký most" (OSM hit, name checked); district given as "Praha 4 – Podolí / Praha 5 – Smíchov" because the
+  bridge joins the two. Released today.
+- **`trolleybuses-take-weekends-on-51-53`** — transport, candidates 12 and 21 (one story, DPP release +
+  Zdopravy). DPP accepted 15 more Bozankaya SNG 12T (28 of 30 now owned, up from 13 on 23 Sept);
+  from 17 Oct lines 51 and 53 are trolleybus-only at weekends; buses 131/176 to end in "roughly two to
+  three weeks". Citywide-ish across two routes, so no pin. **Queued, not released** — release.mjs held
+  it back as the third transport piece of the day.
 
-### Skipped: already in the archive or already judged
+### Released (3)
 
-- `26` Hodkovičky tram stops (published 30 September), `11` Nová tvář Výstaviště (Průmyslový
-  palác already covered twice): as yesterday.
-- `19` Signal Festival advisory, `16` Rozhodni o Praze!, `15` Ptejte se Filipa Hájka (podcast
-  call), `14` MAP V, `14` PID Point, `12` Praha–Vratislav trains, `12` RegioJet/Trutnov, `11`
-  Štěpánská container, `9` Praha 10 traffic playground, `8` Polish locomotives, `6` Monday lectures:
-  same items as yesterday, skipped for the same reasons (event notices, district amenities,
-  education programmes, national/international rail with no Prague built-environment change).
+- `cd-signs-thirty-year-suburban-rail-contract` (lead), `dvorecky-bridge-cycle-pictograms`,
+  `smichov-station-halfway-platforms-open`, all stamped 2026-10-17. Queue depth after the run: **1**
+  (`trolleybuses-take-weekends-on-51-53`).
 
-### Skipped: below the bar (new today)
+### Skipped: already in the archive
 
-- `18` **DPP open day at Pankrác depot**: an event, and the institution talking about itself.
-- `18` **Mrázovka/Radlická traffic lights repair** (Praha 5): a three-day closure of one tunnel
-  ramp. Not worth reading in a month.
-- `12` **Tusarova water main, next stage** (Praha 7): utility works with a diversion, local only.
-- `11` **85 years since the first transport from Bubny** (iROZHLAS): a historical anniversary
-  piece. WebFetch got 403 and the curl copy yielded no readable body, but the headline and section
-  (history) give no sign of any decision about the Bubny memorial site, so nothing to report.
-- `7` **"Kompromis není prohra" — Kristýna Lhotská** (CAMP): interview with the head of IPR's new
-  Sekce koordinace (four territorial offices; a pilot AI assistant for investors "later this
-  year"). An institution describing its own reorganisation; no decision, contract or plan stage.
+- `31` / `27` **Five tram lines under construction** (PID, Prague Morning) — a roundup. Malovanka–Strahov
+  (7 Oct) and Libuš–Nové Dvory (9 Oct) are already published, Hodkovičky too; the only new detail is
+  that the Václavské náměstí tracks are joined up to Jindřišská/Vodičkova, a progress note with no
+  date for service. Prague Morning not read separately — it is the English rewrite of the same item.
+- `26` Hodkovičky tram stops, `20` Nová tvář Výstaviště — as on previous days.
 
-### Released today
+### Skipped: below the bar
 
-- `biskupcova-stops-rebuilt-narrower`, stamped 2026-10-16 and pinned as the lead. Written and
-  released the same day. Queue depth after the run: **0**.
+- `19` **Praha 5 traffic-light repair**, `16` **Nádražní closure 19–31 Oct** (Praha 5), `13` **Lobkovická
+  zahrada path closures** (Praha 1, playground rebuild), `18` **Tusarova water main** (Praha 7):
+  short works closures; not worth reading in a month, nor to a reader in another district.
+- `18` **DPP open day at Pankrác** — an event; the institution about itself.
+- `14` **MAP V launch** (Praha 1) — an education-planning programme ceremony, not the built environment.
+- `14` **PID Point timetables** — a notice.
+- `16` **Rozhodni o Praze!** and `6` **Monday lectures** (Klub Za starou Prahu) — event/programme notices,
+  as before.
+- `15` **Ask Filip Hájek (TSK)** — a reader-questions call, nothing decided.
+- `17` **More Prague–Wrocław trains**, `19` **RegioJet / Trutnov** — national and international rail
+  ordering; no Prague built-environment change.
+- `22` **Kristýna Lhotská interview** (CAMP) — IPR describing its own reorganisation, as before.
+- `23` **Prague coalition talks** (Expats.cz) — the page served a different article to the fetcher
+  ("Záchranka" app); coalition talks with no agreement signed are not yet a change either.
 
 ### Notes for a human
 
-- **archiweb.cz: HTTP 429 for the twenty-fifth consecutive day** (since 22 September). The
-  architecture and planning desks are still without their main wire; this needs someone to look at
-  the adapter's user-agent / request rate or contact the site.
-- **The queue is empty again.** One story written, one released; nothing is banked.
-- **The Hodkovičky cost figure** in `hodkovicky-tram-stop-opens` is still uncorrected (see the
+- **archiweb.cz: HTTP 429 for the twenty-sixth consecutive day** (since 22 September). Still no
+  architecture/planning wire.
+- **iROZHLAS article pages now return a bot-challenge page** to both WebFetch and curl. The feed still
+  reads, so ingest is fine, but stories from it can no longer be read at source from this container.
+- The Zdopravy pieces on the ÚOHS cases were classed off-topic by the filter (no Prague term in title
+  or summary), though they bear directly on PID's suburban fleet. Worth considering whether `EMU 400`
+  belongs in the relevance terms.
+- The **Hodkovičky cost figure** in `hodkovicky-tram-stop-opens` is still uncorrected (see the
   14 October log).

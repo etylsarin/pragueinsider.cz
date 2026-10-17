@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -688,6 +688,13 @@
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
     },
+    "77a8360f39f2931e": {
+      "url": "https://zdopravy.cz/trolejbusy-v-praze-plne-prebiraji-dalsi-dve-hotove-trate-zatim-hlavne-na-vikendy-303467",
+      "title": "Trolejbusy v Praze plně přebírají další dvě linky na nových tratích. Zatím hlavně na víkendy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "trolleybuses-take-weekends-on-51-53"
+    },
     "79d024e5d5781eaa": {
       "url": "https://zdopravy.cz/z-litacky-ma-byt-superaplikace-nove-funkce-podpori-praha-dalsimi-25-miliony-300309",
       "title": "Z Lítačky má být superaplikace. Nové funkce podpoří Praha dalšími 25 miliony",
@@ -716,6 +723,13 @@
       "firstSeen": "2026-09-25",
       "usedInPost": "modrany-park-and-ride-opens"
     },
+    "7c45e8274f6bcf2b": {
+      "url": "https://zdopravy.cz/obrazem-polovina-smichovskeho-nadrazi-je-hotova-pristi-tyden-se-stavba-presune-k-vypravni-budove-303509",
+      "title": "Obrazem: Přestavba Smíchovského nádraží je v polovině. Příští týden se stavba přesune k výpravní budově",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "smichov-station-halfway-platforms-open"
+    },
     "7c9e1a55af8f95ef": {
       "url": "https://www.praha1.cz/zlata-ulicka-prokoukne-restauratori-zacali-s-obnovou-fasad-barevnych-domecku",
       "title": "Zlatá ulička prokoukne. Restaurátoři začali s obnovou fasád barevných domečků",
@@ -743,6 +757,13 @@
       "source": "Expats.cz",
       "firstSeen": "2026-09-14",
       "usedInPost": "metro-countdown-panels-redesign"
+    },
+    "81e851afaaece9b5": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3486-dpp-si-do-sveho-majetku-prevzal-dalsich-patnact-trolejbusu-bozankaya-sng-12t",
+      "title": "DPP si do svého majetku převzal dalších patnáct trolejbusů Bozankaya SNG 12T",
+      "source": "Dopravní podnik hl. m. Prahy",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "trolleybuses-take-weekends-on-51-53"
     },
     "83add9b744d2fec0": {
       "url": "https://iprpraha.cz/city-deal-leto2026",
@@ -996,6 +1017,13 @@
       "firstSeen": "2026-10-07",
       "usedInPost": "malovanka-strahov-ground-broken"
     },
+    "aa23b4f57536d404": {
+      "url": "https://pid.cz/zeleznicni-soutez-stoleti-je-v-cilove-stanici-paterni-spojeni-strednich-cech-a-prahy-zajisti-na-dalsich-30-let-ceske-drahy",
+      "title": "Železniční soutěž století je v cílové stanici, páteřní spojení středních Čech a Prahy zajistí na dalších 30 let České dráhy",
+      "source": "PID / ROPID",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "cd-signs-thirty-year-suburban-rail-contract"
+    },
     "ab7fcbe656f4503f": {
       "url": "https://zdopravy.cz/dokonceni-opravy-duleziteho-mostu-na-zizkov-se-da-z-libne-dostat-bez-omezeni-296723",
       "title": "Dokončení opravy důležitého mostu: Na Žižkov se dá z Libně dostat bez omezení",
@@ -1185,6 +1213,13 @@
       "firstSeen": "2026-10-07",
       "usedInPost": "tram-track-design-standard"
     },
+    "d29f79d419e4698f": {
+      "url": "https://zdopravy.cz/cd-maji-volnou-cestu-k-nakupu-vlaku-od-skody-za-36-miliard-stadler-neuspel-u-uohs-303413",
+      "title": "ČD jsou blíže k nákupu vlaků od Škody za 36 miliard, Stadler neuspěl u ÚOHS",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "cd-signs-thirty-year-suburban-rail-contract"
+    },
     "d2cb787c6e23d857": {
       "url": "https://zdopravy.cz/hasici-uvolnili-kamion-zasekly-pod-viaduktem-v-krci-vyprostovani-pokracuje-302719",
       "title": "Hasiči v noci uvolnili kamion zaseklý pod viaduktem v Krči. Lidé zahltili tísňové linky radami",
@@ -1198,6 +1233,13 @@
       "source": "Pražská integrovaná doprava (PID)",
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "db0e42edfcc213ef": {
+      "url": "https://zdopravy.cz/pres-tisic-stran-smlouvy-cd-podepsaly-nejvetsi-kontrakt-v-historii-riskuji-bez-vyrobce-vlaku-303505",
+      "title": "Přes tisíc stran smlouvy. ČD podepsaly největší kontrakt v historii, riskují bez výrobce vlaků",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "cd-signs-thirty-year-suburban-rail-contract"
     },
     "dc77a796a72bf873": {
       "url": "https://zdopravy.cz/omezeni-na-prijezdu-do-prahy-skonci-vymohly-si-radnice-silnice-se-vsak-opet-rozkope-pozdeji-296030",
@@ -1247,6 +1289,13 @@
       "source": "Městská část Praha 7",
       "firstSeen": "2026-08-29",
       "usedInPost": "strossmayerovo-transit-block"
+    },
+    "ea06928f8e21c5e5": {
+      "url": "https://zdopravy.cz/dalsi-problem-s-nejvetsi-zakazkou-na-zeleznici-urad-resi-moznou-manipulaci-s-nabidkami-303457",
+      "title": "Další problém s největší zakázkou na železnici. Úřad řeší možnou manipulaci s nabídkami",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "cd-signs-thirty-year-suburban-rail-contract"
     },
     "ec1986c7e06fcaf6": {
       "url": "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace",
@@ -1317,6 +1366,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-01",
       "usedInPost": "prague-in-european-context"
+    },
+    "f5500b2c194bc6cc": {
+      "url": "https://zdopravy.cz/souziti-cyklistu-a-chodcu-na-dvoreckem-moste-skripe-praha-je-nove-zkousi-usmernit-piktogramy-303445",
+      "title": "Soužití cyklistů a chodců na Dvoreckém mostě skřípe. Praha je nově zkouší usměrnit piktogramy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-17",
+      "usedInPost": "dvorecky-bridge-cycle-pictograms"
     },
     "f7204e342fb42d90": {
       "url": "https://www.praha5.cz/planovana-dopravni-omezeni-na-smichove",

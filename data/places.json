@@ -141,6 +141,13 @@
       "district": "Praha 4",
       "osm": "Durychova, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
     },
+    "dvorecky most": {
+      "name": "Dvorecký most",
+      "lat": 50.05026,
+      "lng": 14.41238,
+      "district": "Praha 5",
+      "osm": "Dvorecký most, Nádražní, Zlíchov, Praha 5, obvod Praha 5, Praha, 150 05, Česko"
+    },
     "fakultni nemocnice motol": {
       "name": "Fakultní nemocnice Motol",
       "lat": 50.07269,
