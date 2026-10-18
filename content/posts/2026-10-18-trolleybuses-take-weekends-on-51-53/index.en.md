@@ -3,12 +3,12 @@ slug: trolleybuses-take-weekends-on-51-53
 lang: en
 title: "Trolleybuses Take Over Lines 51 and 53 at Weekends; Buses 131 and 176 Are Weeks From Ending"
 dek: "DPP has accepted fifteen more Bozankaya vehicles and now owns twenty-eight of the thirty delivered. From 17 October only trolleybuses run to Bořislavka and Strahov at weekends, and once the new batch is ready the diesel lines go altogether."
-queuedAt: 2026-10-17
+date: 2026-10-18
 category: transport
 tags: ["trolleybuses", "Bozankaya", "DPP", "line 51", "line 53", "Strahov", "Bořislavka"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "DPP si do svého majetku převzal dalších patnáct trolejbusů Bozankaya SNG 12T"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3486-dpp-si-do-sveho-majetku-prevzal-dalsich-patnact-trolejbusu-bozankaya-sng-12t"

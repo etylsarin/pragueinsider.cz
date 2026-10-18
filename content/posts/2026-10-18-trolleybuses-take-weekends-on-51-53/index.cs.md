@@ -3,12 +3,12 @@ slug: trolleybuses-take-weekends-on-51-53
 lang: cs
 title: "Na Bořislavku a Strahov jezdí o víkendech už jen trolejbusy. Autobusy 131 a 176 mají skončit za dva až tři týdny"
 dek: "DPP převzal dalších patnáct vozů Bozankaya a z třiceti dodaných jich vlastní dvacet osm. Od 17. října obsluhují linky 51 a 53 o víkendech výhradně trolejbusy, po nasazení nové várky zmizí naftové linky úplně."
-queuedAt: 2026-10-17
+date: 2026-10-18
 category: transport
 tags: ["trolejbusy", "Bozankaya", "DPP", "linka 51", "linka 53", "Strahov", "Bořislavka"]
 author: "Prague Insider Desk"
 aiGenerated: true
-featured: false
+featured: true
 sources:
   - title: "DPP si do svého majetku převzal dalších patnáct trolejbusů Bozankaya SNG 12T"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3486-dpp-si-do-sveho-majetku-prevzal-dalsich-patnact-trolejbusu-bozankaya-sng-12t"
