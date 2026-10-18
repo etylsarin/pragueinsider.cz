@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Stanice Újezd petřínské lanovky: bílo-lososová barokní budova s mansardovou střechou, nad vchodem černá cedule Újezd s piktogramem lanovky a před ní na dlažbě fronta čekajících cestujících."
+  caption: "Újezd, jedna ze tří stanic, na které se při obnově trati nedostalo. Bezbariérová úprava všech tří je odhadnutá zhruba na 80 milionů."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Po trati a vozech také stanice. Praha už chystá další etapu rekonstrukce petřínské lanovky"
     url: "https://zdopravy.cz/po-trati-a-vozech-take-stanice-praha-uz-chysta-dalsi-etapu-rekonstrukce-petrinske-lanovky-300386"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Heritage tram 6004 on line 23 at a city-centre stop, its cream and red bodywork and roll blind reading 23 Břevnov Královka, the driver at the controls, a woman waiting on the platform and a glazed canopy over a yellow building behind."
+  caption: "Line 23 now ends at Bílá labuť rather than Zvonařka — a change ROPID files as permanent, without saying why."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Trvalé změny PID v září a říjnu 2026"
     url: "https://pid.cz/trvale-zmeny-pid-v-zari-rijnu-2026"

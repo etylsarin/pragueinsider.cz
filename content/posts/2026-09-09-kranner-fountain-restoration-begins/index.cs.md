@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Krannerova kašna zabalená kvůli restaurování: novogotická vež obestavěná lešením a zelenou plachtou s pracovní plošinou nahoře, kolem paty mobilní oplocení, po stranách trávník a platany a vlevo prochází nábřežní promenáda."
+  caption: "Osmnáct měsíců restaurování je v běhu. Voda se do kašny vrátí, až zmizí lešení."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Praha 1 zahájila obnovu Krannerovy kašny. Do památky se vrátí voda"
     url: "https://www.praha1.cz/praha-1-zahajila-obnovu-krannerovy-kasny-do-pamatky-se-vrati-voda"

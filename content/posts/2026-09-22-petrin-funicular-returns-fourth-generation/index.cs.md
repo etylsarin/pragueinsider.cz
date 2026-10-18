@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Vůz petřínské lanovky stoupající po obnovené trati při pohledu shora: černá prosklená kabina s číslem 2 plná cestujících mezi novými cihlovými opěrnými zdmi, za ní vede ozubnicová trať a betonová lávka vzhůru po přemodelovaném svahu mezi plotem a čerstvým trávníkem."
+  caption: "Čtvrtá generace vozů na obnovené trati, dva roky poté, co přívalové deště odnesly trať i část svahu."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Petřínská lanovka se vrací. DPP zahájí provoz nových vozů čtvrté generace"
     url: "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The Kranner Fountain wrapped for restoration: its neo-Gothic spire encased in scaffolding and green netting with a working platform at the top, temporary mesh fencing around the base, lawn and plane trees either side and the embankment promenade running past on the left."
+  caption: "Eighteen months of restoration under way. Water returns to the fountain when the scaffolding comes down."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Praha 1 zahájila obnovu Krannerovy kašny. Do památky se vrátí voda"
     url: "https://www.praha1.cz/praha-1-zahajila-obnovu-krannerovy-kasny-do-pamatky-se-vrati-voda"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The tram track on Jana Želivského stripped for renewal: rails left in place over bare ballast and spoil between them, coils of red ducting heaped on the kerb, an excavator and a red tipper truck working further up the street, and tenement blocks fading into fog on both sides."
+  caption: "The track between Nákladové nádraží Žižkov and Ohrada, opened up. Trams are out until 18 December."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "V neděli začne poslední etapa modernizace tramvajové tratě v ulici Jana Želivského"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3482-v-nedeli-zacne-posledni-etapa-modernizace-tramvajove-trate-v-ulici-jana-zelivskeho"

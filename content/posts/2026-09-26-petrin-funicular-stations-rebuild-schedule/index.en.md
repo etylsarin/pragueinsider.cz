@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The Újezd station of the Petřín funicular: a white and salmon-pink baroque building with a tiled mansard roof, a black sign reading Újezd with a funicular pictogram over the entrance, and a queue of passengers waiting along the paving outside it."
+  caption: "Újezd, one of the three stations left out of the track rebuild. The accessibility scheme for them is costed at about 80 million."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Po trati a vozech také stanice. Praha už chystá další etapu rekonstrukce petřínské lanovky"
     url: "https://zdopravy.cz/po-trati-a-vozech-take-stanice-praha-uz-chysta-dalsi-etapu-rekonstrukce-petrinske-lanovky-300386"

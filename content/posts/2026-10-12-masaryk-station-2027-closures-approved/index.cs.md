@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Masarykovo nádraží v přestavbě: nové bílé zastřešení na kónických stromovitých sloupech nad upravovaným nástupištěm, za ním zelený ocelový blok lávky, za bílým oplocením stojící soupravy CityElefant, bagr JCB a dělníci v oranžovém, v popředí na čerstvé dlažbě skládaný materiál."
+  caption: "Přestavované nádraží nabírá podobu. Výluky, které město právě schválilo, potrvají přes celý rok 2027."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Úřad schválil výluky na příští rok, pochválil SŽ. Největší omezení čekají trať přes Tišnov a Masarykovo nádraží"
     url: "https://zdopravy.cz/urad-schvalil-vyluky-na-pristi-rok-pochvalil-sz-nejvetsi-omezeni-cekaji-trat-pres-tisnov-a-masarykovo-nadrazi-302997"

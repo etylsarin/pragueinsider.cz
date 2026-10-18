@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The railway bridge works beside Nádražní: a new concrete abutment under white sheeting behind a line of sheet piling, mesh site fencing and stacked timber on a dirt haul road, the existing crossing in the middle distance and Smíchov City's tower cranes ringing the skyline."
+  caption: "The crossing whose last two steel structures were craned in on two October nights, completing work begun in July last year."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Na Smíchově osadí druhou část nového železničního mostu. Přeruší kvůli tomu provoz tramvají"
     url: "https://zdopravy.cz/na-smichove-osadi-druhou-cast-noveho-zeleznicniho-mostu-prerusi-kvuli-tomu-provoz-tramvaji-301861"

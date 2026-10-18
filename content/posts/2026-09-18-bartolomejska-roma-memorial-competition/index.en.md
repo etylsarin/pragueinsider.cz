@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The front of Bartolomějská 10: a tiled ground floor with heavily barred windows and a brown steel vehicle gate, a dark memorial plaque mounted to the left of it, the blue number 10 on the tiles, rendered upper storeys above and a police van parked at the right on cobbles."
+  caption: "The building the competition is for. Artists under 35 have until 21 November to design a plaque for it."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Živá paměť vyhlašuje uměleckou soutěž na návrh pamětní desky obětem holokaustu Romů a Sintů"
     url: "https://www.praha1.cz/ziva-pamet-vyhlasuje-umeleckou-soutez-na-navrh-pametni-desky-obetem-holokaustu-romu-a-sintu"

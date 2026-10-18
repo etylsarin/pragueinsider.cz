@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Výloha nových karlínských prostor CAMPu: zasklení v šedých rámech s velkým bílým nápisem CAMP a Brzy otevřeme nad ním, za sklem naskládané balíky žluté izolace, na dveřích výčet provozů a vedle červená cedule 636 Karlín a modrá 20a."
+  caption: "Výloha v Pobřežní, za kterou se CAMP zabydluje; práce jsou přes sklo pořád vidět."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "CAMP míří do Karlína. Nové zázemí najde v postindustriálním areálu"
     url: "https://praha.camp/magazin/detail/camp-miri-do-karlina-nove-zazemi-najde-v-postindustrialnim-arealu"

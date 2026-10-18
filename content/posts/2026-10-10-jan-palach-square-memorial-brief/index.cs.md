@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Památník obětem střelby na Filozofické fakultě na náměstí Jana Palacha: vysoký neopracovaný pískovcový balvan vedle opracované desky se čtrnácti jmény a daty, u paty bílé růže a malované kamínky a za trávníkem Rudolfinum."
+  caption: "To, co na náměstí stojí dnes. Pracovní skupina schválená 5. října má napsat zadání soutěže, která rozhodne, co ho nahradí."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Prague begins planning permanent memorial to Charles University victims"
     url: "https://www.expats.cz/czech-news/article/prague-begins-planning-permanent-memorial-to-charles-university-victims"

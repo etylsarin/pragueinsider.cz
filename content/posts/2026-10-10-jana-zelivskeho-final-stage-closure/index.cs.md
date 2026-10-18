@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Rozebraný tramvajový svršek v Jana Želivského: koleje ponechané na holém štěrku s výkopkem mezi nimi, na obrubníku navršené svitky červených chrániček, dál v ulici pracuje bagr a červený sklápěč a po obou stranách se do mlhy ztrácejí činžovní domy."
+  caption: "Rozkopaná trať mezi Nákladovým nádražím Žižkov a Ohradou. Tramvaje tudy nepojedou do 18. prosince."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "V neděli začne poslední etapa modernizace tramvajové tratě v ulici Jana Želivského"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3482-v-nedeli-zacne-posledni-etapa-modernizace-tramvajove-trate-v-ulici-jana-zelivskeho"

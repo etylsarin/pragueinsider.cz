@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The Vlasta complex in Vršovice: long 1970s slabs of ribbon glazing in aluminium mullions between brown brick stair towers, two green abstract shapes fixed to the brick, graffiti along the yellow retaining wall at street level and cars parked below."
+  caption: "The complex at the centre of the deal. The district sold it with the old town hall and the Eden centre for 1.117bn in June."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Praha 10 a společenství vlastníků se dohodly na spolupráci při proměně okolí bývalé radnice"
     url: "https://praha10.cz/praha-10-a-spolecenstvi-vlastniku-se-dohodly-na-spolupraci-pri-promene-okoli-byvale-radnice"

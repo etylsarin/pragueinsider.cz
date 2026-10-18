@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Kampa park from the river: a double row of poplars and planes along the embankment wall in early autumn colour, the white gabled Sova's Mills at the right, green site sheeting over works at the far left, and Prague Castle on the skyline behind."
+  caption: "The park Prague 1 can now contract for, at 51.9 million excluding VAT — about 16.7 million under its budget."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "ÚOHS potvrdil postup Prahy 1. Revitalizace parku Kampa může začít"
     url: "https://www.praha1.cz/uohs-potvrdil-postup-prahy-1-revitalizace-parku-kampa-muze-zacit"

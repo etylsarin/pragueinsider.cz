@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Železniční most na Výtoni z mostovky: rezavá nýtovaná příhradová konstrukce s diagonálami a ztužidly v silné povrchové korozi, jednou kolejí a lávkou se zeleným zábradlím, na nejbližším sloupu graffiti a za mostem Vltava a nábřežní domy."
+  caption: "Unavené diagonály, na které se teď budou lepit uhlíkové lamely: šest týdnů práce a dva roky navíc."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami"
     url: "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497"

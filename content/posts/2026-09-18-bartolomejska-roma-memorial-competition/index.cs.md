@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Průčelí domu Bartolomějská 10: obkládaný parter se silně zamřížovanými okny a hnědými ocelovými vraty, vlevo od nich tmavá pamětní deska, na obkladu modré číslo 10, nad tím omítnutá patra a vpravo na dlažbě zaparkovaná policejní dodávka."
+  caption: "Dům, kterého se soutěž týká. Výtvarníci do 35 let mají na návrh desky čas do 21. listopadu."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Živá paměť vyhlašuje uměleckou soutěž na návrh pamětní desky obětem holokaustu Romů a Sintů"
     url: "https://www.praha1.cz/ziva-pamet-vyhlasuje-umeleckou-soutez-na-navrh-pametni-desky-obetem-holokaustu-romu-a-sintu"
