@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A residential block under construction at Smíchov City: a concrete frame four storeys up with timber and steel formwork on the upper slabs, red column shutters at the top, a curved balcony edge already struck, and site hoarding below reading Smíchov City — Bytový blok SM8."
+  caption: "Block SM8 going up. Its investor will pay 120 million towards the school the district cannot yet build."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Investor dá na rozvoj Smíchova téměř 120 milionů"
     url: "https://www.praha5.cz/investor-da-na-rozvoj-smichova-temer-120-milionu"

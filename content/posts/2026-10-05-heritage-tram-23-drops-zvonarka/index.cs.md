@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Historická tramvaj 6004 na lince 23 v zastávce v centru, krémovočervený vůz s cedulí 23 Břevnov Královka, řidič za řízením, na nástupišti čekající žena a za vozem prosklená markýza nad žlutým domem."
+  caption: "Linka 23 končí nově u Bílé labutě místo na Zvonařce. ROPID změnu vede jako trvalou a důvod neuvádí."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Trvalé změny PID v září a říjnu 2026"
     url: "https://pid.cz/trvale-zmeny-pid-v-zari-rijnu-2026"

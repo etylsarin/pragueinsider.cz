@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The shopfront of CAMP's new Karlín premises: grey-framed glazing with CAMP in large white letters and Brzy otevřeme above it, yellow insulation packs stacked behind the glass, a list of uses on the door, and the red 636 Karlín and blue 20a address plates beside it."
+  caption: "The Pobřežní shopfront behind which CAMP is fitting out, with the works still visible through the glass."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "CAMP míří do Karlína. Nové zázemí najde v postindustriálním areálu"
     url: "https://praha.camp/magazin/detail/camp-miri-do-karlina-nove-zazemi-najde-v-postindustrialnim-arealu"

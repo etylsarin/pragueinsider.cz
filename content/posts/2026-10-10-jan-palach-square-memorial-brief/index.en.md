@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The memorial on Jan Palach Square to the victims of the Faculty of Arts shooting: a tall rough sandstone boulder beside a dressed stone slab inscribed with the fourteen names and dates, white roses and small painted stones at its foot, and the Rudolfinum behind across the lawn."
+  caption: "What stands on the square now. The working group approved on 5 October is to write the brief for a competition that will decide what replaces it."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Prague begins planning permanent memorial to Charles University victims"
     url: "https://www.expats.cz/czech-news/article/prague-begins-planning-permanent-memorial-to-charles-university-victims"

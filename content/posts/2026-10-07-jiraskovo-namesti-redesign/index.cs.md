@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Jiráskovo náměstí v dnešním stavu: udusaná holá zem tam, kde kolem sedící sochy Jiráska vyšlapali trávník, v popředí pomalovaný tramvajový přístřešek s cedulí Jiráskovo náměstí, podél obrubníku zaparkovaná auta a vpravo Tančící dům."
+  caption: "Zničený trávník, který má redesign za 35 milionů zčásti nahradit dlažbou, a za ním výhled, kvůli kterému sem turisté chodí."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Famous Dancing House Photo Spot in Prague Is Set for a Major Makeover"
     url: "https://praguemorning.cz/dancing-house-photo-spot-renovation"

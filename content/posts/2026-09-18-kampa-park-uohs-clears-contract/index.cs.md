@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Park Kampa od řeky: dvojitá alej topolů a platanů podél nábřežní zdi v prvních podzimních barvách, vpravo bílé Sovovy mlýny se štítem, zcela vlevo zelená plachta nad pracemi a na obzoru Pražský hrad."
+  caption: "Park, na který teď může Praha 1 uzavřít smlouvu, za 51,9 milionu bez DPH — zhruba 16,7 milionu pod rozpočtem."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "ÚOHS potvrdil postup Prahy 1. Revitalizace parku Kampa může začít"
     url: "https://www.praha1.cz/uohs-potvrdil-postup-prahy-1-revitalizace-parku-kampa-muze-zacit"

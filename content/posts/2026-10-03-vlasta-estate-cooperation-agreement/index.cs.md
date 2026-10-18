@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Komplex Vlasta ve Vršovicích: dlouhé bloky ze sedmdesátých let s pásovým zasklením v hliníkových rámech mezi hnědými cihlovými schodišťovými věžemi, na cihle dva zelené abstraktní tvary, podél žluté opěrné zdi v parteru graffiti a dole zaparkovaná auta."
+  caption: "Komplex, o který v dohodě jde. Městská část ho spolu se starou radnicí a centrem Eden prodala v červnu za 1,117 miliardy."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Praha 10 a společenství vlastníků se dohodly na spolupráci při proměně okolí bývalé radnice"
     url: "https://praha10.cz/praha-10-a-spolecenstvi-vlastniku-se-dohodly-na-spolupraci-pri-promene-okoli-byvale-radnice"

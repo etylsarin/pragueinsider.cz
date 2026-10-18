@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Rozestavěný obytný blok na Smíchov City: betonový skelet do čtvrtého podlaží s dřevěným a ocelovým bedněním na horních deskách, nahoře červené formy sloupů, zaoblená hrana balkonu už odbedněná a dole oplocení s nápisem Smíchov City — Bytový blok SM8."
+  caption: "Rostoucí blok SM8. Jeho investor přispěje 120 miliony na školu, kterou městská část zatím postavit nemůže."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Investor dá na rozvoj Smíchova téměř 120 milionů"
     url: "https://www.praha5.cz/investor-da-na-rozvoj-smichova-temer-120-milionu"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Jiráskovo náměstí in its present state: bare compacted earth where the lawn has been worn away around the seated Jirásek statue, a graffitied tram shelter signed Jiráskovo náměstí in the foreground, parked cars along the kerb and the Dancing House rising at the right."
+  caption: "The ruined grass a CZK 35m redesign will partly replace with paving, with the view the tourists come for behind it."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Famous Dancing House Photo Spot in Prague Is Set for a Major Makeover"
     url: "https://praguemorning.cz/dancing-house-photo-spot-renovation"

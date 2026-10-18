@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The railway bridge at Výtoň from the deck: a rusted riveted steel truss with its diagonals and cross-bracing in heavy surface corrosion, a single track and a green-railed footway running through it, graffiti on the nearest post and the Vltava and embankment blocks beyond."
+  caption: "The fatigued diagonals that are about to get carbon laminates glued to them — six weeks of work, and two more years."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Boj o udržení provozu na Výtoňském mostu začíná. Oblepování uhlíkovými lamelami"
     url: "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497"

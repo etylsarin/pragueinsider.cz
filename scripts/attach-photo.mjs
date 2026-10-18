@@ -192,6 +192,67 @@ async function loadArticles() {
  * photographed — but only a third of the archive carries a location, so the note has to be
  * able to carry a match on its own. They are scored separately and added, so either can win.
  */
+/**
+ * Position and date out of a photograph's own EXIF.
+ *
+ * Hand-rolled rather than pulling in a parser, because all that is wanted is four tags and the
+ * format is fixed: after the "Exif\0\0" marker comes a TIFF header giving the byte order and the
+ * offset of IFD0, IFD0 holds a pointer to the GPS IFD under tag 0x8825, and latitude and longitude
+ * sit there as three RATIONALs each with a separate hemisphere tag. Every offset is measured from
+ * the start of the TIFF header, not from the start of the buffer, which is the detail that makes
+ * this look harder than it is.
+ */
+const EXIF_TAGS = { GPS_IFD: 0x8825, DATETIME: 0x0132, LAT_REF: 1, LAT: 2, LNG_REF: 3, LNG: 4 }
+
+function readExif(buffer) {
+  const start = buffer.indexOf('Exif\0\0') === 0 ? 6 : 0
+  const order = buffer.toString('ascii', start, start + 2)
+  if (order !== 'II' && order !== 'MM') return {}
+  const le = order === 'II'
+  const u16 = (at) => (le ? buffer.readUInt16LE(at) : buffer.readUInt16BE(at))
+  const u32 = (at) => (le ? buffer.readUInt32LE(at) : buffer.readUInt32BE(at))
+
+  const entries = (ifdAt) => {
+    const found = {}
+    const count = u16(ifdAt)
+    for (let i = 0; i < count; i += 1) {
+      const at = ifdAt + 2 + i * 12
+      found[u16(at)] = { type: u16(at + 2), count: u32(at + 4), at: at + 8 }
+    }
+    return found
+  }
+  const rationals = (entry) => {
+    const base = start + u32(entry.at)
+    return Array.from({ length: entry.count }, (_, i) => u32(base + i * 8) / u32(base + i * 8 + 4))
+  }
+  const ascii = (entry) => {
+    const base = entry.count <= 4 ? entry.at : start + u32(entry.at)
+    return buffer.toString('ascii', base, base + entry.count).replace(/\0.*$/, '').trim()
+  }
+
+  const ifd0 = entries(start + u32(start + 4))
+  const out = {}
+  if (ifd0[EXIF_TAGS.DATETIME]) out.shot = ascii(ifd0[EXIF_TAGS.DATETIME]).slice(0, 10).replace(/:/g, '-')
+  if (!ifd0[EXIF_TAGS.GPS_IFD]) return out
+
+  const gps = entries(start + u32(ifd0[EXIF_TAGS.GPS_IFD].at))
+  if (gps[EXIF_TAGS.LAT] && gps[EXIF_TAGS.LNG]) {
+    const dms = ([d, m, sec]) => d + m / 60 + sec / 3600
+    out.lat = dms(rationals(gps[EXIF_TAGS.LAT])) * (ascii(gps[EXIF_TAGS.LAT_REF] || {}) === 'S' ? -1 : 1)
+    out.lng = dms(rationals(gps[EXIF_TAGS.LNG])) * (ascii(gps[EXIF_TAGS.LNG_REF] || {}) === 'W' ? -1 : 1)
+  }
+  return out
+}
+
+async function exifPlace(file) {
+  try {
+    const { exif } = await sharp(file).metadata()
+    return exif ? readExif(exif) : {}
+  } catch {
+    return {}
+  }
+}
+
 function rank(articles, { lat, lng, note }) {
   const noteTokens = new Set(tokens(note))
 
@@ -371,6 +432,13 @@ async function readInbox() {
     } catch {
       /* a photo with no sidecar is still a photo — it just arrives with nothing said about it */
     }
+
+    // A frame that did not come through the Shortcut has no sidecar, but if it came off the phone
+    // it still knows where it was taken — the position is in its own EXIF. Without this the
+    // ranking scores it zero and lists the five most recent articles, which is no help at all and
+    // reads as "nothing matches" rather than "nothing was asked". The sidecar still wins where
+    // there is one: it is what the photographer typed, and EXIF is only what the camera recorded.
+    const exif = sidecar.lat === undefined ? await exifPlace(path.join(INBOX, name)) : {}
     const stat = await fs.stat(path.join(INBOX, name))
     items.push({
       file: name,
@@ -378,9 +446,9 @@ async function readInbox() {
       absolutePath: path.join(INBOX, name),
       sidecarPath,
       note: sidecar.note || '',
-      lat: typeof sidecar.lat === 'number' ? sidecar.lat : null,
-      lng: typeof sidecar.lng === 'number' ? sidecar.lng : null,
-      shot: isoDay(sidecar.shot) || null,
+      lat: typeof sidecar.lat === 'number' ? sidecar.lat : exif.lat ?? null,
+      lng: typeof sidecar.lng === 'number' ? sidecar.lng : exif.lng ?? null,
+      shot: isoDay(sidecar.shot) || exif.shot || null,
       kb: Math.round(stat.size / 1024),
     })
   }

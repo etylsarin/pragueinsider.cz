@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A Petřín funicular car climbing the rebuilt line, seen from above: a black glazed cabin numbered 2 full of passengers rising between new brick retaining walls, the rack track and a concrete walkway running up the regraded hillside behind it between mesh fences and fresh turf."
+  caption: "The fourth generation of cars on the rebuilt line, two years after extreme rainfall took the track and part of the hillside away."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Petřínská lanovka se vrací. DPP zahájí provoz nových vozů čtvrté generace"
     url: "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace"

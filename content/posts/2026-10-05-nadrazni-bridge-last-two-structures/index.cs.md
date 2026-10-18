@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Stavba železničního mostu u Nádražní: nová betonová opěra pod bílou plachtou za řadou štětovnic, mobilní oplocení a složené dřevo na štěrkové staveništní cestě, v pozadí stávající přemostění a po obzoru věžové jeřáby Smíchov City."
+  caption: "Přemostění, jehož poslední dvě ocelové konstrukce se osazovaly ve dvou říjnových nocích a dokončily práci začatou loni v červenci."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Na Smíchově osadí druhou část nového železničního mostu. Přeruší kvůli tomu provoz tramvají"
     url: "https://zdopravy.cz/na-smichove-osadi-druhou-cast-noveho-zeleznicniho-mostu-prerusi-kvuli-tomu-provoz-tramvaji-301861"
