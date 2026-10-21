@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-21",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -113,6 +113,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-02",
       "usedInPost": "t3r-plf-six-more-ropid-objects"
+    },
+    "14e04a9712e244d0": {
+      "url": "https://zdopravy.cz/dalsi-krok-k-dostavbe-vnitrniho-okruhu-praha-vybrala-monitoring-tunely-si-brzy-pujdou-pro-povoleni-304019",
+      "title": "Další krok k dostavbě vnitřního okruhu: Praha vybrala monitoring, tunely si brzy půjdou pro povolení",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-21",
+      "usedInPost": "mestsky-okruh-monitoring-contract"
     },
     "1547a190b5db5869": {
       "url": "https://zdopravy.cz/prace-na-sourozenci-vytonskeho-mostu-na-bohdalci-jsou-u-konce-vraci-se-na-nej-provoz-296653",
@@ -329,7 +336,7 @@
       "title": "Posun u vnitřního pražského okruhu: Projektanti potvrdili datum výstavby a ukázali nové vizualizace",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-10",
-      "usedInPost": "mestsky-okruh-east-permit-documentation"
+      "usedInPost": "mestsky-okruh-east-permit-documentation,mestsky-okruh-monitoring-contract"
     },
     "335696b20fb957f8": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/praha-ma-nepravomocne-povoleni-na-stavbu-stanice-metra-d-libus-377802",
@@ -814,6 +821,13 @@
       "firstSeen": "2026-10-05",
       "usedInPost": "heritage-tram-23-drops-zvonarka"
     },
+    "89d387a03aba18b1": {
+      "url": "https://zdopravy.cz/opravujme-jinak-se-nam-to-rozsype-tsk-chce-kazdy-rok-obnovit-jeden-z-mostu-pres-vltavu-ukazala-poradi-304105",
+      "title": "Opravujme, jinak se nám to rozsype. TSK chce každý rok obnovit jeden z mostů přes Vltavu, ukázala pořadí",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-21",
+      "usedInPost": "vltava-bridges-one-a-year"
+    },
     "8ac793a9123fcb79": {
       "url": "https://zdopravy.cz/sz-chysta-dalsi-velkou-soutez-na-projektovani-vysokorychlostni-trati-vyvede-vlaky-z-vrsovic-do-bechovic-299538",
       "title": "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic",
@@ -946,6 +960,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-04",
       "usedInPost": "spot-holesovice-opens"
+    },
+    "9d8f4561e194366c": {
+      "url": "https://zdopravy.cz/metropole-je-plna-soukromych-semaforu-praha-je-chce-nyni-vykoupit-a-system-sjednotit-303709",
+      "title": "Metropole je plná soukromých semaforů. Praha je chce nyní vykoupit a systém sjednotit",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-21",
+      "usedInPost": "tsk-takes-over-traffic-signals"
     },
     "9ec0c6f0607ab71a": {
       "url": "https://praha.camp/magazin/detail/camp-miri-do-karlina-nove-zazemi-najde-v-postindustrialnim-arealu",
