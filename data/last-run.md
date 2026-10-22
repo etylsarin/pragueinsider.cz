@@ -68,8 +68,8 @@ after the run: **0**. The front page keeps 21 October's three.
   result a milestone, not a permit, and nothing has been decided since.
 - `12` **Chodov commissions a 230,000 Kč garden study for a future lycée** (iROZHLAS) — a district
   commissioning a small design study for one school garden. It fails the other-district test.
-  iROZHLAS also returned 403 to both WebFetch and curl, so the story could not have been sourced
-  from the article anyway.
+  WebFetch got a 403 from iROZHLAS. A curl with a browser user-agent did return the page, but the
+  desk did not extract the article text, so the skip rests on the scope of the story.
 - `12` **Praha 1 opens grant applications on 23 Nov** (Praha 1) — a district grant scheme for
   culture, sport and associations. This is administration, not the built environment.
 
@@ -88,6 +88,6 @@ after the run: **0**. The front page keeps 21 October's three.
   limit to be lifted.
 - **The queue is empty for the second day running.** Tomorrow publishes only what tomorrow writes,
   and today wrote nothing.
-- **iROZHLAS article pages return 403** to the fetcher, even with a browser user-agent. The feed
-  still reads, but any iROZHLAS story that clears the bar will need another route to the article.
+- **iROZHLAS article pages return 403 to WebFetch.** A browser user-agent via curl does get the
+  page, the same workaround as Zdopravy. Worth adding to the skill's note on Zdopravy.
 - The **Hodkovičky cost figure** in `hodkovicky-tram-stop-opens` is still uncorrected (see 14 Oct).
