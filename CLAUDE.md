@@ -77,6 +77,12 @@ correctness bug, not a style choice.
 - **What counts as a story** — `scripts/lib/relevance.mjs`. The `pragueByDefault` /
   `topicByDefault` flags on each adapter carry most of the filtering; prefer adjusting those over
   piling on keywords.
+- **Which pinned articles still need a picture** — `/mapa/?uncovered` (and `/en/map/?uncovered`).
+  An editing tool, not a feature: nothing links to it, and without the parameter the page is
+  unchanged. It drops every article that already has a `cover.photo` — of any kind — and shows the
+  count, so the pins left are the work. Read after mount rather than from Gatsby's `location`
+  during render, because the card grid is server-rendered for crawlers and a query string the
+  server cannot see would make the first client render disagree with the markup it is hydrating.
 - **Which stories share a front page** — `scripts/release.mjs`. It takes the oldest queued
   articles, but will not put three from one desk on one day while another desk is waiting. That is
   the counterweight to a source list where Zdopravy, DPP and PID are transport-only and prolific:
