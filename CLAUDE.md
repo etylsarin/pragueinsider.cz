@@ -31,7 +31,11 @@ correctness bug, not a style choice.
   states a fact on its face, so the gate requires `cover.figure` to appear in the prose of both
   locales — compared on digits alone, because Czech writes 4 750 and English 4,750. Units are held
   to a neutral list (`Kč`, `%`, `°C`, `km`…): one image serves both languages, and "mld. Kč" is
-  wrong on the English article exactly as "bn" is wrong on the Czech one.
+  wrong on the English article exactly as "bn" is wrong on the Czech one. `--mark` sets borrowed
+  artwork beside the figure — the Lítačka card on a story about what a pass costs — and that half
+  of the plate is not ours: the credit names the owner and `cover.source` carries the page it came
+  from. Only where the artwork *is* the subject, never as the logo of whoever announced the news.
+  Vectors live in `assets/`, with their provenance in `assets/README.md`.
 - **A `kind: diagram` is the one picture we draw ourselves.** `scripts/make-diagram.mjs` plots a
   route over the same Esri basemap the article locator uses, from coordinates that must already be
   in `data/places.json` — so a diagram cannot be drawn through a place the desk has not resolved,

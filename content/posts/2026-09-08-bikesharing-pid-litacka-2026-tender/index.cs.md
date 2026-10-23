@@ -9,6 +9,14 @@ tags: ["bikesharing", "PID Lítačka", "Jaromír Beránek", "TSK", "mikromobilit
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s údajem 15 min vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, vedle ní limetkově zelená karta Lítačka s logotypem."
+  caption: "Délka dotované jízdy podle nové zakázky za 50 milionů. Od roku 2027 jich bude denně čtyři místo dvou."
+  credit: "Prague Insider Desk · PID Lítačka"
+  kind: figure
+  source: "https://prod-pidlitacka-eshop-strapi.k8s-prod.oict.cz/uploads/litacka_card_6ce0691e6a.svg"
+  figure: "15"
 sources:
   - title: "Praha upraví a rozšíří podporu bikesharingu v rámci aplikace PID Lítačka"
     url: "https://pid.cz/praha-upravi-a-rozsiri-podporu-bikesharingu-v-ramci-aplikace-pid-litacka"

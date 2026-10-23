@@ -19,7 +19,15 @@
  *
  * Usage:
  *   node scripts/make-figure.mjs --category transport --figure "4 750" --unit "Kč" out.jpg
+ *   node scripts/make-figure.mjs --category transport --figure "4 750" --unit "Kč" \\
+ *     --mark assets/litacka-card.svg out.jpg
  *   node scripts/make-figure.mjs --category development --figure "165" --unit "mld." out.jpg
+ *
+ * `--mark` sets a piece of artwork beside the figure — the Lítačka card on a story about what a
+ * pass costs. It is the one part of the plate that is not ours, so an article using it credits
+ * whoever owns it and links where it came from, the same as any other borrowed picture. Use it
+ * only where the artwork *is* the subject: the card a fare buys, not the logo of whoever announced
+ * the news.
  *
  * One image serves both languages, so nothing here carries a sentence: digits, and a unit that
  * reads the same in Czech and English (Kč, %, km, m, ×). Everything needing a language — what the
@@ -39,6 +47,8 @@ const { CATEGORY_ACCENT, PALETTE } = require(path.join(ROOT, 'src/lib/cover.js')
 const WIDTH = 2000
 const HEIGHT = 1125
 const PAD = 110
+const MARK_WIDTH = 740
+const MARK_GUTTER = 96
 
 const SERIF = "'Source Serif 4 Variable', 'Source Serif 4', Georgia, serif"
 const MONO = "'JetBrains Mono', ui-monospace, Menlo, monospace"
@@ -66,9 +76,10 @@ const emWidth = (text) => [...text].reduce((sum, ch) => sum + GLYPH(ch), 0)
  * run about 0.56 em for a digit, close enough to pick a size from, and the unit is measured the
  * same way so it can sit after the figure instead of under it.
  */
-function layout(figure, unit) {
+function layout(figure, unit, hasMark) {
   const unitEm = unit ? emWidth(unit) * 0.3 + 0.18 : 0
-  const size = Math.min(560, Math.floor((WIDTH - PAD * 2) / (emWidth(figure) + unitEm)))
+  const room = WIDTH - PAD * 2 - (hasMark ? MARK_WIDTH + MARK_GUTTER : 0)
+  const size = Math.min(560, Math.floor(room / (emWidth(figure) + unitEm)))
   return {
     size,
     unitSize: Math.round(size * 0.3),
@@ -76,10 +87,10 @@ function layout(figure, unit) {
   }
 }
 
-function plate({ category, figure, unit }) {
+function plate({ category, figure, unit, hasMark }) {
   const ground = CATEGORY_ACCENT[category] || PALETTE.primary
   const light = PALETTE.surface
-  const { size, unitSize, unitX } = layout(figure, unit)
+  const { size, unitSize, unitX } = layout(figure, unit, hasMark)
   // Digits have no descenders, so the optical centre of a figure sits well above its baseline:
   // setting the baseline on the geometric middle leaves the plate visibly bottom-heavy. 0.68
   // balances the space above the cap height against the space below the rule.
@@ -101,7 +112,7 @@ function plate({ category, figure, unit }) {
         font-weight="700" fill="${light}" opacity="0.75">${escapeXml(unit)}</text>`
       : ''
   }
-  <rect x="${PAD}" y="${ruleY}" width="${WIDTH - PAD * 2}" height="3" fill="${light}" opacity="0.45"/>
+  <rect x="${PAD}" y="${ruleY}" width="${hasMark ? WIDTH - PAD * 2 - MARK_WIDTH - MARK_GUTTER : WIDTH - PAD * 2}" height="3" fill="${light}" opacity="0.45"/>
   <text x="${WIDTH - PAD}" y="${HEIGHT - PAD + 10}" text-anchor="end" font-family="${MONO}"
         font-size="30" letter-spacing="3" fill="${light}" opacity="0.7">PRAGUE INSIDER</text>
 </svg>`)
@@ -113,7 +124,7 @@ async function main() {
   // Explicit, because the output path is positional and guessing which bare word it is goes wrong
   // the moment a flag value looks like one. Known flags consume their value; whatever is left over
   // is the path.
-  const FLAGS = ['category', 'figure', 'unit']
+  const FLAGS = ['category', 'figure', 'unit', 'mark']
   const opts = {}
   const positional = []
   for (let i = 0; i < args.length; i += 1) {
@@ -129,7 +140,7 @@ async function main() {
       positional.push(args[i])
     }
   }
-  const { category, figure, unit } = opts
+  const { category, figure, unit, mark } = opts
   const out = positional[0]
 
   if (!category || !figure || !out) {
@@ -151,8 +162,16 @@ async function main() {
     return
   }
 
-  await sharp(plate({ category, figure, unit })).jpeg({ quality: 90, mozjpeg: true }).toFile(out)
-  console.log(`${out} — ${category}, "${figure}${unit ? ` ${unit}` : ''}"`)
+  const base = sharp(plate({ category, figure, unit, hasMark: Boolean(mark) }))
+  if (mark) {
+    // Rendered at high density first: an SVG scaled up after rasterising at its own 240 px is a
+    // blur, and the card is the half of this plate a reader recognises.
+    const art = await sharp(mark, { density: 600 }).resize({ width: MARK_WIDTH }).png().toBuffer()
+    const { height } = await sharp(art).metadata()
+    base.composite([{ input: art, left: WIDTH - PAD - MARK_WIDTH, top: Math.round((HEIGHT - height) / 2) }])
+  }
+  await base.jpeg({ quality: 90, mozjpeg: true }).toFile(out)
+  console.log(`${out} — ${category}, "${figure}${unit ? ` ${unit}` : ''}"${mark ? ` + ${path.basename(mark)}` : ''}`)
 }
 
 main().catch((error) => {

@@ -53,6 +53,10 @@ node scripts/attach-photo.mjs --photo out.jpg --slug <slug> \
 - **Units are held to a neutral list** (`Kč`, `%`, `°C`, `km`, `m`…), because one image serves both
   languages. Where the natural unit is a word — *mld. Kč*, *bn* — restate the figure so it needs
   none (1 620 000 Kč, not 1,62 mil. Kč) or leave the unit off and let the caption carry it.
+- **`--mark` sets artwork beside the figure** — the Lítačka card on a story about what a pass
+  costs. That half of the plate is not ours, so the credit names the owner (`Prague Insider Desk ·
+  PID Lítačka`, which is language-neutral) and `--source` carries the page it came from. Only where
+  the artwork is the subject: the card a fare buys, not the logo of whoever announced the news.
 - **Pick the number the headline turns on**, not the largest one in the piece. The caption sits
   directly underneath and says what it counts, so the plate itself needs no words.
 

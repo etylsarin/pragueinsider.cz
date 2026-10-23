@@ -11,10 +11,11 @@ aiGenerated: true
 featured: true
 cover:
   photo: cover.jpg
-  alt: "A plate stating 4 750 Kč in large white serif figures on the transport desk's deep blue ground, a thin rule beneath them."
+  alt: "A plate stating 4 750 Kč in large white serif figures on the transport desk's deep blue ground, with the lime-green Lítačka travel card and its wordmark set beside them."
   caption: "The annual pass price the election winner wants to carry into coalition talks, alongside parking charges and a toll for driving into the centre."
-  credit: "Prague Insider Desk"
+  credit: "Prague Insider Desk · PID Lítačka"
   kind: figure
+  source: "https://prod-pidlitacka-eshop-strapi.k8s-prod.oict.cz/uploads/litacka_card_6ce0691e6a.svg"
   figure: "4 750"
 sources:
   - title: "Mýto uvnitř okruhu, dražší parkování a roční kupon za 4750 korun. Vítěz voleb v Praze představil plány"

@@ -180,7 +180,12 @@ async function checkCover(file, fm, dir, body = '') {
           'to be a number the prose supports'
       )
     }
-    if (cover.source !== undefined) fail(file, 'a figure plate is drawn from the article, so its sources are the article\'s')
+    // A plate drawn from nothing but the article needs no source — its sources are the article's.
+    // One that sets borrowed artwork beside the figure does, and the credit has to name whoever
+    // owns it, because that half of the picture is not ours.
+    if (cover.source !== undefined && !isHttpUrl(cover.source)) {
+      fail(file, 'cover.source on a figure plate must be the http(s) page the borrowed artwork came from')
+    }
     if (cover.shot !== undefined) fail(file, 'cover.shot dates a photograph somebody took; a figure plate has no shot date')
   } else if (cover.figure !== undefined) {
     fail(file, 'cover.figure belongs to a figure plate')
@@ -198,7 +203,7 @@ async function checkCover(file, fm, dir, body = '') {
     if (cover.shot !== undefined) {
       fail(file, `cover.shot dates a photograph somebody took; a ${kind} has no shot date`)
     }
-  } else if (cover.source !== undefined) {
+  } else if (kind === 'photo' && cover.source !== undefined) {
     fail(file, `cover.source names where a picture came from, so it belongs to a ${COVER_KINDS.filter((k) => k !== 'photo').join(', ')} — kind: photo means the desk took it`)
   }
   if (!isNonEmptyString(cover.caption)) {
