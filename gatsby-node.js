@@ -120,6 +120,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       credit: String
       kind: String
       source: String
+      figure: String
     }
 
     type CoverConfig {
@@ -130,6 +131,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       shot: Date @dateformat
       kind: String
       source: String
+      figure: String
     }
   `)
 }

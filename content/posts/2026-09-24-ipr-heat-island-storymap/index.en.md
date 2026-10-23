@@ -9,6 +9,13 @@ tags: ["IPR Praha", "urban heat island", "climate adaptation", "Ondřej Boháč"
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating 7 °C in large white serif figures on the planning desk's slate ground, a thin rule beneath them."
+  caption: "The spread between Staré Město and Ruzyně on a summer day, in data IPR has now published with the three methods behind it."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "7"
 sources:
   - title: "IPR vydal storymapu o tepelném ostrově. Data o teplotě v metropoli využívá jako nástroj pro plánování"
     url: "https://iprpraha.cz/storymapa-tepelny-ostrov"

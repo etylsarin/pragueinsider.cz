@@ -99,12 +99,29 @@ const MIN_ALT_CHARS = 15
  * name the body that issued it, link where it came from — and `kind: photo` still means ours, so
  * the two can never be confused in the frontmatter.
  *
+ * A **figure** is the cover for a story with no place in it at all — a fare, a contract, a bid
+ * that came in over. `scripts/make-figure.mjs` sets the number the story turns on in the desk's
+ * own ground and type. It is the only cover that states a fact on its face, so `cover.figure` has
+ * to appear in the prose of both locales, compared on digits alone because Czech writes 4 750 and
+ * English 4,750. A number on a cover that the article does not support is the worst thing this
+ * could produce, and it is the one thing a gate can actually check.
+ *
  * What this does not license is passing somebody else's photograph off as ours. A press photo of a real place
  * is a place we can go and photograph, and `kind: visualisation` on one would be a lie the gate
  * cannot detect — so that rule lives with the desk, on the Editorial Standards page.
  */
-const COVER_KINDS = ['photo', 'visualisation', 'diagram', 'handout']
-async function checkCover(file, fm, dir) {
+const COVER_KINDS = ['photo', 'visualisation', 'diagram', 'handout', 'figure']
+/**
+ * Does this figure appear in the prose? Compared on digits alone: Czech sets a thousands space and
+ * English a comma, so "4 750" and "4,750" are the same claim written two ways, and a literal match
+ * would reject a correct article for its own typography.
+ */
+const digitsAppearIn = (figure, body) => {
+  const digits = (value) => String(value).replace(/[^0-9]/g, '')
+  return digits(figure).length > 0 && digits(body).includes(digits(figure))
+}
+
+async function checkCover(file, fm, dir, body = '') {
   const cover = fm.cover
   if (cover === undefined) return
 
@@ -153,6 +170,27 @@ async function checkCover(file, fm, dir) {
   if (!COVER_KINDS.includes(kind)) {
     fail(file, `cover.kind "${cover.kind}" must be one of: ${COVER_KINDS.join(', ')}`)
   }
+  if (kind === 'figure') {
+    if (!isNonEmptyString(cover.figure)) {
+      fail(file, 'cover.figure is required on a figure plate — it is what the picture says')
+    } else if (!digitsAppearIn(cover.figure, body)) {
+      fail(
+        file,
+        `cover.figure "${cover.figure}" does not appear in the article — a number on the cover has ` +
+          'to be a number the prose supports'
+      )
+    }
+    // A plate drawn from nothing but the article needs no source — its sources are the article's.
+    // One that sets borrowed artwork beside the figure does, and the credit has to name whoever
+    // owns it, because that half of the picture is not ours.
+    if (cover.source !== undefined && !isHttpUrl(cover.source)) {
+      fail(file, 'cover.source on a figure plate must be the http(s) page the borrowed artwork came from')
+    }
+    if (cover.shot !== undefined) fail(file, 'cover.shot dates a photograph somebody took; a figure plate has no shot date')
+  } else if (cover.figure !== undefined) {
+    fail(file, 'cover.figure belongs to a figure plate')
+  }
+
   if (kind === 'visualisation' || kind === 'diagram' || kind === 'handout') {
     if (!isHttpUrl(cover.source)) {
       fail(
@@ -165,7 +203,7 @@ async function checkCover(file, fm, dir) {
     if (cover.shot !== undefined) {
       fail(file, `cover.shot dates a photograph somebody took; a ${kind} has no shot date`)
     }
-  } else if (cover.source !== undefined) {
+  } else if (kind === 'photo' && cover.source !== undefined) {
     fail(file, `cover.source names where a picture came from, so it belongs to a ${COVER_KINDS.filter((k) => k !== 'photo').join(', ')} — kind: photo means the desk took it`)
   }
   if (!isNonEmptyString(cover.caption)) {
@@ -425,7 +463,7 @@ async function validatePosts() {
 
       // --- optional structured fields ---
       checkLocation(file, fm)
-      await checkCover(file, fm, path.join(postsDir, dirName))
+      await checkCover(file, fm, path.join(postsDir, dirName), content)
 
       // --- body ---
       const body = content.trim()
@@ -472,6 +510,9 @@ async function validatePosts() {
         }
         if ((a.cover?.credit || null) !== (b.cover?.credit || null)) {
           fail(rel, 'cover.credit differs between locales — the photographer does not change with the language')
+        }
+        if ((a.cover?.figure || null) !== (b.cover?.figure || null)) {
+          fail(rel, 'cover.figure differs between locales — one plate states one number')
         }
         if ((a.cover?.kind || null) !== (b.cover?.kind || null)) {
           fail(rel, `cover.kind differs between locales: ${first}=${a.cover?.kind || 'photo'} ${locale}=${b.cover?.kind || 'photo'} — one picture has one provenance in both languages`)
@@ -574,7 +615,7 @@ async function validateQueue(publishedSlugs) {
         })
       }
 
-      await checkCover(file, fm, path.join(queueDir, slug))
+      await checkCover(file, fm, path.join(queueDir, slug), content)
 
       // The queue's own rule: a release date is assigned by release.mjs, not written by hand.
       if (!toIsoDate(fm.queuedAt)) {

@@ -9,6 +9,13 @@ tags: ["metro E", "metro O", "IPR Praha", "lehká kolejová doprava", "Letňany"
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Mapa Prahy s navrhovaným koridorem okružního metra vyneseným fialovou přerušovanou čarou od Smíchovského nádraží přes Pankrác, Bohdalec, Žižkov a Vysočany do Letňan, každá stanice je vyznačena čtvercem a přestupy písmenem linky, dál na sever pokračuje tečkovaná šipka k Terminálu Sever."
+  caption: "Trasa, na kterou zastupitelé poslali IPR zpracovat studii proveditelnosti — týž koridor a otázka, kolik z něj musí vést pod zemí."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape"
 sources:
   - title: "Prague moves ahead with plans for fifth metro line"
     url: "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape"

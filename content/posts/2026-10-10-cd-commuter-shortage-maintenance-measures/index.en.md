@@ -9,6 +9,13 @@ tags: ["České dráhy", "CityElefant", "RegioPanter", "PID", "Středočeský kr
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating the figure 23 in large white serif digits on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "CityElefant units out of service on Monday against an operational need of 57, with five RegioPanters missing as well."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "23"
 sources:
   - title: "Czech Railways promises changes after overcrowding hits Prague commuter trains"
     url: "https://www.expats.cz/czech-news/article/czech-railways-promises-changes-after-overcrowding-hits-prague-commuter-trains"

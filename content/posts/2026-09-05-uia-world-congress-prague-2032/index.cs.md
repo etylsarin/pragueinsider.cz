@@ -9,6 +9,13 @@ tags: ["UIA", "světový kongres", "Obec architektů", "Světové město archite
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s letopočtem 2032 vysázeným velkou bílou patkovou číslicí na tmavě hnědém podkladu architektonické rubriky, pod ním tenká linka."
+  caption: "Rok, kdy Praha uspořádá Světový kongres architektů; poplatek se platí v ročních splátkách až do něj."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "2032"
 sources:
   - title: "V Praze bude v roce 2032 celosvětový kongres architektů"
     url: "https://www.archiweb.cz/n/domaci/v-praze-bude-v-roce-2032-celosvetovy-kongres-architektu"

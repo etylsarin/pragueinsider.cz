@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s číslem 723 Kč vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, pod ním tenká linka."
+  caption: "Kolik zaplatí letecká společnost za každého odbaveného cestujícího od konce března 2027, oproti dosavadním 682."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "723"
 sources:
   - title: "Lašákův první velký krok v čele letiště. Na Ruzyni zdraží poplatky"
     url: "https://zdopravy.cz/lasakuv-prvni-velky-krok-v-cele-letiste-na-ruzyni-zdrazi-poplatky-301976"

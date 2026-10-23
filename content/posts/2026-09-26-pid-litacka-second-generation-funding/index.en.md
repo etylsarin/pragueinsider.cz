@@ -9,6 +9,14 @@ tags: ["PID Lítačka", "OICT", "ROPID", "Jaromír Beránek", "bezbariérovost"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating the figure 25 in large white serif digits on the transport desk's deep blue ground, with the lime-green Lítačka travel card and its wordmark set beside them."
+  caption: "Millions of crowns the city has committed to a second generation of the app, with another six from ROPID and IDSK."
+  credit: "Prague Insider Desk · PID Lítačka"
+  kind: figure
+  source: "https://prod-pidlitacka-eshop-strapi.k8s-prod.oict.cz/uploads/litacka_card_6ce0691e6a.svg"
+  figure: "25"
 sources:
   - title: "Z Lítačky má být superaplikace. Nové funkce podpoří Praha dalšími 25 miliony"
     url: "https://zdopravy.cz/z-litacky-ma-byt-superaplikace-nove-funkce-podpori-praha-dalsimi-25-miliony-300309"

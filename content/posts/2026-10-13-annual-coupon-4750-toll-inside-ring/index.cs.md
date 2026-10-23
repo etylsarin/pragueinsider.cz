@@ -9,6 +9,14 @@ tags: ["Lítačka", "jízdné", "mýto", "Městský okruh", "Petr Hlaváček"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Tabule s číslem 4 750 Kč vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, vedle ní limetkově zelená karta Lítačka s logotypem."
+  caption: "Cena ročního kupónu, se kterou chce vítěz voleb jít do koaličních jednání — spolu s parkovným a mýtem za vjezd do centra."
+  credit: "Prague Insider Desk · PID Lítačka"
+  kind: figure
+  source: "https://prod-pidlitacka-eshop-strapi.k8s-prod.oict.cz/uploads/litacka_card_6ce0691e6a.svg"
+  figure: "4 750"
 sources:
   - title: "Mýto uvnitř okruhu, dražší parkování a roční kupon za 4750 korun. Vítěz voleb v Praze představil plány"
     url: "https://zdopravy.cz/myto-uvnitr-okruhu-drazsi-parkovani-a-litacka-za-4750-korun-vitez-voleb-v-praze-predstavil-plany-303037"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Park Kampa od řeky: dvojitá alej topolů a platanů podél nábřežní zdi v prvních podzimních barvách, vpravo bílé Sovovy mlýny se štítem, zcela vlevo zelená plachta nad pracemi a na obzoru Pražský hrad."
+  caption: "Park, o kterém se šíří dohady. Praha 1 říká, že v něm není žádný skrytý návrh, pódium ani cyklomagistrála."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pravdy a nepravdy o revitalizaci Kampy. Aktuální informace najdete na jednom místě"
     url: "https://www.praha1.cz/pravdy-a-nepravdy-o-revitalizaci-kampy-aktualni-informace-najdete-na-jednom-miste"

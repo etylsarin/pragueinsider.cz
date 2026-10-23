@@ -9,6 +9,13 @@ tags: ["TSK", "mosty přes Vltavu", "Hlávkův most", "Štefánikův most", "Lib
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Mapa centra Prahy se sedmi silničními mosty přes Vltavu vyznačenými čtverci na řece a popsanými rokem, kdy je má TSK přestavět: Libeňský 2027, Štefánikův 2028, Mánesův a Hlávkův 2029, Čechův 2030, Legií 2031 a Palackého 2032."
+  caption: "Pořadí prací podle TSK, poprvé vyložené jako jeden plán. Roky jsou předpokládané, podmíněné přípravou, tendry a koordinací dopravních omezení."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://zdopravy.cz/opravujme-jinak-se-nam-to-rozsype-tsk-chce-kazdy-rok-obnovit-jeden-z-mostu-pres-vltavu-ukazala-poradi-304105"
 sources:
   - title: "Opravujme, jinak se nám to rozsype. TSK chce každý rok obnovit jeden z mostů přes Vltavu, ukázala pořadí"
     url: "https://zdopravy.cz/opravujme-jinak-se-nam-to-rozsype-tsk-chce-kazdy-rok-obnovit-jeden-z-mostu-pres-vltavu-ukazala-poradi-304105"

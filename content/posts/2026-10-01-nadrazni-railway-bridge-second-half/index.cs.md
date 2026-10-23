@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Staveniště železničního mostu u Nádražní z provizorní cesty: mobilní oplocení a složený materiál podél štěrkové cesty, nová betonová opěra pod plachtou, za ní stávající přemostění nesoucí ulici a ze všech stran věžové jeřáby nad Smíchov City."
+  caption: "Staveniště, kvůli kterému byla Nádražní šestnáct dní uzavřená, než se osadila druhá polovina konstrukce."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pozor na výluku v Nádražní"
     url: "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni"

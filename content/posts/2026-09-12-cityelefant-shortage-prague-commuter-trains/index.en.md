@@ -9,6 +9,13 @@ tags: ["České dráhy", "CityElefant", "ETCS", "PID", "Správa železnic", "Že
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating the figure 10 in large white serif digits on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "Trains short on Wednesday: 24 of the 71 CityElefant units were out of service against an operational need of 57."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "10"
 sources:
   - title: "Velký výpadek CityElefantů v Praze a okolí. Na části spojů jezdí místo dvou jednotek jen jedna"
     url: "https://zdopravy.cz/velky-vypadek-cityelefantu-v-praze-na-casti-spoju-jezdi-misto-dvou-jednotek-jen-jedna-298628"

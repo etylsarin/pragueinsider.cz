@@ -527,6 +527,7 @@ function patchCover(raw, fields) {
   // Only written when it is not the default, so an ordinary photograph's frontmatter is unchanged.
   if (fields.kind && fields.kind !== 'photo') lines.push(`  kind: ${fields.kind}`)
   if (fields.source) lines.push(`  source: ${yamlString(fields.source)}`)
+  if (fields.figure) lines.push(`  figure: ${yamlString(fields.figure)}`)
   const block = `${lines.join('\n')}\n`
 
   // An existing block runs from `cover:` to the next line that starts in column zero.
@@ -583,12 +584,17 @@ async function attach(articles) {
   const gravity = arg('gravity', 'centre')
   const dryRun = flag('dry-run')
 
-  if (!['photo', 'visualisation', 'diagram', 'handout'].includes(kind)) {
-    console.error(`--kind must be photo, visualisation, diagram or handout, not "${kind}"`)
+  if (!['photo', 'visualisation', 'diagram', 'handout', 'figure'].includes(kind)) {
+    console.error(`--kind must be photo, visualisation, diagram, handout or figure, not "${kind}"`)
     process.exitCode = 1
     return
   }
-  if (kind !== 'photo' && (!credit || !source)) {
+  if (kind === 'figure' && (!credit || !arg('figure'))) {
+    console.error('--kind figure needs --credit and --figure (the number the plate states)')
+    process.exitCode = 1
+    return
+  }
+  if (kind !== 'photo' && kind !== 'figure' && (!credit || !source)) {
     console.error(
       '--kind visualisation needs --credit (who drew it) and --source (the page it was published\n' +
         'on). Those are the licence conditions on a press visualisation, not decoration.'
@@ -658,6 +664,7 @@ async function attach(articles) {
         shot,
         kind,
         source,
+        figure: arg('figure'),
       })
     )
     console.log(`  ${path.relative(ROOT, file)} updated`)

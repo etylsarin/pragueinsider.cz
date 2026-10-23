@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Obchodní centrum Flora nad uzavřeným vstupem do metra, přes vestibul purpurové ohrazení s nápisem Metro má pauzu, vedle zaparkovaná bílá dodávka, za ním technika a v popředí zatáčející tramvajové koleje."
+  caption: "Za ohrazením se výtahové šachty prorazily na nástupiště. Na samotné výtahy se čeká ještě měsíce."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3440-stanice-metra-flora-je-fyzicky-propojena-s-povrchem-novymi-vytahovymi-sachtami"

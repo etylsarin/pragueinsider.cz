@@ -82,7 +82,7 @@ práce a cokoli důležitého si ověřte v primárním zdroji.**
 
 ## Obrazový doprovod
 
-Prague Insider používá pět druhů titulních vizuálů. Dva z nich jsou kresby a jsou ve snímku označené, dva jsou fotografie — a popisek pod každým snímkem říká, čí.
+Prague Insider používá šest druhů titulních vizuálů. Tři z nich jsou kresby, dva fotografie — a popisek pod každým snímkem říká, čí.
 
 Většina článků nese **generovanou typografii a geometrii** — architektonickou abstrakci příslušné
 rubriky, nikoli zobrazení konkrétní stavby, o níž se píše. Kresba vychází z identity článku, takže
@@ -115,6 +115,13 @@ nevznikla a podstatou zprávy je právě tvar té věci. Taková schémata kresl
 ze souřadnic, které jsme dohledali, a uvádíme u nich stránku, odkud je trasa převzatá: čára na mapě
 je tvrzení o tom, kudy něco povede, a máte právo si ho ověřit. Ve snímku jsou označená slovem
 *Schéma*, ze stejného důvodu jako vizualizace.
+
+Některé články nesou **číslo**. Zdražení kupónu, podepsaná smlouva, nabídka, která přišla dráž:
+není co vyfotit, nic se nenavrhlo a není ani trasa, která by se dala nakreslit. Takové články dřív
+spadly na generovaný vizuál rubriky, což je poctivé, ale říká to jen, do které rubriky patří. Místo
+toho vysázíme číslo, o které v článku jde, velkým písmem v barvě té rubriky. Je to jediný zdejší
+titulní vizuál, který sám o sobě něco tvrdí, a tak automatická kontrola vyžaduje, aby se to číslo
+objevilo i v textu pod ním — údaj, který článek nedokládá, nevyjde.
 
 Totéž platí pro obrázky uvnitř článku stejně jako pro ten nahoře. Vizualizace používáme jen pro
 nepostavené a vizualizace nikdy nenahrazuje fotografii něčeho, co existuje —

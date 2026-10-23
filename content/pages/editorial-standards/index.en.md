@@ -83,7 +83,7 @@ people's reporting, and verify anything that matters against the primary source.
 
 ## Images
 
-Prague Insider publishes five kinds of cover. Two of them are drawings and say so on the image; two of them are photographs, and the credit under every picture says whose.
+Prague Insider publishes six kinds of cover. Three of them are drawings, two are photographs, and the credit under every picture says whose.
 
 Most articles carry **generated typography and geometry** — an architectural abstraction belonging
 to the desk the story sits on, not a depiction of the building being discussed. It is drawn from
@@ -117,6 +117,13 @@ been released, and the shape of the thing is the story. Those are drawn here, ov
 coordinates we looked up rather than sketched, and they name the page the route was taken from,
 because a line on a map is a claim about where something goes and you are entitled to check it.
 They are marked *Diagram* on the image for the same reason a visualisation is.
+
+Some articles carry **a figure**. A fare rising, a contract signed, a bid that came in over: there
+is nothing at a site to photograph, nothing has been designed, and there is no route to draw. Those
+used to fall back on the desk plate, which is honest but tells you only which desk the story sits
+on. Instead the number the story turns on is set large in the desk's own colour. It is the only
+cover here that states a fact on its face, so an automated check requires that number to appear in
+the article underneath it — a figure the writing does not support does not publish.
 
 All of this holds for pictures inside an article as much as for the one at the top of it. We use
 visualisations only for the unbuilt, and a visualisation never stands in for a photograph of

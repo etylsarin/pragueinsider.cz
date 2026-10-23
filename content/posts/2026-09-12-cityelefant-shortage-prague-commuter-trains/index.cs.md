@@ -9,6 +9,13 @@ tags: ["České dráhy", "CityElefant", "ETCS", "PID", "Správa železnic", "Že
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s číslem 10 vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, pod ním tenká linka."
+  caption: "O tolik vlaků bylo ve středu méně: 24 ze 71 jednotek CityElefant stálo mimo provoz proti provozní potřebě 57."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "10"
 sources:
   - title: "Velký výpadek CityElefantů v Praze a okolí. Na části spojů jezdí místo dvou jednotek jen jedna"
     url: "https://zdopravy.cz/velky-vypadek-cityelefantu-v-praze-na-casti-spoju-jezdi-misto-dvou-jednotek-jen-jedna-298628"
