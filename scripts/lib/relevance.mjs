@@ -120,7 +120,16 @@ const OTHER_CITIES = [
   'brno', 'brnen', 'bkom', 'ostrav', 'plzen', 'liberec', 'olomouc', 'pardubic', 'zlin',
   'jihlav', 'karlovy vary', 'usti nad labem', 'ceske budejovic', 'hradec kralov', 'pisek',
   'decin', 'chomutov', 'znojmo', 'prerov', 'kladno', 'mlada boleslav', 'ceska lipa', 'opav',
+  // "Brno" folds to 'brno' but its locative does not: "v Brně" is 'v brne'.
+  'v brne',
 ]
+
+/**
+ * Prague terms every city has one of. "Magistrát města Brna" let a Brno car park through the
+ * veto below on the strength of the word "magistrát", so these do not count as Prague when
+ * another city is named.
+ */
+const GENERIC_PRAGUE_TERMS = ['magistrat', 'metropole']
 
 const countHits = (haystack, terms) => terms.filter((term) => haystack.includes(term))
 
@@ -154,7 +163,9 @@ export function scoreItem(item, sourceMeta = {}) {
     countHits(headline, PRAGUE_TERMS).length > 0 || countHits(headline, PRAGUE_PLACES).length > 0
   // A named other city with no mention of Prague anywhere outranks a shared district name.
   const otherCityMatches = countHits(haystack, OTHER_CITIES)
-  const elsewhere = otherCityMatches.length > 0 && pragueMatches.length === 0
+  const elsewhere =
+    otherCityMatches.length > 0 &&
+    pragueMatches.every((term) => GENERIC_PRAGUE_TERMS.includes(term))
 
   const isPrague = !elsewhere && (Boolean(sourceMeta.pragueByDefault) || headlinePrague)
 
