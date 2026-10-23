@@ -9,6 +9,13 @@ tags: ["EMU 400", "České dráhy", "PID", "ÚOHS", "Škoda", "RegioJet"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Tabule s číslem 30 vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, pod ním tenká linka."
+  caption: "Doba v letech, na kterou měla Praha se Středočeským krajem uzavřít smlouvu na příměstskou železnici s Českými drahami."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "30"
 sources:
   - title: "Finále největší drážní zakázky. Politiky čeká schvalování třicetileté smlouvy na vlaky v PID za 165 miliard"
     url: "https://zdopravy.cz/finale-nejvetsi-drazni-zakazky-politiky-ceka-schvalovani-tricetilete-smlouvy-na-vlaky-v-pid-za-165-miliard-298201"

@@ -9,6 +9,13 @@ tags: ["Lítačka", "jízdné", "mýto", "Městský okruh", "Petr Hlaváček"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A plate stating 4 750 Kč in large white serif figures on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "The annual pass price the election winner wants to carry into coalition talks, alongside parking charges and a toll for driving into the centre."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "4 750"
 sources:
   - title: "Mýto uvnitř okruhu, dražší parkování a roční kupon za 4750 korun. Vítěz voleb v Praze představil plány"
     url: "https://zdopravy.cz/myto-uvnitr-okruhu-drazsi-parkovani-a-litacka-za-4750-korun-vitez-voleb-v-praze-predstavil-plany-303037"

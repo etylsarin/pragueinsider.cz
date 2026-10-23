@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Kampa park from the river: a double row of poplars and planes along the embankment wall in early autumn colour, the white gabled Sova's Mills at the right, green site sheeting over works at the far left, and Prague Castle on the skyline behind."
+  caption: "The park the rumours are about. Prague 1 says there is no hidden design, no stage and no cycle highway in it."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pravdy a nepravdy o revitalizaci Kampy. Aktuální informace najdete na jednom místě"
     url: "https://www.praha1.cz/pravdy-a-nepravdy-o-revitalizaci-kampy-aktualni-informace-najdete-na-jednom-miste"

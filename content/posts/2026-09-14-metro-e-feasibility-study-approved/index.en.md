@@ -9,6 +9,13 @@ tags: ["metro E", "metro O", "IPR Praha", "light rail", "Letňany", "Pankrác"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A map of Prague with the proposed orbital metro corridor drawn as a dashed purple line from Smíchovské nádraží through Pankrác, Bohdalec, Žižkov and Vysočany to Letňany, each station marked by a square and interchanges labelled with the line letter, continuing north as a dotted arrow to Terminál Sever."
+  caption: "The route councillors have now sent to IPR for a feasibility study — the same corridor, and the question of how much of it has to be underground."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape"
 sources:
   - title: "Prague moves ahead with plans for fifth metro line"
     url: "https://www.expats.cz/czech-news/article/light-rail-or-underground-e-or-o-prague-s-new-metro-taking-shape"

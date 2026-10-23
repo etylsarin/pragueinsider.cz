@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The Flora shopping centre above the closed metro entrance, with purple hoarding across the vestibule reading Metro má pauzu, a white van parked beside it, works equipment behind and tram tracks curving across the foreground."
+  caption: "Behind the hoarding the lift shafts have reached the platform. The lifts themselves are still months off."
+  credit: "Filip Mareš"
+  shot: 2026-09-03
 sources:
   - title: "Stanice metra Flora je fyzicky propojena s povrchem novými výtahovými šachtami"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3440-stanice-metra-flora-je-fyzicky-propojena-s-povrchem-novymi-vytahovymi-sachtami"

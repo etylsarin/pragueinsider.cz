@@ -1,0 +1,13 @@
+{
+  "accent": "#00629e",
+  "line": false,
+  "points": [
+    { "name": "Libeňský most",   "label": "Libeňský · 2027", "side": "right" },
+    { "name": "Hlávkův most",    "label": "Hlávkův · 2029",  "side": "right" },
+    { "name": "Štefánikův most", "label": "Štefánikův · 2028", "side": "left", "dy": -34 },
+    { "name": "Čechův most",     "label": "Čechův · 2030",   "side": "left" },
+    { "name": "Mánesův most",    "label": "Mánesův · 2029",  "side": "left", "dy": 34 },
+    { "name": "most Legií",      "label": "Legií · 2031",    "side": "left" },
+    { "name": "Palackého most",  "label": "Palackého · 2032", "side": "left" }
+  ]
+}

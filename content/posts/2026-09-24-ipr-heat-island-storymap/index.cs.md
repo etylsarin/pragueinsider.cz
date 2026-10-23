@@ -9,6 +9,13 @@ tags: ["IPR Praha", "tepelný ostrov", "adaptace na klima", "Ondřej Boháč", "
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s údajem 7 °C vysázeným velkou bílou patkovou číslicí na břidlicovém podkladu plánovací rubriky, pod ním tenká linka."
+  caption: "Rozdíl mezi Starým Městem a Ruzyní v letním dni, v datech, která IPR zveřejnil i se třemi metodami, jimiž vznikla."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "7"
 sources:
   - title: "IPR vydal storymapu o tepelném ostrově. Data o teplotě v metropoli využívá jako nástroj pro plánování"
     url: "https://iprpraha.cz/storymapa-tepelny-ostrov"

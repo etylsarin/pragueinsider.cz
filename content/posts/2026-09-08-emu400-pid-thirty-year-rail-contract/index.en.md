@@ -9,6 +9,13 @@ tags: ["EMU 400", "České dráhy", "PID", "ÚOHS", "Škoda", "RegioJet"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A plate stating the figure 30 in large white serif digits on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "The length in years of the suburban rail contract Prague and Central Bohemia were due to approve with České dráhy."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "30"
 sources:
   - title: "Finále největší drážní zakázky. Politiky čeká schvalování třicetileté smlouvy na vlaky v PID za 165 miliard"
     url: "https://zdopravy.cz/finale-nejvetsi-drazni-zakazky-politiky-ceka-schvalovani-tricetilete-smlouvy-na-vlaky-v-pid-za-165-miliard-298201"

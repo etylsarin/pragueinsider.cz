@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "The tram track on Jana Želivského stripped for renewal: rails left in place over bare ballast and spoil between them, coils of red ducting heaped on the kerb, an excavator and a red tipper truck working further up the street, and tenement blocks fading into fog on both sides."
+  caption: "The same works that are turning Biskupcova's bolt-down platforms into fixed ones, a little narrower than before."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pryč s legem. Rozšířené zastávky na Žižkově se opět mírně smrsknou, aby se na koleje lépe vešly autobusy"
     url: "https://zdopravy.cz/rozsirene-zastavky-na-zizkove-se-opet-mirne-smrsknou-na-koleje-se-pote-lepe-vejdou-i-autobusy-303301"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "The railway bridge site beside Nádražní seen from the haul road: mesh fencing and stacked materials along a dirt track, a new concrete abutment under sheeting, the existing crossing carrying the street beyond, and tower cranes standing over Smíchov City on every side."
+  caption: "The site that shut Nádražní for sixteen days while the second half of the structure went in."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pozor na výluku v Nádražní"
     url: "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni"

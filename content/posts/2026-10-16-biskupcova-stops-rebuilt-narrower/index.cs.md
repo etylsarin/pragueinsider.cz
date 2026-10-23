@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Rozebraný tramvajový svršek v Jana Želivského: koleje ponechané na holém štěrku s výkopkem mezi nimi, na obrubníku navršené svitky červených chrániček, dál v ulici pracuje bagr a červený sklápěč a po obou stranách se do mlhy ztrácejí činžovní domy."
+  caption: "Tytéž práce, při kterých se z provizorních nástupišť v Biskupcově stávají pevná — o něco užší než dosud."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Pryč s legem. Rozšířené zastávky na Žižkově se opět mírně smrsknou, aby se na koleje lépe vešly autobusy"
     url: "https://zdopravy.cz/rozsirene-zastavky-na-zizkove-se-opet-mirne-smrsknou-na-koleje-se-pote-lepe-vejdou-i-autobusy-303301"

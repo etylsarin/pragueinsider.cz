@@ -9,6 +9,13 @@ tags: ["DPP", "Škoda 15T", "ENIKA", "Škoda Pars", "veřejné zakázky"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "Tabule s údajem 71 % vysázeným velkou bílou patkovou číslicí na tmavě modrém podkladu dopravní rubriky, pod ním tenká linka."
+  caption: "O kolik víc chtěla za klimatizaci firma, která tramvaje postavila: 5,489 milionu na vůz proti 3,217 milionu od ENIKY."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "71"
 sources:
   - title: "Doklimatizování první pražské tramvaje 15T v Lodži začalo. Zpráva ukazuje, o kolik byli Poláci levnější"
     url: "https://zdopravy.cz/doklimatizovani-prvni-prazske-tramvaje-15t-v-lodzi-zacalo-zprava-ukazuje-o-kolik-byli-polaci-levnejsi-302900"

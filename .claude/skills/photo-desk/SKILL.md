@@ -37,6 +37,25 @@ node scripts/attach-photo.mjs --photo <file> --slug <slug> \
 - Only for the unbuilt. A render never substitutes for a photograph of a place that exists, and a
   press photograph of a real place is never publishable whatever it is labelled.
 
+**A story with no place in it gets a figure.** A fare, a contract, a bid that came in over — there
+is nothing to photograph, nothing designed and no route to draw, and the desk plate says only which
+desk it belongs to. Set the number the story turns on instead:
+
+```bash
+node scripts/make-figure.mjs --category transport --figure "4 750" --unit "Kč" out.jpg
+node scripts/attach-photo.mjs --photo out.jpg --slug <slug> \
+  --kind figure --credit "Prague Insider Desk" --figure "4 750" \
+  --alt-en … --alt-cs … --caption-en … --caption-cs …
+```
+
+- **The figure has to be in the article.** The gate checks it, on digits alone so that 4 750 and
+  4,750 are the same claim. A number on a cover is the one cover that asserts something by itself.
+- **Units are held to a neutral list** (`Kč`, `%`, `°C`, `km`, `m`…), because one image serves both
+  languages. Where the natural unit is a word — *mld. Kč*, *bn* — restate the figure so it needs
+  none (1 620 000 Kč, not 1,62 mil. Kč) or leave the unit off and let the caption carry it.
+- **Pick the number the headline turns on**, not the largest one in the piece. The caption sits
+  directly underneath and says what it counts, so the plate itself needs no words.
+
 **A picture can also go inside the body**, which is the better place when it illustrates one
 section rather than the whole article — a roundup of ten projects should not be fronted by one of
 them. Drop the file beside `index.<locale>.md`, write `![alt](./file.jpg)` at the paragraph it

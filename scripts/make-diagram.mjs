@@ -26,6 +26,7 @@
  *     "accent": "#0079c1",
  *     "points":   [{ "name": "Smíchovské nádraží", "label": "Smíchov", "interchange": "B" }, …],
  *     "polyline": [[50.08, 14.61], …],   the real alignment, if there is one to trace
+ *     "line": false,                     points only, for a set of places that is not a route
  *     "arrows":   [{ "from": "Letňany", "bearing": 20, "label": "Terminál Sever (VRT)" }],
  *
  * An arrow's `dash` says what it means: the route's own dash pattern for a section that continues,
@@ -163,8 +164,12 @@ const labelSide = (points, i) => {
 
 function overlay(spec, points, arrows, scale, route) {
   const accent = spec.accent || '#0079c1'
+  // `line: false` is for a diagram whose points are a set rather than a sequence — the Vltava
+  // bridges in the order TSK will rebuild them are not a route, and joining them with a dashed
+  // line draws a journey nobody makes. The basemap already shows what connects them: the river.
+  const drawLine = spec.line !== false
   const line = route.length ? route : points
-  const path = line.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ')
+  const path = drawLine ? line.map((p, i) => `${i ? 'L' : 'M'}${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(' ') : ''
 
   const stations = points
     .map((p, i) => {
@@ -219,8 +224,12 @@ function overlay(spec, points, arrows, scale, route) {
     .join('')
 
   return Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}">
-  <path d="${path}" stroke="${GROUND}" stroke-width="21" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
-  <path d="${path}" stroke="${accent}" stroke-width="11" stroke-dasharray="34 17" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  ${
+    path
+      ? `<path d="${path}" stroke="${GROUND}" stroke-width="21" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="${path}" stroke="${accent}" stroke-width="11" stroke-dasharray="34 17" fill="none" stroke-linejoin="round" stroke-linecap="round"/>`
+      : ''
+  }
   ${arrowMarks}
   ${stations}
 

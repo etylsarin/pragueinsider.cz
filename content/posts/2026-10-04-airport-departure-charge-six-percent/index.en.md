@@ -13,6 +13,13 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating 723 Kč in large white serif figures on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "What an airline will pay for each departing passenger from the end of March 2027, up from 682."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "723"
 sources:
   - title: "Lašákův první velký krok v čele letiště. Na Ruzyni zdraží poplatky"
     url: "https://zdopravy.cz/lasakuv-prvni-velky-krok-v-cele-letiste-na-ruzyni-zdrazi-poplatky-301976"

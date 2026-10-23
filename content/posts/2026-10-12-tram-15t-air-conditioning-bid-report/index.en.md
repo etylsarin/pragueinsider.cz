@@ -9,6 +9,13 @@ tags: ["DPP", "Škoda 15T", "ENIKA", "Škoda Pars", "veřejné zakázky"]
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: false
+cover:
+  photo: cover.jpg
+  alt: "A plate stating 71 % in large white serif figures on the transport desk's deep blue ground, a thin rule beneath them."
+  caption: "How much more the firm that built the trams wanted to cool them: 5.489 million crowns a car against ENIKA's 3.217 million."
+  credit: "Prague Insider Desk"
+  kind: figure
+  figure: "71"
 sources:
   - title: "Doklimatizování první pražské tramvaje 15T v Lodži začalo. Zpráva ukazuje, o kolik byli Poláci levnější"
     url: "https://zdopravy.cz/doklimatizovani-prvni-prazske-tramvaje-15t-v-lodzi-zacalo-zprava-ukazuje-o-kolik-byli-polaci-levnejsi-302900"

@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "Vůz petřínské lanovky stoupající po obnovené trati při pohledu shora: černá prosklená kabina s číslem 2 plná cestujících mezi novými cihlovými opěrnými zdmi, za ní vede ozubnicová trať a betonová lávka vzhůru po přemodelovaném svahu mezi plotem a čerstvým trávníkem."
+  caption: "Od 22. září opět v provozu. Jednotlivé jízdné s ní vzrostlo ze 60 na 100 korun."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026"

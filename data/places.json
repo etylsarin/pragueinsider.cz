@@ -85,6 +85,13 @@
       "district": "Praha 4 – Krč",
       "osm": "Budějovická, Zelená Liška, Krč, Praha 4, obvod Praha 4, Praha, 140 02, Česko"
     },
+    "cechuv most": {
+      "name": "Čechův most",
+      "lat": 50.09296,
+      "lng": 14.4171,
+      "district": "Praha 1 – Josefov",
+      "osm": "Čechův most, nábřeží Edvarda Beneše, Josefov, obvod Praha 1, Praha, 116 93, Česko"
+    },
     "ceska zemedelska univerzita": {
       "name": "Česká zemědělská univerzita",
       "lat": 50.13018,
@@ -182,6 +189,13 @@
       "lng": 14.41479,
       "district": "Praha 4 – Modřany",
       "osm": "Generála Šišky, Modřany, Praha 12, obvod Praha 4, Praha, 143 00, Česko"
+    },
+    "hlavkuv most": {
+      "name": "Hlávkův most",
+      "lat": 50.09644,
+      "lng": 14.43696,
+      "district": "Praha 7 – Holešovice",
+      "osm": "Hlávkův most, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
     },
     "hodkovicky": {
       "name": "Hodkovičky",
@@ -365,6 +379,13 @@
       "district": "Praha 6 – Střešovice",
       "osm": "Malovanka, Na Petynce, Staré Střešovice, Střešovice, Praha 6, obvod Praha 6, Praha, 162 01, Česko"
     },
+    "manesuv most": {
+      "name": "Mánesův most",
+      "lat": 50.08952,
+      "lng": 14.41284,
+      "district": "Praha 1 – Josefov",
+      "osm": "Mánesův most, Josefov, obvod Praha 1, Praha, 116 93, Česko"
+    },
     "masarykovo nadrazi": {
       "name": "Masarykovo nádraží",
       "lat": 50.08768,
@@ -392,6 +413,13 @@
       "lng": 14.46318,
       "district": "Praha 10 – Vršovice",
       "osm": "Moskevská, Vršovice, Praha 10, obvod Praha 10, Praha, 101 33, Česko"
+    },
+    "most legii": {
+      "name": "most Legií",
+      "lat": 50.08131,
+      "lng": 14.41048,
+      "district": "Praha 1 – Staré Město",
+      "osm": "most Legií, Staré Město, obvod Praha 1, Praha, 150 21, Česko"
     },
     "motol": {
       "name": "Motol",
@@ -511,6 +539,13 @@
       "lng": 14.50921,
       "district": "Praha 4 – Chodov",
       "osm": "Opatov, Chilská, Litochleby, Chodov, Praha 11, obvod Praha 4, Praha, 149 00, Česko"
+    },
+    "palackeho most": {
+      "name": "Palackého most",
+      "lat": 50.07287,
+      "lng": 14.41237,
+      "district": "Praha 2 – Smíchov",
+      "osm": "Palackého most, Smíchov, Praha 5, obvod Praha 2, Praha, 121 35, Česko"
     },
     "pankrac": {
       "name": "Pankrác",
@@ -665,6 +700,13 @@
       "lng": 14.38149,
       "district": "Praha 5 – Velká Chuchle",
       "osm": "Starochuchelská, Velká Chuchle, Praha-Velká Chuchle, obvod Praha 5, Praha, 159 00, Česko"
+    },
+    "stefanikuv most": {
+      "name": "Štefánikův most",
+      "lat": 50.09418,
+      "lng": 14.427,
+      "district": "Praha 1 – Josefov",
+      "osm": "Štefánikův most, Josefov, obvod Praha 1, Praha, 110 05, Česko"
     },
     "strossmayerovo namesti": {
       "name": "Strossmayerovo náměstí",

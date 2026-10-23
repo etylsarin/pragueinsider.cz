@@ -13,6 +13,12 @@ location:
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A Petřín funicular car climbing the rebuilt line, seen from above: a black glazed cabin numbered 2 full of passengers rising between new brick retaining walls, the rack track and a concrete walkway running up the regraded hillside behind it between mesh fences and fresh turf."
+  caption: "Back in service on 22 September. The single fare went from 60 to 100 crowns with it."
+  credit: "Filip Mareš"
+  shot: 2026-10-16
 sources:
   - title: "Lanová dráha Petřín zahájí provoz v úterý 22. září 2026"
     url: "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3441-lanova-draha-petrin-zahaji-provoz-v-utery-22-zari-2026"

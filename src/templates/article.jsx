@@ -31,6 +31,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
   // A handout is a photograph, so it gets no badge — there is nothing to mistake it for. What it
   // does get is the credit and the link out, because it is not ours.
   const hasSource = isDrawn || fm.cover?.kind === 'handout'
+  // A figure plate is obviously not a photograph, so it needs no badge — but it must not be
+  // credited as one either. "Photo: Prague Insider Desk" under a drawn number would be a small lie.
+  const isFigure = fm.cover?.kind === 'figure'
 
   return (
     <Layout locale={locale} translationPath={translationPath}>
@@ -98,7 +101,9 @@ const ArticleTemplate = ({ data, pageContext }) => {
                 {fm.cover.caption ? <span className="text-primary">{fm.cover.caption} </span> : null}
                 {[
                   fm.district,
-                  `${t(locale, isDrawn ? drawnLabel : 'article.photoCredit')}: ${fm.cover.credit}`,
+                  `${t(locale, isDrawn ? drawnLabel : isFigure ? 'article.figureCredit' : 'article.photoCredit')}: ${
+                    fm.cover.credit
+                  }`,
                   formatDate(fm.cover.shot, locale),
                 ]
                   .filter(Boolean)

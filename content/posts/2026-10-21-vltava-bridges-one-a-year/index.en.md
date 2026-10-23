@@ -9,6 +9,13 @@ tags: ["TSK", "Vltava bridges", "Hlávkův most", "Štefánikův most", "Libeňs
 author: "Prague Insider Desk"
 aiGenerated: true
 featured: true
+cover:
+  photo: cover.jpg
+  alt: "A map of central Prague with seven Vltava road bridges marked by squares on the river and labelled with the year TSK means to rebuild each: Libeňský 2027, Štefánikův 2028, Mánesův and Hlávkův 2029, Čechův 2030, Legií 2031 and Palackého 2032."
+  caption: "TSK's order of works, set out as a single plan for the first time. The years are expected ones, subject to preparation, tenders and traffic coordination."
+  credit: "Prague Insider Desk"
+  kind: diagram
+  source: "https://zdopravy.cz/opravujme-jinak-se-nam-to-rozsype-tsk-chce-kazdy-rok-obnovit-jeden-z-mostu-pres-vltavu-ukazala-poradi-304105"
 sources:
   - title: "Opravujme, jinak se nám to rozsype. TSK chce každý rok obnovit jeden z mostů přes Vltavu, ukázala pořadí"
     url: "https://zdopravy.cz/opravujme-jinak-se-nam-to-rozsype-tsk-chce-kazdy-rok-obnovit-jeden-z-mostu-pres-vltavu-ukazala-poradi-304105"

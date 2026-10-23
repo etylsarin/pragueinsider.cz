@@ -25,12 +25,21 @@ correctness bug, not a style choice.
   that is a place the desk can go. See `content/pages/editorial-standards/`, which says all of
   this publicly, and keep the two in step. The same applies to pictures inside the body, declared
   in `figures:` — see the Gotchas.
+- **A `kind: figure` is for a story with no place in it.** A fare, a contract, a bid that came in
+  over: nothing to photograph, nothing drawn, and no route for a diagram. `scripts/make-figure.mjs`
+  sets the number the story turns on in the desk's own ground and type. It is the only cover that
+  states a fact on its face, so the gate requires `cover.figure` to appear in the prose of both
+  locales — compared on digits alone, because Czech writes 4 750 and English 4,750. Units are held
+  to a neutral list (`Kč`, `%`, `°C`, `km`…): one image serves both languages, and "mld. Kč" is
+  wrong on the English article exactly as "bn" is wrong on the Czech one.
 - **A `kind: diagram` is the one picture we draw ourselves.** `scripts/make-diagram.mjs` plots a
   route over the same Esri basemap the article locator uses, from coordinates that must already be
   in `data/places.json` — so a diagram cannot be drawn through a place the desk has not resolved,
   and the geometry is looked up rather than sketched. It needs `credit` (ours) and `source` (the
   page the route came from), because a line on a map is a claim about where something goes. The
-  spec lives in `data/diagrams/` so the drawing can be regenerated and argued with.
+  spec lives in `data/diagrams/` so the drawing can be regenerated and argued with. `line: false`
+  draws the points without joining them, for a set of places that is not a route — the Vltava
+  bridges in the order TSK will rebuild them are not a journey anybody makes.
 - **Both locales, composed separately.** Czech is not a translation of the English. Same facts,
   same figures, same sources; different prose. The headline is where this breaks first and shows
   most: a numeral with its noun eaten (*"chtějí projektovat dva"* — two what?), an English present

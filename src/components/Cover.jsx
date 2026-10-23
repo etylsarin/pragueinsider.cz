@@ -68,6 +68,7 @@ export const coverFields = graphql`
     shot
     kind
     source
+    figure
     photo {
       childImageSharp {
         gatsbyImageData(
