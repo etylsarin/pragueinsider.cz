@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -583,6 +583,13 @@
       "firstSeen": "2026-08-27",
       "usedInPost": "t3-back-to-back-sets-return"
     },
+    "5eaa1fed45df8d8a": {
+      "url": "https://zdopravy.cz/ctvrta-kolej-na-prijezdu-do-prahy-od-vychodu-sz-uz-na-severni-vetev-vrt-shani-projektanty-304407",
+      "title": "Čtvrtá kolej na příjezdu do Prahy od východu. SŽ už na severní větev VRT shání projektanty",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-24",
+      "usedInPost": "liben-bechovice-fourth-track-design-tender"
+    },
     "5f81f1aa2d1eb679": {
       "url": "https://www.praha1.cz/praha-1-zahajila-obnovu-krannerovy-kasny-do-pamatky-se-vrati-voda",
       "title": "Praha 1 zahájila obnovu Krannerovy kašny. Do památky se vrátí voda",
@@ -833,7 +840,7 @@
       "title": "SŽ chystá další velkou soutěž na projektování vysokorychlostní trati. Vyvede vlaky z Vršovic do Běchovic",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-16",
-      "usedInPost": "vrt-vrsovice-bechovice-design-tender"
+      "usedInPost": "vrt-vrsovice-bechovice-design-tender,liben-bechovice-fourth-track-design-tender"
     },
     "8b4403f67f7ea130": {
       "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3430-dpp-dokoncil-rekonstrukci-stropni-desky-nad-vestibulem-stanice-metra-florenc-a-obnovuje-provoz-v-ulici-ke-stvanici",
@@ -897,6 +904,13 @@
       "source": "MČ Praha 7",
       "firstSeen": "2026-09-02",
       "usedInPost": "praha-7-asphalt-art-school-streets"
+    },
+    "93605d57df520503": {
+      "url": "https://zdopravy.cz/rychlost-130-km-h-nechceme-ctvrta-kolej-na-vychode-prahy-miri-do-velke-eia-prisla-smrst-pripominek-289769",
+      "title": "Rychlost 130 km/h nechceme. Čtvrtá kolej na východě Prahy míří do velké EIA, přišla smršť připomínek",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-24",
+      "usedInPost": "liben-bechovice-fourth-track-design-tender"
     },
     "9407329b421e45a5": {
       "url": "https://www.archiweb.cz/n/domaci/praha-pozadala-o-stavebni-povoleni-pro-vltavskou-filharmonii",
