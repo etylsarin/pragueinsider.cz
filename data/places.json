@@ -134,6 +134,13 @@
       "district": "Praha 5 – Radlice",
       "osm": "Palata-Domov pro zrakově postižené, U Nesypky, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
     },
+    "drahanske udoli": {
+      "name": "Drahaňské údolí",
+      "lat": 50.14916,
+      "lng": 14.41814,
+      "district": "Praha 8",
+      "osm": "Draháňské údolí, Praha 8, obvod Praha 8, Brnky, Zdiby, okres Praha-východ, Středočeský kraj, 250 66, Česko"
+    },
     "dubec": {
       "name": "Dubeč",
       "lat": 50.05887,

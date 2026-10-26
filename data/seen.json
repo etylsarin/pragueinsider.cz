@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -506,6 +506,13 @@
       "firstSeen": "2026-10-08",
       "usedInPost": "opatov-park-and-ride-opens"
     },
+    "4ee1d2331d5bb94d": {
+      "url": "https://zdopravy.cz/konkurence-pro-airport-express-letiste-a-hlavni-nadrazi-propoji-busair-bude-vyrazne-levnejsi-304550",
+      "title": "Konkurence pro Airport Express. Letiště a hlavní nádraží propojí BusAir, bude výrazně levnější",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-26",
+      "usedInPost": "busair-airport-line-undercuts-airport-express"
+    },
     "50249af0d08af752": {
       "url": "https://www.archiweb.cz/n/domaci/czu-otevrela-v-suchdole-drevostavbu-lesovna-bude-slouzit-studentum",
       "title": "ČZÚ otevřela v Suchdole dřevostavbu Lesovna, bude sloužit studentům",
@@ -673,6 +680,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-09-03",
       "usedInPost": "metropolitan-plan-in-force-objections"
+    },
+    "6d52b84680867594": {
+      "url": "https://zdopravy.cz/rsd-se-brani-pokute-za-soutez-na-podobu-dalnicniho-mostu-pres-vltavu-vazne-i-vyber-pro-drahanske-udoli-304502",
+      "title": "ŘSD se brání pokutě za soutěž na podobu dálničního mostu přes Vltavu. Vázne i výběr pro Drahaňské údolí",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-26",
+      "usedInPost": "prague-ring-road-bridges-fine-and-pending-choice"
     },
     "6ea51498d32212e5": {
       "url": "https://zdopravy.cz/z-prahy-do-mnichova-s-novymi-vagony-dva-dopravci-vybiraji-vyrobce-pro-provoz-od-roku-2031-297178",
