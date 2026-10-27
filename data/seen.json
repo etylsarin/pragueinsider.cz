@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -463,6 +463,13 @@
       "source": "PID / ROPID",
       "firstSeen": "2026-10-05",
       "usedInPost": "heritage-tram-23-drops-zvonarka"
+    },
+    "469b6a8d6d6aadfa": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3492-dpp-planuje-nakup-az-140-novych-bateriovych-trolejbusu",
+      "title": "DPP plánuje nákup až 140 nových bateriových trolejbusů",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-10-27",
+      "usedInPost": "dpp-tenders-140-battery-trolleybuses"
     },
     "470eece1ee784b25": {
       "url": "https://zdopravy.cz/zbrusu-nova-tramvajova-zastavka-uz-ma-datum-otevreni-rozpuli-dosud-kilometrovy-usek-301243",
@@ -1226,6 +1233,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-23",
       "usedInPost": "petrin-funicular-stations-rebuild-schedule"
+    },
+    "c4e441cf339feee4": {
+      "url": "https://zdopravy.cz/trolejbusovy-boom-v-praze-pokracuje-dpp-vypsal-tendr-az-na-140-vozu-pocita-i-se-40-dalsimi-z-turecka-304641",
+      "title": "Trolejbusový boom v Praze pokračuje. DPP vypsal tendr až na 140 vozů, počítá i se 40 dalšími z Turecka",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-10-27",
+      "usedInPost": "dpp-tenders-140-battery-trolleybuses"
     },
     "caa1b508532c4979": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",
