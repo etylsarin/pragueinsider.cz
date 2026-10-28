@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -1199,6 +1199,13 @@
       "firstSeen": "2026-08-28",
       "usedInPost": "vitezne-namesti-cultural-centre-tender-cancelled"
     },
+    "bdddf35537b862b2": {
+      "url": "https://iprpraha.cz/vznikla-sekce-koordinace",
+      "title": "V IPR Praha vznikla Sekce koordinace. Propojuje plánování i povolování projektů",
+      "source": "IPR Praha",
+      "firstSeen": "2026-10-28",
+      "usedInPost": "ipr-coordination-section-planning-contracts"
+    },
     "c09afd009ec15c96": {
       "url": "https://www.archiweb.cz/n/domaci/prazsky-hrad-vypise-soutez-na-promenu-stajoveho-dvora-zvazovala-se-uz-za-havla",
       "title": "Pražský hrad vypíše soutěž na proměnu Stájového dvora, zvažovala se už za Havla",
@@ -1240,6 +1247,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-27",
       "usedInPost": "dpp-tenders-140-battery-trolleybuses"
+    },
+    "c6f9e6043fd78e0d": {
+      "url": "https://praha.camp/magazin/detail/kompromis-neni-prohra-rika-reditelka-sekce-koordinace-kristyna-lhotska",
+      "title": "Kompromis není prohra, říká ředitelka Sekce koordinace Kristýna Lhotská",
+      "source": "praha.camp (CAMP)",
+      "firstSeen": "2026-10-28",
+      "usedInPost": "ipr-coordination-section-planning-contracts"
     },
     "caa1b508532c4979": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/zacina-kompletni-oprava-prazske-invalidovny-trvat-by-mela-ctyri-roky-376974",
