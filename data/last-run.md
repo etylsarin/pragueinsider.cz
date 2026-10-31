@@ -59,4 +59,4 @@ Scanned `2026-10-31T05:17:19.383Z`, window 21 days.
 
 **Source errors:** archiweb.cz returned **HTTP 429 again**. It has failed every run since 22 September, more than five weeks, and the desk has no architecture wire. **A human needs to look at this.** Every other source answered.
 
-**Pipeline note:** The queue has been empty for three days, and every candidate on the list is now a repeat. The source list is producing almost nothing new that clears the bar.
+**Pipeline note:** The queue has been empty for three days, and 18 of 21 candidates are repeats. The source list is producing almost nothing new that clears the bar.
