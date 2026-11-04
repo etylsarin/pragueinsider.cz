@@ -218,6 +218,13 @@
       "district": "Praha 5",
       "osm": "Högerova, Barrandov, Praha 5, obvod Praha 5, Praha, 152 00, Česko"
     },
+    "hradcanska": {
+      "name": "Hradčanská",
+      "lat": 50.09744,
+      "lng": 14.40318,
+      "district": "Praha 6 – Střešovice",
+      "osm": "Hradčanská, Dejvický tunel, Střešovice, Praha 6, obvod Praha 6, Praha, 160 23, Česko"
+    },
     "hrbitov chovancu ustavu pro choromyslne v bohnicich": {
       "name": "Hřbitov chovanců Ústavu pro choromyslné v Bohnicích",
       "lat": 50.13864,

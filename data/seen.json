@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-04",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -414,6 +414,13 @@
       "source": "PID / ROPID",
       "firstSeen": "2026-09-20",
       "usedInPost": "petrin-funicular-returns-fourth-generation"
+    },
+    "3e791dac63667dce": {
+      "url": "https://zdopravy.cz/o-datu-uzavreni-metra-hradcanska-je-rozhodnuto-vytizenou-stanici-nahradi-tramvaje-i-vlaky-304698",
+      "title": "O datu uzavření metra Hradčanská je rozhodnuto. Vytíženou stanici nahradí na téměř rok tramvaje či vlaky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-04",
+      "usedInPost": "hradcanska-closes-16-january"
     },
     "3e83ec1bd7ffee38": {
       "url": "https://zdopravy.cz/sz-nasazuje-v-praze-svuj-tank-pod-mostem-v-krci-uvazla-vrtna-souprava-nedari-se-ji-vyprostit-302611",
@@ -1373,6 +1380,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-17",
       "usedInPost": "cd-signs-thirty-year-suburban-rail-contract"
+    },
+    "eae4743481c87b41": {
+      "url": "https://www.dpp.cz/spolecnost/pro-media/tiskove-zpravy/detail/278_3501-zacala-kompletni-modernizace-stanice-metra-hradcanska",
+      "title": "Začala kompletní modernizace stanice metra Hradčanská",
+      "source": "Dopravní podnik hl. m. Prahy (DPP)",
+      "firstSeen": "2026-11-04",
+      "usedInPost": "hradcanska-closes-16-january"
     },
     "ec1986c7e06fcaf6": {
       "url": "https://www.dpp.cz/spolecnost/aktuality/detail/66_3446-petrinska-lanovka-se-vraci-dpp-zahaji-provoz-novych-vozu-ctvrte-generace",
