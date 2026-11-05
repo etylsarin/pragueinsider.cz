@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -218,6 +218,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-09-11",
       "usedInPost": "ipr-lost-paths-study-cesty"
+    },
+    "20e54881b8ea7448": {
+      "url": "https://www.praha1.cz/praha-1-pripravuje-omezeni-vjezdu-k-vanocnim-trhum-na-staromestskem-namesti",
+      "title": "Praha 1 připravuje omezení vjezdu k vánočním trhům na Staroměstském náměstí",
+      "source": "Městská část Praha 1",
+      "firstSeen": "2026-11-05",
+      "usedInPost": "old-town-square-advent-evening-traffic-trial"
     },
     "20f0a044b84d8571": {
       "url": "https://pid.cz/praha-rozhodla-o-budoucich-nazvech-stanic-linky-metra-d",

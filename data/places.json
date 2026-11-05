@@ -568,6 +568,13 @@
       "district": "Praha 4",
       "osm": "Pankrác, Na Pankráci, Pankrác, Praha 4, obvod Praha 4, Praha, 140 63, Česko"
     },
+    "parizska": {
+      "name": "Pařížská",
+      "lat": 50.09008,
+      "lng": 14.41895,
+      "district": "Praha 1 – Josefov",
+      "osm": "Pařížská, Josefov, obvod Praha 1, Praha, 115 72, Česko"
+    },
     "petrin": {
       "name": "Petřín",
       "lat": 50.08166,
