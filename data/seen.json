@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -966,7 +966,7 @@
       "title": "Úleva pro přetíženou pasovku na pražském letišti, přibudou nové přepážky",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-05",
-      "usedInPost": "airport-terminal-1-border-control-expansion"
+      "usedInPost": "airport-terminal-1-border-control-expansion,airport-terminal-1-ceiling-falls-twice"
     },
     "967b813a2855c612": {
       "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/stanice-prazskeho-metra-flora-bude-uzavrena-az-do-konce-unora-376799",
@@ -1415,6 +1415,13 @@
       "source": "archiweb.cz (ČTK)",
       "firstSeen": "2026-09-01",
       "usedInPost": "zapadni-mesto-school-approved"
+    },
+    "f032640e601e81cf": {
+      "url": "https://zdopravy.cz/video-na-prazskem-letisti-se-zritila-stropni-konstrukce-305618",
+      "title": "Video: Na pražském letišti se zřítila stropní konstrukce",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-06",
+      "usedInPost": "airport-terminal-1-ceiling-falls-twice"
     },
     "f20b183cbf6006c3": {
       "url": "https://www.praha7.cz/skoly-rekonstrukce-26",
