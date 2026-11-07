@@ -1,6 +1,6 @@
-# Scan log — 2026-11-06
+# Scan log — 2026-11-07
 
-Scanned `2026-11-06T05:06:46.454Z`, window 21 days.
+Scanned `2026-11-07T05:06:41.149Z`, window 21 days.
 
 ## Sources
 
@@ -10,15 +10,15 @@ Scanned `2026-11-06T05:06:46.454Z`, window 21 days.
 - ✓ **PID / ROPID** — 4 new of 10 (6 off-topic, 0 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 4 new of 40 (36 off-topic, 0 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 2 new of 40 (37 off-topic, 1 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
 - ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **Expats.cz** — 1 new of 25 (24 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 10 new of 37 (27 off-topic, 0 covered, 0 outside window)
+- ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 11 new of 37 (26 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (3 off-topic, 0 covered, 7 outside window)
 
-## Candidates — 24 in 24 clusters
+## Candidates — 22 in 22 clusters
 
 1. `23` transport — Kolaps příměstských autobusů na severu Prahy. Kvůli zácpám mají i 45 minut zpoždění, není je kam odklánět
 2. `23` transport — Listopadové výluky MHD: výběr hlavních změn pro cestující z Prahy 1
@@ -32,49 +32,33 @@ Scanned `2026-11-06T05:06:46.454Z`, window 21 days.
 10. `13` public-space — Školní jídelny Prahy 1 hledají nové chutě. V hlavní roli byla zelenina a luštěniny
 11. `13` transport — PID Point rozšiřuje své služby. Zamíří do škol i dalších obcí, nově přijímá pouze bezhotovostní platby
 12. `13` transport — I na našich informačních centrech a PID Pointu můžete podpořit válečné veterány
-13. `11` transport — Prague confirms exact date for Hradčanská metro closure
-14. `10` transport — Video: Na pražském letišti se zřítila stropní konstrukce
-15. `9` transport — Natáčení v ulici Františka Křížka
-16. `9` public-space — Dvě smuteční vrby na Klárově čeká zdravotní a bezpečnostní řez
-17. `9` public-space — Pozor na deratizaci proti hlodavcům
-18. `9` public-space — Střední část parku Tusarova bude oplocená
+13. `11` public-space — Kvůli opravě mlatových povrchů bude dočasně uzavřeno hřiště na Ortenově náměstí
+14. `10` transport — Výpadek proudu ochromil dopravu v části Prahy. Nefungují ani semafory
+15. `10` architecture — Provoz MŠ Národní se z Platýzu dočasně přestěhuje do Pštrossovy ulice
+16. `9` transport — Natáčení v ulici Františka Křížka
+17. `9` public-space — Dvě smuteční vrby na Klárově čeká zdravotní a bezpečnostní řez
+18. `9` public-space — Pozor na deratizaci proti hlodavcům
 19. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
 20. `9` planning — „Mladí lidé potřebují místo, kde se mohou trochu ztratit,“ říká Andrea Midlochová z Kanceláře participace
 21. `9` transport — Praha se mění v mezinárodní metropoli. Roste díky lidem ze zahraničí a bude na nich stále více závislá
-22. `8` transport — D1 se šesti pruhy mezi Prahou a Brnem. Stát odsouhlasil plány na rozšíření dálnice za 100 miliard
-23. `8` transport — Po Lašákově odchodu se opět hledá nový šéf Letiště Praha. Stát chce zkušeného manažera s desetiletou strategií
-24. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
+22. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
 
 
 ## Decisions
 
-## Decisions
+**Written (0):** nothing cleared the bar. Eighteen of the 22 candidates were already judged and skipped on 2026-11-06 and nothing about them has changed; the four new ones are below.
 
-**Written (1):**
-- `airport-terminal-1-ceiling-falls-twice` (transport) — #14, two falls of the suspended ceiling over the Terminal 1 arrivals passport control (October, and ~04:30 on 5 Nov), both during the reconstruction this site covered on 2026-09-06. Contested: the airport blames the contractor for the first and denies a cover-up alleged on X. Single source (Zdopravy.cz, with its September contract report cited for the BAK–PULSKLIMA contract); the article says Zdopravy does not name the contractor and does not attribute the ceiling to the consortium. The X poster's accusation against a named board member is reported without the name.
+**Released (0):** the queue was empty and stays empty (0). No lead to pin.
 
-**Released (1):** `airport-terminal-1-ceiling-falls-twice`, pinned as lead (`featured: true`). Queue is now **empty** (0).
+**Skipped — new today:**
+- #13 Praha 7: Ortenovo náměstí playground closed 11–13 Nov to repair the hoggin surfaces — routine three-day maintenance.
+- #14 Zdopravy: substation failure cut power across parts of Praha 5 and 6, stopping traffic lights and delaying trams — a one-off outage, nothing decided or built; not worth reading in a month.
+- #15 Praha 1: MŠ Národní moves out of Palác Platýz to Pštrossova from July 2027 — read in full. The council approved the lease contracts for the temporary premises; it is a nursery relocation that fails the other-district test. The page mentions only in passing that TCP a.s. starts preparatory work on the Platýz reconstruction in January 2027, with no scope, budget or permit — not enough to write the reconstruction story from. Worth watching for when it is reported properly.
+- (#7 Praha 5 clubhouse lease was new yesterday and skipped then as local administrative detail.)
 
-**Skipped:**
-- #1 Zdopravy: suburban buses 30–45 min late from Cínovecká resurfacing — the works (23 Oct–10 Dec) were already published on 2026-10-14 (`cinovecka-narrows-to-one-lane`); this is their foreseeable effect, nothing decided, and stale once the works end in five weeks.
-- #2 Praha 1 November tram diversions, #3 Florenc tram closure 4–12 Nov — short-term works notices.
-- #4 PID "3 sekundy" campaign — safety campaign, not the built environment.
-- #5 Praha 7 job ad for the transport-construction department — staff notice.
-- #6 CAMP: CHYBÍK + KRIŠTOF Nádraží Holešovice — tour recap; competition already published 2026-09-20, nothing decided since.
-- #7 Praha 5 clubhouse lease — local administrative detail.
-- #8, #11 PID Point timetables / service changes — customer-service notices.
-- #9 Praha 8 road closure at OD Odra for the final inspection — a one-afternoon closure; the occupancy permit itself has not been reported as granted.
-- #10 Praha 1 school canteens, #12 veterans' collection — not the built environment.
-- #13 Expats.cz Hradčanská closure date — already published 2026-11-04.
-- #15 Filming in Františka Křížka — parking notice.
-- #16 Klárov willows pruning, #17 Praha 5 rodent control — routine maintenance.
-- #18 Praha 7 Tusarova park fence — local.
-- #19, #24 CAMP / IPR on cemeteries — features, nothing changed.
-- #20 CAMP interview with Kancelář participace — interview, no decision.
-- #21 IPR international residents — data description, no decision.
-- #22 D1 six-laning Prague–Brno — national motorway, not a Prague story.
-- #23 Letiště Praha CEO search — corporate personnel.
+**Skipped — carried over from 2026-11-06, unchanged:** #1 Cínovecká bus delays (works already covered 2026-10-14), #2–#3 Florence/Praha 1 tram diversions (short-term notices), #4 PID safety campaign, #5 Praha 7 job ad, #6 CAMP Nádraží Holešovice tour recap (competition covered 2026-09-20), #8/#11/#12 PID Point notices, #9 OD Odra one-afternoon road closure for the final inspection (occupancy permit not reported as granted), #10 Praha 1 school canteens, #16 filming parking notice, #17 Klárov willows pruning, #18 Praha 5 rodent control, #19/#22 CAMP/IPR cemetery features, #20 CAMP participation interview, #21 IPR international residents data piece.
 
-**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September — it blocks the PragueInsiderBot user-agent. **A human still needs to decide on this.** Every other source answered.
+**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September — earlier runs found it blocks the PragueInsiderBot user-agent (a browser UA gets 200). The adapter is unchanged pending an editorial decision. **A human still needs to decide on this.** Every other source answered.
 
-**Geocoding:** none needed — the pin reuses the Terminal 1 point from `airport-terminal-1-border-control-expansion`.
+**Geocoding:** none needed — nothing written.
+
