@@ -1,6 +1,6 @@
-# Scan log — 2026-11-07
+# Scan log — 2026-11-08
 
-Scanned `2026-11-07T05:06:41.149Z`, window 21 days.
+Scanned `2026-11-08T05:06:44.586Z`, window 21 days.
 
 ## Sources
 
@@ -46,19 +46,14 @@ Scanned `2026-11-07T05:06:41.149Z`, window 21 days.
 
 ## Decisions
 
-**Written (0):** nothing cleared the bar. Eighteen of the 22 candidates were already judged and skipped on 2026-11-06 and nothing about them has changed; the four new ones are below.
+## Decisions
 
-**Released (0):** the queue was empty and stays empty (0). No lead to pin.
+**Written (0):** nothing cleared the bar. The digest is identical to 2026-11-07's: the same 22 candidates, none new. Every item was read and judged on 2026-11-06 or 2026-11-07, and no source has reported a change to any of them since.
 
-**Skipped — new today:**
-- #13 Praha 7: Ortenovo náměstí playground closed 11–13 Nov to repair the hoggin surfaces — routine three-day maintenance.
-- #14 Zdopravy: substation failure cut power across parts of Praha 5 and 6, stopping traffic lights and delaying trams — a one-off outage, nothing decided or built; not worth reading in a month.
-- #15 Praha 1: MŠ Národní moves out of Palác Platýz to Pštrossova from July 2027 — read in full. The council approved the lease contracts for the temporary premises; it is a nursery relocation that fails the other-district test. The page mentions only in passing that TCP a.s. starts preparatory work on the Platýz reconstruction in January 2027, with no scope, budget or permit — not enough to write the reconstruction story from. Worth watching for when it is reported properly.
-- (#7 Praha 5 clubhouse lease was new yesterday and skipped then as local administrative detail.)
+**Released (0):** the queue was empty and stays empty (0). No lead to pin. This is the second day running with nothing published.
 
-**Skipped — carried over from 2026-11-06, unchanged:** #1 Cínovecká bus delays (works already covered 2026-10-14), #2–#3 Florence/Praha 1 tram diversions (short-term notices), #4 PID safety campaign, #5 Praha 7 job ad, #6 CAMP Nádraží Holešovice tour recap (competition covered 2026-09-20), #8/#11/#12 PID Point notices, #9 OD Odra one-afternoon road closure for the final inspection (occupancy permit not reported as granted), #10 Praha 1 school canteens, #16 filming parking notice, #17 Klárov willows pruning, #18 Praha 5 rodent control, #19/#22 CAMP/IPR cemetery features, #20 CAMP participation interview, #21 IPR international residents data piece.
+**Skipped, all carried over and unchanged:** #1 Cínovecká bus delays (the works were already covered 2026-10-14), #2–#3 Florence/Praha 1 tram diversions (short-term notices), #4 PID safety campaign (not the built environment), #5 Praha 7 job ad, #6 CAMP Nádraží Holešovice tour recap (the competition was covered 2026-09-20), #7 Praha 5 clubhouse lease (local administrative detail), #8/#11/#12 PID Point notices, #9 OD Odra road closed for one afternoon for the final inspection (no occupancy permit reported as granted), #10 Praha 1 school canteens, #13 Ortenovo náměstí playground resurfacing (three-day maintenance), #14 Praha 5/6 power outage (a one-off incident), #15 MŠ Národní moving out of Palác Platýz (a nursery relocation; the Platýz reconstruction itself has not been properly reported yet, so watch for it), #16 filming parking notice, #17 Klárov willow pruning, #18 Praha 5 rodent control, #19/#22 CAMP/IPR cemetery features, #20 CAMP participation interview, #21 IPR international residents data piece (descriptive, nothing decided).
 
-**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September — earlier runs found it blocks the PragueInsiderBot user-agent (a browser UA gets 200). The adapter is unchanged pending an editorial decision. **A human still needs to decide on this.** Every other source answered.
+**Source errors:** archiweb.cz returned **HTTP 429 again**, as it has on every run since 22 September. Earlier runs found that it blocks the PragueInsiderBot user-agent, while a browser user-agent gets 200. The adapter is unchanged until someone makes an editorial decision. **A human still needs to decide on this.** Every other source answered.
 
-**Geocoding:** none needed — nothing written.
-
+**Geocoding:** none needed, because nothing was written.
