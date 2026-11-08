@@ -46,8 +46,6 @@ Scanned `2026-11-08T05:06:44.586Z`, window 21 days.
 
 ## Decisions
 
-## Decisions
-
 **Written (0):** nothing cleared the bar. The digest is identical to 2026-11-07's: the same 22 candidates, none new. Every item was read and judged on 2026-11-06 or 2026-11-07, and no source has reported a change to any of them since.
 
 **Released (0):** the queue was empty and stays empty (0). No lead to pin. This is the second day running with nothing published.
