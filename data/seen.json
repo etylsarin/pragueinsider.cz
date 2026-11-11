@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-08",
+  "updated": "2026-11-11",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -331,6 +331,13 @@
       "firstSeen": "2026-09-19",
       "usedInPost": "metro-d-namesti-miru-nusle-visualisations"
     },
+    "2d9ac88bb5c6e987": {
+      "url": "https://zdopravy.cz/stavba-metra-d-zasahne-do-dopravy-na-jihu-prahy-mesto-predstavilo-nove-uzavirky-a-objizdky-306198",
+      "title": "Stavba metra D zasáhne do dopravy na jihu Prahy. Město představilo nové uzavírky a objížďky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-11",
+      "usedInPost": "sulicka-closes-seven-months-metro-d"
+    },
     "2f6fe8477193d6c8": {
       "url": "https://praha.camp/magazin/detail/reka-v-hlavni-roli-na-rohanskem-ostrove-vznikne-mestsky-park-maniny",
       "title": "Řeka v hlavní roli. Na Rohanském ostrově vznikne městský Park Maniny",
@@ -568,6 +575,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-10-07",
       "usedInPost": "tram-track-design-standard"
+    },
+    "52f002cd1784636b": {
+      "url": "https://zdopravy.cz/jistota-osminasobku-rsd-koupilo-od-maltezskych-rytiru-pozemky-pro-prazsky-okruh-za-ctvrt-miliardy-305927",
+      "title": "Jistota osminásobku. ŘSD koupilo od Maltézských rytířů pozemky pro Pražský okruh za čtvrt miliardy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-11",
+      "usedInPost": "ring-road-brezineves-knights-of-malta-land"
     },
     "5382ffee3cbd1fdc": {
       "url": "https://zdopravy.cz/rychly-obrat-s-cityelefanty-v-praze-a-okoli-vetsina-vlaku-uz-jezdi-v-beznem-razeni-298817",

@@ -71,6 +71,13 @@
       "district": "Praha 8 – Bohnice",
       "osm": "Bohnický hřbitov, Dolákova, Bohnice, Praha 8, obvod Praha 8, Praha, 151 00, Česko"
     },
+    "brezineves": {
+      "name": "Březiněves",
+      "lat": 50.16494,
+      "lng": 14.48385,
+      "district": "Praha 8",
+      "osm": "Praha-Březiněves, obvod Praha 8, Praha, Česko"
+    },
     "britska ctvrt": {
       "name": "Britská čtvrť",
       "lat": 50.04754,

@@ -1,57 +1,79 @@
-# Scan log — 2026-11-08
+# Scan log — 2026-11-11
 
-Scanned `2026-11-08T05:06:44.586Z`, window 21 days.
+Scanned `2026-11-11T05:07:07.823Z`, window 21 days.
 
 ## Sources
 
-- ✓ **praha.camp (CAMP)** — 3 new of 40 (0 off-topic, 0 covered, 37 outside window)
-- ✓ **IPR Praha** — 2 new of 24 (0 off-topic, 1 covered, 21 outside window)
+- ✓ **praha.camp (CAMP)** — 2 new of 40 (0 off-topic, 0 covered, 38 outside window)
+- ✓ **IPR Praha** — 2 new of 24 (0 off-topic, 0 covered, 22 outside window)
 - ✓ **Dopravní podnik hl. m. Prahy** — 0 new of 10 (1 off-topic, 2 covered, 7 outside window)
 - ✓ **PID / ROPID** — 4 new of 10 (6 off-topic, 0 covered, 0 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 2 new of 40 (37 off-topic, 1 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 3 new of 40 (37 off-topic, 0 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 11 new of 37 (26 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague City Tourism** — 0 new of 10 (3 off-topic, 0 covered, 7 outside window)
+- ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
+- ✓ **Expats.cz** — 2 new of 25 (23 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 12 new of 36 (24 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague City Tourism** — 0 new of 10 (4 off-topic, 0 covered, 6 outside window)
 
-## Candidates — 22 in 22 clusters
+## Candidates — 27 in 27 clusters
 
-1. `23` transport — Kolaps příměstských autobusů na severu Prahy. Kvůli zácpám mají i 45 minut zpoždění, není je kam odklánět
-2. `23` transport — Listopadové výluky MHD: výběr hlavních změn pro cestující z Prahy 1
-3. `20` transport — Výluka tramvají na Florenci
+1. `25` transport — Stavba metra D zasáhne do dopravy na jihu Prahy. Město představilo nové uzavírky a objížďky
+2. `19` transport — Natáčení na nábřeží Kpt. Jaroše
+3. `18` transport — Jistota osminásobku. ŘSD koupilo od Maltézských rytířů pozemky pro Pražský okruh za čtvrt miliardy
 4. `18` transport — Oči od displeje, pozornost do ulice. Kampaň oslovila školáky i rodiče přechodech v centru
-5. `17` architecture — Hledáme nového kolegu nebo kolegyni do oddělení dopravních staveb
-6. `16` transport — Z odříznutého dopravního uzlu propojená čtvrť. Návrh studia CHYBÍK + KRIŠTOF mění Holešovice
+5. `17` transport — Magistrát: Průzkumná štola Radlické radiály se otevře veřejnosti
+6. `17` architecture — Hledáme nového kolegu nebo kolegyni do oddělení dopravních staveb
 7. `15` public-space — Klubovnu získal do pronájmu místní spolek
 8. `14` transport — Mobilní informační centrum PID Point: Jízdní řády na listopad
-9. `13` development — Dočasné uzavření komunikací u OD Odra
-10. `13` public-space — Školní jídelny Prahy 1 hledají nové chutě. V hlavní roli byla zelenina a luštěniny
+9. `13` transport — Micro Praha Festival Returns With 93 Watch Brands From 27 Countries
+10. `13` development — Dočasné uzavření komunikací u OD Odra
 11. `13` transport — PID Point rozšiřuje své služby. Zamíří do škol i dalších obcí, nově přijímá pouze bezhotovostní platby
 12. `13` transport — I na našich informačních centrech a PID Pointu můžete podpořit válečné veterány
-13. `11` public-space — Kvůli opravě mlatových povrchů bude dočasně uzavřeno hřiště na Ortenově náměstí
-14. `10` transport — Výpadek proudu ochromil dopravu v části Prahy. Nefungují ani semafory
-15. `10` architecture — Provoz MŠ Národní se z Platýzu dočasně přestěhuje do Pštrossovy ulice
-16. `9` transport — Natáčení v ulici Františka Křížka
-17. `9` public-space — Dvě smuteční vrby na Klárově čeká zdravotní a bezpečnostní řez
-18. `9` public-space — Pozor na deratizaci proti hlodavcům
-19. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
-20. `9` planning — „Mladí lidé potřebují místo, kde se mohou trochu ztratit,“ říká Andrea Midlochová z Kanceláře participace
-21. `9` transport — Praha se mění v mezinárodní metropoli. Roste díky lidem ze zahraničí a bude na nich stále více závislá
-22. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
+13. `12` planning — Zastupitelé zvolili radu Prahy 7, starostou se počtvrté stal Jan Čižinský
+14. `11` public-space — Kvůli opravě mlatových povrchů bude dočasně uzavřeno hřiště na Ortenově náměstí
+15. `10` transport — Z Prahy do Villachu už jen s přestupem. Zachování stability jízdního řádu, vysvětlují dráhy
+16. `10` transport — Praha potřebuje manažerské řízení, kolem městského okruhu se čtyři roky jen přešlapovalo, kritizuje Kasl
+17. `9` planning — Objevte moderní postupy zdravého vaření
+18. `9` planning — Ochutnávkový bufet nabídne inspiraci pro přípravu ryb a zeleniny
+19. `9` public-space — Přehled akcí na tento týden
+20. `9` transport — Natáčení v ulici Františka Křížka
+21. `9` public-space — Pozor na deratizaci proti hlodavcům
+22. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
+23. `9` planning — „Mladí lidé potřebují místo, kde se mohou trochu ztratit,“ říká Andrea Midlochová z Kanceláře participace
+24. `9` transport — Praha se mění v mezinárodní metropoli. Roste díky lidem ze zahraničí a bude na nich stále více závislá
+25. `6` planning — Prague Christmas markets 2026: When they open and where to go
+26. `6` transport — Prague’s Christmas trams are back: How to see the glowing fleet in 2026
+27. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
 
 
 ## Decisions
 
-**Written (0):** nothing cleared the bar. The digest is identical to 2026-11-07's: the same 22 candidates, none new. Every item was read and judged on 2026-11-06 or 2026-11-07, and no source has reported a change to any of them since.
+**Written (2):**
+- #1 `sulicka-closes-seven-months-metro-d` (transport) — the city's closure schedule for metro D stations Nádraží Krč and Nemocnice Krč: Sulická shut between Branická and Pod Višňovkou 25 Nov 2026–30 Jun 2027, buses 117/121/203 lose Nádraží Krč, January closures at Branická and Zálesí × Vídeňská. Single source (Zdopravy.cz), fetched with a browser UA; the city's own release was not in the digest.
+- #3 `ring-road-brezineves-knights-of-malta-land` (transport) — ŘSD contract in the register: CZK 269,447,040 to the Order of Malta for three plots appraised at 33.68 m (8× rule), the site of the D0 519 Březiněves interchange with the D8. Single source (Zdopravy.cz). The article says "severozápad Prahy"; Březiněves is north, so the piece avoids the compass point rather than repeat it.
 
-**Released (0):** the queue was empty and stays empty (0). No lead to pin. This is the second day running with nothing published.
+**Released (2):** both of the above, stamped 2026-11-11. Lead: the Sulická closure (`featured: true`) — it changes how a whole quarter moves from 25 November; the land deal is money committed but construction is two years off. Queue is now empty (0). Both releases are transport; the queue held nothing from another desk, so release.mjs had no choice to make.
 
-**Skipped, all carried over and unchanged:** #1 Cínovecká bus delays (the works were already covered 2026-10-14), #2–#3 Florence/Praha 1 tram diversions (short-term notices), #4 PID safety campaign (not the built environment), #5 Praha 7 job ad, #6 CAMP Nádraží Holešovice tour recap (the competition was covered 2026-09-20), #7 Praha 5 clubhouse lease (local administrative detail), #8/#11/#12 PID Point notices, #9 OD Odra road closed for one afternoon for the final inspection (no occupancy permit reported as granted), #10 Praha 1 school canteens, #13 Ortenovo náměstí playground resurfacing (three-day maintenance), #14 Praha 5/6 power outage (a one-off incident), #15 MŠ Národní moving out of Palác Platýz (a nursery relocation; the Platýz reconstruction itself has not been properly reported yet, so watch for it), #16 filming parking notice, #17 Klárov willow pruning, #18 Praha 5 rodent control, #19/#22 CAMP/IPR cemetery features, #20 CAMP participation interview, #21 IPR international residents data piece (descriptive, nothing decided).
+**Skipped:**
+- #2, #20 filming parking notices (nábřeží Kpt. Jaroše, Františka Křížka) — short-term notices.
+- #4 PID safety campaign — not the built environment.
+- #5 Radlická radiála exploratory tunnel open day (28 Nov) — an event; nothing decided about the road.
+- #6 Praha 7 job ad — institutional self-description.
+- #7 Praha 5 clubhouse lease — local administrative detail.
+- #8, #11, #12 PID Point notices — timetable leaflets and service notices.
+- #9 Micro Praha watch festival — not the built environment (mis-tagged transport).
+- #10 OD Odra road closed for an afternoon — carried over, no occupancy permit reported.
+- #13 Praha 7 council elects Čižinský for a fourth term — political appointment, no built-environment decision in it.
+- #14 Ortenovo náměstí playground resurfacing — three-day maintenance.
+- #15 Praha–Villach trains now need a change — a long-distance timetable matter, not Prague's built environment.
+- #16 iROZHLAS interview with Jan Kasl on the city ring road — opinion from a mayoral candidate; nothing has changed.
+- #17, #18 Praha 1 cooking workshops; #19 weekly events listing; #21 rodent control — not the built environment.
+- #22, #27 cemetery features; #23 participation interview; #24 international residents data piece — descriptive, carried over.
+- #25 Christmas markets, #26 Christmas trams — seasonal guides.
 
-**Source errors:** archiweb.cz returned **HTTP 429 again**, as it has on every run since 22 September. Earlier runs found that it blocks the PragueInsiderBot user-agent, while a browser user-agent gets 200. The adapter is unchanged until someone makes an editorial decision. **A human still needs to decide on this.** Every other source answered.
+**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September (blocks the PragueInsiderBot UA; a browser UA gets 200). **Still needs a human decision.** Every other source answered.
 
-**Geocoding:** none needed, because nothing was written.
+**Geocoding:** both resolved — Nádraží Krč from the gazetteer, Březiněves from Nominatim (written to data/places.json). District for the second set to "Praha-Březiněves", the městská část, rather than OSM's obvod "Praha 8".
