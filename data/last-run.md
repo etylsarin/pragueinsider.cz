@@ -69,7 +69,7 @@ Scanned `2026-11-11T05:07:07.823Z`, window 21 days.
 - #13 Praha 7 council elects Čižinský for a fourth term — political appointment, no built-environment decision in it.
 - #14 Ortenovo náměstí playground resurfacing — three-day maintenance.
 - #15 Praha–Villach trains now need a change — a long-distance timetable matter, not Prague's built environment.
-- #16 iROZHLAS interview with Jan Kasl on the city ring road — opinion from a mayoral candidate; nothing has changed.
+- #16 iROZHLAS interview with Jan Kasl on the city ring road — an opinion interview; nothing has changed.
 - #17, #18 Praha 1 cooking workshops; #19 weekly events listing; #21 rodent control — not the built environment.
 - #22, #27 cemetery features; #23 participation interview; #24 international residents data piece — descriptive, carried over.
 - #25 Christmas markets, #26 Christmas trams — seasonal guides.
