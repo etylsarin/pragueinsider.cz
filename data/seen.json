@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -289,6 +289,13 @@
       "firstSeen": "2026-08-27",
       "usedInPost": "t3-back-to-back-sets-return"
     },
+    "2a1a7c3c919f61a1": {
+      "url": "https://zdopravy.cz/do-cela-prazske-dopravy-se-vraci-adam-scheinherr-vystrida-piraty-chystaji-se-zmeny-ve-vedeni-dopravniho-podniku-306379",
+      "title": "Do čela pražské dopravy se vrací Adam Scheinherr. Vystřídá Piráty, chce rozjet okruh, nové tramvajové tratě i linky metra",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-12",
+      "usedInPost": "scheinherr-returns-to-prague-transport"
+    },
     "2a3749ed8d2ac5b7": {
       "url": "https://pid.cz/trvale-zmeny-pid-od-zari-2026",
       "title": "Trvalé změny PID od září 2026",
@@ -539,7 +546,7 @@
       "title": "Konkurence pro Airport Express. Letiště a hlavní nádraží propojí BusAir, bude výrazně levnější",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-26",
-      "usedInPost": "busair-airport-line-undercuts-airport-express"
+      "usedInPost": "busair-airport-line-undercuts-airport-express,flixbus-joins-airport-bus-route"
     },
     "50249af0d08af752": {
       "url": "https://www.archiweb.cz/n/domaci/czu-otevrela-v-suchdole-drevostavbu-lesovna-bude-slouzit-studentum",
@@ -1303,6 +1310,13 @@
       "source": "Městská část Praha 5",
       "firstSeen": "2026-09-16",
       "usedInPost": "smichov-city-school-donation"
+    },
+    "cd26906862d0c8b4": {
+      "url": "https://zdopravy.cz/konkurence-v-autobusech-mezi-letistem-a-centrem-prahy-houstne-na-trasu-vstupuje-dalsi-dopravce-306504",
+      "title": "Konkurence v autobusech mezi letištěm a centrem Prahy houstne. Na trasu vstupuje další dopravce",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-12",
+      "usedInPost": "flixbus-joins-airport-bus-route"
     },
     "cd6cdaf7db826c74": {
       "url": "https://www.praha1.cz/ziva-pamet-vyhlasuje-umeleckou-soutez-na-navrh-pametni-desky-obetem-holokaustu-romu-a-sintu",
