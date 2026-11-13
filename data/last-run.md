@@ -70,4 +70,4 @@ Scanned `2026-11-13T05:06:51.608Z`, window 21 days.
 
 **Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September. **Still needs a human decision.** Every other source answered.
 
-**Geocoding:** pinned to Kubelíkova (Žižkov), inside the zone and the site of the contested junctions; resolved from the gazetteer.
+**Geocoding:** pinned to Kubelíkova (Žižkov), inside the zone and the site of the contested junctions; a new Nominatim lookup, now added to `data/places.json`.
