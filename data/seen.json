@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -637,7 +637,7 @@
       "title": "Čtvrtá kolej na příjezdu do Prahy od východu. SŽ už na severní větev VRT shání projektanty",
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-24",
-      "usedInPost": "liben-bechovice-fourth-track-design-tender"
+      "usedInPost": "liben-bechovice-fourth-track-design-tender,kyje-fourth-track-broumarska-bridge-closure"
     },
     "5f81f1aa2d1eb679": {
       "url": "https://www.praha1.cz/praha-1-zahajila-obnovu-krannerovy-kasny-do-pamatky-se-vrati-voda",
@@ -1338,6 +1338,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-07",
       "usedInPost": "tram-track-design-standard"
+    },
+    "cf12ac32a6dd9771": {
+      "url": "https://zdopravy.cz/ctvrta-kolej-na-vstupu-vrt-do-prahy-projektanti-predstavili-co-bude-obnaset-stavba-severni-vetve-306919",
+      "title": "Čtvrtá kolej na vstupu VRT do Prahy: Projektanti představili, co bude obnášet stavba severní větve",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-15",
+      "usedInPost": "kyje-fourth-track-broumarska-bridge-closure"
     },
     "d29f79d419e4698f": {
       "url": "https://zdopravy.cz/cd-maji-volnou-cestu-k-nakupu-vlaku-od-skody-za-36-miliard-stadler-neuspel-u-uohs-303413",

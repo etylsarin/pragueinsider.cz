@@ -645,6 +645,13 @@
       "district": "Praha 1 – Nové Město",
       "osm": "Praha hlavní nádraží, Wilsonova, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
+    "praha kyje": {
+      "name": "Praha-Kyje",
+      "lat": 50.09729,
+      "lng": 14.5444,
+      "district": "Praha 9 – Kyje",
+      "osm": "Praha-Kyje, Kyje, Praha 14, obvod Praha 9, Praha, 198 00, Česko"
+    },
     "praha smichov": {
       "name": "Praha-Smíchov",
       "lat": 50.06098,
