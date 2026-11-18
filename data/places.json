@@ -281,6 +281,13 @@
       "district": "Praha 1 – Malá Strana",
       "osm": "Kampa, Malá Strana, obvod Praha 1, Praha, Česko"
     },
+    "kastan brevnov": {
+      "name": "Kaštan Břevnov",
+      "lat": 50.0837,
+      "lng": 14.3608,
+      "district": "Praha 6 – Břevnov",
+      "osm": "Kaštan - scéna Unijazzu, Bělohorská, Břevnov, Praha 6, obvod Praha 6, Praha, 169 00, Česko"
+    },
     "kbelska": {
       "name": "Kbelská",
       "lat": 50.11257,
@@ -791,6 +798,13 @@
       "lng": 14.27801,
       "district": "Praha 5",
       "osm": "Třebonice, obvod Praha 5, Praha, Česko"
+    },
+    "u bulhara": {
+      "name": "U Bulhara",
+      "lat": 50.08653,
+      "lng": 14.43767,
+      "district": "Praha 1 – Nové Město",
+      "osm": "U Bulhara, Hybernská, Nové Město, obvod Praha 1, Praha, 116 47, Česko"
     },
     "u hostavickeho potoka": {
       "name": "U Hostavického potoka",

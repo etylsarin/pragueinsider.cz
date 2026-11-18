@@ -1,76 +1,67 @@
-# Scan log — 2026-11-15
+# Scan log — 2026-11-18
 
-Scanned `2026-11-15T05:06:18.222Z`, window 21 days.
+Scanned `2026-11-18T05:17:48.101Z`, window 21 days.
 
 ## Sources
 
-- ✓ **praha.camp (CAMP)** — 3 new of 40 (0 off-topic, 0 covered, 37 outside window)
-- ✓ **IPR Praha** — 2 new of 24 (0 off-topic, 0 covered, 22 outside window)
-- ✓ **Dopravní podnik hl. m. Prahy** — 2 new of 10 (1 off-topic, 2 covered, 5 outside window)
-- ✓ **PID / ROPID** — 3 new of 10 (5 off-topic, 0 covered, 2 outside window)
+- ✓ **praha.camp (CAMP)** — 2 new of 40 (0 off-topic, 0 covered, 38 outside window)
+- ✓ **IPR Praha** — 1 new of 24 (0 off-topic, 0 covered, 23 outside window)
+- ✓ **Dopravní podnik hl. m. Prahy** — 2 new of 10 (1 off-topic, 1 covered, 6 outside window)
+- ✓ **PID / ROPID** — 2 new of 10 (4 off-topic, 0 covered, 4 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✗ **archiweb.cz** — HTTP 429
-- ✓ **Zdopravy.cz** — 5 new of 40 (34 off-topic, 1 covered, 0 outside window)
+- ✓ **Zdopravy.cz** — 2 new of 40 (38 off-topic, 0 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
 - ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
-- ✓ **Prague Morning** — 1 new of 10 (9 off-topic, 0 covered, 0 outside window)
+- ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
 - ✓ **Expats.cz** — 2 new of 25 (23 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 5 new of 37 (32 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 6 new of 33 (27 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (4 off-topic, 0 covered, 6 outside window)
 
-## Candidates — 24 in 24 clusters
+## Candidates — 18 in 17 clusters
 
 1. `25` transport — Významná dopravní opatření v Praze 4 související se stavbou metra D a dalšími návaznými projekty
-2. `22` transport — V pražské stanici Smíchov nezastavují vlaky. Porucha trakčního vedení je odklonila přes Krč
-3. `20` transport — Prague Adds Special Trams and More Metro Services for Letná Demonstration
-4. `18` transport — Oči od displeje, pozornost do ulice. Kampaň oslovila školáky i rodiče přechodech v centru
-5. `17` planning — Ustavující zastupitelstvo Prahy 1 se sejde 19. listopadu v Národním muzeu
-6. `16` transport — Čtvrtá kolej na vstupu VRT do Prahy: Projektanti představili, co bude obnášet stavba severní větve
-7. `16` transport — Pražská doprava se chystá na velké demonstrace. DPP posiluje tramvaje, autobusy do metropole jsou plné
-8. `16` public-space — Kam vyrazit příští týden?
-9. `16` transport — Praktické informace pro obyvatele Prahy 7 k demonstraci na Letné 15. listopadu
-10. `14` transport — Dopravní opatření v pražské MHD v souvislosti s veřejnými akcemi 15. a 17. listopadu
-11. `14` planning — Čím lépe pochopíme, co se děje za Prahou, tím lépe dokážeme plánovat uvnitř metropole, říká ředitel Sekce metropolitního plánování Michal Leňo
-12. `13` transport — Stadler definitivně v Helsinkách porazil Škodu. Do finské metropole dodá až 183 tramvají
-13. `13` transport — PID Point rozšiřuje své služby. Zamíří do škol i dalších obcí, nově přijímá pouze bezhotovostní platby
-14. `13` transport — I na našich informačních centrech a PID Pointu můžete podpořit válečné veterány
-15. `11` transport — Pendolina do Opavy přibývají. České dráhy přidají další spoj do Prahy
-16. `11` transport — V Praze už je všech 40 tramvají Škoda 52T z původní objednávky. Do konce roku dorazí další, vozovna se naplňuje
-17. `10` public-space — Ošetření stromů v ulicích Jateční a Tusarova
-18. `9` transport — Parkování v zónách placeného stání o státním svátku 17. listopadu
-19. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
-20. `9` planning — „Mladí lidé potřebují místo, kde se mohou trochu ztratit,“ říká Andrea Midlochová z Kanceláře participace
-21. `9` transport — Praha se mění v mezinárodní metropoli. Roste díky lidem ze zahraničí a bude na nich stále více závislá
-22. `8` transport — Huge Prague protest expected Sunday: What to know about crowds and transport
-23. `8` transport — Prague to divert six tram routes and boost metro services for November 17 holiday
-24. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
+2. `23` transport _[2 sources]_ — Dopravní opatření v souvislosti s oslavami 17. listopadu
+3. `23` transport — Opravy havárie kanalizační stoky v ulici Vrbenského
+4. `20` transport — Na pražském hlavním nádraží se srazily osobní vlaky ČD. 46 zraněných, dráhy slibují odškodnění
+5. `18` transport — Oči od displeje, pozornost do ulice. Kampaň oslovila školáky i rodiče přechodech v centru
+6. `17` planning — Ustavující zastupitelstvo Prahy 1 se sejde 19. listopadu v Národním muzeu
+7. `16` public-space — Kam vyrazit příští týden?
+8. `14` transport — Změna v omezení na severu Prahy u D8. Uzavřou nájezd z Ďáblické, „objížděči“ vytvářeli větší kolony
+9. `14` transport — Kvůli pádu člověka do kolejiště nejezdilo metro na části linky A v úseku Dejvická–Petřiny
+10. `14` planning — Čím lépe pochopíme, co se děje za Prahou, tím lépe dokážeme plánovat uvnitř metropole, říká ředitel Sekce metropolitního plánování Michal Leňo
+11. `13` public-space — Sedmička v barvách trikolory: připomínáme si 17. listopad
+12. `13` transport — PID Point rozšiřuje své služby. Zamíří do škol i dalších obcí, nově přijímá pouze bezhotovostní platby
+13. `10` transport — VIDEO: Officers rescue man from Prague metro tracks after platform fall
+14. `10` development — Prague 6 unveils plans to transform historic Břevnov cultural center
+15. `9` transport — Parkování v zónách placeného stání o státním svátku 17. listopadu
+16. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
+17. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
 
 
 ## Decisions
 
-## Decisions
+**Written (2).**
+- #4 Zdopravy — head-on collision of a CityElefant (Os 9409) and a RegioFox (Os 9507) on the bridge over Seifertova at U Bulhara, 17 Nov: 46 injured, four seriously; Drážní inspekce's preliminary cause a signal passed at danger; Praha hl. n. has no ETCS → `main-station-train-collision-no-etcs`. An incident rather than a decision, written because of its scale and the infrastructure gap it exposes (precedent: `airport-terminal-1-ceiling-falls-twice`). Single outlet, attributed throughout; no finding of fault stated. A web search turned up no second report yet. Pinned to U Bulhara (pick 2, the junction).
+- #14 Expats.cz — Prague 6 approves the Kaštan competition result, Atelier bod architekti winning from 44 entries (nine finalists in February) → `brevnov-kastan-competition-bod-architekti`. A decision with a named architect. Single outlet: the Prague 6 release it links (praha6.cz) and echo24.cz are not on this environment's network allowlist, and archiweb.cz (which also carries it) is 429. Quotes exist only as Expats.cz's English renderings, so the Czech gives them as indirect speech. Pinned with `--set` to the OSM point of "Kaštan - scéna Unijazzu", Bělohorská.
 
-**Written (1).**
-- #6 Zdopravy — Kyje public meeting on the Běchovice–Libeň fourth track → `kyje-fourth-track-broumarska-bridge-closure`. A follow-up to `liben-bechovice-fourth-track-design-tender` (24 Oct) with new consequences: the Broumarská bridge closes for seven months, suburban trains probably stop calling at Kyje and Dolní Počernice during works, completion now 2033, and the Libeňský přesmyk — which SŽ's October tender documentation said would be in service before the fourth track started — is now probably to be built at the same time. Single outlet; the October Zdopravy piece is cited for the comparison. Pinned to the Praha-Kyje stop (Praha 14).
-
-**Released (1):** `kyje-fourth-track-broumarska-bridge-closure`, pinned as today's lead (`featured: true`). The queue is empty again (0).
+**Released (2):** `main-station-train-collision-no-etcs` (lead, `featured: true`) and `brevnov-kastan-competition-bod-architekti`. Queue is empty (0).
 
 **Skipped:**
-- #1 DPP metro D traffic measures in Praha 4: already in `sulicka-closes-seven-months-metro-d` (judged 14 Nov).
-- #2 iROZHLAS, trains not stopping at Smíchov after an overhead-line fault: a one-day outage, fails the month test.
-- #3 Prague Morning, #7 Zdopravy, #9 Praha 7, #10 DPP, #22/#23 Expats.cz: service arrangements for the 15 Nov Letná demonstration and the 17 Nov holiday — one-day changes.
-- #4 PID "3 sekundy" school safety campaign: not about the built environment.
-- #5 Praha 1 constituent council meeting, 19 Nov: procedural notice, nothing decided.
-- #8 Praha 5 "Kam vyrazit": events list.
-- #11 CAMP interview with Michal Leňo, #20 participation interview: institutions describing their own work.
-- #12 Stadler wins in Helsinki: a Finnish tender.
-- #13, #14 PID Point notices: service notice and a charity collection.
-- #15 Pendolino to Opava: a long-distance timetable change, not about Prague.
-- #16 40th Škoda 52T delivered: delivery progress note on an order already covered (judged 14 Nov).
-- #17 Praha 7 tree surgery, #18 Praha 10 holiday parking: notices.
-- #19, #24 cemetery features (CAMP, IPR); #21 IPR on international residents: descriptive, nothing changed.
+- #1 DPP metro D traffic measures in Praha 4: already covered in `sulicka-closes-seven-months-metro-d`.
+- #2 Praha 7 / DPP, transport measures for 15 and 17 November: one-off event diversions, fail the month test.
+- #3 Praha 7, PVK repairing a collapsed trunk sewer in Vrbenského: works notice for a repair, nothing decided.
+- #5 PID "3 sekundy… to je easy!" crossing campaign: a safety campaign, not the built environment.
+- #6 Praha 1 constituent council meeting on 19 Nov: a meeting notice; the result (who becomes mayor) may be a story, the notice is not.
+- #7 Praha 5 "Kam vyrazit příští týden?": events listing.
+- #8 Zdopravy, TSK closes the Ďáblická on-ramp until 4 December during Cínovecká resurfacing: a two-and-a-half-week traffic measure, fails the month test.
+- #9 iROZHLAS / #13 Expats.cz, a person falling onto metro tracks (line A; Náměstí Republiky): one-off incidents.
+- #10 praha.camp interview with Michal Leňo: an interview, nothing decided.
+- #11 Praha 7 tricolour ribbons for 17 November: decoration.
+- #12 PID Point mobile info centre goes card-only and visits schools: service notice, mostly Central Bohemia.
+- #15 Praha 10, paid-parking price cap on 17 November: one-day notice.
+- #16 praha.camp / #17 IPR, cemeteries and how burial is changing: a feature on data and trends (urn-place shortage, 15 years' grave capacity); IPR adopts no plan or policy.
 
-**Source errors:** archiweb.cz returned **HTTP 429 again** — every run since 22 September. Earlier runs found it blocks the PragueInsiderBot user-agent while a browser UA gets 200. **A human still needs to decide on this.** Every other source answered.
+**Gazetteer:** a bare `geocode "Kaštan"` lookup recorded an unrelated "Kaštan" on Zakšínská in Střížkov (Praha 9); that entry was removed by hand before commit and replaced with `kastan brevnov`.
 
-**Geocoding:** "Praha-Kyje" resolved from Nominatim to the railway stop in Kyje (Praha 14); district set to "Praha 14 – Kyje" rather than the suggested obvod "Praha 9".
-
+**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September (blocks the PragueInsiderBot UA). **Still needs a human decision.** Every other source answered. Separately, www.praha6.cz and echo24.cz could not be reached from this environment (not on the egress allowlist).

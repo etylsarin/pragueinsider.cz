@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-18",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -113,6 +113,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-02",
       "usedInPost": "t3r-plf-six-more-ropid-objects"
+    },
+    "14af2948e9cbe9ee": {
+      "url": "https://www.expats.cz/czech-news/article/prague-6-unveils-plans-to-transform-historic-brevnov-cultural-center",
+      "title": "Prague 6 unveils plans to transform historic Břevnov cultural center",
+      "source": "Expats.cz",
+      "firstSeen": "2026-11-18",
+      "usedInPost": "brevnov-kastan-competition-bod-architekti"
     },
     "14e04a9712e244d0": {
       "url": "https://zdopravy.cz/dalsi-krok-k-dostavbe-vnitrniho-okruhu-praha-vybrala-monitoring-tunely-si-brzy-pujdou-pro-povoleni-304019",
@@ -778,6 +785,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-09-25",
       "usedInPost": "trebonice-junction-capacity-works"
+    },
+    "7b79952e83a7415f": {
+      "url": "https://zdopravy.cz/v-praze-se-srazily-osobni-vlaky-ceskych-drah-307389",
+      "title": "Na pražském hlavním nádraží se srazily osobní vlaky ČD. 46 zraněných, dráhy slibují odškodnění",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-18",
+      "usedInPost": "main-station-train-collision-no-etcs"
     },
     "7b82a6e61ae4aeca": {
       "url": "https://www.archiweb.cz/n/domaci/zacal-platit-novy-prazsky-uzemni-plan-ma-usnadnit-vystavbu",
