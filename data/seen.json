@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -695,6 +695,13 @@
       "firstSeen": "2026-09-01",
       "usedInPost": "metro-d-station-names-approved,metro-ring-line-e-feasibility-study"
     },
+    "6a3088db032f6351": {
+      "url": "https://ct24.ceskatelevize.cz/clanek/kultura/sametovy-most-od-petra-sise-na-kampe-pripomina-ceskoslovenske-stoleti-hotovy-bude-na-jare-55767",
+      "title": "Sametový most od Petra Síse na Kampě připomíná československé století. Hotový bude na jaře",
+      "source": "ČT24",
+      "firstSeen": "2026-11-19",
+      "usedInPost": "kampa-velvet-bridge-sis-mosaic-unveiled"
+    },
     "6af6db1987083926": {
       "url": "https://zdopravy.cz/ohradky-mizi-doprava-se-vraci-stropni-deska-nad-vestibulem-metra-florenc-je-po-letech-oprav-hotova-296926",
       "title": "Ohrádky mizí, doprava se vrací. Stropní deska nad vestibulem metra Florenc je po letech oprav hotova",
@@ -750,6 +757,13 @@
       "source": "Dopravní podnik hl. m. Prahy",
       "firstSeen": "2026-09-11",
       "usedInPost": "flora-metro-step-free-breakthrough"
+    },
+    "72f4d2c2c87ccdb5": {
+      "url": "https://zdopravy.cz/prvni-dopravni-navrhy-prazske-koalice-parkovani-pro-rezidenty-zdrazi-na-dvojnasobek-a-omezi-se-vjezd-do-centra-307698",
+      "title": "První dopravní návrhy pražské koalice: Parkování pro rezidenty zdraží na dvojnásobek a omezí se vjezd do centra",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-19",
+      "usedInPost": "new-coalition-pass-4750-resident-parking-liben-bridge"
     },
     "74e60b6eb2408608": {
       "url": "https://praha10.cz/tz-po-jednani-starosty-prichazeji-denni-kontroly-staveb-v-malesicich-a-verejne-harmonogramy",
@@ -855,6 +869,13 @@
       "source": "IPR Praha",
       "firstSeen": "2026-08-26",
       "usedInPost": "citydeal-twelve-cities"
+    },
+    "844301b31632bf25": {
+      "url": "https://www.praha1.cz/na-kampe-vznikne-nove-dilo-petra-sise-sametovy-most-ktere-v-obrazech-vypravi-pribeh-ceske-demokracie",
+      "title": "Na Kampě vznikne nové dílo Petra Síse „Sametový most“, které v obrazech vypráví příběh české demokracie",
+      "source": "Městská část Praha 1",
+      "firstSeen": "2026-11-19",
+      "usedInPost": "kampa-velvet-bridge-sis-mosaic-unveiled"
     },
     "84c28d07b2e0e51d": {
       "url": "https://praguemorning.cz/dancing-house-photo-spot-renovation",
@@ -1171,6 +1192,13 @@
       "firstSeen": "2026-10-08",
       "usedInPost": "libus-nove-dvory-tram-construction-start"
     },
+    "b53ac54266a160e1": {
+      "url": "https://www.expats.cz/czech-news/article/prague-s-new-velvet-bridge-tells-czech-history-across-6-300-painted-tiles",
+      "title": "Prague’s new ‘Velvet Bridge’ tells Czech history across 6,300 painted tiles",
+      "source": "Expats.cz",
+      "firstSeen": "2026-11-19",
+      "usedInPost": "kampa-velvet-bridge-sis-mosaic-unveiled"
+    },
     "b5792b917403dacf": {
       "url": "https://zdopravy.cz/neberte-nam-nase-uspory-a-prispejte-na-stavby-vyzvala-praha-vladu-ministr-vsak-vidi-priority-jinde-299130",
       "title": "Neberte nám naše úspory a přispějte na stavby, vyzvala Praha vládu. Ministr však vidí priority jinde",
@@ -1268,6 +1296,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-01",
       "usedInPost": "nadrazni-railway-bridge-second-half"
+    },
+    "c2f6ca531d33382f": {
+      "url": "https://zdopravy.cz/praha-na-jare-zdrazi-rocni-litacku-o-1-100-korun-potvrdil-budouci-primator-307210",
+      "title": "Praha na jaře zdraží roční lítačku o 1 100 korun, potvrdil budoucí primátor",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-19",
+      "usedInPost": "new-coalition-pass-4750-resident-parking-liben-bridge"
     },
     "c32f0193f35da107": {
       "url": "https://zdopravy.cz/praha-3-chysta-dalsi-zonu-30-v-ankete-ji-podporilo-sedm-z-deseti-respondentu-306384",
