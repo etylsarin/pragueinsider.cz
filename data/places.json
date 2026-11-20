@@ -190,6 +190,13 @@
       "district": "Praha 3 – Žižkov",
       "osm": "Flora, Vinohradská, Žižkov, obvod Praha 3, Praha, 100 83, Česko"
     },
+    "folimanka": {
+      "name": "Folimanka",
+      "lat": 50.06792,
+      "lng": 14.43006,
+      "district": "Praha 2 – Vyšehrad",
+      "osm": "Folimanka, Vyšehrad, obvod Praha 2, Praha, Česko"
+    },
     "garaze repy": {
       "name": "Garáže Řepy",
       "lat": 50.07533,

@@ -1,69 +1,73 @@
-# Scan log — 2026-11-19
+# Scan log — 2026-11-20
 
-Scanned `2026-11-19T06:06:19.633Z`, window 21 days.
+Scanned `2026-11-20T06:06:33.657Z`, window 21 days.
 
 ## Sources
 
-- ✓ **praha.camp (CAMP)** — 2 new of 40 (0 off-topic, 0 covered, 38 outside window)
+- ✓ **praha.camp (CAMP)** — 3 new of 40 (0 off-topic, 0 covered, 37 outside window)
 - ✓ **IPR Praha** — 1 new of 24 (0 off-topic, 0 covered, 23 outside window)
 - ✓ **Dopravní podnik hl. m. Prahy** — 2 new of 10 (1 off-topic, 1 covered, 6 outside window)
-- ✓ **PID / ROPID** — 1 new of 10 (5 off-topic, 0 covered, 4 outside window)
+- ✓ **PID / ROPID** — 1 new of 10 (6 off-topic, 0 covered, 3 outside window)
 - ✓ **Klub Za starou Prahu** — 0 new of 10 (0 off-topic, 0 covered, 10 outside window)
 - ✗ **archiweb.cz** — HTTP 429
 - ✓ **Zdopravy.cz** — 3 new of 40 (36 off-topic, 1 covered, 0 outside window)
 - ✓ **ČT24 — Praha** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **iROZHLAS** — 0 new of 40 (40 off-topic, 0 covered, 0 outside window)
+- ✓ **iROZHLAS** — 1 new of 40 (39 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague Morning** — 0 new of 10 (10 off-topic, 0 covered, 0 outside window)
-- ✓ **Expats.cz** — 1 new of 25 (24 off-topic, 0 covered, 0 outside window)
-- ✓ **Městské části** — 10 new of 35 (25 off-topic, 0 covered, 0 outside window)
+- ✓ **Expats.cz** — 0 new of 25 (25 off-topic, 0 covered, 0 outside window)
+- ✓ **Městské části** — 11 new of 36 (25 off-topic, 0 covered, 0 outside window)
 - ✓ **Prague City Tourism** — 0 new of 10 (4 off-topic, 0 covered, 6 outside window)
 
-## Candidates — 20 in 19 clusters
+## Candidates — 22 in 21 clusters
 
 1. `25` transport — Významná dopravní opatření v Praze 4 související se stavbou metra D a dalšími návaznými projekty
 2. `23` transport _[2 sources]_ — Dopravní opatření v souvislosti s oslavami 17. listopadu
-3. `23` transport — Opravy havárie kanalizační stoky v ulici Vrbenského
-4. `18` planning — Ikonická socha Žabáka je zpět na sídlišti Ďáblice. Spolu s ní vznikl i moderní odpočinkový prostor
-5. `18` transport — Oči od displeje, pozornost do ulice. Kampaň oslovila školáky i rodiče přechodech v centru
-6. `17` planning — Ustavující zastupitelstvo Prahy 1 se sejde 19. listopadu v Národním muzeu
-7. `16` transport — První dopravní návrhy pražské koalice: Parkování pro rezidenty zdraží na dvojnásobek a omezí se vjezd do centra
-8. `16` transport — Natáčení před Molochovem
-9. `16` public-space — Kam vyrazit příští týden?
-10. `15` planning — Bruslení v Praze 1: přehled kluzišť a zvýhodněných vstupů pro místní
-11. `14` transport — Změna v omezení na severu Prahy u D8. Uzavřou nájezd z Ďáblické, „objížděči“ vytvářeli větší kolony
-12. `14` planning — Čím lépe pochopíme, co se děje za Prahou, tím lépe dokážeme plánovat uvnitř metropole, říká ředitel Sekce metropolitního plánování Michal Leňo
-13. `13` public-space — Sedmička v barvách trikolory: připomínáme si 17. listopad
-14. `12` public-space — Advent 2026 na Sedmičce
-15. `10` transport — Prague’s new ‘Velvet Bridge’ tells Czech history across 6,300 painted tiles
-16. `9` transport — Nové vlaky až příští rok. RegioJet přiznal další zpoždění, poprvé ukázal interiér polských jednotek pro rychlíky Praha-Brno
-17. `9` transport — Parkování v zónách placeného stání o státním svátku 17. listopadu
-18. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
-19. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
+3. `23` planning — V parku Sacre Coeur stojí nová kaplička
+4. `23` transport — Opravy havárie kanalizační stoky v ulici Vrbenského
+5. `19` architecture — POZVÁNKA: III. veřejné (opakované) představení vítězného návrhu na obnovu náměstí Svatopluka Čecha
+6. `18` planning — Ikonická socha Žabáka je zpět na sídlišti Ďáblice. Spolu s ní vznikl i moderní odpočinkový prostor
+7. `18` transport — Oči od displeje, pozornost do ulice. Kampaň oslovila školáky i rodiče přechodech v centru
+8. `17` planning — Ustavující zastupitelstvo Prahy 1 se sejde 19. listopadu v Národním muzeu
+9. `16` transport — Natáčení před Molochovem
+10. `16` public-space — Kam vyrazit příští týden?
+11. `15` transport — Další komplikace pro novou pražskou tříkolejku. Po dvou soudech zrušilo územní rozhodnutí i ministerstvo
+12. `15` planning — Bruslení v Praze 1: přehled kluzišť a zvýhodněných vstupů pro místní
+13. `14` transport — Změna v omezení na severu Prahy u D8. Uzavřou nájezd z Ďáblické, „objížděči“ vytvářeli větší kolony
+14. `14` planning — Čím lépe pochopíme, co se děje za Prahou, tím lépe dokážeme plánovat uvnitř metropole, říká ředitel Sekce metropolitního plánování Michal Leňo
+15. `13` transport — Dlouhodobé jízdné se zdražit muselo. Byla jen otázka, kdo se pod to podepíše, říká k plánu Prahy Šídlo
+16. `13` public-space — Sedmička v barvách trikolory: připomínáme si 17. listopad
+17. `12` public-space — Advent 2026 na Sedmičce
+18. `9` transport — Nové vlaky až příští rok. RegioJet přiznal další zpoždění, poprvé ukázal interiér polských jednotek pro rychlíky Praha-Brno
+19. `9` development — Když se na hřbitově běhá: jak se mění poslední adresa Pražanů
+20. `6` development — Město jako houba: Kam zmizí déšť, když zaprší?
+21. `6` development — Hřbitovy jsou pro Pražany místem pro pietu i sport. Jejich vztah k pohřbívání se mění
 
 
 ## Decisions
 
-**Written (2).**
-- #7 Zdopravy — incoming coalition's transport programme: annual pass 3,650 → 4,750 Kč from spring (return to the 2015 price; Hlaváček via Novinky.cz, Portlík to ČTK), fares and parking to be approved in H1 2027, IPR to propose traffic measures for the heritage reserve, a transport coordinator post, Libeň bridge "definitely earlier than 2034" → `new-coalition-pass-4750-resident-parking-liben-bridge`. Two Zdopravy pieces (18 and 16 Nov), the second not in the digest but linked from the first. A follow-up to `scheinherr-returns-to-prague-transport` and `annual-coupon-4750-toll-inside-ring` with figures and dates those lacked. Note: Zdopravy's headline gives "parking for residents doubles" as the coalition's; the body attributes it to STAN via Portlík (ODS), and the article says so. Scheinherr's quote names the "Institut plánování a dopravy" (sic, IPR is "a rozvoje"); paraphrased rather than quoted for that reason. Citywide, not pinned.
-- #15 Expats.cz — Petr Sís's *Sametový most*, 70 m × 3.4 m, 6,300 tiles, unveiled on the Kampa wall on 17 Nov 2026 → `kampa-velvet-bridge-sis-mosaic-unveiled`. Something opened in public space. The news angle is the delay: launched 17 Nov 2019 for installation by spring/May 2020 (Praha 1 release and ČT24, both 2019, cited for background). The reason for the delay, final cost and the wall's reconstruction are not in any source the desk could read; the article says so. seznamzpravy.cz and ceskenoviny.cz (2026 reports) are not on the egress allowlist. A web-search snippet attributed to Blesk said the work moved to Vojanovy sady — unread and unconfirmed, contradicted by the 2026 report, left out of the article. Pinned to the gazetteer's Kampa point (the wall itself, south Kampa opposite Střelecký ostrov, is ~200 m away; no OSM feature for it).
+## Decisions
 
-**Released (2):** `new-coalition-pass-4750-resident-parking-liben-bridge` (lead, `featured: true`) and `kampa-velvet-bridge-sis-mosaic-unveiled`. Queue is empty (0).
+**Written and released (lead, `featured: true`):**
+- `nusle-third-track-zoning-annulled` (transport) — Ministry of Transport annulled City Hall's August 2023 zoning decision for the three-track line under the Nusle Bridge, after the Ostrava regional court and the NSS; new hearing ordered, SŽ expects no start before 2032. Single source (Zdopravy.cz), attributed throughout. The ministry's úřední deska page was not reachable from the container (proxy 403), so it is not cited.
 
 **Skipped:**
-- #1 DPP metro D traffic measures in Praha 4 (10 Nov): same announcement already covered in `sulicka-closes-seven-months-metro-d`.
-- #2 Praha 7 / DPP, transport measures for 15 and 17 November: one-off event diversions, past and fail the month test.
-- #3 Praha 7, PVK repairing the trunk sewer in Vrbenského: works notice for a repair, nothing decided.
-- #4 Praha 8, Žabák statue and rest area at Ládví officially opened: follow-up to `ladvi-zabak-fountain-rebuilt` (11 Oct), which already reported the rebuild and test; the opening adds nothing decided.
-- #5 PID "3 sekundy… to je easy!" crossing campaign: a safety campaign, not the built environment.
-- #6 Praha 1 constituent council meeting on 19 Nov: a meeting notice; the outcome may be a story tomorrow.
-- #8 Praha 7, filming parking bans on Milady Horákové: three days of parking restrictions.
-- #9 Praha 5 "Kam vyrazit příští týden?": events listing.
-- #10 Praha 1 ice rinks: seasonal leisure notice.
-- #11 Zdopravy, Ďáblická on-ramp to the D8 closed until the end of Cínovecká repairs: temporary traffic measure, fails the month test.
-- #12 praha.camp interview with Michal Leňo: an interview, nothing decided.
-- #13 Praha 7 tricolour ribbons; #14 Praha 7 Advent programme: decoration and events.
-- #16 Zdopravy, RegioJet's Polish units for Praha–Brno delayed to next year: intercity rolling stock, not Prague's built environment.
-- #17 Praha 10, parking prices on 17 November: one-day notice, past.
-- #18 praha.camp / #19 IPR, cemeteries and changing burial habits: analysis built on IPR's 2023–2050 population and amenities forecast, nothing decided now; new cemeteries in Běchovice and Satalice are mentioned as "being prepared" with no stage or date. Worth a feature if a cemetery scheme reaches a decision. Note the two IPR texts disagree on figures: 28 % vs ~30 % of residents beyond 1.8 km from a cemetery, ~12,000 vs ~12,300 deaths a year.
+- Metro D traffic measures in Praha 4 (DPP, 10 Nov) — already covered on 11 Nov (`sulicka-closes-seven-months-metro-d`) from Zdopravy, including the Branická closure and the two link roads; nothing new decided since.
+- 17 November traffic measures (DPP + Praha 7) — one-day event diversions, past.
+- Sacre Coeur chapel (Praha 5) — participatory-budget shrine, would not matter outside the district.
+- Vrbenského sewer repair (Praha 7) — works notice.
+- Svatopluka Čecha square, repeat presentation (Praha 10) — an invitation to a meeting; the winning design and earlier meetings were covered in September/October.
+- Žabák officially opened at Ládví (Praha 8) — progress step on a story already covered on 11 Oct (`ladvi-zabak-fountain-rebuilt`); the opening adds only the security system.
+- "3 sekundy" pedestrian safety campaign (PID) — campaign, not the built environment.
+- Praha 1 inaugural council meeting — administrative notice.
+- Filming outside Molochov (Praha 7) — parking suspensions for a film shoot.
+- Praha 5 events listing, Praha 1 skating rinks, Praha 7 tricolour ribbons, Praha 7 advent — events and seasonal notices.
+- D8/Ďáblická ramp closure (Zdopravy) — temporary until 4 Dec at the latest; fails the month test. The Cínovecká works were covered on 14 Oct.
+- Michal Leňo interview (CAMP) — interview on metropolitan planning; nothing decided.
+- Šídlo on the fare rise (iROZHLAS) — commentary on the fare plan covered on 19 Nov; the page also returned no readable body to the fetcher.
+- RegioJet Praha–Brno train delay (Zdopravy) — intercity operator business, not Prague's built environment.
+- Cemeteries features (CAMP, IPR) and "Město jako houba" (CAMP) — features; nothing changed.
 
-**Source errors:** archiweb.cz returned **HTTP 429 again**, as on every run since 22 September (blocks the PragueInsiderBot UA). **Still needs a human decision.** Every other source answered. Separately, www.seznamzpravy.cz and www.ceskenoviny.cz could not be reached from this environment (not on the egress allowlist).
+**Source errors:** archiweb.cz — HTTP 429 (rate limited).
+
+**Queue:** 0 after release.
+
