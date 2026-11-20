@@ -1,0 +1,12 @@
+diff --git a/node_modules/gatsby-remark-images/index.js b/node_modules/gatsby-remark-images/index.js
+index d1920e1..93d75bc 100644
+--- a/node_modules/gatsby-remark-images/index.js
++++ b/node_modules/gatsby-remark-images/index.js
+@@ -16,6 +16,7 @@ var visitWithParents = require("unist-util-visit-parents");
+ var getDefinitions = require("mdast-util-definitions");
+ var path = require("path");
+ var queryString = require("query-string");
++queryString = queryString.default || queryString; // query-string >= 8 is ESM with a default export only
+ var isRelativeUrl = require("is-relative-url");
+ var _ = require("lodash");
+ var _require2 = require("gatsby-plugin-sharp"),

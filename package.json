@@ -2,7 +2,7 @@
   "name": "pragueinsider",
   "version": "1.0.0",
   "private": true,
-  "description": "Prague Insider \u2014 urban development, architecture and public space in Prague",
+  "description": "Prague Insider — urban development, architecture and public space in Prague",
   "author": "Prague Insider",
   "license": "UNLICENSED",
   "type": "commonjs",
@@ -16,7 +16,8 @@
     "validate": "node scripts/validate-posts.mjs",
     "geocode": "node scripts/geocode.mjs",
     "photos": "node scripts/attach-photo.mjs --list",
-    "covers": "node scripts/make-covers.mjs"
+    "covers": "node scripts/make-covers.mjs",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@fontsource-variable/source-serif-4": "^5.1.0",
@@ -42,10 +43,65 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
-    "sharp": "^0.33.5",
+    "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17"
   },
   "engines": {
-    "node": ">=20"
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1"
+  },
+  "overrides": {
+    "lodash": "^4.18.1",
+    "tmp": "^0.2.7",
+    "serialize-javascript": "^7.1.4",
+    "webpack": "^5.112.2",
+    "sharp": "$sharp",
+    "@ardatan/relay-compiler": {
+      "immutable": "~3.8.4"
+    },
+    "gatsby": {
+      "path-to-regexp": "0.1.13",
+      "cookie": "^0.7.2",
+      "uuid": "^11.1.1",
+      "webpack-dev-middleware": "^7.4.6",
+      "@graphql-tools/load": "^8.1.21",
+      "@graphql-tools/code-file-loader": "^8.1.43",
+      "@graphql-codegen/core": "^6.2.2",
+      "@graphql-codegen/add": "^7.1.1",
+      "@graphql-codegen/typescript": "^6.1.2",
+      "@graphql-codegen/typescript-operations": "^6.2.0"
+    },
+    "deepmerge": "npm:@shivammathur/deepmerge@4.3.2",
+    "decode-uri-component": "^0.5.1",
+    "query-string": "^9.5.1",
+    "file-type": "^21.3.1",
+    "@graphql-tools/utils": "^12.1.0",
+    "@graphql-codegen/plugin-helpers": "^7.4.2",
+    "@parcel/bundler-default": "2.16.4",
+    "@parcel/cache": "2.16.4",
+    "@parcel/codeframe": "2.16.4",
+    "@parcel/compressor-raw": "2.16.4",
+    "@parcel/core": "2.16.4",
+    "@parcel/diagnostic": "2.16.4",
+    "@parcel/events": "2.16.4",
+    "@parcel/fs": "2.16.4",
+    "@parcel/logger": "2.16.4",
+    "@parcel/markdown-ansi": "2.16.4",
+    "@parcel/namer-default": "2.16.4",
+    "@parcel/optimizer-terser": "2.16.4",
+    "@parcel/package-manager": "2.16.4",
+    "@parcel/packager-js": "2.16.4",
+    "@parcel/packager-raw": "2.16.4",
+    "@parcel/plugin": "2.16.4",
+    "@parcel/reporter-dev-server": "2.16.4",
+    "@parcel/resolver-default": "2.16.4",
+    "@parcel/runtime-js": "2.16.4",
+    "@parcel/transformer-js": "2.16.4",
+    "@parcel/transformer-json": "2.16.4",
+    "@parcel/types": "2.16.4",
+    "@parcel/utils": "2.16.4",
+    "@parcel/workers": "2.16.4"
   }
 }
