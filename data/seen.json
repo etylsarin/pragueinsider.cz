@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -680,6 +680,13 @@
       "source": "Dopravní podnik hl. m. Prahy (DPP)",
       "firstSeen": "2026-08-25",
       "usedInPost": "flora-hradcanska-metro-closures"
+    },
+    "6746a169550c79e4": {
+      "url": "https://zdopravy.cz/praha-schvalila-pres-sto-dalsich-nabijecek-radnice-si-prosadily-zachovani-parkovacich-mist-307927",
+      "title": "Praha schválila přes sto dalších nabíječek. Radnice si prosadily zachování parkovacích míst",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-21",
+      "usedInPost": "prague-113-chargers-parking-kept"
     },
     "67c59ee95b3b82c4": {
       "url": "https://zdopravy.cz/rychlejsi-zeleznice-praha-liberec-ma-smysl-potvrdil-prepocet-sz-chysta-soutez-na-projektanty-296314",
