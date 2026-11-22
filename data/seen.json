@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -1142,6 +1142,13 @@
       "source": "praha.camp (CAMP)",
       "firstSeen": "2026-10-15",
       "usedInPost": "airport-skywalk-cut-back"
+    },
+    "a3d98b8a7851373b": {
+      "url": "https://zdopravy.cz/motoraky-rady-810-konci-na-prazskem-semmeringu-nahradi-je-stadlery-vlaky-zrychli-308109",
+      "title": "Motoráky řady 810 končí na pražském Semmeringu. Nahradí je Stadlery, vlaky zrychlí",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-22",
+      "usedInPost": "s65-semmering-stadlers-ten-minutes-faster"
     },
     "a5a11b96aeb1265f": {
       "url": "https://zdopravy.cz/z-obchodni-pasaze-spojovaci-chodba-letiste-praha-zacalo-skrtat-v-planovane-modernizaci-303054",
