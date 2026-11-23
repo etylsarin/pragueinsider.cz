@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -99,6 +99,13 @@
       "source": "Zdopravy.cz",
       "firstSeen": "2026-10-07",
       "usedInPost": "smichov-terminal-builder-selected"
+    },
+    "0d1518331169d80d": {
+      "url": "https://zdopravy.cz/nastupiste-delsi-o-79-metru-prazske-hlavni-nadrazi-cekaji-upravy-za-176-miliardy-308334",
+      "title": "Nástupiště delší o 79 metrů. Pražské hlavní nádraží čekají úpravy za 1,76 miliardy",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-23",
+      "usedInPost": "main-station-longer-platforms-etcs-2028"
     },
     "1153592f13d75bea": {
       "url": "https://praha10.cz/tz-praha-10-porada-treti-setkani-k-namesti-svatopluka-cecha-podnety-obcanu-pomohou-dopracovat-navrh",
@@ -1436,6 +1443,13 @@
       "source": "Pražská integrovaná doprava (PID)",
       "firstSeen": "2026-08-27",
       "usedInPost": "olsanska-habrova-tram-closure"
+    },
+    "d97186df9199d660": {
+      "url": "https://zdopravy.cz/na-smichov-se-ma-v-prosinci-vratit-zeleznicni-most-hrebik-uz-bez-koleji-307853",
+      "title": "Na Smíchov se má v prosinci vrátit železniční most Hřebík. Už bez kolejí",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-23",
+      "usedInPost": "hrebik-bridge-returns-smichov-cycle-route"
     },
     "db0e42edfcc213ef": {
       "url": "https://zdopravy.cz/pres-tisic-stran-smlouvy-cd-podepsaly-nejvetsi-kontrakt-v-historii-riskuji-bez-vyrobce-vlaku-303505",
