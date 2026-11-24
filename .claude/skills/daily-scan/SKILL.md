@@ -394,7 +394,9 @@ source that used to return items returns zero:
 
 Zero items from a source is often correct rather than broken. `praguemorning`, `expats` and
 `ct24praha` are general news outlets filtered hard against the Prague + built-environment test, and
-`zdopravy` and `archiweb` are national, so quiet days from any of them are normal. Treat a source as
+`zdopravy` and `archiweb` are national, so quiet days from any of them are normal. `archdaily` and
+`dezeen` are read through their Prague tags and carry a few items a month at most, so a week with
+nothing from either is normal too; `stavbaweb` usually has something every week. Treat a source as
 broken when it returns zero *and* its listing URL clearly still has relevant stories on it.
 
 `prahacamp`, `iprpraha` and `dpp` are the three that should rarely be empty for long.

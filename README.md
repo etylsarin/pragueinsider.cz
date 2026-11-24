@@ -75,14 +75,17 @@ ASCII slug per article, so `cs`↔`en` pairing is a prefix swap and hreflang can
 
 ## Sources
 
-Twelve adapters, each written against the site's real markup:
+Sixteen adapters, each written against the site's real markup or feed:
 
 | Source | Method | Prague-only | Built-environment-only |
 |---|---|:---:|:---:|
 | praha.camp (CAMP) | listing scrape (`/magazin`) | ✓ | ✓ |
 | IPR Praha | listing scrape (`/aktuality`) | ✓ | ✓ |
 | Dopravní podnik (DPP) | listing scrape (press releases) | ✓ | ✓ |
-| archiweb.cz | listing scrape (`/n`) — **no RSS**, `/rss` and `/en/rss` both 404 | | ✓ |
+| archiweb.cz | listing scrape (`/n`) — **no RSS**; refusing our bot with HTTP 429 since September 2026 | | ✓ |
+| Stavba | RSS of its own `Praha` tag | ✓ | ✓ |
+| ArchDaily | RSS of its `prague` tag | ✓ | ✓ |
+| Dezeen | RSS of its `prague` tag | ✓ | ✓ |
 | Zdopravy.cz | RSS | | ✓ |
 | ČT24 — Praha | listing scrape (region section) | | |
 | iROZHLAS | Google News **sitemap** — the Praha tag page is 403 to our bot | | |
