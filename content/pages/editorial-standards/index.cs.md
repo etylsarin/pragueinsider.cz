@@ -30,6 +30,8 @@ Každé ráno automatický sken projde veřejné zpravodajské kanály pevně da
 - [IPR Praha](https://iprpraha.cz/) — Institut plánování a rozvoje hl. m. Prahy
 - [Dopravní podnik hl. m. Prahy](https://www.dpp.cz/) — tiskové zprávy městského dopravce
 - [archiweb.cz](https://www.archiweb.cz/) — internetové centrum architektury
+- [Stavba](https://www.stavbaweb.cz/) — časopis o architektuře, výběr článků označených Praha
+- [ArchDaily](https://www.archdaily.com/) a [Dezeen](https://www.dezeen.com/) — zahraniční architektonické servery, pražská témata
 - [Zdopravy.cz](https://zdopravy.cz/) — oborové dopravní zpravodajství
 - [ČT24](https://ct24.ceskatelevize.cz/) — pražská regionální rubrika veřejnoprávní televize
 - [iROZHLAS](https://www.irozhlas.cz/) — zpravodajský server Českého rozhlasu

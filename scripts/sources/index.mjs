@@ -6,6 +6,9 @@ import praguecitytourism from './praguecitytourism.mjs'
 import iprpraha from './iprpraha.mjs'
 import dpp from './dpp.mjs'
 import archiweb from './archiweb.mjs'
+import stavbaweb from './stavbaweb.mjs'
+import archdaily from './archdaily.mjs'
+import dezeen from './dezeen.mjs'
 import zdopravy from './zdopravy.mjs'
 import ct24praha from './ct24praha.mjs'
 import praguemorning from './praguemorning.mjs'
@@ -34,6 +37,9 @@ export const SOURCES = [
   pid, // transit authority — network design, not operations
   zastarouprahu, // heritage watchdog — the one source that argues against things
   archiweb, // Czech architecture news, national
+  stavbaweb, // Czech architecture magazine, through its own Praha tag
+  archdaily, // international architecture, Prague tag — finished buildings
+  dezeen, // international architecture, Prague tag — rare, big-practice projects
   zdopravy, // transport trade press, national
   ct24praha, // public broadcaster, Prague region
   irozhlas, // public broadcaster, national — read through its news sitemap

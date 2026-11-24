@@ -30,6 +30,8 @@ Each morning an automated scan reads the public news channels of a fixed set of 
 - [IPR Praha](https://iprpraha.cz/) — the city's planning institute
 - [Dopravní podnik hl. m. Prahy](https://www.dpp.cz/) — the city transit operator's press office
 - [archiweb.cz](https://www.archiweb.cz/) — the Czech architecture news service
+- [Stavba](https://www.stavbaweb.cz/) — the Czech architecture magazine, through its Prague tag
+- [ArchDaily](https://www.archdaily.com/) and [Dezeen](https://www.dezeen.com/) — international architecture titles, through their Prague tags
 - [Zdopravy.cz](https://zdopravy.cz/) — the Czech transport trade press
 - [ČT24](https://ct24.ceskatelevize.cz/) — the public broadcaster's Prague region section
 - [iROZHLAS](https://www.irozhlas.cz/) — Czech Radio's news service

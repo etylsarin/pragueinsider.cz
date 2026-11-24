@@ -34,7 +34,7 @@ const PRAGUE_PLACES = [
   'kunratic', 'libus', 'stvanic', 'rohan', 'masarykovo nadrazi', 'hlavni nadrazi',
   'smichovske nadrazi', 'nakladove nadrazi', 'florenc', 'vaclavske namesti', 'staromestsk',
   'malostransk', 'invalidovna', 'palmovka', 'cerny most', 'opatov', 'roztyly', 'budejovick',
-  'dvorecky most', 'letna', 'petrin', 'kampa', 'cakovic', 'kbely', 'dablic', 'satalic',
+  'dvorecky most', 'letna', 'petrin', 'cakovic', 'kbely', 'dablic', 'satalic',
   'reporyje', 'radotin', 'chuchl', 'lipenc', 'sterboholy', 'dubec', 'kolovraty',
   'vyton', 'zbraslav', 'hostivar', 'jarov', 'sporilov', 'krc', 'lhotka', 'kamyk',
   'cerny most', 'letnany', 'vinoklasy', 'hlubocepy', 'velka chuchl', 'trojsk',
@@ -44,6 +44,20 @@ const PRAGUE_PLACES = [
   // needed and neither may be shortened to 'hodkovic': that also matches Hodkovice nad Mohelkou
   // in the Liberec region.
   'hodkovick', 'hodkovicek',
+  // The same failure, found across the rest of the list in November 2026. Each nominative above
+  // missed its own declension: Stavba's "Proměna budovy v Nuslích" and "Nové sousedství na
+  // Palmovce připomíná historickou strukturu Libně" both named their district in the headline
+  // and both were dropped. Where the shared stem is a common word or a surname — 'kamp' is
+  // kampaň, 'michl' is a central-bank governor, 'kbel' is a bucket, 'letn' is summer — the
+  // declined form is spelt out whole instead. Kampa had the opposite fault: 'kampa' matched
+  // "kampaň", so any national headline about a campaign counted as Prague. Nové and Staré Město
+  // stay nominative only, because both are also towns elsewhere and their declensions would
+  // widen that ambiguity rather than fix a miss.
+  'nusl', 'nuselsk', 'palmovk', 'palmovc', 'libn', 'na letne', 'letensk', 'invalidovn',
+  'cernem moste', 'cerneho mostu', 'v troji', 'kampa ', 'na kampe', 'kampy', 'kampou',
+  'kbelich', 'kbelsk', 'bubnech', 'bubenc', 'v michli', 'michelsk', 'kosir', 'reporyj',
+  'sterbohol', 'kolovrat', 'roztyl', 'dvoreck', 'male strane', 'male strany',
+  'masarykova nadrazi', 'vaclavskem namesti', 'vaclavskeho namesti',
 ]
 
 /**
