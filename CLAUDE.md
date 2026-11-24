@@ -53,6 +53,11 @@ correctness bug, not a style choice.
   daily-scan skill.
 - **Nothing is written that the sources do not say.** Analysis is fine and encouraged; invented
   figures, dates and quotations are not.
+- **Lasting change, and only what matters.** A story is a decision, a commitment, a construction
+  start or finish, something opened or closed for good. An accident, a breakdown or a temporary
+  closure is not a story however prominent it is; the decision it leads to may be. At most three
+  articles a day, and a day with none is a correct outcome, not a gap. The working detail is under
+  `### The bar` in the daily-scan skill.
 
 ## Where things are decided
 
@@ -83,13 +88,15 @@ correctness bug, not a style choice.
   count, so the pins left are the work. Read after mount rather than from Gatsby's `location`
   during render, because the card grid is server-rendered for crawlers and a query string the
   server cannot see would make the first client render disagree with the markup it is hydrating.
-- **Which stories share a front page** — `scripts/release.mjs`. It takes the oldest queued
-  articles, but will not put three from one desk on one day while another desk is waiting. That is
-  the counterweight to a source list where Zdopravy, DPP and PID are transport-only and prolific:
-  taking the plain oldest three ran transport at over half the archive. It reorders within a day
-  and never across one, so nothing starves — an article passed over is still the oldest tomorrow.
-  The bar itself is untouched; the desk-mix guidance that belongs to editorial judgement is in the
-  daily-scan skill.
+- **Which stories share a front page** — `scripts/release.mjs`. The oldest queued articles, at
+  most three a day and never two from one desk. That is the counterweight to a source list where
+  Zdopravy, DPP and PID are transport-only and prolific. It used to be only a preference (not three
+  from one desk while another waited), and a preference does nothing when the queue is empty,
+  which it usually is: everything written went out the same morning, and transport ran at fifteen
+  of nineteen articles in November 2026. An article held back is still its desk's oldest tomorrow,
+  so nothing starves. The other half is editorial and lives in the daily-scan skill: the desk
+  writes at most one transport story a day, so the transport surplus waits in the digest, where it
+  is weighed again tomorrow, instead of in a queue that would release one every day.
 
 ## Gotchas
 

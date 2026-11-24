@@ -40,59 +40,87 @@ yours, and it is the main thing you are here to do.
 
 ### The bar
 
-Ask of each candidate: **has something changed, or is something merely being described?**
+Prague Insider reports **lasting change to the city, and only the part of it that matters.** Ask
+two things of each candidate. Publish only when the answer to both is yes.
 
-Publish when a decision is taken, money is committed, a contract signed, construction starts or
-finishes, a plan clears a stage, something opens or closes, or someone formally objects. Those
-change what gets built, where, or how people move.
+**Is it permanent?** A decision taken, money committed, a contract signed, construction started or
+finished, a plan clearing a stage, something opened or closed for good, a formal objection that can
+stop a scheme. Each of these changes what gets built, where, or how people move, and is still true
+a year later.
 
-A second test catches most of what survives the first: **would this still be worth reading in a
-month?** A tram contract signed, a station closure extended by three months, a park design chosen —
-yes. A works diversion for one week, a magazine issue, a programme of events — no.
+**Does it matter?** Would a reader in another district care, and would anyone still want to read it
+in a year? A tram line extended, a park design chosen, a listed building cleared for demolition:
+yes. A pavement resurfaced, a bus stop moved, one extra weekend service: no.
+
+These are not news here, however much space they get elsewhere:
+
+- **Accidents and incidents.** Collisions, derailments, fires, a lorry wedged under a viaduct, a
+  ceiling coming down, a burst sewer, an outage. They happen *in* the built environment; they do
+  not change it. `krc-videnska-bridge-damaged` (October 2026) and
+  `main-station-train-collision-no-etcs` (November 2026) were both published and should not have
+  been. What an incident leads to can be a story. Six days after the collision, Správa železnic
+  approved CZK 1.76bn for ETCS and longer platforms at the main station, and that was worth
+  writing. Write the decision when it comes, and give the incident a paragraph of context in it.
+- **Temporary disruption**, however long it lasts: closures, diversions, traffic measures,
+  replacement buses, works notices, trial operation. A seven-month closure exists because
+  something is being built. Write about the thing being built, when its construction starts, and
+  put the closure in that article.
+- **Seasonal, promotional and events.** Christmas trams, safety campaigns, open days, exhibitions,
+  lectures, timetable leaflets.
+- **Operator business.** A coach company joining the airport route, a private carrier's fares or
+  ticket sales, an airline's routes. The city's own fare and tariff decisions are policy, and do
+  count.
+- **People.** Appointments, resignations, a borough electing its council. Write about them only
+  when the story is a decision they took.
+- **Progress notes.** A first unit delivered, a halfway mark, a site visit, when nothing has been
+  decided since the last story.
+
+Among the candidates that clear the bar:
 
 - **Prefer** a cluster with `sourceCount > 1`. Two outlets on one story means you can cross-check.
 - **Prefer** the contested over the announced. Where a scheme is objected to, that is usually the
   better story, and it is the one nobody else is assembling.
-- **Skip** progress notes where nothing has been decided since last time.
 - **Skip** anything you cannot source properly in step 3.
 
 ### How many
 
-**There is no cap on writing.** Write every story that clears the bar — six on a good day, one on a
-thin one, none if nothing qualifies. Publication is rate-limited separately, by
-`scripts/release.mjs`, so a strong Monday is banked rather than discarded.
+**Three a day is a ceiling, not a target.** One is a normal day, and so is none. A day with nothing
+in it is better than a day carrying a story that did not clear the bar. Never write a story to give
+the day something, and never lower the bar because the queue is empty.
 
-This matters because a skipped story is skipped permanently: `mark-covered.mjs` records its sources
-as covered whether or not you wrote it, so it never returns to a later digest. Anything you judge
-worth publishing, write now.
+When more than three stories clear the bar, write them all. `scripts/release.mjs` publishes at most
+three a day and the rest wait in `content/queue/`, so a strong Monday is banked for a quiet Thursday
+rather than discarded. Transport is the exception; see below.
 
-Do not pad to fill the queue either. The bar is the only test; the queue simply means clearing it
-is never wasted.
+**When you are unsure, leave it.** A story you do not write is not lost. `mark-covered.mjs` marks
+only the sources an article cites, so everything else returns in tomorrow's digest for as long as
+it is inside the 21-day window. If it still looks like a story tomorrow, or a second outlet has
+picked it up, or a decision has followed, write it then.
 
-### Watch the desk mix
+### Transport: one a day
 
-The scan cannot help leaning transport. Of the registered sources, Zdopravy, DPP and PID file
-nothing else and file a lot of it, so the candidate list arrives with transport on most of the
-lines — and the relevance score tags anything transport-adjacent the same way, which puts open
-days, timetable leaflets, safety campaigns and airline business under `transport` alongside real
-stories. Left alone this compounds: transport has run at well over half of everything published,
-against roughly one in seven for development and one in twenty for planning.
+The scan leans transport and always will. Of the registered sources, Zdopravy, DPP and PID file
+nothing else, and they file more than all the others together. The relevance score also tags
+anything transport-adjacent the same way. With only the bar to hold it back, transport ran at
+fifteen of the nineteen articles published in November 2026, and at well over half the archive.
 
-**The bar does not move for this.** Do not write a thin planning story to even the numbers, and do
-not spike a good transport story because transport is over-represented. Two things instead:
+So **write at most one transport story a day**, and none if one is already waiting in the queue.
+When two clear the bar, write the stronger and leave the other in the digest. It will be there
+tomorrow, to be weighed against tomorrow's candidates. Do not bank transport in the queue the way
+you would the other desks. The transport wire never runs dry, so a transport backlog would only
+mean one goes out every day whatever happened. `release.mjs` enforces the publishing side: never
+two articles from one desk on one day.
 
-- **Hold the transport wire to the same bar as everything else.** Most of what makes the list from
-  those three sources is not a story by the tests above — an open day is an event, a timetable
-  leaflet is a notice, a safety campaign is not the built environment. The imbalance is fed as much
-  by transport items being waved through as by there being more of them.
-- **Read the whole list before writing any of it.** A good development or public-space candidate
-  sits low in the digest because the score ranks relevance, not worth; the transport items at the
-  top are not there because they are better. When you have written three transport pieces and a
-  planning candidate is still unread, read it before deciding the day is done.
+The rest of the effort goes into the other desks:
 
-`release.mjs` does the rest. It will not put three articles from one desk on a front page while
-another desk waits in the queue, so a transport-heavy morning spreads itself over several days
-rather than burying everything else.
+- **Hold the transport wire to the bar strictly.** Most of what those three sources file is a
+  closure, a diversion, an incident, a campaign, a notice or operator business, and none of it
+  qualifies.
+- **Read the whole list before writing any of it.** The score ranks relevance, not worth, so the
+  transport items at the top of the digest are not there because they are better. Read the
+  development, planning, public-space and architecture candidates first, wherever they sit.
+- **The bar does not drop for the other desks either.** A thin planning story does not fix a
+  transport-heavy day. An empty day does.
 
 ### Press offices: what they are doing vs. what they are saying about themselves
 
@@ -101,7 +129,7 @@ precisely because they announce things first. Do not discount them as a class. T
 
 | Publish | Skip |
 |---|---|
-| What the institution is doing **to the city** — a metro station design competition, a tram track closure, a fleet tender, a plan milestone, a construction start | What the institution is saying **about itself** — awards, ISO audits, office relocations, opening hours, staff notices, depot beekeeping |
+| What the institution is doing **to the city** — a metro station design competition, a tram line extension, a fleet tender, a plan milestone, a construction start | What the institution is saying **about itself** — awards, ISO audits, office relocations, opening hours, staff notices, depot beekeeping |
 
 A press release is a primary source, not a disqualification. Where the announcement is the news,
 write it and attribute it plainly ("DPP says…"). Where a developer is promoting its own building,
@@ -111,7 +139,7 @@ developer.
 ### District councils
 
 The městské části are in the scan for the occasional story the citywide press misses — a scheme
-becoming concrete, a formal objection lodged, a participation meeting called, a dispute over a
+becoming concrete, a formal objection lodged, a plan put out for consultation, a dispute over a
 landmark building. Praha 8 asking what happens to the concrete plant on Rohanský ostrov, or filing
 against the Dolní Chabry bypass, is exactly why they are there.
 
@@ -315,15 +343,18 @@ at but did not write stay in the digest until they age out — that is intended,
 node scripts/release.mjs
 ```
 
-Moves the **oldest** queued articles into `content/posts/`, up to three a day, stamping each with
-today's date. Oldest first, so nothing written on a busy Monday is starved by a busier Tuesday.
+Moves the **oldest** queued articles into `content/posts/`, stamping each with today's date: at
+most three a day, and never two from one desk. Oldest first, so nothing written on a busy Monday is
+starved by a busier Tuesday. An article held back because its desk already has one today is still
+the oldest of its desk tomorrow.
 
 An article queued more than fourteen days ago is held back and reported rather than released — by
 then it may have been overtaken. If you see that in the output, check whether the story still
 stands; if it does not, delete it from the queue and say so in the log.
 
-Run this every day, including days you wrote nothing. That is the point of the queue: a quiet
-morning still publishes, from what a busy one banked.
+Run this every day, including days you wrote nothing, so a quiet morning still publishes what a
+busy one banked. When the queue is empty it releases nothing. That is a correct outcome, not a gap
+to fill.
 
 ## 7. Validate and build — both must pass
 
@@ -370,8 +401,10 @@ human.
 
 ## Guard rails
 
-- **No cap on writing; three released per day.** Write everything that clears the bar into the
-  queue and let `release.mjs` meter it out.
+- **Lasting change only.** No accidents, incidents or temporary disruption, however prominent.
+- **At most three released a day, never two from one desk, and none is fine.** Write everything
+  that clears the bar into the queue and let `release.mjs` meter it out. The one exception is
+  transport: write at most one transport story a day.
 - **Never overwrite an existing post directory.** If the slug exists, the story is already covered
    — pick another or add a distinguishing word to the slug.
 - **Never commit with validation or build failing.**

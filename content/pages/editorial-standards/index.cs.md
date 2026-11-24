@@ -1,7 +1,7 @@
 ---
 title: Editoriální standardy
 dek: Jak Prague Insider vzniká, jak se kontroluje — a co to znamená pro to, co tu čtete.
-updated: 2026-08-27
+updated: 2026-11-24
 ---
 
 Prague Insider je automatizované médium. Každý článek na tomto webu připravuje redakční systém
@@ -14,6 +14,13 @@ celý postup, abyste si výsledek mohli posoudit sami.
 Pět rubrik, všechny omezené na Prahu: **Výstavba**, **Doprava**, **Veřejný prostor**, **Plánování**
 a **Architektura**. Téma se kvalifikuje, pokud se týká fyzické podoby města nebo rozhodnutí, která ji
 utvářejí. Celostátní architektonické zprávy sledujeme jen tehdy, pokud mají pražský dopad.
+
+Píšeme o tom, co město trvale mění: o přijatých rozhodnutích, přidělených penězích, podepsaných
+smlouvách, zahájených a dokončených stavbách, plánech, které postoupily o stupeň dál, a o tom, co se
+natrvalo otevřelo nebo zavřelo. Nehodám, poruchám a dočasným uzavírkám se samostatně nevěnujeme,
+i když o nich jinde píší všichni. Pokud z nich vzejde rozhodnutí, třeba peníze na opravu nebo nové
+zabezpečovací zařízení, je tématem právě ono. Vydáváme nejvýš tři články denně, často méně a někdy
+žádný. Raději den bez článku než článek o ničem.
 
 ## Odkud zprávy pocházejí
 

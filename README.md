@@ -30,10 +30,11 @@ npm run build          # must pass before committing
 ```
 
 **Writing and publishing are separate.** The desk writes every story that clears the editorial bar
-into `content/queue/`; `release.mjs` moves the oldest three a day into `content/posts/` and stamps
-the date. A six-story Monday is banked rather than discarded — which matters because
-`mark-covered.mjs` records a story's sources as covered whether or not it was written, so anything
-skipped is skipped for good.
+into `content/queue/`. `release.mjs` moves the oldest into `content/posts/` and stamps the date: at
+most three a day, never two from one desk, and none when nothing is queued. A strong Monday is
+banked rather than discarded. A story the desk passes over is not lost either: `mark-covered.mjs`
+marks only the sources an article cites, so everything else comes back in the next day's digest
+until it ages out of the scan window.
 
 The desk step is driven by [`.claude/skills/daily-scan/SKILL.md`](.claude/skills/daily-scan/SKILL.md),
 so a scheduled cloud agent and a local `/daily-scan` run identical instructions.
