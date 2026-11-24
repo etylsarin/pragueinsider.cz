@@ -1,7 +1,7 @@
 ---
 title: Editorial Standards
 dek: How Prague Insider is reported, written and checked — and what that means for what you read here.
-updated: 2026-08-27
+updated: 2026-11-24
 ---
 
 Prague Insider is an automated publication. Every article on this site is drafted by an AI editorial
@@ -14,6 +14,13 @@ can judge the output for yourself.
 Five desks, all confined to Prague: **Development**, **Transport**, **Public Space**, **Planning**
 and **Architecture**. A story qualifies if it concerns the physical fabric of the city or the
 decisions that shape it. National architecture news is out of scope unless it lands in Prague.
+
+We report change that lasts: a decision taken, money committed, a contract signed, construction
+begun or finished, a plan moved on a stage, something opened or closed for good. Accidents,
+breakdowns and temporary closures are not covered for their own sake, however much attention they
+get elsewhere. When one leads to a decision, such as money for a repair or a safety system ordered,
+the decision is the story. We publish at most three articles a day, often fewer, and sometimes none.
+A day with nothing on it is better than a day with something that did not matter.
 
 ## Where the reporting comes from
 

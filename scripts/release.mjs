@@ -4,7 +4,8 @@
  *
  * The desk writes every story that clears the editorial bar into content/queue/, without a
  * publication date. This script moves the oldest of them into content/posts/ and stamps today's
- * date, up to a daily maximum.
+ * date: at most three a day, and never two from the same desk. Three is a ceiling, not a target —
+ * an empty queue releases nothing, and that is a correct outcome rather than a gap to fill.
  *
  * Separating the two means a good Monday is not wasted. Writing was previously capped at four a
  * day, so a fifth and sixth story were simply dropped — and dropped permanently, because
@@ -128,32 +129,20 @@ async function main() {
   }
 
   /**
-   * Oldest first, but not three from one desk while another waits.
+   * Oldest first, and never two from one desk on one day.
    *
    * The scan cannot help being transport-heavy: of the registered sources, Zdopravy, DPP and PID
-   * are transport and nothing else, and they file more than anybody. Taking the oldest three each
-   * morning turned that supply straight into the archive — transport ran at well over half of
-   * everything published. This does not touch the bar, and it does not promote a weaker story over
-   * a better one: every article here already cleared the bar on the day it was written. It only
-   * decides which of them share a front page, by preferring a desk that is not on it yet.
+   * are transport and nothing else, and they file more than anybody. This used to be a preference
+   * — not three from one desk while another desk waited in the queue — and a preference does
+   * nothing when the queue is empty, which it usually is. Everything written was released the same
+   * morning, and transport ran at fifteen of the nineteen articles published in November 2026.
    *
-   * Nothing starves, because this reorders within a day and never across one: an article passed
-   * over today is still the oldest tomorrow, and `STALE_AFTER_DAYS` still catches anything that
-   * waits too long.
+   * A hard limit holds whatever the desk wrote. An article held back by it is still the oldest of
+   * its desk tomorrow, so nothing starves, and `STALE_AFTER_DAYS` catches anything that waits too
+   * long. The daily-scan skill writes at most one transport story a day for the same reason, so in
+   * practice it is the other desks' surplus that waits here, and that is rare.
    */
-  const order = (pool) => {
-    const remaining = [...pool]
-    const picked = []
-    const desks = new Set(desksToday)
-    while (remaining.length) {
-      let i = remaining.findIndex((entry) => !desks.has(entry.category))
-      if (i === -1) i = 0
-      const [entry] = remaining.splice(i, 1)
-      desks.add(entry.category)
-      picked.push(entry)
-    }
-    return picked
-  }
+  const desks = new Set(desksToday)
 
   const fresh = []
   for (const entry of entries) {
@@ -166,8 +155,13 @@ async function main() {
 
   let released = 0
 
-  for (const entry of order(fresh)) {
+  for (const entry of fresh) {
     if (released >= budget) break
+
+    if (desks.has(entry.category)) {
+      console.log(`  · ${entry.slug}: ${entry.category} already has an article today — stays queued`)
+      continue
+    }
 
     const from = path.join(QUEUE_DIR, entry.slug)
     const to = path.join(POSTS_DIR, `${release}-${entry.slug}`)
@@ -199,6 +193,7 @@ async function main() {
       `  → ${entry.slug} (${entry.category}, queued ${entry.queuedAt})` +
         (assets.length ? ` + ${assets.length} asset(s): ${assets.join(', ')}` : '')
     )
+    desks.add(entry.category)
     released += 1
     if (dryRun) continue
 
