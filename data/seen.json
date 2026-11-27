@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "entries": {
     "0048a9286f123fef": {
       "url": "https://www.praha5.cz/pozor-na-vyluku-v-nadrazni",
@@ -246,6 +246,13 @@
       "source": "Pražská integrovaná doprava (PID)",
       "firstSeen": "2026-09-01",
       "usedInPost": "metro-d-station-names-approved"
+    },
+    "213374f1d6aff254": {
+      "url": "https://zdopravy.cz/soud-zrusil-zakaz-objizdeni-kolony-na-prijezdu-do-prahy-jednosmerka-musi-hned-skoncit-306618",
+      "title": "Soud zrušil zákaz objíždění kolony na příjezdu do Prahy. Jednosměrka musí hned skončit",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-27",
+      "usedInPost": "na-krutci-one-way-supreme-court"
     },
     "21345ddecf0a5a41": {
       "url": "https://zdopravy.cz/do-polska-odjela-z-prahy-pilotni-tramvaj-15t-na-doklimatizovani-po-navratu-ji-ceka-homologace-301643",
@@ -1240,6 +1247,13 @@
       "source": "Městská část Praha 10",
       "firstSeen": "2026-10-01",
       "usedInPost": "svatopluka-cecha-parking-split"
+    },
+    "b5fec7e00a53ab6a": {
+      "url": "https://zdopravy.cz/chceme-jasna-pravidla-pro-objizdece-kolon-praha-6-se-brani-soudnimu-zruseni-jednosmerky-308699",
+      "title": "Chceme jasná pravidla pro objížděče kolon. Praha 6 se brání soudnímu zrušení jednosměrky",
+      "source": "Zdopravy.cz",
+      "firstSeen": "2026-11-27",
+      "usedInPost": "na-krutci-one-way-supreme-court"
     },
     "b60fe4ce3489875a": {
       "url": "https://zdopravy.cz/boj-o-udrzeni-provozu-na-vytonskem-mostu-zacina-oblepovani-uhlikovymi-lamelami-298497",

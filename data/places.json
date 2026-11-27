@@ -484,6 +484,13 @@
       "district": "Praha 6",
       "osm": "Na Kocínce, Baba, Praha 6, obvod Praha 6, Praha, 166 29, Česko"
     },
+    "na krutci": {
+      "name": "Na Krutci",
+      "lat": 50.10055,
+      "lng": 14.34914,
+      "district": "Praha 6 – Vokovice",
+      "osm": "Na Krutci, Vokovice, Praha 6, obvod Praha 6, Praha, 162 00, Česko"
+    },
     "na vysoke": {
       "name": "Na Vysoké",
       "lat": 50.01235,
